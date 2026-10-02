@@ -72,6 +72,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "74wn9faGbQWa93",
+    "name": "Beitostølen Ski Resort",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/FtIu4-7VYMs"
+      ]
+    },
+    "languages": [],
+    "country": "no",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "fKvy4uNvmKqCyT",
     "name": "Bergseng & Grytøya",
     "sources": {
@@ -161,18 +173,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/wAdTV6Uc5eA"
-      ]
-    },
-    "languages": [],
-    "country": "no",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Ked285XQuSEr7T",
-    "name": "Hafjell Alpinsenter",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/BADzwd9b0RU"
       ]
     },
     "languages": [],
@@ -485,6 +485,30 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/xYqhMHETOgI"
+      ]
+    },
+    "languages": [],
+    "country": "no",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "BKp4GZ7o2fh31F",
+    "name": "Oslo Marka",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/1901VSSXcHY"
+      ]
+    },
+    "languages": [],
+    "country": "no",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "fATI7bJtUICPZi",
+    "name": "Oslo Winter Park",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/qyeyVNulaiU"
       ]
     },
     "languages": [],

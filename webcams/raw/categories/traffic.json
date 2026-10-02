@@ -220,7 +220,7 @@
     "name": "Avenida 5 de Febrero",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/RpmfSMwK2p8"
+        "https://www.youtube-nocookie.com/embed/k5wkyi9vZGo"
       ]
     },
     "languages": [],
@@ -352,7 +352,7 @@
     "name": "Biloxi Beach Boulevard",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/uC8YxKcTeKM"
+        "https://www.youtube-nocookie.com/embed/Rea_GEBq1hU"
       ]
     },
     "languages": [],
@@ -424,7 +424,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ulEsIYzV_cE"
+        "https://www.youtube-nocookie.com/embed/PxiEi-DsJWs"
       ]
     },
     "languages": [],
@@ -1308,18 +1308,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "tD25ygMGcluX7q",
-    "name": "Khao Lak",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/PPBdDyWA8LU"
-      ]
-    },
-    "languages": [],
-    "country": "th",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "32IJwTsj6C25nI",
     "name": "Kodim Gunungkidul Traffic",
     "sources": {
@@ -1336,7 +1324,7 @@
     "name": "Kohoku Parking Area on the Tomei Expressway",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ieIbfOc_GkA"
+        "https://www.youtube-nocookie.com/embed/pawJL_P0_VI"
       ]
     },
     "languages": [],
@@ -1920,18 +1908,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "J19EayZL2NW0wc",
-    "name": "Ocho Rios Town Centre",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/DUX3qXG-SYg"
-      ]
-    },
-    "languages": [],
-    "country": "jm",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "k55Fax1rJW0pBw",
     "name": "Ōjana Intersection on Route 58",
     "sources": {
@@ -2196,6 +2172,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "G5hzD2NeP1JaLJ",
+    "name": "Piedras Negras Cam 2",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/7e_TKxwtcrY"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "NyQH6IuCrxqwcQ",
     "name": "Port Everglades Cargo Terminal Traffic",
     "sources": {
@@ -2249,6 +2237,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/d8MjS53ncyw"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "sPSEtyUMx2GPGu",
+    "name": "Puente Internacional 2 Piedras Negras-Eagle Pass",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/JAo4Fgwrdk4"
       ]
     },
     "languages": [],
@@ -2668,7 +2668,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/QuRjQhltvgs"
+        "https://www.youtube-nocookie.com/embed/76crHS1ddKQ"
       ]
     },
     "languages": [],
@@ -2940,6 +2940,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "YqxP3tkFxOr5Qk",
+    "name": "Sturgis Lazelle Street",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Ir7PRptC27w"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "GhtT1MpYdYk0qQ",
     "name": "Sukhumvit Road Intersection at Soi 19",
     "sources": {
@@ -2968,7 +2980,7 @@
     "name": "Sunny Isles Beach Intracoastal",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/JkmYkiklnMc"
+        "https://www.youtube-nocookie.com/embed/NJOmMUrsP6w"
       ]
     },
     "languages": [],
@@ -3081,6 +3093,18 @@
     },
     "languages": [],
     "country": "de",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "vFAA743kAkL7N2",
+    "name": "Tobalaba Financial District",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/ErUOGtBXhgY"
+      ]
+    },
+    "languages": [],
+    "country": "cl",
     "isGeoBlocked": false
   },
   {
@@ -3592,7 +3616,7 @@
     "name": "Zlín Gahurova Street",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/U9USAqu5b_g"
+        "https://www.youtube-nocookie.com/embed/bL_NrPuULQQ"
       ]
     },
     "languages": [],

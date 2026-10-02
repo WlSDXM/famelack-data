@@ -228,18 +228,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Z5SkDlbL7rk5OI",
-    "name": "Arraial do Cabo",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/vkTMAHWAj28"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "XDbmQmXBmXW8TV",
     "name": "Arroio do Silva Beach",
     "sources": {
@@ -616,7 +604,7 @@
     "name": "Biloxi Beach Boulevard",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/uC8YxKcTeKM"
+        "https://www.youtube-nocookie.com/embed/Rea_GEBq1hU"
       ]
     },
     "languages": [],
@@ -1804,7 +1792,7 @@
     "name": "Evanston Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/epqIYGAgPnE"
+        "https://www.youtube-nocookie.com/embed/d4SR0VQaSI0"
       ]
     },
     "languages": [],
@@ -2092,7 +2080,7 @@
     "name": "Georgica Jetty",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-EYS0mfIO84"
+        "https://www.youtube-nocookie.com/embed/FNIJbQ1s8b4"
       ]
     },
     "languages": [],
@@ -2373,6 +2361,18 @@
     },
     "languages": [],
     "country": "be",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ipbnDCCjbj69H6",
+    "name": "Higgins Beach",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/cpdhaNUUge0"
+      ]
+    },
+    "languages": [],
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -2952,18 +2952,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "1i9bjh7d4MQBxr",
-    "name": "La Concha Beach, San Sebastián",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/B2yCp7MFCMM"
-      ]
-    },
-    "languages": [],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Nm31DY2j8oYOVO",
     "name": "La Mata Beach",
     "sources": {
@@ -3088,7 +3076,7 @@
     "name": "Le Morne",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/996Zv1eK1lA"
+        "https://www.youtube-nocookie.com/embed/8D5fY5804eE"
       ]
     },
     "languages": [],
@@ -3436,7 +3424,7 @@
     "name": "Maho Beach Plane Spotting",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/PWrIP1EexHc"
+        "https://www.youtube-nocookie.com/embed/NmAVzD1wg38"
       ]
     },
     "languages": [],
@@ -3969,6 +3957,18 @@
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "tq3h3PKDZVY1uq",
+    "name": "Nuevo Vallarta Panorama",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/ik2vJBU1Se8"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
     "isGeoBlocked": false
   },
   {
@@ -4672,7 +4672,7 @@
     "name": "Playa de Las Canteras",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ze-M308e4-c"
+        "https://www.youtube-nocookie.com/embed/WC3cxTsKQCQ"
       ]
     },
     "languages": [],
@@ -5056,7 +5056,7 @@
     "name": "Puente Gral Belgrano",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/R6hljlcLqSI"
+        "https://www.youtube-nocookie.com/embed/0slml84lKZU"
       ]
     },
     "languages": [],
@@ -5080,7 +5080,7 @@
     "name": "Punta Cancún Beach Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-Pmunlgg2TM"
+        "https://www.youtube-nocookie.com/embed/QneynPTSOao"
       ]
     },
     "languages": [],
@@ -5844,18 +5844,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "9sdMiAuKf7x83f",
-    "name": "Seal Island Puffin Loafing Ledge",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/daFe_ygulPY"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "t3c1gCD7jG1961",
     "name": "Seals at North Lighthouse",
     "sources": {
@@ -6309,18 +6297,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "k471fMp0B3PwjZ",
-    "name": "Spotlight Germany Webcam Tour",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/aYtgGjMDagw"
-      ]
-    },
-    "languages": [],
-    "country": "de",
     "isGeoBlocked": false
   },
   {
@@ -7264,7 +7240,7 @@
     "name": "West Kirby Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/iVqhMRarQVg"
+        "https://www.youtube-nocookie.com/embed/_dkUFXnGJBU"
       ]
     },
     "languages": [],

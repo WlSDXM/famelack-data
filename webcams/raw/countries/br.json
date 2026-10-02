@@ -1,17 +1,5 @@
 [
   {
-    "nanoid": "5kW4amB2IfzWDF",
-    "name": "Aeroporto de Navegantes",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/_2Xfl3L4TOw"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "752s78UcOxKNtu",
     "name": "Afogados da Ingazeira",
     "sources": {
@@ -41,18 +29,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/wSVcjl0edvM"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Z5SkDlbL7rk5OI",
-    "name": "Arraial do Cabo",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/vkTMAHWAj28"
       ]
     },
     "languages": [],
@@ -304,7 +280,7 @@
     "name": "Congonhas Airport Camera 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/h1S8GbDU1mo"
+        "https://www.youtube-nocookie.com/embed/iEqKzeFf9fY"
       ]
     },
     "languages": [],
@@ -316,7 +292,7 @@
     "name": "Congonhas Airport Camera 3",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/fVmEpWpNtS8"
+        "https://www.youtube-nocookie.com/embed/OISIJVqpOVs"
       ]
     },
     "languages": [],
@@ -424,7 +400,7 @@
     "name": "Galeão International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/UG0SucimQkg"
+        "https://www.youtube-nocookie.com/embed/FyKRMcdKMZk"
       ]
     },
     "languages": [],
@@ -496,7 +472,7 @@
     "name": "Guarulhos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/piDRSFyS7zc"
+        "https://www.youtube-nocookie.com/embed/ai6N9q4UFzI"
       ]
     },
     "languages": [],
@@ -508,7 +484,7 @@
     "name": "Guarulhos International Airport Runway 10L",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/AVia297AeuQ"
+        "https://www.youtube-nocookie.com/embed/D0dNTuVm0uU"
       ]
     },
     "languages": [],
@@ -520,7 +496,7 @@
     "name": "Guarulhos International Airport Runway 10R",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ptwf98hbhQw"
+        "https://www.youtube-nocookie.com/embed/5aZ_6UnkHQA"
       ]
     },
     "languages": [],
@@ -532,7 +508,7 @@
     "name": "Guarulhos International Airport Runway 28",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/w3R1wxHFtM8"
+        "https://www.youtube-nocookie.com/embed/6BxusAorY9c"
       ]
     },
     "languages": [],
@@ -888,6 +864,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "5qC9hjLUPly6Fc",
+    "name": "Santos Dumont Airport",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/wUpw1iCs-7Q"
+      ]
+    },
+    "languages": [],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "955liPMgkI1kNA",
     "name": "Santos Gonzaga Beach and Canal 2",
     "sources": {
@@ -988,7 +976,7 @@
     "name": "Viracopos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/QMD4n2E-Q8s"
+        "https://www.youtube-nocookie.com/embed/78eh097sevQ"
       ]
     },
     "languages": [],

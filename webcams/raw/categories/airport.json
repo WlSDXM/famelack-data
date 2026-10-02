@@ -12,18 +12,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "5kW4amB2IfzWDF",
-    "name": "Aeroporto de Navegantes",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/_2Xfl3L4TOw"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Jb7iDsQvcXwrte",
     "name": "Afton Municipal Airport",
     "sources": {
@@ -256,7 +244,7 @@
     "name": "Congonhas Airport Camera 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/h1S8GbDU1mo"
+        "https://www.youtube-nocookie.com/embed/iEqKzeFf9fY"
       ]
     },
     "languages": [],
@@ -268,23 +256,11 @@
     "name": "Congonhas Airport Camera 3",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/fVmEpWpNtS8"
+        "https://www.youtube-nocookie.com/embed/OISIJVqpOVs"
       ]
     },
     "languages": [],
     "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "fiGA4pm1iRbi18",
-    "name": "Creve Coeur Airport",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/LC-tHCa__sE"
-      ]
-    },
-    "languages": [],
-    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -309,18 +285,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "0KsydDsZ6VXIFd",
-    "name": "Freiburg Airport",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ODhwkWI-EQI"
-      ]
-    },
-    "languages": [],
-    "country": "de",
     "isGeoBlocked": false
   },
   {
@@ -364,7 +328,7 @@
     "name": "Galeão International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/UG0SucimQkg"
+        "https://www.youtube-nocookie.com/embed/FyKRMcdKMZk"
       ]
     },
     "languages": [],
@@ -400,7 +364,7 @@
     "name": "Guarulhos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/piDRSFyS7zc"
+        "https://www.youtube-nocookie.com/embed/ai6N9q4UFzI"
       ]
     },
     "languages": [],
@@ -412,7 +376,7 @@
     "name": "Guarulhos International Airport Runway 10L",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/AVia297AeuQ"
+        "https://www.youtube-nocookie.com/embed/D0dNTuVm0uU"
       ]
     },
     "languages": [],
@@ -424,7 +388,7 @@
     "name": "Guarulhos International Airport Runway 10R",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ptwf98hbhQw"
+        "https://www.youtube-nocookie.com/embed/5aZ_6UnkHQA"
       ]
     },
     "languages": [],
@@ -436,7 +400,7 @@
     "name": "Guarulhos International Airport Runway 28",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/w3R1wxHFtM8"
+        "https://www.youtube-nocookie.com/embed/6BxusAorY9c"
       ]
     },
     "languages": [],
@@ -724,7 +688,7 @@
     "name": "LAX Airport Arrivals",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Wh_8j5JYdEQ"
+        "https://www.youtube-nocookie.com/embed/1CCgHf-vIeU"
       ]
     },
     "languages": [],
@@ -772,7 +736,7 @@
     "name": "London Heathrow Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/vVJTkzw7cmM"
+        "https://www.youtube-nocookie.com/embed/TJXBqKpbvDU"
       ]
     },
     "languages": [],
@@ -856,7 +820,7 @@
     "name": "Maho Beach Plane Spotting",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/PWrIP1EexHc"
+        "https://www.youtube-nocookie.com/embed/NmAVzD1wg38"
       ]
     },
     "languages": [],
@@ -1260,6 +1224,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "5qC9hjLUPly6Fc",
+    "name": "Santos Dumont Airport",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/wUpw1iCs-7Q"
+      ]
+    },
+    "languages": [],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Z7Ch5XqpxUu1o8",
     "name": "Sendai Airport",
     "sources": {
@@ -1504,7 +1480,7 @@
     "name": "Viracopos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/QMD4n2E-Q8s"
+        "https://www.youtube-nocookie.com/embed/78eh097sevQ"
       ]
     },
     "languages": [],

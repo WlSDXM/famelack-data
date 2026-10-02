@@ -88,7 +88,7 @@
     "name": "BC Place",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/rJ5dB_m5e78"
+        "https://www.youtube-nocookie.com/embed/rir0nFI5YmM"
       ]
     },
     "languages": [],
@@ -129,18 +129,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "SJbHB726vFJHsr",
-    "name": "Desembocadura Río Maipo",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/yuVNNxNADCs"
-      ]
-    },
-    "languages": [],
-    "country": "cl",
     "isGeoBlocked": false
   },
   {
@@ -244,7 +232,7 @@
     "name": "Kohoku Parking Area on the Tomei Expressway",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ieIbfOc_GkA"
+        "https://www.youtube-nocookie.com/embed/pawJL_P0_VI"
       ]
     },
     "languages": [],
@@ -321,18 +309,6 @@
     },
     "languages": [],
     "country": "am",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "5n5Sbxui9gY6bv",
-    "name": "Plaza Cuitláhuac",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Bxl-_snqXs4"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
     "isGeoBlocked": false
   },
   {

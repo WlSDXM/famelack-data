@@ -84,18 +84,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "neBONFrZdM7jTS",
-    "name": "Aðaldalshraun Aurora & Heath Sky",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/JL7xxYEKe64"
-      ]
-    },
-    "languages": [],
-    "country": "is",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "xlx6Gb3Vb5HGPT",
     "name": "Adrian Railcam: Wooded Trackside Curve",
     "sources": {
@@ -521,6 +509,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/sJn7eqgqXno"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "js1BsiMtws65Nt",
+    "name": "Arizona Snowbowl Hart Prairie Area",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/eRKNErHtJUE"
       ]
     },
     "languages": [],
@@ -1197,6 +1197,18 @@
     },
     "languages": [],
     "country": "se",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "74wn9faGbQWa93",
+    "name": "Beitostølen Ski Resort",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/FtIu4-7VYMs"
+      ]
+    },
+    "languages": [],
+    "country": "no",
     "isGeoBlocked": false
   },
   {
@@ -1948,7 +1960,7 @@
     "name": "Cajon Pass",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/dJmU1OVHjJA"
+        "https://www.youtube-nocookie.com/embed/ZUwOLM-TXx0"
       ]
     },
     "languages": [],
@@ -2512,7 +2524,7 @@
     "name": "Chapultepec Park Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/uHdQeCyNyGY"
+        "https://www.youtube-nocookie.com/embed/slUf-ZofEHE"
       ]
     },
     "languages": [],
@@ -3192,18 +3204,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "SJbHB726vFJHsr",
-    "name": "Desembocadura Río Maipo",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/yuVNNxNADCs"
-      ]
-    },
-    "languages": [],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "PB6nPx6N1whbJi",
     "name": "Deshler",
     "sources": {
@@ -3304,7 +3304,7 @@
     "name": "Donner Pass Summit East Norden",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/6qvqATTI83g"
+        "https://www.youtube-nocookie.com/embed/K1BQr4qw6XU"
       ]
     },
     "languages": [],
@@ -4557,18 +4557,6 @@
     },
     "languages": [],
     "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Ked285XQuSEr7T",
-    "name": "Hafjell Alpinsenter",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/BADzwd9b0RU"
-      ]
-    },
-    "languages": [],
-    "country": "no",
     "isGeoBlocked": false
   },
   {
@@ -6204,18 +6192,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "1i9bjh7d4MQBxr",
-    "name": "La Concha Beach, San Sebastián",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/B2yCp7MFCMM"
-      ]
-    },
-    "languages": [],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "G6K4j1Dt8ys86s",
     "name": "La Crosse City",
     "sources": {
@@ -6924,6 +6900,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "h95t2Sll85C7kq",
+    "name": "Live Aviary Bird Cam",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/AWJi0LgyA28"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "vwJ6p3xzPRnx6q",
     "name": "Livigno Alpine Town Panorama",
     "sources": {
@@ -7517,6 +7505,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/0Q2YZBnp7vk"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AnrvsFabIPBT6I",
+    "name": "Marunuma Kogen Sky Terrace",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/eBs8Ywvvz_Q"
       ]
     },
     "languages": [],
@@ -8232,18 +8232,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "k7qLshzPMp1M8v",
-    "name": "Mount Fuji from Fumotoppara Campground",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/hBaHx5WdnbQ"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "7bU8K2hGz2OhvC",
     "name": "Mount Fuji from Hayama",
     "sources": {
@@ -8412,18 +8400,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "k5TybpufSaE78d",
-    "name": "Mount Southington Ski Area",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/OBbR2PoDLT8"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "drmM6fkZNzNerM",
     "name": "Mount Tsukuba Nantaisan",
     "sources": {
@@ -8488,7 +8464,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/41TVeh0XLZI"
+        "https://www.youtube-nocookie.com/embed/44NecY2LlPM"
       ]
     },
     "languages": [],
@@ -8572,7 +8548,7 @@
     "name": "Mouse Island Corfu",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/jhkSbaz65ZM"
+        "https://www.youtube-nocookie.com/embed/-MhRq8G5prs"
       ]
     },
     "languages": [],
@@ -9456,6 +9432,30 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "BKp4GZ7o2fh31F",
+    "name": "Oslo Marka",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/1901VSSXcHY"
+      ]
+    },
+    "languages": [],
+    "country": "no",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "fATI7bJtUICPZi",
+    "name": "Oslo Winter Park",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/qyeyVNulaiU"
+      ]
+    },
+    "languages": [],
+    "country": "no",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "2K6297x1eyQNyf",
     "name": "Osprey Nest Cam at Rutland Water",
     "sources": {
@@ -9784,7 +9784,7 @@
     "name": "Parry Sound Town Dock & Harbour",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/B3t_fae0LZg"
+        "https://www.youtube-nocookie.com/embed/T6X00vP0HeQ"
       ]
     },
     "languages": [],
@@ -10696,7 +10696,7 @@
     "name": "Rancho La Onza Hillside",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/YOkFXdI7Jw0"
+        "https://www.youtube-nocookie.com/embed/89qXEBuEDf0"
       ]
     },
     "languages": [],
@@ -11380,7 +11380,7 @@
     "name": "San Joaquín Town Square & Bell Tower",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/CQMWHcGNsto"
+        "https://www.youtube-nocookie.com/embed/CAb2AjJNTHo"
       ]
     },
     "languages": [],
@@ -11777,18 +11777,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/EqVCjIa5brY"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "9sdMiAuKf7x83f",
-    "name": "Seal Island Puffin Loafing Ledge",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/daFe_ygulPY"
       ]
     },
     "languages": [],
@@ -12765,30 +12753,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "iG05P9AZNhV4wS",
-    "name": "Spotlight Baltic Sea Compilation",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/BnLcCs_NYUM"
-      ]
-    },
-    "languages": [],
-    "country": "de",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "k471fMp0B3PwjZ",
-    "name": "Spotlight Germany Webcam Tour",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/aYtgGjMDagw"
-      ]
-    },
-    "languages": [],
-    "country": "de",
     "isGeoBlocked": false
   },
   {
@@ -14068,7 +14032,7 @@
     "name": "Trinidad Harbor",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/_U6TLQvS9VU"
+        "https://www.youtube-nocookie.com/embed/7TTxcqZJJHc"
       ]
     },
     "languages": [],
@@ -14764,7 +14728,7 @@
     "name": "Warsaw Skyline",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4wzqu8TExcg"
+        "https://www.youtube-nocookie.com/embed/3LMKm7anPmw"
       ]
     },
     "languages": [],

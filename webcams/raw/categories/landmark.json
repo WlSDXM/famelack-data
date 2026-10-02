@@ -504,18 +504,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "9FACMEW5P67m46",
-    "name": "Disney California Adventure",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/YOgC_DHQgg8"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "6jFPUKbCA7bxDt",
     "name": "Divine Mercy Church, Stary Sącz",
     "sources": {
@@ -784,7 +772,7 @@
     "name": "Holy Dormition Pochaiv Lavra",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/rf6cG4BZfRw"
+        "https://www.youtube-nocookie.com/embed/fjJtUL1BZM4"
       ]
     },
     "languages": [],
@@ -964,7 +952,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/nmSVRkjaaz8"
+        "https://www.youtube-nocookie.com/embed/bvQhk3je85s"
       ]
     },
     "languages": [],
@@ -1168,7 +1156,7 @@
     "name": "Namsan Tower & Seoul Skyline",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/0v8x5wyXeB8"
+        "https://www.youtube-nocookie.com/embed/GhNscofIqHU"
       ]
     },
     "languages": [],
@@ -1377,18 +1365,6 @@
     },
     "languages": [],
     "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "umyGNG4S5EyhEH",
-    "name": "Our Lady Star & St. John Paul II Sanctuary",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/2bOT0QUOzp4"
-      ]
-    },
-    "languages": [],
-    "country": "pl",
     "isGeoBlocked": false
   },
   {

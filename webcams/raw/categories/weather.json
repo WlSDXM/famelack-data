@@ -252,18 +252,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "fiGA4pm1iRbi18",
-    "name": "Creve Coeur Airport",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/LC-tHCa__sE"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "q3LRL4lg1SoeXH",
     "name": "Duhnen Beach, Cuxhaven",
     "sources": {
@@ -333,18 +321,6 @@
     },
     "languages": [],
     "country": "at",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "0uD03WNGMb1x0e",
-    "name": "Fude Rd, Xihu Township",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/7vNt6dkNt6I"
-      ]
-    },
-    "languages": [],
-    "country": "tw",
     "isGeoBlocked": false
   },
   {
@@ -604,7 +580,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/41TVeh0XLZI"
+        "https://www.youtube-nocookie.com/embed/44NecY2LlPM"
       ]
     },
     "languages": [],

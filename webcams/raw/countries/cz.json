@@ -108,6 +108,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "FfOjoScuHAj1Ky",
+    "name": "Červený Kostelec",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/6FMx6n-NAmk"
+      ]
+    },
+    "languages": [],
+    "country": "cz",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "HpvT6TUFVLE6ol",
     "name": "Červený Kostelec",
     "sources": {
@@ -1072,7 +1084,7 @@
     "name": "Zlín Gahurova Street",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/U9USAqu5b_g"
+        "https://www.youtube-nocookie.com/embed/bL_NrPuULQQ"
       ]
     },
     "languages": [],

@@ -144,18 +144,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "tD25ygMGcluX7q",
-    "name": "Khao Lak",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/PPBdDyWA8LU"
-      ]
-    },
-    "languages": [],
-    "country": "th",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "NfrOztxEyUA1S8",
     "name": "Lamai Beach (Baobab)",
     "sources": {

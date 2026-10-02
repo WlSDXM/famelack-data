@@ -60,6 +60,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "js1BsiMtws65Nt",
+    "name": "Arizona Snowbowl Hart Prairie Area",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/eRKNErHtJUE"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "IhmFL9N4MWepsF",
     "name": "Arrakis Ski Area Žacléř",
     "sources": {
@@ -129,6 +141,18 @@
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "74wn9faGbQWa93",
+    "name": "Beitostølen Ski Resort",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/FtIu4-7VYMs"
+      ]
+    },
+    "languages": [],
+    "country": "no",
     "isGeoBlocked": false
   },
   {
@@ -465,18 +489,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Ked285XQuSEr7T",
-    "name": "Hafjell Alpinsenter",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/BADzwd9b0RU"
-      ]
-    },
-    "languages": [],
-    "country": "no",
     "isGeoBlocked": false
   },
   {
@@ -912,18 +924,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "k5TybpufSaE78d",
-    "name": "Mount Southington Ski Area",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/OBbR2PoDLT8"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Ks7RDoqHE7M1d2",
     "name": "Mountain High Borderline",
     "sources": {
@@ -1049,6 +1049,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/xYqhMHETOgI"
+      ]
+    },
+    "languages": [],
+    "country": "no",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "fATI7bJtUICPZi",
+    "name": "Oslo Winter Park",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/qyeyVNulaiU"
       ]
     },
     "languages": [],

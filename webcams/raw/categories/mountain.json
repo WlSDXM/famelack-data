@@ -252,6 +252,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "js1BsiMtws65Nt",
+    "name": "Arizona Snowbowl Hart Prairie Area",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/eRKNErHtJUE"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "9HZamBGPpDMiFY",
     "name": "Around the World Compilation",
     "sources": {
@@ -429,6 +441,18 @@
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "74wn9faGbQWa93",
+    "name": "Beitostølen Ski Resort",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/FtIu4-7VYMs"
+      ]
+    },
+    "languages": [],
+    "country": "no",
     "isGeoBlocked": false
   },
   {
@@ -1180,7 +1204,7 @@
     "name": "Donner Pass Summit East Norden",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/6qvqATTI83g"
+        "https://www.youtube-nocookie.com/embed/K1BQr4qw6XU"
       ]
     },
     "languages": [],
@@ -1737,18 +1761,6 @@
     },
     "languages": [],
     "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Ked285XQuSEr7T",
-    "name": "Hafjell Alpinsenter",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/BADzwd9b0RU"
-      ]
-    },
-    "languages": [],
-    "country": "no",
     "isGeoBlocked": false
   },
   {
@@ -2500,7 +2512,7 @@
     "name": "Le Morne",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/996Zv1eK1lA"
+        "https://www.youtube-nocookie.com/embed/8D5fY5804eE"
       ]
     },
     "languages": [],
@@ -3460,7 +3472,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/41TVeh0XLZI"
+        "https://www.youtube-nocookie.com/embed/44NecY2LlPM"
       ]
     },
     "languages": [],
@@ -3736,7 +3748,7 @@
     "name": "Namsan Tower & Seoul Skyline",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/0v8x5wyXeB8"
+        "https://www.youtube-nocookie.com/embed/GhNscofIqHU"
       ]
     },
     "languages": [],
@@ -4348,7 +4360,7 @@
     "name": "Rancho La Onza Hillside",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/YOkFXdI7Jw0"
+        "https://www.youtube-nocookie.com/embed/89qXEBuEDf0"
       ]
     },
     "languages": [],
@@ -5196,18 +5208,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "k471fMp0B3PwjZ",
-    "name": "Spotlight Germany Webcam Tour",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/aYtgGjMDagw"
-      ]
-    },
-    "languages": [],
-    "country": "de",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "enq2wjFP7NopF3",
     "name": "Spray Valley Mountain View",
     "sources": {
@@ -5369,6 +5369,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/Y2VfyLoTO0c"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "YqxP3tkFxOr5Qk",
+    "name": "Sturgis Lazelle Street",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Ir7PRptC27w"
       ]
     },
     "languages": [],

@@ -72,6 +72,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "N83HpR3udg6OpE",
+    "name": "Szeged Zoo Camel Exhibit",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Ysk-sWSKLVU"
+      ]
+    },
+    "languages": [],
+    "country": "hu",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "mlRAGyeu42XFmx",
     "name": "Szeged Zoo Elephant Exhibit Indoor",
     "sources": {
@@ -101,6 +113,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/rXxmT3a2gEU"
+      ]
+    },
+    "languages": [],
+    "country": "hu",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "hV6tOo8JqXSlzX",
+    "name": "Szeged Zoo Lion Exhibit",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/f0DYp1rSmic"
       ]
     },
     "languages": [],

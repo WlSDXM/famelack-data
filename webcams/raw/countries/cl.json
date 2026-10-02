@@ -72,18 +72,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "SJbHB726vFJHsr",
-    "name": "Desembocadura Río Maipo",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/yuVNNxNADCs"
-      ]
-    },
-    "languages": [],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "oQ2glqO93BY6XT",
     "name": "El Quisco Beach",
     "sources": {
@@ -209,6 +197,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/hr8hzOL2wHo"
+      ]
+    },
+    "languages": [],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "vFAA743kAkL7N2",
+    "name": "Tobalaba Financial District",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/ErUOGtBXhgY"
       ]
     },
     "languages": [],

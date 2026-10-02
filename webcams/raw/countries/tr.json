@@ -48,18 +48,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "nnkK2bhjNfvHTC",
-    "name": "Bulancak Square",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/iV_-59E8BwI"
-      ]
-    },
-    "languages": [],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "C2yaMo3jq32hTR",
     "name": "Giresun Castle",
     "sources": {
@@ -108,11 +96,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Ji3GKuxlZgS6ST",
-    "name": "Şebinkarahisar",
+    "nanoid": "L1jT9Gx0fI6XcP",
+    "name": "Şebinkarahisar Town Square",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/O635opdYhzI"
+        "https://www.youtube-nocookie.com/embed/F6tIrERC-N4"
       ]
     },
     "languages": [],

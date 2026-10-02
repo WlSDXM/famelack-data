@@ -112,7 +112,7 @@
     "name": "Akabane Station",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/E5gYbAdMKJY"
+        "https://www.youtube-nocookie.com/embed/yDf8HoLrYbM"
       ]
     },
     "languages": [],
@@ -1432,7 +1432,7 @@
     "name": "Kohoku Parking Area on the Tomei Expressway",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ieIbfOc_GkA"
+        "https://www.youtube-nocookie.com/embed/pawJL_P0_VI"
       ]
     },
     "languages": [],
@@ -1788,6 +1788,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "AnrvsFabIPBT6I",
+    "name": "Marunuma Kogen Sky Terrace",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/eBs8Ywvvz_Q"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "hssOgLzMUrJ8dD",
     "name": "Marunuma Kogen Tree Adventure",
     "sources": {
@@ -1888,7 +1900,7 @@
     "name": "Meitetsu Tokoname Line Ono-machi",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/7ltiG84-_a8"
+        "https://www.youtube-nocookie.com/embed/DlwCXDj7A50"
       ]
     },
     "languages": [],
@@ -2033,18 +2045,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/ViHMZfmURiw"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "k7qLshzPMp1M8v",
-    "name": "Mount Fuji from Fumotoppara Campground",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/hBaHx5WdnbQ"
       ]
     },
     "languages": [],
@@ -3280,7 +3280,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/QuRjQhltvgs"
+        "https://www.youtube-nocookie.com/embed/76crHS1ddKQ"
       ]
     },
     "languages": [],

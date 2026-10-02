@@ -1128,18 +1128,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "NyrFGH3kEt2G7q",
-    "name": "Palermo City",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/8J80F86f114"
-      ]
-    },
-    "languages": [],
-    "country": "it",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "v0GqQabig10gGk",
     "name": "Panorama over Livigno Valley",
     "sources": {

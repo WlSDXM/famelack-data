@@ -268,7 +268,7 @@
     "name": "Elbcam Grauerort Fortress",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/vukolcrIkzc"
+        "https://www.youtube-nocookie.com/embed/PGzLtvTrDQE"
       ]
     },
     "languages": [],
@@ -281,18 +281,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/boJCx2dXCko"
-      ]
-    },
-    "languages": [],
-    "country": "de",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "0KsydDsZ6VXIFd",
-    "name": "Freiburg Airport",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ODhwkWI-EQI"
       ]
     },
     "languages": [],
@@ -516,18 +504,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "fa2f3XDySPAjX5",
-    "name": "Monheim am Rhein",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/yP_bZUNyyOg"
-      ]
-    },
-    "languages": [],
-    "country": "de",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "33Vr33nXww3eKf",
     "name": "Munich Oktoberfest",
     "sources": {
@@ -677,30 +653,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/CMI79iP_llo"
-      ]
-    },
-    "languages": [],
-    "country": "de",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "iG05P9AZNhV4wS",
-    "name": "Spotlight Baltic Sea Compilation",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/BnLcCs_NYUM"
-      ]
-    },
-    "languages": [],
-    "country": "de",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "k471fMp0B3PwjZ",
-    "name": "Spotlight Germany Webcam Tour",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/aYtgGjMDagw"
       ]
     },
     "languages": [],

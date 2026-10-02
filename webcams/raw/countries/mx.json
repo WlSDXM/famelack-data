@@ -76,7 +76,7 @@
     "name": "Avenida 5 de Febrero",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/RpmfSMwK2p8"
+        "https://www.youtube-nocookie.com/embed/k5wkyi9vZGo"
       ]
     },
     "languages": [],
@@ -184,7 +184,7 @@
     "name": "Chapultepec Park Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/uHdQeCyNyGY"
+        "https://www.youtube-nocookie.com/embed/slUf-ZofEHE"
       ]
     },
     "languages": [],
@@ -221,18 +221,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/CZM5TpXLzE8"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Y1GX6VTPQKAKxP",
-    "name": "Cozumel Underwater View",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/C0KKqvSNJU0"
       ]
     },
     "languages": [],
@@ -552,6 +540,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "tq3h3PKDZVY1uq",
+    "name": "Nuevo Vallarta Panorama",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/ik2vJBU1Se8"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "5b19pV31ztaSO2",
     "name": "Paseo de la Reforma",
     "sources": {
@@ -605,6 +605,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/bALOmlcN0Q4"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "G5hzD2NeP1JaLJ",
+    "name": "Piedras Negras Cam 2",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/7e_TKxwtcrY"
       ]
     },
     "languages": [],
@@ -689,18 +701,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/pi7hhhgeyrY"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "5n5Sbxui9gY6bv",
-    "name": "Plaza Cuitláhuac",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Bxl-_snqXs4"
       ]
     },
     "languages": [],
@@ -804,11 +804,23 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "sPSEtyUMx2GPGu",
+    "name": "Puente Internacional 2 Piedras Negras-Eagle Pass",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/JAo4Fgwrdk4"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "LzN6cAbSdpMdF6",
     "name": "Punta Cancún Beach Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-Pmunlgg2TM"
+        "https://www.youtube-nocookie.com/embed/QneynPTSOao"
       ]
     },
     "languages": [],
@@ -832,7 +844,7 @@
     "name": "Rancho La Onza Hillside",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/YOkFXdI7Jw0"
+        "https://www.youtube-nocookie.com/embed/89qXEBuEDf0"
       ]
     },
     "languages": [],
@@ -892,7 +904,7 @@
     "name": "San Joaquín Town Square & Bell Tower",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/CQMWHcGNsto"
+        "https://www.youtube-nocookie.com/embed/CAb2AjJNTHo"
       ]
     },
     "languages": [],

@@ -76,7 +76,7 @@
     "name": "BC Place",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/rJ5dB_m5e78"
+        "https://www.youtube-nocookie.com/embed/rir0nFI5YmM"
       ]
     },
     "languages": [],
@@ -760,7 +760,7 @@
     "name": "Parry Sound Town Dock & Harbour",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/B3t_fae0LZg"
+        "https://www.youtube-nocookie.com/embed/T6X00vP0HeQ"
       ]
     },
     "languages": [],
@@ -1097,18 +1097,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/JZ3UV60ykqc"
-      ]
-    },
-    "languages": [],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "POSQ8z3f25xovh",
-    "name": "Toronto CN Tower & Gardiner Expressway",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/zgzMZypUAX8"
       ]
     },
     "languages": [],
