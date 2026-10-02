@@ -56,6 +56,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "PuOdackS09IXBO",
+    "name": "Bolivia TV",
+    "sources": {
+      "streams": [
+        "https://hls.tvabierta.net/hls/boliviatv.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "bo",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "2TeFmbSu18GnAQ",
     "name": "Cadena A",
     "sources": {
@@ -197,6 +211,20 @@
     "sources": {
       "streams": [
         "https://stmv1.voxtvhd.com.br/vavizacli/vavizacli/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "bo",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "4HfmIkncFKbS69",
+    "name": "Imperial TV",
+    "sources": {
+      "streams": [
+        "https://tv.centaurychile.com/imperial/streams/EnCyCiwNLsqEQ2kv2852222720686498.m3u8"
       ]
     },
     "languages": [
@@ -374,6 +402,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "F3BYfjJnpkzbsO",
+    "name": "Red Uno",
+    "sources": {
+      "streams": [
+        "https://tv.centaurychile.com/interactiva/streams/KIgB6QvZ0L8XaSLd3211668845221245.m3u8"
+      ]
+    },
+    "languages": [],
+    "country": "bo",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "izfFH8RnAwm70u",
     "name": "RTP",
     "sources": {
@@ -388,6 +428,20 @@
     ],
     "country": "bo",
     "isGeoBlocked": true
+  },
+  {
+    "nanoid": "za6KpDi86ZZAJu",
+    "name": "SPC Canal 15",
+    "sources": {
+      "streams": [
+        "https://tv.centaurychile.com/magicatv/streams/22AdscM3Y6Un17Zo4747081346569358.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "bo",
+    "isGeoBlocked": false
   },
   {
     "nanoid": "jo5rZWZDxVWDCK",
@@ -592,6 +646,20 @@
       ]
     },
     "languages": [],
+    "country": "bo",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "9u6WNgsEYDn11w",
+    "name": "Univalle Television",
+    "sources": {
+      "streams": [
+        "https://master.tucableip.com/univalletv/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
     "country": "bo",
     "isGeoBlocked": false
   },

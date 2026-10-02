@@ -265,20 +265,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "3IdSqyUsjeV7nB",
-    "name": "ICC plus",
-    "sources": {
-      "streams": [
-        "https://icchls.wns.live/hls/stream.m3u8"
-      ]
-    },
-    "languages": [
-      "fas"
-    ],
-    "country": "ir",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "PdKuN3BQgxSz80",
     "name": "ICnet 2",
     "sources": {

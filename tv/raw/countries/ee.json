@@ -98,21 +98,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "g3tSCZ3A6RSOUd",
-    "name": "ETV+",
-    "sources": {
-      "streams": [
-        "https://sb.err.ee/live/etvpluss.m3u8"
-      ]
-    },
-    "languages": [
-      "est",
-      "rus"
-    ],
-    "country": "ee",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "SY6JGWv0oWKy6h",
     "name": "Life TV",
     "sources": {
@@ -154,48 +139,5 @@
     ],
     "country": "ee",
     "isGeoBlocked": false
-  },
-  {
-    "nanoid": "FLdrwmDYv8jdv2",
-    "name": "Vantage Classic",
-    "sources": {
-      "streams": [
-        "https://cdn-backup.lulzy.eu/vclassic_stream/index.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "ee",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "r2gF8oZvggcaZG",
-    "name": "Vantage Dance",
-    "sources": {
-      "streams": [
-        "https://cdn-backup.lulzy.eu/vdance_stream/index.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "ee",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "i3qkHtWdmsIqE8",
-    "name": "Vantage Music",
-    "sources": {
-      "streams": [
-        "https://cdn-backup.lulzy.eu/vrock_stream/index.m3u8",
-        "https://cdn-backup.lulzy.eu/vmusic_stream/index.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "ee",
-    "isGeoBlocked": true
   }
 ]

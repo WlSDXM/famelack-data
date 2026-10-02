@@ -276,35 +276,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "d5k9RHTOOkIzsq",
-    "name": "A2i Music",
-    "sources": {
-      "streams": [
-        "https://stream.sen-gt.com/A2iMusic/myStream/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "fra",
-      "wol"
-    ],
-    "country": "sn",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "AkH8avUBkXTLm9",
-    "name": "Aaryaa TV",
-    "sources": {
-      "streams": [
-        "https://stream.ottlive.co.in/aryatvtamil/index.m3u8"
-      ]
-    },
-    "languages": [
-      "tam"
-    ],
-    "country": "in",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "W4BjJOWor1EINM",
     "name": "ACE Country Radio KPVM-LD",
     "sources": {
@@ -557,21 +528,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "HHRin5dp3UTQFP",
-    "name": "Atomic TV",
-    "sources": {
-      "streams": [
-        "https://atomic.streamnet.ro/atomictv.m3u8"
-      ]
-    },
-    "languages": [
-      "eng",
-      "ron"
-    ],
-    "country": "ro",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "FuTnPCDlGaBjIO",
     "name": "Audiokiss",
     "sources": {
@@ -746,6 +702,7 @@
     "name": "BIZ Music",
     "sources": {
       "streams": [
+        "https://fl.biztv.media/music_720_QAKpGmVUjaPApCNjpsgBxrdqNihAkl/index.m3u8",
         "https://stream8.cinerama.uz/1212/tracks-v1a1/mono.m3u8"
       ]
     },
@@ -993,6 +950,34 @@
       "spa"
     ],
     "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "BN8UK0JlgAMrEm",
+    "name": "City Eden Birma Play",
+    "sources": {
+      "streams": [
+        "https://cityeden.catcast.tv/content/34364/index.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Lk2MXbqIFnMEMM",
+    "name": "City Eden Classic Music",
+    "sources": {
+      "streams": [
+        "https://cityeden.catcast.tv/content/47400/index.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
     "isGeoBlocked": false
   },
   {
@@ -2412,6 +2397,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "3hq4NpWZFKw05F",
+    "name": "Kiss TV",
+    "sources": {
+      "streams": [
+        "https://tv.broadcasting.ro/kisstv/a629c031-2170-4ee9-a36d-87a891aa3131.m3u8"
+      ]
+    },
+    "languages": [
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "A6l4ELIarmqL6n",
     "name": "Klape i Tambure TV",
     "sources": {
@@ -2537,6 +2536,20 @@
       "spa"
     ],
     "country": "pe",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "7ZFyCTaDU0wEC5",
+    "name": "La Granja TV",
+    "sources": {
+      "streams": [
+        "https://oracle.streaminghd.cl/8126/8126/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cl",
     "isGeoBlocked": false
   },
   {
@@ -3081,20 +3094,6 @@
       "deu"
     ],
     "country": "at",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "8JZH2jVeoWilfK",
-    "name": "Melody FM",
-    "sources": {
-      "streams": [
-        "https://cdn3.wowza.com/1/OVRrOWxXUEswS2Yv/eGVxSWZy/hls/live/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "ara"
-    ],
-    "country": "jo",
     "isGeoBlocked": false
   },
   {
@@ -3945,6 +3944,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "aG4Gj0k7P3YW2z",
+    "name": "Party Mix",
+    "sources": {
+      "streams": [
+        "https://hls02ns.antenaplay.ro/hls/party-mix-hd/index.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "gOHRYjgt1TQNJc",
     "name": "Patagonia Radio TV",
     "sources": {
@@ -4383,6 +4396,20 @@
       "ita"
     ],
     "country": "it",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "79RGODupZW3p8n",
+    "name": "Radio Carnaval TV",
+    "sources": {
+      "streams": [
+        "https://eu1.servers10.com:8081/8116/index.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "es",
     "isGeoBlocked": false
   },
   {
@@ -5083,8 +5110,8 @@
     "name": "Ritoque TV",
     "sources": {
       "streams": [
-        "https://streaming.purum.cl/ritoquetv/index.m3u8",
-        "https://v2.tustreaming.cl/unetev/index.m3u8"
+        "https://v2.tustreaming.cl/unetev/index.m3u8",
+        "https://streaming.purum.cl/ritoquetv/index.m3u8"
       ]
     },
     "languages": [
@@ -5327,6 +5354,7 @@
     "sources": {
       "streams": [
         "https://cdn.pishow.tv/ott/live/1143/master.m3u8",
+        "https://tvsen6.aynaott.com/hT5jHczt/index.m3u8",
         "https://mumt05.tangotv.in/87NeALx2SANGEETBANGLA/index.m3u8"
       ]
     },
@@ -5564,6 +5592,20 @@
       "eng"
     ],
     "country": "gu",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "bKTLwagx7cet1q",
+    "name": "Steelbird Music",
+    "sources": {
+      "streams": [
+        "https://cdn2.in/SteelbirdMusicTVhls/live.m3u8"
+      ]
+    },
+    "languages": [
+      "hin"
+    ],
+    "country": "in",
     "isGeoBlocked": false
   },
   {
@@ -6274,7 +6316,8 @@
     "name": "The Country Network",
     "sources": {
       "streams": [
-        "https://amg00600-amg00600c1-thecountrynetwork-us-5497.playouts.now.amagi.tv/playlist.m3u8"
+        "https://amg00600-amg00600c1-thecountrynetwork-us-5497.playouts.now.amagi.tv/playlist.m3u8",
+        "https://a-cdn.klowdtv.com/live2/countrytv_720p/playlist.m3u8"
       ]
     },
     "languages": [
@@ -6995,6 +7038,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "pZ7DVIEngrRQGF",
+    "name": "TVR Folclor",
+    "sources": {
+      "streams": [
+        "https://tvr-folclor.lg.mncdn.com/tvrfolclor/smil:tvrfolclor.smil/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "FzUnMv3h7JFnnS",
     "name": "TVS Music Network",
     "sources": {
@@ -7027,7 +7084,7 @@
     "name": "Urbana Play 104.3 FM",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/VswhGZOT7y8"
+        "https://www.youtube-nocookie.com/embed/Lge_zEpLAK0"
       ]
     },
     "languages": [
@@ -7108,49 +7165,6 @@
     ],
     "country": "cw",
     "isGeoBlocked": false
-  },
-  {
-    "nanoid": "FLdrwmDYv8jdv2",
-    "name": "Vantage Classic",
-    "sources": {
-      "streams": [
-        "https://cdn-backup.lulzy.eu/vclassic_stream/index.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "ee",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "r2gF8oZvggcaZG",
-    "name": "Vantage Dance",
-    "sources": {
-      "streams": [
-        "https://cdn-backup.lulzy.eu/vdance_stream/index.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "ee",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "i3qkHtWdmsIqE8",
-    "name": "Vantage Music",
-    "sources": {
-      "streams": [
-        "https://cdn-backup.lulzy.eu/vrock_stream/index.m3u8",
-        "https://cdn-backup.lulzy.eu/vmusic_stream/index.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "ee",
-    "isGeoBlocked": true
   },
   {
     "nanoid": "9KkStjSrl7VxIY",
@@ -7593,20 +7607,6 @@
       "eng"
     ],
     "country": "es",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "yr33MgQq5gUR8N",
-    "name": "YRF Music",
-    "sources": {
-      "streams": [
-        "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "hin"
-    ],
-    "country": "in",
     "isGeoBlocked": false
   },
   {

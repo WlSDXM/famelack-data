@@ -332,20 +332,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "zAj5NzeQEJLQeG",
-    "name": "Dragon TV International",
-    "sources": {
-      "streams": [
-        "https://restream.pdtvhd.com/memfs/0b1b95c9-3543-4af9-9fdb-cf45f1602f17.m3u8"
-      ]
-    },
-    "languages": [
-      "zho"
-    ],
-    "country": "cn",
-    "isGeoBlocked": true
-  },
-  {
     "nanoid": "l2c248PtwB0qu4",
     "name": "Guangzhou TV",
     "sources": {
@@ -613,6 +599,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "ZMTYKvEKk1dmYw",
+    "name": "上虞經濟文化",
+    "sources": {
+      "streams": [
+        "https://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8"
+      ]
+    },
+    "languages": [],
+    "country": "cn",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "HzvN0O8csJFrwx",
     "name": "之江纪录",
     "sources": {
@@ -630,18 +628,6 @@
     "sources": {
       "streams": [
         "https://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8"
-      ]
-    },
-    "languages": [],
-    "country": "cn",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Z6LINyrJx59mNs",
-    "name": "余姚新闻综合",
-    "sources": {
-      "streams": [
-        "https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8"
       ]
     },
     "languages": [],
@@ -927,18 +913,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "hlJLT7eqdRNqcv",
-    "name": "蕭山生活頻道",
-    "sources": {
-      "streams": [
-        "https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8"
-      ]
-    },
-    "languages": [],
-    "country": "cn",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "NpZu4VK2VQIwa6",
     "name": "辽源新闻综合",
     "sources": {
@@ -985,17 +959,5 @@
     "languages": [],
     "country": "cn",
     "isGeoBlocked": true
-  },
-  {
-    "nanoid": "6nQrzZYDFKwB5C",
-    "name": "餘姚姚江文化",
-    "sources": {
-      "streams": [
-        "https://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8"
-      ]
-    },
-    "languages": [],
-    "country": "cn",
-    "isGeoBlocked": false
   }
 ]

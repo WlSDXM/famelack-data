@@ -70,6 +70,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "cldgrOT0slw0oJ",
+    "name": "Coptic TV",
+    "sources": {
+      "streams": [
+        "https://ctv.icopts.app/CTV/index.fmp4.m3u8"
+      ]
+    },
+    "languages": [
+      "ara"
+    ],
+    "country": "eg",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "dSBCv9wMIeHZkP",
     "name": "El Radio 9090 FM",
     "sources": {

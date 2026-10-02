@@ -634,7 +634,7 @@
     "name": "EKOTÜRK TV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Vsn5sx8afBc"
+        "https://www.youtube-nocookie.com/embed/JlzvwHrlC5E"
       ]
     },
     "languages": [
@@ -1975,20 +1975,6 @@
     "sources": {
       "streams": [
         "https://tv-trtavaz.medya.trt.com.tr/master.m3u8"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "YCPZsdEDhEaJOB",
-    "name": "TRT Cocuk",
-    "sources": {
-      "streams": [
-        "https://tv-trtcocuk.medya.trt.com.tr/master.m3u8"
       ]
     },
     "languages": [

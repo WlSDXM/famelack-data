@@ -126,6 +126,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "MPe2JeL5LhpNbP",
+    "name": "Atabal TV",
+    "sources": {
+      "streams": [
+        "https://vdopanel.jlahozconsulting.com:3648/live/atabaltvlive.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "X5A044gnV3ctUa",
     "name": "Bani Vision",
     "sources": {
@@ -770,20 +784,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "2fPPM3f7yHGrfK",
-    "name": "Enterate RD",
-    "sources": {
-      "streams": [
-        "https://5790d294af2dc.streamlock.net/enteraterd/enteraterd/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "do",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "OFUPqXIKvtH9Ga",
     "name": "Entuno TV",
     "sources": {
@@ -1401,20 +1401,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "d383e3NpcXjFRr",
-    "name": "Noticias 16",
-    "sources": {
-      "streams": [
-        "https://edge.essastream.com/noticias16/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "do",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "P9ru3qlX6CBFwI",
     "name": "Notisur TV",
     "sources": {
@@ -1484,6 +1470,20 @@
     ],
     "country": "do",
     "isGeoBlocked": false
+  },
+  {
+    "nanoid": "W1B9qplRVWPPfO",
+    "name": "Peravia Vision",
+    "sources": {
+      "streams": [
+        "https://ss2.tvrdomi.com:1936/peraviavision/peraviavision/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": true
   },
   {
     "nanoid": "gD8b6UqLHFJhPd",
@@ -1696,6 +1696,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "e4PO6mOz6agpjV",
+    "name": "Super Canal",
+    "sources": {
+      "streams": [
+        "https://cnn.hostlagarto.com/supercanalhd/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "WPju2v0ENmM2u9",
     "name": "Super TV 55",
     "sources": {
@@ -1715,6 +1729,20 @@
     "sources": {
       "streams": [
         "https://stream.haislin.com/super7fm/index.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "3KqnfFX9vnSDZo",
+    "name": "Sur TV",
+    "sources": {
+      "streams": [
+        "https://ss2.tvrdomi.com:1936/eradiofonicas/eradiofonicas/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1934,6 +1962,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "hVHCiZlLoCKH6i",
+    "name": "Teleuniverso",
+    "sources": {
+      "streams": [
+        "https://hls.tvabierta.net/hls/029.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Rq6AkjwJCWvOOq",
     "name": "Telever",
     "sources": {
@@ -1967,6 +2009,20 @@
     "sources": {
       "streams": [
         "https://edge.essastream.com/televisiondeleste/tracks-v1a1/mono.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "PIluhlMF5nMowT",
+    "name": "Tenarenses TV",
+    "sources": {
+      "streams": [
+        "https://edge.essastream.com/tenarensestvrd/playlist.m3u8"
       ]
     },
     "languages": [
@@ -2200,6 +2256,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "EZjZzTjK8zFdzR",
+    "name": "Vision 3000",
+    "sources": {
+      "streams": [
+        "https://ss2.tvrdomi.com:1936/vision3000/vision3000/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": true
+  },
+  {
     "nanoid": "4CplZeiORcJRcS",
     "name": "Vision NDV",
     "sources": {
@@ -2261,6 +2331,20 @@
     "sources": {
       "streams": [
         "https://tele-stream.telecasa.net/live/st1/yunavision-hd/index.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "2X3EHgXBANWAKd",
+    "name": "ZAS TV",
+    "sources": {
+      "streams": [
+        "https://cloud5.zastv.net/hls/zastv.m3u8"
       ]
     },
     "languages": [

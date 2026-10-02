@@ -142,6 +142,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "w9iKnoeRBQ99pR",
+    "name": "Can Tho TV 2",
+    "sources": {
+      "streams": [
+        "https://live.canthotv.vn/cs2/live.stream/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "vie"
+    ],
+    "country": "vn",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "7nyUSJn5aAWm7k",
     "name": "Canal Educacao",
     "sources": {
@@ -851,20 +865,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Kqr3JHbCw7DAtR",
-    "name": "ISTV",
-    "sources": {
-      "streams": [
-        "https://stmv1.srvstm.com/sistema7933/sistema7933/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Pz1CuDeSJYHivR",
     "name": "Jalisco TV",
     "sources": {
@@ -1016,20 +1016,6 @@
       "eng"
     ],
     "country": "in",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "tqCNZa0HLCee0u",
-    "name": "Midpen Media Center Channel 28",
-    "sources": {
-      "streams": [
-        "https://5c2974786200d.streamlock.net/live-chan28/ngrp:ch28_all/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -1370,6 +1356,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "GyYMyUUtPptNeI",
+    "name": "Rinjani TV",
+    "sources": {
+      "streams": [
+        "https://rinjanitv.cloud/hls/tvkabel.m3u8"
+      ]
+    },
+    "languages": [
+      "ind"
+    ],
+    "country": "id",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "xT4SS5ryo4F6PC",
     "name": "SMCTV Channel 24",
     "sources": {
@@ -1692,17 +1692,17 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "7UeLUueVRqvHR1",
-    "name": "Unisul TV",
+    "nanoid": "JvGEcuMecAcih8",
+    "name": "Unison TV",
     "sources": {
       "streams": [
-        "https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8?token="
+        "https://stream.unison.mx/hls/unisontvatem.m3u8"
       ]
     },
     "languages": [
-      "por"
+      "spa"
     ],
-    "country": "br",
+    "country": "mx",
     "isGeoBlocked": false
   },
   {

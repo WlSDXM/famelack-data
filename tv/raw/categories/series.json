@@ -289,14 +289,16 @@
     "isGeoBlocked": true
   },
   {
-    "nanoid": "yf9cDN9bqsGzy8",
-    "name": "COPS",
+    "nanoid": "Lue510y7WNIKXM",
+    "name": "Cops",
     "sources": {
-      "streams": [
-        "https://a7d6af1c184e465db4f39316a5181c1f.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/RakutenTV-eu_COPS/playlist.m3u8"
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/bULURMtpV2M"
       ]
     },
-    "languages": [],
+    "languages": [
+      "eng"
+    ],
     "country": "us",
     "isGeoBlocked": false
   },
@@ -1139,7 +1141,7 @@
     "name": "TokuSHOUTsu: Kamen Rider Ryuki",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/pfUz-Pe3p1k"
+        "https://www.youtube-nocookie.com/embed/gomRKw9dQlo"
       ]
     },
     "languages": [

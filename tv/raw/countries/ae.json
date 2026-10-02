@@ -1,5 +1,20 @@
 [
   {
+    "nanoid": "o7f2wdALXEzHZs",
+    "name": "Ajman TV",
+    "sources": {
+      "streams": [
+        "https://cdn1.logichost.in/ajmantv/live/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "ara",
+      "eng"
+    ],
+    "country": "ae",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "2TkyVV55zzBzz3",
     "name": "Al Arabiya Business",
     "sources": {
@@ -240,34 +255,6 @@
     },
     "languages": [
       "fas"
-    ],
-    "country": "ae",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "3Icuxq5qeDrJdW",
-    "name": "Peace TV Chinese",
-    "sources": {
-      "streams": [
-        "https://dzkyvlfyge.erbvr.com/PeaceTvChinese/index.m3u8"
-      ]
-    },
-    "languages": [
-      "zho"
-    ],
-    "country": "ae",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "NuZWaHtBzZXXC8",
-    "name": "Peace TV English",
-    "sources": {
-      "streams": [
-        "https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
     ],
     "country": "ae",
     "isGeoBlocked": false

@@ -1,13 +1,14 @@
 [
   {
-    "nanoid": "HbRUt7FKalezmx",
-    "name": "Belarus-4 Vitebsk",
+    "nanoid": "engyXyNmhJZ4yj",
+    "name": "Belarus-1",
     "sources": {
       "streams": [
-        "https://ngtrk.dc.beltelecom.by/vtv/bt4.stream/playlist.m3u8"
+        "https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1.smil/playlist.m3u8"
       ]
     },
     "languages": [
+      "bel",
       "rus"
     ],
     "country": "by",
@@ -18,7 +19,6 @@
     "name": "Belarus-5",
     "sources": {
       "streams": [
-        "https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8",
         "https://streaming.thestream.cyou/live/7001.m3u8"
       ]
     },
@@ -46,21 +46,6 @@
     "isGeoBlocked": true
   },
   {
-    "nanoid": "esaPDq84VF68oV",
-    "name": "Perviy Informationniy",
-    "sources": {
-      "streams": [
-        "https://ngtrk.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "bel",
-      "rus"
-    ],
-    "country": "by",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "tZZIrq25t0jwoj",
     "name": "Radio Mir",
     "sources": {
@@ -76,11 +61,40 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "iVRQOIdUpv5uQH",
+    "name": "STV",
+    "sources": {
+      "streams": [
+        "https://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "bel",
+      "rus"
+    ],
+    "country": "by",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "wc4nIXAZtGUFZ9",
     "name": "TNT4 International",
     "sources": {
       "streams": [
         "https://fs.uplink.kz/tnt4/mono.m3u8?token=onlinetv"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "by",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "qXDjb50le3QgvB",
+    "name": "Vitebsk",
+    "sources": {
+      "streams": [
+        "https://live.dc.beltelecom.by/vtv/vitebsk.stream/playlist.m3u8"
       ]
     },
     "languages": [

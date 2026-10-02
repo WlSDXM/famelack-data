@@ -4,7 +4,7 @@
     "name": "AAC Television",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/yhnuk2yAFs0"
+        "https://www.youtube-nocookie.com/embed/iQDSxvqYioE"
       ]
     },
     "languages": [
@@ -42,11 +42,25 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "BMO0FRe0mBVXUu",
+    "name": "CoinVaultTV",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/dvz3IBDGeXw"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "vFuB4amnCAnzu2",
     "name": "Crafter's TV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/66738PI5z3s"
+        "https://www.youtube-nocookie.com/embed/VDcVvQDryuA"
       ]
     },
     "languages": [
@@ -98,20 +112,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "1urxVFjg7HoQcm",
-    "name": "Expo Channel",
-    "sources": {
-      "streams": [
-        "https://tvsnhlslivetest.akamaized.net/hls/live/2034711/EXPO-MSL4/master.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "au",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "SZKqh8My275jx3",
     "name": "FairON",
     "sources": {
@@ -144,7 +144,7 @@
     "name": "Gem Shopping",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/iH25Y4MBOVE"
+        "https://www.youtube-nocookie.com/embed/OMQSvAbXcBk"
       ]
     },
     "languages": [

@@ -33,7 +33,7 @@
     "name": "Citizen TV Kenya",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/o1vQ88TxSvo"
+        "https://www.youtube-nocookie.com/embed/1Vm7lAjpZZM"
       ]
     },
     "languages": [
@@ -168,6 +168,20 @@
     },
     "languages": [
       "eng"
+    ],
+    "country": "ke",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "QNrQ5ZEGUQREnZ",
+    "name": "Ramogi TV",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/2mY7F_oxQgg"
+      ]
+    },
+    "languages": [
+      "luo"
     ],
     "country": "ke",
     "isGeoBlocked": false

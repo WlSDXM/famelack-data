@@ -168,21 +168,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "HHRin5dp3UTQFP",
-    "name": "Atomic TV",
-    "sources": {
-      "streams": [
-        "https://atomic.streamnet.ro/atomictv.m3u8"
-      ]
-    },
-    "languages": [
-      "eng",
-      "ron"
-    ],
-    "country": "ro",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "nqC1XmTU0qJuuy",
     "name": "Bollywood Film",
     "sources": {
@@ -267,20 +252,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "plN3jsasArf7yH",
-    "name": "Digi Sport 2",
-    "sources": {
-      "streams": [
-        "https://lbgo.bozztv.com/ssh101/ssh101/digisport222/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "ron"
-    ],
-    "country": "ro",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "rpSBQXW9F7j6Ri",
     "name": "Dotto TV",
     "sources": {
@@ -323,11 +294,25 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "FrkW1JS0kDQfQC",
-    "name": "Film Now",
+    "nanoid": "Aw91unFPHKA4b2",
+    "name": "Euronews Romania",
     "sources": {
       "streams": [
-        "https://lbgo.bozztv.com/ssh101/ssh101/filmnoww/playlist.m3u8"
+        "https://hls02ns.antenaplay.ro/hls/euronews-ro-sd/index.m3u8"
+      ]
+    },
+    "languages": [
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Zuuz0ec4YwcYzF",
+    "name": "Favorit TV",
+    "sources": {
+      "streams": [
+        "https://hls02ns.antenaplay.ro/hls/favorit-sd/index.m3u8"
       ]
     },
     "languages": [
@@ -379,11 +364,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "lhCxqE1AXbE8qH",
-    "name": "HD365 TV",
+    "nanoid": "BjZVMVKPbgDPNQ",
+    "name": "FILMBOX+ One Romania",
     "sources": {
       "streams": [
-        "https://s2.netstreaming.eu/hd365.m3u8"
+        "https://nosignal1.antenaplay.ro/hls/fb-one-sd/index.m3u8"
       ]
     },
     "languages": [
@@ -393,11 +378,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "hWlowLrwkzswqF",
-    "name": "Hunedoara 1",
+    "nanoid": "lhCxqE1AXbE8qH",
+    "name": "HD365 TV",
     "sources": {
       "streams": [
-        "https://netstreaming.eu/hd1.m3u8"
+        "https://s2.netstreaming.eu/hd365.m3u8"
       ]
     },
     "languages": [
@@ -496,6 +481,20 @@
     "sources": {
       "streams": [
         "https://stream1.kanald.ro/iphone/knd-live.m3u8"
+      ]
+    },
+    "languages": [
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "3hq4NpWZFKw05F",
+    "name": "Kiss TV",
+    "sources": {
+      "streams": [
+        "https://tv.broadcasting.ro/kisstv/a629c031-2170-4ee9-a36d-87a891aa3131.m3u8"
       ]
     },
     "languages": [
@@ -626,6 +625,20 @@
     },
     "languages": [
       "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "aG4Gj0k7P3YW2z",
+    "name": "Party Mix",
+    "sources": {
+      "streams": [
+        "https://hls02ns.antenaplay.ro/hls/party-mix-hd/index.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
     ],
     "country": "ro",
     "isGeoBlocked": false
@@ -763,6 +776,20 @@
     "sources": {
       "streams": [
         "https://jstre.am/live/jsl:2gNjpghXRLE.m3u8"
+      ]
+    },
+    "languages": [
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Uvcll90KSqDPmB",
+    "name": "Taraf TV",
+    "sources": {
+      "streams": [
+        "https://hls02ns.antenaplay.ro/hls/taraf-tv-sd/index.m3u8"
       ]
     },
     "languages": [
@@ -917,6 +944,34 @@
     "sources": {
       "streams": [
         "https://tvr-craiova.lg.mncdn.com/tvrcraiova/smil:tvrcraiova.smil/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AgdBh1G6zjQQ1P",
+    "name": "TVR Cultural",
+    "sources": {
+      "streams": [
+        "https://tvr-cultural.lg.mncdn.com/tvrcultural/smil:tvrcultural.smil/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "pZ7DVIEngrRQGF",
+    "name": "TVR Folclor",
+    "sources": {
+      "streams": [
+        "https://tvr-folclor.lg.mncdn.com/tvrfolclor/smil:tvrfolclor.smil/playlist.m3u8"
       ]
     },
     "languages": [

@@ -42,5 +42,33 @@
     ],
     "country": "tn",
     "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AtEof85QR5byYd",
+    "name": "Watania Replay",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/M8IlNiDZcQc"
+      ]
+    },
+    "languages": [
+      "ara"
+    ],
+    "country": "tn",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "QMsKW2NGa9ux0Z",
+    "name": "Watania2 Replay",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/TK9w_gXFUkM"
+      ]
+    },
+    "languages": [
+      "ara"
+    ],
+    "country": "tn",
+    "isGeoBlocked": false
   }
 ]
