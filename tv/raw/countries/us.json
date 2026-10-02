@@ -12980,6 +12980,20 @@
     "isGeoBlocked": true
   },
   {
+    "nanoid": "VppRKoQ9SEkSX9",
+    "name": "Roar",
+    "sources": {
+      "streams": [
+        "https://fast-channels.sinclairstoryline.com/TBD/index.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "RbKIwggePiyBce",
     "name": "Roku Sports Channel",
     "sources": {

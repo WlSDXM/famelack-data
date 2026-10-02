@@ -53477,6 +53477,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "ZBrkRLlKR8dvbe",
+    "name": "NSTV",
+    "sources": {
+      "streams": [
+        "https://vcp3.myplaytv.com/nstv/nstv/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "co",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "3KT5yHhVtK3z0L",
     "name": "NTA Live",
     "sources": {
@@ -64844,6 +64858,20 @@
     "languages": [],
     "country": "us",
     "isGeoBlocked": true
+  },
+  {
+    "nanoid": "VppRKoQ9SEkSX9",
+    "name": "Roar",
+    "sources": {
+      "streams": [
+        "https://fast-channels.sinclairstoryline.com/TBD/index.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
   },
   {
     "nanoid": "ANI4hASUhHAk6D",
