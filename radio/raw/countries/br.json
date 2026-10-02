@@ -4818,6 +4818,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "LPhhJkzP9EfiMW",
+    "name": "Rádio Boas Novas Trindade",
+    "sources": {
+      "streams": [
+        "https://clicstma1.clicradio.com.br:6676/stream"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "BiX16e0Y0PgmTY",
     "name": "Rádio Bons Ventos 107.3 FM",
     "sources": {
