@@ -230,6 +230,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "JCokef05ozWI8Y",
+    "name": "Balapan International",
+    "sources": {
+      "streams": [
+        "https://live-3.otcnet.ru/Balapan/index.m3u8"
+      ]
+    },
+    "languages": [
+      "kaz"
+    ],
+    "country": "kz",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "cGjSaev20uBBta",
     "name": "Banijay Mr Bean Animé",
     "sources": {
@@ -374,6 +388,7 @@
     "name": "Carousel",
     "sources": {
       "streams": [
+        "https://flussonic.linkintel.ru/Karusel/index.m3u8",
         "https://stream.smotrim.ru/hls2/karusel/playlist_3.m3u8",
         "https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8"
       ]
@@ -396,6 +411,20 @@
       "rus"
     ],
     "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "lSTW1dzY0A0GTW",
+    "name": "Cartoon Classics FAST",
+    "sources": {
+      "streams": [
+        "https://daiconnect.com/live/hls/tvup/rk-cartoonclassics/578f4b7eb725168349ec0af81b21d388/index.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "pl",
     "isGeoBlocked": false
   },
   {
@@ -1143,6 +1172,20 @@
     "isGeoBlocked": true
   },
   {
+    "nanoid": "xx5fSvkMwtXOAg",
+    "name": "HodHod Farsi TV",
+    "sources": {
+      "streams": [
+        "https://northtelecom.b-cdn.net/hodhodtv.m3u8"
+      ]
+    },
+    "languages": [
+      "fas"
+    ],
+    "country": "ir",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "gfaamDst89W7kn",
     "name": "Horrid Henry",
     "sources": {
@@ -1184,6 +1227,20 @@
       "fra"
     ],
     "country": "be",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "EDJsRoJArkwgcL",
+    "name": "Jetix",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/98LAmRIN1fM"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
     "isGeoBlocked": false
   },
   {
@@ -1242,6 +1299,20 @@
       "urd"
     ],
     "country": "pk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "0xr9dDKplwszmy",
+    "name": "Kids TV",
+    "sources": {
+      "streams": [
+        "https://origin5.mediacdn.ru/live/kidstv/index.m3u8"
+      ]
+    },
+    "languages": [
+      "ind"
+    ],
+    "country": "id",
     "isGeoBlocked": false
   },
   {
@@ -1564,6 +1635,7 @@
     "name": "Mult",
     "sources": {
       "streams": [
+        "https://flussonic.linkintel.ru/Mult/index.m3u8",
         "https://stream8.cinerama.uz/1246/tracks-v1a1/mono.m3u8"
       ]
     },
@@ -1593,8 +1665,8 @@
     "name": "Multilandia",
     "sources": {
       "streams": [
-        "https://stream8.cinerama.uz/1440/tracks-v1a1/mono.m3u8",
-        "https://fs.uplink.kz/multilandia/mono.m3u8?token=onlinetv"
+        "https://fs.uplink.kz/multilandia/mono.m3u8?token=onlinetv",
+        "https://stream8.cinerama.uz/1440/tracks-v1a1/mono.m3u8"
       ]
     },
     "languages": [
@@ -1703,6 +1775,20 @@
       "por"
     ],
     "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "eyL4xvR1sE1phq",
+    "name": "Nicktoons",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/TjFtoYmgYVE"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -1906,7 +1992,7 @@
     "name": "Peppa Pig Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/jIgwARXfydQ"
+        "https://www.youtube-nocookie.com/embed/qfKz2A5FxZU"
       ]
     },
     "languages": [
@@ -2597,6 +2683,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "YCPZsdEDhEaJOB",
+    "name": "TRT Cocuk",
+    "sources": {
+      "streams": [
+        "https://tv-trtcocuk.medya.trt.com.tr/master.m3u8"
+      ]
+    },
+    "languages": [
+      "tur"
+    ],
+    "country": "tr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "aIKbRpQHmkkXLq",
     "name": "TRT Diyanet Cocuk",
     "sources": {
@@ -2672,8 +2772,8 @@
     "name": "V gostyakh u skazki",
     "sources": {
       "streams": [
-        "https://stream8.cinerama.uz/1270/tracks-v1a1/mono.m3u8",
-        "https://fs.uplink.kz/v_gostyah_u_skazki/mono.m3u8?token=onlinetv"
+        "https://fs.uplink.kz/v_gostyah_u_skazki/mono.m3u8?token=onlinetv",
+        "https://stream8.cinerama.uz/1270/tracks-v1a1/mono.m3u8"
       ]
     },
     "languages": [

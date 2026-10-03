@@ -226,14 +226,46 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "WJxJB7lKSKz27v",
-    "name": "Rakuten TV Romance Movies Finland",
+    "nanoid": "agkvvLgzKzCtyK",
+    "name": "Rakuten TV Action Movies Finland",
     "sources": {
       "streams": [
-        "https://romance-rakuten-tv-fi.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6744/master.m3u8"
+        "https://bca5a421a70c46ad911efd0a4767c4bf.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6075/master.m3u8"
       ]
     },
-    "languages": [],
+    "languages": [
+      "eng",
+      "fin"
+    ],
+    "country": "fi",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "lty82UiRI2k0Dc",
+    "name": "Rakuten TV Nordic Films Finland",
+    "sources": {
+      "streams": [
+        "https://4aa9ef08b70d4b0c8f3519c5950b1930.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6303/master.m3u8"
+      ]
+    },
+    "languages": [
+      "fin"
+    ],
+    "country": "fi",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "CECa40HPlHGlAI",
+    "name": "Rakuten TV Top Movies Finland",
+    "sources": {
+      "streams": [
+        "https://1d1b0d4cb6ae4c31985d13221795695b.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6057/master.m3u8"
+      ]
+    },
+    "languages": [
+      "eng",
+      "fin"
+    ],
     "country": "fi",
     "isGeoBlocked": false
   },
@@ -268,7 +300,8 @@
     "name": "Yle Teema & Fem",
     "sources": {
       "streams": [
-        "https://yletvworld.akamaized.net/hls/live/622547/yletvteemafemw/index.m3u8"
+        "https://yletvworld.akamaized.net/hls/live/622547/yletvteemafemw/index.m3u8",
+        "https://live-fi.tvkaista.net/yle-teema-fem/live.m3u8"
       ]
     },
     "languages": [
@@ -297,7 +330,8 @@
     "name": "Yle TV2",
     "sources": {
       "streams": [
-        "https://yletvworld.akamaized.net/hls/live/622541/yletv2w/index.m3u8"
+        "https://yletvworld.akamaized.net/hls/live/622541/yletv2w/index.m3u8",
+        "https://live-fi.tvkaista.net/yle-tv2/live.m3u8"
       ]
     },
     "languages": [

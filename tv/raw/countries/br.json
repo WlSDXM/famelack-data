@@ -14,6 +14,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "wjGP3n4DkSPVQ1",
+    "name": "Amazon Sat",
+    "sources": {
+      "streams": [
+        "https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "K0FRmHrggxRl0x",
     "name": "Araruna TV",
     "sources": {
@@ -248,7 +262,7 @@
     "name": "CNN Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Xah1ieqSsFs"
+        "https://www.youtube-nocookie.com/embed/LA0uYOr-ILU"
       ]
     },
     "languages": [
@@ -385,6 +399,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "zCrJeuAQK2v5dx",
+    "name": "ElyTV",
+    "sources": {
+      "streams": [
+        "https://stmv1.srvsite.com/ely/ely/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "vTgAI9VGNp0y8I",
     "name": "EUTV",
     "sources": {
@@ -503,6 +531,20 @@
     "sources": {
       "streams": [
         "https://igrejamundial.nuvemplay.live/hls/stream.m3u8"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Kqr3JHbCw7DAtR",
+    "name": "ISTV",
+    "sources": {
+      "streams": [
+        "https://stmv1.srvstm.com/sistema7933/sistema7933/playlist.m3u8"
       ]
     },
     "languages": [
@@ -713,7 +755,7 @@
     "name": "Peppa Pig Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/jIgwARXfydQ"
+        "https://www.youtube-nocookie.com/embed/qfKz2A5FxZU"
       ]
     },
     "languages": [
@@ -741,7 +783,7 @@
     "name": "PJ Masks Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/na_ojSHIVxQ"
+        "https://www.youtube-nocookie.com/embed/tiM8m5NzT7w"
       ]
     },
     "languages": [
@@ -828,7 +870,7 @@
         "https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ff8AWQj-FU0"
+        "https://www.youtube-nocookie.com/embed/y3R1Wv2veWA"
       ]
     },
     "languages": [
@@ -985,6 +1027,20 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/Ev7S88X9jLI"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "O8tFJhKTZ0GylR",
+    "name": "Santa Cruz Feira Digital",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/hBJf0oA6YsE"
       ]
     },
     "languages": [
@@ -1223,7 +1279,7 @@
     "name": "TV Assembleia Minas Gerais",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/kP68Zwggnek"
+        "https://www.youtube-nocookie.com/embed/eECIR-63QhU"
       ]
     },
     "languages": [
@@ -1320,8 +1376,25 @@
     "nanoid": "eNtixsVkVoQMqL",
     "name": "TV Cancao Nova",
     "sources": {
+      "streams": [
+        "https://5c65286fc6ace.streamlock.net/cancaonova/CancaoNova.stream_720p/playlist.m3u8"
+      ],
       "youtube": [
         "https://www.youtube-nocookie.com/embed/4rlROXfqkto"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ZGv2yrRi6TGWoZ",
+    "name": "TV Cidade Verde Cuiaba",
+    "sources": {
+      "streams": [
+        "https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8"
       ]
     },
     "languages": [
@@ -1828,6 +1901,20 @@
     "sources": {
       "streams": [
         "https://umatv.nuvemplay.live/hls/stream.m3u8"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "7UeLUueVRqvHR1",
+    "name": "Unisul TV",
+    "sources": {
+      "streams": [
+        "https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8?token="
       ]
     },
     "languages": [

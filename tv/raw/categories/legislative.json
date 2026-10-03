@@ -157,20 +157,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "rNsPk0ZuXHne3A",
-    "name": "Canal Parlamento",
-    "sources": {
-      "streams": [
-        "https://congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/master.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "zjs8fScsFVoj7q",
     "name": "Canal Parlamento del Congreso de Jalisco",
     "sources": {
@@ -577,6 +563,99 @@
       "eng"
     ],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "xupLUhlUhMmQst",
+    "name": "Duma TV",
+    "sources": {
+      "streams": [
+        "https://dumatv.iptv2022.com/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "xdokYBHmV0ZqHz",
+    "name": "EbS",
+    "sources": {
+      "streams": [
+        "https://streams.prd.commavservices.eu/live/ebs/index.m3u8"
+      ]
+    },
+    "languages": [
+      "bul",
+      "ces",
+      "dan",
+      "deu",
+      "ell",
+      "eng",
+      "est",
+      "fin",
+      "fra",
+      "gle",
+      "hrv",
+      "hun",
+      "ita",
+      "lav",
+      "lit",
+      "mlt",
+      "nld",
+      "pol",
+      "por",
+      "ron",
+      "slk",
+      "slv",
+      "spa",
+      "swe",
+      "ukr"
+    ],
+    "country": "be",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "uV9cHG9Bbd3pt9",
+    "name": "EbS+",
+    "sources": {
+      "streams": [
+        "https://streams.prd.commavservices.eu/live/ebsplus/index.m3u8"
+      ]
+    },
+    "languages": [
+      "bos",
+      "bul",
+      "ces",
+      "dan",
+      "deu",
+      "ell",
+      "eng",
+      "est",
+      "fin",
+      "fra",
+      "gle",
+      "hrv",
+      "hun",
+      "ita",
+      "lav",
+      "lit",
+      "mkd",
+      "mlt",
+      "nld",
+      "pol",
+      "por",
+      "ron",
+      "slk",
+      "slv",
+      "spa",
+      "sqi",
+      "srp",
+      "swe"
+    ],
+    "country": "be",
     "isGeoBlocked": false
   },
   {
@@ -1238,7 +1317,7 @@
     "name": "TV Assembleia Minas Gerais",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/kP68Zwggnek"
+        "https://www.youtube-nocookie.com/embed/eECIR-63QhU"
       ]
     },
     "languages": [

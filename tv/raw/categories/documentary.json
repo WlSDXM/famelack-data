@@ -4,8 +4,8 @@
     "name": "365 days TV",
     "sources": {
       "streams": [
-        "https://stream8.cinerama.uz/1242/tracks-v1a1/mono.m3u8",
-        "https://fs.uplink.kz/365_dney/mono.m3u8?token=onlinetv"
+        "https://fs.uplink.kz/365_dney/mono.m3u8?token=onlinetv",
+        "https://stream8.cinerama.uz/1242/tracks-v1a1/mono.m3u8"
       ]
     },
     "languages": [
@@ -89,7 +89,8 @@
     "name": "Backstage",
     "sources": {
       "streams": [
-        "https://d2ah48mnofquik.cloudfront.net/Backstage.m3u8"
+        "https://d2ah48mnofquik.cloudfront.net/Backstage.m3u8",
+        "https://fuse-backstage-xumo.amagi.tv/playlist.m3u8"
       ]
     },
     "languages": [
@@ -271,9 +272,9 @@
     "name": "Court TV",
     "sources": {
       "streams": [
-        "https://content.uplynk.com/channel/6c0bd0f94b1d4526a98676e9699a10ef.m3u8",
         "https://aegis-cloudfront-1.tubi.video/661c498b-4af0-4ba9-ae1c-4081340ee085/playlist.m3u8",
-        "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-courttv-tablo/playlist.m3u8"
+        "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-courttv-tablo/playlist.m3u8",
+        "https://pb-2rv53xe17yzvq.akamaized.net/Court_TV_US.m3u8"
       ]
     },
     "languages": [
@@ -502,9 +503,9 @@
     "name": "History Hit",
     "sources": {
       "streams": [
+        "https://lds-timeline-plex.amagi.tv/playlist.m3u8",
         "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-timelinenz-samsungnz/playlist.m3u8",
-        "https://ldsaaaaaa-timeline-samsungau-awedz.amagi.tv/playlist/ldsAAAAAA-timeline-samsungau/playlist.m3u8",
-        "https://timeline-samsung-uk.amagi.tv/playlist.m3u8"
+        "https://ldsaaaaaa-timeline-samsungau-awedz.amagi.tv/playlist/ldsAAAAAA-timeline-samsungau/playlist.m3u8"
       ]
     },
     "languages": [
@@ -836,6 +837,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "nWF8Imk61O9FuP",
+    "name": "Nauka",
+    "sources": {
+      "streams": [
+        "https://vod.tuva.ru/nauka2/index.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "5dGASmS4TNjspn",
     "name": "O'zbekiston Tarixi",
     "sources": {
@@ -875,6 +890,20 @@
       "fas"
     ],
     "country": "ir",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "C9r0nQTewOjHW3",
+    "name": "RL PRO TV",
+    "sources": {
+      "streams": [
+        "https://stream.berosat.live:19360/rlpro-tv/rlpro-tv.m3u8"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "cd",
     "isGeoBlocked": false
   },
   {
@@ -980,34 +1009,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ELDNWWv9rjJl60",
-    "name": "Viasat Explore",
-    "sources": {
-      "streams": [
-        "https://shift03.isp.bg/ViasatExplorer_HD/index.m3u8"
-      ]
-    },
-    "languages": [
-      "bul"
-    ],
-    "country": "bg",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "9qxiwyypjNrlXI",
-    "name": "Viasat History",
-    "sources": {
-      "streams": [
-        "https://shift03.isp.bg/ViasatHistory_HD/index.m3u8"
-      ]
-    },
-    "languages": [
-      "bul"
-    ],
-    "country": "bg",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "PfbaswQwxPL2la",
     "name": "Viasat History",
     "sources": {
@@ -1019,20 +1020,6 @@
       "ukr"
     ],
     "country": "ua",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "grL6LmvbHNpgqD",
-    "name": "Viasat Nature",
-    "sources": {
-      "streams": [
-        "https://shift03.isp.bg/ViasatNature_HD/index.m3u8"
-      ]
-    },
-    "languages": [
-      "bul"
-    ],
-    "country": "bg",
     "isGeoBlocked": false
   },
   {
@@ -1068,8 +1055,8 @@
     "name": "viju Nature",
     "sources": {
       "streams": [
-        "https://stream8.cinerama.uz/1228/tracks-v1a1/mono.m3u8",
-        "https://fs.uplink.kz/viju_nature/mono.m3u8?token=onlinetv"
+        "https://fs.uplink.kz/viju_nature/mono.m3u8?token=onlinetv",
+        "https://stream8.cinerama.uz/1228/tracks-v1a1/mono.m3u8"
       ]
     },
     "languages": [

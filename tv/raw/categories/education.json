@@ -300,8 +300,8 @@
     "name": "Da Vinci",
     "sources": {
       "streams": [
-        "https://stream8.cinerama.uz/1231/tracks-v1a1/mono.m3u8",
-        "https://fs.uplink.kz/da_vinci/mono.m3u8?token=onlinetv"
+        "https://fs.uplink.kz/da_vinci/mono.m3u8?token=onlinetv",
+        "https://stream8.cinerama.uz/1231/tracks-v1a1/mono.m3u8"
       ]
     },
     "languages": [
@@ -862,6 +862,20 @@
       "deu"
     ],
     "country": "de",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Kqr3JHbCw7DAtR",
+    "name": "ISTV",
+    "sources": {
+      "streams": [
+        "https://stmv1.srvstm.com/sistema7933/sistema7933/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
     "isGeoBlocked": false
   },
   {
@@ -1706,6 +1720,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "7UeLUueVRqvHR1",
+    "name": "Unisul TV",
+    "sources": {
+      "streams": [
+        "https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8?token="
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "cTLaqEd4P7Wdtu",
     "name": "UTalca TV",
     "sources": {
@@ -1759,6 +1787,20 @@
       "eng"
     ],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "JliijnACP4jH0u",
+    "name": "Wiki TV",
+    "sources": {
+      "streams": [
+        "https://stream.wikitv.asia/live/ngrp:myStream_all/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "khm"
+    ],
+    "country": "kh",
     "isGeoBlocked": false
   },
   {

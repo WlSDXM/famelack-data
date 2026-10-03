@@ -78,7 +78,7 @@
       "streams": [
         "https://mumt07.tangotv.in/zHjX9OFlAYUSHTV/index.m3u8",
         "https://cdn.pishow.tv/ott/live/221/master.m3u8",
-        "https://d1msejlow1t3l4.cloudfront.net/fta/ayushtv/playlist.m3u8"
+        "https://95eryw39dwn4-hls-live.wmncdn.net/Ayushu/271ddf829afeece44d8732757fba1a66.sdp/index.m3u8"
       ]
     },
     "languages": [
@@ -219,7 +219,6 @@
     "name": "CVR Health",
     "sources": {
       "streams": [
-        "https://mumbai-edge.smartplaytv.in/CVRHealth/index.m3u8",
         "https://cdn.pishow.tv/ott/live/395/master.m3u8"
       ]
     },
@@ -248,8 +247,8 @@
     "name": "Domashnie Zhivotnye",
     "sources": {
       "streams": [
-        "https://stream8.cinerama.uz/1426/tracks-v1a1/mono.m3u8",
-        "https://fs.uplink.kz/domashnie_zhivotnie/mono.m3u8?token=onlinetv"
+        "https://fs.uplink.kz/domashnie_zhivotnie/mono.m3u8?token=onlinetv",
+        "https://stream8.cinerama.uz/1426/tracks-v1a1/mono.m3u8"
       ]
     },
     "languages": [
@@ -263,8 +262,8 @@
     "name": "Domashniy",
     "sources": {
       "streams": [
-        "https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8",
-        "https://fs.uplink.kz/domashniy/mono.m3u8?token=onlinetv"
+        "https://fs.uplink.kz/domashniy/mono.m3u8?token=onlinetv",
+        "https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8"
       ]
     },
     "languages": [
@@ -506,7 +505,6 @@
     "name": "Kappa TV",
     "sources": {
       "streams": [
-        "https://cdn.pishow.tv/ott/live/1123/master.m3u8",
         "https://d1msejlow1t3l4.cloudfront.net/fta/kappatv/playlist.m3u8",
         "https://mumt03.tangotv.in/Dsly5z3HKAPPATV/index.m3u8"
       ]

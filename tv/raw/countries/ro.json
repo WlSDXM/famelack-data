@@ -168,6 +168,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "HHRin5dp3UTQFP",
+    "name": "Atomic TV",
+    "sources": {
+      "streams": [
+        "https://atomic.streamnet.ro/atomictv.m3u8"
+      ]
+    },
+    "languages": [
+      "eng",
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "nqC1XmTU0qJuuy",
     "name": "Bollywood Film",
     "sources": {
@@ -392,11 +407,39 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "hWlowLrwkzswqF",
+    "name": "Hunedoara 1",
+    "sources": {
+      "streams": [
+        "https://netstreaming.eu/hd1.m3u8"
+      ]
+    },
+    "languages": [
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "4ghiPmfhBHh5Ly",
     "name": "IasiTV Life",
     "sources": {
       "streams": [
         "https://tv.streambox.ro/hls/itv/index.m3u8"
+      ]
+    },
+    "languages": [
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "fuW5A0vOKHrbya",
+    "name": "Impact TV",
+    "sources": {
+      "streams": [
+        "https://live.tvimpact.ro:8088/hevc/index.m3u8"
       ]
     },
     "languages": [
@@ -467,6 +510,20 @@
     "sources": {
       "streams": [
         "https://informatia.streamnet.ro/mobile_tv/informatiatv.m3u8"
+      ]
+    },
+    "languages": [
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "E9smyEh0BaQpif",
+    "name": "JOB TV",
+    "sources": {
+      "streams": [
+        "https://jobtvserver.eu/hls/stream.m3u8"
       ]
     },
     "languages": [
@@ -706,20 +763,6 @@
     "sources": {
       "streams": [
         "https://media.3netmedia.ro/hls/stream.m3u8"
-      ]
-    },
-    "languages": [
-      "ron"
-    ],
-    "country": "ro",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "BEYVH24fbdnqEV",
-    "name": "Radio Romania Antena Satelor 720p",
-    "sources": {
-      "streams": [
-        "https://stream3.srr.ro/live/AntenaSatelor/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1056,6 +1099,20 @@
     "sources": {
       "streams": [
         "https://tvr-timisoara.lg.mncdn.com/tvrtimisoara/smil:tvrtimisoara.smil/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "wEoUUNJpcYsZs6",
+    "name": "Z-TV",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/uH0unc_duVk"
       ]
     },
     "languages": [

@@ -84,6 +84,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "NhoKBaIrwHYilw",
+    "name": "Nex TV Canal 21",
+    "sources": {
+      "streams": [
+        "https://movil.ejeserver.com/live/nextv.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "pa",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "EpThPpEKHWt4bo",
     "name": "Pindin TV",
     "sources": {

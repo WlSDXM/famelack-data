@@ -154,6 +154,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "z9NmlAa4TNcIbD",
+    "name": "BAMOS TV",
+    "sources": {
+      "streams": [
+        "https://video2.getstreamhosting.com:19360/8092/8092.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "GYpj19hD6m2qFh",
     "name": "California Medios TV",
     "sources": {
@@ -494,20 +508,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "yk5LuaS8jCla7l",
-    "name": "Imagen Multicast",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/9kRVnoUm2-Q"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "H2v2IuCk1UWQxA",
     "name": "Imagen TV",
     "sources": {
@@ -518,18 +518,6 @@
     "languages": [
       "spa"
     ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "dQroYObAPsPIjO",
-    "name": "Imagen TV+",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/EMbEbRPUwqc"
-      ]
-    },
-    "languages": [],
     "country": "mx",
     "isGeoBlocked": false
   },
@@ -688,11 +676,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "9fFngorHQ4qnSy",
-    "name": "Popcorn Central",
+    "nanoid": "esFtoFYJpw3jIu",
+    "name": "Nueve TV",
     "sources": {
       "streams": [
-        "https://oly-ftvpc.otteravision.com/oly/ftvpc/ftvpc.m3u8"
+        "https://5ca9af4645e15.streamlock.net/nuevetv/videonuevetv/.m3u8"
       ]
     },
     "languages": [
@@ -702,11 +690,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "DKHLUT1IqpMkXM",
-    "name": "Presumiendo Mexico",
+    "nanoid": "9fFngorHQ4qnSy",
+    "name": "Popcorn Central",
     "sources": {
       "streams": [
-        "https://60417ddeaf0d9.streamlock.net/telemetrika/smil:telemetrika.smil/playlist.m3u8"
+        "https://oly-ftvpc.otteravision.com/oly/ftvpc/ftvpc.m3u8"
       ]
     },
     "languages": [
@@ -871,6 +859,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "arUwONnDyiIo6o",
+    "name": "Tele Yucatan",
+    "sources": {
+      "streams": [
+        "https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": true
+  },
+  {
     "nanoid": "248WyVmGTSntgh",
     "name": "Telediario Guadalajara",
     "sources": {
@@ -956,6 +958,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "V9bf7FdY5Rbg5t",
+    "name": "Televisa Guerrero",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/QxC4VAwc-ZQ"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "pTFEVIhFVG7hq3",
     "name": "Televisa Laguna",
     "sources": {
@@ -988,7 +1004,7 @@
     "name": "Televisa Monterrey",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ZefGXEernq0"
+        "https://www.youtube-nocookie.com/embed/7bPyP1zVX34"
       ]
     },
     "languages": [
@@ -1002,7 +1018,7 @@
     "name": "Televisa Piedras Negras",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ID5DWvpY2XE"
+        "https://www.youtube-nocookie.com/embed/mvmfdJgO7K0"
       ]
     },
     "languages": [
@@ -1115,20 +1131,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/I6dXiqc1K_U"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "nvgVlQtD4CwYJb",
-    "name": "Televisa Zacatecas",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/9FSihI2isas"
       ]
     },
     "languages": [
@@ -1494,6 +1496,20 @@
     "sources": {
       "streams": [
         "https://s5.mexside.net:1936/xhbzc81/xhbzc81/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "5ui7ntXYkuTwXW",
+    "name": "XHFGL-TDT",
+    "sources": {
+      "streams": [
+        "https://stream.ontvmx.com/ontv/Wn3jgo4UYNSmwRDIev/playlist.m3u8"
       ]
     },
     "languages": [

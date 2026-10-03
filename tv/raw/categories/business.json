@@ -136,9 +136,6 @@
     "sources": {
       "streams": [
         "https://biznestv.az/hls/live.m3u8"
-      ],
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/6jkhtzmwZ_U"
       ]
     },
     "languages": [
@@ -166,6 +163,7 @@
     "name": "Bloomberg HT",
     "sources": {
       "streams": [
+        "https://tv.ensonhaber.com/bloomberght/bloomberght.m3u8",
         "https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8"
       ]
     },
@@ -493,6 +491,20 @@
       "kor"
     ],
     "country": "kr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "E9smyEh0BaQpif",
+    "name": "JOB TV",
+    "sources": {
+      "streams": [
+        "https://jobtvserver.eu/hls/stream.m3u8"
+      ]
+    },
+    "languages": [
+      "ron"
+    ],
+    "country": "ro",
     "isGeoBlocked": false
   },
   {

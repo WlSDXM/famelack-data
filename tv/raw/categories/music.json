@@ -276,6 +276,35 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "d5k9RHTOOkIzsq",
+    "name": "A2i Music",
+    "sources": {
+      "streams": [
+        "https://stream.sen-gt.com/A2iMusic/myStream/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "fra",
+      "wol"
+    ],
+    "country": "sn",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AkH8avUBkXTLm9",
+    "name": "Aaryaa TV",
+    "sources": {
+      "streams": [
+        "https://stream.ottlive.co.in/aryatvtamil/index.m3u8"
+      ]
+    },
+    "languages": [
+      "tam"
+    ],
+    "country": "in",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "W4BjJOWor1EINM",
     "name": "ACE Country Radio KPVM-LD",
     "sources": {
@@ -528,6 +557,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "HHRin5dp3UTQFP",
+    "name": "Atomic TV",
+    "sources": {
+      "streams": [
+        "https://atomic.streamnet.ro/atomictv.m3u8"
+      ]
+    },
+    "languages": [
+      "eng",
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "FuTnPCDlGaBjIO",
     "name": "Audiokiss",
     "sources": {
@@ -746,7 +790,7 @@
     "name": "Botflix aiTV: Pleasant Programming",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/hH4ZuPROigM"
+        "https://www.youtube-nocookie.com/embed/_EyDmPH9vq0"
       ]
     },
     "languages": [
@@ -760,7 +804,7 @@
     "name": "Botflix aiTV: Robot Radioo",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/yHa3UE-KJpg"
+        "https://www.youtube-nocookie.com/embed/nXHXjiuOWJY"
       ]
     },
     "languages": [
@@ -774,7 +818,7 @@
     "name": "Botflix aiTV: VH010",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/G8W7x5L21ZQ"
+        "https://www.youtube-nocookie.com/embed/qw6AJsMAGfw"
       ]
     },
     "languages": [
@@ -873,6 +917,7 @@
     "name": "California Music Channel",
     "sources": {
       "streams": [
+        "https://cmc-kowdtv.amagi.tv/playlist.m3u8",
         "https://cmc-ono.amagi.tv/hls/amagi_hls_data_cmcAAAAAA-cmc-ono/CDN/playlist.m3u8"
       ]
     },
@@ -950,20 +995,6 @@
       "spa"
     ],
     "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "BN8UK0JlgAMrEm",
-    "name": "City Eden Birma Play",
-    "sources": {
-      "streams": [
-        "https://cityeden.catcast.tv/content/34364/index.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
     "isGeoBlocked": false
   },
   {
@@ -1374,20 +1405,6 @@
       "spa"
     ],
     "country": "py",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "hXfBIFtewHiUsg",
-    "name": "DM Sat",
-    "sources": {
-      "streams": [
-        "https://shift03.isp.bg/DMSat/index.m3u8"
-      ]
-    },
-    "languages": [
-      "srp"
-    ],
-    "country": "rs",
     "isGeoBlocked": false
   },
   {
@@ -2099,6 +2116,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "fuW5A0vOKHrbya",
+    "name": "Impact TV",
+    "sources": {
+      "streams": [
+        "https://live.tvimpact.ro:8088/hevc/index.m3u8"
+      ]
+    },
+    "languages": [
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "EvSDojdoPxNbtZ",
     "name": "Impact TV 2",
     "sources": {
@@ -2308,20 +2339,6 @@
       "isl"
     ],
     "country": "is",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "MIcJy2C1jnLtEJ",
-    "name": "KandelaTV",
-    "sources": {
-      "streams": [
-        "https://streamtv.intervenhosting.net:3718/live/kandelamedioslive.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ve",
     "isGeoBlocked": false
   },
   {
@@ -2634,6 +2651,20 @@
       "por"
     ],
     "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Ztcv27i6GrEiFD",
+    "name": "Lausitzwelle",
+    "sources": {
+      "streams": [
+        "https://h056.video-stream-hosting.de/easycast11-live/_definst_/mp4:livestreamhd2/playlist.m3u8?ref="
+      ]
+    },
+    "languages": [
+      "deu"
+    ],
+    "country": "de",
     "isGeoBlocked": false
   },
   {
@@ -3383,9 +3414,9 @@
     "name": "Muz-TV",
     "sources": {
       "streams": [
+        "https://fs.uplink.kz/muz_tv/mono.m3u8?token=onlinetv",
         "https://stream8.cinerama.uz/1200/tracks-v1a1/mono.m3u8",
-        "https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8",
-        "https://fs.uplink.kz/muz_tv/mono.m3u8?token=onlinetv"
+        "https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8"
       ]
     },
     "languages": [
@@ -3498,8 +3529,8 @@
     "name": "NEW K-POP",
     "sources": {
       "streams": [
-        "https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=USAJ3000013FJ&channel_id=newid_338&tp=samsung_tvplus",
-        "https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=GB17000088V&channel_id=newid_086&tp=samsung_tvplus"
+        "https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=GB17000088V&channel_id=newid_086&tp=samsung_tvplus",
+        "https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=USAJ3000013FJ&channel_id=newid_338&tp=samsung_tvplus"
       ]
     },
     "languages": [
@@ -4693,20 +4724,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Qw8OveH5NJ4HC0",
-    "name": "Radio Piter Pan TV",
-    "sources": {
-      "streams": [
-        "https://58d921499d3d3.streamlock.net/RadioPiterpanTV/livestream/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "ita"
-    ],
-    "country": "it",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "0Q65nmLivj4KoN",
     "name": "Radio Pudahuel",
     "sources": {
@@ -4740,20 +4757,6 @@
     "sources": {
       "streams": [
         "https://media.3netmedia.ro/hls/stream.m3u8"
-      ]
-    },
-    "languages": [
-      "ron"
-    ],
-    "country": "ro",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "BEYVH24fbdnqEV",
-    "name": "Radio Romania Antena Satelor 720p",
-    "sources": {
-      "streams": [
-        "https://stream3.srr.ro/live/AntenaSatelor/playlist.m3u8"
       ]
     },
     "languages": [
@@ -5110,8 +5113,8 @@
     "name": "Ritoque TV",
     "sources": {
       "streams": [
-        "https://v2.tustreaming.cl/unetev/index.m3u8",
-        "https://streaming.purum.cl/ritoquetv/index.m3u8"
+        "https://streaming.purum.cl/ritoquetv/index.m3u8",
+        "https://v2.tustreaming.cl/unetev/index.m3u8"
       ]
     },
     "languages": [
@@ -5279,8 +5282,8 @@
     "name": "RU.TV",
     "sources": {
       "streams": [
-        "https://stream8.cinerama.uz/1202/tracks-v1a1/mono.m3u8",
-        "https://fs.uplink.kz/RuTV/mono.m3u8?token=onlinetv"
+        "https://fs.uplink.kz/RuTV/mono.m3u8?token=onlinetv",
+        "https://stream8.cinerama.uz/1202/tracks-v1a1/mono.m3u8"
       ]
     },
     "languages": [
@@ -5354,8 +5357,8 @@
     "sources": {
       "streams": [
         "https://cdn.pishow.tv/ott/live/1143/master.m3u8",
-        "https://tvsen6.aynaott.com/hT5jHczt/index.m3u8",
-        "https://mumt05.tangotv.in/87NeALx2SANGEETBANGLA/index.m3u8"
+        "https://mumt05.tangotv.in/87NeALx2SANGEETBANGLA/index.m3u8",
+        "https://tvsen6.aynaott.com/hT5jHczt/index.m3u8"
       ]
     },
     "languages": [
@@ -5428,6 +5431,7 @@
     "sources": {
       "streams": [
         "https://streaming.thestream.cyou/live/7009.m3u8",
+        "https://catchup.videoline.ru/shanson/index.m3u8",
         "https://fs.uplink.kz/shanson/mono.m3u8?token=onlinetv"
       ]
     },
@@ -7084,7 +7088,7 @@
     "name": "Urbana Play 104.3 FM",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Lge_zEpLAK0"
+        "https://www.youtube-nocookie.com/embed/poxBshOovDw"
       ]
     },
     "languages": [

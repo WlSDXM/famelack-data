@@ -255,6 +255,9 @@
     "nanoid": "wvAfxSiJHCHWj1",
     "name": "Channel8",
     "sources": {
+      "streams": [
+        "https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8"
+      ],
       "youtube": [
         "https://www.youtube-nocookie.com/embed/o-YQjT-yqPc"
       ]

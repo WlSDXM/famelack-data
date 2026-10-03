@@ -33,7 +33,7 @@
     "name": "24 News HD",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/l1ddjb07aRY"
+        "https://www.youtube-nocookie.com/embed/JvVxP87pkj4"
       ]
     },
     "languages": [
@@ -238,26 +238,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "SMZ90GrudLpWdN",
-    "name": "City 41",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Oyck9cLM06I"
-      ]
-    },
-    "languages": [
-      "eng",
-      "urd"
-    ],
-    "country": "pk",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "31gXYfahdLzHPd",
     "name": "City 42",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ea94UwzVxJc"
+        "https://www.youtube-nocookie.com/embed/6eSB70t7-LE"
       ]
     },
     "languages": [
@@ -477,6 +462,20 @@
     },
     "languages": [
       "eng"
+    ],
+    "country": "pk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "v05zRUt0wtjOm3",
+    "name": "God Stands TV Hindi",
+    "sources": {
+      "streams": [
+        "https://online.godstands.tv:5443/WebRTCApp/streams/HindiStreaming.m3u8"
+      ]
+    },
+    "languages": [
+      "hin"
     ],
     "country": "pk",
     "isGeoBlocked": false
@@ -968,34 +967,6 @@
       ],
       "youtube": [
         "https://www.youtube-nocookie.com/embed/MLDQM0QL_-4"
-      ]
-    },
-    "languages": [
-      "urd"
-    ],
-    "country": "pk",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "3iCM6TWrro0iqg",
-    "name": "Sindh TV News",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/rCpbQOOiEzw"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "pk",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "WXuOh2YwSDNDLT",
-    "name": "Sky News Urdu",
-    "sources": {
-      "streams": [
-        "https://lbgo.bozztv.com/ssh101/ssh101/skynews/playlist.m3u8"
       ]
     },
     "languages": [

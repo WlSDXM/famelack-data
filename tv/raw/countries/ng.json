@@ -14,6 +14,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "mnVBWlVT6nGvWt",
+    "name": "Africa Independent Television",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/8MHdppsJJyg"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ng",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "gZ1nRlS0xe1gmU",
     "name": "AMusic Channel",
     "sources": {
@@ -239,20 +253,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "HUxeirBEJ9XVlF",
-    "name": "News Central",
-    "sources": {
-      "streams": [
-        "https://wf.newscentral.ng:8443/hls/stream.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "ng",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "DGyLo10RdXeXNy",
     "name": "News Central TV",
     "sources": {
@@ -425,7 +425,7 @@
     "name": "TrustTV News",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/GyiwEPX7t7M"
+        "https://www.youtube-nocookie.com/embed/TcrKSZ6qYns"
       ]
     },
     "languages": [
@@ -478,11 +478,39 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "UgWTds4qowCm7J",
+    "name": "Waffi TV",
+    "sources": {
+      "streams": [
+        "https://oqgdro3xd4rm-hls-live.5centscdn.com/WaffiTVlive/bee606369574f5d5b051ed5399091798.sdp/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ng",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "XBCn7LG1vDEDMn",
     "name": "Wazobia Max TV Nigeria",
     "sources": {
       "streams": [
         "https://wazobia.live:8333/channel/wmax.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ng",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "bmxTZy6nlmaoMM",
+    "name": "Wazobia Max TV Port-Harcourt",
+    "sources": {
+      "streams": [
+        "https://wazobia.live:8333/channel/wmaxph.m3u8"
       ]
     },
     "languages": [

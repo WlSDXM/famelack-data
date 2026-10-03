@@ -463,6 +463,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "8VadQ9bvVXyzrj",
+    "name": "Intuitiva TV",
+    "sources": {
+      "streams": [
+        "https://video2.lhdserver.es/cableperu/live.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "pe",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "UjSZg1tYKKZuy2",
     "name": "JN 19",
     "sources": {
@@ -714,6 +728,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "zJfNt7gPSar8fv",
+    "name": "NZK Television",
+    "sources": {
+      "streams": [
+        "https://eu1.servers10.com:8081/8258/index.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "pe",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "zXicYaSu58NdOA",
     "name": "ONDA DIGITAL",
     "sources": {
@@ -925,6 +953,34 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "3qgnWAKQV0prTA",
+    "name": "Senal Peru TV",
+    "sources": {
+      "streams": [
+        "https://livestream.perucast.com/hls/stream.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "pe",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Zh2LPdg7e5WVXA",
+    "name": "Siscom TV",
+    "sources": {
+      "streams": [
+        "https://video2.lhdserver.es/siscomtv/live.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "pe",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "uycnDk5RgNSyIc",
     "name": "Solar Television",
     "sources": {
@@ -1110,6 +1166,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "nXrcWfZsttDQtv",
+    "name": "TV MAR",
+    "sources": {
+      "streams": [
+        "https://live-evg11.tv360.bitel.com.pe/bitel/tvmarSRT/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "pe",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "U0xG42x0mE1GTr",
     "name": "TV Peruanisima",
     "sources": {
@@ -1269,20 +1339,6 @@
     "sources": {
       "streams": [
         "https://live.obslivestream.com/vivatv/index.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "pe",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "sAN5lqkNeMhvi8",
-    "name": "VNP",
-    "sources": {
-      "streams": [
-        "https://videoserver.tmcreativos.com:19360/visionnoticias/visionnoticias.m3u8"
       ]
     },
     "languages": [

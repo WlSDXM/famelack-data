@@ -272,6 +272,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "RMJta2uB0RhiFk",
+    "name": "Channel One",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/p3zWBI52Vw4"
+      ]
+    },
+    "languages": [
+      "fas"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "h25WUyBe4528fW",
     "name": "Channel S",
     "sources": {
@@ -1141,17 +1155,17 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "DKHLUT1IqpMkXM",
-    "name": "Presumiendo Mexico",
+    "nanoid": "V3b7nvXml8zERG",
+    "name": "Paci Contemporary Channel",
     "sources": {
       "streams": [
-        "https://60417ddeaf0d9.streamlock.net/telemetrika/smil:telemetrika.smil/playlist.m3u8"
+        "https://5f22d76e220e1.streamlock.net/pacicontemporarychannel/pacicontemporarychannel/playlist.m3u8"
       ]
     },
     "languages": [
-      "spa"
+      "ita"
     ],
-    "country": "mx",
+    "country": "it",
     "isGeoBlocked": false
   },
   {
@@ -1242,9 +1256,9 @@
     "name": "Russia-K",
     "sources": {
       "streams": [
+        "https://fs.uplink.kz/rossia_k/mono.m3u8?token=onlinetv",
         "https://stream8.cinerama.uz/1048/tracks-v1a1/mono.m3u8",
-        "https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8",
-        "https://fs.uplink.kz/rossia_k/mono.m3u8?token=onlinetv"
+        "https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8"
       ]
     },
     "languages": [
@@ -1467,34 +1481,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "BpkMtsoRspK7u5",
-    "name": "TRT Genc",
-    "sources": {
-      "streams": [
-        "https://tv-trtgenc.medya.trt.com.tr/master.m3u8"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": true
-  },
-  {
-    "nanoid": "46bhWZVm1EdjmB",
-    "name": "TV Cartago Digital",
-    "sources": {
-      "streams": [
-        "https://video2.getstreamhosting.com:19360/8110/8110.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "cr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "cWWftSEuzr59Qo",
     "name": "TV Cuatro 4.2",
     "sources": {
@@ -1632,6 +1618,20 @@
       "spa"
     ],
     "country": "bo",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "7UeLUueVRqvHR1",
+    "name": "Unisul TV",
+    "sources": {
+      "streams": [
+        "https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8?token="
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
     "isGeoBlocked": false
   },
   {

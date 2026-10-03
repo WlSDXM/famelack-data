@@ -72,7 +72,7 @@
     "name": "DGV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/KDrV9JdSP-M"
+        "https://www.youtube-nocookie.com/embed/HtUalZq5_SQ"
       ]
     },
     "languages": [
@@ -567,6 +567,20 @@
     },
     "languages": [
       "eng",
+      "vie"
+    ],
+    "country": "vn",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "so5fgKy39odQZy",
+    "name": "VSBet HD",
+    "sources": {
+      "streams": [
+        "https://live05.meung.app/live/16226575.m3u8"
+      ]
+    },
+    "languages": [
       "vie"
     ],
     "country": "vn",

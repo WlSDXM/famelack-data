@@ -173,6 +173,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "7UK6GTwohWhEMF",
+    "name": "Rakuten TV Family Movies Italy",
+    "sources": {
+      "streams": [
+        "https://3315fc3e7276420f895e19cf807dbee1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6215/master.m3u8"
+      ]
+    },
+    "languages": [
+      "ita"
+    ],
+    "country": "it",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "50AOLuz78mWfKm",
     "name": "RiC",
     "sources": {
@@ -220,9 +234,9 @@
     "name": "STS",
     "sources": {
       "streams": [
-        "https://flussonic.linkintel.ru/sts/index.m3u8",
         "https://tshift-1.telecoma.tv/sts/index.m3u8",
-        "https://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8"
+        "https://flussonic.linkintel.ru/sts/index.m3u8",
+        "https://fs.uplink.kz/sts/mono.m3u8?token=onlinetv"
       ]
     },
     "languages": [
@@ -236,8 +250,8 @@
     "name": "STS Love",
     "sources": {
       "streams": [
-        "https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8",
-        "https://fs.uplink.kz/sts_love/mono.m3u8?token=onlinetv"
+        "https://fs.uplink.kz/sts_love/mono.m3u8?token=onlinetv",
+        "https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8"
       ]
     },
     "languages": [

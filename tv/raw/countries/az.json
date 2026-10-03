@@ -48,7 +48,7 @@
         "https://rtmp.baku.tv/hls/bakutv.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/d1CmtdIp-_I"
+        "https://www.youtube-nocookie.com/embed/Cd9RtsMgicg"
       ]
     },
     "languages": [
@@ -63,9 +63,6 @@
     "sources": {
       "streams": [
         "https://biznestv.az/hls/live.m3u8"
-      ],
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/6jkhtzmwZ_U"
       ]
     },
     "languages": [

@@ -88,7 +88,21 @@
     "name": "Methmaga TV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/SV3wuf6sv_4"
+        "https://www.youtube-nocookie.com/embed/W2-veEY1cxQ"
+      ]
+    },
+    "languages": [
+      "sin"
+    ],
+    "country": "lk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "2kFmLsUZ8zPq3c",
+    "name": "Newsfirst Sri Lanka",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/r0GGVPJnBlg"
       ]
     },
     "languages": [
@@ -112,6 +126,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "PV4q0CxdmR4YKH",
+    "name": "Sathi TV",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/idYzfVaNnCQ"
+      ]
+    },
+    "languages": [
+      "sin"
+    ],
+    "country": "lk",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "0SpTszSqlrEPzD",
     "name": "Shakthi TV",
     "sources": {
@@ -121,6 +149,20 @@
     },
     "languages": [
       "tam"
+    ],
+    "country": "lk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "93ImfKCer0mJxB",
+    "name": "Siyatha TV",
+    "sources": {
+      "streams": [
+        "https://rtmp01.voaplus.com/hls/6x6ik312qk4grfxocfcv.m3u8"
+      ]
+    },
+    "languages": [
+      "sin"
     ],
     "country": "lk",
     "isGeoBlocked": false

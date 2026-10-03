@@ -170,6 +170,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "lSTW1dzY0A0GTW",
+    "name": "Cartoon Classics FAST",
+    "sources": {
+      "streams": [
+        "https://daiconnect.com/live/hls/tvup/rk-cartoonclassics/578f4b7eb725168349ec0af81b21d388/index.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "9IWJvqi8MKA5iX",
     "name": "Dr G Medical Examiner",
     "sources": {
@@ -413,6 +427,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "cVaJUABGdrFesO",
+    "name": "Radiowa Czworka",
+    "sources": {
+      "streams": [
+        "https://stream14.polskieradio.pl/pr4_video/video_pr4.stream/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "pol"
+    ],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "uro7Gvibaed6g8",
     "name": "Rakuten Viki Poland",
     "sources": {
@@ -529,7 +557,7 @@
     "name": "Telewizja Gorzów",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/aY6M3o1w8rE"
+        "https://www.youtube-nocookie.com/embed/SlP60KtMG_k"
       ]
     },
     "languages": [
@@ -712,8 +740,7 @@
     "name": "TV Puls",
     "sources": {
       "streams": [
-        "https://edge01.cdn.emitel.pl/bpk-tv/Puls_HD/hbbtv-hls/index.m3u8",
-        "https://lowa8026-cmyk.github.io/PL/PULSHD.php.m3u8"
+        "https://edge01.cdn.emitel.pl/bpk-tv/Puls_HD/hbbtv-hls/index.m3u8"
       ]
     },
     "languages": [
