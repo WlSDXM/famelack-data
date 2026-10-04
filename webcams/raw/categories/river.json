@@ -420,6 +420,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "SJbHB726vFJHsr",
+    "name": "Desembocadura Río Maipo",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/fBVJIU9Fd1Q"
+      ]
+    },
+    "languages": [],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Qil5wCpKXqbpSW",
     "name": "Detroit River",
     "sources": {
@@ -496,7 +508,7 @@
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/8O2AMxP8ZC0"
+        "https://www.youtube-nocookie.com/embed/Okzg7BZXJfM"
       ]
     },
     "languages": [],
@@ -988,7 +1000,7 @@
     "name": "Lensk Troyka",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4Uaxi5akPZA"
+        "https://www.youtube-nocookie.com/embed/LZtcropXJcc"
       ]
     },
     "languages": [],
@@ -1540,7 +1552,7 @@
     "name": "Osprey Nest Loch of the Lowes",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/UIP_AZjsbio"
+        "https://www.youtube-nocookie.com/embed/b23Ia0NZ0P8"
       ]
     },
     "languages": [],
@@ -1644,6 +1656,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "wYi26bqQ0e6yrF",
+    "name": "Parque Padre Hurtado",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/_Y5FihsDz6Y"
+      ]
+    },
+    "languages": [],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "vLDqq0TeLOOg06",
     "name": "Pigeon River Hartford",
     "sources": {
@@ -1744,7 +1768,7 @@
     "name": "Puente Gral Belgrano",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/0slml84lKZU"
+        "https://www.youtube-nocookie.com/embed/8KQHToUjndw"
       ]
     },
     "languages": [],

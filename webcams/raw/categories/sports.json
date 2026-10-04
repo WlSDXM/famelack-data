@@ -84,18 +84,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "lyke9TwT1fOOz4",
-    "name": "Buffalo Bills Highmark Stadium",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/VaTQqAIRu5Y"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "1S821EyUM9geky",
     "name": "Bullens Field Baseball Diamond",
     "sources": {
@@ -705,6 +693,18 @@
     },
     "languages": [],
     "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "YSR1rZuxNCkvpP",
+    "name": "Sportovní hala Lomnice nad Popelkou Squash Court",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/fPhcLeI78fo"
+      ]
+    },
+    "languages": [],
+    "country": "cz",
     "isGeoBlocked": false
   },
   {

@@ -792,6 +792,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "YSR1rZuxNCkvpP",
+    "name": "Sportovní hala Lomnice nad Popelkou Squash Court",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/fPhcLeI78fo"
+      ]
+    },
+    "languages": [],
+    "country": "cz",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "KYNVvyuw7kMtVy",
     "name": "Stachelberg Artillery Fortress",
     "sources": {
@@ -1073,18 +1085,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/gyrHO886lkc"
-      ]
-    },
-    "languages": [],
-    "country": "cz",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "DNHy7VhuKqPHKF",
-    "name": "Zlín Gahurova Street",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/bL_NrPuULQQ"
       ]
     },
     "languages": [],

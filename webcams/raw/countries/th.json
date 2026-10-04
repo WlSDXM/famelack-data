@@ -144,6 +144,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "tD25ygMGcluX7q",
+    "name": "Khao Lak",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/_eB6ew730jU"
+      ]
+    },
+    "languages": [],
+    "country": "th",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "NfrOztxEyUA1S8",
     "name": "Lamai Beach (Baobab)",
     "sources": {
@@ -161,6 +173,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/Fw9hgttWzIg"
+      ]
+    },
+    "languages": [],
+    "country": "th",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "atf046jZc6f8hn",
+    "name": "Mahatun Plaza Café & Ploenchit Street",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/qHSAOT2Si18"
       ]
     },
     "languages": [],
@@ -208,7 +232,7 @@
     "name": "Soi Buakhao Bar Strip",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/tTcaAGn1jyM"
+        "https://www.youtube-nocookie.com/embed/d9ymQ-xBGn8"
       ]
     },
     "languages": [],

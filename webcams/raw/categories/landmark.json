@@ -264,18 +264,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "lyke9TwT1fOOz4",
-    "name": "Buffalo Bills Highmark Stadium",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/VaTQqAIRu5Y"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "8xSm1gasIJAnc1",
     "name": "Capilla Jesucristo Rey de la Paz",
     "sources": {
@@ -460,7 +448,7 @@
     "name": "Dashmesh Culture Centre, Calgary",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/bULuO1dCQDk"
+        "https://www.youtube-nocookie.com/embed/TCMFRze7HuE"
       ]
     },
     "languages": [],
@@ -497,6 +485,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/NeKZVw6-EGg"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "9FACMEW5P67m46",
+    "name": "Disney California Adventure",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Rg-EivyfHeI"
       ]
     },
     "languages": [],
@@ -616,7 +616,7 @@
     "name": "Faro Monumental de La Serena",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/XQk2uj_EI3g"
+        "https://www.youtube-nocookie.com/embed/xOeX3JiD2CI"
       ]
     },
     "languages": [],
@@ -676,7 +676,7 @@
     "name": "George Washington Bridge",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/IZROA8y5zGk"
+        "https://www.youtube-nocookie.com/embed/40F0870d9ok"
       ]
     },
     "languages": [],
@@ -760,7 +760,7 @@
     "name": "Holy Cave of Covadonga",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/S3Srqlq6idY"
+        "https://www.youtube-nocookie.com/embed/iV9-RSGOIY0"
       ]
     },
     "languages": [],
@@ -772,7 +772,7 @@
     "name": "Holy Dormition Pochaiv Lavra",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/fjJtUL1BZM4"
+        "https://www.youtube-nocookie.com/embed/CNcuUAV88QQ"
       ]
     },
     "languages": [],
@@ -832,7 +832,7 @@
     "name": "Jagannath Temple, Puri",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/_-q3Ys8_q38"
+        "https://www.youtube-nocookie.com/embed/GU3TWu76LV0"
       ]
     },
     "languages": [],
@@ -952,7 +952,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/bvQhk3je85s"
+        "https://www.youtube-nocookie.com/embed/gYlFa5LgKhk"
       ]
     },
     "languages": [],
@@ -1485,18 +1485,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "9L98fAfGL8rZuW",
-    "name": "Rainbow Bridge & Tokyo Bay Waterfront",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ZgBfSFluNXE"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
     "isGeoBlocked": false
   },
   {

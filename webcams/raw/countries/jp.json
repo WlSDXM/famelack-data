@@ -112,7 +112,7 @@
     "name": "Akabane Station",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/yDf8HoLrYbM"
+        "https://www.youtube-nocookie.com/embed/hEqTJJp6foM"
       ]
     },
     "languages": [],
@@ -336,6 +336,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "vFFQspTYv3dZYJ",
+    "name": "Beppu Bay",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Em22Cuoe8Pk"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "gFtKBH5M0QkpUW",
     "name": "Bise Beach",
     "sources": {
@@ -460,7 +472,7 @@
     "name": "Dotonbori Glico Sign",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/czJhGgFsp38"
+        "https://www.youtube-nocookie.com/embed/soT0yMSldwI"
       ]
     },
     "languages": [],
@@ -1152,6 +1164,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "ygzICpK2EFGhIq",
+    "name": "Kamakurakokomae Station Enoshima Coast View",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/VBb-yNFHi2c"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "b3tRMIiPq4LqcG",
     "name": "Kanazawa",
     "sources": {
@@ -1372,7 +1396,7 @@
     "name": "Kishamichi Promenade",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/hUD70Vurnv8"
+        "https://www.youtube-nocookie.com/embed/9gDMWeqy0U0"
       ]
     },
     "languages": [],
@@ -1385,18 +1409,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/_HZDjlfTuvQ"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "zgpd5HGU9oauEb",
-    "name": "Kitashinchi Hontori Darling Building",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/1na-ORGC1P8"
       ]
     },
     "languages": [],
@@ -1900,7 +1912,7 @@
     "name": "Meitetsu Tokoname Line Ono-machi",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/DlwCXDj7A50"
+        "https://www.youtube-nocookie.com/embed/nUAtL8vCePc"
       ]
     },
     "languages": [],
@@ -2916,6 +2928,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "3ctMbXqjRorhOr",
+    "name": "Osaka Umeda",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/tZOnHOpBJfg"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "dD7IFVCIBSzENM",
     "name": "Oshino Ninja Village",
     "sources": {
@@ -3048,18 +3072,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "9L98fAfGL8rZuW",
-    "name": "Rainbow Bridge & Tokyo Bay Waterfront",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ZgBfSFluNXE"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "VNDuoOcUHCbt91",
     "name": "Rainbow Bridge & Tokyo Bay Waterfront",
     "sources": {
@@ -3168,18 +3180,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "C6TB0IyOi1f9sx",
-    "name": "Sakurajima Volcano",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/c4o2HemaM68"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "wyDoQyXt7BuLvc",
     "name": "Sakurajima Volcano B Close-up",
     "sources": {
@@ -3280,7 +3280,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/76crHS1ddKQ"
+        "https://www.youtube-nocookie.com/embed/5A468SwvcNA"
       ]
     },
     "languages": [],
@@ -3844,7 +3844,7 @@
     "name": "Tanukikoji Shopping St, Sapporo",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Gyn8efd2Jv8"
+        "https://www.youtube-nocookie.com/embed/UQBED1DREUE"
       ]
     },
     "languages": [],
@@ -4361,6 +4361,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/zRT3miyL4YA"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "zksIE4hqOnZgb8",
+    "name": "Zaimokuza Beach and Yuigahama Beach",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Z9Q9akr7QSE"
       ]
     },
     "languages": [],

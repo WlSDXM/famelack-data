@@ -544,7 +544,7 @@
     "name": "Hawick High Street",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/YNG5lk-5Be8"
+        "https://www.youtube-nocookie.com/embed/z4A_wOJS-uY"
       ]
     },
     "languages": [],
@@ -665,18 +665,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/T09aQp1CqBI"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "A34J6I9JAkdPG6",
-    "name": "London Heathrow Airport",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/TJXBqKpbvDU"
       ]
     },
     "languages": [],
@@ -832,7 +820,7 @@
     "name": "Osprey Nest Loch of the Lowes",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/UIP_AZjsbio"
+        "https://www.youtube-nocookie.com/embed/b23Ia0NZ0P8"
       ]
     },
     "languages": [],
@@ -845,6 +833,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/YIo_pnH0LzY"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "CBAReGMw5BTayb",
+    "name": "Overcombe Beach on Weymouth Bay",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/2eQlFsurl-s"
       ]
     },
     "languages": [],
@@ -972,6 +972,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "HvrkA5MLpkq9I5",
+    "name": "Saltwater Shack, Greenhill Beach",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/-kEGYQcdeXQ"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "eZoGdD3J2dD8xY",
     "name": "Salty Cottage Cam, Back Beach",
     "sources": {
@@ -1025,6 +1037,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/succ1fhHm7I"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ClKu69bwEV83Tw",
+    "name": "Seaton Beach Seafront",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/JHcdPeDozGI"
       ]
     },
     "languages": [],
@@ -1212,6 +1236,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "dDXA46id0bRc92",
+    "name": "Swim Cafe Beach & Seafront",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/zqVnJDJIBgA"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "69EfdGWc5pq5dV",
     "name": "Teign Estuary",
     "sources": {
@@ -1336,7 +1372,7 @@
     "name": "West Kirby Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/_dkUFXnGJBU"
+        "https://www.youtube-nocookie.com/embed/YjbP_dzX8HI"
       ]
     },
     "languages": [],
@@ -1469,6 +1505,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/rKDXSNTCMDU"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "6xIO0aQq2gycLx",
+    "name": "Weymouth Beach at Cactus Tea Rooms",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/oKHp1joZDMU"
       ]
     },
     "languages": [],

@@ -72,6 +72,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "SJbHB726vFJHsr",
+    "name": "Desembocadura Río Maipo",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/fBVJIU9Fd1Q"
+      ]
+    },
+    "languages": [],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "oQ2glqO93BY6XT",
     "name": "El Quisco Beach",
     "sources": {
@@ -100,7 +112,7 @@
     "name": "Faro Monumental de La Serena",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/XQk2uj_EI3g"
+        "https://www.youtube-nocookie.com/embed/xOeX3JiD2CI"
       ]
     },
     "languages": [],
@@ -125,6 +137,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/hHA-j1eAAbs"
+      ]
+    },
+    "languages": [],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "wYi26bqQ0e6yrF",
+    "name": "Parque Padre Hurtado",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/_Y5FihsDz6Y"
       ]
     },
     "languages": [],

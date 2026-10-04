@@ -22,5 +22,17 @@
     "languages": [],
     "country": "cn",
     "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ZmE4ARyWTYqLlp",
+    "name": "Hong Kong Skyline",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Fwr8lBTaBtE"
+      ]
+    },
+    "languages": [],
+    "country": "cn",
+    "isGeoBlocked": false
   }
 ]

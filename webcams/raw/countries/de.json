@@ -288,6 +288,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "0KsydDsZ6VXIFd",
+    "name": "Freiburg Airport",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/bGdSeuuWkDE"
+      ]
+    },
+    "languages": [],
+    "country": "de",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "BbvWHgu1Q31FR2",
     "name": "Freilassing Train Station",
     "sources": {
@@ -497,6 +509,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/HZjgxHtNWoQ"
+      ]
+    },
+    "languages": [],
+    "country": "de",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "fa2f3XDySPAjX5",
+    "name": "Monheim am Rhein",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/OWdN8VW5aZk"
       ]
     },
     "languages": [],
@@ -773,6 +797,30 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/dAHJivjQHlU"
+      ]
+    },
+    "languages": [],
+    "country": "de",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "1k4vt0ImBVj9k6",
+    "name": "Wasserkuppe Panorama East",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/gNsQznBP7ec"
+      ]
+    },
+    "languages": [],
+    "country": "de",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "7AzllOM1huVRyc",
+    "name": "Wasserkuppe Rhön Panorama West",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/YUKf-_iZyU4"
       ]
     },
     "languages": [],

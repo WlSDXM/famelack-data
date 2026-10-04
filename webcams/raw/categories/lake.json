@@ -208,7 +208,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/PxiEi-DsJWs"
+        "https://www.youtube-nocookie.com/embed/rzf2qsOVVW4"
       ]
     },
     "languages": [],
@@ -813,18 +813,6 @@
     },
     "languages": [],
     "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "vd1dd4UJ6HTlzq",
-    "name": "McLear’s Cottage Colony, Black Lake",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/pJFDQ_wP4mk"
-      ]
-    },
-    "languages": [],
-    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -1473,6 +1461,18 @@
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "KIXJG5xMwow84v",
+    "name": "Trpejca, Lake Ohrid",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/nzahvkroIvg"
+      ]
+    },
+    "languages": [],
+    "country": "mk",
     "isGeoBlocked": false
   },
   {

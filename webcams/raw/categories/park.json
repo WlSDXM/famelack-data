@@ -204,18 +204,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "JY5X1jo7Ik5vCz",
-    "name": "Chapultepec Park Panorama",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/slUf-ZofEHE"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "zpemTIQwTCoNrg",
     "name": "Charme Theater-Camping Privé",
     "sources": {
@@ -712,7 +700,7 @@
     "name": "Lensk Troyka",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4Uaxi5akPZA"
+        "https://www.youtube-nocookie.com/embed/LZtcropXJcc"
       ]
     },
     "languages": [],
@@ -1065,6 +1053,18 @@
     },
     "languages": [],
     "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "wYi26bqQ0e6yrF",
+    "name": "Parque Padre Hurtado",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/_Y5FihsDz6Y"
+      ]
+    },
+    "languages": [],
+    "country": "cl",
     "isGeoBlocked": false
   },
   {

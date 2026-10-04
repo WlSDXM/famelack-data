@@ -276,6 +276,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "WkXgMe4hK2fSdO",
+    "name": "Balneário Camboriú Avenida Atlântica (North)",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/tu4SJ3qNLO4"
+      ]
+    },
+    "languages": [],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "xS00ovD2JTLXYP",
     "name": "Bankerohan Market Area",
     "sources": {
@@ -345,6 +357,18 @@
     },
     "languages": [],
     "country": "rs",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "vFFQspTYv3dZYJ",
+    "name": "Beppu Bay",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Em22Cuoe8Pk"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
     "isGeoBlocked": false
   },
   {
@@ -424,7 +448,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/PxiEi-DsJWs"
+        "https://www.youtube-nocookie.com/embed/rzf2qsOVVW4"
       ]
     },
     "languages": [],
@@ -856,7 +880,7 @@
     "name": "George Washington Bridge",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/IZROA8y5zGk"
+        "https://www.youtube-nocookie.com/embed/40F0870d9ok"
       ]
     },
     "languages": [],
@@ -1029,6 +1053,18 @@
     },
     "languages": [],
     "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "5nshBQgNGApYfX",
+    "name": "Heidrich’s Colorado Tree Farm and Nursery Monument",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Ser61JnI_Ds"
+      ]
+    },
+    "languages": [],
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -1305,6 +1341,18 @@
     },
     "languages": [],
     "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "tD25ygMGcluX7q",
+    "name": "Khao Lak",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/_eB6ew730jU"
+      ]
+    },
+    "languages": [],
+    "country": "th",
     "isGeoBlocked": false
   },
   {
@@ -1968,6 +2016,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "3ctMbXqjRorhOr",
+    "name": "Osaka Umeda",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/tZOnHOpBJfg"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "5b19pV31ztaSO2",
     "name": "Paseo de la Reforma",
     "sources": {
@@ -2164,7 +2224,7 @@
     "name": "Piedras Negras Cam 1",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/bALOmlcN0Q4"
+        "https://www.youtube-nocookie.com/embed/23wIvdFwOW4"
       ]
     },
     "languages": [],
@@ -2668,7 +2728,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/76crHS1ddKQ"
+        "https://www.youtube-nocookie.com/embed/5A468SwvcNA"
       ]
     },
     "languages": [],
@@ -2980,7 +3040,7 @@
     "name": "Sunny Isles Beach Intracoastal",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/NJOmMUrsP6w"
+        "https://www.youtube-nocookie.com/embed/7JFUkIlavsg"
       ]
     },
     "languages": [],
@@ -3376,7 +3436,7 @@
     "name": "Villa María Weather Camera",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/D5CTomhS6-4"
+        "https://www.youtube-nocookie.com/embed/1N_B6pS1EFg"
       ]
     },
     "languages": [],
@@ -3609,18 +3669,6 @@
     },
     "languages": [],
     "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "DNHy7VhuKqPHKF",
-    "name": "Zlín Gahurova Street",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/bL_NrPuULQQ"
-      ]
-    },
-    "languages": [],
-    "country": "cz",
     "isGeoBlocked": false
   },
   {

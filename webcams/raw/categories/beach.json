@@ -36,18 +36,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "gWJpvrwv2nPg9C",
-    "name": "Acapulco Bay Skyline Panorama",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/xWvJ0NnNnU4"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "RfMHXwj6TKJDxP",
     "name": "Acqualina Beach",
     "sources": {
@@ -225,6 +213,18 @@
     },
     "languages": [],
     "country": "gr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Z5SkDlbL7rk5OI",
+    "name": "Arraial do Cabo",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/g2q2ggJAvEM"
+      ]
+    },
+    "languages": [],
+    "country": "br",
     "isGeoBlocked": false
   },
   {
@@ -444,6 +444,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "WkXgMe4hK2fSdO",
+    "name": "Balneário Camboriú Avenida Atlântica (North)",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/tu4SJ3qNLO4"
+      ]
+    },
+    "languages": [],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "oQtc0BTOT2Y8Dd",
     "name": "Balneário Rincão Beachfront",
     "sources": {
@@ -520,7 +532,7 @@
     "name": "Beach Bar & Seaside Promenade",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Zmh6LMXCQcg"
+        "https://www.youtube-nocookie.com/embed/AnQRM1q16kc"
       ]
     },
     "languages": [],
@@ -665,18 +677,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/ABRrwDe5Hho"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "yWPwdCfb6vIyR5",
-    "name": "Boardwalk, Atlantic City",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/vVyBOU9Huvo"
       ]
     },
     "languages": [],
@@ -1788,18 +1788,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "VUmQUCx0iVZWXS",
-    "name": "Evanston Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/d4SR0VQaSI0"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "IEiFEkw002rkbN",
     "name": "Fairmont Kea Lani Resort Beach",
     "sources": {
@@ -1828,7 +1816,7 @@
     "name": "Faro Monumental de La Serena",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/XQk2uj_EI3g"
+        "https://www.youtube-nocookie.com/embed/xOeX3JiD2CI"
       ]
     },
     "languages": [],
@@ -2080,7 +2068,7 @@
     "name": "Georgica Jetty",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/FNIJbQ1s8b4"
+        "https://www.youtube-nocookie.com/embed/YT7bNQlfMXM"
       ]
     },
     "languages": [],
@@ -2364,18 +2352,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ipbnDCCjbj69H6",
-    "name": "Higgins Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/cpdhaNUUge0"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "h1wch8EyoBHsW0",
     "name": "Hoek van Holland Beach Boulevard",
     "sources": {
@@ -2568,18 +2544,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "SYR0pehbOuteRx",
-    "name": "Hyatt Ziva Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/5boZ1Vw95OU"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "FjO3capfnKPPPi",
     "name": "Isla Mujeres Playa Norte",
     "sources": {
@@ -2769,6 +2733,18 @@
     },
     "languages": [],
     "country": "fi",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ygzICpK2EFGhIq",
+    "name": "Kamakurakokomae Station Enoshima Coast View",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/VBb-yNFHi2c"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
     "isGeoBlocked": false
   },
   {
@@ -3076,7 +3052,7 @@
     "name": "Le Morne",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/8D5fY5804eE"
+        "https://www.youtube-nocookie.com/embed/EEn3dI4BcyY"
       ]
     },
     "languages": [],
@@ -3413,18 +3389,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/2IQmpCXbOmM"
-      ]
-    },
-    "languages": [],
-    "country": "sx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Ru5O7fYl7iabDm",
-    "name": "Maho Beach Plane Spotting",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/NmAVzD1wg38"
       ]
     },
     "languages": [],
@@ -3888,18 +3852,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ix1bVSXN3cePKu",
-    "name": "Nicosia Sailing Club",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/skBBpAwQNvo"
-      ]
-    },
-    "languages": [],
-    "country": "cy",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "IGvJlijXClR3y7",
     "name": "Noordwijk Boulevard",
     "sources": {
@@ -4221,6 +4173,18 @@
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "CBAReGMw5BTayb",
+    "name": "Overcombe Beach on Weymouth Bay",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/2eQlFsurl-s"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
     "isGeoBlocked": false
   },
   {
@@ -4560,18 +4524,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "1D1zeWzRwZSfGU",
-    "name": "Pinamar Coast",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/sQfqxlZvVDQ"
-      ]
-    },
-    "languages": [],
-    "country": "ar",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "gbJdCF1A95baKG",
     "name": "Pink Shell Resort",
     "sources": {
@@ -4672,7 +4624,7 @@
     "name": "Playa de Las Canteras",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/WC3cxTsKQCQ"
+        "https://www.youtube-nocookie.com/embed/CaUeCd2T42A"
       ]
     },
     "languages": [],
@@ -4912,7 +4864,7 @@
     "name": "Pozo Izquierdo Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/TCmWi0sbApw"
+        "https://www.youtube-nocookie.com/embed/NOp-ylNLU0I"
       ]
     },
     "languages": [],
@@ -5056,7 +5008,7 @@
     "name": "Puente Gral Belgrano",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/0slml84lKZU"
+        "https://www.youtube-nocookie.com/embed/8KQHToUjndw"
       ]
     },
     "languages": [],
@@ -5484,6 +5436,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "HvrkA5MLpkq9I5",
+    "name": "Saltwater Shack, Greenhill Beach",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/-kEGYQcdeXQ"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "eZoGdD3J2dD8xY",
     "name": "Salty Cottage Cam, Back Beach",
     "sources": {
@@ -5865,6 +5829,18 @@
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ClKu69bwEV83Tw",
+    "name": "Seaton Beach Seafront",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/JHcdPeDozGI"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
     "isGeoBlocked": false
   },
   {
@@ -6501,6 +6477,18 @@
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "dDXA46id0bRc92",
+    "name": "Swim Cafe Beach & Seafront",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/zqVnJDJIBgA"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
     "isGeoBlocked": false
   },
   {
@@ -7240,7 +7228,7 @@
     "name": "West Kirby Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/_dkUFXnGJBU"
+        "https://www.youtube-nocookie.com/embed/YjbP_dzX8HI"
       ]
     },
     "languages": [],
@@ -7301,6 +7289,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/rKDXSNTCMDU"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "6xIO0aQq2gycLx",
+    "name": "Weymouth Beach at Cactus Tea Rooms",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/oKHp1joZDMU"
       ]
     },
     "languages": [],
@@ -7437,6 +7437,18 @@
     },
     "languages": [],
     "country": "fi",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "zksIE4hqOnZgb8",
+    "name": "Zaimokuza Beach and Yuigahama Beach",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Z9Q9akr7QSE"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
     "isGeoBlocked": false
   },
   {

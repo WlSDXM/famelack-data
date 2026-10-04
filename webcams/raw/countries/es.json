@@ -124,7 +124,7 @@
     "name": "Beach Bar & Seaside Promenade",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Zmh6LMXCQcg"
+        "https://www.youtube-nocookie.com/embed/AnQRM1q16kc"
       ]
     },
     "languages": [],
@@ -520,7 +520,7 @@
     "name": "Holy Cave of Covadonga",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/S3Srqlq6idY"
+        "https://www.youtube-nocookie.com/embed/iV9-RSGOIY0"
       ]
     },
     "languages": [],
@@ -797,6 +797,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/0Uk2YNT602M"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "6LRraIGrg0aKqt",
+    "name": "Madrigal de las Altas Torres",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/8DJyGfafYqw"
       ]
     },
     "languages": [],
@@ -1120,7 +1132,7 @@
     "name": "Playa de Las Canteras",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/WC3cxTsKQCQ"
+        "https://www.youtube-nocookie.com/embed/CaUeCd2T42A"
       ]
     },
     "languages": [],
@@ -1240,7 +1252,7 @@
     "name": "Pozo Izquierdo Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/TCmWi0sbApw"
+        "https://www.youtube-nocookie.com/embed/NOp-ylNLU0I"
       ]
     },
     "languages": [],

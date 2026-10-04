@@ -84,23 +84,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "1D1zeWzRwZSfGU",
-    "name": "Pinamar Coast",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/sQfqxlZvVDQ"
-      ]
-    },
-    "languages": [],
-    "country": "ar",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "rld5tc3FTwnwEw",
     "name": "Puente Gral Belgrano",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/0slml84lKZU"
+        "https://www.youtube-nocookie.com/embed/8KQHToUjndw"
       ]
     },
     "languages": [],
@@ -160,7 +148,7 @@
     "name": "Villa María Weather Camera",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/D5CTomhS6-4"
+        "https://www.youtube-nocookie.com/embed/1N_B6pS1EFg"
       ]
     },
     "languages": [],

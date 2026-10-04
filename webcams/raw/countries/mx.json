@@ -12,18 +12,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "gWJpvrwv2nPg9C",
-    "name": "Acapulco Bay Skyline Panorama",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/xWvJ0NnNnU4"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Feeq4HU6W3QT1n",
     "name": "Acapulco Marina & Santa Lucía Bay",
     "sources": {
@@ -173,18 +161,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/DqobR2HyJ14"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "JY5X1jo7Ik5vCz",
-    "name": "Chapultepec Park Panorama",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/slUf-ZofEHE"
       ]
     },
     "languages": [],
@@ -377,18 +353,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/paW4jp4oWfs"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "SYR0pehbOuteRx",
-    "name": "Hyatt Ziva Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/5boZ1Vw95OU"
       ]
     },
     "languages": [],
@@ -604,7 +568,7 @@
     "name": "Piedras Negras Cam 1",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/bALOmlcN0Q4"
+        "https://www.youtube-nocookie.com/embed/23wIvdFwOW4"
       ]
     },
     "languages": [],
@@ -737,6 +701,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/S2EdzALBofQ"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "nvMfFpZ13vnPk1",
+    "name": "Popocatépetl Volcano Amecameca",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Ef9igChXlHw"
       ]
     },
     "languages": [],
@@ -1001,6 +977,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/2TUh-2abWxA"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AqL3LGsvqra4m6",
+    "name": "Tlalpan Main Square and Government Palace",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/8wJJ9JDnw5M"
       ]
     },
     "languages": [],

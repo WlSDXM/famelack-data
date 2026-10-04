@@ -12,18 +12,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "gWJpvrwv2nPg9C",
-    "name": "Acapulco Bay Skyline Panorama",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/xWvJ0NnNnU4"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Feeq4HU6W3QT1n",
     "name": "Acapulco Marina & Santa Lucía Bay",
     "sources": {
@@ -1332,6 +1320,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "SJbHB726vFJHsr",
+    "name": "Desembocadura Río Maipo",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/fBVJIU9Fd1Q"
+      ]
+    },
+    "languages": [],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Qil5wCpKXqbpSW",
     "name": "Detroit River",
     "sources": {
@@ -1408,7 +1408,7 @@
     "name": "Dotonbori Glico Sign",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/czJhGgFsp38"
+        "https://www.youtube-nocookie.com/embed/soT0yMSldwI"
       ]
     },
     "languages": [],
@@ -1576,7 +1576,7 @@
     "name": "Dunedin Otago Harbour",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/R-IGugbwz_k"
+        "https://www.youtube-nocookie.com/embed/n7y3_W1DOtM"
       ]
     },
     "languages": [],
@@ -1600,7 +1600,7 @@
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/8O2AMxP8ZC0"
+        "https://www.youtube-nocookie.com/embed/Okzg7BZXJfM"
       ]
     },
     "languages": [],
@@ -2325,6 +2325,18 @@
     },
     "languages": [],
     "country": "fr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ZmE4ARyWTYqLlp",
+    "name": "Hong Kong Skyline",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Fwr8lBTaBtE"
+      ]
+    },
+    "languages": [],
+    "country": "cn",
     "isGeoBlocked": false
   },
   {
@@ -3156,18 +3168,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "vd1dd4UJ6HTlzq",
-    "name": "McLear’s Cottage Colony, Black Lake",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/pJFDQ_wP4mk"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "875yXyEZlzwiyy",
     "name": "Medulin",
     "sources": {
@@ -3573,18 +3573,6 @@
     },
     "languages": [],
     "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "ix1bVSXN3cePKu",
-    "name": "Nicosia Sailing Club",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/skBBpAwQNvo"
-      ]
-    },
-    "languages": [],
-    "country": "cy",
     "isGeoBlocked": false
   },
   {
@@ -5853,18 +5841,6 @@
     },
     "languages": [],
     "country": "fo",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "3gC5LAxVuRiBnu",
-    "name": "Valdez South Boat Harbor & Marina",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/nJixv_iK8LU"
-      ]
-    },
-    "languages": [],
-    "country": "us",
     "isGeoBlocked": false
   },
   {

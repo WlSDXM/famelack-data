@@ -180,18 +180,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "lyke9TwT1fOOz4",
-    "name": "Buffalo Bills Highmark Stadium",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/VaTQqAIRu5Y"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "LAUo04Vq75Oo9X",
     "name": "Bukit Jimbaran Panorama",
     "sources": {
@@ -245,6 +233,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/Fretabh_WhY"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "fiGA4pm1iRbi18",
+    "name": "Creve Coeur Airport",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/tRboH50RdG0"
       ]
     },
     "languages": [],
@@ -580,7 +580,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/44NecY2LlPM"
+        "https://www.youtube-nocookie.com/embed/EtjdSXTTu-M"
       ]
     },
     "languages": [],
@@ -1072,11 +1072,23 @@
     "name": "Villa María Weather Camera",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/D5CTomhS6-4"
+        "https://www.youtube-nocookie.com/embed/1N_B6pS1EFg"
       ]
     },
     "languages": [],
     "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "1k4vt0ImBVj9k6",
+    "name": "Wasserkuppe Panorama East",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/gNsQznBP7ec"
+      ]
+    },
+    "languages": [],
+    "country": "de",
     "isGeoBlocked": false
   },
   {
