@@ -1,17 +1,5 @@
 [
   {
-    "nanoid": "5kW4amB2IfzWDF",
-    "name": "Aeroporto de Navegantes",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/DTBgPSl_Fn4"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "752s78UcOxKNtu",
     "name": "Afogados da Ingazeira",
     "sources": {
@@ -276,23 +264,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "4ZCYAilt3GmE7O",
-    "name": "Centro Sobradinho RS",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/q82dJtLh1Vo"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "LQlT3Do4EjmGMK",
     "name": "Chapecó Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/aqNPmWpeP7I"
+        "https://www.youtube-nocookie.com/embed/4L7Jcx_PjoY"
       ]
     },
     "languages": [],
@@ -304,7 +280,7 @@
     "name": "Chapecó City Center",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/N-qiV6w3HmE"
+        "https://www.youtube-nocookie.com/embed/HVYH7HufNZ4"
       ]
     },
     "languages": [],
@@ -316,7 +292,7 @@
     "name": "Congonhas Airport Camera 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Of9pUDYFPHY"
+        "https://www.youtube-nocookie.com/embed/z5n9J6WHwSg"
       ]
     },
     "languages": [],
@@ -328,7 +304,7 @@
     "name": "Congonhas Airport Camera 3",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/soQtqrXqbZA"
+        "https://www.youtube-nocookie.com/embed/tuxXZB0ED-Q"
       ]
     },
     "languages": [],
@@ -436,7 +412,7 @@
     "name": "Galeão International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Uq89wkuSoUE"
+        "https://www.youtube-nocookie.com/embed/4tbXmvL35Wk"
       ]
     },
     "languages": [],
@@ -448,7 +424,7 @@
     "name": "Goio-Ên & Uruguay River",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/kxAOp8LBmvQ"
+        "https://www.youtube-nocookie.com/embed/J_320lhUuLA"
       ]
     },
     "languages": [],
@@ -508,7 +484,7 @@
     "name": "Guarulhos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/71OXdhqsCeY"
+        "https://www.youtube-nocookie.com/embed/J2APET7rDQM"
       ]
     },
     "languages": [],
@@ -520,7 +496,7 @@
     "name": "Guarulhos International Airport Runway 10L",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/29a0ikdYIX8"
+        "https://www.youtube-nocookie.com/embed/YSDdG6ielyk"
       ]
     },
     "languages": [],
@@ -532,7 +508,7 @@
     "name": "Guarulhos International Airport Runway 10R",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/5Vy2zDCifk0"
+        "https://www.youtube-nocookie.com/embed/JUsUyvmOJag"
       ]
     },
     "languages": [],
@@ -544,7 +520,7 @@
     "name": "Guarulhos International Airport Runway 28",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/XsD-ZztsaX8"
+        "https://www.youtube-nocookie.com/embed/4gKEEN9sxkU"
       ]
     },
     "languages": [],
@@ -816,30 +792,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "BRfXfK6WMsmEQs",
-    "name": "Recife Airport",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/MtVEizjmxz0"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "I1OmF6x7jo0ppF",
-    "name": "Recife Airport",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/qEq_mrAgFcs"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "S00sxg6TqmnYjM",
     "name": "Salgado Filho Airport",
     "sources": {
@@ -928,7 +880,7 @@
     "name": "Santos Dumont Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/bf2tJDQtCbw"
+        "https://www.youtube-nocookie.com/embed/UfRehSBQBhI"
       ]
     },
     "languages": [],
@@ -1036,7 +988,7 @@
     "name": "Viracopos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/fE--sMlSkOI"
+        "https://www.youtube-nocookie.com/embed/HLCSEoHuH_o"
       ]
     },
     "languages": [],

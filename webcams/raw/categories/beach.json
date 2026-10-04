@@ -768,18 +768,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "6VWGv0QqMtmoRC",
-    "name": "Breathless Cancún Soul Beach & Pier",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Kp9gH_N7wdE"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "wbu2GouSUTSj2d",
     "name": "Broad Haven Beach & Seafront",
     "sources": {
@@ -2064,18 +2052,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "AI3uhNZ6ZF76gP",
-    "name": "Georgica Jetty",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/YT7bNQlfMXM"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "DwkRGHbyaCNVnG",
     "name": "Global Surf Cam Network",
     "sources": {
@@ -2097,18 +2073,6 @@
     },
     "languages": [],
     "country": "mt",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "e59XKm2HrzNTOA",
-    "name": "Grace Bay Beach from Villa Renaissance",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/shNgEojhTK4"
-      ]
-    },
-    "languages": [],
-    "country": "tc",
     "isGeoBlocked": false
   },
   {
@@ -3052,7 +3016,7 @@
     "name": "Le Morne",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/EEn3dI4BcyY"
+        "https://www.youtube-nocookie.com/embed/jERKslx1zwQ"
       ]
     },
     "languages": [],
@@ -3389,6 +3353,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/2IQmpCXbOmM"
+      ]
+    },
+    "languages": [],
+    "country": "sx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Ru5O7fYl7iabDm",
+    "name": "Maho Beach Plane Spotting",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/XDoKSM369-4"
       ]
     },
     "languages": [],
@@ -3852,6 +3828,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "ix1bVSXN3cePKu",
+    "name": "Nicosia Sailing Club",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/TtePjPKq2q0"
+      ]
+    },
+    "languages": [],
+    "country": "cy",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "IGvJlijXClR3y7",
     "name": "Noordwijk Boulevard",
     "sources": {
@@ -3909,18 +3897,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "tq3h3PKDZVY1uq",
-    "name": "Nuevo Vallarta Panorama",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ik2vJBU1Se8"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
     "isGeoBlocked": false
   },
   {
@@ -4624,7 +4600,7 @@
     "name": "Playa de Las Canteras",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/CaUeCd2T42A"
+        "https://www.youtube-nocookie.com/embed/kyinoji2axA"
       ]
     },
     "languages": [],
@@ -6732,18 +6708,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "m36C7cxtd2DdUN",
-    "name": "The Empress Miramar Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ZoPnPXNdKAw"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "aj3jfHECoC5b3k",
     "name": "The Enclave Orange Beach",
     "sources": {
@@ -6777,18 +6741,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "jsqp85rEr1LcFS",
-    "name": "The Landing Beach Bar Cane Bay",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/bm_-L6felME"
-      ]
-    },
-    "languages": [],
-    "country": "vi",
     "isGeoBlocked": false
   },
   {
@@ -7228,7 +7180,7 @@
     "name": "West Kirby Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/YjbP_dzX8HI"
+        "https://www.youtube-nocookie.com/embed/ZynismUbyMQ"
       ]
     },
     "languages": [],

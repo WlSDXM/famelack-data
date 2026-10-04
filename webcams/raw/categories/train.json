@@ -60,6 +60,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "VPZTpyIoLmKrWl",
+    "name": "Alliance Railcam at the Grade Crossing",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/WutCg15eZ4M"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "jHTR2m3TbdpoFN",
     "name": "Amersfoort Railcam",
     "sources": {
@@ -1704,18 +1716,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "tORVsj7WoOyT19",
-    "name": "Illinois Railway Museum",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/DgrpMwwG7c0"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "y9qRNS0KL0NJTw",
     "name": "Illinois Railway Museum Barn 9",
     "sources": {
@@ -1757,6 +1757,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/n4Bq93iw92c"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "zeCx8NySlQk8Em",
+    "name": "Illinois Railway Museum Spaulding",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/9qGrJh0NbD4"
       ]
     },
     "languages": [],
@@ -2332,7 +2344,7 @@
     "name": "Meitetsu Tokoname Line Ono-machi",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/nUAtL8vCePc"
+        "https://www.youtube-nocookie.com/embed/eWf9dHAypnI"
       ]
     },
     "languages": [],
@@ -2488,7 +2500,7 @@
     "name": "Mount Pleasant Coffee Depot Railcam",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/g7Le4p8jyTU"
+        "https://www.youtube-nocookie.com/embed/2raya-ESaig"
       ]
     },
     "languages": [],
@@ -2589,18 +2601,6 @@
     },
     "languages": [],
     "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "4WOl403de6kbbe",
-    "name": "Necedah Railcam",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/-f4m0xQSCwc"
-      ]
-    },
-    "languages": [],
-    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -3208,7 +3208,7 @@
     "name": "San Diego Rail",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/RVfkZaWsgFM"
+        "https://www.youtube-nocookie.com/embed/h5qA5PvCjJk"
       ]
     },
     "languages": [],

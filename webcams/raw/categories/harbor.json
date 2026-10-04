@@ -600,18 +600,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "6VWGv0QqMtmoRC",
-    "name": "Breathless Cancún Soul Beach & Pier",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Kp9gH_N7wdE"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Km9lAU8XJ0SHJv",
     "name": "Brewster's Bait & Tackle Back Channel",
     "sources": {
@@ -1576,7 +1564,7 @@
     "name": "Dunedin Otago Harbour",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/n7y3_W1DOtM"
+        "https://www.youtube-nocookie.com/embed/b8h-ce9LiEk"
       ]
     },
     "languages": [],
@@ -1600,7 +1588,7 @@
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Okzg7BZXJfM"
+        "https://www.youtube-nocookie.com/embed/HLRrSxAbfi0"
       ]
     },
     "languages": [],
@@ -3576,6 +3564,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "ix1bVSXN3cePKu",
+    "name": "Nicosia Sailing Club",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/TtePjPKq2q0"
+      ]
+    },
+    "languages": [],
+    "country": "cy",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "dKGnfcBqcjnVcs",
     "name": "Nieuwe Waterweg",
     "sources": {
@@ -3796,7 +3796,7 @@
     "name": "Parry Sound Town Dock",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/MNWhcycTkjQ"
+        "https://www.youtube-nocookie.com/embed/r0niSbJm4jY"
       ]
     },
     "languages": [],
@@ -4932,18 +4932,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "QUqVnt7igVnfmu",
-    "name": "Šilo Lučica",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/RBgr7q9DtPI"
-      ]
-    },
-    "languages": [],
-    "country": "hr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "XtW1NEbF50u86U",
     "name": "Silver Bay Marina Harbor",
     "sources": {
@@ -4996,7 +4984,7 @@
     "name": "Skiathos Bay & Port",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/LdTrLp4iQmg"
+        "https://www.youtube-nocookie.com/embed/vYRHcCUetr4"
       ]
     },
     "languages": [],
@@ -6412,7 +6400,7 @@
     "name": "Yokosuka Anjindai Tokyo Bay View",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/cxml56qWwP0"
+        "https://www.youtube-nocookie.com/embed/ob4ctpHiK58"
       ]
     },
     "languages": [],

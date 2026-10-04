@@ -184,7 +184,7 @@
     "name": "Akihabara Electric Town Crossing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Bhex8SfpYLQ"
+        "https://www.youtube-nocookie.com/embed/9w3por8E2uQ"
       ]
     },
     "languages": [],
@@ -748,7 +748,7 @@
     "name": "Baix Guinardó",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/LvcqyLiV2zo"
+        "https://www.youtube-nocookie.com/embed/d1Hqy8eNi9w"
       ]
     },
     "languages": [],
@@ -1632,6 +1632,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "EBidNxNN7kX596",
+    "name": "Castro Street",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/hjRY01AGmJo"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "zSm83nc9Ya1E75",
     "name": "Castro Street Cam 1",
     "sources": {
@@ -1649,6 +1661,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/zrzg0Lfe92U"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "b7Z7P4jg4mQzAs",
+    "name": "Castro Street, San Francisco",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/MasojgpniNE"
       ]
     },
     "languages": [],
@@ -1744,7 +1768,7 @@
     "name": "Chapecó City Center",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/N-qiV6w3HmE"
+        "https://www.youtube-nocookie.com/embed/HVYH7HufNZ4"
       ]
     },
     "languages": [],
@@ -1828,7 +1852,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/rzf2qsOVVW4"
+        "https://www.youtube-nocookie.com/embed/9Sk0Adnsiyc"
       ]
     },
     "languages": [],
@@ -2920,7 +2944,7 @@
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Okzg7BZXJfM"
+        "https://www.youtube-nocookie.com/embed/HLRrSxAbfi0"
       ]
     },
     "languages": [],
@@ -3213,18 +3237,6 @@
     },
     "languages": [],
     "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "fn3BNJZCUkuf7G",
-    "name": "Fredericton City Hall",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Be6hy2qta2o"
-      ]
-    },
-    "languages": [],
-    "country": "ca",
     "isGeoBlocked": false
   },
   {
@@ -4036,7 +4048,7 @@
     "name": "Hawick High Street",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/z4A_wOJS-uY"
+        "https://www.youtube-nocookie.com/embed/DotbbIAVnYk"
       ]
     },
     "languages": [],
@@ -5404,7 +5416,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/gYlFa5LgKhk"
+        "https://www.youtube-nocookie.com/embed/4CmnrvYqbD4"
       ]
     },
     "languages": [],
@@ -7344,18 +7356,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "tq3h3PKDZVY1uq",
-    "name": "Nuevo Vallarta Panorama",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ik2vJBU1Se8"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "9R2VsP4Qg37C2G",
     "name": "O-Train Bayview Station",
     "sources": {
@@ -7384,7 +7384,7 @@
     "name": "Obor Square",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/l7giA84Fgh4"
+        "https://www.youtube-nocookie.com/embed/hOFkFow_PTo"
       ]
     },
     "languages": [],
@@ -7449,18 +7449,6 @@
     },
     "languages": [],
     "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "C3VXm7uEB3l3AY",
-    "name": "Officers' Square Fredericton",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/eUFRh0wHlOg"
-      ]
-    },
-    "languages": [],
-    "country": "ca",
     "isGeoBlocked": false
   },
   {
@@ -9460,7 +9448,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/5A468SwvcNA"
+        "https://www.youtube-nocookie.com/embed/vd33X-vHbIw"
       ]
     },
     "languages": [],
@@ -9640,7 +9628,7 @@
     "name": "Şebinkarahisar",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/72hI-BYq_hI"
+        "https://www.youtube-nocookie.com/embed/GFqhKezEOdQ"
       ]
     },
     "languages": [],
@@ -10828,7 +10816,7 @@
     "name": "Sunny Isles Beach Intracoastal",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/7JFUkIlavsg"
+        "https://www.youtube-nocookie.com/embed/k_grkzuEOrk"
       ]
     },
     "languages": [],
@@ -10900,7 +10888,7 @@
     "name": "Sydney Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/wEH0bJbB0Sw"
+        "https://www.youtube-nocookie.com/embed/xaRz7A5b8vc"
       ]
     },
     "languages": [],
@@ -11616,6 +11604,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "POSQ8z3f25xovh",
+    "name": "Toronto CN Tower & Gardiner Expressway",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/U3sG-jkYUKI"
+      ]
+    },
+    "languages": [],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "8v1T5BTMCqCOtt",
     "name": "Toronto Rail and Gardiner Expressway",
     "sources": {
@@ -11896,7 +11896,7 @@
     "name": "Two Friends Patio",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4YwnyNMrm4Q"
+        "https://www.youtube-nocookie.com/embed/N_bKPGmlwMY"
       ]
     },
     "languages": [],
@@ -12700,7 +12700,7 @@
     "name": "Warsaw Skyline",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/TQNyVuD8fDs"
+        "https://www.youtube-nocookie.com/embed/Kq7YNsRtMqw"
       ]
     },
     "languages": [],

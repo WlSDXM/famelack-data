@@ -508,7 +508,7 @@
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Okzg7BZXJfM"
+        "https://www.youtube-nocookie.com/embed/HLRrSxAbfi0"
       ]
     },
     "languages": [],
@@ -640,7 +640,7 @@
     "name": "Goio-Ên & Uruguay River",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/kxAOp8LBmvQ"
+        "https://www.youtube-nocookie.com/embed/J_320lhUuLA"
       ]
     },
     "languages": [],
@@ -1548,18 +1548,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "7qO8x7gnfJ9HeV",
-    "name": "Osprey Nest Loch of the Lowes",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/b23Ia0NZ0P8"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "JLfOaj7IjxGWR0",
     "name": "Otawara Hoki Bridge River Surveillance",
     "sources": {
@@ -1653,18 +1641,6 @@
     },
     "languages": [],
     "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "wYi26bqQ0e6yrF",
-    "name": "Parque Padre Hurtado",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/_Y5FihsDz6Y"
-      ]
-    },
-    "languages": [],
-    "country": "cl",
     "isGeoBlocked": false
   },
   {
@@ -1917,18 +1893,6 @@
     },
     "languages": [],
     "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "VgHgrNj2M0VWk1",
-    "name": "Saint John River Fredericton",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Cw91x3TqWEk"
-      ]
-    },
-    "languages": [],
-    "country": "ca",
     "isGeoBlocked": false
   },
   {

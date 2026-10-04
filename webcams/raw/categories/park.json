@@ -972,18 +972,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "C3VXm7uEB3l3AY",
-    "name": "Officers' Square Fredericton",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/eUFRh0wHlOg"
-      ]
-    },
-    "languages": [],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "aazNKScyiYe9ji",
     "name": "Okaukuejo Waterhole Wildlife Cam",
     "sources": {
@@ -1053,18 +1041,6 @@
     },
     "languages": [],
     "country": "pl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "wYi26bqQ0e6yrF",
-    "name": "Parque Padre Hurtado",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/_Y5FihsDz6Y"
-      ]
-    },
-    "languages": [],
-    "country": "cl",
     "isGeoBlocked": false
   },
   {

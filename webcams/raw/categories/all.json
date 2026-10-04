@@ -276,18 +276,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "5kW4amB2IfzWDF",
-    "name": "Aeroporto de Navegantes",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/DTBgPSl_Fn4"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "752s78UcOxKNtu",
     "name": "Afogados da Ingazeira",
     "sources": {
@@ -508,7 +496,7 @@
     "name": "Akihabara Electric Town Crossing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Bhex8SfpYLQ"
+        "https://www.youtube-nocookie.com/embed/9w3por8E2uQ"
       ]
     },
     "languages": [],
@@ -813,6 +801,18 @@
     },
     "languages": [],
     "country": "za",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "VPZTpyIoLmKrWl",
+    "name": "Alliance Railcam at the Grade Crossing",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/WutCg15eZ4M"
+      ]
+    },
+    "languages": [],
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -2560,7 +2560,7 @@
     "name": "Baix Guinardó",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/LvcqyLiV2zo"
+        "https://www.youtube-nocookie.com/embed/d1Hqy8eNi9w"
       ]
     },
     "languages": [],
@@ -4800,18 +4800,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "6VWGv0QqMtmoRC",
-    "name": "Breathless Cancún Soul Beach & Pier",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Kp9gH_N7wdE"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "JwyA74MEZONV0j",
     "name": "Breckenridge Ski Area Mountain Panorama",
     "sources": {
@@ -6360,6 +6348,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "EBidNxNN7kX596",
+    "name": "Castro Street",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/hjRY01AGmJo"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "zSm83nc9Ya1E75",
     "name": "Castro Street Cam 1",
     "sources": {
@@ -6377,6 +6377,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/zrzg0Lfe92U"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "b7Z7P4jg4mQzAs",
+    "name": "Castro Street, San Francisco",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/MasojgpniNE"
       ]
     },
     "languages": [],
@@ -6648,18 +6660,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "4ZCYAilt3GmE7O",
-    "name": "Centro Sobradinho RS",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/q82dJtLh1Vo"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "iFMSUjcit9eFIg",
     "name": "Century City Skyline Panorama",
     "sources": {
@@ -6844,7 +6844,7 @@
     "name": "Chapecó Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/aqNPmWpeP7I"
+        "https://www.youtube-nocookie.com/embed/4L7Jcx_PjoY"
       ]
     },
     "languages": [],
@@ -6856,7 +6856,7 @@
     "name": "Chapecó City Center",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/N-qiV6w3HmE"
+        "https://www.youtube-nocookie.com/embed/HVYH7HufNZ4"
       ]
     },
     "languages": [],
@@ -7108,7 +7108,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/rzf2qsOVVW4"
+        "https://www.youtube-nocookie.com/embed/9Sk0Adnsiyc"
       ]
     },
     "languages": [],
@@ -7804,7 +7804,7 @@
     "name": "Congonhas Airport Camera 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Of9pUDYFPHY"
+        "https://www.youtube-nocookie.com/embed/z5n9J6WHwSg"
       ]
     },
     "languages": [],
@@ -7816,7 +7816,7 @@
     "name": "Congonhas Airport Camera 3",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/soQtqrXqbZA"
+        "https://www.youtube-nocookie.com/embed/tuxXZB0ED-Q"
       ]
     },
     "languages": [],
@@ -8356,7 +8356,7 @@
     "name": "Creve Coeur Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/tRboH50RdG0"
+        "https://www.youtube-nocookie.com/embed/ezasG6Pz5H0"
       ]
     },
     "languages": [],
@@ -9365,18 +9365,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/NeKZVw6-EGg"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "9FACMEW5P67m46",
-    "name": "Disney California Adventure",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Rg-EivyfHeI"
       ]
     },
     "languages": [],
@@ -10540,7 +10528,7 @@
     "name": "Dunedin Otago Harbour",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/n7y3_W1DOtM"
+        "https://www.youtube-nocookie.com/embed/b8h-ce9LiEk"
       ]
     },
     "languages": [],
@@ -10732,7 +10720,7 @@
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Okzg7BZXJfM"
+        "https://www.youtube-nocookie.com/embed/HLRrSxAbfi0"
       ]
     },
     "languages": [],
@@ -12252,18 +12240,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "fn3BNJZCUkuf7G",
-    "name": "Fredericton City Hall",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Be6hy2qta2o"
-      ]
-    },
-    "languages": [],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "0KsydDsZ6VXIFd",
     "name": "Freiburg Airport",
     "sources": {
@@ -12580,7 +12556,7 @@
     "name": "Galeão International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Uq89wkuSoUE"
+        "https://www.youtube-nocookie.com/embed/4tbXmvL35Wk"
       ]
     },
     "languages": [],
@@ -13044,18 +13020,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "AI3uhNZ6ZF76gP",
-    "name": "Georgica Jetty",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/YT7bNQlfMXM"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "38LOo7Ww0Mq9kT",
     "name": "Germany Now",
     "sources": {
@@ -13240,7 +13204,7 @@
     "name": "Goio-Ên & Uruguay River",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/kxAOp8LBmvQ"
+        "https://www.youtube-nocookie.com/embed/J_320lhUuLA"
       ]
     },
     "languages": [],
@@ -13389,18 +13353,6 @@
     },
     "languages": [],
     "country": "it",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "e59XKm2HrzNTOA",
-    "name": "Grace Bay Beach from Villa Renaissance",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/shNgEojhTK4"
-      ]
-    },
-    "languages": [],
-    "country": "tc",
     "isGeoBlocked": false
   },
   {
@@ -14200,7 +14152,7 @@
     "name": "Guarulhos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/71OXdhqsCeY"
+        "https://www.youtube-nocookie.com/embed/J2APET7rDQM"
       ]
     },
     "languages": [],
@@ -14212,7 +14164,7 @@
     "name": "Guarulhos International Airport Runway 10L",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/29a0ikdYIX8"
+        "https://www.youtube-nocookie.com/embed/YSDdG6ielyk"
       ]
     },
     "languages": [],
@@ -14224,7 +14176,7 @@
     "name": "Guarulhos International Airport Runway 10R",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/5Vy2zDCifk0"
+        "https://www.youtube-nocookie.com/embed/JUsUyvmOJag"
       ]
     },
     "languages": [],
@@ -14236,7 +14188,7 @@
     "name": "Guarulhos International Airport Runway 28",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/XsD-ZztsaX8"
+        "https://www.youtube-nocookie.com/embed/4gKEEN9sxkU"
       ]
     },
     "languages": [],
@@ -14944,7 +14896,7 @@
     "name": "Hawick High Street",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/z4A_wOJS-uY"
+        "https://www.youtube-nocookie.com/embed/DotbbIAVnYk"
       ]
     },
     "languages": [],
@@ -15544,7 +15496,7 @@
     "name": "Holy Dormition Pochaiv Lavra",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/CNcuUAV88QQ"
+        "https://www.youtube-nocookie.com/embed/AqiT1EUAIog"
       ]
     },
     "languages": [],
@@ -16188,18 +16140,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "tORVsj7WoOyT19",
-    "name": "Illinois Railway Museum",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/DgrpMwwG7c0"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "y9qRNS0KL0NJTw",
     "name": "Illinois Railway Museum Barn 9",
     "sources": {
@@ -16241,6 +16181,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/n4Bq93iw92c"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "zeCx8NySlQk8Em",
+    "name": "Illinois Railway Museum Spaulding",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/9qGrJh0NbD4"
       ]
     },
     "languages": [],
@@ -16708,7 +16660,7 @@
     "name": "Jagannath Temple, Puri",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/GU3TWu76LV0"
+        "https://www.youtube-nocookie.com/embed/Co6WELJynok"
       ]
     },
     "languages": [],
@@ -18148,7 +18100,7 @@
     "name": "Khao Lak",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/_eB6ew730jU"
+        "https://www.youtube-nocookie.com/embed/Nq5VZwjx08k"
       ]
     },
     "languages": [],
@@ -20056,7 +20008,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/gYlFa5LgKhk"
+        "https://www.youtube-nocookie.com/embed/4CmnrvYqbD4"
       ]
     },
     "languages": [],
@@ -20164,7 +20116,7 @@
     "name": "LAX Airport Arrivals",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/vky2guPcI1g"
+        "https://www.youtube-nocookie.com/embed/DbnTyrFHBgM"
       ]
     },
     "languages": [],
@@ -20284,7 +20236,7 @@
     "name": "Le Morne",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/EEn3dI4BcyY"
+        "https://www.youtube-nocookie.com/embed/jERKslx1zwQ"
       ]
     },
     "languages": [],
@@ -21264,6 +21216,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "A34J6I9JAkdPG6",
+    "name": "London Heathrow Airport",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/ZEUjsPb8yis"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "KJHdDRUp6ITM7v",
     "name": "Long Bay over Coral Bay",
     "sources": {
@@ -22044,6 +22008,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "Ru5O7fYl7iabDm",
+    "name": "Maho Beach Plane Spotting",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/XDoKSM369-4"
+      ]
+    },
+    "languages": [],
+    "country": "sx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "AdRmcpVKmypLF3",
     "name": "Main Market Square, Pszczyna",
     "sources": {
@@ -22457,6 +22433,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/i07IVN7ZKek"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "FG7Cg1mb5xtt5G",
+    "name": "Manchester Peregrine Falcon Nest 1",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/KSgCCJzud7c"
       ]
     },
     "languages": [],
@@ -23404,7 +23392,7 @@
     "name": "Meitetsu Tokoname Line Ono-machi",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/nUAtL8vCePc"
+        "https://www.youtube-nocookie.com/embed/eWf9dHAypnI"
       ]
     },
     "languages": [],
@@ -24988,7 +24976,7 @@
     "name": "Mount Pleasant Coffee Depot Railcam",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/g7Le4p8jyTU"
+        "https://www.youtube-nocookie.com/embed/2raya-ESaig"
       ]
     },
     "languages": [],
@@ -25084,7 +25072,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/EtjdSXTTu-M"
+        "https://www.youtube-nocookie.com/embed/RdnPDptl_SU"
       ]
     },
     "languages": [],
@@ -25204,7 +25192,7 @@
     "name": "Mouse Island Corfu",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/LV2XB8cI67M"
+        "https://www.youtube-nocookie.com/embed/7ymRUANw_Q0"
       ]
     },
     "languages": [],
@@ -26160,18 +26148,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "4WOl403de6kbbe",
-    "name": "Necedah Railcam",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/-f4m0xQSCwc"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "uxT5MJwYPlpxcH",
     "name": "Necochea Beach",
     "sources": {
@@ -26577,6 +26553,18 @@
     },
     "languages": [],
     "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ix1bVSXN3cePKu",
+    "name": "Nicosia Sailing Club",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/TtePjPKq2q0"
+      ]
+    },
+    "languages": [],
+    "country": "cy",
     "isGeoBlocked": false
   },
   {
@@ -27120,18 +27108,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "tq3h3PKDZVY1uq",
-    "name": "Nuevo Vallarta Panorama",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ik2vJBU1Se8"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "1XDMfTeJQuF3yg",
     "name": "Nunziata di Mascali Mount Etna East",
     "sources": {
@@ -27196,7 +27172,7 @@
     "name": "Obor Square",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/l7giA84Fgh4"
+        "https://www.youtube-nocookie.com/embed/hOFkFow_PTo"
       ]
     },
     "languages": [],
@@ -27417,18 +27393,6 @@
     },
     "languages": [],
     "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "C3VXm7uEB3l3AY",
-    "name": "Officers' Square Fredericton",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/eUFRh0wHlOg"
-      ]
-    },
-    "languages": [],
-    "country": "ca",
     "isGeoBlocked": false
   },
   {
@@ -28205,18 +28169,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/ilfxEpk51oI"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "7qO8x7gnfJ9HeV",
-    "name": "Osprey Nest Loch of the Lowes",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/b23Ia0NZ0P8"
       ]
     },
     "languages": [],
@@ -29028,23 +28980,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "wYi26bqQ0e6yrF",
-    "name": "Parque Padre Hurtado",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/_Y5FihsDz6Y"
-      ]
-    },
-    "languages": [],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "6V4CZPk2rWBxpt",
     "name": "Parry Sound Town Dock",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/MNWhcycTkjQ"
+        "https://www.youtube-nocookie.com/embed/r0niSbJm4jY"
       ]
     },
     "languages": [],
@@ -30172,7 +30112,7 @@
     "name": "Piedras Negras Cam 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/7e_TKxwtcrY"
+        "https://www.youtube-nocookie.com/embed/FqAoWOpQKUk"
       ]
     },
     "languages": [],
@@ -30520,7 +30460,7 @@
     "name": "Playa de Las Canteras",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/CaUeCd2T42A"
+        "https://www.youtube-nocookie.com/embed/kyinoji2axA"
       ]
     },
     "languages": [],
@@ -32116,7 +32056,7 @@
     "name": "Raccoon Saloon Back Door",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/H_hHDQvNT2Y"
+        "https://www.youtube-nocookie.com/embed/oZcJcXP72aQ"
       ]
     },
     "languages": [],
@@ -32380,7 +32320,7 @@
     "name": "Raccoon Saloon Porch",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/tLp3lmZtW08"
+        "https://www.youtube-nocookie.com/embed/Uvml1iXdVQM"
       ]
     },
     "languages": [],
@@ -32392,7 +32332,7 @@
     "name": "Raccoon Saloon Road View",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/A1n2XXJMVAs"
+        "https://www.youtube-nocookie.com/embed/N9gZ5l7SjKk"
       ]
     },
     "languages": [],
@@ -32673,30 +32613,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "BRfXfK6WMsmEQs",
-    "name": "Recife Airport",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/MtVEizjmxz0"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "I1OmF6x7jo0ppF",
-    "name": "Recife Airport",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/qEq_mrAgFcs"
-      ]
-    },
-    "languages": [],
-    "country": "br",
     "isGeoBlocked": false
   },
   {
@@ -34308,18 +34224,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "VgHgrNj2M0VWk1",
-    "name": "Saint John River Fredericton",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Cw91x3TqWEk"
-      ]
-    },
-    "languages": [],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "zIFlx9Mn43kQL5",
     "name": "Saint Lawrence River Cruise Terminal",
     "sources": {
@@ -34708,7 +34612,7 @@
     "name": "San Diego Rail",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/RVfkZaWsgFM"
+        "https://www.youtube-nocookie.com/embed/h5qA5PvCjJk"
       ]
     },
     "languages": [],
@@ -35380,7 +35284,7 @@
     "name": "Santos Dumont Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/bf2tJDQtCbw"
+        "https://www.youtube-nocookie.com/embed/UfRehSBQBhI"
       ]
     },
     "languages": [],
@@ -35524,7 +35428,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/5A468SwvcNA"
+        "https://www.youtube-nocookie.com/embed/vd33X-vHbIw"
       ]
     },
     "languages": [],
@@ -36208,7 +36112,7 @@
     "name": "Şebinkarahisar",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/72hI-BYq_hI"
+        "https://www.youtube-nocookie.com/embed/GFqhKezEOdQ"
       ]
     },
     "languages": [],
@@ -37252,7 +37156,7 @@
     "name": "Sierra de Guadarrama National Park Black Vulture Nest",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-9r7yS4VMTQ"
+        "https://www.youtube-nocookie.com/embed/wde6Wc-ha6s"
       ]
     },
     "languages": [],
@@ -37337,18 +37241,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/AqYQ9W4r8ZU"
-      ]
-    },
-    "languages": [],
-    "country": "hr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "QUqVnt7igVnfmu",
-    "name": "Šilo Lučica",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/RBgr7q9DtPI"
       ]
     },
     "languages": [],
@@ -37600,7 +37492,7 @@
     "name": "Skiathos Bay & Port",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/LdTrLp4iQmg"
+        "https://www.youtube-nocookie.com/embed/vYRHcCUetr4"
       ]
     },
     "languages": [],
@@ -39184,7 +39076,7 @@
     "name": "Squirrel and Wildlife Feeder",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/M9yG-jvZ48k"
+        "https://www.youtube-nocookie.com/embed/Zpj4WGUUtFc"
       ]
     },
     "languages": [],
@@ -40492,7 +40384,7 @@
     "name": "Sunny Isles Beach Intracoastal",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/7JFUkIlavsg"
+        "https://www.youtube-nocookie.com/embed/k_grkzuEOrk"
       ]
     },
     "languages": [],
@@ -40756,7 +40648,7 @@
     "name": "Sydney Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/wEH0bJbB0Sw"
+        "https://www.youtube-nocookie.com/embed/xaRz7A5b8vc"
       ]
     },
     "languages": [],
@@ -41928,18 +41820,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "m36C7cxtd2DdUN",
-    "name": "The Empress Miramar Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ZoPnPXNdKAw"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "aj3jfHECoC5b3k",
     "name": "The Enclave Orange Beach",
     "sources": {
@@ -42009,18 +41889,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "jsqp85rEr1LcFS",
-    "name": "The Landing Beach Bar Cane Bay",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/bm_-L6felME"
-      ]
-    },
-    "languages": [],
-    "country": "vi",
     "isGeoBlocked": false
   },
   {
@@ -42777,6 +42645,18 @@
     },
     "languages": [],
     "country": "fi",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "POSQ8z3f25xovh",
+    "name": "Toronto CN Tower & Gardiner Expressway",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/U3sG-jkYUKI"
+      ]
+    },
+    "languages": [],
+    "country": "ca",
     "isGeoBlocked": false
   },
   {
@@ -43696,7 +43576,7 @@
     "name": "Two Friends Patio",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4YwnyNMrm4Q"
+        "https://www.youtube-nocookie.com/embed/N_bKPGmlwMY"
       ]
     },
     "languages": [],
@@ -44500,7 +44380,7 @@
     "name": "Val d'Isère",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/vWMrPy-aL6I"
+        "https://www.youtube-nocookie.com/embed/tIoIQdQ82n8"
       ]
     },
     "languages": [],
@@ -45460,7 +45340,7 @@
     "name": "Viracopos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/fE--sMlSkOI"
+        "https://www.youtube-nocookie.com/embed/HLCSEoHuH_o"
       ]
     },
     "languages": [],
@@ -45988,7 +45868,7 @@
     "name": "Warsaw Skyline",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/TQNyVuD8fDs"
+        "https://www.youtube-nocookie.com/embed/Kq7YNsRtMqw"
       ]
     },
     "languages": [],
@@ -46372,7 +46252,7 @@
     "name": "West Kirby Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/YjbP_dzX8HI"
+        "https://www.youtube-nocookie.com/embed/ZynismUbyMQ"
       ]
     },
     "languages": [],
@@ -46665,18 +46545,6 @@
     },
     "languages": [],
     "country": "nl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "e3euaSQTYz255f",
-    "name": "Westmorland Street Bridge",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/IunzFIqVjpI"
-      ]
-    },
-    "languages": [],
-    "country": "ca",
     "isGeoBlocked": false
   },
   {
@@ -47752,7 +47620,7 @@
     "name": "Yokosuka Anjindai Tokyo Bay View",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/cxml56qWwP0"
+        "https://www.youtube-nocookie.com/embed/ob4ctpHiK58"
       ]
     },
     "languages": [],

@@ -120,18 +120,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "6VWGv0QqMtmoRC",
-    "name": "Breathless Cancún Soul Beach & Pier",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Kp9gH_N7wdE"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "KNTaWQUBuNDpKp",
     "name": "Buccanos Beach Club",
     "sources": {
@@ -504,18 +492,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "tq3h3PKDZVY1uq",
-    "name": "Nuevo Vallarta Panorama",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ik2vJBU1Se8"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "5b19pV31ztaSO2",
     "name": "Paseo de la Reforma",
     "sources": {
@@ -580,7 +556,7 @@
     "name": "Piedras Negras Cam 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/7e_TKxwtcrY"
+        "https://www.youtube-nocookie.com/embed/FqAoWOpQKUk"
       ]
     },
     "languages": [],

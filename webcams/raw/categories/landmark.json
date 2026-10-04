@@ -492,18 +492,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "9FACMEW5P67m46",
-    "name": "Disney California Adventure",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Rg-EivyfHeI"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "6jFPUKbCA7bxDt",
     "name": "Divine Mercy Church, Stary Sącz",
     "sources": {
@@ -772,7 +760,7 @@
     "name": "Holy Dormition Pochaiv Lavra",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/CNcuUAV88QQ"
+        "https://www.youtube-nocookie.com/embed/AqiT1EUAIog"
       ]
     },
     "languages": [],
@@ -789,18 +777,6 @@
     },
     "languages": [],
     "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "tORVsj7WoOyT19",
-    "name": "Illinois Railway Museum",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/DgrpMwwG7c0"
-      ]
-    },
-    "languages": [],
-    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -832,7 +808,7 @@
     "name": "Jagannath Temple, Puri",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/GU3TWu76LV0"
+        "https://www.youtube-nocookie.com/embed/Co6WELJynok"
       ]
     },
     "languages": [],
@@ -952,7 +928,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/gYlFa5LgKhk"
+        "https://www.youtube-nocookie.com/embed/4CmnrvYqbD4"
       ]
     },
     "languages": [],

@@ -2556,6 +2556,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "FG7Cg1mb5xtt5G",
+    "name": "Manchester Peregrine Falcon Nest 1",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/KSgCCJzud7c"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "BBMnZfmZ7ciQjn",
     "name": "Manchester Peregrine Falcon Nest 2",
     "sources": {
@@ -3156,18 +3168,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "7qO8x7gnfJ9HeV",
-    "name": "Osprey Nest Loch of the Lowes",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/b23Ia0NZ0P8"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "b69MJP3se14lDJ",
     "name": "Osprey Nest on the Coast",
     "sources": {
@@ -3736,7 +3736,7 @@
     "name": "Raccoon Saloon Back Door",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/H_hHDQvNT2Y"
+        "https://www.youtube-nocookie.com/embed/oZcJcXP72aQ"
       ]
     },
     "languages": [],
@@ -4000,7 +4000,7 @@
     "name": "Raccoon Saloon Porch",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/tLp3lmZtW08"
+        "https://www.youtube-nocookie.com/embed/Uvml1iXdVQM"
       ]
     },
     "languages": [],
@@ -4012,7 +4012,7 @@
     "name": "Raccoon Saloon Road View",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/A1n2XXJMVAs"
+        "https://www.youtube-nocookie.com/embed/N9gZ5l7SjKk"
       ]
     },
     "languages": [],
@@ -4660,7 +4660,7 @@
     "name": "Sierra de Guadarrama National Park Black Vulture Nest",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-9r7yS4VMTQ"
+        "https://www.youtube-nocookie.com/embed/wde6Wc-ha6s"
       ]
     },
     "languages": [],
@@ -4924,7 +4924,7 @@
     "name": "Squirrel and Wildlife Feeder",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/M9yG-jvZ48k"
+        "https://www.youtube-nocookie.com/embed/Zpj4WGUUtFc"
       ]
     },
     "languages": [],

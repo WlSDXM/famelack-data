@@ -396,18 +396,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "fn3BNJZCUkuf7G",
-    "name": "Fredericton City Hall",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Be6hy2qta2o"
-      ]
-    },
-    "languages": [],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "QS0gY0FYGVg7FD",
     "name": "Grouse Mountain View",
     "sources": {
@@ -624,18 +612,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "C3VXm7uEB3l3AY",
-    "name": "Officers' Square Fredericton",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/eUFRh0wHlOg"
-      ]
-    },
-    "languages": [],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "ST6FMVBLIPfCJU",
     "name": "Olympic Plaza & Rings Monument",
     "sources": {
@@ -748,7 +724,7 @@
     "name": "Parry Sound Town Dock",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/MNWhcycTkjQ"
+        "https://www.youtube-nocookie.com/embed/r0niSbJm4jY"
       ]
     },
     "languages": [],
@@ -857,18 +833,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/UjFnKH_LW4Q"
-      ]
-    },
-    "languages": [],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "VgHgrNj2M0VWk1",
-    "name": "Saint John River Fredericton",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Cw91x3TqWEk"
       ]
     },
     "languages": [],
@@ -1104,6 +1068,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "POSQ8z3f25xovh",
+    "name": "Toronto CN Tower & Gardiner Expressway",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/U3sG-jkYUKI"
+      ]
+    },
+    "languages": [],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "8v1T5BTMCqCOtt",
     "name": "Toronto Rail and Gardiner Expressway",
     "sources": {
@@ -1253,18 +1229,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/yF7XdpkL34w"
-      ]
-    },
-    "languages": [],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "e3euaSQTYz255f",
-    "name": "Westmorland Street Bridge",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/IunzFIqVjpI"
       ]
     },
     "languages": [],
