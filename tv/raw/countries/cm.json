@@ -101,6 +101,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "flybSYTMwoC89l",
+    "name": "Panafrican Media TV",
+    "sources": {
+      "streams": [
+        "https://live20.bozztv.com/giatv/giatv-pmtv/pmtv/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "cm",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "I6Aibqu4gfNeTW",
     "name": "TR24 Television",
     "sources": {

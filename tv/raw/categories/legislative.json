@@ -1166,6 +1166,22 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "6s6gtsiN1GEpMO",
+    "name": "Rada TV",
+    "sources": {
+      "streams": [
+        "https://cdn15.live-tv.cloud/ua_infinitas_tv/rada-abr/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "eng",
+      "rus",
+      "ukr"
+    ],
+    "country": "ua",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "TGxMGkMiPXHlY0",
     "name": "Rio TV Câmara",
     "sources": {
@@ -1317,7 +1333,7 @@
     "name": "TV Assembleia Minas Gerais",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/eECIR-63QhU"
+        "https://www.youtube-nocookie.com/embed/kwGKK8qmZ4c"
       ]
     },
     "languages": [
@@ -1346,20 +1362,6 @@
     "sources": {
       "streams": [
         "https://stream3.camara.gov.br/tv1/manifest.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "ljxQJllBAK9Pvk",
-    "name": "TV Câmara Porto Alegre",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/h2qy_SwTFp4"
       ]
     },
     "languages": [

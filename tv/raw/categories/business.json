@@ -210,8 +210,7 @@
     "name": "Bloomberg TV US",
     "sources": {
       "streams": [
-        "https://mumbai-edge.smartplaytv.in/Bloomberg/index.m3u8",
-        "https://tvsen6.aynaott.com/bloombergtv/index.m3u8"
+        "https://mumbai-edge.smartplaytv.in/Bloomberg/index.m3u8"
       ]
     },
     "languages": [

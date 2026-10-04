@@ -309,6 +309,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "HiSqdLo7Vz02nV",
+    "name": "Canal 3 Las Heras",
+    "sources": {
+      "streams": [
+        "https://stream.arcast.com.ar/canal3/canal3/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "orfuIaNTEmG6BY",
     "name": "Canal 3 Pinamar",
     "sources": {
@@ -525,6 +539,9 @@
     "sources": {
       "streams": [
         "https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8"
+      ],
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/V49JSc0SXY4"
       ]
     },
     "languages": [
@@ -566,7 +583,7 @@
     "name": "Canal 13 San Juan",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/_DmG5g9jIVk"
+        "https://www.youtube-nocookie.com/embed/uqUSmqJg0ds"
       ]
     },
     "languages": [
@@ -964,8 +981,7 @@
     "name": "Cosmos Tv",
     "sources": {
       "streams": [
-        "https://canaletaplus.com:3922/live/cosmoslive.m3u8",
-        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8"
+        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
       ]
     },
     "languages": [
@@ -1064,6 +1080,20 @@
     "sources": {
       "streams": [
         "https://iptv.bitred.cl/ELGOURMET_HD/index.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "uvdbgKYfuDPGUL",
+    "name": "El Observador 107.9",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/muQB2t2Vy9w"
       ]
     },
     "languages": [
@@ -1623,6 +1653,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "bOQ2ElnoGQqKTy",
+    "name": "Somos Entre Rios",
+    "sources": {
+      "streams": [
+        "https://live20.bozztv.com/akamaissh101/ssh101/somosentrerios/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "4mdYQiNJkinqB7",
     "name": "T5 Satelital",
     "sources": {
@@ -1711,7 +1755,7 @@
     "name": "Televisión Pública",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/rfdEOwAgZVw"
+        "https://www.youtube-nocookie.com/embed/ihPIVuCKbgc"
       ]
     },
     "languages": [
@@ -1879,7 +1923,7 @@
     "name": "Urbana Play 104.3 FM",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/poxBshOovDw"
+        "https://www.youtube-nocookie.com/embed/YSgCp3rrun0"
       ]
     },
     "languages": [

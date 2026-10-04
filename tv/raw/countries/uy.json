@@ -1,24 +1,11 @@
 [
   {
-    "nanoid": "qO9vRi6qWS9n0t",
-    "name": "Raquel Daruech TV",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/FNZ2kjCTS5A"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "uy",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "wOuKcaJXWEMKNa",
     "name": "UCL",
     "sources": {
       "streams": [
-        "https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8"
+        "https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8",
+        "https://livedelta.cdn.antel.net.uy/out/u/url_canalu_2.m3u8?m=1670250741"
       ]
     },
     "languages": [

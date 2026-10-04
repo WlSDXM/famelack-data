@@ -15,20 +15,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "sZmkKrrkQZCHvn",
-    "name": "Belarus-4 Gomel",
-    "sources": {
-      "streams": [
-        "https://live.dc.beltelecom.by/trkgomel/trkgomel.stream/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "by",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "HbRUt7FKalezmx",
     "name": "Belarus-4 Vitebsk",
     "sources": {
@@ -47,7 +33,6 @@
     "name": "Belarus-5",
     "sources": {
       "streams": [
-        "https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8",
         "https://streaming.thestream.cyou/live/7001.m3u8"
       ]
     },
@@ -62,7 +47,6 @@
     "name": "Belarus-24",
     "sources": {
       "streams": [
-        "https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8",
         "https://streaming.thestream.cyou/live/7003.m3u8"
       ]
     },
@@ -73,21 +57,6 @@
     ],
     "country": "by",
     "isGeoBlocked": true
-  },
-  {
-    "nanoid": "esaPDq84VF68oV",
-    "name": "Perviy Informationniy",
-    "sources": {
-      "streams": [
-        "https://ngtrk.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "bel",
-      "rus"
-    ],
-    "country": "by",
-    "isGeoBlocked": false
   },
   {
     "nanoid": "tZZIrq25t0jwoj",

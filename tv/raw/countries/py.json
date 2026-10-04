@@ -1,47 +1,5 @@
 [
   {
-    "nanoid": "zhUhSGilKc6sOP",
-    "name": "AGR FM TV",
-    "sources": {
-      "streams": [
-        "https://tigocloud.desdeparaguay.net/agrtv/agrtv/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "py",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "c4VJcNzklIX0CI",
-    "name": "Alcance FM PLAY TV",
-    "sources": {
-      "streams": [
-        "https://video.wilohosting.com:19360/alcancefmtv/alcancefmtv.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "py",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "uGCjnDiIPhWb6B",
-    "name": "Alt Media TV",
-    "sources": {
-      "streams": [
-        "https://video.hostingcaaguazu.com:19360/altmedia/altmedia.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "py",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "JAreuKNijuO7ug",
     "name": "Bruno Masi TV",
     "sources": {
@@ -84,20 +42,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "p69caBRji1PKLv",
-    "name": "Canal 8 C&C Producciones",
-    "sources": {
-      "streams": [
-        "https://video.hostingcaaguazu.com:19360/canal8cvs/canal8cvs.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "py",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "6EkiXPfK5IL7VS",
     "name": "Canal 8 Vision TV",
     "sources": {
@@ -126,39 +70,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "zqy5hOySvczhKR",
-    "name": "Caritas TV",
-    "sources": {
-      "streams": [
-        "https://rds3.desdeparaguay.net/caritastv/caritastv/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "py",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "BZ9ohjnwvpwyuR",
     "name": "Cosmos TV",
     "sources": {
       "streams": [
         "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "py",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Q47i8YiwhnYOOa",
-    "name": "Del Rey TV",
-    "sources": {
-      "streams": [
-        "https://video.hostingcaaguazu.com:19360/delreytv/delreytv.m3u8"
       ]
     },
     "languages": [
@@ -196,53 +112,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "FuiSRD0mYmX331",
-    "name": "Farra Play",
-    "sources": {
-      "streams": [
-        "https://stream.farra.com.py/live/farra_low.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "py",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "KorxP0jgE3cFyZ",
-    "name": "GO TV",
-    "sources": {
-      "streams": [
-        "https://rds3.desdeparaguay.net/gotv/gotv/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "py",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "8vX1XPEH9jNBSM",
     "name": "HEi Now",
     "sources": {
       "streams": [
         "https://copacogen.desdeparaguay.net/heitv/heitv_py_alta/playlist.m3u8?admin=nacion"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "py",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "OETM24DdxaHZfM",
-    "name": "Invasiva TV",
-    "sources": {
-      "streams": [
-        "https://tv-omega-nine.vercel.app/hls/live.m3u8"
       ]
     },
     "languages": [
@@ -322,20 +196,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "KiwbZFxfIOXSsb",
-    "name": "Nande Portetepe TV",
-    "sources": {
-      "streams": [
-        "https://video.hostingcaaguazu.com:19360/nandeportetepe/nandeportetepe.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "py",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "wJRs4rnzQYYV7u",
     "name": "Nandejara Ne'e TV",
     "sources": {
@@ -384,34 +244,6 @@
     "sources": {
       "streams": [
         "https://video.hostingcaaguazu.com:19360/oasistv/oasistv.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "py",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "zFyIVU3GskBml9",
-    "name": "Occidental TV",
-    "sources": {
-      "streams": [
-        "https://video.wilohosting.com:19360/occidentaltv/occidentaltv.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "py",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "HxsHxTV92v3WvN",
-    "name": "Oviedo TV",
-    "sources": {
-      "streams": [
-        "https://video.wilohosting.com:19360/oviedotv/oviedotv.m3u8"
       ]
     },
     "languages": [
@@ -492,39 +324,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Oy0RzzLMHXV3WJ",
-    "name": "Radio San Cristobal 88.7 FM",
-    "sources": {
-      "streams": [
-        "https://video.wilohosting.com:19360/sancristobalfm/sancristobalfm.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "py",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "TeqRUHz0t6Kdc6",
     "name": "Radio TV El Arca del Pacto",
     "sources": {
       "streams": [
         "https://video.wilohosting.com:19360/radiotvelarcadelpacto/radiotvelarcadelpacto.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "py",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "CghjvXX91l15l6",
-    "name": "RB TV",
-    "sources": {
-      "streams": [
-        "https://video.hostingcaaguazu.com:19360/rbtv/rbtv.m3u8"
       ]
     },
     "languages": [
@@ -553,20 +357,6 @@
     "sources": {
       "streams": [
         "https://video.hostingcaaguazu.com:19360/reddigitalsanpedro/reddigitalsanpedro.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "py",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "3UsrfCo6SJ3Ltz",
-    "name": "Red Interior TV",
-    "sources": {
-      "streams": [
-        "https://video.wilohosting.com:19360/redinteriortv/redinteriortv.m3u8"
       ]
     },
     "languages": [
@@ -623,20 +413,6 @@
     "sources": {
       "streams": [
         "https://copacotf.desdeparaguay.net/telefuturo/telefuturo_py_alta/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "py",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "b3mt6RVBhhnDwq",
-    "name": "Tigo Sports+",
-    "sources": {
-      "streams": [
-        "https://lbgo.bozztv.com/ssh101/ssh101/events2py/playlist.m3u8"
       ]
     },
     "languages": [

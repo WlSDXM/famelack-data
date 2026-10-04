@@ -191,20 +191,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Zzw5XdFQULzoOQ",
-    "name": "Aras TV",
-    "sources": {
-      "streams": [
-        "https://2.rtmp.org/tv217/yayin.stream/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "laMNKAVyTuHniN",
     "name": "AS TV",
     "sources": {
@@ -332,20 +318,6 @@
       "streams": [
         "https://tv.ensonhaber.com/bloomberght/bloomberght.m3u8",
         "https://mumbai-edge.smartplaytv.in/BloombergHT/index.m3u8"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Z7tHup27v1j2Td",
-    "name": "Bodrum Kent TV",
-    "sources": {
-      "streams": [
-        "https://edge2.taksimbilisim.com/bodrumkenttv/bant1/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1232,20 +1204,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "eSS3Rjhr7Bc3Fu",
-    "name": "Karadeniz TV",
-    "sources": {
-      "streams": [
-        "https://panel.5gtvhosting.com/hls/karadeniztv/karadeniztv.m3u8"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "zbs9DkUTcak0mx",
     "name": "Kay TV",
     "sources": {
@@ -1349,7 +1307,7 @@
     "name": "Lider Haber",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/SB7JzpJGH2A"
+        "https://www.youtube-nocookie.com/embed/zwNpYXQwx2g"
       ]
     },
     "languages": [
@@ -1913,6 +1871,9 @@
     "sources": {
       "streams": [
         "https://tjktv-live.tjk.org/tjktv.m3u8"
+      ],
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/LOj_CyliZYA"
       ]
     },
     "languages": [

@@ -84,20 +84,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "yq7NxSgMJ0x6ko",
-    "name": "Antena TV",
-    "sources": {
-      "streams": [
-        "https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "L4rlrnY8qxe1Zl",
     "name": "Azteca Deportes Network",
     "sources": {
@@ -159,20 +145,6 @@
     "sources": {
       "streams": [
         "https://video2.getstreamhosting.com:19360/8092/8092.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "GYpj19hD6m2qFh",
-    "name": "California Medios TV",
-    "sources": {
-      "streams": [
-        "https://s5.mexside.net:1936/medios/medios/playlist.m3u8"
       ]
     },
     "languages": [
@@ -499,6 +471,20 @@
     "sources": {
       "streams": [
         "https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "yk5LuaS8jCla7l",
+    "name": "Imagen Multicast",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/voRVaAjHidI"
       ]
     },
     "languages": [
@@ -972,20 +958,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "pTFEVIhFVG7hq3",
-    "name": "Televisa Laguna",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/U3Wx_3lTU78"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "ZvTqK9RkV2bYWz",
     "name": "Televisa Mexicali",
     "sources": {
@@ -1004,7 +976,7 @@
     "name": "Televisa Monterrey",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/7bPyP1zVX34"
+        "https://www.youtube-nocookie.com/embed/7R0ou9XfENY"
       ]
     },
     "languages": [
@@ -1018,7 +990,7 @@
     "name": "Televisa Piedras Negras",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/mvmfdJgO7K0"
+        "https://www.youtube-nocookie.com/embed/5xdiA7JkzHI"
       ]
     },
     "languages": [
@@ -1046,7 +1018,7 @@
     "name": "Televisa Querétaro",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/0602wUzkFRk"
+        "https://www.youtube-nocookie.com/embed/AQ_vv1ghR7s"
       ]
     },
     "languages": [
@@ -1168,20 +1140,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "6duVJSjDym0PKb",
-    "name": "Transmedia Television Morelia",
-    "sources": {
-      "streams": [
-        "https://5ca3e84a76d30.streamlock.net/tmtv/videotmtv/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": true
-  },
-  {
     "nanoid": "LIcwsfed7X4ZRx",
     "name": "TRC TV",
     "sources": {
@@ -1216,20 +1174,6 @@
       "streams": [
         "https://5ca3e84a76d30.streamlock.net/tv4gto/tv4gto.smil/.m3u8",
         "https://5f1af61612fb5.streamlock.net/tv4/tv4.smil/.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "cWWftSEuzr59Qo",
-    "name": "TV Cuatro 4.2",
-    "sources": {
-      "streams": [
-        "https://5f2c1b0d880e5.streamlock.net/tv42/tv42.smil/.m3u8"
       ]
     },
     "languages": [

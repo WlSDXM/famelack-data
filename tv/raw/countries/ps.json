@@ -72,20 +72,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "qHPud6QAjClK6g",
-    "name": "Palestine Edu",
-    "sources": {
-      "streams": [
-        "https://pbc.furrera.ps/PalestineEDU/index.m3u8"
-      ]
-    },
-    "languages": [
-      "ara"
-    ],
-    "country": "ps",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "kMBDQu4FHfVDdk",
     "name": "Palestine Mubasher",
     "sources": {

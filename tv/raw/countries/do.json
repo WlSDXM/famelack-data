@@ -686,20 +686,6 @@
     "isGeoBlocked": true
   },
   {
-    "nanoid": "vjmoS8iIr20Ouk",
-    "name": "Ecos Canal 57",
-    "sources": {
-      "streams": [
-        "https://2-fss-2.streamhoster.com/pl_138/206532-6829872-1/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "do",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "FOmh48Vhhwgsmx",
     "name": "Ecovision",
     "sources": {
@@ -1443,20 +1429,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "eisG5IOoOE3Yjq",
-    "name": "Onda TV",
-    "sources": {
-      "streams": [
-        "https://cnn.hostlagarto.com/ondatv/index.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "do",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "PW4ES8xH9eTBMZ",
     "name": "ORBIT TV",
     "sources": {
@@ -1736,6 +1708,20 @@
     ],
     "country": "do",
     "isGeoBlocked": true
+  },
+  {
+    "nanoid": "KulpGXiD7H6QWL",
+    "name": "Super7FM",
+    "sources": {
+      "streams": [
+        "https://stream.haislin.com/super7fm/index.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
   },
   {
     "nanoid": "3KqnfFX9vnSDZo",
@@ -2102,20 +2088,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "fIuMEyeeVmQ8H8",
-    "name": "TV Cotui Canal 31",
-    "sources": {
-      "streams": [
-        "https://live20.bozztv.com/akamaissh101/ssh101/tvcotui/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "do",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "PqhSs4QgiYSTPX",
     "name": "TV Exitos",
     "sources": {
@@ -2268,6 +2240,20 @@
     ],
     "country": "do",
     "isGeoBlocked": false
+  },
+  {
+    "nanoid": "EZjZzTjK8zFdzR",
+    "name": "Vision 3000",
+    "sources": {
+      "streams": [
+        "https://ss2.tvrdomi.com:1936/vision3000/vision3000/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": true
   },
   {
     "nanoid": "4CplZeiORcJRcS",

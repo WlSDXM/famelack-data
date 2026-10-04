@@ -491,7 +491,7 @@
     "name": "JTBC News",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/STx_Rj8uD_A"
+        "https://www.youtube-nocookie.com/embed/5SLd4n6hoLY"
       ]
     },
     "languages": [
@@ -505,7 +505,7 @@
     "name": "KBS News",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/cGXPWALsSK8"
+        "https://www.youtube-nocookie.com/embed/K4Qs_vV1crQ"
       ]
     },
     "languages": [
@@ -688,14 +688,14 @@
     "name": "SBS",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/0YB_C8hUXpQ"
+        "https://www.youtube-nocookie.com/embed/gcZkz3acvH4"
       ]
     },
     "languages": [
       "kor"
     ],
     "country": "kr",
-    "isGeoBlocked": false
+    "isGeoBlocked": true
   },
   {
     "nanoid": "87421iJAAXkniW",

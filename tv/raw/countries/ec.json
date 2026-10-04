@@ -308,20 +308,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "BQiZCJpf4JlMdt",
-    "name": "La Nueva Radio TV 97.7",
-    "sources": {
-      "streams": [
-        "https://sv72.ecuaradiotv.net/lanuevatv/live/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ec",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "9Sf0ejjNeAblBj",
     "name": "LatacungaTV",
     "sources": {
@@ -448,20 +434,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "kPWsFvTNnFdIuT",
-    "name": "Planeta Channel",
-    "sources": {
-      "streams": [
-        "https://vs20.live.opencaster.com/planetachannel_089eff6d/index.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ec",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "yQP21gjr5nH5Wg",
     "name": "Puruwa TV",
     "sources": {
@@ -495,20 +467,6 @@
     "sources": {
       "streams": [
         "https://eu1.servers10.com:8081/8074/index.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ec",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "QpaipzMOWMjyyR",
-    "name": "Radio Monumental TV",
-    "sources": {
-      "streams": [
-        "https://cloud37.ecuatel.com/monumentaltv/live/manifest.m3u8"
       ]
     },
     "languages": [

@@ -18,7 +18,7 @@
     "name": "Africa Independent Television",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/8MHdppsJJyg"
+        "https://www.youtube-nocookie.com/embed/6cpkJF1ZO_0"
       ]
     },
     "languages": [
@@ -285,7 +285,7 @@
     "name": "NTA Live",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ZOyD4NkfQSc"
+        "https://www.youtube-nocookie.com/embed/oitZjPAdYx0"
       ]
     },
     "languages": [
@@ -425,7 +425,7 @@
     "name": "TrustTV News",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/TcrKSZ6qYns"
+        "https://www.youtube-nocookie.com/embed/ilwAJyuS1vE"
       ]
     },
     "languages": [
@@ -497,20 +497,6 @@
     "sources": {
       "streams": [
         "https://wazobia.live:8333/channel/wmax.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "ng",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "bmxTZy6nlmaoMM",
-    "name": "Wazobia Max TV Port-Harcourt",
-    "sources": {
-      "streams": [
-        "https://wazobia.live:8333/channel/wmaxph.m3u8"
       ]
     },
     "languages": [

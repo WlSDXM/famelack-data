@@ -272,20 +272,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "RMJta2uB0RhiFk",
-    "name": "Channel One",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/p3zWBI52Vw4"
-      ]
-    },
-    "languages": [
-      "fas"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "h25WUyBe4528fW",
     "name": "Channel S",
     "sources": {
@@ -852,20 +838,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "eSS3Rjhr7Bc3Fu",
-    "name": "Karadeniz TV",
-    "sources": {
-      "streams": [
-        "https://panel.5gtvhosting.com/hls/karadeniztv/karadeniztv.m3u8"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "MENDV9zQPKUclz",
     "name": "Kemet TV",
     "sources": {
@@ -1155,20 +1127,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "V3b7nvXml8zERG",
-    "name": "Paci Contemporary Channel",
-    "sources": {
-      "streams": [
-        "https://5f22d76e220e1.streamlock.net/pacicontemporarychannel/pacicontemporarychannel/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "ita"
-    ],
-    "country": "it",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "SYkeshgW48vaJo",
     "name": "Qausain TV",
     "sources": {
@@ -1369,6 +1327,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "bOQ2ElnoGQqKTy",
+    "name": "Somos Entre Rios",
+    "sources": {
+      "streams": [
+        "https://live20.bozztv.com/akamaissh101/ssh101/somosentrerios/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "QP7DyV43LNSLl9",
     "name": "StoryChannel TV",
     "sources": {
@@ -1481,17 +1453,17 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "cWWftSEuzr59Qo",
-    "name": "TV Cuatro 4.2",
+    "nanoid": "46bhWZVm1EdjmB",
+    "name": "TV Cartago Digital",
     "sources": {
       "streams": [
-        "https://5f2c1b0d880e5.streamlock.net/tv42/tv42.smil/.m3u8"
+        "https://video2.getstreamhosting.com:19360/8110/8110.m3u8"
       ]
     },
     "languages": [
       "spa"
     ],
-    "country": "mx",
+    "country": "cr",
     "isGeoBlocked": false
   },
   {
@@ -1583,7 +1555,8 @@
     "name": "UCL",
     "sources": {
       "streams": [
-        "https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8"
+        "https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8",
+        "https://livedelta.cdn.antel.net.uy/out/u/url_canalu_2.m3u8?m=1670250741"
       ]
     },
     "languages": [

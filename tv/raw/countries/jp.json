@@ -126,6 +126,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "G0HNzTOFDVRXMe",
+    "name": "JapaNews24",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/RNAFgPxGzm0"
+      ]
+    },
+    "languages": [
+      "jpn"
+    ],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "DYc6FdzoKztkkH",
     "name": "KBC News",
     "sources": {
@@ -328,7 +342,7 @@
     "name": "SBS News",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/f-dIS0nRJpQ"
+        "https://www.youtube-nocookie.com/embed/8XFmEKZyRcQ"
       ]
     },
     "languages": [

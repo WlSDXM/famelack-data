@@ -245,6 +245,34 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "3Icuxq5qeDrJdW",
+    "name": "Peace TV Chinese",
+    "sources": {
+      "streams": [
+        "https://dzkyvlfyge.erbvr.com/PeaceTvChinese/index.m3u8"
+      ]
+    },
+    "languages": [
+      "zho"
+    ],
+    "country": "ae",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "NuZWaHtBzZXXC8",
+    "name": "Peace TV English",
+    "sources": {
+      "streams": [
+        "https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ae",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "9BNETtZqVeBnGA",
     "name": "PMC",
     "sources": {

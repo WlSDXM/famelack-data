@@ -262,7 +262,7 @@
     "name": "CNN Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/LA0uYOr-ILU"
+        "https://www.youtube-nocookie.com/embed/tmYUXGeKzr8"
       ]
     },
     "languages": [
@@ -404,20 +404,6 @@
     "sources": {
       "streams": [
         "https://stmv1.srvsite.com/ely/ely/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "vTgAI9VGNp0y8I",
-    "name": "EUTV",
-    "sources": {
-      "streams": [
-        "https://video01.logicahost.com.br/ypetv/ypetv/playlist.m3u8"
       ]
     },
     "languages": [
@@ -755,7 +741,7 @@
     "name": "Peppa Pig Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/qfKz2A5FxZU"
+        "https://www.youtube-nocookie.com/embed/7nsjuZ5tzbA"
       ]
     },
     "languages": [
@@ -783,7 +769,7 @@
     "name": "PJ Masks Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/tiM8m5NzT7w"
+        "https://www.youtube-nocookie.com/embed/WqoZarhrW78"
       ]
     },
     "languages": [
@@ -870,7 +856,7 @@
         "https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/y3R1Wv2veWA"
+        "https://www.youtube-nocookie.com/embed/gxwR2r0v4KU"
       ]
     },
     "languages": [
@@ -1040,7 +1026,7 @@
     "name": "Santa Cruz Feira Digital",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/hBJf0oA6YsE"
+        "https://www.youtube-nocookie.com/embed/L6MV31lwm1g"
       ]
     },
     "languages": [
@@ -1279,7 +1265,7 @@
     "name": "TV Assembleia Minas Gerais",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/eECIR-63QhU"
+        "https://www.youtube-nocookie.com/embed/kwGKK8qmZ4c"
       ]
     },
     "languages": [
@@ -1308,6 +1294,20 @@
     "sources": {
       "streams": [
         "https://tvbrasil-stream.ebc.com.br/index.m3u8"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "2bhXPviPJO5yGg",
+    "name": "TV Brasil Oeste",
+    "sources": {
+      "streams": [
+        "https://5ad482a77183d.streamlock.net/operacaotbomt.com/operacaotbomt.com/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1350,20 +1350,6 @@
     "sources": {
       "streams": [
         "https://stream3.camara.gov.br/tv1/manifest.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "ljxQJllBAK9Pvk",
-    "name": "TV Câmara Porto Alegre",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/h2qy_SwTFp4"
       ]
     },
     "languages": [
@@ -1658,6 +1644,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "HZWd4go9om2ldn",
+    "name": "TV Paraense",
+    "sources": {
+      "streams": [
+        "https://video09.logicahost.com.br/tvparaense/tvparaense/playlist.m3u"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "9IRp7pJ3B28WfW",
     "name": "TV Passo Fundo",
     "sources": {
@@ -1705,20 +1705,6 @@
     "sources": {
       "streams": [
         "https://stmv1.srvif.com/tvserie/tvserie/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "AOrzbD7QEj8vaf",
-    "name": "TV Sim Cachoeiro",
-    "sources": {
-      "streams": [
-        "https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8"
       ]
     },
     "languages": [

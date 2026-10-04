@@ -522,6 +522,22 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "6s6gtsiN1GEpMO",
+    "name": "Rada TV",
+    "sources": {
+      "streams": [
+        "https://cdn15.live-tv.cloud/ua_infinitas_tv/rada-abr/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "eng",
+      "rus",
+      "ukr"
+    ],
+    "country": "ua",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Nm3WREqkCV8Rax",
     "name": "RAZ 3",
     "sources": {
@@ -613,6 +629,20 @@
     "sources": {
       "streams": [
         "https://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTI1LjIzOjcwMDAvY2g0My90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTU3LjEyOC4yMzYuMjIzJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDc1NTE0NiZzdD02SC1HSlEtemw4X1NCQjMzRjVLTUpn&master=1103"
+      ]
+    },
+    "languages": [
+      "ukr"
+    ],
+    "country": "ua",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "JsbNdT4dnazx9Z",
+    "name": "Svarozhychy",
+    "sources": {
+      "streams": [
+        "https://svarozhichi.cdn-03.cosmonova.net.ua/mobile-app/main/svarozhichi/master.m3u8"
       ]
     },
     "languages": [

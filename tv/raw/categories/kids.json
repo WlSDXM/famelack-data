@@ -5,9 +5,6 @@
     "sources": {
       "streams": [
         "https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8"
-      ],
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/zT6qwTKwUhQ"
       ]
     },
     "languages": [
@@ -370,6 +367,34 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "UJBWvMRzCuPiXb",
+    "name": "Boomerang: Scooby-Doo",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/90kaC8Kbw0k"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "cjPVIZBmspUxQT",
+    "name": "Boomerang: Tom & Jerry",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/rEKifG2XUZg"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Ejzd7w3qnd3CEH",
     "name": "Camp Spoopy",
     "sources": {
@@ -593,20 +618,6 @@
       "spa"
     ],
     "country": "do",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "ioAW5Hy7e9f7fU",
-    "name": "Chithiram",
-    "sources": {
-      "streams": [
-        "https://cdn.pishow.tv/ott/live/1243/master.m3u8"
-      ]
-    },
-    "languages": [
-      "tam"
-    ],
-    "country": "in",
     "isGeoBlocked": false
   },
   {
@@ -1302,20 +1313,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "0xr9dDKplwszmy",
-    "name": "Kids TV",
-    "sources": {
-      "streams": [
-        "https://origin5.mediacdn.ru/live/kidstv/index.m3u8"
-      ]
-    },
-    "languages": [
-      "ind"
-    ],
-    "country": "id",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "X98dZJpeNVSZmP",
     "name": "KidsFlix",
     "sources": {
@@ -1992,7 +1989,7 @@
     "name": "Peppa Pig Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/qfKz2A5FxZU"
+        "https://www.youtube-nocookie.com/embed/7nsjuZ5tzbA"
       ]
     },
     "languages": [
