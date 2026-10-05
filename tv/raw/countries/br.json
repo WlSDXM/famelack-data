@@ -262,7 +262,7 @@
     "name": "CNN Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/tmYUXGeKzr8"
+        "https://www.youtube-nocookie.com/embed/RHQfrYDcLco"
       ]
     },
     "languages": [
@@ -399,11 +399,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "zCrJeuAQK2v5dx",
-    "name": "ElyTV",
+    "nanoid": "vTgAI9VGNp0y8I",
+    "name": "EUTV",
     "sources": {
       "streams": [
-        "https://stmv1.srvsite.com/ely/ely/playlist.m3u8"
+        "https://video01.logicahost.com.br/ypetv/ypetv/playlist.m3u8"
       ]
     },
     "languages": [
@@ -681,20 +681,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "dlSxOcHpkY3viD",
-    "name": "NickOnline Bob Esponja",
-    "sources": {
-      "streams": [
-        "https://bob.x1colegal.com/hls/stream.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "VvHhOWwHL2G6fH",
     "name": "NickToons Brasil",
     "sources": {
@@ -741,7 +727,7 @@
     "name": "Peppa Pig Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/7nsjuZ5tzbA"
+        "https://www.youtube-nocookie.com/embed/XDIYSpEz1s0"
       ]
     },
     "languages": [
@@ -856,7 +842,7 @@
         "https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/gxwR2r0v4KU"
+        "https://www.youtube-nocookie.com/embed/erZ7r5eNcBc"
       ]
     },
     "languages": [
@@ -1026,7 +1012,7 @@
     "name": "Santa Cruz Feira Digital",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/L6MV31lwm1g"
+        "https://www.youtube-nocookie.com/embed/4_t0uWwFeWw"
       ]
     },
     "languages": [
@@ -1084,6 +1070,20 @@
     "sources": {
       "streams": [
         "https://dai.google.com/linear/hls/event/1XSOdtQ0SH2G8OEmEfGgjQ/master.m3u8"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "wQwzJWldq22ymG",
+    "name": "SIC TV",
+    "sources": {
+      "streams": [
+        "https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8"
       ]
     },
     "languages": [
@@ -1265,7 +1265,7 @@
     "name": "TV Assembleia Minas Gerais",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/kwGKK8qmZ4c"
+        "https://www.youtube-nocookie.com/embed/M-tuLRKaPmQ"
       ]
     },
     "languages": [
@@ -1350,6 +1350,20 @@
     "sources": {
       "streams": [
         "https://stream3.camara.gov.br/tv1/manifest.m3u8"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ljxQJllBAK9Pvk",
+    "name": "TV Câmara Porto Alegre",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/NR4TwK0Bbrg"
       ]
     },
     "languages": [
@@ -1705,6 +1719,20 @@
     "sources": {
       "streams": [
         "https://stmv1.srvif.com/tvserie/tvserie/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AOrzbD7QEj8vaf",
+    "name": "TV Sim Cachoeiro",
+    "sources": {
+      "streams": [
+        "https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8"
       ]
     },
     "languages": [

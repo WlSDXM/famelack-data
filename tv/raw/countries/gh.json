@@ -28,20 +28,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "hqS1qCVILZbC3f",
-    "name": "AP TV",
-    "sources": {
-      "streams": [
-        "https://59nyqg8elwap-hls-live.5centscdn.com/APTV/85c20905211659d143febd7c32592ee0.sdp/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "gh",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "XbqCbMWvgTX2F0",
     "name": "G-eye TV",
     "sources": {
@@ -58,7 +44,7 @@
     "name": "Joy Prime TV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/x02qE01iO1A"
+        "https://www.youtube-nocookie.com/embed/4FHXS9q6ZBA"
       ]
     },
     "languages": [
@@ -72,7 +58,7 @@
     "name": "JoyNews",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/afsmfZJTvGM"
+        "https://www.youtube-nocookie.com/embed/vchevCRgSWA"
       ]
     },
     "languages": [

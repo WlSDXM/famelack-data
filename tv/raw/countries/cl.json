@@ -112,20 +112,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "W9JICLAimFWyuU",
-    "name": "ADA TV",
-    "sources": {
-      "streams": [
-        "https://v4.tustreaming.cl/adatvchile/index.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "qr32wZaF0dlwkY",
     "name": "ADN TV",
     "sources": {
@@ -324,6 +310,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "hB7F4KiiS2y0zs",
+    "name": "Canal 2 Quellon",
+    "sources": {
+      "streams": [
+        "https://pantera1-100gb-cl-movistar.dps.live/tvquellon/tvquellon.smil/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "h1nghvsIUcybok",
     "name": "Canal 5 Puerto Montt",
     "sources": {
@@ -371,6 +371,20 @@
     "sources": {
       "streams": [
         "https://v1.tustreaming.cl/canal30loncomilla/index.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Vrn45RY7y1zcD6",
+    "name": "Canal Chilote",
+    "sources": {
+      "streams": [
+        "https://videostream.chileservidores.com:8081/chiloe2/index.m3u8"
       ]
     },
     "languages": [
@@ -479,6 +493,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "n4dKzonwHr1dN8",
+    "name": "ChileVision",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/HyHjPNhjCfg"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "eDESw3Ox4wXwbn",
     "name": "Chiloe Red 25",
     "sources": {
@@ -525,7 +553,7 @@
     "name": "CHV Noticias",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/K7CcmFjTo_0"
+        "https://www.youtube-nocookie.com/embed/wk5VmUeuLUU"
       ]
     },
     "languages": [
@@ -708,6 +736,20 @@
     "sources": {
       "streams": [
         "https://5ff3d9babae13.streamlock.net/xedkektnqj/xedkektnqj/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "qJZQAfwcNY9ug6",
+    "name": "El Centro TV",
+    "sources": {
+      "streams": [
+        "https://v1.tustreaming.cl/diarioelcentrotv/index.m3u8"
       ]
     },
     "languages": [
@@ -927,20 +969,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "HZTvc09dQotF6t",
-    "name": "ISA TV",
-    "sources": {
-      "streams": [
-        "https://scl.edge.grupoz.cl/isatv/live/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "KSt72TrfiNqRpX",
     "name": "Islita TV",
     "sources": {
@@ -961,20 +989,6 @@
       "streams": [
         "https://redirector.dps.live/hls/itv/playlist.m3u8",
         "https://unlimited1-us.dps.live/itv/itv.smil/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "tjoXlhaA3QUOnH",
-    "name": "Juntos TV",
-    "sources": {
-      "streams": [
-        "https://video.juntostvchile.cl:8879/hls/web-jntv.m3u8"
       ]
     },
     "languages": [
@@ -1171,7 +1185,7 @@
     "name": "Meganoticias",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/oM-hXrzKtQs"
+        "https://www.youtube-nocookie.com/embed/KDbYfFG_RkI"
       ]
     },
     "languages": [],
@@ -1268,6 +1282,20 @@
     "sources": {
       "streams": [
         "https://streamtv.novotempo.com/CDN-TV-ES/smil:tvnuevotiempo.smil/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Z8D0Y4EVxMHZlA",
+    "name": "Odisea TV",
+    "sources": {
+      "streams": [
+        "https://v2.tustreaming.cl/odiseatv/index.m3u8"
       ]
     },
     "languages": [
@@ -2250,6 +2278,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "hOfMwcYwkqMasz",
+    "name": "TV UCT",
+    "sources": {
+      "streams": [
+        "https://unlimited1-us.dps.live/uct/uct.smil/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "cXfJAVNGJZhQxH",
     "name": "TV Usach",
     "sources": {
@@ -2366,8 +2408,8 @@
     "name": "UATV",
     "sources": {
       "streams": [
-        "https://unlimited6-cl.dps.live/uatv/uatv.smil/playlist.m3u8",
-        "https://unlimited1-us.dps.live/uatv/uatv.smil/playlist.m3u8"
+        "https://unlimited1-us.dps.live/uatv/uatv.smil/playlist.m3u8",
+        "https://unlimited6-cl.dps.live/uatv/uatv.smil/playlist.m3u8"
       ]
     },
     "languages": [

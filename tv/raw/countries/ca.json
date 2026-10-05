@@ -968,6 +968,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "PcZvzmtUOxudPS",
+    "name": "NACTV",
+    "sources": {
+      "streams": [
+        "https://stream2.pivotalelements.com/memfs/2d2e1038-9eb2-44df-a9b9-109de5752f3b_output_0.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "tVSimuRyVg06J3",
     "name": "New Channel",
     "sources": {
@@ -1966,34 +1980,6 @@
       ]
     },
     "languages": [],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "3C5tAme4Sy2gIV",
-    "name": "Super Simple: Bedtime Songs",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/RWPMjg0mzdU"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "5X99oRpChEcKAS",
-    "name": "Super Simple: Simple Songs",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/O637pJcCO0w"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
     "country": "ca",
     "isGeoBlocked": false
   },

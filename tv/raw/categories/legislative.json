@@ -1333,7 +1333,7 @@
     "name": "TV Assembleia Minas Gerais",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/kwGKK8qmZ4c"
+        "https://www.youtube-nocookie.com/embed/M-tuLRKaPmQ"
       ]
     },
     "languages": [
@@ -1362,6 +1362,20 @@
     "sources": {
       "streams": [
         "https://stream3.camara.gov.br/tv1/manifest.m3u8"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ljxQJllBAK9Pvk",
+    "name": "TV Câmara Porto Alegre",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/NR4TwK0Bbrg"
       ]
     },
     "languages": [

@@ -28,11 +28,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "xNO3EJp4mhTrDD",
-    "name": "AS3 Sport TV",
+    "nanoid": "ciUS0lRhmTtePT",
+    "name": "Anzoategui TV",
     "sources": {
       "streams": [
-        "https://streamtv.as3sport.online:3394/hybrid/play.m3u8"
+        "https://vcp2.myplaytv.com/anzoateguitv/anzoateguitv/playlist.m3u8"
       ]
     },
     "languages": [
@@ -42,11 +42,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "4OE4ZIp6ZfzmtV",
-    "name": "Audaz TV",
+    "nanoid": "xNO3EJp4mhTrDD",
+    "name": "AS3 Sport TV",
     "sources": {
       "streams": [
-        "https://cloud2.streaminglivehd.com:1936/8264/8264/playlist.m3u8"
+        "https://streamtv.as3sport.online:3394/hybrid/play.m3u8"
       ]
     },
     "languages": [
@@ -126,11 +126,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "s3sqg6vutusQdl",
-    "name": "eSports Max TV",
+    "nanoid": "BcpXd12u6A6rk7",
+    "name": "Contactv",
     "sources": {
       "streams": [
-        "https://cdnlive.klicgo.net/esportsmax/live/playlist_dvr.m3u8"
+        "https://lbgo.bozztv.com/ssh101/ssh101/contactv/playlist.m3u8"
       ]
     },
     "languages": [
@@ -140,12 +140,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "gKZyGzv7VMGeI2",
-    "name": "Grande TV",
+    "nanoid": "s3sqg6vutusQdl",
+    "name": "eSports Max TV",
     "sources": {
       "streams": [
-        "https://live20.bozztv.com/akamaissh101/ssh101/grandetv2240/playlist.m3u8",
-        "https://vs20.live.opencaster.com/grande41_0b593479/index.m3u8"
+        "https://cdnlive.klicgo.net/esportsmax/live/playlist_dvr.m3u8"
       ]
     },
     "languages": [
@@ -188,6 +187,20 @@
     "sources": {
       "streams": [
         "https://59d39900ebfb8.streamlock.net/islatv/islatv/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ve",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "MIcJy2C1jnLtEJ",
+    "name": "KandelaTV",
+    "sources": {
+      "streams": [
+        "https://streamtv.intervenhosting.net:3718/live/kandelamedioslive.m3u8"
       ]
     },
     "languages": [
@@ -244,20 +257,6 @@
     "sources": {
       "streams": [
         "https://cdnlive.klicgo.net/maxanime/live/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ve",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "kE8N5CkT9Xc9Iu",
-    "name": "Nortena Tv",
-    "sources": {
-      "streams": [
-        "https://lbgo.bozztv.com/ssh101/ssh101/nortenatv1234/playlist.m3u8"
       ]
     },
     "languages": [
@@ -532,6 +531,18 @@
     "languages": [
       "spa"
     ],
+    "country": "ve",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "lupM9TqioABtUb",
+    "name": "UN24",
+    "sources": {
+      "streams": [
+        "https://59d39900ebfb8.streamlock.net/untv-720/untv-720/playlist.m3u8"
+      ]
+    },
+    "languages": [],
     "country": "ve",
     "isGeoBlocked": false
   },

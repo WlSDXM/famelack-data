@@ -184,21 +184,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "nygDUxp3RgEFzv",
-    "name": "Canal Mas Television",
-    "sources": {
-      "streams": [
-        "https://movil.ejeserver.com/live/teledoradahd.m3u8",
-        "https://video.ejeserver.com/live/teledoradahd.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "co",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "QA1x5OQRH7UVPJ",
     "name": "Canal Nets",
     "sources": {
@@ -256,20 +241,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "8wch0b4bAAxnPo",
-    "name": "Canal Womtv",
-    "sources": {
-      "streams": [
-        "https://live.amelbatv.co:81/womtvlive/index.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "co",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "A9tPf7Rzt5ngpc",
     "name": "Canica TV",
     "sources": {
@@ -318,21 +289,6 @@
       "streams": [
         "https://hls-m9hrfayq-livepush.akamaized.net/live_cdn/nsxlDfnVmUyEy/eme2QCj5oX02cY/index.m3u8",
         "https://cdn1.cmbcolombia.tv/bethesda/video.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "co",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "5UNNnPvR2HyEJi",
-    "name": "CNC Bugavision",
-    "sources": {
-      "streams": [
-        "https://movil.ejeserver.com/live/cncbuga.m3u8",
-        "https://video.ejeserver.com/live/cncbuga.m3u8"
       ]
     },
     "languages": [
@@ -432,20 +388,6 @@
     "sources": {
       "streams": [
         "https://stmv3.voxtvhd.com.br/conex2/conex2/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "co",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "8MkrJaxHtTluMW",
-    "name": "El Mundo del Campo",
-    "sources": {
-      "streams": [
-        "https://movil.ejeserver.com/live/elmundodelcampo.m3u8"
       ]
     },
     "languages": [
@@ -908,6 +850,20 @@
     "isGeoBlocked": true
   },
   {
+    "nanoid": "MbGewayZqG9s6Q",
+    "name": "TeleQuindio",
+    "sources": {
+      "streams": [
+        "https://live20.bozztv.com/akamaissh101/ssh101/telequindio/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "co",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Clv7XzV3Q51izu",
     "name": "Telesangil",
     "sources": {
@@ -997,6 +953,20 @@
     "sources": {
       "streams": [
         "https://streaming5.globalhostla.com/rtplive/unamirad/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "co",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AmiFkXyyhlLrz0",
+    "name": "Veo Televisión",
+    "sources": {
+      "streams": [
+        "https://movil.ejeserver.com/live/veotv.m3u8"
       ]
     },
     "languages": [

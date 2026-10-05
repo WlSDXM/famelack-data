@@ -14,20 +14,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "85Cdlukq0tG6Z4",
-    "name": "15TV",
-    "sources": {
-      "streams": [
-        "https://servilive.com:3380/live/v3n6thy7glive.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "6AYObDCpHjAFK9",
     "name": "ADN 40",
     "sources": {
@@ -140,11 +126,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "z9NmlAa4TNcIbD",
-    "name": "BAMOS TV",
+    "nanoid": "GYpj19hD6m2qFh",
+    "name": "California Medios TV",
     "sources": {
       "streams": [
-        "https://video2.getstreamhosting.com:19360/8092/8092.m3u8"
+        "https://s5.mexside.net:1936/medios/medios/playlist.m3u8"
       ]
     },
     "languages": [
@@ -508,6 +494,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "dQroYObAPsPIjO",
+    "name": "Imagen TV+",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/tTbUpQ2e8F4"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "ZiZzS4tyBeE4oz",
     "name": "ITV Deportes",
     "sources": {
@@ -625,20 +623,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/SM864ZgPpG8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "4i2dbm12cF2ARa",
-    "name": "Nayarit Comunica",
-    "sources": {
-      "streams": [
-        "https://live.iplanay.gob.mx/hls/nayarittv.m3u8"
       ]
     },
     "languages": [
@@ -845,20 +829,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "arUwONnDyiIo6o",
-    "name": "Tele Yucatan",
-    "sources": {
-      "streams": [
-        "https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": true
-  },
-  {
     "nanoid": "248WyVmGTSntgh",
     "name": "Telediario Guadalajara",
     "sources": {
@@ -958,6 +928,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "pTFEVIhFVG7hq3",
+    "name": "Televisa Laguna",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/VqVm0_ek7jY"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "ZvTqK9RkV2bYWz",
     "name": "Televisa Mexicali",
     "sources": {
@@ -976,7 +960,7 @@
     "name": "Televisa Monterrey",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/7R0ou9XfENY"
+        "https://www.youtube-nocookie.com/embed/Lby-NIjaGZQ"
       ]
     },
     "languages": [
@@ -990,7 +974,7 @@
     "name": "Televisa Piedras Negras",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/5xdiA7JkzHI"
+        "https://www.youtube-nocookie.com/embed/I4-WF-TDJ74"
       ]
     },
     "languages": [

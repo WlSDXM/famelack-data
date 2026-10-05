@@ -72,7 +72,7 @@
     "name": "DGV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/uknC0RORfmI"
+        "https://www.youtube-nocookie.com/embed/UX-kpfFo47s"
       ]
     },
     "languages": [
@@ -122,20 +122,6 @@
     ],
     "country": "vn",
     "isGeoBlocked": false
-  },
-  {
-    "nanoid": "QnYbafq8SSO9v0",
-    "name": "HanoiTV1",
-    "sources": {
-      "streams": [
-        "https://cloudstreamhntv.tek4tv.vn/capture/smil:HN1.smil/chunklist.m3u8"
-      ]
-    },
-    "languages": [
-      "vie"
-    ],
-    "country": "vn",
-    "isGeoBlocked": true
   },
   {
     "nanoid": "MO8deGVLY2zQ9f",
@@ -567,20 +553,6 @@
     },
     "languages": [
       "eng",
-      "vie"
-    ],
-    "country": "vn",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "so5fgKy39odQZy",
-    "name": "VSBet HD",
-    "sources": {
-      "streams": [
-        "https://live05.meung.app/live/16226575.m3u8"
-      ]
-    },
-    "languages": [
       "vie"
     ],
     "country": "vn",

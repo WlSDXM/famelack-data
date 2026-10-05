@@ -36,7 +36,7 @@
         "https://cdn4.mjunoon.tv:8087/streamtest/146M/chunks.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/bNLT16emRhw"
+        "https://www.youtube-nocookie.com/embed/NiJiI1FZMps"
       ]
     },
     "languages": [
@@ -227,11 +227,25 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "NGPN9Kga0k97A4",
+    "name": "City 21 News",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/DGfzBm_g8XI"
+      ]
+    },
+    "languages": [
+      "urd"
+    ],
+    "country": "pk",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "SMZ90GrudLpWdN",
     "name": "City 41",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/jtnIwX69Cd0"
+        "https://www.youtube-nocookie.com/embed/WItckNQXdaw"
       ]
     },
     "languages": [
@@ -246,7 +260,7 @@
     "name": "City 42",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/nuDHu9J2jrY"
+        "https://www.youtube-nocookie.com/embed/g4N7_cRnSXQ"
       ]
     },
     "languages": [
@@ -852,9 +866,6 @@
     "sources": {
       "streams": [
         "https://vodzong.mjunoon.tv:8087/streamtest/NEWS1-128/playlist.m3u8"
-      ],
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/nkt2CsO_mCc"
       ]
     },
     "languages": [
@@ -939,7 +950,7 @@
     "name": "PTV News",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/sYOpC71osZw"
+        "https://www.youtube-nocookie.com/embed/xlMAa1Fswhs"
       ]
     },
     "languages": [

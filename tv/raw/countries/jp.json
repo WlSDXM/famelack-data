@@ -130,7 +130,7 @@
     "name": "JapaNews24",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/RNAFgPxGzm0"
+        "https://www.youtube-nocookie.com/embed/fTXBeioFxCU"
       ]
     },
     "languages": [
@@ -159,20 +159,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/j0SW3bmbiMc"
-      ]
-    },
-    "languages": [
-      "jpn"
-    ],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "I6PZ8XlrYGQMPu",
-    "name": "Luiger: Japanese City Pop Radio",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/bT-Px1VcImw"
       ]
     },
     "languages": [

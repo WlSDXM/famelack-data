@@ -112,20 +112,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "XNa5AM5I0Mvv8Q",
-    "name": "Capricho TV",
-    "sources": {
-      "streams": [
-        "https://video.compuwebecuador.com:3783/live/caprichotvlive.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ec",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "m1fqGkSb3kQ4GK",
     "name": "Ciracu TV",
     "sources": {
@@ -308,6 +294,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "BQiZCJpf4JlMdt",
+    "name": "La Nueva Radio TV 97.7",
+    "sources": {
+      "streams": [
+        "https://sv72.ecuaradiotv.net/lanuevatv/live/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ec",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "9Sf0ejjNeAblBj",
     "name": "LatacungaTV",
     "sources": {
@@ -467,6 +467,20 @@
     "sources": {
       "streams": [
         "https://eu1.servers10.com:8081/8074/index.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ec",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "QpaipzMOWMjyyR",
+    "name": "Radio Monumental TV",
+    "sources": {
+      "streams": [
+        "https://cloud37.ecuatel.com/monumentaltv/live/manifest.m3u8"
       ]
     },
     "languages": [

@@ -495,20 +495,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "xSyDen73bxIFUM",
-    "name": "Cartoon Network Italia",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/2oz_b8ZO5d8"
-      ]
-    },
-    "languages": [
-      "ita"
-    ],
-    "country": "it",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "ujhH0nIPBP5W03",
     "name": "Cartoon Network Türkiye",
     "sources": {
@@ -618,6 +604,20 @@
       "spa"
     ],
     "country": "do",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ioAW5Hy7e9f7fU",
+    "name": "Chithiram",
+    "sources": {
+      "streams": [
+        "https://cdn.pishow.tv/ott/live/1243/master.m3u8"
+      ]
+    },
+    "languages": [
+      "tam"
+    ],
+    "country": "in",
     "isGeoBlocked": false
   },
   {
@@ -1259,7 +1259,7 @@
     "name": "Jungle Beat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/f9Qz7mBVHnA"
+        "https://www.youtube-nocookie.com/embed/YpbLJXkbybs"
       ]
     },
     "languages": [
@@ -1310,6 +1310,20 @@
       "urd"
     ],
     "country": "pk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "0xr9dDKplwszmy",
+    "name": "Kids TV",
+    "sources": {
+      "streams": [
+        "https://origin5.mediacdn.ru/live/kidstv/index.m3u8"
+      ]
+    },
+    "languages": [
+      "ind"
+    ],
+    "country": "id",
     "isGeoBlocked": false
   },
   {
@@ -1761,20 +1775,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "dlSxOcHpkY3viD",
-    "name": "NickOnline Bob Esponja",
-    "sources": {
-      "streams": [
-        "https://bob.x1colegal.com/hls/stream.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "eyL4xvR1sE1phq",
     "name": "Nicktoons",
     "sources": {
@@ -1989,7 +1989,7 @@
     "name": "Peppa Pig Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/7nsjuZ5tzbA"
+        "https://www.youtube-nocookie.com/embed/XDIYSpEz1s0"
       ]
     },
     "languages": [
@@ -2433,34 +2433,6 @@
       "eng"
     ],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "3C5tAme4Sy2gIV",
-    "name": "Super Simple: Bedtime Songs",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/RWPMjg0mzdU"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "5X99oRpChEcKAS",
-    "name": "Super Simple: Simple Songs",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/O637pJcCO0w"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "ca",
     "isGeoBlocked": false
   },
   {
