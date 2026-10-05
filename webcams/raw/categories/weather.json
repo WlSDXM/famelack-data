@@ -180,6 +180,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "lyke9TwT1fOOz4",
+    "name": "Buffalo Bills Highmark Stadium",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/7k3fNLgxyQ4"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "LAUo04Vq75Oo9X",
     "name": "Bukit Jimbaran Panorama",
     "sources": {
@@ -196,7 +208,7 @@
     "name": "Caribou Weather Station Sky View",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4RuOXnZnWy0"
+        "https://www.youtube-nocookie.com/embed/HJICZQg1vlA"
       ]
     },
     "languages": [],
@@ -580,7 +592,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/RdnPDptl_SU"
+        "https://www.youtube-nocookie.com/embed/-VMaWKd2OSk"
       ]
     },
     "languages": [],

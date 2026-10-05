@@ -264,6 +264,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "lyke9TwT1fOOz4",
+    "name": "Buffalo Bills Highmark Stadium",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/7k3fNLgxyQ4"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "8xSm1gasIJAnc1",
     "name": "Capilla Jesucristo Rey de la Paz",
     "sources": {
@@ -684,18 +696,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "w1gfUYMEy0T72k",
-    "name": "Gwangandaegyo Bridge",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/TBOXgW5VV8s"
-      ]
-    },
-    "languages": [],
-    "country": "kr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "SYlrCGr5nLf1fa",
     "name": "Gyeongbokgung Palace",
     "sources": {
@@ -928,7 +928,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4CmnrvYqbD4"
+        "https://www.youtube-nocookie.com/embed/-1B-oprLV70"
       ]
     },
     "languages": [],
@@ -981,18 +981,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "knGN0Nu3u9Ld7X",
-    "name": "Masjid Al Haram",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/bNY8a2BB5Gc"
-      ]
-    },
-    "languages": [],
-    "country": "sa",
     "isGeoBlocked": false
   },
   {
@@ -1341,6 +1329,18 @@
     },
     "languages": [],
     "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "umyGNG4S5EyhEH",
+    "name": "Our Lady Star & St. John Paul II Sanctuary",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/IuRwHvaGfTk"
+      ]
+    },
+    "languages": [],
+    "country": "pl",
     "isGeoBlocked": false
   },
   {
@@ -1816,7 +1816,7 @@
     "name": "Steinbach Millennium Clock Tower",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/qL0UMwwN7VA"
+        "https://www.youtube-nocookie.com/embed/LlSXf_uF8rQ"
       ]
     },
     "languages": [],

@@ -12,6 +12,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "5kW4amB2IfzWDF",
+    "name": "Aeroporto de Navegantes",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/AFeGegIj6_g"
+      ]
+    },
+    "languages": [],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Jb7iDsQvcXwrte",
     "name": "Afton Municipal Airport",
     "sources": {
@@ -220,7 +232,7 @@
     "name": "Chapecó Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4L7Jcx_PjoY"
+        "https://www.youtube-nocookie.com/embed/nxE5HbS5TgM"
       ]
     },
     "languages": [],
@@ -244,7 +256,7 @@
     "name": "Congonhas Airport Camera 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/z5n9J6WHwSg"
+        "https://www.youtube-nocookie.com/embed/5AzPTkaeMKU"
       ]
     },
     "languages": [],
@@ -256,7 +268,7 @@
     "name": "Congonhas Airport Camera 3",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/tuxXZB0ED-Q"
+        "https://www.youtube-nocookie.com/embed/TViUNtH9nSY"
       ]
     },
     "languages": [],
@@ -352,7 +364,7 @@
     "name": "Galeão International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4tbXmvL35Wk"
+        "https://www.youtube-nocookie.com/embed/1kjBaQPJrsI"
       ]
     },
     "languages": [],
@@ -388,7 +400,7 @@
     "name": "Guarulhos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/J2APET7rDQM"
+        "https://www.youtube-nocookie.com/embed/DYD6o12ZZIQ"
       ]
     },
     "languages": [],
@@ -400,7 +412,7 @@
     "name": "Guarulhos International Airport Runway 10L",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/YSDdG6ielyk"
+        "https://www.youtube-nocookie.com/embed/8uF--GXQkIo"
       ]
     },
     "languages": [],
@@ -412,7 +424,7 @@
     "name": "Guarulhos International Airport Runway 10R",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/JUsUyvmOJag"
+        "https://www.youtube-nocookie.com/embed/RCxo16PFGrY"
       ]
     },
     "languages": [],
@@ -424,7 +436,7 @@
     "name": "Guarulhos International Airport Runway 28",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4gKEEN9sxkU"
+        "https://www.youtube-nocookie.com/embed/4qElTKY5rkI"
       ]
     },
     "languages": [],
@@ -712,7 +724,7 @@
     "name": "LAX Airport Arrivals",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/DbnTyrFHBgM"
+        "https://www.youtube-nocookie.com/embed/VNwgk1xIeUc"
       ]
     },
     "languages": [],
@@ -760,7 +772,7 @@
     "name": "London Heathrow Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ZEUjsPb8yis"
+        "https://www.youtube-nocookie.com/embed/HPOO7uGvG-k"
       ]
     },
     "languages": [],
@@ -844,7 +856,7 @@
     "name": "Maho Beach Plane Spotting",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/XDoKSM369-4"
+        "https://www.youtube-nocookie.com/embed/wfI-vnxunQg"
       ]
     },
     "languages": [],
@@ -912,18 +924,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "qZ8FdNdvnB99G3",
-    "name": "Montreal Airport (YUL)",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/hzeSvUrs7Ug"
-      ]
-    },
-    "languages": [],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "MDcD4oo0Nwtcbj",
     "name": "Montreal Trudeau Airport Runway 24L",
     "sources": {
@@ -940,7 +940,7 @@
     "name": "MSP Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/XaBPc-sQjQA"
+        "https://www.youtube-nocookie.com/embed/xtnQ3ikq7n0"
       ]
     },
     "languages": [],
@@ -976,7 +976,7 @@
     "name": "Naha Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/hjfqc60PbCk"
+        "https://www.youtube-nocookie.com/embed/vFSKi7cdGfs"
       ]
     },
     "languages": [],
@@ -1212,6 +1212,30 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "BRfXfK6WMsmEQs",
+    "name": "Recife Airport",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/KOzRMzxBmaU"
+      ]
+    },
+    "languages": [],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "I1OmF6x7jo0ppF",
+    "name": "Recife Airport",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/_eRaFXbTqXc"
+      ]
+    },
+    "languages": [],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "BMId9ilG8F0n1D",
     "name": "Reno-Tahoe International Airport",
     "sources": {
@@ -1264,7 +1288,7 @@
     "name": "Santos Dumont Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/UfRehSBQBhI"
+        "https://www.youtube-nocookie.com/embed/36NtugXl8gI"
       ]
     },
     "languages": [],
@@ -1528,7 +1552,7 @@
     "name": "Viracopos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HLCSEoHuH_o"
+        "https://www.youtube-nocookie.com/embed/UoLkUFRxDBc"
       ]
     },
     "languages": [],

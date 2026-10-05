@@ -132,6 +132,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "umyGNG4S5EyhEH",
+    "name": "Our Lady Star & St. John Paul II Sanctuary",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/IuRwHvaGfTk"
+      ]
+    },
+    "languages": [],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "zGCPEL5jTpE9YS",
     "name": "Panorama Morska Resort",
     "sources": {
@@ -244,7 +256,7 @@
     "name": "Warsaw Skyline",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Kq7YNsRtMqw"
+        "https://www.youtube-nocookie.com/embed/C92L7DMMFz4"
       ]
     },
     "languages": [],

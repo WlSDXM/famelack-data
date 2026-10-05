@@ -84,6 +84,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "1D1zeWzRwZSfGU",
+    "name": "Pinamar Coast",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/KLjgHG8253c"
+      ]
+    },
+    "languages": [],
+    "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "rld5tc3FTwnwEw",
     "name": "Puente Gral Belgrano",
     "sources": {

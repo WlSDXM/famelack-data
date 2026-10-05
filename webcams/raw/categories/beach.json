@@ -28,7 +28,7 @@
     "name": "Acapulco Bay & El Morro Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/LPuZGfMlEBc"
+        "https://www.youtube-nocookie.com/embed/N_myRz6mN1Q"
       ]
     },
     "languages": [],
@@ -1240,7 +1240,7 @@
     "name": "Copacabana",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/sq5zvrWpXPk"
+        "https://www.youtube-nocookie.com/embed/wyEi0OPai5g"
       ]
     },
     "languages": [],
@@ -1252,7 +1252,7 @@
     "name": "Copacabana Posto 3",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/1161FQ2rIyw"
+        "https://www.youtube-nocookie.com/embed/WEl_I5vmuSs"
       ]
     },
     "languages": [],
@@ -1776,6 +1776,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "VUmQUCx0iVZWXS",
+    "name": "Evanston Beach",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/yzSo_TOyrpw"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "IEiFEkw002rkbN",
     "name": "Fairmont Kea Lani Resort Beach",
     "sources": {
@@ -2004,18 +2016,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "2vJJWv578aBryv",
-    "name": "Gangmun Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/n8mJCRXGoXc"
-      ]
-    },
-    "languages": [],
-    "country": "kr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "nrgfLy8cA3eSgb",
     "name": "Garbí Sailing School",
     "sources": {
@@ -2045,6 +2045,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/xvMcuLPJbbs"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AI3uhNZ6ZF76gP",
+    "name": "Georgica Jetty",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/p8191jzp0sI"
       ]
     },
     "languages": [],
@@ -2241,18 +2253,6 @@
     },
     "languages": [],
     "country": "bl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "w1gfUYMEy0T72k",
-    "name": "Gwangandaegyo Bridge",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/TBOXgW5VV8s"
-      ]
-    },
-    "languages": [],
-    "country": "kr",
     "isGeoBlocked": false
   },
   {
@@ -2892,6 +2892,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "1i9bjh7d4MQBxr",
+    "name": "La Concha Beach, San Sebastián",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Qw7aeUZpLTM"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Nm31DY2j8oYOVO",
     "name": "La Mata Beach",
     "sources": {
@@ -3016,7 +3028,7 @@
     "name": "Le Morne",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/jERKslx1zwQ"
+        "https://www.youtube-nocookie.com/embed/yZuFh9vf8hQ"
       ]
     },
     "languages": [],
@@ -3364,7 +3376,7 @@
     "name": "Maho Beach Plane Spotting",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/XDoKSM369-4"
+        "https://www.youtube-nocookie.com/embed/wfI-vnxunQg"
       ]
     },
     "languages": [],
@@ -3900,6 +3912,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "tq3h3PKDZVY1uq",
+    "name": "Nuevo Vallarta Panorama",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/NyLfXeGDYCY"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "GWiDHzTieuhWu4",
     "name": "Ōamaru Little Penguins",
     "sources": {
@@ -4392,18 +4416,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "YqD9EYutl6o5fw",
-    "name": "Pensacola Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/_9pXnIqlNbg"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "RlkQ6LgjAf2RDd",
     "name": "Pensacola Beach Pier",
     "sources": {
@@ -4497,6 +4509,18 @@
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "1D1zeWzRwZSfGU",
+    "name": "Pinamar Coast",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/KLjgHG8253c"
+      ]
+    },
+    "languages": [],
+    "country": "ar",
     "isGeoBlocked": false
   },
   {
@@ -5928,18 +5952,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "9k8C0M4irL8HI4",
-    "name": "Shichirigahama Studio Mount Fuji & Enoshima View",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/PFqSE8GNfnE"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "8B6AjRW5y9n01r",
     "name": "Shilshole Bay & Puget Sound",
     "sources": {
@@ -6537,18 +6549,6 @@
     },
     "languages": [],
     "country": "es",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "69EfdGWc5pq5dV",
-    "name": "Teign Estuary",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ug3AO8rn0IE"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
     "isGeoBlocked": false
   },
   {
@@ -7180,7 +7180,7 @@
     "name": "West Kirby Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ZynismUbyMQ"
+        "https://www.youtube-nocookie.com/embed/IE_uHiFAM-w"
       ]
     },
     "languages": [],

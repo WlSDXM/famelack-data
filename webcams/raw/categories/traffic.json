@@ -448,7 +448,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/9Sk0Adnsiyc"
+        "https://www.youtube-nocookie.com/embed/NvMgcnr3Rk8"
       ]
     },
     "languages": [],
@@ -544,7 +544,7 @@
     "name": "Copacabana",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/sq5zvrWpXPk"
+        "https://www.youtube-nocookie.com/embed/wyEi0OPai5g"
       ]
     },
     "languages": [],
@@ -556,7 +556,7 @@
     "name": "Copacabana Posto 3",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/1161FQ2rIyw"
+        "https://www.youtube-nocookie.com/embed/WEl_I5vmuSs"
       ]
     },
     "languages": [],
@@ -928,7 +928,7 @@
     "name": "Goio-Ên & Uruguay River",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/J_320lhUuLA"
+        "https://www.youtube-nocookie.com/embed/j16t8EZBO0o"
       ]
     },
     "languages": [],
@@ -1348,7 +1348,7 @@
     "name": "Khao Lak",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Nq5VZwjx08k"
+        "https://www.youtube-nocookie.com/embed/GfAFUFxpA1k"
       ]
     },
     "languages": [],
@@ -2424,18 +2424,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "NTvvuoiGhXixu4",
-    "name": "Roundabout, Derry",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/uq94VTwPBYU"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "UzWAa7Ll6U0eeO",
     "name": "Route 1 & Ramp Road Traffic",
     "sources": {
@@ -2728,7 +2716,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/vd33X-vHbIw"
+        "https://www.youtube-nocookie.com/embed/vcshhreCjco"
       ]
     },
     "languages": [],
@@ -3040,7 +3028,7 @@
     "name": "Sunny Isles Beach Intracoastal",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/k_grkzuEOrk"
+        "https://www.youtube-nocookie.com/embed/4HD_BgDyrJs"
       ]
     },
     "languages": [],
@@ -3549,6 +3537,18 @@
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "e3euaSQTYz255f",
+    "name": "Westmorland Street Bridge",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/l8jm11rhbCg"
+      ]
+    },
+    "languages": [],
+    "country": "ca",
     "isGeoBlocked": false
   },
   {

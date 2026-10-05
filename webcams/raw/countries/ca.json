@@ -364,7 +364,7 @@
     "name": "Downtown Parry Sound",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/V5fNcKflAqo"
+        "https://www.youtube-nocookie.com/embed/YBz840MwQZM"
       ]
     },
     "languages": [],
@@ -389,6 +389,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/ClvJjIz5GE4"
+      ]
+    },
+    "languages": [],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "fn3BNJZCUkuf7G",
+    "name": "Fredericton City Hall",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Wh44nJl_xYg"
       ]
     },
     "languages": [],
@@ -473,18 +485,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/Sqyn6-HG1Uw"
-      ]
-    },
-    "languages": [],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "qZ8FdNdvnB99G3",
-    "name": "Montreal Airport (YUL)",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/hzeSvUrs7Ug"
       ]
     },
     "languages": [],
@@ -605,6 +605,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/5WdsHkKVanA"
+      ]
+    },
+    "languages": [],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "C3VXm7uEB3l3AY",
+    "name": "Officers' Square Fredericton",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/R5x50xRw7WI"
       ]
     },
     "languages": [],
@@ -840,6 +852,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "VgHgrNj2M0VWk1",
+    "name": "Saint John River Fredericton",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/_qbHnY633jY"
+      ]
+    },
+    "languages": [],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "zIFlx9Mn43kQL5",
     "name": "Saint Lawrence River Cruise Terminal",
     "sources": {
@@ -952,7 +976,7 @@
     "name": "Steinbach Millennium Clock Tower",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/qL0UMwwN7VA"
+        "https://www.youtube-nocookie.com/embed/LlSXf_uF8rQ"
       ]
     },
     "languages": [],
@@ -1229,6 +1253,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/yF7XdpkL34w"
+      ]
+    },
+    "languages": [],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "e3euaSQTYz255f",
+    "name": "Westmorland Street Bridge",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/l8jm11rhbCg"
       ]
     },
     "languages": [],

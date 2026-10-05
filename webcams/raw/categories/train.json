@@ -28,7 +28,7 @@
     "name": "Akabane Station",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/hEqTJJp6foM"
+        "https://www.youtube-nocookie.com/embed/mFGMNtMcmBI"
       ]
     },
     "languages": [],
@@ -400,7 +400,7 @@
     "name": "BNSF Cajon Subdivision Trainspotting",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/QjguH0KEyDY"
+        "https://www.youtube-nocookie.com/embed/UPxg1FSFBqk"
       ]
     },
     "languages": [],
@@ -1848,18 +1848,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "kNh0NoSO5nMIF0",
-    "name": "Japeri Railway",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/CPj91NLpD-o"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "saifyokuT27ego",
     "name": "Jesup",
     "sources": {
@@ -2344,7 +2332,7 @@
     "name": "Meitetsu Tokoname Line Ono-machi",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/eWf9dHAypnI"
+        "https://www.youtube-nocookie.com/embed/kUWyws1-OMg"
       ]
     },
     "languages": [],
@@ -2604,6 +2592,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "4WOl403de6kbbe",
+    "name": "Necedah Railcam",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/VFXMwUyO25g"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "2olVHG9AYqohNc",
     "name": "Needles BNSF Railroad",
     "sources": {
@@ -2841,18 +2841,6 @@
     },
     "languages": [],
     "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "eiCNw2vTDGxAyd",
-    "name": "Oustecké Railway Station View",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/MhjD4rhGvV0"
-      ]
-    },
-    "languages": [],
-    "country": "cz",
     "isGeoBlocked": false
   },
   {
@@ -3460,7 +3448,7 @@
     "name": "Springfield Railyard, Jefferson Footbridge View",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/3WGEa7NFMoA"
+        "https://www.youtube-nocookie.com/embed/_ml6k80wSVc"
       ]
     },
     "languages": [],

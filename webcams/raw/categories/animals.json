@@ -60,18 +60,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ZswA2qzSbC08HE",
-    "name": "Animal Adventure Park Tigers",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/bTP7DyoruXw"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "msNsW1uY7Jc55H",
     "name": "Aquarium of the Pacific Shark Lagoon",
     "sources": {
@@ -2212,7 +2200,7 @@
     "name": "Las Merindades Amphibian Pond",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/b-Bn_L4PB-w"
+        "https://www.youtube-nocookie.com/embed/iK471CtjVB8"
       ]
     },
     "languages": [],
@@ -2560,7 +2548,7 @@
     "name": "Manchester Peregrine Falcon Nest 1",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/KSgCCJzud7c"
+        "https://www.youtube-nocookie.com/embed/ud1zupQMHA8"
       ]
     },
     "languages": [],
@@ -3161,6 +3149,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/ilfxEpk51oI"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "7qO8x7gnfJ9HeV",
+    "name": "Osprey Nest Loch of the Lowes",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/HkQyPFPCJLA"
       ]
     },
     "languages": [],
@@ -4672,7 +4672,7 @@
     "name": "Sierra de Guadarrama National Park Booted Eagle Nest",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/0yR77pW869w"
+        "https://www.youtube-nocookie.com/embed/gwD5MfaqbVc"
       ]
     },
     "languages": [],
@@ -4924,7 +4924,7 @@
     "name": "Squirrel and Wildlife Feeder",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Zpj4WGUUtFc"
+        "https://www.youtube-nocookie.com/embed/XUm_vmkCJ1k"
       ]
     },
     "languages": [],

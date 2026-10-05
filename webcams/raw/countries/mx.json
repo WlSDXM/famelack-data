@@ -4,7 +4,7 @@
     "name": "Acapulco Bay & El Morro Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/LPuZGfMlEBc"
+        "https://www.youtube-nocookie.com/embed/N_myRz6mN1Q"
       ]
     },
     "languages": [],
@@ -149,6 +149,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/DqobR2HyJ14"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "JY5X1jo7Ik5vCz",
+    "name": "Chapultepec Park Panorama",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/ciBL0DYBYpU"
       ]
     },
     "languages": [],
@@ -492,6 +504,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "tq3h3PKDZVY1uq",
+    "name": "Nuevo Vallarta Panorama",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/NyLfXeGDYCY"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "5b19pV31ztaSO2",
     "name": "Paseo de la Reforma",
     "sources": {
@@ -792,18 +816,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "qntxMH7SzXBIA8",
-    "name": "Rancho La Onza Hillside",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/89qXEBuEDf0"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "GWqgsL8u8GD8wA",
     "name": "Rancho La Onza Valley Panorama",
     "sources": {
@@ -1012,7 +1024,7 @@
     "name": "Uruapan Panoramic City View",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-igWgenMbvI"
+        "https://www.youtube-nocookie.com/embed/4gRoc1igMUc"
       ]
     },
     "languages": [],

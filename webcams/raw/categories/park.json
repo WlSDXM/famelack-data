@@ -204,6 +204,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "JY5X1jo7Ik5vCz",
+    "name": "Chapultepec Park Panorama",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/ciBL0DYBYpU"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "zpemTIQwTCoNrg",
     "name": "Charme Theater-Camping Privé",
     "sources": {
@@ -969,6 +981,18 @@
     },
     "languages": [],
     "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "C3VXm7uEB3l3AY",
+    "name": "Officers' Square Fredericton",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/R5x50xRw7WI"
+      ]
+    },
+    "languages": [],
+    "country": "ca",
     "isGeoBlocked": false
   },
   {

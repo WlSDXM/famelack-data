@@ -372,6 +372,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "YnTF1ltgkkqBwY",
+    "name": "Barcelona Harbor on Lake Erie",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/YBjxlpDGxZE"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Nh5KajVpcEKZ4g",
     "name": "Barry Yacht Club",
     "sources": {
@@ -988,7 +1000,7 @@
     "name": "Charlotte-Genesee Lighthouse",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/XAHa3fQnorM"
+        "https://www.youtube-nocookie.com/embed/HQ4a6fxynro"
       ]
     },
     "languages": [],
@@ -1564,7 +1576,7 @@
     "name": "Dunedin Otago Harbour",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/b8h-ce9LiEk"
+        "https://www.youtube-nocookie.com/embed/L8Nju-SWuB8"
       ]
     },
     "languages": [],
@@ -2736,23 +2748,23 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "4Ng2KXED8pHQNw",
-    "name": "KYCN Nieuwpoort Yacht Club",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/HB2zlqfy1Xw"
-      ]
-    },
-    "languages": [],
-    "country": "be",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "KW9skeOLXNHG6f",
     "name": "L'Ametlla de Mar Fishing Port",
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/pWISP2XV-NY"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "1i9bjh7d4MQBxr",
+    "name": "La Concha Beach, San Sebastián",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Qw7aeUZpLTM"
       ]
     },
     "languages": [],
@@ -5496,18 +5508,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "69EfdGWc5pq5dV",
-    "name": "Teign Estuary",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ug3AO8rn0IE"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "vyk7k8Xa0WHkVj",
     "name": "Terminal Holwert",
     "sources": {
@@ -5829,6 +5829,18 @@
     },
     "languages": [],
     "country": "fo",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "3gC5LAxVuRiBnu",
+    "name": "Valdez South Boat Harbor & Marina",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/wWIPAq1J6Xs"
+      ]
+    },
+    "languages": [],
+    "country": "us",
     "isGeoBlocked": false
   },
   {

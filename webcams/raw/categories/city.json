@@ -1636,31 +1636,7 @@
     "name": "Castro Street",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/hjRY01AGmJo"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "zSm83nc9Ya1E75",
-    "name": "Castro Street Cam 1",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/M1hMK6H9F98"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Ui5Xgu33j2MZic",
-    "name": "Castro Street Cam 2",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/zrzg0Lfe92U"
+        "https://www.youtube-nocookie.com/embed/j6nq6g0_SnY"
       ]
     },
     "languages": [],
@@ -1672,7 +1648,7 @@
     "name": "Castro Street, San Francisco",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/MasojgpniNE"
+        "https://www.youtube-nocookie.com/embed/ifNf4yAEL6s"
       ]
     },
     "languages": [],
@@ -1768,11 +1744,23 @@
     "name": "Chapecó City Center",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HVYH7HufNZ4"
+        "https://www.youtube-nocookie.com/embed/pmIx0Oh5vjk"
       ]
     },
     "languages": [],
     "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "JY5X1jo7Ik5vCz",
+    "name": "Chapultepec Park Panorama",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/ciBL0DYBYpU"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
     "isGeoBlocked": false
   },
   {
@@ -1852,7 +1840,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/9Sk0Adnsiyc"
+        "https://www.youtube-nocookie.com/embed/NvMgcnr3Rk8"
       ]
     },
     "languages": [],
@@ -2104,7 +2092,7 @@
     "name": "Copacabana",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/sq5zvrWpXPk"
+        "https://www.youtube-nocookie.com/embed/wyEi0OPai5g"
       ]
     },
     "languages": [],
@@ -2116,7 +2104,7 @@
     "name": "Copacabana Posto 3",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/1161FQ2rIyw"
+        "https://www.youtube-nocookie.com/embed/WEl_I5vmuSs"
       ]
     },
     "languages": [],
@@ -2145,6 +2133,18 @@
     },
     "languages": [],
     "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "muiTP0K26kcQay",
+    "name": "Court Avenue District",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/GKIHlhf6ISE"
+      ]
+    },
+    "languages": [],
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -2692,7 +2692,7 @@
     "name": "Downtown Parry Sound",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/V5fNcKflAqo"
+        "https://www.youtube-nocookie.com/embed/YBz840MwQZM"
       ]
     },
     "languages": [],
@@ -2901,18 +2901,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "xfWiShXZHzUDzc",
-    "name": "Dvorecký Bridge over the Vltava",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/yQe334ro-w0"
-      ]
-    },
-    "languages": [],
-    "country": "cz",
     "isGeoBlocked": false
   },
   {
@@ -3240,6 +3228,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "fn3BNJZCUkuf7G",
+    "name": "Fredericton City Hall",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Wh44nJl_xYg"
+      ]
+    },
+    "languages": [],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "bLQnubjuoiQhnQ",
     "name": "Friendship Bridge",
     "sources": {
@@ -3408,18 +3408,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ua9X7SuA197Ipb",
-    "name": "Gemona del Friuli",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/pRvHI1KcfYs"
-      ]
-    },
-    "languages": [],
-    "country": "it",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "38LOo7Ww0Mq9kT",
     "name": "Germany Now",
     "sources": {
@@ -3501,30 +3489,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "uRI257c7osiZkO",
-    "name": "Gramado Centre",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/SslC46sVyoo"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "dK0f3DdBX2TenP",
-    "name": "Gramado Church Tower Panorama",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/qoAd9U-8Cic"
-      ]
-    },
-    "languages": [],
-    "country": "br",
     "isGeoBlocked": false
   },
   {
@@ -3792,18 +3756,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "w1gfUYMEy0T72k",
-    "name": "Gwangandaegyo Bridge",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/TBOXgW5VV8s"
-      ]
-    },
-    "languages": [],
-    "country": "kr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "SYlrCGr5nLf1fa",
     "name": "Gyeongbokgung Palace",
     "sources": {
@@ -4048,7 +4000,7 @@
     "name": "Hawick High Street",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/DotbbIAVnYk"
+        "https://www.youtube-nocookie.com/embed/1KEPoJMkJxA"
       ]
     },
     "languages": [],
@@ -4936,7 +4888,7 @@
     "name": "Kensington Avenue Street Cam",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/VFA30Ku3KBA"
+        "https://www.youtube-nocookie.com/embed/8qv8k8yE95s"
       ]
     },
     "languages": [],
@@ -5416,7 +5368,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4CmnrvYqbD4"
+        "https://www.youtube-nocookie.com/embed/-1B-oprLV70"
       ]
     },
     "languages": [],
@@ -6300,18 +6252,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "knGN0Nu3u9Ld7X",
-    "name": "Masjid Al Haram",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/bNY8a2BB5Gc"
-      ]
-    },
-    "languages": [],
-    "country": "sa",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "5e2bMY8P1Bm1FX",
     "name": "Masjid al-Haram Kaaba",
     "sources": {
@@ -7104,6 +7044,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "ZBEvKhlonOUVYz",
+    "name": "New Orleans Historic Street View",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/xqdukYhcGEU"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "EOpzbi1QphNRFA",
     "name": "Newcastle Central Station Northeast Approach",
     "sources": {
@@ -7356,6 +7308,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "tq3h3PKDZVY1uq",
+    "name": "Nuevo Vallarta Panorama",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/NyLfXeGDYCY"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "9R2VsP4Qg37C2G",
     "name": "O-Train Bayview Station",
     "sources": {
@@ -7384,7 +7348,7 @@
     "name": "Obor Square",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/hOFkFow_PTo"
+        "https://www.youtube-nocookie.com/embed/dk4OGwrxzfY"
       ]
     },
     "languages": [],
@@ -7449,6 +7413,18 @@
     },
     "languages": [],
     "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "C3VXm7uEB3l3AY",
+    "name": "Officers' Square Fredericton",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/R5x50xRw7WI"
+      ]
+    },
+    "languages": [],
+    "country": "ca",
     "isGeoBlocked": false
   },
   {
@@ -8812,7 +8788,7 @@
     "name": "Rescue Station in Makov",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/q5V52hvsiC8"
+        "https://www.youtube-nocookie.com/embed/VrWou0V5Mcs"
       ]
     },
     "languages": [],
@@ -9448,7 +9424,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/vd33X-vHbIw"
+        "https://www.youtube-nocookie.com/embed/vcshhreCjco"
       ]
     },
     "languages": [],
@@ -10636,7 +10612,7 @@
     "name": "Steinbach Millennium Clock Tower",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/qL0UMwwN7VA"
+        "https://www.youtube-nocookie.com/embed/LlSXf_uF8rQ"
       ]
     },
     "languages": [],
@@ -10816,7 +10792,7 @@
     "name": "Sunny Isles Beach Intracoastal",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/k_grkzuEOrk"
+        "https://www.youtube-nocookie.com/embed/4HD_BgDyrJs"
       ]
     },
     "languages": [],
@@ -10888,7 +10864,7 @@
     "name": "Sydney Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/xaRz7A5b8vc"
+        "https://www.youtube-nocookie.com/embed/-379SnbhtVA"
       ]
     },
     "languages": [],
@@ -11760,18 +11736,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "hZbec8PuoVizmT",
-    "name": "Triple Crown Casinos",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Vo7l5_YKAzg"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "5h3HJMQqAw5Uvp",
     "name": "Tropical Murphy's, Chaweng Street View",
     "sources": {
@@ -12088,7 +12052,7 @@
     "name": "Uruapan Panoramic City View",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-igWgenMbvI"
+        "https://www.youtube-nocookie.com/embed/4gRoc1igMUc"
       ]
     },
     "languages": [],
@@ -12700,7 +12664,7 @@
     "name": "Warsaw Skyline",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Kq7YNsRtMqw"
+        "https://www.youtube-nocookie.com/embed/C92L7DMMFz4"
       ]
     },
     "languages": [],

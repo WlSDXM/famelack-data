@@ -492,18 +492,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "xfWiShXZHzUDzc",
-    "name": "Dvorecký Bridge over the Vltava",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/yQe334ro-w0"
-      ]
-    },
-    "languages": [],
-    "country": "cz",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "j453ot0ew9K4g9",
     "name": "East 34th Street Ferry Landing",
     "sources": {
@@ -640,7 +628,7 @@
     "name": "Goio-Ên & Uruguay River",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/J_320lhUuLA"
+        "https://www.youtube-nocookie.com/embed/j16t8EZBO0o"
       ]
     },
     "languages": [],
@@ -1548,6 +1536,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "7qO8x7gnfJ9HeV",
+    "name": "Osprey Nest Loch of the Lowes",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/HkQyPFPCJLA"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "JLfOaj7IjxGWR0",
     "name": "Otawara Hoki Bridge River Surveillance",
     "sources": {
@@ -1893,6 +1893,18 @@
     },
     "languages": [],
     "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "VgHgrNj2M0VWk1",
+    "name": "Saint John River Fredericton",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/_qbHnY633jY"
+      ]
+    },
+    "languages": [],
+    "country": "ca",
     "isGeoBlocked": false
   },
   {

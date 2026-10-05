@@ -84,6 +84,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "lyke9TwT1fOOz4",
+    "name": "Buffalo Bills Highmark Stadium",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/7k3fNLgxyQ4"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "1S821EyUM9geky",
     "name": "Bullens Field Baseball Diamond",
     "sources": {
@@ -136,7 +148,7 @@
     "name": "Circolo Golf Degli Ulivi",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Qkn9eNZKYLc"
+        "https://www.youtube-nocookie.com/embed/sjO4wnGrpnc"
       ]
     },
     "languages": [],
@@ -585,6 +597,18 @@
     },
     "languages": [],
     "country": "nl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AxqYiXwfO6Ps1g",
+    "name": "Norway Summer Parks",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Z3KpyyXO4Vw"
+      ]
+    },
+    "languages": [],
+    "country": "no",
     "isGeoBlocked": false
   },
   {

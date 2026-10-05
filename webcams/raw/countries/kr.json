@@ -72,30 +72,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "2vJJWv578aBryv",
-    "name": "Gangmun Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/n8mJCRXGoXc"
-      ]
-    },
-    "languages": [],
-    "country": "kr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "w1gfUYMEy0T72k",
-    "name": "Gwangandaegyo Bridge",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/TBOXgW5VV8s"
-      ]
-    },
-    "languages": [],
-    "country": "kr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "SYlrCGr5nLf1fa",
     "name": "Gyeongbokgung Palace",
     "sources": {

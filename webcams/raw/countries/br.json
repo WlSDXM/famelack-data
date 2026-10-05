@@ -1,5 +1,17 @@
 [
   {
+    "nanoid": "5kW4amB2IfzWDF",
+    "name": "Aeroporto de Navegantes",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/AFeGegIj6_g"
+      ]
+    },
+    "languages": [],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "752s78UcOxKNtu",
     "name": "Afogados da Ingazeira",
     "sources": {
@@ -240,18 +252,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "GHTbEAbL1dHV7Q",
-    "name": "Caracol Falls",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/F0fcZNbvRGg"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "3iNjhRenLmstFN",
     "name": "Central Altar, National Shrine of Aparecida",
     "sources": {
@@ -264,11 +264,23 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "4ZCYAilt3GmE7O",
+    "name": "Centro Sobradinho RS",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/nvt_sw5PuW8"
+      ]
+    },
+    "languages": [],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "LQlT3Do4EjmGMK",
     "name": "Chapecó Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4L7Jcx_PjoY"
+        "https://www.youtube-nocookie.com/embed/nxE5HbS5TgM"
       ]
     },
     "languages": [],
@@ -280,7 +292,7 @@
     "name": "Chapecó City Center",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HVYH7HufNZ4"
+        "https://www.youtube-nocookie.com/embed/pmIx0Oh5vjk"
       ]
     },
     "languages": [],
@@ -292,7 +304,7 @@
     "name": "Congonhas Airport Camera 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/z5n9J6WHwSg"
+        "https://www.youtube-nocookie.com/embed/5AzPTkaeMKU"
       ]
     },
     "languages": [],
@@ -304,7 +316,7 @@
     "name": "Congonhas Airport Camera 3",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/tuxXZB0ED-Q"
+        "https://www.youtube-nocookie.com/embed/TViUNtH9nSY"
       ]
     },
     "languages": [],
@@ -316,7 +328,7 @@
     "name": "Copacabana",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/sq5zvrWpXPk"
+        "https://www.youtube-nocookie.com/embed/wyEi0OPai5g"
       ]
     },
     "languages": [],
@@ -328,7 +340,7 @@
     "name": "Copacabana Posto 3",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/1161FQ2rIyw"
+        "https://www.youtube-nocookie.com/embed/WEl_I5vmuSs"
       ]
     },
     "languages": [],
@@ -412,7 +424,7 @@
     "name": "Galeão International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4tbXmvL35Wk"
+        "https://www.youtube-nocookie.com/embed/1kjBaQPJrsI"
       ]
     },
     "languages": [],
@@ -424,7 +436,7 @@
     "name": "Goio-Ên & Uruguay River",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/J_320lhUuLA"
+        "https://www.youtube-nocookie.com/embed/j16t8EZBO0o"
       ]
     },
     "languages": [],
@@ -437,30 +449,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/IPR2ENWQlrs"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "uRI257c7osiZkO",
-    "name": "Gramado Centre",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/SslC46sVyoo"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "dK0f3DdBX2TenP",
-    "name": "Gramado Church Tower Panorama",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/qoAd9U-8Cic"
       ]
     },
     "languages": [],
@@ -484,7 +472,7 @@
     "name": "Guarulhos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/J2APET7rDQM"
+        "https://www.youtube-nocookie.com/embed/DYD6o12ZZIQ"
       ]
     },
     "languages": [],
@@ -496,7 +484,7 @@
     "name": "Guarulhos International Airport Runway 10L",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/YSDdG6ielyk"
+        "https://www.youtube-nocookie.com/embed/8uF--GXQkIo"
       ]
     },
     "languages": [],
@@ -508,7 +496,7 @@
     "name": "Guarulhos International Airport Runway 10R",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/JUsUyvmOJag"
+        "https://www.youtube-nocookie.com/embed/RCxo16PFGrY"
       ]
     },
     "languages": [],
@@ -520,7 +508,7 @@
     "name": "Guarulhos International Airport Runway 28",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4gKEEN9sxkU"
+        "https://www.youtube-nocookie.com/embed/4qElTKY5rkI"
       ]
     },
     "languages": [],
@@ -545,18 +533,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/j4Wne61IJ3I"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "kNh0NoSO5nMIF0",
-    "name": "Japeri Railway",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/CPj91NLpD-o"
       ]
     },
     "languages": [],
@@ -792,6 +768,30 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "BRfXfK6WMsmEQs",
+    "name": "Recife Airport",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/KOzRMzxBmaU"
+      ]
+    },
+    "languages": [],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "I1OmF6x7jo0ppF",
+    "name": "Recife Airport",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/_eRaFXbTqXc"
+      ]
+    },
+    "languages": [],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "S00sxg6TqmnYjM",
     "name": "Salgado Filho Airport",
     "sources": {
@@ -880,7 +880,7 @@
     "name": "Santos Dumont Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/UfRehSBQBhI"
+        "https://www.youtube-nocookie.com/embed/36NtugXl8gI"
       ]
     },
     "languages": [],
@@ -988,7 +988,7 @@
     "name": "Viracopos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HLCSEoHuH_o"
+        "https://www.youtube-nocookie.com/embed/UoLkUFRxDBc"
       ]
     },
     "languages": [],

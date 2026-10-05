@@ -60,7 +60,7 @@
     "capital": "Buenos Aires",
     "timeZone": "America/Argentina/Buenos_Aires",
     "hasChannels": true,
-    "channelCount": 13
+    "channelCount": 14
   },
   "AS": {
     "country": "American Samoa",
@@ -130,7 +130,7 @@
     "capital": "Brussels",
     "timeZone": "Europe/Brussels",
     "hasChannels": true,
-    "channelCount": 29
+    "channelCount": 28
   },
   "BF": {
     "country": "Burkina Faso",
@@ -256,7 +256,7 @@
     "capital": "Ottawa",
     "timeZone": "America/Toronto",
     "hasChannels": true,
-    "channelCount": 105
+    "channelCount": 108
   },
   "CC": {
     "country": "Cocos (Keeling) Islands",
@@ -375,7 +375,7 @@
     "capital": "Prague",
     "timeZone": "Europe/Prague",
     "hasChannels": true,
-    "channelCount": 91
+    "channelCount": 89
   },
   "DE": {
     "country": "Germany",
@@ -459,7 +459,7 @@
     "capital": "Madrid",
     "timeZone": "Europe/Madrid",
     "hasChannels": true,
-    "channelCount": 149
+    "channelCount": 150
   },
   "ET": {
     "country": "Ethiopia",
@@ -746,7 +746,7 @@
     "capital": "Rome",
     "timeZone": "Europe/Rome",
     "hasChannels": true,
-    "channelCount": 170
+    "channelCount": 169
   },
   "JM": {
     "country": "Jamaica",
@@ -767,7 +767,7 @@
     "capital": "Tokyo",
     "timeZone": "Asia/Tokyo",
     "hasChannels": true,
-    "channelCount": 369
+    "channelCount": 368
   },
   "KE": {
     "country": "Kenya",
@@ -823,7 +823,7 @@
     "capital": "Seoul",
     "timeZone": "Asia/Seoul",
     "hasChannels": true,
-    "channelCount": 21
+    "channelCount": 19
   },
   "KW": {
     "country": "Kuwait",
@@ -1061,7 +1061,7 @@
     "capital": "Mexico City",
     "timeZone": "America/Mexico_City",
     "hasChannels": true,
-    "channelCount": 100
+    "channelCount": 101
   },
   "MY": {
     "country": "Malaysia",
@@ -1131,7 +1131,7 @@
     "capital": "Oslo",
     "timeZone": "Europe/Oslo",
     "hasChannels": true,
-    "channelCount": 59
+    "channelCount": 60
   },
   "NP": {
     "country": "Nepal",
@@ -1215,7 +1215,7 @@
     "capital": "Warsaw",
     "timeZone": "Europe/Warsaw",
     "hasChannels": true,
-    "channelCount": 25
+    "channelCount": 26
   },
   "PM": {
     "country": "Saint Pierre and Miquelon",
@@ -1313,7 +1313,7 @@
     "capital": "Riyadh",
     "timeZone": "Asia/Riyadh",
     "hasChannels": true,
-    "channelCount": 6
+    "channelCount": 5
   },
   "SB": {
     "country": "Solomon Islands",
@@ -1586,7 +1586,7 @@
     "capital": "Washington, D.C.",
     "timeZone": "America/New_York",
     "hasChannels": true,
-    "channelCount": 1539
+    "channelCount": 1540
   },
   "UY": {
     "country": "Uruguay",

@@ -492,6 +492,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "AxqYiXwfO6Ps1g",
+    "name": "Norway Summer Parks",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Z3KpyyXO4Vw"
+      ]
+    },
+    "languages": [],
+    "country": "no",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "BKp4GZ7o2fh31F",
     "name": "Oslo Marka",
     "sources": {
