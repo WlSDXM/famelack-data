@@ -145,19 +145,22 @@
     const radioStationSelect = document.getElementById('radioStationSelect');
 
     async function loadRadioCountries() {
-        try {
-            const response = await fetch(`${BASE}/radio/raw/countries_metadata.json`);
-            const countries = await response.json();
-            countries.forEach(country => {
-                const option = document.createElement('option');
-                option.value = country.code;
-                option.textContent = country.name;
-                radioCountrySelect.appendChild(option);
-            });
-        } catch (error) {
-            console.error('Failed to load radio countries:', error);
-        }
+    try {
+        const response = await fetch(`${BASE}/radio/raw/countries_metadata.json`);
+        const data = await response.json();
+
+        Object.entries(data).forEach(([code, info]) => {
+            if (!info.hasChannels) return;
+
+            const option = document.createElement('option');
+            option.value = code;
+            option.textContent = `${info.country} (${info.channelCount})`;
+            radioCountrySelect.appendChild(option);
+        });
+    } catch (error) {
+        console.error('Failed to load radio countries:', error);
     }
+}
 
     radioCountrySelect.addEventListener('change', async (e) => {
         const code = e.target.value;
