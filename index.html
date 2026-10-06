@@ -94,7 +94,7 @@
 
     async function loadWebcamCountries() {
     try {
-        const response = await fetch(`${BASE}/webcams/raw/countries_metadata.json`);
+        const response = await fetch(`${BASE}/webcams/raw/countries/${code.toLowerCase()}.json`);
         const data = await response.json();
 
         Object.entries(data).forEach(([code, info]) => {
@@ -115,7 +115,7 @@
         const code = e.target.value;
         if (!code) return;
         try {
-            const response = await fetch(`${BASE}/webcams/raw/countries/${code}.json`);
+            const response = await fetch(`${BASE}/radio/raw/countries/${code.toLowerCase()}.json`);
             const data = await response.json();
             const streams = data.streams || data;
             if (Array.isArray(streams) && streams.length > 0) {
