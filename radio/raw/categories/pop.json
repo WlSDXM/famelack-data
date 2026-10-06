@@ -69957,6 +69957,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "b98gyBB22twOOC",
+    "name": "Radio Alau",
+    "sources": {
+      "streams": [
+        "https://usa16.fastcast4u.com/proxy/radal/stream"
+      ]
+    },
+    "languages": [
+      "kaz",
+      "rus"
+    ],
+    "country": "kz",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "R0V8Vu6tRjUzpZ",
     "name": "Radio Albigès",
     "sources": {
