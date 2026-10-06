@@ -28,7 +28,7 @@
     "name": "730 Intersection, Ishigaki",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/208UwGx6eiM"
+        "https://www.youtube-nocookie.com/embed/y9HfKgMyB9E"
       ]
     },
     "languages": [],
@@ -240,18 +240,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "F8cqWB3tn497ka",
-    "name": "Avenida Centenario",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/FuRCy1poHcw"
-      ]
-    },
-    "languages": [],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "YTwSiATdz9yGNC",
     "name": "Avenida de Madrid, Vigo",
     "sources": {
@@ -448,7 +436,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/NvMgcnr3Rk8"
+        "https://www.youtube-nocookie.com/embed/MgOztc7E2XI"
       ]
     },
     "languages": [],
@@ -880,7 +868,7 @@
     "name": "George Washington Bridge",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/40F0870d9ok"
+        "https://www.youtube-nocookie.com/embed/g2y2_t9yDoM"
       ]
     },
     "languages": [],
@@ -1348,7 +1336,7 @@
     "name": "Khao Lak",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/GfAFUFxpA1k"
+        "https://www.youtube-nocookie.com/embed/jicF3UYfNus"
       ]
     },
     "languages": [],
@@ -2224,7 +2212,7 @@
     "name": "Piedras Negras Cam 1",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/23wIvdFwOW4"
+        "https://www.youtube-nocookie.com/embed/NrTMSwYrsgg"
       ]
     },
     "languages": [],
@@ -2421,6 +2409,18 @@
     },
     "languages": [],
     "country": "nl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "NTvvuoiGhXixu4",
+    "name": "Roundabout, Derry",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/sLpJHEoJO1s"
+      ]
+    },
+    "languages": [],
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -2716,7 +2716,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/vcshhreCjco"
+        "https://www.youtube-nocookie.com/embed/8WTiMNmxYHc"
       ]
     },
     "languages": [],
@@ -3021,18 +3021,6 @@
     },
     "languages": [],
     "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "kSYQyRQBiU1SnB",
-    "name": "Sunny Isles Beach Intracoastal",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/4HD_BgDyrJs"
-      ]
-    },
-    "languages": [],
-    "country": "us",
     "isGeoBlocked": false
   },
   {

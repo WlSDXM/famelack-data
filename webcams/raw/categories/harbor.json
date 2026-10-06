@@ -12,6 +12,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "gWJpvrwv2nPg9C",
+    "name": "Acapulco Bay Skyline Panorama",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/wTpTtzT4j0Q"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Feeq4HU6W3QT1n",
     "name": "Acapulco Marina & Santa Lucía Bay",
     "sources": {
@@ -1576,7 +1588,7 @@
     "name": "Dunedin Otago Harbour",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/L8Nju-SWuB8"
+        "https://www.youtube-nocookie.com/embed/x4RqZpXMMsI"
       ]
     },
     "languages": [],
@@ -1600,7 +1612,7 @@
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HLRrSxAbfi0"
+        "https://www.youtube-nocookie.com/embed/c27A-gBSaN4"
       ]
     },
     "languages": [],
@@ -3168,6 +3180,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "vd1dd4UJ6HTlzq",
+    "name": "McLear’s Cottage Colony, Black Lake",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/QgDBnyWY84Y"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "875yXyEZlzwiyy",
     "name": "Medulin",
     "sources": {
@@ -3245,18 +3269,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/dHq4oTSyiVg"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "5ZYCLgYIb2ebxl",
-    "name": "Miami Biscayne Bay",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/4UzQd1dVPlo"
       ]
     },
     "languages": [],
@@ -3808,19 +3820,7 @@
     "name": "Parry Sound Town Dock",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/r0niSbJm4jY"
-      ]
-    },
-    "languages": [],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "QgIGgTGIlhGj1U",
-    "name": "Parry Sound Town Dock & Harbour",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/T6X00vP0HeQ"
+        "https://www.youtube-nocookie.com/embed/n8B0r2LVnGM"
       ]
     },
     "languages": [],
@@ -6400,7 +6400,7 @@
     "name": "Yokohama Port",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/szsuY5HNuj4"
+        "https://www.youtube-nocookie.com/embed/FbdUMW7321M"
       ]
     },
     "languages": [],

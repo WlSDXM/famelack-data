@@ -60,6 +60,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "ZswA2qzSbC08HE",
+    "name": "Animal Adventure Park Tigers",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Od-WtkLHVIM"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "msNsW1uY7Jc55H",
     "name": "Aquarium of the Pacific Shark Lagoon",
     "sources": {
@@ -189,18 +201,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "fr2ojQ4w36HEdb",
-    "name": "Barn Owl Nest Box",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ep0yoSXOHAM"
-      ]
-    },
-    "languages": [],
-    "country": "es",
     "isGeoBlocked": false
   },
   {
@@ -1396,7 +1396,7 @@
     "name": "Furball Farm Cat Sanctuary",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/kdUftZQoewU"
+        "https://www.youtube-nocookie.com/embed/dJOFnfnrLjo"
       ]
     },
     "languages": [],
@@ -2236,7 +2236,7 @@
     "name": "Las Tablas de Daimiel National Park",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/BXwq-_ns5lI"
+        "https://www.youtube-nocookie.com/embed/tdbfTKyiyTo"
       ]
     },
     "languages": [],
@@ -3533,18 +3533,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/hNdmNbEmMvQ"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "32FOxILrpf5fLc",
-    "name": "Pennsylvania Bat Box",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/JiE5YlXWnys"
       ]
     },
     "languages": [],
@@ -4924,7 +4912,7 @@
     "name": "Squirrel and Wildlife Feeder",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/XUm_vmkCJ1k"
+        "https://www.youtube-nocookie.com/embed/Gb7LxwMMIJE"
       ]
     },
     "languages": [],
@@ -5728,7 +5716,7 @@
     "name": "Urdaibai Bird Center Wetlands",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/AgvSkxwwTtU"
+        "https://www.youtube-nocookie.com/embed/_fko6DNQW7U"
       ]
     },
     "languages": [],

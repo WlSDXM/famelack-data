@@ -36,6 +36,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "gWJpvrwv2nPg9C",
+    "name": "Acapulco Bay Skyline Panorama",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/wTpTtzT4j0Q"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "RfMHXwj6TKJDxP",
     "name": "Acqualina Beach",
     "sources": {
@@ -45,18 +57,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "CS2rZwPTZNFivs",
-    "name": "AIDA Bandar Jissah",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/lgQ8-E3rJ_4"
-      ]
-    },
-    "languages": [],
-    "country": "om",
     "isGeoBlocked": false
   },
   {
@@ -220,7 +220,7 @@
     "name": "Arraial do Cabo",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/g2q2ggJAvEM"
+        "https://www.youtube-nocookie.com/embed/cgibppPIx_s"
       ]
     },
     "languages": [],
@@ -600,18 +600,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "azIiuQpauKCvZx",
-    "name": "Big Buddha Pier, Koh Samui",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/z50dAep3lvA"
-      ]
-    },
-    "languages": [],
-    "country": "th",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "56PuvF0c6qYFih",
     "name": "Biloxi Beach Boulevard",
     "sources": {
@@ -677,6 +665,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/ABRrwDe5Hho"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "yWPwdCfb6vIyR5",
+    "name": "Boardwalk, Atlantic City",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/vVyBOU9Huvo"
       ]
     },
     "languages": [],
@@ -792,18 +792,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "KNTaWQUBuNDpKp",
-    "name": "Buccanos Beach Club",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/JX1O3DKjY-k"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "bOvYP3IuSesZCi",
     "name": "Cahoon Hollow Beach at the Wellfleet Beachcomber",
     "sources": {
@@ -832,19 +820,7 @@
     "name": "Cala Agulla Beach & Elevated Panoramic View",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/0IQtewFXA20"
-      ]
-    },
-    "languages": [],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "lvAJbaXTeHQIjz",
-    "name": "Cala Agulla Beachfront View",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/PugGVSlkBXI"
+        "https://www.youtube-nocookie.com/embed/tujHigBn_3E"
       ]
     },
     "languages": [],
@@ -1036,7 +1012,7 @@
     "name": "Canyamel Beach Cove View",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/lfgvFbDPuEc"
+        "https://www.youtube-nocookie.com/embed/KzCLTPAFvs0"
       ]
     },
     "languages": [],
@@ -1576,7 +1552,7 @@
     "name": "East Hampton Main Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/xM1-e429Y3A"
+        "https://www.youtube-nocookie.com/embed/CAvD25PSe2E"
       ]
     },
     "languages": [],
@@ -2056,7 +2032,7 @@
     "name": "Georgica Jetty",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/p8191jzp0sI"
+        "https://www.youtube-nocookie.com/embed/AiCID_F5GtA"
       ]
     },
     "languages": [],
@@ -3028,7 +3004,7 @@
     "name": "Le Morne",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/yZuFh9vf8hQ"
+        "https://www.youtube-nocookie.com/embed/k7jWweZ_yyw"
       ]
     },
     "languages": [],
@@ -3376,7 +3352,7 @@
     "name": "Maho Beach Plane Spotting",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/wfI-vnxunQg"
+        "https://www.youtube-nocookie.com/embed/Kj35XxirnpM"
       ]
     },
     "languages": [],
@@ -4864,7 +4840,7 @@
     "name": "Pozo Izquierdo Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/NOp-ylNLU0I"
+        "https://www.youtube-nocookie.com/embed/MBqCm4uT0-I"
       ]
     },
     "languages": [],
@@ -5632,7 +5608,7 @@
     "name": "Santos Gonzaga Beach and Canal 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/mCnJ9gR5Dn0"
+        "https://www.youtube-nocookie.com/embed/1I0G3d-obsc"
       ]
     },
     "languages": [],
@@ -6213,18 +6189,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "8OpZP3HMEOMqnY",
-    "name": "Southbroom Beach View",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ZZeg7y7ET80"
-      ]
-    },
-    "languages": [],
-    "country": "za",
     "isGeoBlocked": false
   },
   {
@@ -7180,7 +7144,7 @@
     "name": "West Kirby Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/IE_uHiFAM-w"
+        "https://www.youtube-nocookie.com/embed/NwPM22hSnQQ"
       ]
     },
     "languages": [],

@@ -492,11 +492,23 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "xfWiShXZHzUDzc",
+    "name": "Dvorecký Bridge over the Vltava",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/wifkZ6ZVk08"
+      ]
+    },
+    "languages": [],
+    "country": "cz",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "j453ot0ew9K4g9",
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HLRrSxAbfi0"
+        "https://www.youtube-nocookie.com/embed/c27A-gBSaN4"
       ]
     },
     "languages": [],
@@ -1644,6 +1656,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "wYi26bqQ0e6yrF",
+    "name": "Parque Padre Hurtado",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/_B8Eg-XBOcY"
+      ]
+    },
+    "languages": [],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "vLDqq0TeLOOg06",
     "name": "Pigeon River Hartford",
     "sources": {
@@ -1828,7 +1852,7 @@
     "name": "Rio Boat, Elbe River",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/VnsRQvfv_g4"
+        "https://www.youtube-nocookie.com/embed/9u2mhm0KoTg"
       ]
     },
     "languages": [],
@@ -2152,7 +2176,7 @@
     "name": "Stillwater Lift Bridge",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/r0VzQ0oWpko"
+        "https://www.youtube-nocookie.com/embed/2M0wJ70hzvs"
       ]
     },
     "languages": [],

@@ -540,6 +540,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "ua9X7SuA197Ipb",
+    "name": "Gemona del Friuli",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/WP8SIjbsxwg"
+      ]
+    },
+    "languages": [],
+    "country": "it",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "uP7vigCmawqVWT",
     "name": "Gorreto Trebbia River",
     "sources": {
@@ -1109,6 +1121,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/y7QcpQwxHrA"
+      ]
+    },
+    "languages": [],
+    "country": "it",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "NyrFGH3kEt2G7q",
+    "name": "Palermo City",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/FUhW3r5ROGc"
       ]
     },
     "languages": [],

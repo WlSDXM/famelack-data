@@ -936,6 +936,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "UsKIzWqM4bC4Yn",
+    "name": "Mountain High Upper Chisolm",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/LfZN3OEGB0E"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "EzVBeyFu9iTbj1",
     "name": "Mountain High West Base",
     "sources": {

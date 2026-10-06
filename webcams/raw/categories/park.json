@@ -676,7 +676,7 @@
     "name": "Las Tablas de Daimiel National Park",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/BXwq-_ns5lI"
+        "https://www.youtube-nocookie.com/embed/tdbfTKyiyTo"
       ]
     },
     "languages": [],
@@ -1068,6 +1068,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "wYi26bqQ0e6yrF",
+    "name": "Parque Padre Hurtado",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/_B8Eg-XBOcY"
+      ]
+    },
+    "languages": [],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "2BtyoB7CBx2pHv",
     "name": "Pawlins Splash Pad",
     "sources": {
@@ -1185,6 +1197,18 @@
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "OtMGVsAestbdYJ",
+    "name": "Santa Fé do Sul Praça Salles Filho",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/FRUu9HQmTLQ"
+      ]
+    },
+    "languages": [],
+    "country": "br",
     "isGeoBlocked": false
   },
   {

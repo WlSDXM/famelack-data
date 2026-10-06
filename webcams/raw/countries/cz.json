@@ -240,6 +240,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "xfWiShXZHzUDzc",
+    "name": "Dvorecký Bridge over the Vltava",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/wifkZ6ZVk08"
+      ]
+    },
+    "languages": [],
+    "country": "cz",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "fsN8DHviJqeePX",
     "name": "Havlovice Sports Field",
     "sources": {
@@ -576,6 +588,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "eiCNw2vTDGxAyd",
+    "name": "Oustecké Railway Station View",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/gRdT0HnAd4I"
+      ]
+    },
+    "languages": [],
+    "country": "cz",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "A6V1AgoGC6l7W6",
     "name": "Peace Square",
     "sources": {
@@ -593,18 +617,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/AH2DgVvfIwY"
-      ]
-    },
-    "languages": [],
-    "country": "cz",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "xy2whcUbbyl9pw",
-    "name": "Pec pod Sněžkou Husova bouda",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/hv5fGC1Jt7o"
       ]
     },
     "languages": [],

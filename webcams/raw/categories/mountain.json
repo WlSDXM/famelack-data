@@ -12,6 +12,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "gWJpvrwv2nPg9C",
+    "name": "Acapulco Bay Skyline Panorama",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/wTpTtzT4j0Q"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "9E82MTiT5HR3ow",
     "name": "Ainan Mishō Bay",
     "sources": {
@@ -28,7 +40,7 @@
     "name": "Airport Runway Among the Mountains",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/rgss_LcepNE"
+        "https://www.youtube-nocookie.com/embed/lcTE3TnXSdE"
       ]
     },
     "languages": [],
@@ -2512,7 +2524,7 @@
     "name": "Le Morne",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/yZuFh9vf8hQ"
+        "https://www.youtube-nocookie.com/embed/k7jWweZ_yyw"
       ]
     },
     "languages": [],
@@ -3220,7 +3232,7 @@
     "name": "Moosehead Lake from Blair Hill Inn",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/3LGd6K_IKKo"
+        "https://www.youtube-nocookie.com/embed/MyOJPk-HSeI"
       ]
     },
     "languages": [],
@@ -3472,7 +3484,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-VMaWKd2OSk"
+        "https://www.youtube-nocookie.com/embed/bTRqQe0uWdM"
       ]
     },
     "languages": [],
@@ -3533,6 +3545,30 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/tthdjwzt-PA"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AvZbdZON7NuG9u",
+    "name": "Mountain High East Summit",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/o0tmdp9D6wI"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "UsKIzWqM4bC4Yn",
+    "name": "Mountain High Upper Chisolm",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/LfZN3OEGB0E"
       ]
     },
     "languages": [],
@@ -4097,18 +4133,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/AH2DgVvfIwY"
-      ]
-    },
-    "languages": [],
-    "country": "cz",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "xy2whcUbbyl9pw",
-    "name": "Pec pod Sněžkou Husova bouda",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/hv5fGC1Jt7o"
       ]
     },
     "languages": [],
@@ -5944,7 +5968,7 @@
     "name": "Val d'Isère",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/a4cF4nJSmHo"
+        "https://www.youtube-nocookie.com/embed/5jVmKCOkQDI"
       ]
     },
     "languages": [],
@@ -6208,7 +6232,7 @@
     "name": "Yamanashi Prefectural Science Museum Kofu Basin",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/2IP5umloFrE"
+        "https://www.youtube-nocookie.com/embed/Ifpk8p-EDAQ"
       ]
     },
     "languages": [],

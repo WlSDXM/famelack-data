@@ -12,18 +12,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "F8cqWB3tn497ka",
-    "name": "Avenida Centenario",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/FuRCy1poHcw"
-      ]
-    },
-    "languages": [],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "50Vq385yWaDqx7",
     "name": "Avenida Chile, Llolleo",
     "sources": {
@@ -137,6 +125,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/hHA-j1eAAbs"
+      ]
+    },
+    "languages": [],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "wYi26bqQ0e6yrF",
+    "name": "Parque Padre Hurtado",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/_B8Eg-XBOcY"
       ]
     },
     "languages": [],

@@ -504,6 +504,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "9FACMEW5P67m46",
+    "name": "Disney California Adventure",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/5k3NMi83Y84"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "6jFPUKbCA7bxDt",
     "name": "Divine Mercy Church, Stary Sącz",
     "sources": {
@@ -676,7 +688,7 @@
     "name": "George Washington Bridge",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/40F0870d9ok"
+        "https://www.youtube-nocookie.com/embed/g2y2_t9yDoM"
       ]
     },
     "languages": [],
@@ -748,7 +760,7 @@
     "name": "Holy Cave of Covadonga",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/iV9-RSGOIY0"
+        "https://www.youtube-nocookie.com/embed/D2dztt2NGE8"
       ]
     },
     "languages": [],
@@ -928,7 +940,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-1B-oprLV70"
+        "https://www.youtube-nocookie.com/embed/VylAA71z77Q"
       ]
     },
     "languages": [],
@@ -981,6 +993,18 @@
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "knGN0Nu3u9Ld7X",
+    "name": "Masjid Al Haram",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/qfRGbWOi_-k"
+      ]
+    },
+    "languages": [],
+    "country": "sa",
     "isGeoBlocked": false
   },
   {

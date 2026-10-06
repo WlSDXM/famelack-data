@@ -12,6 +12,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "gWJpvrwv2nPg9C",
+    "name": "Acapulco Bay Skyline Panorama",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/wTpTtzT4j0Q"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Feeq4HU6W3QT1n",
     "name": "Acapulco Marina & Santa Lucía Bay",
     "sources": {
@@ -113,18 +125,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/0H7w0sSr-po"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "KNTaWQUBuNDpKp",
-    "name": "Buccanos Beach Club",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/JX1O3DKjY-k"
       ]
     },
     "languages": [],
@@ -568,7 +568,7 @@
     "name": "Piedras Negras Cam 1",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/23wIvdFwOW4"
+        "https://www.youtube-nocookie.com/embed/NrTMSwYrsgg"
       ]
     },
     "languages": [],

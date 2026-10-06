@@ -28,11 +28,23 @@
     "name": "730 Intersection, Ishigaki",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/208UwGx6eiM"
+        "https://www.youtube-nocookie.com/embed/y9HfKgMyB9E"
       ]
     },
     "languages": [],
     "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "gWJpvrwv2nPg9C",
+    "name": "Acapulco Bay Skyline Panorama",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/wTpTtzT4j0Q"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
     "isGeoBlocked": false
   },
   {
@@ -612,18 +624,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "F8cqWB3tn497ka",
-    "name": "Avenida Centenario",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/FuRCy1poHcw"
-      ]
-    },
-    "languages": [],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "50Vq385yWaDqx7",
     "name": "Avenida Chile, Llolleo",
     "sources": {
@@ -1164,15 +1164,15 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "WdMAKhDtBj3chE",
-    "name": "Bondi Bar Lamai",
+    "nanoid": "yWPwdCfb6vIyR5",
+    "name": "Boardwalk, Atlantic City",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-lI2AH2WkEA"
+        "https://www.youtube-nocookie.com/embed/vVyBOU9Huvo"
       ]
     },
     "languages": [],
-    "country": "th",
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -1632,11 +1632,23 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "EBidNxNN7kX596",
-    "name": "Castro Street",
+    "nanoid": "zSm83nc9Ya1E75",
+    "name": "Castro Street Cam 1",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/j6nq6g0_SnY"
+        "https://www.youtube-nocookie.com/embed/Be_eQjDkcko"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Ui5Xgu33j2MZic",
+    "name": "Castro Street Cam 2",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/ZNmOxTHXVjc"
       ]
     },
     "languages": [],
@@ -1648,7 +1660,7 @@
     "name": "Castro Street, San Francisco",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ifNf4yAEL6s"
+        "https://www.youtube-nocookie.com/embed/ylG1Eq-cueU"
       ]
     },
     "languages": [],
@@ -1840,7 +1852,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/NvMgcnr3Rk8"
+        "https://www.youtube-nocookie.com/embed/MgOztc7E2XI"
       ]
     },
     "languages": [],
@@ -2380,7 +2392,7 @@
     "name": "Des Moines Skyline",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/W0DnGc6fOmg"
+        "https://www.youtube-nocookie.com/embed/rZRPBOtXLNs"
       ]
     },
     "languages": [],
@@ -2692,7 +2704,7 @@
     "name": "Downtown Parry Sound",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/YBz840MwQZM"
+        "https://www.youtube-nocookie.com/embed/C_lsfivECEw"
       ]
     },
     "languages": [],
@@ -2904,6 +2916,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "xfWiShXZHzUDzc",
+    "name": "Dvorecký Bridge over the Vltava",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/wifkZ6ZVk08"
+      ]
+    },
+    "languages": [],
+    "country": "cz",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "prGHprK09rgvu4",
     "name": "DWU Tower",
     "sources": {
@@ -2932,7 +2956,7 @@
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HLRrSxAbfi0"
+        "https://www.youtube-nocookie.com/embed/c27A-gBSaN4"
       ]
     },
     "languages": [],
@@ -3405,6 +3429,18 @@
     },
     "languages": [],
     "country": "se",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ua9X7SuA197Ipb",
+    "name": "Gemona del Friuli",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/WP8SIjbsxwg"
+      ]
+    },
+    "languages": [],
+    "country": "it",
     "isGeoBlocked": false
   },
   {
@@ -4000,7 +4036,7 @@
     "name": "Hawick High Street",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/1KEPoJMkJxA"
+        "https://www.youtube-nocookie.com/embed/mTu4Fbw4jbA"
       ]
     },
     "languages": [],
@@ -5368,7 +5404,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-1B-oprLV70"
+        "https://www.youtube-nocookie.com/embed/VylAA71z77Q"
       ]
     },
     "languages": [],
@@ -6252,6 +6288,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "knGN0Nu3u9Ld7X",
+    "name": "Masjid Al Haram",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/qfRGbWOi_-k"
+      ]
+    },
+    "languages": [],
+    "country": "sa",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "5e2bMY8P1Bm1FX",
     "name": "Masjid al-Haram Kaaba",
     "sources": {
@@ -6329,18 +6377,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/2EfuPXRXLLk"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "5ZYCLgYIb2ebxl",
-    "name": "Miami Biscayne Bay",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/4UzQd1dVPlo"
       ]
     },
     "languages": [],
@@ -7348,7 +7384,7 @@
     "name": "Obor Square",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/dk4OGwrxzfY"
+        "https://www.youtube-nocookie.com/embed/9NxCpx0zrE8"
       ]
     },
     "languages": [],
@@ -7896,6 +7932,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "NyrFGH3kEt2G7q",
+    "name": "Palermo City",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/FUhW3r5ROGc"
+      ]
+    },
+    "languages": [],
+    "country": "it",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "K62z15d4obm3K5",
     "name": "PanoCloud Weather Panorama",
     "sources": {
@@ -8385,18 +8433,6 @@
     },
     "languages": [],
     "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "3YeKYjPFL8BoO1",
-    "name": "Pompplein, Egmond aan Zee",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/rdY0cwWmSOg"
-      ]
-    },
-    "languages": [],
-    "country": "nl",
     "isGeoBlocked": false
   },
   {
@@ -9312,6 +9348,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "OtMGVsAestbdYJ",
+    "name": "Santa Fé do Sul Praça Salles Filho",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/FRUu9HQmTLQ"
+      ]
+    },
+    "languages": [],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "PuBE49PSouXpKq",
     "name": "Santa Fé do Sul Regional Carousel",
     "sources": {
@@ -9424,7 +9472,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/vcshhreCjco"
+        "https://www.youtube-nocookie.com/embed/8WTiMNmxYHc"
       ]
     },
     "languages": [],
@@ -9605,6 +9653,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/GFqhKezEOdQ"
+      ]
+    },
+    "languages": [],
+    "country": "tr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "L1jT9Gx0fI6XcP",
+    "name": "Şebinkarahisar Town Square",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/ifrbIuAWBqA"
       ]
     },
     "languages": [],
@@ -10788,18 +10848,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "kSYQyRQBiU1SnB",
-    "name": "Sunny Isles Beach Intracoastal",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/4HD_BgDyrJs"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "GaHjFmi3IVNyHX",
     "name": "Suzu",
     "sources": {
@@ -10864,7 +10912,7 @@
     "name": "Sydney Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-379SnbhtVA"
+        "https://www.youtube-nocookie.com/embed/VZR3mvJIF-0"
       ]
     },
     "languages": [],
@@ -11860,7 +11908,7 @@
     "name": "Two Friends Patio",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/N_bKPGmlwMY"
+        "https://www.youtube-nocookie.com/embed/NLXtsUBWHUg"
       ]
     },
     "languages": [],
@@ -12664,7 +12712,7 @@
     "name": "Warsaw Skyline",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/C92L7DMMFz4"
+        "https://www.youtube-nocookie.com/embed/6eIHXijlU5c"
       ]
     },
     "languages": [],
@@ -12964,7 +13012,7 @@
     "name": "Yamanashi Prefectural Science Museum Kofu Basin",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/2IP5umloFrE"
+        "https://www.youtube-nocookie.com/embed/Ifpk8p-EDAQ"
       ]
     },
     "languages": [],

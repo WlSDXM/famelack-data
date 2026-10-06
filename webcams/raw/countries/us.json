@@ -264,18 +264,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "hPZDq26V57AyaL",
-    "name": "Anacapa Island Cove",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/fAS2TFePbQk"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "VUWx6HT8FJ750L",
     "name": "Anan Bear Observatory Lower Falls & Caves",
     "sources": {
@@ -317,6 +305,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/oufxM2Rxh-0"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ZswA2qzSbC08HE",
+    "name": "Animal Adventure Park Tigers",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Od-WtkLHVIM"
       ]
     },
     "languages": [],
@@ -1392,6 +1392,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "yWPwdCfb6vIyR5",
+    "name": "Boardwalk, Atlantic City",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/vVyBOU9Huvo"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "NLKoexga0DUAYB",
     "name": "Boats on the Grand Canal",
     "sources": {
@@ -1944,18 +1956,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Ae5ErTXhkXbw5S",
-    "name": "BTV Airport South",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/3NZYi-BCCDY"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "TktWVgfOi3gDc0",
     "name": "Buck Hill Plaza",
     "sources": {
@@ -2364,11 +2364,23 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "EBidNxNN7kX596",
-    "name": "Castro Street",
+    "nanoid": "zSm83nc9Ya1E75",
+    "name": "Castro Street Cam 1",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/j6nq6g0_SnY"
+        "https://www.youtube-nocookie.com/embed/Be_eQjDkcko"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Ui5Xgu33j2MZic",
+    "name": "Castro Street Cam 2",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/ZNmOxTHXVjc"
       ]
     },
     "languages": [],
@@ -2380,7 +2392,7 @@
     "name": "Castro Street, San Francisco",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ifNf4yAEL6s"
+        "https://www.youtube-nocookie.com/embed/ylG1Eq-cueU"
       ]
     },
     "languages": [],
@@ -2489,18 +2501,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/JcjXzM_WAe4"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Uw3LjuKyQRH6xb",
-    "name": "Channel Islands National Park Anacapa Ocean",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/OAJF1Ie1m_Q"
       ]
     },
     "languages": [],
@@ -2620,7 +2620,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/NvMgcnr3Rk8"
+        "https://www.youtube-nocookie.com/embed/MgOztc7E2XI"
       ]
     },
     "languages": [],
@@ -3508,7 +3508,7 @@
     "name": "Des Moines Skyline",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/W0DnGc6fOmg"
+        "https://www.youtube-nocookie.com/embed/rZRPBOtXLNs"
       ]
     },
     "languages": [],
@@ -3593,6 +3593,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/NeKZVw6-EGg"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "9FACMEW5P67m46",
+    "name": "Disney California Adventure",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/5k3NMi83Y84"
       ]
     },
     "languages": [],
@@ -4480,7 +4492,7 @@
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HLRrSxAbfi0"
+        "https://www.youtube-nocookie.com/embed/c27A-gBSaN4"
       ]
     },
     "languages": [],
@@ -4528,7 +4540,7 @@
     "name": "East Hampton Main Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/xM1-e429Y3A"
+        "https://www.youtube-nocookie.com/embed/CAvD25PSe2E"
       ]
     },
     "languages": [],
@@ -5308,7 +5320,7 @@
     "name": "Furball Farm Cat Sanctuary",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/kdUftZQoewU"
+        "https://www.youtube-nocookie.com/embed/dJOFnfnrLjo"
       ]
     },
     "languages": [],
@@ -5524,7 +5536,7 @@
     "name": "George Washington Bridge",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/40F0870d9ok"
+        "https://www.youtube-nocookie.com/embed/g2y2_t9yDoM"
       ]
     },
     "languages": [],
@@ -5548,7 +5560,7 @@
     "name": "Georgica Jetty",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/p8191jzp0sI"
+        "https://www.youtube-nocookie.com/embed/AiCID_F5GtA"
       ]
     },
     "languages": [],
@@ -7816,7 +7828,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-1B-oprLV70"
+        "https://www.youtube-nocookie.com/embed/VylAA71z77Q"
       ]
     },
     "languages": [],
@@ -8952,6 +8964,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "vd1dd4UJ6HTlzq",
+    "name": "McLear’s Cottage Colony, Black Lake",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/QgDBnyWY84Y"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "xRxcjmW5VUrWnq",
     "name": "Melbourne Yacht Club",
     "sources": {
@@ -9072,18 +9096,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "5ZYCLgYIb2ebxl",
-    "name": "Miami Biscayne Bay",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/4UzQd1dVPlo"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "ioFd5R4PbTYDqs",
     "name": "Miami International Airport",
     "sources": {
@@ -9196,7 +9208,7 @@
     "name": "Mills Tower Railcam Diamond Crossing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/OvMWJ2XJHXI"
+        "https://www.youtube-nocookie.com/embed/IREt_RPsls8"
       ]
     },
     "languages": [],
@@ -9532,7 +9544,7 @@
     "name": "Moosehead Lake from Blair Hill Inn",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/3LGd6K_IKKo"
+        "https://www.youtube-nocookie.com/embed/MyOJPk-HSeI"
       ]
     },
     "languages": [],
@@ -9700,7 +9712,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-VMaWKd2OSk"
+        "https://www.youtube-nocookie.com/embed/bTRqQe0uWdM"
       ]
     },
     "languages": [],
@@ -9761,6 +9773,42 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/tthdjwzt-PA"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AvZbdZON7NuG9u",
+    "name": "Mountain High East Summit",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/o0tmdp9D6wI"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ibLEShRLGuTdRX",
+    "name": "Mountain High North Lodge",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/9PcLuKRO1nE"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "UsKIzWqM4bC4Yn",
+    "name": "Mountain High Upper Chisolm",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/LfZN3OEGB0E"
       ]
     },
     "languages": [],
@@ -11316,18 +11364,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "32FOxILrpf5fLc",
-    "name": "Pennsylvania Bat Box",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/JiE5YlXWnys"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Faj6uld1slZ9PZ",
     "name": "Pennsylvania Forest Wildlife Cam",
     "sources": {
@@ -12797,6 +12833,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/AvO984goDHQ"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "NTvvuoiGhXixu4",
+    "name": "Roundabout, Derry",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/sLpJHEoJO1s"
       ]
     },
     "languages": [],
@@ -15088,7 +15136,7 @@
     "name": "Squirrel and Wildlife Feeder",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/XUm_vmkCJ1k"
+        "https://www.youtube-nocookie.com/embed/Gb7LxwMMIJE"
       ]
     },
     "languages": [],
@@ -15580,7 +15628,7 @@
     "name": "Stillwater Lift Bridge",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/r0VzQ0oWpko"
+        "https://www.youtube-nocookie.com/embed/2M0wJ70hzvs"
       ]
     },
     "languages": [],
@@ -15652,7 +15700,7 @@
     "name": "Sturtevant Hiawatha Bar & Grill",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/wBIfNo8pwQw"
+        "https://www.youtube-nocookie.com/embed/-RCPQSPvv3I"
       ]
     },
     "languages": [],
@@ -15845,18 +15893,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/bi7B4EmyHHs"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "kSYQyRQBiU1SnB",
-    "name": "Sunny Isles Beach Intracoastal",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/4HD_BgDyrJs"
       ]
     },
     "languages": [],
@@ -16852,7 +16888,7 @@
     "name": "Two Friends Patio",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/N_bKPGmlwMY"
+        "https://www.youtube-nocookie.com/embed/NLXtsUBWHUg"
       ]
     },
     "languages": [],

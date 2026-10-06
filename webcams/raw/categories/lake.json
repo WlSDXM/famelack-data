@@ -208,7 +208,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/NvMgcnr3Rk8"
+        "https://www.youtube-nocookie.com/embed/MgOztc7E2XI"
       ]
     },
     "languages": [],
@@ -816,6 +816,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "vd1dd4UJ6HTlzq",
+    "name": "McLear’s Cottage Colony, Black Lake",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/QgDBnyWY84Y"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "cNIxUHZlWx00WM",
     "name": "Menaggio & Lake Como",
     "sources": {
@@ -904,7 +916,7 @@
     "name": "Moosehead Lake from Blair Hill Inn",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/3LGd6K_IKKo"
+        "https://www.youtube-nocookie.com/embed/MyOJPk-HSeI"
       ]
     },
     "languages": [],
@@ -1120,19 +1132,7 @@
     "name": "Parry Sound Town Dock",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/r0niSbJm4jY"
-      ]
-    },
-    "languages": [],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "QgIGgTGIlhGj1U",
-    "name": "Parry Sound Town Dock & Harbour",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/T6X00vP0HeQ"
+        "https://www.youtube-nocookie.com/embed/n8B0r2LVnGM"
       ]
     },
     "languages": [],
