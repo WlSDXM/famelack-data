@@ -84,20 +84,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "roeCDcGE1uwKQ6",
-    "name": "Al Iraqia Sport",
-    "sources": {
-      "streams": [
-        "https://imn-live.esite-lab.com/hls/iraqia-sports-1.m3u8"
-      ]
-    },
-    "languages": [
-      "ara"
-    ],
-    "country": "iq",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "UEXwoyYx1GFZis",
     "name": "Al Janoub TV",
     "sources": {
@@ -117,6 +103,34 @@
     "sources": {
       "streams": [
         "https://media1.livaat.com/static/AL-RASHEED-HD/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "ara"
+    ],
+    "country": "iq",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "0MeH4u5WZGBr4b",
+    "name": "Al Sharqiya",
+    "sources": {
+      "streams": [
+        "https://indexforce.com/tvhighres/mystream/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "ara"
+    ],
+    "country": "iq",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "uIjblLy9ix24di",
+    "name": "Al Sharqiya News",
+    "sources": {
+      "streams": [
+        "https://indexforce.com/newshighres/mystream/playlist.m3u8"
       ]
     },
     "languages": [

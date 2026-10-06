@@ -261,11 +261,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "25KpPpidlrPZ8K",
-    "name": "Star TV Philippines",
+    "nanoid": "wTn8t48jb6lXBN",
+    "name": "Star Television",
     "sources": {
       "streams": [
-        "https://startvphilippines.itunerworldwide.workers.dev/master.live.m3u8"
+        "https://startelevisionph.itunerworldwide.workers.dev/master.live.m3u8"
       ]
     },
     "languages": [
@@ -275,11 +275,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "iy4DzSWvO3GYHT",
-    "name": "Teleradyo Serbisyo",
+    "nanoid": "25KpPpidlrPZ8K",
+    "name": "Star TV Philippines",
     "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/P826i9kmH64"
+      "streams": [
+        "https://startvphilippines.itunerworldwide.workers.dev/master.live.m3u8"
       ]
     },
     "languages": [

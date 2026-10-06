@@ -238,6 +238,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "7jZdYZLmUugc11",
+    "name": "Guayape TV",
+    "sources": {
+      "streams": [
+        "https://tv.bitstreaming.net:8443/live/guayapetv.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "hn",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "YFN0Wt8jkUTjZN",
     "name": "HCH",
     "sources": {
@@ -510,20 +524,6 @@
     "sources": {
       "streams": [
         "https://teleceiba.com/stream/tlcb720.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "hn",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "vrzSBLwEYUrESe",
-    "name": "TeleDanli",
-    "sources": {
-      "streams": [
-        "https://live20.bozztv.com/giatv/giatv-canal9/canal9/chunks.m3u8"
       ]
     },
     "languages": [

@@ -140,20 +140,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "MPe2JeL5LhpNbP",
-    "name": "Atabal TV",
-    "sources": {
-      "streams": [
-        "https://vdopanel.jlahozconsulting.com:3648/live/atabaltvlive.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "do",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "X5A044gnV3ctUa",
     "name": "Bani Vision",
     "sources": {
@@ -434,6 +420,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "rxy70O0pPPqhdW",
+    "name": "Cibaena TV",
+    "sources": {
+      "streams": [
+        "https://streamunoapp.com:3958/live/cibaenatvlive.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "MQOAY88EMuvtI2",
     "name": "Cielo TV",
     "sources": {
@@ -523,6 +523,20 @@
     "sources": {
       "streams": [
         "https://edge.essastream.com/canalcocotv/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "BaH26ElmdOJtTE",
+    "name": "Codigo TV",
+    "sources": {
+      "streams": [
+        "https://edge.essastream.com/codigotv/playlist.m3u8"
       ]
     },
     "languages": [
@@ -845,6 +859,20 @@
     "sources": {
       "streams": [
         "https://streamunoapp.com:3553/live/cromtvlive.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "1F1EdHBXQRaHrz",
+    "name": "GalaxiATeVe",
+    "sources": {
+      "streams": [
+        "https://streaming.grupomediosdelnorte.com:19360/galaxiateve/galaxiateve.m3u8"
       ]
     },
     "languages": [
@@ -1219,20 +1247,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "s6et7OTRECsPuf",
-    "name": "Marka TV",
-    "sources": {
-      "streams": [
-        "https://5790d294af2dc.streamlock.net/markatv/markatv/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "do",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "CH0OBldtzqtjEK",
     "name": "Mega Cine TV",
     "sources": {
@@ -1378,6 +1392,20 @@
     "sources": {
       "streams": [
         "https://vs20.live.opencaster.com/bznudxxdtppv/index.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "d383e3NpcXjFRr",
+    "name": "Noticias 16",
+    "sources": {
+      "streams": [
+        "https://edge.essastream.com/noticias16/playlist.m3u8"
       ]
     },
     "languages": [
@@ -2065,6 +2093,20 @@
     "sources": {
       "streams": [
         "https://59d39900ebfb8.streamlock.net/tv10sanjuan/tv10sanjuan/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "fIuMEyeeVmQ8H8",
+    "name": "TV Cotui Canal 31",
+    "sources": {
+      "streams": [
+        "https://live20.bozztv.com/akamaissh101/ssh101/tvcotui/playlist.m3u8"
       ]
     },
     "languages": [

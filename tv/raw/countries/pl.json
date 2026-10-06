@@ -84,48 +84,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "JwjTtBdIXCgMJP",
-    "name": "BTB",
-    "sources": {
-      "streams": [
-        "https://emisja.btb.j00r.us/iptv/session/1/hls.m3u8"
-      ]
-    },
-    "languages": [
-      "pol"
-    ],
-    "country": "pl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "NHCXMxoKr3soBB",
-    "name": "BTB 2",
-    "sources": {
-      "streams": [
-        "https://emisja.btb.j00r.us/iptv/session/2/hls.m3u8"
-      ]
-    },
-    "languages": [
-      "pol"
-    ],
-    "country": "pl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "DHR1El8JiIdfUH",
-    "name": "BTB 3",
-    "sources": {
-      "streams": [
-        "https://emisja3.btb.j00r.us/iptv/session/3/hls.m3u8"
-      ]
-    },
-    "languages": [
-      "pol"
-    ],
-    "country": "pl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "vifXiIDfcyAksy",
     "name": "BTB Info",
     "sources": {
@@ -427,6 +385,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "cVaJUABGdrFesO",
+    "name": "Radiowa Czworka",
+    "sources": {
+      "streams": [
+        "https://stream14.polskieradio.pl/pr4_video/video_pr4.stream/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "pol"
+    ],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "uro7Gvibaed6g8",
     "name": "Rakuten Viki Poland",
     "sources": {
@@ -530,6 +502,20 @@
     "sources": {
       "streams": [
         "https://s-pl-01.mediatool.tv/playout/tbpl-abr/index.m3u8"
+      ]
+    },
+    "languages": [
+      "pol"
+    ],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "hjCXHjX41BNCM8",
+    "name": "Telewizja Gorzów",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/qOHwIKZzfFM"
       ]
     },
     "languages": [
@@ -726,6 +712,7 @@
     "name": "TV Puls",
     "sources": {
       "streams": [
+        "https://edge06.cdn.emitel.pl/bpk-tv/Puls2_HD/hbbtv-hls/index.m3u8",
         "https://edge01.cdn.emitel.pl/bpk-tv/Puls_HD/hbbtv-hls/index.m3u8"
       ]
     },
@@ -801,20 +788,6 @@
     },
     "languages": [
       "eng"
-    ],
-    "country": "pl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "8fkva1GfM7tM4w",
-    "name": "TVSUDECKA PL",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/3bTGntbVnKo"
-      ]
-    },
-    "languages": [
-      "pol"
     ],
     "country": "pl",
     "isGeoBlocked": false

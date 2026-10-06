@@ -98,11 +98,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "dytKAoNeSNBKGD",
-    "name": "iTV HD",
+    "nanoid": "a7p8px0xew1TNk",
+    "name": "Sangkem TV",
     "sources": {
       "streams": [
-        "https://ip.pdtvhd.com/Khmer/streams/ITVHD.m3u8"
+        "https://live.sangkemtv.com/memfs/sangkem.m3u8"
       ]
     },
     "languages": [

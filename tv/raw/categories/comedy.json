@@ -366,20 +366,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "O8tFJhKTZ0GylR",
-    "name": "Santa Cruz Feira Digital",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/4_t0uWwFeWw"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "2gR04ExHT9Yw4o",
     "name": "Shout! Studios: MST3K",
     "sources": {

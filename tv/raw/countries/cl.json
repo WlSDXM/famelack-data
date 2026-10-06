@@ -112,6 +112,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "W9JICLAimFWyuU",
+    "name": "ADA TV",
+    "sources": {
+      "streams": [
+        "https://v4.tustreaming.cl/adatvchile/index.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "qr32wZaF0dlwkY",
     "name": "ADN TV",
     "sources": {
@@ -159,6 +173,20 @@
     "sources": {
       "streams": [
         "https://live20.bozztv.com/giatv/giatv-alternativatv/alternativatv/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "JzJqSKhZTC60f6",
+    "name": "AM Canal",
+    "sources": {
+      "streams": [
+        "https://streaming.bitsur.cl:3534/live/vdo1102live.m3u8"
       ]
     },
     "languages": [
@@ -436,20 +464,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "8VzXZXOe3sUVad",
-    "name": "Canal Survision Alerce",
-    "sources": {
-      "streams": [
-        "https://s1.tvdatta.com:3384/live/canal20tvlive.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "ZQXPgCjmacRq2L",
     "name": "Caracola TV",
     "sources": {
@@ -497,7 +511,7 @@
     "name": "ChileVision",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HyHjPNhjCfg"
+        "https://www.youtube-nocookie.com/embed/-ubYTEYX4Bw"
       ]
     },
     "languages": [
@@ -553,7 +567,7 @@
     "name": "CHV Noticias",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/wk5VmUeuLUU"
+        "https://www.youtube-nocookie.com/embed/Sdejq3sf5jU"
       ]
     },
     "languages": [
@@ -969,6 +983,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "HZTvc09dQotF6t",
+    "name": "ISA TV",
+    "sources": {
+      "streams": [
+        "https://scl.edge.grupoz.cl/isatv/live/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "KSt72TrfiNqRpX",
     "name": "Islita TV",
     "sources": {
@@ -1185,7 +1213,7 @@
     "name": "Meganoticias",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/KDbYfFG_RkI"
+        "https://www.youtube-nocookie.com/embed/qE4dwBjOQHA"
       ]
     },
     "languages": [],
@@ -1534,6 +1562,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "ZatMp0vPQN2PhU",
+    "name": "Radio El Sembrador",
+    "sources": {
+      "streams": [
+        "https://tv.arkeo.cl:1936/elsembrador/elsembrador/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "xVt724tmoqj5sQ",
     "name": "Radio Fantasia TV",
     "sources": {
@@ -1553,20 +1595,6 @@
     "sources": {
       "streams": [
         "https://v1.tustreaming.cl/frecuencia1tv/index.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "8HaE3IUVFLphXf",
-    "name": "Radio La Serena TV",
-    "sources": {
-      "streams": [
-        "https://5ff3d9babae13.streamlock.net/chrgkqgkyb/chrgkqgkyb/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1846,8 +1874,8 @@
     "name": "Ritoque TV",
     "sources": {
       "streams": [
-        "https://streaming.purum.cl/ritoquetv/index.m3u8",
-        "https://v2.tustreaming.cl/unetev/index.m3u8"
+        "https://v2.tustreaming.cl/unetev/index.m3u8",
+        "https://streaming.purum.cl/ritoquetv/index.m3u8"
       ]
     },
     "languages": [

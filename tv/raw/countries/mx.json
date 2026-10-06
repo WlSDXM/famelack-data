@@ -14,6 +14,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "85Cdlukq0tG6Z4",
+    "name": "15TV",
+    "sources": {
+      "streams": [
+        "https://servilive.com:3380/live/v3n6thy7glive.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "6AYObDCpHjAFK9",
     "name": "ADN 40",
     "sources": {
@@ -61,6 +75,20 @@
     "sources": {
       "streams": [
         "https://5e50264bd6766.streamlock.net/mexiquense2/videomexiquense2/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "yq7NxSgMJ0x6ko",
+    "name": "Antena TV",
+    "sources": {
+      "streams": [
+        "https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8"
       ]
     },
     "languages": [
@@ -368,20 +396,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "vEu4AbFWQq3rTn",
-    "name": "El Sonorense",
-    "sources": {
-      "streams": [
-        "https://s5.mexside.net:1936/elsonorense/elsonorense/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Y2XbgAUNu1jdKZ",
     "name": "Expresa TV",
     "sources": {
@@ -452,20 +466,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "9NYf5msdVIxgC1",
-    "name": "ILCE Canal 15 Summa Saberes",
-    "sources": {
-      "streams": [
-        "https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "yk5LuaS8jCla7l",
     "name": "Imagen Multicast",
     "sources": {
@@ -498,7 +498,7 @@
     "name": "Imagen TV+",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/tTbUpQ2e8F4"
+        "https://www.youtube-nocookie.com/embed/xQGngP7M1r4"
       ]
     },
     "languages": [],
@@ -632,6 +632,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "4i2dbm12cF2ARa",
+    "name": "Nayarit Comunica",
+    "sources": {
+      "streams": [
+        "https://live.iplanay.gob.mx/hls/nayarittv.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "pCFfnKm8W8E1LH",
     "name": "NMás",
     "sources": {
@@ -665,6 +679,20 @@
     "sources": {
       "streams": [
         "https://oly-ftvpc.otteravision.com/oly/ftvpc/ftvpc.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "DKHLUT1IqpMkXM",
+    "name": "Presumiendo Mexico",
+    "sources": {
+      "streams": [
+        "https://60417ddeaf0d9.streamlock.net/telemetrika/smil:telemetrika.smil/playlist.m3u8"
       ]
     },
     "languages": [
@@ -773,20 +801,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "bqZG2nHHXJFyOO",
-    "name": "SIPSE TVCUN 8.1",
-    "sources": {
-      "streams": [
-        "https://webprod.sipse.com.mx:8080/show/tvcun.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "zMvnkO0BSIigRy",
     "name": "Sistema Michoacano de TV",
     "sources": {
@@ -827,6 +841,34 @@
     ],
     "country": "mx",
     "isGeoBlocked": false
+  },
+  {
+    "nanoid": "c0t3w9rs29fRKj",
+    "name": "Tele UV",
+    "sources": {
+      "streams": [
+        "https://58fe359775f31.streamlock.net/tvuv/myStream/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "arUwONnDyiIo6o",
+    "name": "Tele Yucatan",
+    "sources": {
+      "streams": [
+        "https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": true
   },
   {
     "nanoid": "248WyVmGTSntgh",
@@ -914,20 +956,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "V9bf7FdY5Rbg5t",
-    "name": "Televisa Guerrero",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/QxC4VAwc-ZQ"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "pTFEVIhFVG7hq3",
     "name": "Televisa Laguna",
     "sources": {
@@ -960,7 +988,7 @@
     "name": "Televisa Monterrey",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Lby-NIjaGZQ"
+        "https://www.youtube-nocookie.com/embed/1B4O_zRPVtY"
       ]
     },
     "languages": [
@@ -974,7 +1002,7 @@
     "name": "Televisa Piedras Negras",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/I4-WF-TDJ74"
+        "https://www.youtube-nocookie.com/embed/MzMyjLQhwyg"
       ]
     },
     "languages": [
@@ -1002,7 +1030,7 @@
     "name": "Televisa Querétaro",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/AQ_vv1ghR7s"
+        "https://www.youtube-nocookie.com/embed/K0ZPHdKXT2w"
       ]
     },
     "languages": [
@@ -1158,6 +1186,20 @@
       "streams": [
         "https://5ca3e84a76d30.streamlock.net/tv4gto/tv4gto.smil/.m3u8",
         "https://5f1af61612fb5.streamlock.net/tv4/tv4.smil/.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "cWWftSEuzr59Qo",
+    "name": "TV Cuatro 4.2",
+    "sources": {
+      "streams": [
+        "https://5f2c1b0d880e5.streamlock.net/tv42/tv42.smil/.m3u8"
       ]
     },
     "languages": [

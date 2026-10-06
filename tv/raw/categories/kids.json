@@ -227,20 +227,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "JCokef05ozWI8Y",
-    "name": "Balapan International",
-    "sources": {
-      "streams": [
-        "https://live-3.otcnet.ru/Balapan/index.m3u8"
-      ]
-    },
-    "languages": [
-      "kaz"
-    ],
-    "country": "kz",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "cGjSaev20uBBta",
     "name": "Banijay Mr Bean Animé",
     "sources": {
@@ -977,6 +963,7 @@
     "name": "Duronto TV",
     "sources": {
       "streams": [
+        "https://box.bbaria.net/DurontoTV/index.m3u8",
         "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8"
       ]
     },
@@ -1245,7 +1232,7 @@
     "name": "Jetix",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/98LAmRIN1fM"
+        "https://www.youtube-nocookie.com/embed/rVY3DumEX_s"
       ]
     },
     "languages": [
@@ -1259,7 +1246,7 @@
     "name": "Jungle Beat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/YpbLJXkbybs"
+        "https://www.youtube-nocookie.com/embed/CC0b27wqNcs"
       ]
     },
     "languages": [
@@ -1303,7 +1290,7 @@
     "name": "Kids Land: Urdu",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/XKS3CjcZ7Ew"
+        "https://www.youtube-nocookie.com/embed/6IJ5r0T6kpE"
       ]
     },
     "languages": [
@@ -1446,7 +1433,7 @@
     "name": "Lou!",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/lDgir0gt46s"
+        "https://www.youtube-nocookie.com/embed/g2gr5QyyY-Y"
       ]
     },
     "languages": [
@@ -1737,7 +1724,7 @@
     "name": "Nickelodeon",
     "sources": {
       "streams": [
-        "https://stmv2.srvif.com/gafeab/gafeab/playlist.m3u8"
+        "https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1786,20 +1773,6 @@
       "eng"
     ],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "VvHhOWwHL2G6fH",
-    "name": "NickToons Brasil",
-    "sources": {
-      "streams": [
-        "https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
     "isGeoBlocked": false
   },
   {
@@ -1957,20 +1930,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "5EgyyHFL4vIrl2",
-    "name": "PBS Kids: Super Why!",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/6WZukvH3TXc"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "yzwKpvNdMAZglL",
     "name": "PBS KIDS: Weather Hunters",
     "sources": {
@@ -1989,7 +1948,7 @@
     "name": "Peppa Pig Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/XDIYSpEz1s0"
+        "https://www.youtube-nocookie.com/embed/fJWWX4CM4nk"
       ]
     },
     "languages": [
@@ -2111,20 +2070,6 @@
     "isGeoBlocked": true
   },
   {
-    "nanoid": "LaJUiyDd3qErb2",
-    "name": "Pororo 뽀로로",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/FwrFlHXcf8Y"
-      ]
-    },
-    "languages": [
-      "kor"
-    ],
-    "country": "kr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "uuPEZrmKbOVuZJ",
     "name": "Radost Moya",
     "sources": {
@@ -2179,6 +2124,20 @@
       "deu"
     ],
     "country": "de",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "KjF2Vl25g6IXPG",
+    "name": "Rubble & Crew",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/fRn3xGqT0pc"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -2300,7 +2259,7 @@
     "name": "Shout! Studios: Pee-wee's Playhouse",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ErtENeDTgo8"
+        "https://www.youtube-nocookie.com/embed/gXkLwk_0W3o"
       ]
     },
     "languages": [
@@ -2433,6 +2392,34 @@
       "eng"
     ],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "3C5tAme4Sy2gIV",
+    "name": "Super Simple: Bedtime Songs",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/o9urmT2xq4A"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "5X99oRpChEcKAS",
+    "name": "Super Simple: Simple Songs",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/UMLSec3r7Jg"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ca",
     "isGeoBlocked": false
   },
   {
@@ -2763,6 +2750,20 @@
       "eng"
     ],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "S031zk98bWY7Ix",
+    "name": "WildBrain Kids",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/9RtAGtm4Gak"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
     "isGeoBlocked": false
   },
   {

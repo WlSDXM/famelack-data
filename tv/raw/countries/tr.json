@@ -78,20 +78,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "e2Sh87nZdgrfog",
-    "name": "A Para",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/3d2YrMBDMsM"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "UyP5uli9gNPXtq",
     "name": "A Spor",
     "sources": {
@@ -256,7 +242,7 @@
         "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/yxQ9vqmiB9c"
+        "https://www.youtube-nocookie.com/embed/959bjt_iryU"
       ]
     },
     "languages": [
@@ -479,20 +465,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "nqxj96I7x3VyQ2",
-    "name": "Cine 1",
-    "sources": {
-      "streams": [
-        "https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3_output_0.m3u8"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "OSKKDWCAHjH9Fa",
     "name": "CNBC-e",
     "sources": {
@@ -654,7 +626,7 @@
     "name": "EKOTÜRK TV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/5muC3P48HBY"
+        "https://www.youtube-nocookie.com/embed/0Xr-gVx6jCc"
       ]
     },
     "languages": [
@@ -1955,6 +1927,9 @@
     "sources": {
       "streams": [
         "https://tjktv-live.tjk.org/tjktv.m3u8"
+      ],
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/pgYkMtwQ7Zw"
       ]
     },
     "languages": [
@@ -2061,6 +2036,20 @@
     ],
     "country": "tr",
     "isGeoBlocked": false
+  },
+  {
+    "nanoid": "BpkMtsoRspK7u5",
+    "name": "TRT Genc",
+    "sources": {
+      "streams": [
+        "https://tv-trtgenc.medya.trt.com.tr/master.m3u8"
+      ]
+    },
+    "languages": [
+      "tur"
+    ],
+    "country": "tr",
+    "isGeoBlocked": true
   },
   {
     "nanoid": "owJJC4tX2SQL4u",

@@ -602,6 +602,36 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "YDDs1fELyb6Zbe",
+    "name": "Mooz Love",
+    "sources": {
+      "streams": [
+        "https://tvextra-hls.b-cdn.net/moozlove/moozlove.m3u8"
+      ]
+    },
+    "languages": [
+      "eng",
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "M4hlHF27RchkXg",
+    "name": "Mooz Retro",
+    "sources": {
+      "streams": [
+        "https://tvextra-hls.b-cdn.net/moozretro/moozretro.m3u8"
+      ]
+    },
+    "languages": [
+      "eng",
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "2U91fowazsObgI",
     "name": "Mooz Ro!",
     "sources": {
@@ -663,6 +693,20 @@
     "sources": {
       "streams": [
         "https://hls01ns.antenaplay.ro/hls/national-tv-sd/index.m3u8"
+      ]
+    },
+    "languages": [
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Xb6sSVxIqQCLnS",
+    "name": "Nostalgia TV",
+    "sources": {
+      "streams": [
+        "https://hls02ns.antenaplay.ro/hls/nostalgia-hd/index.m3u8"
       ]
     },
     "languages": [
@@ -915,7 +959,7 @@
     "name": "Tu Decizi",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/8MxUEZT_Z3k"
+        "https://www.youtube-nocookie.com/embed/DqL7PwiZ3uY"
       ]
     },
     "languages": [
@@ -1035,34 +1079,6 @@
     ],
     "country": "ro",
     "isGeoBlocked": true
-  },
-  {
-    "nanoid": "QmyDk7u02PWKpA",
-    "name": "TVR Info",
-    "sources": {
-      "streams": [
-        "https://tvr-info.lg.mncdn.com/tvrinfo/smil:tvrinfo.smil/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "ron"
-    ],
-    "country": "ro",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "otbytoTxWQ2OOt",
-    "name": "TVR International",
-    "sources": {
-      "streams": [
-        "https://tvr-international.lg.mncdn.com/tvrinternational/smil:tvrinternational.smil/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "ron"
-    ],
-    "country": "ro",
-    "isGeoBlocked": false
   },
   {
     "nanoid": "lX8llbHeMkmnOY",

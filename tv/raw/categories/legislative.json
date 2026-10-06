@@ -842,6 +842,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "30bfOGEz7cdNL8",
+    "name": "LCP",
+    "sources": {
+      "streams": [
+        "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/publicsenat/publicsenat-dm.m3u8"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "fr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "NLIFoRpmAx5nwO",
     "name": "Legislative Assembly of El Salvador",
     "sources": {
@@ -926,6 +940,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "J49I0cja3V1GVG",
+    "name": "Midpen Media Center Channel 29",
+    "sources": {
+      "streams": [
+        "https://5c2974786200d.streamlock.net/live-chan29/ngrp:ch29_all/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "htfvD77W7qLUSn",
     "name": "Monroe County TV",
     "sources": {
@@ -972,7 +1000,7 @@
     "name": "Nova24TV 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/sVhrVNTqmHo"
+        "https://www.youtube-nocookie.com/embed/7KHhGntQJKc"
       ]
     },
     "languages": [
@@ -1333,21 +1361,7 @@
     "name": "TV Assembleia Minas Gerais",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/M-tuLRKaPmQ"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "QrY7bSr5CSX6dm",
-    "name": "TV Assembleia Piaui",
-    "sources": {
-      "streams": [
-        "https://stmv1.srvstm.com/piaui8071/piaui8071/playlist.m3u8"
+        "https://www.youtube-nocookie.com/embed/05tpi8GQmq4"
       ]
     },
     "languages": [

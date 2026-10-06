@@ -142,11 +142,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "s64BgUfTafeYF2",
-    "name": "Canal 14 Codazzi",
+    "nanoid": "pxpERTjTLU5biZ",
+    "name": "Canal CHD",
     "sources": {
       "streams": [
-        "https://eu1.servers10.com:8081/8056/index.m3u8"
+        "https://vs20.live.opencaster.com/canalchd2025_8d99626c/index.m3u8"
       ]
     },
     "languages": [
@@ -175,6 +175,21 @@
     "sources": {
       "streams": [
         "https://streaming.rtvc.gov.co/TV_CanalInstitucional_live/smil:live.smil/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "co",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "nygDUxp3RgEFzv",
+    "name": "Canal Mas Television",
+    "sources": {
+      "streams": [
+        "https://movil.ejeserver.com/live/teledoradahd.m3u8",
+        "https://video.ejeserver.com/live/teledoradahd.m3u8"
       ]
     },
     "languages": [
@@ -298,6 +313,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "5UNNnPvR2HyEJi",
+    "name": "CNC Bugavision",
+    "sources": {
+      "streams": [
+        "https://movil.ejeserver.com/live/cncbuga.m3u8",
+        "https://video.ejeserver.com/live/cncbuga.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "co",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "vlNh6cGmLuP4h1",
     "name": "CNC Pereira",
     "sources": {
@@ -388,6 +418,20 @@
     "sources": {
       "streams": [
         "https://stmv3.voxtvhd.com.br/conex2/conex2/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "co",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "8MkrJaxHtTluMW",
+    "name": "El Mundo del Campo",
+    "sources": {
+      "streams": [
+        "https://movil.ejeserver.com/live/elmundodelcampo.m3u8"
       ]
     },
     "languages": [
@@ -925,6 +969,20 @@
     "sources": {
       "streams": [
         "https://live.amelbatv.co:81/teleopita/index.fmp4.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "co",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "w1ixTwFBg5nJH1",
+    "name": "TVGracia",
+    "sources": {
+      "streams": [
+        "https://vs20.live.opencaster.com/diego_57244803/index.m3u8"
       ]
     },
     "languages": [

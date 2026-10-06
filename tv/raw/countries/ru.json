@@ -586,11 +586,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Wc02nSZr6VuoIF",
-    "name": "City Eden KinoAsia",
+    "nanoid": "gUswhqxHZdKrP1",
+    "name": "City Eden KinoAction",
     "sources": {
       "streams": [
-        "https://cityeden.catcast.tv/content/34393/index.m3u8"
+        "https://cityeden.catcast.tv/content/41333/index.m3u8"
       ]
     },
     "languages": [
@@ -656,34 +656,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "xjnk7dNYRv7edj",
-    "name": "City Eden KinoKlassika",
-    "sources": {
-      "streams": [
-        "https://cityeden.catcast.tv/content/34185/index.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "N0XF0zTYtjf6Vc",
-    "name": "City Eden KinoKomediya",
-    "sources": {
-      "streams": [
-        "https://cityeden.catcast.tv/content/41331/index.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "hYJqIp24qMnNqd",
     "name": "City Eden KinoMistika",
     "sources": {
@@ -726,20 +698,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "rt3pDKAk1yMoRc",
-    "name": "City Eden Recepty Gurmana",
-    "sources": {
-      "streams": [
-        "https://cityeden.catcast.tv/content/47516/index.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "eLHDrGKZWgbc15",
     "name": "City Eden Sirtaki TV",
     "sources": {
@@ -768,12 +726,25 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "JIOxlnAu1GPh23",
+    "name": "City Eden TV",
+    "sources": {
+      "streams": [
+        "https://cityeden.catcast.tv/content/34246/index.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "2Gi4riOGPwTn6u",
     "name": "Current Time TV",
     "sources": {
       "streams": [
-        "https://rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/master.m3u8",
-        "https://dash3.antik.sk/live/test_current_time_atktv/playlist.m3u8"
+        "https://rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/master.m3u8"
       ]
     },
     "languages": [
@@ -817,20 +788,6 @@
     "sources": {
       "streams": [
         "https://stream8.cinerama.uz/1033/tracks-v1a1/mono.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "xUgG4Xe5635smX",
-    "name": "Dikij",
-    "sources": {
-      "streams": [
-        "https://stream3.cinerama.uz/1230/tracks-v1a1/mono.m3u8"
       ]
     },
     "languages": [
@@ -1315,7 +1272,7 @@
     "name": "Jetix",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/98LAmRIN1fM"
+        "https://www.youtube-nocookie.com/embed/rVY3DumEX_s"
       ]
     },
     "languages": [
@@ -2944,8 +2901,8 @@
     "name": "Shanson TV",
     "sources": {
       "streams": [
-        "https://catchup.videoline.ru/shanson/index.m3u8",
         "https://streaming.thestream.cyou/live/7009.m3u8",
+        "https://catchup.videoline.ru/shanson/index.m3u8",
         "https://fs.uplink.kz/shanson/mono.m3u8?token=onlinetv"
       ]
     },

@@ -309,20 +309,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "HiSqdLo7Vz02nV",
-    "name": "Canal 3 Las Heras",
-    "sources": {
-      "streams": [
-        "https://stream.arcast.com.ar/canal3/canal3/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ar",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "orfuIaNTEmG6BY",
     "name": "Canal 3 Pinamar",
     "sources": {
@@ -505,6 +491,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "k2LkhDSkZpJMsq",
+    "name": "Canal 7 Neuquen",
+    "sources": {
+      "streams": [
+        "https://stream.arcast.com.ar/c7nq/ngrp:c7nq_all/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "WYgIM57T6cgvaF",
     "name": "Canal 7 Salta",
     "sources": {
@@ -537,9 +537,6 @@
     "nanoid": "zBHIZ3xX6aJN4H",
     "name": "Canal 8 San Juan",
     "sources": {
-      "streams": [
-        "https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8"
-      ],
       "youtube": [
         "https://www.youtube-nocookie.com/embed/V49JSc0SXY4"
       ]
@@ -1094,7 +1091,7 @@
     "name": "El Observador 107.9",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4yuDsfPkd4s"
+        "https://www.youtube-nocookie.com/embed/zIroG7mBIsI"
       ]
     },
     "languages": [
@@ -1164,7 +1161,7 @@
     "name": "El Tres TV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/J_rqVNyun2A"
+        "https://www.youtube-nocookie.com/embed/tx_OBAdIClI"
       ]
     },
     "languages": [
@@ -1938,7 +1935,7 @@
     "name": "Urbana Play 104.3 FM",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/LEVLlv8nMuQ"
+        "https://www.youtube-nocookie.com/embed/ol1FW6clVws"
       ]
     },
     "languages": [

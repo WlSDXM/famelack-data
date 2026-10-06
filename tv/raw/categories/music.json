@@ -91,8 +91,7 @@
     "name": "8XM",
     "sources": {
       "streams": [
-        "https://cdn4.mjunoon.tv:8087/streamtest/131M/chunks.m3u8",
-        "https://cdn4.mjunoon.tv:8087/streamtest/135M/chunks.m3u8"
+        "https://cdn4.mjunoon.tv:8087/streamtest/131M/chunks.m3u8"
       ]
     },
     "languages": [
@@ -757,20 +756,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "BS24vuGSgL043V",
-    "name": "Boogle Bollywood",
-    "sources": {
-      "streams": [
-        "https://yuppnimrestreammum.akamaized.net/181224/smil:bogglebollywood.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b"
-      ]
-    },
-    "languages": [
-      "hin"
-    ],
-    "country": "in",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "oRBbbA6nudopIk",
     "name": "Botflix aiTV: Pleasant Programming",
     "sources": {
@@ -1035,20 +1020,6 @@
       "rus"
     ],
     "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "S1ZYN7hADGka8A",
-    "name": "City TV",
-    "sources": {
-      "streams": [
-        "https://tv.city.bg/play/tshls/citytv/index.m3u8"
-      ]
-    },
-    "languages": [
-      "bul"
-    ],
-    "country": "bg",
     "isGeoBlocked": false
   },
   {
@@ -1348,21 +1319,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "kxfwLfpFpzHMm2",
-    "name": "Deluxe Rap",
-    "sources": {
-      "streams": [
-        "https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8"
-      ]
-    },
-    "languages": [
-      "deu",
-      "eng"
-    ],
-    "country": "de",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "dWV1CU8Rzdsj5g",
     "name": "Dhool TV",
     "sources": {
@@ -1586,6 +1542,20 @@
       "por"
     ],
     "country": "pt",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "4JFA13OLSSJXv5",
+    "name": "Fame95 FM",
+    "sources": {
+      "streams": [
+        "https://rjrfame-ioriver-cdn.encoders.immergo.tv/master.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "jm",
     "isGeoBlocked": false
   },
   {
@@ -2767,6 +2737,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "oMhYmCaf0w71Vh",
+    "name": "Look Thoong TV",
+    "sources": {
+      "streams": [
+        "https://livefta.malimarcdn.com/ftaedge00/lookthoongtv.sdp/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "lao"
+    ],
+    "country": "la",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "lLlNJWyY2XdMQg",
     "name": "Los Angeles TV Radio",
     "sources": {
@@ -3294,6 +3278,36 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "YDDs1fELyb6Zbe",
+    "name": "Mooz Love",
+    "sources": {
+      "streams": [
+        "https://tvextra-hls.b-cdn.net/moozlove/moozlove.m3u8"
+      ]
+    },
+    "languages": [
+      "eng",
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "M4hlHF27RchkXg",
+    "name": "Mooz Retro",
+    "sources": {
+      "streams": [
+        "https://tvextra-hls.b-cdn.net/moozretro/moozretro.m3u8"
+      ]
+    },
+    "languages": [
+      "eng",
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "2U91fowazsObgI",
     "name": "Mooz Ro!",
     "sources": {
@@ -3527,8 +3541,8 @@
     "name": "NEW K-POP",
     "sources": {
       "streams": [
-        "https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=GB17000088V&channel_id=newid_086&tp=samsung_tvplus",
-        "https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=USAJ3000013FJ&channel_id=newid_338&tp=samsung_tvplus"
+        "https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=USAJ3000013FJ&channel_id=newid_338&tp=samsung_tvplus",
+        "https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=GB17000088V&channel_id=newid_086&tp=samsung_tvplus"
       ]
     },
     "languages": [
@@ -4428,20 +4442,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "79RGODupZW3p8n",
-    "name": "Radio Carnaval TV",
-    "sources": {
-      "streams": [
-        "https://eu1.servers10.com:8081/8116/index.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "4BOCgwziwKJjLk",
     "name": "Radio Chalaca",
     "sources": {
@@ -4635,20 +4635,6 @@
       "srp"
     ],
     "country": "rs",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "8HaE3IUVFLphXf",
-    "name": "Radio La Serena TV",
-    "sources": {
-      "streams": [
-        "https://5ff3d9babae13.streamlock.net/chrgkqgkyb/chrgkqgkyb/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "cl",
     "isGeoBlocked": false
   },
   {
@@ -5139,8 +5125,8 @@
     "name": "Ritoque TV",
     "sources": {
       "streams": [
-        "https://streaming.purum.cl/ritoquetv/index.m3u8",
-        "https://v2.tustreaming.cl/unetev/index.m3u8"
+        "https://v2.tustreaming.cl/unetev/index.m3u8",
+        "https://streaming.purum.cl/ritoquetv/index.m3u8"
       ]
     },
     "languages": [
@@ -5456,8 +5442,8 @@
     "name": "Shanson TV",
     "sources": {
       "streams": [
-        "https://catchup.videoline.ru/shanson/index.m3u8",
         "https://streaming.thestream.cyou/live/7009.m3u8",
+        "https://catchup.videoline.ru/shanson/index.m3u8",
         "https://fs.uplink.kz/shanson/mono.m3u8?token=onlinetv"
       ]
     },
@@ -5579,21 +5565,6 @@
       "spa"
     ],
     "country": "cr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "TAur6WI03rCzWr",
-    "name": "SpektraTV",
-    "sources": {
-      "streams": [
-        "https://cloudvideo.servers10.com:8081/8026/tracks-v1a1/index.m3u8"
-      ]
-    },
-    "languages": [
-      "eng",
-      "spa"
-    ],
-    "country": "es",
     "isGeoBlocked": false
   },
   {
@@ -6357,20 +6328,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Ylg36gP6EgZbPE",
-    "name": "THE K-POP",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/JVocS7Yftw8"
-      ]
-    },
-    "languages": [
-      "kor"
-    ],
-    "country": "kr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "kFXY9hZYJ4HFXR",
     "name": "The Retro Channel",
     "sources": {
@@ -7114,7 +7071,7 @@
     "name": "Urbana Play 104.3 FM",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/LEVLlv8nMuQ"
+        "https://www.youtube-nocookie.com/embed/ol1FW6clVws"
       ]
     },
     "languages": [
@@ -7623,6 +7580,20 @@
       "eng"
     ],
     "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "yr33MgQq5gUR8N",
+    "name": "YRF Music",
+    "sources": {
+      "streams": [
+        "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "hin"
+    ],
+    "country": "in",
     "isGeoBlocked": false
   },
   {

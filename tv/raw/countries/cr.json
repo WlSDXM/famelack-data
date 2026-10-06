@@ -103,8 +103,7 @@
     "name": "Canal 10",
     "sources": {
       "streams": [
-        "https://acceso.mediosdecostarica.com:3606/hybrid/play.m3u8",
-        "https://acceso.mediosdecostarica.com:3606/live/canal10costaricalive.m3u8"
+        "https://acceso.mediosdecostarica.com:3606/hybrid/play.m3u8"
       ]
     },
     "languages": [
@@ -224,6 +223,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "xMyWNZNLNYysjq",
+    "name": "Enlace",
+    "sources": {
+      "streams": [
+        "https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "eng",
+      "spa"
+    ],
+    "country": "cr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "XI0tj0hHgDA4kn",
     "name": "Extra TV 42",
     "sources": {
@@ -257,20 +271,6 @@
     "sources": {
       "streams": [
         "https://627bb251f23c7.streamlock.net:444/ExtremaTV/ExtremaTV/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "cr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "GD6GIT9MV0x6kz",
-    "name": "Garabito TV",
-    "sources": {
-      "streams": [
-        "https://59ef525c24caa.streamlock.net/garabitoTV/garabitotv/playlist.m3u8"
       ]
     },
     "languages": [

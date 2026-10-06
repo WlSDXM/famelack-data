@@ -1,5 +1,33 @@
 [
   {
+    "nanoid": "R3tfe3EU9e9tEc",
+    "name": "Canal Mas",
+    "sources": {
+      "streams": [
+        "https://canalmasuruguay.com/hls/master-abr.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "uy",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "qO9vRi6qWS9n0t",
+    "name": "Raquel Daruech TV",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/vqH67tgbNM8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "uy",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "wOuKcaJXWEMKNa",
     "name": "UCL",
     "sources": {

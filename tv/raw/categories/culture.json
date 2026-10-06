@@ -287,6 +287,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "RMJta2uB0RhiFk",
+    "name": "Channel One",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/AE_9EfvtGMI"
+      ]
+    },
+    "languages": [
+      "fas"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "h25WUyBe4528fW",
     "name": "Channel S",
     "sources": {
@@ -299,21 +313,6 @@
       "eng"
     ],
     "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "uXMcPHTew9graP",
-    "name": "Channel S",
-    "sources": {
-      "streams": [
-        "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "ben",
-      "eng"
-    ],
-    "country": "bd",
     "isGeoBlocked": false
   },
   {
@@ -564,20 +563,6 @@
       "cat"
     ],
     "country": "es",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "vEu4AbFWQq3rTn",
-    "name": "El Sonorense",
-    "sources": {
-      "streams": [
-        "https://s5.mexside.net:1936/elsonorense/elsonorense/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
     "isGeoBlocked": false
   },
   {
@@ -1010,6 +995,34 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "AQoLBvOjxVCg4W",
+    "name": "Midpen Media Center Channel 30",
+    "sources": {
+      "streams": [
+        "https://5c2974786200d.streamlock.net/live-chan30/ngrp:ch30_all/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "V5gXDCRg4f3pWb",
+    "name": "Midpen Media Center Channel 75",
+    "sources": {
+      "streams": [
+        "https://5c2974786200d.streamlock.net/live-chan75/ngrp:ch75_all/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "XLkNES6kyKfJ4o",
     "name": "Montreal Greek TV",
     "sources": {
@@ -1139,6 +1152,34 @@
       "ita"
     ],
     "country": "it",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "DKHLUT1IqpMkXM",
+    "name": "Presumiendo Mexico",
+    "sources": {
+      "streams": [
+        "https://60417ddeaf0d9.streamlock.net/telemetrika/smil:telemetrika.smil/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "SYkeshgW48vaJo",
+    "name": "Qausain TV",
+    "sources": {
+      "streams": [
+        "https://acasmedia3.acangroup.org/qausaintv/qausaintv_output/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ng",
     "isGeoBlocked": false
   },
   {
@@ -1451,6 +1492,34 @@
       "nld"
     ],
     "country": "sr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "BpkMtsoRspK7u5",
+    "name": "TRT Genc",
+    "sources": {
+      "streams": [
+        "https://tv-trtgenc.medya.trt.com.tr/master.m3u8"
+      ]
+    },
+    "languages": [
+      "tur"
+    ],
+    "country": "tr",
+    "isGeoBlocked": true
+  },
+  {
+    "nanoid": "cWWftSEuzr59Qo",
+    "name": "TV Cuatro 4.2",
+    "sources": {
+      "streams": [
+        "https://5f2c1b0d880e5.streamlock.net/tv42/tv42.smil/.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
     "isGeoBlocked": false
   },
   {

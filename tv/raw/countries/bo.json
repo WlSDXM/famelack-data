@@ -402,20 +402,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "yLB43ge13jrHoP",
-    "name": "Red TV Shop",
-    "sources": {
-      "streams": [
-        "https://master.tucableip.com/redtvshop/index.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "bo",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "F3BYfjJnpkzbsO",
     "name": "Red Uno",
     "sources": {
@@ -442,20 +428,6 @@
     ],
     "country": "bo",
     "isGeoBlocked": true
-  },
-  {
-    "nanoid": "za6KpDi86ZZAJu",
-    "name": "SPC Canal 15",
-    "sources": {
-      "streams": [
-        "https://tv.centaurychile.com/magicatv/streams/22AdscM3Y6Un17Zo4747081346569358.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "bo",
-    "isGeoBlocked": false
   },
   {
     "nanoid": "jo5rZWZDxVWDCK",
@@ -631,8 +603,7 @@
     "name": "Unitel Cochabamba",
     "sources": {
       "streams": [
-        "https://mdstrm.com/live-stream-playlist/691f2aeb5ac95d286c49af8d.m3u8",
-        "https://lbgo.bozztv.com/ssh101/ssh101/tvjoaquiniana26/playlist.m3u8"
+        "https://mdstrm.com/live-stream-playlist/691f2aeb5ac95d286c49af8d.m3u8"
       ]
     },
     "languages": [],

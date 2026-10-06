@@ -28,20 +28,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Peq2FVjvdeypXQ",
-    "name": "Jaya Tv Live",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/TEOcX6ye-Og"
-      ]
-    },
-    "languages": [
-      "sin"
-    ],
-    "country": "lk",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "SfoZRyfL73LUNW",
     "name": "Karma",
     "sources": {
@@ -74,7 +60,7 @@
     "name": "Methmaga TV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/_JGuGMyIu4k"
+        "https://www.youtube-nocookie.com/embed/lrKJsSBu6A0"
       ]
     },
     "languages": [
