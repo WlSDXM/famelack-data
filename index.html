@@ -93,19 +93,23 @@
     let hls;
 
     async function loadWebcamCountries() {
-        try {
-            const response = await fetch(`${BASE}/webcams/raw/countries_metadata.json`);
-            const countries = await response.json();
-            countries.forEach(country => {
-                const option = document.createElement('option');
-                option.value = country.code;
-                option.textContent = country.name;
-                countrySelect.appendChild(option);
-            });
-        } catch (error) {
-            console.error('Failed to load webcam countries:', error);
-        }
+    try {
+        const response = await fetch(`${BASE}/webcams/raw/countries_metadata.json`);
+        const data = await response.json();
+
+        Object.entries(data).forEach(([code, info]) => {
+            // Only show countries that actually have webcams
+            if (!info.hasChannels) return;
+
+            const option = document.createElement('option');
+            option.value = code;
+            option.textContent = `${info.country} (${info.channelCount})`;
+            countrySelect.appendChild(option);
+        });
+    } catch (error) {
+        console.error('Failed to load webcam countries:', error);
     }
+}
 
     countrySelect.addEventListener('change', async (e) => {
         const code = e.target.value;
