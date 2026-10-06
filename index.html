@@ -1,1 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Earth — World Cams & Radio</title>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --surface-color: #1e1e1e;
+            --border-color: #333;
+            --text-color: #e0e0e0;
+            --accent-color: #4a9eff;
+        }
+        * { box-sizing: border-box; }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: system-ui, -apple-system, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.5;
+        }
+        .container { max-width: 800px; margin: 0 auto; }
+        h1 { border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
+        h2 { color: var(--accent-color); margin-top: 0; }
+        .player-box {
+            background-color: var(--surface-color);
+            border: 1px solid var(--border-color);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .row { display: flex; gap: 10px; margin-bottom: 12px; }
+        select {
+            flex: 1;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            padding: 8px 12px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        select:focus { outline: none; border-color: var(--accent-color); }
+        video { width: 100%; border-radius: 4px; background-color: #000; }
+        audio { width: 100%; margin-top: 4px; }
+        canvas {
+            width: 100%;
+            height: 100px;
+            background-color: #000;
+            border-radius: 4px;
+            margin-top: 10px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>🌍 Earth</h1>
 
+    <div class="player-box">
+        <h2>📹 Live Webcams</h2>
+        <div class="row">
+            <select id="countrySelect">
+                <option value="">-- Select a Country --</option>
+            </select>
+        </div>
+        <video id="webcamPlayer" controls autoplay muted></video>
+    </div>
+
+    <div class="player-box">
+        <h2>📻 Radio Stations</h2>
+        <div class="row">
+            <select id="radioCountrySelect">
+                <option value="">-- Select a Country --</option>
+            </select>
+            <select id="radioStationSelect" disabled>
+                <option value="">-- Select a Station --</option>
+            </select>
+        </div>
+        <audio id="radioPlayer" controls crossorigin="anonymous"></audio>
+        <canvas id="visualizer"></canvas>
+    </div>
+</div>
+
+<script>
+    const BASE = 'https://raw.githubusercontent.com/WlSDXM/famelack-data/main';
+
+    // ============ WEBCAM ============
+    const video = document.getElementById('webcamPlayer');
+    const countrySelect = document.getElementById('countrySelect');
+    let hls;
+
+    async function loadWebcamCountries() {
+        try {
+            const response = await fetch(`${BASE}/webcams/raw/countries_metadata.json`);
+            const countries = await response.json();
+            countries.forEach(country => {
+                const option = document.createElement('option');
+                option.value = country.code;
+                option.textContent = country.name;
+                countrySelect.appendChild(option);
+            });
+        } catch (error) {
+            console.error('Failed to load webcam countries:', error);
+        }
+    }
+
+    countrySelect.addEventListener('change', async (e) => {
+        const code = e.target.value;
+        if (!code) return;
+        try {
+            const response = await fetch(`${BASE}/webcams/raw/countries/${code}.json`);
+            const data = await response.json();
+            const streams = data.streams || data;
+            if (Array.isArray(streams) && streams.length > 0) {
+                const stream = streams.find(s => s.url && s.url.includes('.m3u8')) || streams[0];
+                if (stream && stream.url) playStream(stream.url);
+            }
+        } catch (error) {
+            console.error('Failed to load webcam data for', code, error);
+        }
+    });
+
+    function playStream(url) {
+        if (Hls.isSupported()) {
+            if (hls) hls.destroy();
+            hls = new Hls();
+            hls.loadSource(url);
+            hls.attachMedia(video);
+        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+            video.src = url;
+        }
+        video.play().catch(e => console.log('Autoplay prevented:', e));
+    }
+
+    // ============ RADIO ============
+    const audio = document.getElementById('radioPlayer');
+    const radioCountrySelect = document.getElementById('radioCountrySelect');
+    const radioStationSelect = document.getElementById('radioStationSelect');
+
+    async function loadRadioCountries() {
+        try {
+            const response = await fetch(`${BASE}/radio/raw/countries_metadata.json`);
+            const countries = await response.json();
+            countries.forEach(country => {
+                const option = document.createElement('option');
+                option.value = country.code;
+                option.textContent = country.name;
+                radioCountrySelect.appendChild(option);
+            });
+        } catch (error) {
+            console.error('Failed to load radio countries:', error);
+        }
+    }
+
+    radioCountrySelect.addEventListener('change', async (e) => {
+        const code = e.target.value;
+        radioStationSelect.innerHTML = '<option value="">-- Select a Station --</option>';
+        radioStationSelect.disabled = true;
+        if (!code) return;
+
+        try {
+            const response = await fetch(`${BASE}/radio/raw/countries/${code}.json`);
+            const data = await response.json();
+            const stations = data.stations || data.streams || data;
+
+            if (Array.isArray(stations)) {
+                stations.forEach((station, i) => {
+                    const url = station.url || station.stream_url || station.streamUrl;
+                    if (!url) return;
+                    const option = document.createElement('option');
+                    option.value = url;
+                    option.textContent = station.name || station.title || `Station ${i + 1}`;
+                    radioStationSelect.appendChild(option);
+                });
+                radioStationSelect.disabled = false;
+            }
+        } catch (error) {
+            console.error('Failed to load radio stations for', code, error);
+        }
+    });
+
+    radioStationSelect.addEventListener('change', (e) => {
+        const url = e.target.value;
+        if (!url) {
+            audio.pause();
+            audio.src = '';
+            return;
+        }
+        audio.src = url;
+        audio.play().catch(e => console.log('Playback failed:', e));
+    });
+
+    // ============ VISUALIZER ============
+    const canvas = document.getElementById('visualizer');
+    const ctx = canvas.getContext('2d');
+    let audioCtx, analyser, source, dataArray;
+
+    function sizeCanvas() {
+        canvas.width = canvas.clientWidth * window.devicePixelRatio;
+        canvas.height = canvas.clientHeight * window.devicePixelRatio;
+        ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+    }
+    sizeCanvas();
+    window.addEventListener('resize', sizeCanvas);
+
+    function initVisualizer() {
+        if (audioCtx) return;
+        try {
+            audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            analyser = audioCtx.createAnalyser();
+            analyser.fftSize = 256;
+            source = audioCtx.createMediaElementSource(audio);
+            source.connect(analyser);
+            analyser.connect(audioCtx.destination);
+            dataArray = new Uint8Array(analyser.frequencyBinCount);
+        } catch (e) {
+            console.warn('Visualizer init failed:', e);
+        }
+    }
+
+    function draw() {
+        requestAnimationFrame(draw);
+        const w = canvas.clientWidth;
+        const h = canvas.clientHeight;
+        ctx.clearRect(0, 0, w, h);
+
+        if (!analyser) {
+            ctx.fillStyle = '#1e1e1e';
+            ctx.fillRect(0, 0, w, h);
+            ctx.strokeStyle = '#333';
+            ctx.beginPath();
+            ctx.moveTo(0, h / 2);
+            ctx.lineTo(w, h / 2);
+            ctx.stroke();
+            return;
+        }
+
+        analyser.getByteFrequencyData(dataArray);
+        const barCount = dataArray.length;
+        const barWidth = w / barCount;
+
+        for (let i = 0; i < barCount; i++) {
+            const value = dataArray[i] / 255;
+            const barHeight = value * h;
+            const x = i * barWidth;
+            const y = h - barHeight;
+            const hue = 210 + (i / barCount) * 120;
+            ctx.fillStyle = `hsl(${hue}, 80%, ${30 + value * 40}%)`;
+            ctx.fillRect(x, y, barWidth - 1, barHeight);
+        }
+    }
+
+    audio.addEventListener('play', () => {
+        initVisualizer();
+        if (audioCtx && audioCtx.state === 'suspended') audioCtx.resume();
+    });
+
+    draw();
+
+    // ============ INIT ============
+    loadWebcamCountries();
+    loadRadioCountries();
+</script>
+</body>
+</html>
