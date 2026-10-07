@@ -354,11 +354,9 @@ window.addEventListener('load', () => sizeCanvas());
         let sum = 0;
         for (let j = start; j < end; j++) sum += freqData[j];
         let value = sum / (end - start) / 255;
+        value = Math.min(1, value * 1.4);
 
-        // Lower amplification so bass doesn't slam to the ceiling
-        value = Math.min(1, value * 1.1);
-
-        const barHeight = value * (h * 0.85);
+        const barHeight = value * (h * 0.75);
         const x = i * (barWidth + gap);
         const y = h - barHeight;
 
