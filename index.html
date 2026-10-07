@@ -370,17 +370,16 @@ window.addEventListener('load', () => sizeCanvas());
 
     function drawBars(w, h) {
     analyser.getByteFrequencyData(freqData);
-    const barCount = 300;
-    const barWidth = w / barCount;
+    const barCount = 400;
+    const gap = 1;
+    const totalGap = gap * (barCount - 1);
+    const barWidth = (w - totalGap) / barCount;
 
-    // Log-spaced bin mapping across the full spectrum
     const minBin = 1;
-    const maxBin = Math.floor(freqData.length * 0.7);
+    const maxBin = Math.floor(freqData.length * 0.55);
     const logMin = Math.log(minBin);
     const logMax = Math.log(maxBin);
 
-    // First pass: compute a value for each column
-    const values = new Array(barCount);
     for (let i = 0; i < barCount; i++) {
         const t1 = i / barCount;
         const t2 = (i + 1) / barCount;
@@ -391,61 +390,24 @@ window.addEventListener('load', () => sizeCanvas());
         for (let j = start; j < end && j < freqData.length; j++) { sum += freqData[j]; count++; }
         let value = sum / count / 255;
 
-        // Light compression + a small baseline so quiet columns are still visible
-        value = Math.min(1, value * 1.4);
-        value = 0.05 + value * 0.95;  // floor at 5% so no column is truly empty
+        // Moderate uniform amplification
+        value = Math.min(1, value * 1.5);
 
-        values[i] = value;
+        // Small floor so quiet bars are still visible as pixels
+        const displayValue = 0.04 + value * 0.96;
+
+        const barHeight = displayValue * (h * 0.9);
+        const x = i * (barWidth + gap);
+        const y = h - barHeight;
+
+        // Gradient color across the width
+        const hue = 210 + (i / barCount) * 100;
+        const light = 45 + value * 25;
+        ctx.fillStyle = `hsl(${hue}, 75%, ${light}%)`;
+
+        // Round to integer pixels for that crisp "pixelated" look
+        ctx.fillRect(Math.round(x), Math.round(y), Math.ceil(barWidth), Math.round(barHeight));
     }
-
-    // Smooth the values slightly so the silhouette isn't jittery
-    const smoothed = values.map((_, i) => {
-        const prev = values[Math.max(0, i - 1)];
-        const next = values[Math.min(barCount - 1, i + 1)];
-        return (prev + values[i] * 2 + next) / 4;
-    });
-
-    // ---- Draw the filled silhouette ----
-    const gradient = ctx.createLinearGradient(0, 0, w, 0);
-    gradient.addColorStop(0, '#3b6fd9');
-    gradient.addColorStop(0.5, '#6a4de0');
-    gradient.addColorStop(1, '#a04de0');
-
-    ctx.beginPath();
-    ctx.moveTo(0, h);
-    for (let i = 0; i < barCount; i++) {
-        const x = i * barWidth;
-        const y = h - smoothed[i] * (h * 0.85);
-        ctx.lineTo(x, y);
-    }
-    ctx.lineTo(w, h);
-    ctx.closePath();
-    ctx.fillStyle = gradient;
-    ctx.fill();
-
-    // ---- Peak-hold line (red) ----
-    if (!window.__peakHold || window.__peakHold.length !== barCount) {
-        window.__peakHold = new Array(barCount).fill(0);
-    }
-    for (let i = 0; i < barCount; i++) {
-        const current = smoothed[i];
-        // Rise instantly, decay slowly
-        if (current > window.__peakHold[i]) {
-            window.__peakHold[i] = current;
-        } else {
-            window.__peakHold[i] *= 0.985;
-        }
-    }
-
-    ctx.beginPath();
-    for (let i = 0; i < barCount; i++) {
-        const x = i * barWidth;
-        const y = h - window.__peakHold[i] * (h * 0.85);
-        if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
-    }
-    ctx.strokeStyle = '#ff2d55';
-    ctx.lineWidth = 1.5;
-    ctx.stroke();
 }
     function drawWave(w, h) {
     analyser.getByteTimeDomainData(timeData);
