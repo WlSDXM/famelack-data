@@ -294,9 +294,11 @@
 
     vizStyleSelect.addEventListener('change', (e) => {
     currentStyle = e.target.value;
+
     if (currentStyle === 'ascii') {
         canvas.style.display = 'none';
         asciiViz.style.display = 'block';
+        if (analyser) drawAscii();
     } else {
         canvas.style.display = 'block';
         asciiViz.style.display = 'none';
