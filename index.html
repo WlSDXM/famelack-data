@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Earth — World Cams & Radio</title>
+    <title>Earth — World Views & Radio</title>
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <style>
        @font-face {
@@ -134,10 +134,10 @@ select {
 </head>
 <body>
 <div class="container">
-    <h1>🌍 Earth</h1>
+    <h1>🌍 EARTH</h1>
 
     <div class="player-box">
-        <h2>📹 Live Webcams</h2>
+        <h2>📹 Live</h2>
         <div class="row">
             <select id="countrySelect">
                 <option value="">-- Select a Country --</option>
@@ -404,7 +404,7 @@ window.addEventListener('load', () => sizeCanvas());
     const mid = h / 2;
     const amp = h * 0.42;
 
-    // Build points
+    
     const points = [];
     for (let i = 0; i < timeData.length; i++) {
         const x = (i / (timeData.length - 1)) * w;
@@ -412,7 +412,7 @@ window.addEventListener('load', () => sizeCanvas());
         points.push([x, y]);
     }
 
-    // Filled area under the curve
+    
     ctx.beginPath();
     ctx.moveTo(points[0][0], h);
     for (const [x, y] of points) ctx.lineTo(x, y);
@@ -426,7 +426,7 @@ window.addEventListener('load', () => sizeCanvas());
     ctx.fillStyle = gradient;
     ctx.fill();
 
-    // Stroke line on top
+    
     ctx.beginPath();
     ctx.moveTo(points[0][0], points[0][1]);
     for (const [x, y] of points) ctx.lineTo(x, y);
@@ -474,13 +474,13 @@ function drawAscii() {
     function draw() {
     requestAnimationFrame(draw);
 
-    // ASCII runs first — it doesn't use the canvas at all
+    
     if (currentStyle === 'ascii') {
         if (analyser) drawAscii();
         return;
     }
 
-    // Canvas visualizers need a visible, sized canvas
+    
     if (canvas.style.display === 'none') return;
     const rect = canvas.getBoundingClientRect();
     const w = rect.width;
