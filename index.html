@@ -354,13 +354,17 @@ window.addEventListener('load', () => sizeCanvas());
         let value = sum / (end - start) / 255;
         value = Math.min(1, value * 1.4);
 
-        const barHeight = value * (h * 0.75);
+        const barHeight = value * h;               // ← full height now
         const x = i * (barWidth + gap);
         const y = h - barHeight;
 
         const hue = 210 + (i / barCount) * 100;
         ctx.fillStyle = `hsl(${hue}, 80%, ${40 + value * 30}%)`;
         ctx.fillRect(x, y, barWidth, barHeight);
+
+        // Horizontal baseline glow to bridge the gaps visually
+        ctx.fillStyle = `hsla(${hue}, 80%, 50%, 0.35)`;
+        ctx.fillRect(x, h - 2, barWidth, 2);
     }
 }
 
@@ -438,11 +442,20 @@ function drawAscii() {
 
     function draw() {
     requestAnimationFrame(draw);
+
+    // ASCII runs first — it doesn't use the canvas at all
+    if (currentStyle === 'ascii') {
+        if (analyser) drawAscii();
+        return;
+    }
+
+    // Canvas visualizers need a visible, sized canvas
     if (canvas.style.display === 'none') return;
     const rect = canvas.getBoundingClientRect();
     const w = rect.width;
     const h = rect.height;
     if (w < 10 || h < 10) return;
+
     if (!analyser) {
         ctx.clearRect(0, 0, w, h);
         ctx.strokeStyle = '#222';
@@ -452,7 +465,7 @@ function drawAscii() {
         ctx.stroke();
         return;
     }
-    if (currentStyle === 'ascii') { drawAscii(); return; }
+
     ctx.clearRect(0, 0, w, h);
     if (currentStyle === 'wave') drawWave(w, h);
     else drawBars(w, h);
