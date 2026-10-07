@@ -370,36 +370,82 @@ window.addEventListener('load', () => sizeCanvas());
 
     function drawBars(w, h) {
     analyser.getByteFrequencyData(freqData);
-    const barCount = 800;
+    const barCount = 300;
     const barWidth = w / barCount;
 
-    // Use the full spectrum, but with a weighted distribution:
-    // more bars for bass, fewer for treble, but all covered.
-    const totalBins = freqData.length;
-    const exponent = 2.2;   // higher = more compression at low end
+    // Log-spaced bin mapping across the full spectrum
+    const minBin = 1;
+    const maxBin = Math.floor(freqData.length * 0.7);
+    const logMin = Math.log(minBin);
+    const logMax = Math.log(maxBin);
 
+    // First pass: compute a value for each column
+    const values = new Array(barCount);
     for (let i = 0; i < barCount; i++) {
         const t1 = i / barCount;
         const t2 = (i + 1) / barCount;
-        const start = Math.floor(Math.pow(t1, exponent) * totalBins);
-        const end = Math.max(start + 1, Math.floor(Math.pow(t2, exponent) * totalBins));
+        const start = Math.floor(Math.exp(logMin + (logMax - logMin) * t1));
+        const end = Math.max(start + 1, Math.floor(Math.exp(logMin + (logMax - logMin) * t2)));
 
-        let sum = 0;
-        let count = 0;
-        for (let j = start; j < end && j < totalBins; j++) { sum += freqData[j]; count++; }
+        let sum = 0, count = 0;
+        for (let j = start; j < end && j < freqData.length; j++) { sum += freqData[j]; count++; }
         let value = sum / count / 255;
 
-        // Uniform compression — no tilt, no artificial slope
-        value = Math.min(1, value * 1.2);
+        // Light compression + a small baseline so quiet columns are still visible
+        value = Math.min(1, value * 1.4);
+        value = 0.05 + value * 0.95;  // floor at 5% so no column is truly empty
 
-        const barHeight = value * (h * 0.85);
-        const x = i * barWidth;
-        const y = h - barHeight;
-
-        const hue = 210 + (i / barCount) * 100;
-        ctx.fillStyle = `hsl(${hue}, 80%, ${40 + value * 30}%)`;
-        ctx.fillRect(x, y, barWidth, barHeight);
+        values[i] = value;
     }
+
+    // Smooth the values slightly so the silhouette isn't jittery
+    const smoothed = values.map((_, i) => {
+        const prev = values[Math.max(0, i - 1)];
+        const next = values[Math.min(barCount - 1, i + 1)];
+        return (prev + values[i] * 2 + next) / 4;
+    });
+
+    // ---- Draw the filled silhouette ----
+    const gradient = ctx.createLinearGradient(0, 0, w, 0);
+    gradient.addColorStop(0, '#3b6fd9');
+    gradient.addColorStop(0.5, '#6a4de0');
+    gradient.addColorStop(1, '#a04de0');
+
+    ctx.beginPath();
+    ctx.moveTo(0, h);
+    for (let i = 0; i < barCount; i++) {
+        const x = i * barWidth;
+        const y = h - smoothed[i] * (h * 0.85);
+        ctx.lineTo(x, y);
+    }
+    ctx.lineTo(w, h);
+    ctx.closePath();
+    ctx.fillStyle = gradient;
+    ctx.fill();
+
+    // ---- Peak-hold line (red) ----
+    if (!window.__peakHold || window.__peakHold.length !== barCount) {
+        window.__peakHold = new Array(barCount).fill(0);
+    }
+    for (let i = 0; i < barCount; i++) {
+        const current = smoothed[i];
+        // Rise instantly, decay slowly
+        if (current > window.__peakHold[i]) {
+            window.__peakHold[i] = current;
+        } else {
+            window.__peakHold[i] *= 0.985;
+        }
+    }
+
+    ctx.beginPath();
+    for (let i = 0; i < barCount; i++) {
+        const x = i * barWidth;
+        const y = h - window.__peakHold[i] * (h * 0.85);
+        if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+    }
+    ctx.strokeStyle = '#ff2d55';
+    ctx.lineWidth = 1.5;
+    ctx.stroke();
 }
     function drawWave(w, h) {
     analyser.getByteTimeDomainData(timeData);
