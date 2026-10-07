@@ -377,7 +377,7 @@ window.addEventListener('load', () => sizeCanvas());
 
     // Log-spaced bin boundaries: bar 0 starts at bin 0, bar N-1 ends near Nyquist
     const minBin = 2;
-    const maxBin = Math.floor(freqData.length * 0.6); // only up to 60% of spectrum
+    const maxBin = Math.floor(freqData.length * 0.4); // only up to 60% of spectrum
     const logMin = Math.log(minBin);
     const logMax = Math.log(maxBin);
 
