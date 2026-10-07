@@ -370,24 +370,29 @@ window.addEventListener('load', () => sizeCanvas());
 
     function drawBars(w, h) {
     analyser.getByteFrequencyData(freqData);
-    const barCount = 500;
-    const gap = 0;
+    const barCount = 64;
+    const gap = 2;
     const totalGap = gap * (barCount - 1);
     const barWidth = (w - totalGap) / barCount;
 
-    const usableBins = Math.floor(freqData.length * 0.3);
-    const step = usableBins / barCount;
+    // Log-spaced bin boundaries: bar 0 starts at bin 0, bar N-1 ends near Nyquist
+    const minBin = 2;
+    const maxBin = Math.floor(freqData.length * 0.6); // only up to 60% of spectrum
+    const logMin = Math.log(minBin);
+    const logMax = Math.log(maxBin);
 
     for (let i = 0; i < barCount; i++) {
-        const start = Math.floor(i * step);
-        const end = Math.floor((i + 1) * step);
+        const startFrac = i / barCount;
+        const endFrac = (i + 1) / barCount;
+        const start = Math.floor(Math.exp(logMin + (logMax - logMin) * startFrac));
+        const end = Math.max(start + 1, Math.floor(Math.exp(logMin + (logMax - logMin) * endFrac)));
 
         let sum = 0;
-        for (let j = start; j < end; j++) sum += freqData[j];
+        for (let j = start; j < end && j < freqData.length; j++) sum += freqData[j];
         let value = sum / (end - start) / 255;
-        value = Math.min(1, value * 1.4);
+        value = Math.min(1, value * 1.6);
 
-        const barHeight = value * (h * 0.75);
+        const barHeight = value * (h * 0.85);
         const x = i * (barWidth + gap);
         const y = h - barHeight;
 
