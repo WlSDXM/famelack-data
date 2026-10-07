@@ -39,9 +39,18 @@
             border-radius: 8px;
             margin-bottom: 30px;
         }
-        .row { display: flex; gap: 10px; margin-bottom: 12px; align-items: center; }
-        select {
-    flex: 1;
+        .row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+    align-items: center;
+    min-width: 0;
+}
+
+select {
+    flex: 1 1 0;
+    min-width: 0;
+    max-width: 100%;
     background-color: var(--bg-color);
     color: var(--text-color);
     border: 1px solid var(--border-color);
@@ -50,6 +59,10 @@
     font-size: 16px;
     font-family: 'stealth57', monospace;
     cursor: pointer;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
         select:focus { outline: none; border-color: var(--accent-color); }
         video { width: 100%; border-radius: 4px; background-color: #000; }
@@ -93,14 +106,17 @@
         .viz-controls select { flex: 0 0 160px; }
 
         canvas, pre#asciiViz {
-    width: 100%;
+    width: 100% 
     max-width: 100%;
-    height: 90px;
+    height: 90px 
+    min-height: 90px;
+    max-height: 90px;
     background-color: transparent;
     border: 1px solid var(--border-color);
     border-radius: 4px;
     margin-top: 10px;
     display: block;
+    box-sizing: border-box;
 }
         pre#asciiViz {
     font-family: "SF Mono", Menlo, Consolas, monospace;
