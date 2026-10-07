@@ -33,12 +33,13 @@
         h1 { border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
         h2 { color: var(--accent-color); margin-top: 0; }
         .player-box {
-            background-color: var(--surface-color);
-            border: 1px solid var(--border-color);
-            padding: 20px;
-            border-radius: 8px;
-            margin-bottom: 30px;
-        }
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    min-height: 320px;   /* ← new */
+}
         .row {
     display: flex;
     gap: 10px;
@@ -106,9 +107,9 @@ select {
         .viz-controls select { flex: 0 0 160px; }
 
         canvas, pre#asciiViz {
-    width: 100% 
+    width: 100% !important;
     max-width: 100%;
-    height: 90px 
+    height: 90px !important;
     min-height: 90px;
     max-height: 90px;
     background-color: transparent;
