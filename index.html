@@ -360,7 +360,7 @@ window.addEventListener('load', () => sizeCanvas());
 
         // Taper: leftmost bars compressed more than rightmost
         // 0.65 at the left → 1.0 at the right
-        const taper = 0.65 + (i / (barCount - 1)) * 0.35;
+        const taper = 0.70 + (i / (barCount - 1)) * 0.35;
         value *= taper;
 
         const barHeight = value * (h * 0.9);
