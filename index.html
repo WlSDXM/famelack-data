@@ -370,43 +370,29 @@ window.addEventListener('load', () => sizeCanvas());
 
     function drawBars(w, h) {
     analyser.getByteFrequencyData(freqData);
-    const barCount = 400;
-    const gap = 1;
-    const totalGap = gap * (barCount - 1);
-    const barWidth = (w - totalGap) / barCount;
+    const barCount = 500;
+    const barWidth = w / barCount;
 
-    const minBin = 1;
-    const maxBin = Math.floor(freqData.length * 0.55);
-    const logMin = Math.log(minBin);
-    const logMax = Math.log(maxBin);
+    const maxBin = Math.floor(freqData.length * 0.15);
+    const step = maxBin / barCount;
 
     for (let i = 0; i < barCount; i++) {
-        const t1 = i / barCount;
-        const t2 = (i + 1) / barCount;
-        const start = Math.floor(Math.exp(logMin + (logMax - logMin) * t1));
-        const end = Math.max(start + 1, Math.floor(Math.exp(logMin + (logMax - logMin) * t2)));
+        const start = Math.floor(i * step);
+        const end = Math.max(start + 1, Math.floor((i + 1) * step));
 
-        let sum = 0, count = 0;
+        let sum = 0;
+        let count = 0;
         for (let j = start; j < end && j < freqData.length; j++) { sum += freqData[j]; count++; }
         let value = sum / count / 255;
+        value = Math.min(1, value * 1.4);
 
-        // Moderate uniform amplification
-        value = Math.min(1, value * 1.5);
-
-        // Small floor so quiet bars are still visible as pixels
-        const displayValue = 0.04 + value * 0.96;
-
-        const barHeight = displayValue * (h * 0.9);
-        const x = i * (barWidth + gap);
+        const barHeight = value * (h * 0.85);
+        const x = i * barWidth;
         const y = h - barHeight;
 
-        // Gradient color across the width
         const hue = 210 + (i / barCount) * 100;
-        const light = 45 + value * 25;
-        ctx.fillStyle = `hsl(${hue}, 75%, ${light}%)`;
-
-        // Round to integer pixels for that crisp "pixelated" look
-        ctx.fillRect(Math.round(x), Math.round(y), Math.ceil(barWidth), Math.round(barHeight));
+        ctx.fillStyle = `hsl(${hue}, 80%, ${40 + value * 30}%)`;
+        ctx.fillRect(x, y, barWidth, barHeight);
     }
 }
     function drawWave(w, h) {
