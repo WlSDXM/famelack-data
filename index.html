@@ -370,8 +370,8 @@ window.addEventListener('load', () => sizeCanvas());
 
     function drawBars(w, h) {
     analyser.getByteFrequencyData(freqData);
-    const barCount = 48;
-    const gap = 3;
+    const barCount = 96;
+    const gap = 2;
     const totalGap = gap * (barCount - 1);
     const barWidth = (w - totalGap) / barCount;
 
