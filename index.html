@@ -294,25 +294,29 @@
 
     vizStyleSelect.addEventListener('change', (e) => {
     currentStyle = e.target.value;
-    canvas.style.display = currentStyle === 'ascii' ? 'none' : 'block';
-    asciiViz.style.display = currentStyle === 'ascii' ? 'block' : 'none';
-    if (currentStyle !== 'ascii') {
-        // Wait for the browser to lay out the canvas, then size it
-        requestAnimationFrame(() => sizeCanvas());
+    if (currentStyle === 'ascii') {
+        canvas.style.display = 'none';
+        asciiViz.style.display = 'block';
+    } else {
+        canvas.style.display = 'block';
+        asciiViz.style.display = 'none';
+        requestAnimationFrame(() => requestAnimationFrame(() => sizeCanvas()));
     }
 });
 
 function sizeCanvas() {
-    const w = canvas.clientWidth;
-    const h = canvas.clientHeight;
-    if (w === 0 || h === 0) return; // don't scale to zero
-    canvas.width = w * window.devicePixelRatio;
-    canvas.height = h * window.devicePixelRatio;
+    const rect = canvas.getBoundingClientRect();
+    const w = Math.floor(rect.width);
+    const h = Math.floor(rect.height);
+    if (w < 10 || h < 10) return;
+    const dpr = window.devicePixelRatio || 1;
+    canvas.width = w * dpr;
+    canvas.height = h * dpr;
     ctx.setTransform(1, 0, 0, 1, 0, 0);
-    ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+    ctx.scale(dpr, dpr);
 }
-    sizeCanvas();
-    window.addEventListener('resize', sizeCanvas);
+
+window.addEventListener('load', () => sizeCanvas());
 
     function initVisualizer() {
         if (audioCtx) return;
@@ -355,33 +359,41 @@ function sizeCanvas() {
 }
 
     function drawWave(w, h) {
-        analyser.getByteTimeDomainData(timeData);
-        const mid = h / 2;
+    analyser.getByteTimeDomainData(timeData);
+    const mid = h / 2;
+    const amp = h * 0.42;
 
-        ctx.beginPath();
-        for (let i = 0; i < timeData.length; i++) {
-            const x = (i / timeData.length) * w;
-            const y = mid + ((timeData[i] - 128) / 128) * (h * 0.4);
-            if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
-        }
-
-        grad.addColorStop(1, 'rgba(74, 158, 255, 0.35)');
-        ctx.lineTo(w, h);
-        ctx.lineTo(0, h);
-        ctx.closePath();
-        ctx.fillStyle = grad;
-        ctx.fill();
-
-        ctx.beginPath();
-        for (let i = 0; i < timeData.length; i++) {
-            const x = (i / timeData.length) * w;
-            const y = mid + ((timeData[i] - 128) / 128) * (h * 0.4);
-            if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
-        }
-        ctx.strokeStyle = '#4a9eff';
-        ctx.lineWidth = 2;
-        ctx.stroke();
+    // Build points
+    const points = [];
+    for (let i = 0; i < timeData.length; i++) {
+        const x = (i / (timeData.length - 1)) * w;
+        const y = mid + ((timeData[i] - 128) / 128) * amp;
+        points.push([x, y]);
     }
+
+    // Filled area under the curve
+    ctx.beginPath();
+    ctx.moveTo(points[0][0], h);
+    for (const [x, y] of points) ctx.lineTo(x, y);
+    ctx.lineTo(points[points.length - 1][0], h);
+    ctx.closePath();
+
+    const gradient = ctx.createLinearGradient(0, 0, 0, h);
+    gradient.addColorStop(0, 'rgba(74, 158, 255, 0.0)');
+    gradient.addColorStop(0.5, 'rgba(74, 158, 255, 0.25)');
+    gradient.addColorStop(1, 'rgba(74, 158, 255, 0.5)');
+    ctx.fillStyle = gradient;
+    ctx.fill();
+
+    // Stroke line on top
+    ctx.beginPath();
+    ctx.moveTo(points[0][0], points[0][1]);
+    for (const [x, y] of points) ctx.lineTo(x, y);
+    ctx.strokeStyle = '#4a9eff';
+    ctx.lineWidth = 2;
+    ctx.lineJoin = 'round';
+    ctx.stroke();
+}
 
     const ASCII_CHARS = ' .:-=+*#%@';
 const ASCII_COLS = 128;   // horizontal resolution
@@ -419,32 +431,26 @@ function drawAscii() {
 }
 
     function draw() {
-        requestAnimationFrame(draw);
-        if (!analyser) {
-            const w = canvas.clientWidth, h = canvas.clientHeight;
-            ctx.fillStyle = '#0a0a0a';
-            ctx.fillRect(0, 0, w, h);
-            ctx.strokeStyle = '#222';
-            ctx.beginPath();
-            ctx.moveTo(0, h / 2);
-            ctx.lineTo(w, h / 2);
-            ctx.stroke();
-            return;
-        }
-
-        const w = canvas.clientWidth;
-        const h = canvas.clientHeight;
-
-        if (currentStyle === 'ascii') {
-            drawAscii();
-            return;
-        }
-
+    requestAnimationFrame(draw);
+    if (canvas.style.display === 'none') return;
+    const rect = canvas.getBoundingClientRect();
+    const w = rect.width;
+    const h = rect.height;
+    if (w < 10 || h < 10) return;
+    if (!analyser) {
         ctx.clearRect(0, 0, w, h);
-
-if (currentStyle === 'wave') drawWave(w, h);
-else drawBars(w, h);
+        ctx.strokeStyle = '#222';
+        ctx.beginPath();
+        ctx.moveTo(0, h / 2);
+        ctx.lineTo(w, h / 2);
+        ctx.stroke();
+        return;
     }
+    if (currentStyle === 'ascii') { drawAscii(); return; }
+    ctx.clearRect(0, 0, w, h);
+    if (currentStyle === 'wave') drawWave(w, h);
+    else drawBars(w, h);
+}
 
     audio.addEventListener('play', () => {
         initVisualizer();
