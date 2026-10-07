@@ -5,9 +5,9 @@
     <title>Earth — World Cams & Radio</title>
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <style>
-        @font-face {
+       @font-face {
     font-family: 'stealth57';
-    src: url('https://raw.githubusercontent.com/WlSDXM/famelack-data/main/stealth57.ttf') format('truetype');
+    src: url('https://raw.githubusercontent.com/WlSDXM/famelack-data/main/stealth57.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -25,10 +25,10 @@
     background-color: var(--bg-color);
     color: var(--text-color);
     font-family: 'stealth57', system-ui, sans-serif;
-            margin: 0;
-            padding: 20px;
-            line-height: 1.5;
-        }
+    margin: 0;
+    padding: 20px;
+    line-height: 1.5;
+}
         .container { max-width: 800px; margin: 0 auto; }
         h1 { border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
         h2 { color: var(--accent-color); margin-top: 0; }
@@ -41,15 +41,16 @@
         }
         .row { display: flex; gap: 10px; margin-bottom: 12px; align-items: center; }
         select {
-            flex: 1;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            border: 1px solid var(--border-color);
-            border-radius: 4px;
-            padding: 8px 12px;
-            font-size: 16px;
-            cursor: pointer;
-        }
+    flex: 1;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-family: 'stealth57', monospace;
+    cursor: pointer;
+}
         select:focus { outline: none; border-color: var(--accent-color); }
         video { width: 100%; border-radius: 4px; background-color: #000; }
         iframe#webcamFrame {
@@ -70,20 +71,25 @@
         }
         .cam-nav.visible { display: flex; }
         .cam-nav button {
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            border: 1px solid var(--border-color);
-            border-radius: 4px;
-            padding: 6px 14px;
-            font-size: 15px;
-            cursor: pointer;
-        }
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 6px 14px;
+    font-size: 15px;
+    font-family: 'stealth57', monospace;
+    cursor: pointer;
+}
         .cam-nav button:hover:not(:disabled) { border-color: var(--accent-color); color: var(--accent-color); }
         .cam-nav button:disabled { opacity: 0.35; cursor: default; }
         .cam-title { flex: 1; text-align: center; color: var(--text-muted); font-size: 14px; }
 
         .viz-controls { display: flex; gap: 10px; margin-top: 10px; align-items: center; }
-        .viz-controls label { color: var(--text-muted); font-size: 14px; }
+        .viz-controls label {
+    color: var(--text-muted);
+    font-size: 14px;
+    font-family: 'stealth57', monospace;
+}
         .viz-controls select { flex: 0 0 160px; }
 
         canvas, pre#asciiViz {
@@ -97,15 +103,16 @@
     display: block;
 }
         pre#asciiViz {
-            font-family: 'stealth57', monospace;
-            font-size: 11px;
-            line-height: 1;
-            color: var(--accent-color);
-            padding: 8px;
-            margin: 10px 0 0 0;
-            overflow: hidden;
-            white-space: pre;
-        }
+    font-family: "SF Mono", Menlo, Consolas, monospace;
+    font-size: 11px;
+    line-height: 1.05;
+    color: var(--accent-color);
+    padding: 8px;
+    margin: 10px 0 0 0;
+    white-space: pre;
+    overflow: hidden;
+    /* other properties unchanged */
+}
     </style>
 </head>
 <body>
