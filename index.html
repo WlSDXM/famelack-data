@@ -390,10 +390,10 @@ window.addEventListener('load', () => sizeCanvas());
         for (let j = start; j < end && j < freqData.length; j++) { sum += freqData[j]; count++; }
         let value = sum / count / 255;
 
-        // Gentle taper: starts at 0.8, reaches ~1.5 on the right
-        const pos = i / (barCount - 1);           // 0 → 1
-        const boost = 0.8 + pos * pos * 1.2;      // quadratic curve
-        value = Math.min(1, value * boost);
+        // Gentle S-curve: barely dampens left, barely boosts right
+        const pos = i / (barCount - 1);
+        const tilt = 0.9 + pos * 0.4;          // 0.9 → 1.3 across the width
+        value = Math.min(1, value * tilt * 0.7);
 
         const barHeight = value * (h * 0.85);
         const x = i * barWidth;
