@@ -356,17 +356,13 @@ window.addEventListener('load', () => sizeCanvas());
         let value = sum / (end - start) / 255;
         value = Math.min(1, value * 1.4);
 
-        // Taper — same as before
-        const taper = 0.65 + (i / (barCount - 1)) * 0.35;
+        // Taper: shorter on the left, taller on the right
+        const taper = 0.55 + (i / (barCount - 1)) * 0.45;
         value *= taper;
 
-        // Raised floor on the left: 25% up at i=0, dropping to 0 at the right
-        const lift = (1 - i / (barCount - 1)) * (h * 0.25);
-        const baseline = h - lift;
-
-        const barHeight = value * (baseline * 0.9);
+        const barHeight = value * (h * 0.9);
         const x = i * (barWidth + gap);
-        const y = baseline - barHeight;
+        const y = h - barHeight;   // flat baseline at the bottom
 
         const hue = 210 + (i / barCount) * 100;
         ctx.fillStyle = `hsl(${hue}, 80%, ${40 + value * 30}%)`;
