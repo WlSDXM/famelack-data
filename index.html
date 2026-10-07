@@ -10,6 +10,7 @@
             --surface-color: #1e1e1e;
             --border-color: #333;
             --text-color: #e0e0e0;
+            --text-muted: #888;
             --accent-color: #4a9eff;
         }
         * { box-sizing: border-box; }
@@ -31,7 +32,7 @@
             border-radius: 8px;
             margin-bottom: 30px;
         }
-        .row { display: flex; gap: 10px; margin-bottom: 12px; }
+        .row { display: flex; gap: 10px; margin-bottom: 12px; align-items: center; }
         select {
             flex: 1;
             background-color: var(--bg-color);
@@ -44,14 +45,57 @@
         }
         select:focus { outline: none; border-color: var(--accent-color); }
         video { width: 100%; border-radius: 4px; background-color: #000; }
-        audio { width: 100%; margin-top: 4px; }
-        canvas {
+        iframe#webcamFrame {
             width: 100%;
-            height: 100px;
+            aspect-ratio: 16 / 9;
+            border: none;
+            border-radius: 4px;
+            background-color: #000;
+        }
+        audio { width: 100%; margin-top: 4px; }
+
+        .cam-nav {
+            display: none;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+            gap: 10px;
+        }
+        .cam-nav.visible { display: flex; }
+        .cam-nav button {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            padding: 6px 14px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .cam-nav button:hover:not(:disabled) { border-color: var(--accent-color); color: var(--accent-color); }
+        .cam-nav button:disabled { opacity: 0.35; cursor: default; }
+        .cam-title { flex: 1; text-align: center; color: var(--text-muted); font-size: 14px; }
+
+        .viz-controls { display: flex; gap: 10px; margin-top: 10px; align-items: center; }
+        .viz-controls label { color: var(--text-muted); font-size: 14px; }
+        .viz-controls select { flex: 0 0 160px; }
+
+        canvas, pre#asciiViz {
+            width: 100%;
+            height: 140px;
             background-color: #000;
             border-radius: 4px;
             margin-top: 10px;
             display: block;
+        }
+        pre#asciiViz {
+            font-family: "SF Mono", Menlo, Consolas, monospace;
+            font-size: 11px;
+            line-height: 1;
+            color: var(--accent-color);
+            padding: 8px;
+            margin: 10px 0 0 0;
+            overflow: hidden;
+            white-space: pre;
         }
     </style>
 </head>
@@ -67,6 +111,11 @@
             </select>
         </div>
         <video id="webcamPlayer" controls autoplay muted></video>
+        <div class="cam-nav" id="camNav">
+            <button id="camPrev" title="Previous camera">◀</button>
+            <span class="cam-title" id="camTitle"></span>
+            <button id="camNext" title="Next camera">▶</button>
+        </div>
     </div>
 
     <div class="player-box">
@@ -80,7 +129,18 @@
             </select>
         </div>
         <audio id="radioPlayer" controls crossorigin="anonymous"></audio>
+
+        <div class="viz-controls">
+            <label for="vizStyle">Visualizer:</label>
+            <select id="vizStyle">
+                <option value="bars">Bars</option>
+                <option value="wave">Wave</option>
+                <option value="ascii">ASCII</option>
+            </select>
+        </div>
+
         <canvas id="visualizer"></canvas>
+        <pre id="asciiViz" style="display:none;"></pre>
     </div>
 </div>
 
@@ -90,64 +150,78 @@
     // ============ WEBCAM ============
     const video = document.getElementById('webcamPlayer');
     const countrySelect = document.getElementById('countrySelect');
-    let hls;
+    const camNav = document.getElementById('camNav');
+    const camPrev = document.getElementById('camPrev');
+    const camNext = document.getElementById('camNext');
+    const camTitle = document.getElementById('camTitle');
+
+    let camList = [];
+    let camIndex = 0;
+    let webcamFrame = null;
 
     async function loadWebcamCountries() {
-    try {
-        const response = await fetch(`${BASE}/webcams/raw/countries_metadata.json`);
-        const data = await response.json();
-
-        Object.entries(data).forEach(([code, info]) => {
-            // Only show countries that actually have webcams
-            if (!info.hasChannels) return;
-
-            const option = document.createElement('option');
-            option.value = code;
-            option.textContent = `${info.country} (${info.channelCount})`;
-            countrySelect.appendChild(option);
-        });
-    } catch (error) {
-        console.error('Failed to load webcam countries:', error);
+        try {
+            const response = await fetch(`${BASE}/webcams/raw/countries_metadata.json`);
+            const data = await response.json();
+            Object.entries(data).forEach(([code, info]) => {
+                if (!info.hasChannels) return;
+                const option = document.createElement('option');
+                option.value = code;
+                option.textContent = `${info.country} (${info.channelCount})`;
+                countrySelect.appendChild(option);
+            });
+        } catch (error) {
+            console.error('Failed to load webcam countries:', error);
+        }
     }
-}
 
     countrySelect.addEventListener('change', async (e) => {
-    const code = e.target.value;
-    if (!code) return;
-    try {
-        const response = await fetch(`${BASE}/webcams/raw/countries/${code.toLowerCase()}.json`);
-        const items = await response.json();
+        const code = e.target.value;
+        if (!code) return;
+        try {
+            const response = await fetch(`${BASE}/webcams/raw/countries/${code.toLowerCase()}.json`);
+            const items = await response.json();
+            camList = items.filter(i => i.sources && i.sources.youtube && i.sources.youtube[0]);
+            camIndex = 0;
+            updateCamNav();
+            if (camList.length > 0) playWebcam(0);
+        } catch (error) {
+            console.error('Failed to load webcam data for', code, error);
+        }
+    });
 
-        if (!Array.isArray(items) || items.length === 0) return;
+    camPrev.addEventListener('click', () => {
+        if (camIndex > 0) { camIndex--; playWebcam(camIndex); updateCamNav(); }
+    });
+    camNext.addEventListener('click', () => {
+        if (camIndex < camList.length - 1) { camIndex++; playWebcam(camIndex); updateCamNav(); }
+    });
 
-        // Famelack webcams are YouTube embeds
-        const first = items.find(i => i.sources && i.sources.youtube && i.sources.youtube[0]);
-        if (!first) return;
-
-        const embedUrl = first.sources.youtube[0];
-        playWebcam(embedUrl);
-    } catch (error) {
-        console.error('Failed to load webcam data for', code, error);
+    function updateCamNav() {
+        if (camList.length <= 1) {
+            camNav.classList.remove('visible');
+            return;
+        }
+        camNav.classList.add('visible');
+        camTitle.textContent = `${camList[camIndex].name} — ${camIndex + 1} / ${camList.length}`;
+        camPrev.disabled = camIndex === 0;
+        camNext.disabled = camIndex === camList.length - 1;
     }
-});
 
-function playWebcam(embedUrl) {
-    // Replace the <video> with an iframe for YouTube embeds
-    const wrapper = video.parentElement;
-    let frame = document.getElementById('webcamFrame');
-    if (!frame) {
-        frame = document.createElement('iframe');
-        frame.id = 'webcamFrame';
-        frame.style.width = '100%';
-        frame.style.aspectRatio = '16 / 9';
-        frame.style.border = 'none';
-        frame.style.borderRadius = '4px';
-        frame.setAttribute('allow', 'autoplay; encrypted-media');
-        wrapper.insertBefore(frame, video);
-        video.style.display = 'none';
+    function playWebcam(index) {
+        const item = camList[index];
+        if (!item) return;
+        const embedUrl = item.sources.youtube[0];
+
+        if (!webcamFrame) {
+            webcamFrame = document.createElement('iframe');
+            webcamFrame.id = 'webcamFrame';
+            webcamFrame.setAttribute('allow', 'autoplay; encrypted-media');
+            video.parentElement.insertBefore(webcamFrame, video);
+            video.style.display = 'none';
+        }
+        webcamFrame.src = embedUrl + '?autoplay=1&mute=1';
     }
-    frame.src = embedUrl + '?autoplay=1&mute=1';
-}
 
     // ============ RADIO ============
     const audio = document.getElementById('radioPlayer');
@@ -155,74 +229,78 @@ function playWebcam(embedUrl) {
     const radioStationSelect = document.getElementById('radioStationSelect');
 
     async function loadRadioCountries() {
-    try {
-        const response = await fetch(`${BASE}/radio/raw/countries_metadata.json`);
-        const data = await response.json();
-
-        Object.entries(data).forEach(([code, info]) => {
-            if (!info.hasChannels) return;
-
-            const option = document.createElement('option');
-            option.value = code;
-            option.textContent = `${info.country} (${info.channelCount})`;
-            radioCountrySelect.appendChild(option);
-        });
-    } catch (error) {
-        console.error('Failed to load radio countries:', error);
+        try {
+            const response = await fetch(`${BASE}/radio/raw/countries_metadata.json`);
+            const data = await response.json();
+            Object.entries(data).forEach(([code, info]) => {
+                if (!info.hasChannels) return;
+                const option = document.createElement('option');
+                option.value = code;
+                option.textContent = `${info.country} (${info.channelCount})`;
+                radioCountrySelect.appendChild(option);
+            });
+        } catch (error) {
+            console.error('Failed to load radio countries:', error);
+        }
     }
-}
 
     radioCountrySelect.addEventListener('change', async (e) => {
-    const code = e.target.value;
-    radioStationSelect.innerHTML = '<option value="">-- Select a Station --</option>';
-    radioStationSelect.disabled = true;
-    if (!code) return;
+        const code = e.target.value;
+        radioStationSelect.innerHTML = '<option value="">-- Select a Station --</option>';
+        radioStationSelect.disabled = true;
+        if (!code) return;
 
-    try {
-        const response = await fetch(`${BASE}/radio/raw/countries/${code.toLowerCase()}.json`);
-        const items = await response.json();
+        try {
+            const response = await fetch(`${BASE}/radio/raw/countries/${code.toLowerCase()}.json`);
+            const items = await response.json();
+            if (!Array.isArray(items)) return;
 
-        if (!Array.isArray(items)) return;
+            const seen = new Set();
+            items.forEach((item) => {
+                const streamUrl = item.sources && item.sources.streams && item.sources.streams[0];
+                if (!streamUrl) return;
+                const name = item.name || 'Unknown Station';
+                if (seen.has(name)) return;
+                seen.add(name);
 
-        // Deduplicate by name, since the data has repeats
-        const seen = new Set();
-        items.forEach((item) => {
-            const streamUrl = item.sources && item.sources.streams && item.sources.streams[0];
-            if (!streamUrl) return;
-            const name = item.name || 'Unknown Station';
-            if (seen.has(name)) return;
-            seen.add(name);
-
-            const option = document.createElement('option');
-            option.value = streamUrl;
-            option.textContent = name;
-            radioStationSelect.appendChild(option);
-        });
-        radioStationSelect.disabled = false;
-    } catch (error) {
-        console.error('Failed to load radio stations for', code, error);
-    }
-});
+                const option = document.createElement('option');
+                option.value = streamUrl;
+                option.textContent = name;
+                radioStationSelect.appendChild(option);
+            });
+            radioStationSelect.disabled = false;
+        } catch (error) {
+            console.error('Failed to load radio stations for', code, error);
+        }
+    });
 
     radioStationSelect.addEventListener('change', (e) => {
         const url = e.target.value;
-        if (!url) {
-            audio.pause();
-            audio.src = '';
-            return;
-        }
+        if (!url) { audio.pause(); audio.src = ''; return; }
         audio.src = url;
         audio.play().catch(e => console.log('Playback failed:', e));
     });
 
     // ============ VISUALIZER ============
     const canvas = document.getElementById('visualizer');
+    const asciiViz = document.getElementById('asciiViz');
+    const vizStyleSelect = document.getElementById('vizStyle');
     const ctx = canvas.getContext('2d');
-    let audioCtx, analyser, source, dataArray;
+
+    let audioCtx, analyser, source, freqData, timeData;
+    let currentStyle = 'bars';
+
+    vizStyleSelect.addEventListener('change', (e) => {
+        currentStyle = e.target.value;
+        canvas.style.display = currentStyle === 'ascii' ? 'none' : 'block';
+        asciiViz.style.display = currentStyle === 'ascii' ? 'block' : 'none';
+        if (currentStyle !== 'ascii') sizeCanvas();
+    });
 
     function sizeCanvas() {
         canvas.width = canvas.clientWidth * window.devicePixelRatio;
         canvas.height = canvas.clientHeight * window.devicePixelRatio;
+        ctx.setTransform(1, 0, 0, 1, 0, 0);
         ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
     }
     sizeCanvas();
@@ -233,26 +311,106 @@ function playWebcam(embedUrl) {
         try {
             audioCtx = new (window.AudioContext || window.webkitAudioContext)();
             analyser = audioCtx.createAnalyser();
-            analyser.fftSize = 256;
+            analyser.fftSize = 512;
+            analyser.smoothingTimeConstant = 0.8;
             source = audioCtx.createMediaElementSource(audio);
             source.connect(analyser);
             analyser.connect(audioCtx.destination);
-            dataArray = new Uint8Array(analyser.frequencyBinCount);
+            freqData = new Uint8Array(analyser.frequencyBinCount);
+            timeData = new Uint8Array(analyser.fftSize);
         } catch (e) {
             console.warn('Visualizer init failed:', e);
         }
     }
 
+    function drawBars(w, h) {
+        analyser.getByteFrequencyData(freqData);
+        const barCount = 64;
+        const step = Math.floor(freqData.length / barCount);
+        const gap = 2;
+        const barWidth = (w - gap * (barCount - 1)) / barCount;
+
+        for (let i = 0; i < barCount; i++) {
+            let sum = 0;
+            for (let j = 0; j < step; j++) sum += freqData[i * step + j];
+            const value = sum / step / 255;
+
+            const barHeight = value * (h * 0.8);
+            const x = i * (barWidth + gap);
+            const y = h - barHeight;
+
+            const hue = 210 + (i / barCount) * 100;
+            ctx.fillStyle = `hsl(${hue}, 80%, ${35 + value * 35}%)`;
+            ctx.fillRect(x, y, barWidth, barHeight);
+
+            // Reflection
+            ctx.fillStyle = `hsla(${hue}, 80%, 45%, ${value * 0.25})`;
+            ctx.fillRect(x, h, barWidth, barHeight * 0.35);
+        }
+    }
+
+    function drawWave(w, h) {
+        analyser.getByteTimeDomainData(timeData);
+        const mid = h / 2;
+
+        ctx.beginPath();
+        for (let i = 0; i < timeData.length; i++) {
+            const x = (i / timeData.length) * w;
+            const y = mid + ((timeData[i] - 128) / 128) * (h * 0.4);
+            if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+        }
+
+        const grad = ctx.createLinearGradient(0, 0, 0, h);
+        grad.addColorStop(0, 'rgba(74, 158, 255, 0.0)');
+        grad.addColorStop(1, 'rgba(74, 158, 255, 0.5)');
+        ctx.lineTo(w, h);
+        ctx.lineTo(0, h);
+        ctx.closePath();
+        ctx.fillStyle = grad;
+        ctx.fill();
+
+        ctx.beginPath();
+        for (let i = 0; i < timeData.length; i++) {
+            const x = (i / timeData.length) * w;
+            const y = mid + ((timeData[i] - 128) / 128) * (h * 0.4);
+            if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+        }
+        ctx.strokeStyle = '#4a9eff';
+        ctx.lineWidth = 2;
+        ctx.stroke();
+    }
+
+    const ASCII_CHARS = ' .:-=+*#%@';
+    function drawAscii() {
+        analyser.getByteFrequencyData(freqData);
+        const cols = 64;
+        const rows = 12;
+        const step = Math.floor(freqData.length / cols);
+        let output = '';
+
+        for (let r = 0; r < rows; r++) {
+            for (let c = 0; c < cols; c++) {
+                let sum = 0;
+                for (let j = 0; j < step; j++) sum += freqData[c * step + j];
+                let value = sum / step / 255;
+                // Higher rows get more energy, lower rows less
+                value *= (1 - r / rows) * 1.4;
+                value = Math.min(1, value);
+                const idx = Math.floor(value * (ASCII_CHARS.length - 1));
+                output += ASCII_CHARS[idx];
+            }
+            output += '\n';
+        }
+        asciiViz.textContent = output;
+    }
+
     function draw() {
         requestAnimationFrame(draw);
-        const w = canvas.clientWidth;
-        const h = canvas.clientHeight;
-        ctx.clearRect(0, 0, w, h);
-
         if (!analyser) {
-            ctx.fillStyle = '#1e1e1e';
+            const w = canvas.clientWidth, h = canvas.clientHeight;
+            ctx.fillStyle = '#0a0a0a';
             ctx.fillRect(0, 0, w, h);
-            ctx.strokeStyle = '#333';
+            ctx.strokeStyle = '#222';
             ctx.beginPath();
             ctx.moveTo(0, h / 2);
             ctx.lineTo(w, h / 2);
@@ -260,19 +418,20 @@ function playWebcam(embedUrl) {
             return;
         }
 
-        analyser.getByteFrequencyData(dataArray);
-        const barCount = dataArray.length;
-        const barWidth = w / barCount;
+        const w = canvas.clientWidth;
+        const h = canvas.clientHeight;
 
-        for (let i = 0; i < barCount; i++) {
-            const value = dataArray[i] / 255;
-            const barHeight = value * h;
-            const x = i * barWidth;
-            const y = h - barHeight;
-            const hue = 210 + (i / barCount) * 120;
-            ctx.fillStyle = `hsl(${hue}, 80%, ${30 + value * 40}%)`;
-            ctx.fillRect(x, y, barWidth - 1, barHeight);
+        if (currentStyle === 'ascii') {
+            drawAscii();
+            return;
         }
+
+        ctx.clearRect(0, 0, w, h);
+        ctx.fillStyle = '#000';
+        ctx.fillRect(0, 0, w, h);
+
+        if (currentStyle === 'wave') drawWave(w, h);
+        else drawBars(w, h);
     }
 
     audio.addEventListener('play', () => {
