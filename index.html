@@ -116,28 +116,38 @@
     if (!code) return;
     try {
         const response = await fetch(`${BASE}/webcams/raw/countries/${code.toLowerCase()}.json`);
-            const data = await response.json();
-            const streams = data.streams || data;
-            if (Array.isArray(streams) && streams.length > 0) {
-                const stream = streams.find(s => s.url && s.url.includes('.m3u8')) || streams[0];
-                if (stream && stream.url) playStream(stream.url);
-            }
-        } catch (error) {
-            console.error('Failed to load webcam data for', code, error);
-        }
-    });
+        const items = await response.json();
 
-    function playStream(url) {
-        if (Hls.isSupported()) {
-            if (hls) hls.destroy();
-            hls = new Hls();
-            hls.loadSource(url);
-            hls.attachMedia(video);
-        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-            video.src = url;
-        }
-        video.play().catch(e => console.log('Autoplay prevented:', e));
+        if (!Array.isArray(items) || items.length === 0) return;
+
+        // Famelack webcams are YouTube embeds
+        const first = items.find(i => i.sources && i.sources.youtube && i.sources.youtube[0]);
+        if (!first) return;
+
+        const embedUrl = first.sources.youtube[0];
+        playWebcam(embedUrl);
+    } catch (error) {
+        console.error('Failed to load webcam data for', code, error);
     }
+});
+
+function playWebcam(embedUrl) {
+    // Replace the <video> with an iframe for YouTube embeds
+    const wrapper = video.parentElement;
+    let frame = document.getElementById('webcamFrame');
+    if (!frame) {
+        frame = document.createElement('iframe');
+        frame.id = 'webcamFrame';
+        frame.style.width = '100%';
+        frame.style.aspectRatio = '16 / 9';
+        frame.style.border = 'none';
+        frame.style.borderRadius = '4px';
+        frame.setAttribute('allow', 'autoplay; encrypted-media');
+        wrapper.insertBefore(frame, video);
+        video.style.display = 'none';
+    }
+    frame.src = embedUrl + '?autoplay=1&mute=1';
+}
 
     // ============ RADIO ============
     const audio = document.getElementById('radioPlayer');
@@ -163,31 +173,36 @@
 }
 
     radioCountrySelect.addEventListener('change', async (e) => {
-        const code = e.target.value;
-        radioStationSelect.innerHTML = '<option value="">-- Select a Station --</option>';
-        radioStationSelect.disabled = true;
-        if (!code) return;
+    const code = e.target.value;
+    radioStationSelect.innerHTML = '<option value="">-- Select a Station --</option>';
+    radioStationSelect.disabled = true;
+    if (!code) return;
 
-        try {
-            const response = await fetch(`${BASE}/radio/raw/countries/${code.toLowerCase()}.json`);
-            const data = await response.json();
-            const stations = data.stations || data.streams || data;
+    try {
+        const response = await fetch(`${BASE}/radio/raw/countries/${code.toLowerCase()}.json`);
+        const items = await response.json();
 
-            if (Array.isArray(stations)) {
-                stations.forEach((station, i) => {
-                    const url = station.url || station.stream_url || station.streamUrl;
-                    if (!url) return;
-                    const option = document.createElement('option');
-                    option.value = url;
-                    option.textContent = station.name || station.title || `Station ${i + 1}`;
-                    radioStationSelect.appendChild(option);
-                });
-                radioStationSelect.disabled = false;
-            }
-        } catch (error) {
-            console.error('Failed to load radio stations for', code, error);
-        }
-    });
+        if (!Array.isArray(items)) return;
+
+        // Deduplicate by name, since the data has repeats
+        const seen = new Set();
+        items.forEach((item) => {
+            const streamUrl = item.sources && item.sources.streams && item.sources.streams[0];
+            if (!streamUrl) return;
+            const name = item.name || 'Unknown Station';
+            if (seen.has(name)) return;
+            seen.add(name);
+
+            const option = document.createElement('option');
+            option.value = streamUrl;
+            option.textContent = name;
+            radioStationSelect.appendChild(option);
+        });
+        radioStationSelect.disabled = false;
+    } catch (error) {
+        console.error('Failed to load radio stations for', code, error);
+    }
+});
 
     radioStationSelect.addEventListener('change', (e) => {
         const url = e.target.value;
