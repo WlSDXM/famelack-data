@@ -375,7 +375,7 @@ window.addEventListener('load', () => sizeCanvas());
     const barWidth = w / barCount;
 
     const minBin = 2;
-    const maxBin = Math.floor(freqData.length * 0.6);
+    const maxBin = Math.floor(freqData.length * 0.35);
     const logMin = Math.log(minBin);
     const logMax = Math.log(maxBin);
 
@@ -386,9 +386,13 @@ window.addEventListener('load', () => sizeCanvas());
         const end = Math.max(start + 1, Math.floor(Math.exp(logMin + (logMax - logMin) * endFrac)));
 
         let sum = 0;
-        for (let j = start; j < end && j < freqData.length; j++) sum += freqData[j];
-        let value = sum / (end - start) / 255;
-        value = Math.min(1, value * 1.6);
+        let count = 0;
+        for (let j = start; j < end && j < freqData.length; j++) { sum += freqData[j]; count++; }
+        let value = sum / count / 255;
+
+        // Strong taper: heavily dampen left, moderately boost right
+        const boost = 0.35 + (i / barCount) * 1.8;
+        value = Math.min(1, value * boost);
 
         const barHeight = value * (h * 0.85);
         const x = i * barWidth;
