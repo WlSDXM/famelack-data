@@ -390,7 +390,7 @@ window.addEventListener('load', () => sizeCanvas());
         let sum = 0;
         for (let j = start; j < end && j < freqData.length; j++) sum += freqData[j];
         let value = sum / (end - start) / 255;
-        value = Math.min(1, value * 1.6);
+        value = Math.min(1, value * 2.0);
 
         const barHeight = value * (h * 0.85);
         const x = i * (barWidth + gap);
