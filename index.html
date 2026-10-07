@@ -370,10 +370,9 @@ window.addEventListener('load', () => sizeCanvas());
 
     function drawBars(w, h) {
     analyser.getByteFrequencyData(freqData);
-    const barCount = 180;      // very thin bars
-    const gap = 1;             // small gaps
-    const totalGap = gap * (barCount - 1);
-    const barWidth = (w - totalGap) / barCount;
+    const barCount = 500;
+    const gap = 0;
+    const barWidth = w / barCount;
 
     const minBin = 2;
     const maxBin = Math.floor(freqData.length * 0.6);
@@ -392,7 +391,7 @@ window.addEventListener('load', () => sizeCanvas());
         value = Math.min(1, value * 1.6);
 
         const barHeight = value * (h * 0.85);
-        const x = i * (barWidth + gap);
+        const x = i * barWidth;
         const y = h - barHeight;
 
         const hue = 210 + (i / barCount) * 100;
