@@ -7,29 +7,8 @@
     <meta property="og:image" content="https://i.postimg.cc/bJBx0GRz/jpnearth-ascii-art-ezgif-com-optimize-(1).gif" />
     <meta property="twitter:card" content="summary_large_image">
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-    <style>
-                h1.earth-title {
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 10px;
-            margin: 0 0 20px 0;
-           text-align: center;
-        }
-        img.earth-anim {
-    max-width: 100%;
-    height: 80px;
-    width: auto;
-    display: block;
-    margin: 0 auto;
-    mix-blend-mode: lighten;
-}
-       @font-face {
-    font-family: 'stealth57';
-    src: url('https://raw.githubusercontent.com/WlSDXM/famelack-data/main/stealth57.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 
+    <style>
         :root {
             --bg-color: #000000;
             --surface-color: #0a0a0a;
@@ -38,75 +17,116 @@
             --text-muted: #888;
             --accent-color: #4a9eff;
         }
+
+        @font-face {
+            font-family: 'stealth57';
+            src: url('https://raw.githubusercontent.com/WlSDXM/famelack-data/main/stealth57.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
         * { box-sizing: border-box; }
-        
+
         html {
-    background-color: var(--bg-color) !important;
-    min-height: 100%;
-}
-        
+            background-color: var(--bg-color) !important;
+            min-height: 100%;
+        }
+
         body {
-    background-color: var(--bg-color) !important;
-    min-height: 100vh;
-    color: var(--text-color);
-    font-family: 'stealth57', system-ui, sans-serif;
-    margin: 0;
-    padding: 20px;
-    padding-bottom: 17px;   /* 20 - 3 = 17 */
-    line-height: 1.5;
-    overflow-x: hidden;
-}
-                      .container {
+            background-color: var(--bg-color) !important;
+            min-height: 100vh;
+            color: var(--text-color);
+            font-family: 'stealth57', system-ui, sans-serif;
+            margin: 0;
+            padding: 20px;
+            padding-bottom: 17px;
+            line-height: 1.5;
+            overflow-x: hidden;
+        }
+
+        .container {
             max-width: 1200px;
             margin: 0 auto;
         }
 
+        /* ===== HEADER ===== */
+        h1.earth-title {
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+            margin: 0 0 20px 0;
+            text-align: center;
+        }
+        img.earth-anim {
+            max-width: 100%;
+            height: 80px;
+            width: auto;
+            display: block;
+            margin: 0 auto;
+            mix-blend-mode: lighten;
+        }
+
+        /* ===== LAYOUT GRID ===== */
         .layout-grid {
             display: grid;
             grid-template-columns: 1.6fr 1fr;
             gap: 30px;
             align-items: start;
         }
-
         @media (max-width: 900px) {
             .layout-grid {
                 grid-template-columns: 1fr;
             }
         }
 
+        .right-column {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        /* ===== PLAYER BOXES ===== */
         .player-box {
             background-color: var(--surface-color);
             border: 1px solid var(--border-color);
             padding: 20px;
             border-radius: 8px;
         }
-        
-        .row {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 12px;
-    align-items: center;
-    min-width: 0;
-}
 
-select {
-    flex: 1 1 0;
-    min-width: 0;
-    max-width: 100%;
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    border: 1px solid var(--border-color);
-    border-radius: 4px;
-    padding: 8px 12px;
-    font-size: 16px;
-    font-family: 'stealth57', monospace;
-    cursor: pointer;
-    box-sizing: border-box;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-}
+        h2 {
+            color: var(--accent-color);
+            margin-top: 0;
+        }
+
+        /* ===== FORM ROWS ===== */
+        .row {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 12px;
+            align-items: center;
+            min-width: 0;
+        }
+
+        select {
+            flex: 1 1 0;
+            min-width: 0;
+            max-width: 100%;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            padding: 8px 12px;
+            font-size: 16px;
+            font-family: 'stealth57', monospace;
+            cursor: pointer;
+            box-sizing: border-box;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
         select:focus { outline: none; border-color: var(--accent-color); }
+
+        /* ===== PLAYERS ===== */
         video {
             width: 100%;
             border-radius: 4px;
@@ -114,15 +134,16 @@ select {
             display: block;
         }
         iframe#webcamFrame {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    border: none;
-    border-radius: 4px;
-    background-color: #000;
-    display: block;   
-}
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            border: none;
+            border-radius: 4px;
+            background-color: #000;
+            display: block;
+        }
         audio { width: 100%; margin-top: 4px; }
 
+        /* ===== CAMERA NAV ===== */
         .cam-nav {
             display: none;
             justify-content: space-between;
@@ -132,54 +153,77 @@ select {
         }
         .cam-nav.visible { display: flex; }
         .cam-nav button {
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    border: 1px solid var(--border-color);
-    border-radius: 4px;
-    padding: 6px 14px;
-    font-size: 15px;
-    font-family: 'stealth57', monospace;
-    cursor: pointer;
-}
-        .cam-nav button:hover:not(:disabled) { border-color: var(--accent-color); color: var(--accent-color); }
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            padding: 6px 14px;
+            font-size: 15px;
+            font-family: 'stealth57', monospace;
+            cursor: pointer;
+        }
+        .cam-nav button:hover:not(:disabled) {
+            border-color: var(--accent-color);
+            color: var(--accent-color);
+        }
         .cam-nav button:disabled { opacity: 0.35; cursor: default; }
-        .cam-title { flex: 1; text-align: center; color: var(--text-muted); font-size: 14px; }
+        .cam-title {
+            flex: 1;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 14px;
+        }
 
-        .viz-controls { display: flex; gap: 10px; margin-top: 10px; align-items: center; }
+        /* ===== VISUALIZER ===== */
+        .viz-controls {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+            align-items: center;
+        }
         .viz-controls label {
-    color: var(--text-muted);
-    font-size: 14px;
-    font-family: 'stealth57', monospace;
-}
+            color: var(--text-muted);
+            font-size: 14px;
+            font-family: 'stealth57', monospace;
+        }
         .viz-controls select { flex: 0 0 160px; }
 
         canvas, pre#asciiViz {
-    width: 100% !important;
-    max-width: 100%;
-    height: 90px !important;
-    min-height: 90px;
-    max-height: 90px;
-    background-color: transparent;
-    border: 1px solid var(--border-color);
-    border-radius: 4px;
-    margin-top: 10px;
-    display: block;
-    box-sizing: border-box;
-}
+            width: 100% !important;
+            max-width: 100%;
+            height: 90px !important;
+            min-height: 90px;
+            max-height: 90px;
+            background-color: transparent;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            margin-top: 10px;
+            display: block;
+            box-sizing: border-box;
+        }
         pre#asciiViz {
-    font-family: "SF Mono", Menlo, Consolas, monospace;
-    font-size: 11px;
-    line-height: 1.05;
-    color: var(--accent-color);
-    padding: 8px;
-    margin: 10px 0 0 0;
-    white-space: pre;
-    overflow: hidden;
-    /* other properties unchanged */
-}
+            font-family: "SF Mono", Menlo, Consolas, monospace;
+            font-size: 11px;
+            line-height: 1.05;
+            color: var(--accent-color);
+            padding: 8px;
+            margin: 10px 0 0 0;
+            white-space: pre;
+            overflow: hidden;
+        }
+
+        /* ===== GLOBE ===== */
+        #globeCanvas {
+            width: 100%;
+            height: 340px;
+            display: block;
+            cursor: pointer;
+            background: transparent;
+            border: none;
+            margin: 0 auto;
+        }
     </style>
 </head>
-<body>
 <body>
 <div class="container">
     <h1 class="earth-title">
@@ -204,37 +248,43 @@ select {
             </div>
         </div>
 
-        <!-- ===== RADIO (right column) ===== -->
-        <div class="player-box">
-            <h2>📻 Radio </h2>
+        <!-- ===== RIGHT COLUMN (Radio + Globe) ===== -->
+        <div class="right-column">
 
-            <div class="row">
-                <select id="radioCountrySelect">
-                    <option value="">-- Select a Country --</option>
-                </select>
+            <div class="player-box">
+                <h2>📻 Radio </h2>
+
+                <div class="row">
+                    <select id="radioCountrySelect">
+                        <option value="">-- Select a Country --</option>
+                    </select>
+                </div>
+
+                <div class="row">
+                    <select id="radioStationSelect" disabled>
+                        <option value="">-- Select a Station --</option>
+                    </select>
+                </div>
+
+                <audio id="radioPlayer" controls crossorigin="anonymous"></audio>
+
+                <div class="viz-controls">
+                    <label for="vizStyle">Visualizer:</label>
+                    <select id="vizStyle">
+                        <option value="bars">Bars</option>
+                        <option value="wave">Wave</option>
+                        <option value="ascii">ASCII</option>
+                    </select>
+                </div>
+
+                <canvas id="visualizer"></canvas>
+                <pre id="asciiViz" style="display:none;"></pre>
             </div>
 
-            <div class="row">
-                <select id="radioStationSelect" disabled>
-                    <option value="">-- Select a Station --</option>
-                </select>
-            </div>
+            <!-- ===== GLOBE (below Radio, no box) ===== -->
+            <canvas id="globeCanvas" title="Click to change color"></canvas>
 
-            <audio id="radioPlayer" controls crossorigin="anonymous"></audio>
-
-            <div class="viz-controls">
-                <label for="vizStyle">Visualizer:</label>
-                <select id="vizStyle">
-                    <option value="bars">Bars</option>
-                    <option value="wave">Wave</option>
-                    <option value="ascii">ASCII</option>
-                </select>
-            </div>
-
-            <canvas id="visualizer"></canvas>
-            <pre id="asciiViz" style="display:none;"></pre>
         </div>
-
     </div>
 </div>
 
@@ -385,32 +435,32 @@ select {
     let currentStyle = 'bars';
 
     vizStyleSelect.addEventListener('change', (e) => {
-    currentStyle = e.target.value;
+        currentStyle = e.target.value;
 
-    if (currentStyle === 'ascii') {
-        canvas.style.display = 'none';
-        asciiViz.style.display = 'block';
-        if (analyser) drawAscii();
-    } else {
-        canvas.style.display = 'block';
-        asciiViz.style.display = 'none';
-        requestAnimationFrame(() => requestAnimationFrame(() => sizeCanvas()));
+        if (currentStyle === 'ascii') {
+            canvas.style.display = 'none';
+            asciiViz.style.display = 'block';
+            if (analyser) drawAscii();
+        } else {
+            canvas.style.display = 'block';
+            asciiViz.style.display = 'none';
+            requestAnimationFrame(() => requestAnimationFrame(() => sizeCanvas()));
+        }
+    });
+
+    function sizeCanvas() {
+        const rect = canvas.getBoundingClientRect();
+        const w = Math.floor(rect.width);
+        const h = Math.floor(rect.height);
+        if (w < 10 || h < 10) return;
+        const dpr = window.devicePixelRatio || 1;
+        canvas.width = w * dpr;
+        canvas.height = h * dpr;
+        ctx.setTransform(1, 0, 0, 1, 0, 0);
+        ctx.scale(dpr, dpr);
     }
-});
 
-function sizeCanvas() {
-    const rect = canvas.getBoundingClientRect();
-    const w = Math.floor(rect.width);
-    const h = Math.floor(rect.height);
-    if (w < 10 || h < 10) return;
-    const dpr = window.devicePixelRatio || 1;
-    canvas.width = w * dpr;
-    canvas.height = h * dpr;
-    ctx.setTransform(1, 0, 0, 1, 0, 0);
-    ctx.scale(dpr, dpr);
-}
-
-window.addEventListener('load', () => sizeCanvas());
+    window.addEventListener('load', () => sizeCanvas());
 
     function initVisualizer() {
         if (audioCtx) return;
@@ -430,163 +480,157 @@ window.addEventListener('load', () => sizeCanvas());
     }
 
     function drawBars(w, h) {
-    analyser.getByteFrequencyData(freqData);
-    const barCount = 500;
-    const barWidth = w / barCount;
+        analyser.getByteFrequencyData(freqData);
+        const barCount = 500;
+        const barWidth = w / barCount;
 
-    const maxBin = Math.floor(freqData.length * 0.15);
-    const step = maxBin / barCount;
+        const maxBin = Math.floor(freqData.length * 0.15);
+        const step = maxBin / barCount;
 
-    for (let i = 0; i < barCount; i++) {
-        const start = Math.floor(i * step);
-        const end = Math.max(start + 1, Math.floor((i + 1) * step));
+        for (let i = 0; i < barCount; i++) {
+            const start = Math.floor(i * step);
+            const end = Math.max(start + 1, Math.floor((i + 1) * step));
 
-        let sum = 0;
-        let count = 0;
-        for (let j = start; j < end && j < freqData.length; j++) { sum += freqData[j]; count++; }
-        let value = sum / count / 255;
-        value = Math.min(1, value * 1.4);
+            let sum = 0;
+            let count = 0;
+            for (let j = start; j < end && j < freqData.length; j++) { sum += freqData[j]; count++; }
+            let value = sum / count / 255;
+            value = Math.min(1, value * 1.4);
 
-        const barHeight = value * (h * 0.85);
-        const x = i * barWidth;
-        const y = h - barHeight;
+            const barHeight = value * (h * 0.85);
+            const x = i * barWidth;
+            const y = h - barHeight;
 
-        const hue = 210 + (i / barCount) * 100;
-        ctx.fillStyle = `hsl(${hue}, 80%, ${40 + value * 30}%)`;
-        ctx.fillRect(x, y, barWidth, barHeight);
+            const hue = 210 + (i / barCount) * 100;
+            ctx.fillStyle = `hsl(${hue}, 80%, ${40 + value * 30}%)`;
+            ctx.fillRect(x, y, barWidth, barHeight);
+        }
     }
-}
+
     function drawWave(w, h) {
-    analyser.getByteTimeDomainData(timeData);
+        analyser.getByteTimeDomainData(timeData);
 
-    // Number of layered traces
-    const layers = 7;
+        const layers = 7;
 
-    // Build a base waveform from the time-domain data
-    const base = new Array(timeData.length);
-    for (let i = 0; i < timeData.length; i++) {
-        base[i] = (timeData[i] - 128) / 128;   // -1 … 1
-    }
+        const base = new Array(timeData.length);
+        for (let i = 0; i < timeData.length; i++) {
+            base[i] = (timeData[i] - 128) / 128;
+        }
 
-    // Smooth the base once so the traces look rounded
-    const smoothed = base.map((_, i) => {
-        const a = base[Math.max(0, i - 2)];
-        const b = base[i];
-        const c = base[Math.min(base.length - 1, i + 2)];
-        return (a + b * 2 + c) / 4;
-    });
+        const smoothed = base.map((_, i) => {
+            const a = base[Math.max(0, i - 2)];
+            const b = base[i];
+            const c = base[Math.min(base.length - 1, i + 2)];
+            return (a + b * 2 + c) / 4;
+        });
 
-    // Draw from back to front so nearer traces overlap properly
-    for (let l = layers - 1; l >= 0; l--) {
-        const depth = l / (layers - 1);            // 0 = front, 1 = back
-        const verticalOffset = depth * h * 0.28;   // spread across the panel
-        const amplitude = (1 - depth * 0.35);      // back waves are quieter
-        const phaseShift = Math.floor(depth * 12); // small horizontal drift
+        for (let l = layers - 1; l >= 0; l--) {
+            const depth = l / (layers - 1);
+            const verticalOffset = depth * h * 0.28;
+            const amplitude = (1 - depth * 0.35);
+            const phaseShift = Math.floor(depth * 12);
 
-        const alpha = 0.85 - depth * 0.6;
-        const lightness = 95 - depth * 45;
+            const alpha = 0.85 - depth * 0.6;
+            const lightness = 95 - depth * 45;
+
+            ctx.beginPath();
+            for (let i = 0; i < smoothed.length; i++) {
+                const src = smoothed[(i + phaseShift) % smoothed.length];
+                const x = (i / (smoothed.length - 1)) * w;
+                const y = h * 0.55 + src * (h * 0.35) * amplitude - verticalOffset;
+                if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+            }
+
+            ctx.strokeStyle = `hsla(210, 30%, ${lightness}%, ${alpha})`;
+            ctx.lineWidth = 1.5;
+            ctx.lineJoin = 'round';
+            ctx.lineCap = 'round';
+            ctx.stroke();
+        }
+
+        if (!window.__wavePeak || window.__wavePeak.length !== smoothed.length) {
+            window.__wavePeak = new Array(smoothed.length).fill(0);
+        }
+        for (let i = 0; i < smoothed.length; i++) {
+            const v = Math.abs(smoothed[i]);
+            if (v > window.__wavePeak[i]) window.__wavePeak[i] = v;
+            else window.__wavePeak[i] *= 0.97;
+        }
 
         ctx.beginPath();
         for (let i = 0; i < smoothed.length; i++) {
-            const src = smoothed[(i + phaseShift) % smoothed.length];
             const x = (i / (smoothed.length - 1)) * w;
-            const y = h * 0.55 + src * (h * 0.35) * amplitude - verticalOffset;
+            const y = h * 0.55 - window.__wavePeak[i] * (h * 0.35);
             if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
         }
-
-        ctx.strokeStyle = `hsla(210, 30%, ${lightness}%, ${alpha})`;
-        ctx.lineWidth = 1.5;
-        ctx.lineJoin = 'round';
-        ctx.lineCap = 'round';
+        ctx.strokeStyle = 'rgba(220, 60, 80, 0.85)';
+        ctx.lineWidth = 1.2;
         ctx.stroke();
     }
-
-    // ---- Peak-hold line (red) on top ----
-    if (!window.__wavePeak || window.__wavePeak.length !== smoothed.length) {
-        window.__wavePeak = new Array(smoothed.length).fill(0);
-    }
-    for (let i = 0; i < smoothed.length; i++) {
-        const v = Math.abs(smoothed[i]);
-        if (v > window.__wavePeak[i]) window.__wavePeak[i] = v;
-        else window.__wavePeak[i] *= 0.97;
-    }
-
-    ctx.beginPath();
-    for (let i = 0; i < smoothed.length; i++) {
-        const x = (i / (smoothed.length - 1)) * w;
-        const y = h * 0.55 - window.__wavePeak[i] * (h * 0.35);
-        if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
-    }
-    ctx.strokeStyle = 'rgba(220, 60, 80, 0.85)';
-    ctx.lineWidth = 1.2;
-    ctx.stroke();
-}
 
     const ASCII_CHARS = ' .:-=+*#%@';
-const ASCII_COLS = 130;
-const ASCII_ROWS = 8;
+    const ASCII_COLS = 130;
+    const ASCII_ROWS = 8;
 
-function drawAscii() {
-    analyser.getByteFrequencyData(freqData);
-    const usableBins = Math.floor(freqData.length * 0.3);
-    const step = usableBins / ASCII_COLS;
-    const bins = new Array(ASCII_COLS).fill(0);
+    function drawAscii() {
+        analyser.getByteFrequencyData(freqData);
+        const usableBins = Math.floor(freqData.length * 0.3);
+        const step = usableBins / ASCII_COLS;
+        const bins = new Array(ASCII_COLS).fill(0);
 
-    for (let c = 0; c < ASCII_COLS; c++) {
-        const start = Math.floor(c * step);
-        const end = Math.floor((c + 1) * step);
-        let sum = 0;
-        for (let j = start; j < end; j++) sum += freqData[j];
-        bins[c] = sum / (end - start) / 255;
-    }
-
-    let output = '';
-    for (let r = 0; r < ASCII_ROWS; r++) {
-        const threshold = 1 - (r + 1) / ASCII_ROWS;
         for (let c = 0; c < ASCII_COLS; c++) {
-            const value = Math.min(1, bins[c] * 1.3);
-            if (value > threshold) {
-                const idx = Math.floor(value * (ASCII_CHARS.length - 1));
-                output += ASCII_CHARS[idx];
-            } else {
-                output += ' ';
-            }
+            const start = Math.floor(c * step);
+            const end = Math.floor((c + 1) * step);
+            let sum = 0;
+            for (let j = start; j < end; j++) sum += freqData[j];
+            bins[c] = sum / (end - start) / 255;
         }
-        output += '\n';
+
+        let output = '';
+        for (let r = 0; r < ASCII_ROWS; r++) {
+            const threshold = 1 - (r + 1) / ASCII_ROWS;
+            for (let c = 0; c < ASCII_COLS; c++) {
+                const value = Math.min(1, bins[c] * 1.3);
+                if (value > threshold) {
+                    const idx = Math.floor(value * (ASCII_CHARS.length - 1));
+                    output += ASCII_CHARS[idx];
+                } else {
+                    output += ' ';
+                }
+            }
+            output += '\n';
+        }
+        asciiViz.textContent = output;
     }
-    asciiViz.textContent = output;
-}
 
     function draw() {
-    requestAnimationFrame(draw);
+        requestAnimationFrame(draw);
 
-    
-    if (currentStyle === 'ascii') {
-        if (analyser) drawAscii();
-        return;
-    }
+        if (currentStyle === 'ascii') {
+            if (analyser) drawAscii();
+            return;
+        }
 
-    
-    if (canvas.style.display === 'none') return;
-    const rect = canvas.getBoundingClientRect();
-    const w = rect.width;
-    const h = rect.height;
-    if (w < 10 || h < 10) return;
+        if (canvas.style.display === 'none') return;
+        const rect = canvas.getBoundingClientRect();
+        const w = rect.width;
+        const h = rect.height;
+        if (w < 10 || h < 10) return;
 
-    if (!analyser) {
+        if (!analyser) {
+            ctx.clearRect(0, 0, w, h);
+            ctx.strokeStyle = '#222';
+            ctx.beginPath();
+            ctx.moveTo(0, h / 2);
+            ctx.lineTo(w, h / 2);
+            ctx.stroke();
+            return;
+        }
+
         ctx.clearRect(0, 0, w, h);
-        ctx.strokeStyle = '#222';
-        ctx.beginPath();
-        ctx.moveTo(0, h / 2);
-        ctx.lineTo(w, h / 2);
-        ctx.stroke();
-        return;
+        if (currentStyle === 'wave') drawWave(w, h);
+        else drawBars(w, h);
     }
-
-    ctx.clearRect(0, 0, w, h);
-    if (currentStyle === 'wave') drawWave(w, h);
-    else drawBars(w, h);
-}
 
     audio.addEventListener('play', () => {
         initVisualizer();
@@ -594,6 +638,96 @@ function drawAscii() {
     });
 
     draw();
+
+    // ============ WIREFRAME GLOBE ============
+    (function initGlobe() {
+        const globeCanvas = document.getElementById('globeCanvas');
+        if (!globeCanvas) return;
+        const gctx = globeCanvas.getContext('2d');
+
+        // Default green matching EARTH gif (adjust hue/sat/light if needed)
+        let globeHue = 150;
+        let globeSat = 100;
+        let globeLight = 55;
+
+        function sizeGlobe() {
+            const rect = globeCanvas.getBoundingClientRect();
+            const w = Math.floor(rect.width);
+            const h = Math.floor(rect.height);
+            if (w < 10 || h < 10) return;
+            const dpr = window.devicePixelRatio || 1;
+            globeCanvas.width = w * dpr;
+            globeCanvas.height = h * dpr;
+            gctx.setTransform(1, 0, 0, 1, 0, 0);
+            gctx.scale(dpr, dpr);
+        }
+        sizeGlobe();
+        window.addEventListener('resize', sizeGlobe);
+
+        // Click to randomize hue
+        globeCanvas.addEventListener('click', () => {
+            globeHue = Math.floor(Math.random() * 360);
+        });
+
+        let rotation = 0;
+        const LAT_LINES = 12;
+        const LON_LINES = 16;
+        const RADIUS_RATIO = 0.42;
+
+        function drawGlobe() {
+            requestAnimationFrame(drawGlobe);
+
+            const rect = globeCanvas.getBoundingClientRect();
+            const w = rect.width;
+            const h = rect.height;
+            if (w < 10 || h < 10) return;
+
+            gctx.clearRect(0, 0, w, h);
+
+            const cx = w / 2;
+            const cy = h / 2;
+            const r = Math.min(w, h) * RADIUS_RATIO;
+
+            const baseColor = `hsl(${globeHue}, ${globeSat}%, ${globeLight}%)`;
+            const dimColor = `hsla(${globeHue}, ${globeSat}%, ${globeLight}%, 0.35)`;
+
+            // Latitude lines
+            for (let i = 1; i < LAT_LINES; i++) {
+                const lat = (i / LAT_LINES) * Math.PI - Math.PI / 2;
+                const ringRadius = r * Math.cos(lat);
+                const yOffset = r * Math.sin(lat);
+
+                gctx.beginPath();
+                gctx.ellipse(cx, cy + yOffset, ringRadius, ringRadius * 0.28, 0, 0, Math.PI * 2);
+                gctx.strokeStyle = dimColor;
+                gctx.lineWidth = 1;
+                gctx.stroke();
+            }
+
+            // Longitude lines
+            for (let i = 0; i < LON_LINES; i++) {
+                const lon = (i / LON_LINES) * Math.PI * 2 + rotation;
+                const xScale = Math.cos(lon);
+                const isFront = xScale > 0;
+
+                gctx.beginPath();
+                gctx.ellipse(cx, cy, Math.abs(r * xScale), r, 0, 0, Math.PI * 2);
+                gctx.strokeStyle = isFront ? baseColor : dimColor;
+                gctx.lineWidth = isFront ? 1.4 : 1;
+                gctx.stroke();
+            }
+
+            // Outline circle
+            gctx.beginPath();
+            gctx.arc(cx, cy, r, 0, Math.PI * 2);
+            gctx.strokeStyle = baseColor;
+            gctx.lineWidth = 1.6;
+            gctx.stroke();
+
+            rotation += 0.003;
+        }
+        drawGlobe();
+    })();
 
     // ============ INIT ============
     loadWebcamCountries();
