@@ -69,14 +69,20 @@ select {
     white-space: nowrap;
 }
         select:focus { outline: none; border-color: var(--accent-color); }
-        video { width: 100%; border-radius: 4px; background-color: #000; }
-        iframe#webcamFrame {
+        video {
             width: 100%;
-            aspect-ratio: 16 / 9;
-            border: none;
             border-radius: 4px;
             background-color: #000;
+            display: block;
         }
+        iframe#webcamFrame {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+    border-radius: 4px;
+    background-color: #000;
+    display: block;   
+}
         audio { width: 100%; margin-top: 4px; }
 
         .cam-nav {
