@@ -23,23 +23,6 @@
             --text-muted: #888;
             --accent-color: #4a9eff;
         }
-
-        html {
-    overflow-y: auto;
-    overflow-x: hidden;
-    height: 100%;
-}
-
-body {
-    overflow: visible;
-    min-height: 0;
-    /* keep your existing padding/margin */
-}
-
-/* the real culprit guard: nothing should be wider than the viewport */
-.container {
-    overflow-x: clip;   /* clip is better than hidden — no scroll container created */
-}
         * { box-sizing: border-box; }
         body {
     background-color: var(--bg-color);
