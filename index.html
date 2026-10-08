@@ -38,9 +38,13 @@
             margin: 0 auto;
             padding-bottom: 2px;
         }
-                @supports (overflow: overlay) {
+                        html {
+            padding-bottom: 3px;
+        }
+
+        @supports (scrollbar-gutter: stable) {
             html {
-                overflow-y: overlay;
+                scrollbar-gutter: stable;
             }
         }
         h1 { border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
