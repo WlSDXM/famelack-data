@@ -98,9 +98,19 @@
             border-radius: 8px;
         }
 
-        h2 {
+               h2 {
             color: var(--accent-color);
             margin-top: 0;
+        }
+        h2.title-gif {
+            margin-top: 0;
+            line-height: 1;
+        }
+        img.title-img {
+            display: block;
+            height: 40px;
+            width: auto;
+            mix-blend-mode: lighten;
         }
 
         /* ===== FORM ROWS ===== */
@@ -265,8 +275,10 @@
         <!-- ===== RIGHT COLUMN (Radio + Globe) ===== -->
         <div class="right-column">
 
-            <div class="player-box">
-                <h2>📻 Radio </h2>
+                        <div class="player-box">
+                <h2 class="title-gif">
+                    <img src="https://i.postimg.cc/1zftKGhW/RADIO-ezgif-com-video-to-gif-converter.gif" alt="Radio" class="title-img">
+                </h2>
 
                 <div class="row">
                     <select id="radioCountrySelect">
