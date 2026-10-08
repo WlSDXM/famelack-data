@@ -223,12 +223,15 @@
         }
         
         /* ===== GLOBE ===== */
-                #globeCanvas {
-                    #globeCanvas {
+                        #globeCanvas {
             width: 100%;
             height: 236px;
-            margin-top: -20px;   /* ← add this */
-            ...
+            display: block;
+            cursor: pointer;
+            background: transparent;
+            border: none;
+            margin: 0 auto;
+            margin-top: -25px;   /* ← must come AFTER "margin: 0 auto" */
         }
             display: block;
             cursor: pointer;
