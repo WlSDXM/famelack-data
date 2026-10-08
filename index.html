@@ -202,7 +202,7 @@
             display: block;
             box-sizing: border-box;
         }
-        pre#asciiViz {
+                pre#asciiViz {
             font-family: "SF Mono", Menlo, Consolas, monospace;
             font-size: 11px;
             line-height: 1.05;
@@ -211,8 +211,13 @@
             margin: 10px 0 0 0;
             white-space: pre;
             overflow: hidden;
+            width: 100%;
+            max-width: 100%;
+            min-width: 0;              /* ← add */
+            box-sizing: border-box;
+            word-break: break-all;     /* ← add, backup clamp */
         }
-
+        
         /* ===== GLOBE ===== */
         #globeCanvas {
             width: 100%;
@@ -480,25 +485,34 @@
         }
     }
 
-    function drawBars(w, h) {
+        function drawBars(w, h) {
         analyser.getByteFrequencyData(freqData);
         const barCount = 500;
         const barWidth = w / barCount;
 
-        const maxBin = Math.floor(freqData.length * 0.15);
-        const step = maxBin / barCount;
+        // Use a larger portion of the frequency spectrum, spread logarithmically
+        const maxBin = freqData.length;   // use all bins
 
         for (let i = 0; i < barCount; i++) {
-            const start = Math.floor(i * step);
-            const end = Math.max(start + 1, Math.floor((i + 1) * step));
+            // Logarithmic position along the spectrum
+            const t = i / barCount;
+            const logPos = Math.pow(t, 2.2);   // exponent > 1 pushes bars toward high freq
+            const binIndex = Math.floor(logPos * maxBin);
 
-            let sum = 0;
-            let count = 0;
-            for (let j = start; j < end && j < freqData.length; j++) { sum += freqData[j]; count++; }
-            let value = sum / count / 255;
-            value = Math.min(1, value * 1.4);
+            // Average a small window of bins for smoothness
+            const windowSize = Math.max(1, Math.floor(maxBin / barCount));
+            let sum = 0, count = 0;
+            for (let j = binIndex; j < binIndex + windowSize && j < freqData.length; j++) {
+                sum += freqData[j];
+                count++;
+            }
+            let value = count > 0 ? sum / count / 255 : 0;
 
-            const barHeight = value * (h * 0.85);
+            // Compress tall peaks so bass doesn't slam the ceiling
+            value = Math.pow(value, 0.7);
+            value = Math.min(1, value * 1.15);
+
+            const barHeight = value * (h * 0.9);
             const x = i * barWidth;
             const y = h - barHeight;
 
@@ -570,7 +584,7 @@
     }
 
     const ASCII_CHARS = ' .:-=+*#%@';
-    const ASCII_COLS = 130;
+    const ASCII_COLS = 60;
     const ASCII_ROWS = 8;
 
     function drawAscii() {
