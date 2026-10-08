@@ -67,9 +67,9 @@
         }
 
         /* ===== LAYOUT GRID ===== */
-        .layout-grid {
+                .layout-grid {
             display: grid;
-            grid-template-columns: 1.6fr 1fr;
+            grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
             gap: 30px;
             align-items: start;
         }
@@ -106,9 +106,10 @@
             overflow: hidden;
         }
 
-        select {
+                select {
             flex: 1 1 0%;
             min-width: 0;
+            width: 0;
             max-width: 100%;
             background-color: var(--bg-color);
             color: var(--text-color);
