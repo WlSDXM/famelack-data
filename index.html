@@ -36,7 +36,12 @@
        .container {
             max-width: 800px;
             margin: 0 auto;
-            padding-bottom: 1px;
+            padding-bottom: 2px;
+        }
+                @supports (overflow: overlay) {
+            html {
+                overflow-y: overlay;
+            }
         }
         h1 { border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
         h2 { color: var(--accent-color); margin-top: 0; }
