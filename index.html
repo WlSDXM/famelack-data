@@ -56,18 +56,22 @@
     line-height: 1.5;
     overflow-x: hidden;
 }
-              .container {
+                      .container {
             max-width: 1200px;
             margin: 0 auto;
         }
-        h1 { border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
-        h2 { color: var(--accent-color); margin-top: 0; }
-        
-               .layout-grid {
+
+        .layout-grid {
             display: grid;
-            grid-template-columns: 1.4fr 1fr;
+            grid-template-columns: 1.6fr 1fr;
             gap: 30px;
             align-items: start;
+        }
+
+        @media (max-width: 900px) {
+            .layout-grid {
+                grid-template-columns: 1fr;
+            }
         }
 
         .player-box {
@@ -75,12 +79,6 @@
             border: 1px solid var(--border-color);
             padding: 20px;
             border-radius: 8px;
-        }
-
-        @media (max-width: 900px) {
-            .layout-grid {
-                grid-template-columns: 1fr;
-            }
         }
         
         .row {
@@ -182,51 +180,61 @@ select {
     </style>
 </head>
 <body>
+<body>
 <div class="container">
-        <h1 class="earth-title">
-        <img src="https://i.postimg.cc/K8TkJTVF/EARTHripple-ezgif-com-video-to-gif-converter.gif" alt="EARTH" class="earth-anim">
+    <h1 class="earth-title">
+        <img src="https://i.postimg.cc/zfCyM6r2/EARTH4WEBSITE-BLKBG-GIF.gif" alt="EARTH" class="earth-anim">
     </h1>
-       
+
     <div class="layout-grid">
+
+        <!-- ===== LIVE (left column) ===== -->
         <div class="player-box">
             <h2>📹 Live</h2>
-        <div class="row">
-            <select id="countrySelect">
-                <option value="">-- Select a Country --</option>
-            </select>
+            <div class="row">
+                <select id="countrySelect">
+                    <option value="">-- Select a Country --</option>
+                </select>
+            </div>
+            <video id="webcamPlayer" controls autoplay muted></video>
+            <div class="cam-nav" id="camNav">
+                <button id="camPrev" title="Previous camera">◀</button>
+                <span class="cam-title" id="camTitle"></span>
+                <button id="camNext" title="Next camera">▶</button>
+            </div>
         </div>
-        <video id="webcamPlayer" controls autoplay muted></video>
-        <div class="cam-nav" id="camNav">
-            <button id="camPrev" title="Previous camera">◀</button>
-            <span class="cam-title" id="camTitle"></span>
-            <button id="camNext" title="Next camera">▶</button>
-        </div>
-    </div>
 
-    <div class="player-box">
+        <!-- ===== RADIO (right column) ===== -->
+        <div class="player-box">
             <h2>📻 Radio </h2>
-         <div class="row">
-            <select id="radioCountrySelect">
-                <option value="">-- Select a Country --</option>
-            </select>
-           <div class="row">
-            <select id="radioStationSelect" disabled>
-                <option value="">-- Select a Station --</option>
-            </select>
-        </div>
-        <audio id="radioPlayer" controls crossorigin="anonymous"></audio>
 
-        <div class="viz-controls">
-            <label for="vizStyle">Visualizer:</label>
-            <select id="vizStyle">
-                <option value="bars">Bars</option>
-                <option value="wave">Wave</option>
-                <option value="ascii">ASCII</option>
-            </select>
+            <div class="row">
+                <select id="radioCountrySelect">
+                    <option value="">-- Select a Country --</option>
+                </select>
+            </div>
+
+            <div class="row">
+                <select id="radioStationSelect" disabled>
+                    <option value="">-- Select a Station --</option>
+                </select>
+            </div>
+
+            <audio id="radioPlayer" controls crossorigin="anonymous"></audio>
+
+            <div class="viz-controls">
+                <label for="vizStyle">Visualizer:</label>
+                <select id="vizStyle">
+                    <option value="bars">Bars</option>
+                    <option value="wave">Wave</option>
+                    <option value="ascii">ASCII</option>
+                </select>
+            </div>
+
+            <canvas id="visualizer"></canvas>
+            <pre id="asciiViz" style="display:none;"></pre>
         </div>
 
-        <canvas id="visualizer"></canvas>
-        <pre id="asciiViz" style="display:none;"></pre>
     </div>
 </div>
 
