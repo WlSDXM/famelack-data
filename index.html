@@ -67,7 +67,7 @@
         }
 
         /* ===== LAYOUT GRID ===== */
-                .layout-grid {
+        .layout-grid {
             display: grid;
             grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
             gap: 30px;
@@ -78,13 +78,15 @@
                 grid-template-columns: 1fr;
             }
         }
+
         .right-column {
             display: flex;
             flex-direction: column;
             gap: 30px;
             min-width: 0;
         }
-                       .right-column .player-box {
+
+        .right-column .player-box {
             min-height: 380px;
         }
 
@@ -111,7 +113,7 @@
             overflow: hidden;
         }
 
-                select {
+        select {
             flex: 1 1 0%;
             min-width: 0;
             width: 0;
@@ -193,7 +195,7 @@
         }
         .viz-controls select { flex: 0 0 160px; }
 
-                #visualizer, pre#asciiViz {
+        #visualizer, pre#asciiViz {
             width: 100% !important;
             max-width: 100%;
             height: 90px !important;
@@ -206,7 +208,8 @@
             display: block;
             box-sizing: border-box;
         }
-                pre#asciiViz {
+
+        pre#asciiViz {
             font-family: "SF Mono", Menlo, Consolas, monospace;
             font-size: 11px;
             line-height: 1.05;
@@ -217,13 +220,13 @@
             overflow: hidden;
             width: 100%;
             max-width: 100%;
-            min-width: 0;              /* ← add */
+            min-width: 0;
             box-sizing: border-box;
-            word-break: break-all;     /* ← add, backup clamp */
+            word-break: break-all;
         }
-        
+
         /* ===== GLOBE ===== */
-                        #globeCanvas {
+        #globeCanvas {
             width: 100%;
             height: 236px;
             display: block;
@@ -231,13 +234,7 @@
             background: transparent;
             border: none;
             margin: 0 auto;
-            margin-top: -25px;   /* ← must come AFTER "margin: 0 auto" */
-        }
-            display: block;
-            cursor: pointer;
-            background: transparent;
-            border: none;
-            margin: 0 auto;
+            margin-top: -25px;
         }
     </style>
 </head>
@@ -496,21 +493,18 @@
         }
     }
 
-        function drawBars(w, h) {
+    function drawBars(w, h) {
         analyser.getByteFrequencyData(freqData);
         const barCount = 500;
         const barWidth = w / barCount;
 
-        // Use a larger portion of the frequency spectrum, spread logarithmically
-        const maxBin = freqData.length;   // use all bins
+        const maxBin = freqData.length;
 
         for (let i = 0; i < barCount; i++) {
-            // Logarithmic position along the spectrum
             const t = i / barCount;
-            const logPos = Math.pow(t, 2.2);   // exponent > 1 pushes bars toward high freq
+            const logPos = Math.pow(t, 2.2);
             const binIndex = Math.floor(logPos * maxBin);
 
-            // Average a small window of bins for smoothness
             const windowSize = Math.max(1, Math.floor(maxBin / barCount));
             let sum = 0, count = 0;
             for (let j = binIndex; j < binIndex + windowSize && j < freqData.length; j++) {
@@ -519,7 +513,6 @@
             }
             let value = count > 0 ? sum / count / 255 : 0;
 
-            // Compress tall peaks so bass doesn't slam the ceiling
             value = Math.pow(value, 0.7);
             value = Math.min(1, value * 1.15);
 
@@ -595,7 +588,7 @@
     }
 
     const ASCII_CHARS = ' .:-=+*#%@';
-    const ASCII_COLS = 32;
+    const ASCII_COLS = 60;
     const ASCII_ROWS = 8;
 
     function drawAscii() {
@@ -671,7 +664,6 @@
         if (!globeCanvas) return;
         const gctx = globeCanvas.getContext('2d');
 
-        // Default green matching EARTH gif (adjust hue/sat/light if needed)
         let globeHue = 150;
         let globeSat = 100;
         let globeLight = 55;
@@ -690,7 +682,6 @@
         sizeGlobe();
         window.addEventListener('resize', sizeGlobe);
 
-        // Click to randomize hue
         globeCanvas.addEventListener('click', () => {
             globeHue = Math.floor(Math.random() * 360);
         });
@@ -717,7 +708,6 @@
             const baseColor = `hsl(${globeHue}, ${globeSat}%, ${globeLight}%)`;
             const dimColor = `hsla(${globeHue}, ${globeSat}%, ${globeLight}%, 0.35)`;
 
-            // Latitude lines
             for (let i = 1; i < LAT_LINES; i++) {
                 const lat = (i / LAT_LINES) * Math.PI - Math.PI / 2;
                 const ringRadius = r * Math.cos(lat);
@@ -730,7 +720,6 @@
                 gctx.stroke();
             }
 
-            // Longitude lines
             for (let i = 0; i < LON_LINES; i++) {
                 const lon = (i / LON_LINES) * Math.PI * 2 + rotation;
                 const xScale = Math.cos(lon);
@@ -743,7 +732,6 @@
                 gctx.stroke();
             }
 
-            // Outline circle
             gctx.beginPath();
             gctx.arc(cx, cy, r, 0, Math.PI * 2);
             gctx.strokeStyle = baseColor;
