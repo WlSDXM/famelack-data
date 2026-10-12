@@ -390,6 +390,7 @@
         camSelect.value = camIndex;
     }
 });
+
 camNext.addEventListener('click', () => {
     if (camIndex < camList.length - 1) {
         camIndex++;
@@ -397,6 +398,15 @@ camNext.addEventListener('click', () => {
         updateCamNav();
         camSelect.value = camIndex;
     }
+});
+
+camSelect.addEventListener('change', (e) => {
+    const idx = parseInt(e.target.value, 10);
+    if (isNaN(idx)) return;
+    camIndex = idx;
+    playWebcam(camIndex);
+    updateCamNav();
+});
 });
 
     function updateCamNav() {
