@@ -383,11 +383,21 @@
 });
 
     camPrev.addEventListener('click', () => {
-        if (camIndex > 0) { camIndex--; playWebcam(camIndex); updateCamNav(); }
-    });
-    camNext.addEventListener('click', () => {
-        if (camIndex < camList.length - 1) { camIndex++; playWebcam(camIndex); updateCamNav(); }
-    });
+    if (camIndex > 0) {
+        camIndex--;
+        playWebcam(camIndex);
+        updateCamNav();
+        camSelect.value = camIndex;
+    }
+});
+camNext.addEventListener('click', () => {
+    if (camIndex < camList.length - 1) {
+        camIndex++;
+        playWebcam(camIndex);
+        updateCamNav();
+        camSelect.value = camIndex;
+    }
+});
 
     function updateCamNav() {
         if (camList.length <= 1) {
