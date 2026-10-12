@@ -388,7 +388,8 @@
         if (!webcamFrame) {
             webcamFrame = document.createElement('iframe');
             webcamFrame.id = 'webcamFrame';
-            webcamFrame.setAttribute('allow', 'autoplay; encrypted-media');
+            webcamFrame.setAttribute('allow', 'autoplay; encrypted-media; fullscreen');
+            webcamFrame.setAttribute('allowfullscreen', '');
             video.parentElement.insertBefore(webcamFrame, video);
             video.style.display = 'none';
         }
