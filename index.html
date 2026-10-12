@@ -329,6 +329,7 @@
     const camPrev = document.getElementById('camPrev');
     const camNext = document.getElementById('camNext');
     const camTitle = document.getElementById('camTitle');
+    const camSelect = document.getElementById('camSelect');
 
     let camList = [];
     let camIndex = 0;
@@ -351,19 +352,35 @@
     }
 
     countrySelect.addEventListener('change', async (e) => {
-        const code = e.target.value;
-        if (!code) return;
-        try {
-            const response = await fetch(`${BASE}/webcams/raw/countries/${code.toLowerCase()}.json`);
-            const items = await response.json();
-            camList = items.filter(i => i.sources && i.sources.youtube && i.sources.youtube[0]);
-            camIndex = 0;
-            updateCamNav();
-            if (camList.length > 0) playWebcam(0);
-        } catch (error) {
-            console.error('Failed to load webcam data for', code, error);
-        }
-    });
+    const code = e.target.value;
+
+    // Reset cam dropdown whenever country changes
+    camSelect.innerHTML = '<option value="">-- Select a Cam --</option>';
+    camSelect.disabled = true;
+
+    if (!code) return;
+    try {
+        const response = await fetch(`${BASE}/webcams/raw/countries/${code.toLowerCase()}.json`);
+        const items = await response.json();
+        camList = items.filter(i => i.sources && i.sources.youtube && i.sources.youtube[0]);
+        camIndex = 0;
+
+        // Populate the cam dropdown
+        camList.forEach((cam, i) => {
+            const opt = document.createElement('option');
+            opt.value = i;
+            opt.textContent = cam.name || `Cam ${i + 1}`;
+            camSelect.appendChild(opt);
+        });
+        camSelect.disabled = camList.length === 0;
+        if (camList.length > 0) camSelect.value = 0;
+
+        updateCamNav();
+        if (camList.length > 0) playWebcam(0);
+    } catch (error) {
+        console.error('Failed to load webcam data for', code, error);
+    }
+});
 
     camPrev.addEventListener('click', () => {
         if (camIndex > 0) { camIndex--; playWebcam(camIndex); updateCamNav(); }
