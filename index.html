@@ -574,7 +574,6 @@
     const radioStationSelect = document.getElementById('radioStationSelect');
     const radioStar = document.getElementById('radioStar');
 
-    // ---- Radio favorites storage ----
     const RADIO_FAV_KEY = 'earth_favoriteStations';
 
     function getRadioFavorites() {
@@ -1007,4 +1006,125 @@
 
             const baseColor = `hsl(${globeHue}, ${globeSat}%, ${globeLight}%)`;
             const dimColor = `hsla(${globeHue}, ${globeSat}%, ${globeLight}%, 0.35)`;
-            const dotColor = `hsl(${globeHue}, ${globeSat}%, ${globeLight + 10}
+            const dotColor = `hsl(${globeHue}, ${globeSat}%, ${globeLight + 10}%)`;
+            const dotDimColor = `hsla(${globeHue}, ${globeSat}%, ${globeLight + 10}%, 0.25)`;
+
+            for (let i = 1; i < LAT_LINES; i++) {
+                const lat = (i / LAT_LINES) * Math.PI - Math.PI / 2;
+                const ringRadius = r * Math.cos(lat);
+                const yOffset = r * Math.sin(lat);
+
+                gctx.beginPath();
+                gctx.ellipse(cx, cy + yOffset, ringRadius, ringRadius * 0.28, 0, 0, Math.PI * 2);
+                gctx.strokeStyle = dimColor;
+                gctx.lineWidth = 0.5;
+                gctx.stroke();
+            }
+
+            for (let i = 0; i < LON_LINES; i++) {
+                const lon = (i / LON_LINES) * Math.PI * 2 + rotation;
+                const xScale = Math.cos(lon);
+                const isFront = xScale > 0;
+
+                gctx.beginPath();
+                gctx.ellipse(cx, cy, Math.abs(r * xScale), r, 0, 0, Math.PI * 2);
+                gctx.strokeStyle = isFront ? dimColor : `hsla(${globeHue}, ${globeSat}%, ${globeLight}%, 0.15)`;
+                gctx.lineWidth = isFront ? 0.6 : 0.4;
+                gctx.stroke();
+            }
+
+            if (mapData) {
+                for (let lat = -90; lat <= 90; lat += DOT_STEP) {
+                    for (let lon = -180; lon < 180; lon += DOT_STEP) {
+                        if (!isLand(lat, lon)) continue;
+
+                        const latRad = lat * Math.PI / 180;
+                        const lonRad = lon * Math.PI / 180;
+                        const rotLon = lonRad + rotation;
+
+                        const x3d = r * Math.cos(latRad) * Math.sin(rotLon);
+                        const y3d = -r * Math.sin(latRad);
+                        const z3d = r * Math.cos(latRad) * Math.cos(rotLon);
+
+                        const isFront = z3d > 0;
+                        const x2d = cx + x3d;
+                        const y2d = cy + y3d;
+
+                        const size = isFront ? 1.4 : 0.8;
+                        gctx.beginPath();
+                        gctx.arc(x2d, y2d, size, 0, Math.PI * 2);
+                        gctx.fillStyle = isFront ? dotColor : dotDimColor;
+                        gctx.fill();
+                    }
+                }
+            }
+
+            gctx.beginPath();
+            gctx.arc(cx, cy, r, 0, Math.PI * 2);
+            gctx.strokeStyle = baseColor;
+            gctx.lineWidth = 1.2;
+            gctx.stroke();
+
+            rotation += 0.003;
+        }
+        drawGlobe();
+    })();
+
+    // ============ KEYBOARD SHORTCUTS ============
+    document.addEventListener('keydown', (e) => {
+        const tag = document.activeElement.tagName;
+        if (tag === 'INPUT' || tag === 'SELECT' || tag === 'TEXTAREA') return;
+        if (e.ctrlKey || e.altKey || e.metaKey) return;
+
+        switch (e.key) {
+            case 'ArrowLeft':
+                e.preventDefault();
+                if (camIndex > 0) {
+                    camIndex--;
+                    playWebcam(camIndex);
+                    updateCamNav();
+                    camSelect.value = `cam:${camIndex}`;
+                }
+                break;
+
+            case 'ArrowRight':
+                e.preventDefault();
+                if (camIndex < camList.length - 1) {
+                    camIndex++;
+                    playWebcam(camIndex);
+                    updateCamNav();
+                    camSelect.value = `cam:${camIndex}`;
+                }
+                break;
+
+            case ' ':
+                if (!audio.src) return;
+                e.preventDefault();
+                if (audio.paused) {
+                    audio.play().catch(err => console.log('Playback failed:', err));
+                } else {
+                    audio.pause();
+                }
+                break;
+
+            case 'f':
+            case 'F':
+                if (!webcamFrame) return;
+                e.preventDefault();
+                if (!document.fullscreenElement) {
+                    webcamFrame.requestFullscreen().catch(err => {
+                        console.warn('Fullscreen failed:', err);
+                    });
+                } else {
+                    document.exitFullscreen();
+                }
+                break;
+        }
+    });
+
+    // ============ INIT ============
+    loadWebcamCountries();
+    loadRadioCountries();
+</script>
+</body>
+</html>
