@@ -407,12 +407,6 @@ camSelect.addEventListener('change', (e) => {
     playWebcam(camIndex);
     updateCamNav();
 });
-
-document.addEventListener('keydown', (e) => {
-    const tag = document.activeElement.tagName;
-    if (tag === 'INPUT' || tag === 'SELECT' || tag === 'TEXTAREA') return;
-    ...
-});
     
     function updateCamNav() {
         if (camList.length <= 1) {
