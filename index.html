@@ -98,7 +98,7 @@
             border-radius: 8px;
         }
 
-               h2 {
+        h2 {
             color: var(--accent-color);
             margin-top: 0;
         }
@@ -191,6 +191,28 @@
             font-size: 14px;
         }
 
+        .cam-star {
+            background-color: var(--bg-color);
+            color: var(--text-muted);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            padding: 6px 14px;
+            font-size: 15px;
+            font-family: 'stealth57', monospace;
+            cursor: pointer;
+            line-height: 1;
+            transition: color 0.15s, border-color 0.15s, text-shadow 0.15s;
+        }
+        .cam-star:hover {
+            border-color: #ffd966;
+            color: #ffd966;
+        }
+        .cam-star.active {
+            color: #ffd966;
+            border-color: #ffd966;
+            text-shadow: 0 0 6px rgba(255, 217, 102, 0.6);
+        }
+
         /* ===== VISUALIZER ===== */
         .viz-controls {
             display: flex;
@@ -256,31 +278,32 @@
 
     <div class="layout-grid">
 
-                <!-- ===== LIVE (left column) ===== -->
+        <!-- ===== LIVE (left column) ===== -->
         <div class="player-box">
             <h2 class="title-gif">
                 <img src="https://i.postimg.cc/QMsm9d2H/Live-ezgif-com-video-to-gif-converter.gif" alt="Live" class="title-img">
             </h2>
             <div class="row">
-    <select id="countrySelect">
-        <option value="">-- Select a Country --</option>
-    </select>
-    <select id="camSelect" disabled>
-        <option value="">-- Select a Cam --</option>
-    </select>
-</div>
+                <select id="countrySelect">
+                    <option value="">-- Select a Country --</option>
+                </select>
+                <select id="camSelect" disabled>
+                    <option value="">-- Select a Cam --</option>
+                </select>
+            </div>
             <video id="webcamPlayer" controls autoplay muted></video>
             <div class="cam-nav" id="camNav">
                 <button id="camPrev" title="Previous camera">◀</button>
                 <span class="cam-title" id="camTitle"></span>
                 <button id="camNext" title="Next camera">▶</button>
+                <button id="camStar" class="cam-star" title="Save to favorites">★</button>
             </div>
         </div>
 
         <!-- ===== RIGHT COLUMN (Radio + Globe) ===== -->
         <div class="right-column">
 
-                        <div class="player-box">
+            <div class="player-box">
                 <h2 class="title-gif">
                     <img src="https://i.postimg.cc/1zftKGhW/RADIO-ezgif-com-video-to-gif-converter.gif" alt="Radio" class="title-img">
                 </h2>
@@ -330,10 +353,58 @@
     const camNext = document.getElementById('camNext');
     const camTitle = document.getElementById('camTitle');
     const camSelect = document.getElementById('camSelect');
+    const camStar = document.getElementById('camStar');
 
     let camList = [];
     let camIndex = 0;
     let webcamFrame = null;
+
+    // ---- Favorites storage ----
+    const FAV_KEY = 'earth_favoriteCams';
+
+    function getFavorites() {
+        try {
+            return JSON.parse(localStorage.getItem(FAV_KEY)) || [];
+        } catch {
+            return [];
+        }
+    }
+
+    function saveFavorites(list) {
+        localStorage.setItem(FAV_KEY, JSON.stringify(list));
+    }
+
+    function currentCamId() {
+        const item = camList[camIndex];
+        return item ? item.nanoid : null;
+    }
+
+    function updateStarState() {
+        const id = currentCamId();
+        const isFav = id && getFavorites().some(f => f.id === id);
+        camStar.classList.toggle('active', !!isFav);
+        camStar.title = isFav ? 'Remove from favorites' : 'Save to favorites';
+    }
+
+    camStar.addEventListener('click', () => {
+        const item = camList[camIndex];
+        if (!item) return;
+        const favorites = getFavorites();
+        const existing = favorites.findIndex(f => f.id === item.nanoid);
+
+        if (existing >= 0) {
+            favorites.splice(existing, 1);
+        } else {
+            favorites.push({
+                id: item.nanoid,
+                name: item.name,
+                country: countrySelect.value,
+                youtube: item.sources.youtube[0]
+            });
+        }
+        saveFavorites(favorites);
+        updateStarState();
+    });
 
     async function loadWebcamCountries() {
         try {
@@ -352,71 +423,75 @@
     }
 
     countrySelect.addEventListener('change', async (e) => {
-    const code = e.target.value;
+        const code = e.target.value;
 
-    // Reset cam dropdown whenever country changes
-    camSelect.innerHTML = '<option value="">-- Select a Cam --</option>';
-    camSelect.disabled = true;
+        // Reset cam dropdown whenever country changes
+        camSelect.innerHTML = '<option value="">-- Select a Cam --</option>';
+        camSelect.disabled = true;
 
-    if (!code) return;
-    try {
-        const response = await fetch(`${BASE}/webcams/raw/countries/${code.toLowerCase()}.json`);
-        const items = await response.json();
-        camList = items.filter(i => i.sources && i.sources.youtube && i.sources.youtube[0]);
-        camIndex = 0;
+        if (!code) return;
+        try {
+            const response = await fetch(`${BASE}/webcams/raw/countries/${code.toLowerCase()}.json`);
+            const items = await response.json();
+            camList = items.filter(i => i.sources && i.sources.youtube && i.sources.youtube[0]);
+            camIndex = 0;
 
-        // Populate the cam dropdown
-        camList.forEach((cam, i) => {
-            const opt = document.createElement('option');
-            opt.value = i;
-            opt.textContent = cam.name || `Cam ${i + 1}`;
-            camSelect.appendChild(opt);
-        });
-        camSelect.disabled = camList.length === 0;
-        if (camList.length > 0) camSelect.value = 0;
+            // Populate the cam dropdown
+            camList.forEach((cam, i) => {
+                const opt = document.createElement('option');
+                opt.value = i;
+                opt.textContent = cam.name || `Cam ${i + 1}`;
+                camSelect.appendChild(opt);
+            });
+            camSelect.disabled = camList.length === 0;
+            if (camList.length > 0) camSelect.value = 0;
 
-        updateCamNav();
-        if (camList.length > 0) playWebcam(0);
-    } catch (error) {
-        console.error('Failed to load webcam data for', code, error);
-    }
-});
+            updateCamNav();
+            if (camList.length > 0) playWebcam(0);
+        } catch (error) {
+            console.error('Failed to load webcam data for', code, error);
+        }
+    });
 
     camPrev.addEventListener('click', () => {
-    if (camIndex > 0) {
-        camIndex--;
+        if (camIndex > 0) {
+            camIndex--;
+            playWebcam(camIndex);
+            updateCamNav();
+            camSelect.value = camIndex;
+        }
+    });
+
+    camNext.addEventListener('click', () => {
+        if (camIndex < camList.length - 1) {
+            camIndex++;
+            playWebcam(camIndex);
+            updateCamNav();
+            camSelect.value = camIndex;
+        }
+    });
+
+    camSelect.addEventListener('change', (e) => {
+        const idx = parseInt(e.target.value, 10);
+        if (isNaN(idx)) return;
+        camIndex = idx;
         playWebcam(camIndex);
         updateCamNav();
-        camSelect.value = camIndex;
-    }
-});
+    });
 
-camNext.addEventListener('click', () => {
-    if (camIndex < camList.length - 1) {
-        camIndex++;
-        playWebcam(camIndex);
-        updateCamNav();
-        camSelect.value = camIndex;
-    }
-});
-
-camSelect.addEventListener('change', (e) => {
-    const idx = parseInt(e.target.value, 10);
-    if (isNaN(idx)) return;
-    camIndex = idx;
-    playWebcam(camIndex);
-    updateCamNav();
-});
-    
     function updateCamNav() {
-        if (camList.length <= 1) {
+        if (camList.length === 0) {
             camNav.classList.remove('visible');
             return;
         }
         camNav.classList.add('visible');
-        camTitle.textContent = `${camList[camIndex].name} — ${camIndex + 1} / ${camList.length}`;
+        camTitle.textContent = camList.length > 1
+            ? `${camList[camIndex].name} — ${camIndex + 1} / ${camList.length}`
+            : camList[camIndex].name;
         camPrev.disabled = camIndex === 0;
         camNext.disabled = camIndex === camList.length - 1;
+        camPrev.style.display = camList.length > 1 ? '' : 'none';
+        camNext.style.display = camList.length > 1 ? '' : 'none';
     }
 
     function playWebcam(index) {
@@ -433,6 +508,7 @@ camSelect.addEventListener('change', (e) => {
             video.style.display = 'none';
         }
         webcamFrame.src = embedUrl + '?autoplay=1&mute=1';
+        updateStarState();   // ← always runs, keeps star in sync with arrows/keyboard/select
     }
 
     // ============ RADIO ============
@@ -865,11 +941,8 @@ camSelect.addEventListener('change', (e) => {
 
     // ============ KEYBOARD SHORTCUTS ============
     document.addEventListener('keydown', (e) => {
-        // Ignore if user is typing in a form element
         const tag = document.activeElement.tagName;
         if (tag === 'INPUT' || tag === 'SELECT' || tag === 'TEXTAREA') return;
-
-        // Ignore if a modifier is held (Ctrl, Alt, Cmd)
         if (e.ctrlKey || e.altKey || e.metaKey) return;
 
         switch (e.key) {
@@ -890,39 +963,3 @@ camSelect.addEventListener('change', (e) => {
                     playWebcam(camIndex);
                     updateCamNav();
                     camSelect.value = camIndex;
-                }
-                break;
-
-            case ' ':
-                // Space — toggle radio play/pause
-                if (!audio.src) return;
-                e.preventDefault();
-                if (audio.paused) {
-                    audio.play().catch(err => console.log('Playback failed:', err));
-                } else {
-                    audio.pause();
-                }
-                break;
-
-            case 'f':
-            case 'F':
-                // Fullscreen the current webcam
-                if (!webcamFrame) return;
-                e.preventDefault();
-                if (!document.fullscreenElement) {
-                    webcamFrame.requestFullscreen().catch(err => {
-                        console.warn('Fullscreen failed:', err);
-                    });
-                } else {
-                    document.exitFullscreen();
-                }
-                break;
-        }
-    });
-    
-    // ============ INIT ============
-    loadWebcamCountries();
-    loadRadioCountries();
-</script>
-</body>
-</html>
