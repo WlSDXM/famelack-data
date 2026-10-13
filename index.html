@@ -329,6 +329,7 @@
                         <option value="wave">Wave</option>
                         <option value="ascii">ASCII</option>
                     </select>
+                    <button id="radioStar" class="cam-star" title="Save to favorites" style="margin-left: auto;">★</button>
                 </div>
 
                 <canvas id="visualizer"></canvas>
@@ -359,7 +360,7 @@
     let camIndex = 0;
     let webcamFrame = null;
 
-    // ---- Favorites storage ----
+    // ---- Cam favorites storage ----
     const FAV_KEY = 'earth_favoriteCams';
 
     function getFavorites() {
@@ -380,48 +381,48 @@
     }
 
     function updateStarState() {
-    const id = currentCamId();
-    const isFav = id && getFavorites().some(f => f.id === id);
-    camStar.classList.toggle('active', !!isFav);
-    camStar.title = isFav ? 'Remove from favorites' : 'Save to favorites';
-}
-
-function buildFavoritesGroup() {
-    const favorites = getFavorites();
-    if (favorites.length === 0) return;
-
-    const group = document.createElement('optgroup');
-    group.label = '★ Favorites';
-
-    favorites.forEach(fav => {
-        const opt = document.createElement('option');
-        opt.value = `fav:${fav.id}`;
-        opt.textContent = `${fav.name} (${fav.country.toUpperCase()})`;
-        group.appendChild(opt);
-    });
-
-    camSelect.appendChild(group);
-}
-
-camStar.addEventListener('click', () => {
-    const item = camList[camIndex];
-    if (!item) return;
-    const favorites = getFavorites();
-    const existing = favorites.findIndex(f => f.id === item.nanoid);
-
-    if (existing >= 0) {
-        favorites.splice(existing, 1);
-    } else {
-        favorites.push({
-            id: item.nanoid,
-            name: item.name,
-            country: countrySelect.value,
-            youtube: item.sources.youtube[0]
-        });
+        const id = currentCamId();
+        const isFav = id && getFavorites().some(f => f.id === id);
+        camStar.classList.toggle('active', !!isFav);
+        camStar.title = isFav ? 'Remove from favorites' : 'Save to favorites';
     }
-    saveFavorites(favorites);
-    updateStarState();
-});
+
+    function buildFavoritesGroup() {
+        const favorites = getFavorites();
+        if (favorites.length === 0) return;
+
+        const group = document.createElement('optgroup');
+        group.label = '★ Favorites';
+
+        favorites.forEach(fav => {
+            const opt = document.createElement('option');
+            opt.value = `fav:${fav.id}`;
+            opt.textContent = `${fav.name} (${fav.country.toUpperCase()})`;
+            group.appendChild(opt);
+        });
+
+        camSelect.appendChild(group);
+    }
+
+    camStar.addEventListener('click', () => {
+        const item = camList[camIndex];
+        if (!item) return;
+        const favorites = getFavorites();
+        const existing = favorites.findIndex(f => f.id === item.nanoid);
+
+        if (existing >= 0) {
+            favorites.splice(existing, 1);
+        } else {
+            favorites.push({
+                id: item.nanoid,
+                name: item.name,
+                country: countrySelect.value,
+                youtube: item.sources.youtube[0]
+            });
+        }
+        saveFavorites(favorites);
+        updateStarState();
+    });
 
     async function loadWebcamCountries() {
         try {
@@ -442,7 +443,6 @@ camStar.addEventListener('click', () => {
     countrySelect.addEventListener('change', async (e) => {
         const code = e.target.value;
 
-                       // Reset cam dropdown whenever country changes
         camSelect.innerHTML = '<option value="">-- Select a Cam --</option>';
         camSelect.disabled = true;
 
@@ -453,10 +453,8 @@ camStar.addEventListener('click', () => {
             camList = items.filter(i => i.sources && i.sources.youtube && i.sources.youtube[0]);
             camIndex = 0;
 
-            // Build the "Favorites" optgroup first
             buildFavoritesGroup();
 
-            // Populate the cam dropdown with the current country's cams
             camList.forEach((cam, i) => {
                 const opt = document.createElement('option');
                 opt.value = `cam:${i}`;
@@ -492,54 +490,51 @@ camStar.addEventListener('click', () => {
     });
 
     camSelect.addEventListener('change', async (e) => {
-    const value = e.target.value;
-    if (!value) return;
+        const value = e.target.value;
+        if (!value) return;
 
-    if (value.startsWith('cam:')) {
-        const idx = parseInt(value.slice(4), 10);
-        if (isNaN(idx)) return;
-        camIndex = idx;
-        playWebcam(camIndex);
-        updateCamNav();
-        return;
-    }
-
-    if (value.startsWith('fav:')) {
-        const favId = value.slice(4);
-        const fav = getFavorites().find(f => f.id === favId);
-        if (!fav) return;
-
-        // If already in the current country, just jump to it
-        if (fav.country === countrySelect.value) {
-            const idx = camList.findIndex(c => c.nanoid === fav.id);
-            if (idx >= 0) {
-                camIndex = idx;
-                playWebcam(camIndex);
-                updateCamNav();
-                camSelect.value = `cam:${camIndex}`;
-            }
+        if (value.startsWith('cam:')) {
+            const idx = parseInt(value.slice(4), 10);
+            if (isNaN(idx)) return;
+            camIndex = idx;
+            playWebcam(camIndex);
+            updateCamNav();
             return;
         }
 
-        // Otherwise, switch country first, then jump to the cam
-        countrySelect.value = fav.country;
-        countrySelect.dispatchEvent(new Event('change'));
+        if (value.startsWith('fav:')) {
+            const favId = value.slice(4);
+            const fav = getFavorites().find(f => f.id === favId);
+            if (!fav) return;
 
-        // Give the country fetch a moment to populate camList
-        const tryJump = () => {
-            const idx = camList.findIndex(c => c.nanoid === fav.id);
-            if (idx >= 0) {
-                camIndex = idx;
-                playWebcam(camIndex);
-                updateCamNav();
-                camSelect.value = `cam:${idx}`;
-            } else {
-                setTimeout(tryJump, 100);   // retry until the fetch finishes
+            if (fav.country === countrySelect.value) {
+                const idx = camList.findIndex(c => c.nanoid === fav.id);
+                if (idx >= 0) {
+                    camIndex = idx;
+                    playWebcam(camIndex);
+                    updateCamNav();
+                    camSelect.value = `cam:${camIndex}`;
+                }
+                return;
             }
-        };
-        setTimeout(tryJump, 100);
-    }
-});
+
+            countrySelect.value = fav.country;
+            countrySelect.dispatchEvent(new Event('change'));
+
+            const tryJump = () => {
+                const idx = camList.findIndex(c => c.nanoid === fav.id);
+                if (idx >= 0) {
+                    camIndex = idx;
+                    playWebcam(camIndex);
+                    updateCamNav();
+                    camSelect.value = `cam:${camIndex}`;
+                } else {
+                    setTimeout(tryJump, 100);
+                }
+            };
+            setTimeout(tryJump, 100);
+        }
+    });
 
     function updateCamNav() {
         if (camList.length === 0) {
@@ -570,13 +565,75 @@ camStar.addEventListener('click', () => {
             video.style.display = 'none';
         }
         webcamFrame.src = embedUrl + '?autoplay=1&mute=1';
-        updateStarState();   // ← always runs, keeps star in sync with arrows/keyboard/select
+        updateStarState();
     }
 
     // ============ RADIO ============
     const audio = document.getElementById('radioPlayer');
     const radioCountrySelect = document.getElementById('radioCountrySelect');
     const radioStationSelect = document.getElementById('radioStationSelect');
+    const radioStar = document.getElementById('radioStar');
+
+    // ---- Radio favorites storage ----
+    const RADIO_FAV_KEY = 'earth_favoriteStations';
+
+    function getRadioFavorites() {
+        try {
+            return JSON.parse(localStorage.getItem(RADIO_FAV_KEY)) || [];
+        } catch {
+            return [];
+        }
+    }
+
+    function saveRadioFavorites(list) {
+        localStorage.setItem(RADIO_FAV_KEY, JSON.stringify(list));
+    }
+
+    function updateRadioStarState() {
+        const url = audio.src;
+        const isFav = url && getRadioFavorites().some(f => f.url === url);
+        radioStar.classList.toggle('active', !!isFav);
+        radioStar.title = isFav ? 'Remove from favorites' : 'Save to favorites';
+    }
+
+    function buildRadioFavoritesGroup() {
+        const favorites = getRadioFavorites();
+        if (favorites.length === 0) return;
+
+        const group = document.createElement('optgroup');
+        group.label = '★ Favorites';
+
+        favorites.forEach(fav => {
+            const opt = document.createElement('option');
+            opt.value = `fav:${fav.url}`;
+            opt.textContent = `${fav.name} (${fav.country.toUpperCase()})`;
+            group.appendChild(opt);
+        });
+
+        radioStationSelect.appendChild(group);
+    }
+
+    radioStar.addEventListener('click', () => {
+        const url = audio.src;
+        if (!url) return;
+
+        const favorites = getRadioFavorites();
+        const existing = favorites.findIndex(f => f.url === url);
+
+        if (existing >= 0) {
+            favorites.splice(existing, 1);
+        } else {
+            const selectedOpt = radioStationSelect.options[radioStationSelect.selectedIndex];
+            const name = selectedOpt ? selectedOpt.textContent : 'Unknown Station';
+            favorites.push({
+                url,
+                name,
+                country: radioCountrySelect.value
+            });
+        }
+        saveRadioFavorites(favorites);
+        updateRadioStarState();
+    });
 
     async function loadRadioCountries() {
         try {
@@ -605,6 +662,8 @@ camStar.addEventListener('click', () => {
             const items = await response.json();
             if (!Array.isArray(items)) return;
 
+            buildRadioFavoritesGroup();
+
             const seen = new Set();
             items.forEach((item) => {
                 const streamUrl = item.sources && item.sources.streams && item.sources.streams[0];
@@ -625,10 +684,25 @@ camStar.addEventListener('click', () => {
     });
 
     radioStationSelect.addEventListener('change', (e) => {
-        const url = e.target.value;
-        if (!url) { audio.pause(); audio.src = ''; return; }
-        audio.src = url;
-        audio.play().catch(e => console.log('Playback failed:', e));
+        const value = e.target.value;
+        if (!value) {
+            audio.pause();
+            audio.src = '';
+            updateRadioStarState();
+            return;
+        }
+
+        if (value.startsWith('fav:')) {
+            const url = value.slice(4);
+            audio.src = url;
+            audio.play().catch(err => console.log('Playback failed:', err));
+            updateRadioStarState();
+            return;
+        }
+
+        audio.src = value;
+        audio.play().catch(err => console.log('Playback failed:', err));
+        updateRadioStarState();
     });
 
     // ============ VISUALIZER ============
@@ -846,6 +920,7 @@ camStar.addEventListener('click', () => {
     audio.addEventListener('play', () => {
         initVisualizer();
         if (audioCtx && audioCtx.state === 'suspended') audioCtx.resume();
+        updateRadioStarState();
     });
 
     draw();
@@ -860,7 +935,6 @@ camStar.addEventListener('click', () => {
         let globeSat = 100;
         let globeLight = 55;
 
-        // Load world map for continents
         const worldMap = new Image();
         worldMap.crossOrigin = 'anonymous';
         let mapData = null;
@@ -933,130 +1007,4 @@ camStar.addEventListener('click', () => {
 
             const baseColor = `hsl(${globeHue}, ${globeSat}%, ${globeLight}%)`;
             const dimColor = `hsla(${globeHue}, ${globeSat}%, ${globeLight}%, 0.35)`;
-            const dotColor = `hsl(${globeHue}, ${globeSat}%, ${globeLight + 10}%)`;
-            const dotDimColor = `hsla(${globeHue}, ${globeSat}%, ${globeLight + 10}%, 0.25)`;
-
-            // Latitude lines (subtle)
-            for (let i = 1; i < LAT_LINES; i++) {
-                const lat = (i / LAT_LINES) * Math.PI - Math.PI / 2;
-                const ringRadius = r * Math.cos(lat);
-                const yOffset = r * Math.sin(lat);
-
-                gctx.beginPath();
-                gctx.ellipse(cx, cy + yOffset, ringRadius, ringRadius * 0.28, 0, 0, Math.PI * 2);
-                gctx.strokeStyle = dimColor;
-                gctx.lineWidth = 0.5;
-                gctx.stroke();
-            }
-
-            // Longitude lines (subtle)
-            for (let i = 0; i < LON_LINES; i++) {
-                const lon = (i / LON_LINES) * Math.PI * 2 + rotation;
-                const xScale = Math.cos(lon);
-                const isFront = xScale > 0;
-
-                gctx.beginPath();
-                gctx.ellipse(cx, cy, Math.abs(r * xScale), r, 0, 0, Math.PI * 2);
-                gctx.strokeStyle = isFront ? dimColor : `hsla(${globeHue}, ${globeSat}%, ${globeLight}%, 0.15)`;
-                gctx.lineWidth = isFront ? 0.6 : 0.4;
-                gctx.stroke();
-            }
-
-            // Continent dots
-            if (mapData) {
-                for (let lat = -90; lat <= 90; lat += DOT_STEP) {
-                    for (let lon = -180; lon < 180; lon += DOT_STEP) {
-                        if (!isLand(lat, lon)) continue;
-
-                        const latRad = lat * Math.PI / 180;
-                        const lonRad = lon * Math.PI / 180;
-                        const rotLon = lonRad + rotation;
-
-                        const x3d = r * Math.cos(latRad) * Math.sin(rotLon);
-                        const y3d = -r * Math.sin(latRad);
-                        const z3d = r * Math.cos(latRad) * Math.cos(rotLon);
-
-                        const isFront = z3d > 0;
-                        const x2d = cx + x3d;
-                        const y2d = cy + y3d;
-
-                        const size = isFront ? 1.4 : 0.8;
-                        gctx.beginPath();
-                        gctx.arc(x2d, y2d, size, 0, Math.PI * 2);
-                        gctx.fillStyle = isFront ? dotColor : dotDimColor;
-                        gctx.fill();
-                    }
-                }
-            }
-
-            // Outline circle
-            gctx.beginPath();
-            gctx.arc(cx, cy, r, 0, Math.PI * 2);
-            gctx.strokeStyle = baseColor;
-            gctx.lineWidth = 1.2;
-            gctx.stroke();
-
-            rotation += 0.003;
-        }
-        drawGlobe();
-    })();
-
-    // ============ KEYBOARD SHORTCUTS ============
-    document.addEventListener('keydown', (e) => {
-        const tag = document.activeElement.tagName;
-        if (tag === 'INPUT' || tag === 'SELECT' || tag === 'TEXTAREA') return;
-        if (e.ctrlKey || e.altKey || e.metaKey) return;
-
-        switch (e.key) {
-            case 'ArrowLeft':
-                e.preventDefault();
-                if (camIndex > 0) {
-                    camIndex--;
-                    playWebcam(camIndex);
-                    updateCamNav();
-                    camSelect.value = `cam:${camIndex}`;
-                }
-                break;
-
-            case 'ArrowRight':
-                e.preventDefault();
-                if (camIndex < camList.length - 1) {
-                    camIndex++;
-                    playWebcam(camIndex);
-                    updateCamNav();
-                    camSelect.value = `cam:${camIndex}`;
-                    updateStarState();
-                }
-                break;
-
-            case ' ':
-                if (!audio.src) return;
-                e.preventDefault();
-                if (audio.paused) {
-                    audio.play().catch(err => console.log('Playback failed:', err));
-                } else {
-                    audio.pause();
-                }
-                break;
-
-            case 'f':
-            case 'F':
-                if (!webcamFrame) return;
-                e.preventDefault();
-                if (!document.fullscreenElement) {
-                    webcamFrame.requestFullscreen().catch(err => {
-                        console.warn('Fullscreen failed:', err);
-                    });
-                } else {
-                    document.exitFullscreen();
-                }
-                break;
-        }
-    });
-
-    // ============ INIT ============
-    loadWebcamCountries();
-    loadRadioCountries();
-</script>
-</body>
-</html>
+            const dotColor = `hsl(${globeHue}, ${globeSat}%, ${globeLight + 10}
