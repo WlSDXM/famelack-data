@@ -2,6 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title>Earth — World Views & Radio</title>
     <link rel="icon" href="https://i.imgur.com/KwX2CTv.gif">
     <meta property="og:image" content="https://i.postimg.cc/bJBx0GRz/jpnearth-ascii-art-ezgif-com-optimize-(1).gif" />
@@ -257,6 +261,27 @@
             word-break: break-all;
         }
 
+        /* ===== VISUALIZER FALLBACK (mobile / unsupported) ===== */
+        .viz-fallback {
+            display: none;
+            width: 100%;
+            height: 90px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            margin-top: 10px;
+            color: var(--text-muted);
+            font-size: 13px;
+            font-family: 'stealth57', monospace;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .viz-fallback.visible {
+            display: flex;
+        }
+
         /* ===== GLOBE ===== */
         #globeCanvas {
             width: 100%;
@@ -267,6 +292,137 @@
             border: none;
             margin: 0 auto;
             margin-top: -25px;
+        }
+
+        /* ============================================
+           MOBILE OPTIMIZATION
+           ============================================ */
+        @media (max-width: 700px) {
+            body {
+                padding: 10px;
+                padding-bottom: 10px;
+            }
+
+            .container {
+                max-width: 100%;
+            }
+
+            h1.earth-title {
+                padding-bottom: 6px;
+                margin: 0 0 12px 0;
+            }
+
+            img.earth-anim {
+                height: 55px;
+            }
+
+            .layout-grid {
+                gap: 16px;
+            }
+
+            .right-column {
+                gap: 16px;
+            }
+
+            .player-box {
+                padding: 12px;
+                border-radius: 6px;
+            }
+
+            img.title-img {
+                height: 28px;
+            }
+
+            /* Stack the two dropdowns vertically on phones */
+            .row {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 8px;
+                margin-bottom: 10px;
+            }
+
+            select {
+                width: 100%;
+                font-size: 16px;
+                padding: 10px 12px;
+            }
+
+            /* Bigger tap targets for camera navigation */
+            .cam-nav {
+                gap: 6px;
+                margin-top: 8px;
+                flex-wrap: wrap;
+            }
+
+            .cam-nav button {
+                padding: 10px 16px;
+                font-size: 16px;
+                min-width: 46px;
+            }
+
+            .cam-star {
+                padding: 10px 16px;
+                font-size: 18px;
+                min-width: 46px;
+            }
+
+            .cam-title {
+                font-size: 12px;
+                flex-basis: 100%;
+                order: -1;
+                margin-bottom: 6px;
+            }
+
+            #visualizer, pre#asciiViz, .viz-fallback {
+                height: 70px !important;
+                min-height: 70px;
+                max-height: 70px;
+            }
+
+            pre#asciiViz {
+                font-size: 8px;
+                line-height: 1.05;
+                padding: 6px;
+            }
+
+            .viz-controls {
+                flex-wrap: wrap;
+                gap: 8px;
+            }
+
+            .viz-controls select {
+                flex: 1 1 100%;
+            }
+
+            #globeCanvas {
+                height: 180px;
+                margin-top: -10px;
+            }
+
+            iframe#webcamFrame,
+            video {
+                border-radius: 4px;
+            }
+
+            .right-column .player-box {
+                min-height: auto;
+            }
+        }
+
+        /* Extra-small phones (iPhone SE, etc.) */
+        @media (max-width: 380px) {
+            img.earth-anim {
+                height: 42px;
+            }
+            img.title-img {
+                height: 22px;
+            }
+            #globeCanvas {
+                height: 150px;
+            }
+            .player-box {
+                padding: 10px;
+            }
         }
     </style>
 </head>
@@ -334,6 +490,7 @@
 
                 <canvas id="visualizer"></canvas>
                 <pre id="asciiViz" style="display:none;"></pre>
+                <div id="vizFallback" class="viz-fallback">Visualizer not available on this device</div>
             </div>
 
             <!-- ===== GLOBE (below Radio, no box) ===== -->
@@ -345,6 +502,9 @@
 
 <script>
     const BASE = 'https://raw.githubusercontent.com/WlSDXM/famelack-data/main';
+
+    // ============ MOBILE DETECTION ============
+    const IS_MOBILE = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
     // ============ WEBCAM ============
     const video = document.getElementById('webcamPlayer');
@@ -708,26 +868,41 @@
     const canvas = document.getElementById('visualizer');
     const asciiViz = document.getElementById('asciiViz');
     const vizStyleSelect = document.getElementById('vizStyle');
-    const ctx = canvas.getContext('2d');
+    const vizFallback = document.getElementById('vizFallback');
+    const ctx = canvas ? canvas.getContext('2d') : null;
 
     let audioCtx, analyser, source, freqData, timeData;
     let currentStyle = 'bars';
+    let visualizerDisabled = false;
 
-    vizStyleSelect.addEventListener('change', (e) => {
-        currentStyle = e.target.value;
+    // On mobile, disable the visualizer entirely to prevent audio breakage
+    if (IS_MOBILE) {
+        visualizerDisabled = true;
+        if (canvas) canvas.style.display = 'none';
+        if (asciiViz) asciiViz.style.display = 'none';
+        if (vizFallback) vizFallback.classList.add('visible');
+        const vizControls = document.querySelector('.viz-controls');
+        if (vizControls) vizControls.style.display = 'none';
+    }
 
-        if (currentStyle === 'ascii') {
-            canvas.style.display = 'none';
-            asciiViz.style.display = 'block';
-            if (analyser) drawAscii();
-        } else {
-            canvas.style.display = 'block';
-            asciiViz.style.display = 'none';
-            requestAnimationFrame(() => requestAnimationFrame(() => sizeCanvas()));
-        }
-    });
+    if (!visualizerDisabled && vizStyleSelect) {
+        vizStyleSelect.addEventListener('change', (e) => {
+            currentStyle = e.target.value;
+
+            if (currentStyle === 'ascii') {
+                canvas.style.display = 'none';
+                asciiViz.style.display = 'block';
+                if (analyser) drawAscii();
+            } else {
+                canvas.style.display = 'block';
+                asciiViz.style.display = 'none';
+                requestAnimationFrame(() => requestAnimationFrame(() => sizeCanvas()));
+            }
+        });
+    }
 
     function sizeCanvas() {
+        if (!canvas || !ctx) return;
         const rect = canvas.getBoundingClientRect();
         const w = Math.floor(rect.width);
         const h = Math.floor(rect.height);
@@ -739,9 +914,12 @@
         ctx.scale(dpr, dpr);
     }
 
-    window.addEventListener('load', () => sizeCanvas());
+    window.addEventListener('load', () => {
+        if (!visualizerDisabled) sizeCanvas();
+    });
 
     function initVisualizer() {
+        if (visualizerDisabled) return;
         if (audioCtx) return;
         try {
             audioCtx = new (window.AudioContext || window.webkitAudioContext)();
@@ -755,6 +933,12 @@
             timeData = new Uint8Array(analyser.fftSize);
         } catch (e) {
             console.warn('Visualizer init failed:', e);
+            visualizerDisabled = true;
+            if (canvas) canvas.style.display = 'none';
+            if (asciiViz) asciiViz.style.display = 'none';
+            if (vizFallback) vizFallback.classList.add('visible');
+            const vizControls = document.querySelector('.viz-controls');
+            if (vizControls) vizControls.style.display = 'none';
         }
     }
 
@@ -762,7 +946,6 @@
         analyser.getByteFrequencyData(freqData);
         const barCount = 500;
         const barWidth = w / barCount;
-
         const maxBin = freqData.length;
 
         for (let i = 0; i < barCount; i++) {
@@ -777,7 +960,6 @@
                 count++;
             }
             let value = count > 0 ? sum / count / 255 : 0;
-
             value = Math.pow(value, 0.7);
             value = Math.min(1, value * 1.15);
 
@@ -795,7 +977,6 @@
         analyser.getByteTimeDomainData(timeData);
 
         const layers = 7;
-
         const base = new Array(timeData.length);
         for (let i = 0; i < timeData.length; i++) {
             base[i] = (timeData[i] - 128) / 128;
@@ -889,6 +1070,8 @@
 
     function draw() {
         requestAnimationFrame(draw);
+
+        if (visualizerDisabled) return;
 
         if (currentStyle === 'ascii') {
             if (analyser) drawAscii();
