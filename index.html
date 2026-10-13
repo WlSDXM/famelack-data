@@ -963,3 +963,38 @@
                     playWebcam(camIndex);
                     updateCamNav();
                     camSelect.value = camIndex;
+                    updateStarState();
+                }
+                break;
+
+            case ' ':
+                if (!audio.src) return;
+                e.preventDefault();
+                if (audio.paused) {
+                    audio.play().catch(err => console.log('Playback failed:', err));
+                } else {
+                    audio.pause();
+                }
+                break;
+
+            case 'f':
+            case 'F':
+                if (!webcamFrame) return;
+                e.preventDefault();
+                if (!document.fullscreenElement) {
+                    webcamFrame.requestFullscreen().catch(err => {
+                        console.warn('Fullscreen failed:', err);
+                    });
+                } else {
+                    document.exitFullscreen();
+                }
+                break;
+        }
+    });
+
+    // ============ INIT ============
+    loadWebcamCountries();
+    loadRadioCountries();
+</script>
+</body>
+</html>
