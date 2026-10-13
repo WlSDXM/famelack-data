@@ -380,31 +380,48 @@
     }
 
     function updateStarState() {
-        const id = currentCamId();
-        const isFav = id && getFavorites().some(f => f.id === id);
-        camStar.classList.toggle('active', !!isFav);
-        camStar.title = isFav ? 'Remove from favorites' : 'Save to favorites';
-    }
+    const id = currentCamId();
+    const isFav = id && getFavorites().some(f => f.id === id);
+    camStar.classList.toggle('active', !!isFav);
+    camStar.title = isFav ? 'Remove from favorites' : 'Save to favorites';
+}
 
-    camStar.addEventListener('click', () => {
-        const item = camList[camIndex];
-        if (!item) return;
-        const favorites = getFavorites();
-        const existing = favorites.findIndex(f => f.id === item.nanoid);
+function buildFavoritesGroup() {
+    const favorites = getFavorites();
+    if (favorites.length === 0) return;
 
-        if (existing >= 0) {
-            favorites.splice(existing, 1);
-        } else {
-            favorites.push({
-                id: item.nanoid,
-                name: item.name,
-                country: countrySelect.value,
-                youtube: item.sources.youtube[0]
-            });
-        }
-        saveFavorites(favorites);
-        updateStarState();
+    const group = document.createElement('optgroup');
+    group.label = '★ Favorites';
+
+    favorites.forEach(fav => {
+        const opt = document.createElement('option');
+        opt.value = `fav:${fav.id}`;
+        opt.textContent = `${fav.name} (${fav.country.toUpperCase()})`;
+        group.appendChild(opt);
     });
+
+    camSelect.appendChild(group);
+}
+
+camStar.addEventListener('click', () => {
+    const item = camList[camIndex];
+    if (!item) return;
+    const favorites = getFavorites();
+    const existing = favorites.findIndex(f => f.id === item.nanoid);
+
+    if (existing >= 0) {
+        favorites.splice(existing, 1);
+    } else {
+        favorites.push({
+            id: item.nanoid,
+            name: item.name,
+            country: countrySelect.value,
+            youtube: item.sources.youtube[0]
+        });
+    }
+    saveFavorites(favorites);
+    updateStarState();
+});
 
     async function loadWebcamCountries() {
         try {
@@ -425,7 +442,7 @@
     countrySelect.addEventListener('change', async (e) => {
         const code = e.target.value;
 
-        // Reset cam dropdown whenever country changes
+                       // Reset cam dropdown whenever country changes
         camSelect.innerHTML = '<option value="">-- Select a Cam --</option>';
         camSelect.disabled = true;
 
@@ -436,15 +453,18 @@
             camList = items.filter(i => i.sources && i.sources.youtube && i.sources.youtube[0]);
             camIndex = 0;
 
-            // Populate the cam dropdown
+            // Build the "Favorites" optgroup first
+            buildFavoritesGroup();
+
+            // Populate the cam dropdown with the current country's cams
             camList.forEach((cam, i) => {
                 const opt = document.createElement('option');
-                opt.value = i;
+                opt.value = `cam:${i}`;
                 opt.textContent = cam.name || `Cam ${i + 1}`;
                 camSelect.appendChild(opt);
             });
             camSelect.disabled = camList.length === 0;
-            if (camList.length > 0) camSelect.value = 0;
+            if (camList.length > 0) camSelect.value = 'cam:0';
 
             updateCamNav();
             if (camList.length > 0) playWebcam(0);
@@ -458,7 +478,7 @@
             camIndex--;
             playWebcam(camIndex);
             updateCamNav();
-            camSelect.value = camIndex;
+            camSelect.value = `cam:${camIndex}`;
         }
     });
 
@@ -467,17 +487,59 @@
             camIndex++;
             playWebcam(camIndex);
             updateCamNav();
-            camSelect.value = camIndex;
+            camSelect.value = `cam:${camIndex}`;
         }
     });
 
-    camSelect.addEventListener('change', (e) => {
-        const idx = parseInt(e.target.value, 10);
+    camSelect.addEventListener('change', async (e) => {
+    const value = e.target.value;
+    if (!value) return;
+
+    if (value.startsWith('cam:')) {
+        const idx = parseInt(value.slice(4), 10);
         if (isNaN(idx)) return;
         camIndex = idx;
         playWebcam(camIndex);
         updateCamNav();
-    });
+        return;
+    }
+
+    if (value.startsWith('fav:')) {
+        const favId = value.slice(4);
+        const fav = getFavorites().find(f => f.id === favId);
+        if (!fav) return;
+
+        // If already in the current country, just jump to it
+        if (fav.country === countrySelect.value) {
+            const idx = camList.findIndex(c => c.nanoid === fav.id);
+            if (idx >= 0) {
+                camIndex = idx;
+                playWebcam(camIndex);
+                updateCamNav();
+                camSelect.value = `cam:${camIndex}`;
+            }
+            return;
+        }
+
+        // Otherwise, switch country first, then jump to the cam
+        countrySelect.value = fav.country;
+        countrySelect.dispatchEvent(new Event('change'));
+
+        // Give the country fetch a moment to populate camList
+        const tryJump = () => {
+            const idx = camList.findIndex(c => c.nanoid === fav.id);
+            if (idx >= 0) {
+                camIndex = idx;
+                playWebcam(camIndex);
+                updateCamNav();
+                camSelect.value = `cam:${idx}`;
+            } else {
+                setTimeout(tryJump, 100);   // retry until the fetch finishes
+            }
+        };
+        setTimeout(tryJump, 100);
+    }
+});
 
     function updateCamNav() {
         if (camList.length === 0) {
@@ -952,7 +1014,7 @@
                     camIndex--;
                     playWebcam(camIndex);
                     updateCamNav();
-                    camSelect.value = camIndex;
+                    camSelect.value = `cam:${camIndex}`;
                 }
                 break;
 
@@ -962,7 +1024,7 @@
                     camIndex++;
                     playWebcam(camIndex);
                     updateCamNav();
-                    camSelect.value = camIndex;
+                    camSelect.value = `cam:${camIndex}`;
                     updateStarState();
                 }
                 break;
