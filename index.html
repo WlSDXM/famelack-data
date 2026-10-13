@@ -385,9 +385,11 @@
                 padding: 6px;
             }
 
+            /* Keep the star visible, hide only label + dropdown */
             .viz-controls {
                 flex-wrap: wrap;
                 gap: 8px;
+                justify-content: flex-end;
             }
 
             .viz-controls select {
@@ -876,13 +878,17 @@
     let visualizerDisabled = false;
 
     // On mobile, disable the visualizer entirely to prevent audio breakage
+    // but keep the radio star ★ visible
     if (IS_MOBILE) {
         visualizerDisabled = true;
         if (canvas) canvas.style.display = 'none';
         if (asciiViz) asciiViz.style.display = 'none';
         if (vizFallback) vizFallback.classList.add('visible');
-        const vizControls = document.querySelector('.viz-controls');
-        if (vizControls) vizControls.style.display = 'none';
+        // Hide ONLY the visualizer label + dropdown, keep the star visible
+        const vizLabel = document.querySelector('.viz-controls label');
+        const vizSelect = document.getElementById('vizStyle');
+        if (vizLabel) vizLabel.style.display = 'none';
+        if (vizSelect) vizSelect.style.display = 'none';
     }
 
     if (!visualizerDisabled && vizStyleSelect) {
@@ -937,8 +943,10 @@
             if (canvas) canvas.style.display = 'none';
             if (asciiViz) asciiViz.style.display = 'none';
             if (vizFallback) vizFallback.classList.add('visible');
-            const vizControls = document.querySelector('.viz-controls');
-            if (vizControls) vizControls.style.display = 'none';
+            const vizLabel = document.querySelector('.viz-controls label');
+            const vizSelect = document.getElementById('vizStyle');
+            if (vizLabel) vizLabel.style.display = 'none';
+            if (vizSelect) vizSelect.style.display = 'none';
         }
     }
 
