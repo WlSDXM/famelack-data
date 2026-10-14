@@ -1030,44 +1030,42 @@
     const innerW = w - padX * 2;
     const innerH = h - padY * 2;
 
-    // Character cell size (based on rows)
+    // Character cell size
     const charH = innerH / (ANSI_ROWS + 2);
     const charW = innerW / ANSI_COLS;
 
     // SPACING FIX: smaller multiplier = gap between bars
     const fontSize = Math.floor(charH * 0.75);
 
-    // Set font before measuring
+    // Set font BEFORE measuring
     ctx.font = `${fontSize}px "Courier New", monospace`;
     ctx.textBaseline = 'top';
     ctx.textAlign = 'left';
 
-    // FRAME FIX: measure actual glyph width and figure out how many fit
+    // FRAME FIX: measure actual glyph width at this font size
     const measuredGlyphWidth = ctx.measureText('═').width;
     const frameCols = Math.max(1, Math.floor(innerW / measuredGlyphWidth) - 1);
 
     const frameColor = ansiColorMode ? CGA_PALETTE[11] : ANSI_MONO;
     ctx.fillStyle = frameColor;
 
-    // Top frame
+    // Top + bottom frame strings
     const topRow = '╔' + '═'.repeat(frameCols) + '╗';
-    // Bottom frame
     const botRow = '╚' + '═'.repeat(frameCols) + '╝';
 
-    // Draw top and bottom frame rows
     const topY = padY;
     const botY = padY + (ANSI_ROWS + 1) * charH;
     ctx.fillText(topRow, padX, topY);
     ctx.fillText(botRow, padX, botY);
 
-    // Draw left and right vertical bars — right bar at edge of frame
+    // Left + right vertical frame bars
     for (let r = 0; r < ANSI_ROWS; r++) {
         const rowY = padY + (r + 1) * charH;
         ctx.fillText('║', padX, rowY);
         ctx.fillText('║', padX + (frameCols + 1) * measuredGlyphWidth, rowY);
     }
 
-    // ---- Draw the bars ----
+    // ---- Bars ----
     const usableBins = Math.floor(freqData.length * 0.4);
     const step = usableBins / ANSI_COLS;
     const SHADES = ['█', '▓', '▒', '░'];
