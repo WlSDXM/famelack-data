@@ -1010,9 +1010,10 @@
 
     const ANSI_COLORS = [9, 10, 11, 12, 13, 14, 15];
 
-    const ANSI_ROWS = 6;
-    const ANSI_MONO = '#e0e0e0';
-    let ansiColorMode = false;
+    const ANSI_COLS = 40;
+const ANSI_ROWS = 6;
+const ANSI_MONO = '#e0e0e0';
+let ansiColorMode = false;
 
     canvas.addEventListener('click', () => {
         if (currentStyle === 'ansi') {
