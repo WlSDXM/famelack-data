@@ -848,18 +848,18 @@
 
     if (!visualizerDisabled && vizStyleSelect) {
         vizStyleSelect.addEventListener('change', (e) => {
-    currentStyle = e.target.value;
+            currentStyle = e.target.value;
 
-    if (currentStyle === 'ascii') {
-        canvas.style.display = 'none';
-        asciiViz.style.display = 'block';
-        if (analyser) drawAscii();
-    } else {
-        canvas.style.display = 'block';
-        asciiViz.style.display = 'none';
-        requestAnimationFrame(() => requestAnimationFrame(() => sizeCanvas()));
-    }
-});
+            if (currentStyle === 'ascii') {
+                canvas.style.display = 'none';
+                asciiViz.style.display = 'block';
+                if (analyser) drawAscii();
+            } else {
+                canvas.style.display = 'block';
+                asciiViz.style.display = 'none';
+                requestAnimationFrame(() => requestAnimationFrame(() => sizeCanvas()));
+            }
+        });
     }
 
     function sizeCanvas() {
@@ -1001,132 +1001,101 @@
     const ASCII_ROWS = 8;
 
     // ============ ANSI VISUALIZER ============
-// CGA 16-color palette (bright half for visibility on black bg)
-const CGA_PALETTE = [
-    '#000000', '#0000AA', '#00AA00', '#00AAAA',
-    '#AA0000', '#AA00AA', '#AA5500', '#AAAAAA',
-    '#555555', '#5555FF', '#55FF55', '#55FFFF',
-    '#FF5555', '#FF55FF', '#FFFF55', '#FFFFFF'
-];
+    const CGA_PALETTE = [
+        '#000000', '#0000AA', '#00AA00', '#00AAAA',
+        '#AA0000', '#AA00AA', '#AA5500', '#AAAAAA',
+        '#555555', '#5555FF', '#55FF55', '#55FFFF',
+        '#FF5555', '#FF55FF', '#FFFF55', '#FFFFFF'
+    ];
 
-// Bright indices for ANSI column colors
-const ANSI_COLORS = [9, 10, 11, 12, 13, 14, 15]; // light blue, light green, light cyan, light red, light magenta, yellow, white
+    const ANSI_COLORS = [9, 10, 11, 12, 13, 14, 15];
 
-const ANSI_ROWS = 6;        // vertical resolution
-const ANSI_MONO = '#e0e0e0'; // monochrome white
-let ansiColorMode = false;  // false = mono, true = CGA
+    const ANSI_ROWS = 6;
+    const ANSI_MONO = '#e0e0e0';
+    let ansiColorMode = false;
 
-// Click handler to toggle color mode
-canvas.addEventListener('click', () => {
-    if (currentStyle === 'ansi') {
-        ansiColorMode = !ansiColorMode;
-    }
-});
+    canvas.addEventListener('click', () => {
+        if (currentStyle === 'ansi') {
+            ansiColorMode = !ansiColorMode;
+        }
+    });
 
-function drawANSI(w, h) {
-    // Get audio data
-    analyser.getByteFrequencyData(freqData);
+    function drawANSI(w, h) {
+        analyser.getByteFrequencyData(freqData);
 
-    // Frame padding (tight)
-    const padX = 4;
-    const padY = 3;
-    const innerW = w - padX * 2;
-    const innerH = h - padY * 2;
+        const padX = 4;
+        const padY = 3;
+        const innerW = w - padX * 2;
+        const innerH = h - padY * 2;
 
-    // Rows of vertical resolution
-    const charH = innerH / (ANSI_ROWS + 2); // +2 for frame top/bottom
+        const charH = innerH / (ANSI_ROWS + 2);
 
-    // ---- Measure actual glyph dimensions ----
-    // We need the real character width AND height to size things correctly.
-    ctx.font = `100px "Courier New", monospace`;
-    const glyphMetrics = ctx.measureText('█');
-    const glyphHeight = glyphMetrics.actualBoundingBoxAscent + glyphMetrics.actualBoundingBoxDescent;
-    const glyphWidth = glyphMetrics.width;
+        ctx.font = `100px "Courier New", monospace`;
+        const glyphMetrics = ctx.measureText('█');
+        const glyphHeight = glyphMetrics.actualBoundingBoxAscent + glyphMetrics.actualBoundingBoxDescent;
 
-    // Compute font size so glyph height fits one row
-    const fontSize = Math.floor((charH / glyphHeight) * 100 * 1.15);
+        const fontSize = Math.floor((charH / glyphHeight) * 100 * 1.15);
 
-    // Recompute the glyph width at the final font size
-    ctx.font = `${fontSize}px "Courier New", monospace`;
-    const finalGlyphWidth = ctx.measureText('█').width;
+        ctx.font = `${fontSize}px "Courier New", monospace`;
+        const finalGlyphWidth = ctx.measureText('█').width;
 
-    // Now compute how many columns actually fit in the inner width
-    const cols = Math.floor(innerW / finalGlyphWidth);
+        const cols = Math.floor(innerW / finalGlyphWidth);
 
-    ctx.textBaseline = 'top';
-    ctx.textAlign = 'left';
+        ctx.textBaseline = 'top';
+        ctx.textAlign = 'left';
 
         // ---- Draw the frame ----
-    const frameColor = ansiColorMode ? CGA_PALETTE[11] : ANSI_MONO;
-    ctx.fillStyle = frameColor;
+        const frameColor = ansiColorMode ? CGA_PALETTE[11] : ANSI_MONO;
+        ctx.fillStyle = frameColor;
 
-    const topRow = '╔' + '═'.repeat(cols) + '╗';
-    const botRow = '╚' + '═'.repeat(cols) + '╝';
+        const topRow = '╔' + '═'.repeat(cols) + '╗';
+        const botRow = '╚' + '═'.repeat(cols) + '╝';
 
-    const topY = padY;
-    const botY = padY + (ANSI_ROWS + 1) * charH;
-    ctx.fillText(topRow, padX, topY);
-    ctx.fillText(botRow, padX, botY);
+        const topY = padY;
+        const botY = padY + (ANSI_ROWS + 1) * charH;
+        ctx.fillText(topRow, padX, topY);
+        ctx.fillText(botRow, padX, botY);
 
-    for (let r = 0; r < ANSI_ROWS; r++) {
-        const rowY = padY + (r + 1) * charH;
-        ctx.fillText('║', padX, rowY);
-        ctx.fillText('║', padX + (cols + 1) * finalGlyphWidth, rowY);
-    }
-
-    // Top frame
-    let topRow = '╔' + '═'.repeat(ANSI_COLS) + '╗';
-    // Bottom frame
-    let botRow = '╚' + '═'.repeat(ANSI_COLS) + '╝';
-
-    // Draw top and bottom frame rows
-    const topY = padY;
-    const botY = padY + (ANSI_ROWS + 1) * charH;
-    ctx.fillText(topRow, padX, topY);
-    ctx.fillText(botRow, padX, botY);
-
-    // Draw left and right vertical bars
-    for (let r = 0; r < ANSI_ROWS; r++) {
-        const rowY = padY + (r + 1) * charH;
-        ctx.fillText('║', padX, rowY);
-        ctx.fillText('║', padX + (ANSI_COLS + 1) * charW, rowY);
-    }
+        for (let r = 0; r < ANSI_ROWS; r++) {
+            const rowY = padY + (r + 1) * charH;
+            ctx.fillText('║', padX, rowY);
+            ctx.fillText('║', padX + (cols + 1) * finalGlyphWidth, rowY);
+        }
 
         // ---- Draw the bars ----
-    const usableBins = Math.floor(freqData.length * 0.4);
-    const step = usableBins / cols;
-    const SHADES = ['█', '▓', '▒', '░'];
+        const usableBins = Math.floor(freqData.length * 0.4);
+        const step = usableBins / cols;
+        const SHADES = ['█', '▓', '▒', '░'];
 
-    for (let c = 0; c < cols; c++) {
-        const start = Math.floor(c * step);
-        const end = Math.floor((c + 1) * step);
-        let sum = 0;
-        for (let j = start; j < end; j++) sum += freqData[j];
-        let value = sum / (end - start) / 255;
+        for (let c = 0; c < cols; c++) {
+            const start = Math.floor(c * step);
+            const end = Math.floor((c + 1) * step);
+            let sum = 0;
+            for (let j = start; j < end; j++) sum += freqData[j];
+            let value = sum / (end - start) / 255;
 
-        value = Math.pow(value, 0.55);
-        value = Math.min(1, value * 1.6);
+            value = Math.pow(value, 0.55);
+            value = Math.min(1, value * 1.6);
 
-        const filledRows = Math.round(value * ANSI_ROWS);
+            const filledRows = Math.round(value * ANSI_ROWS);
 
-        let colColor;
-        if (ansiColorMode) {
-            colColor = CGA_PALETTE[ANSI_COLORS[c % ANSI_COLORS.length]];
-        } else {
-            colColor = ANSI_MONO;
-        }
-        ctx.fillStyle = colColor;
+            let colColor;
+            if (ansiColorMode) {
+                colColor = CGA_PALETTE[ANSI_COLORS[c % ANSI_COLORS.length]];
+            } else {
+                colColor = ANSI_MONO;
+            }
+            ctx.fillStyle = colColor;
 
-        for (let r = 0; r < filledRows; r++) {
-            const rowFromBottom = r;
-            const shadeIndex = Math.min(rowFromBottom, SHADES.length - 1);
-            const char = SHADES[shadeIndex];
-            const x = padX + (c + 1) * finalGlyphWidth;
-            const y = padY + (ANSI_ROWS - r) * charH;
-            ctx.fillText(char, x, y);
+            for (let r = 0; r < filledRows; r++) {
+                const shadeIndex = Math.min(r, SHADES.length - 1);
+                const char = SHADES[shadeIndex];
+                const x = padX + (c + 1) * finalGlyphWidth;
+                const y = padY + (ANSI_ROWS - r) * charH;
+                ctx.fillText(char, x, y);
+            }
         }
     }
-}
 
     function drawAscii() {
         analyser.getByteFrequencyData(freqData);
