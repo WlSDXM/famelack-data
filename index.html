@@ -1021,81 +1021,91 @@
     });
 
     function drawANSI(w, h) {
-        analyser.getByteFrequencyData(freqData);
+    analyser.getByteFrequencyData(freqData);
 
-        const padX = 4;
-        const padY = 3;
-        const innerW = w - padX * 2;
-        const innerH = h - padY * 2;
+    const padX = 4;
+    const padY = 3;
+    const innerW = w - padX * 2;
+    const innerH = h - padY * 2;
 
-        const charH = innerH / (ANSI_ROWS + 2);
+    const charH = innerH / (ANSI_ROWS + 2);
 
-        ctx.font = `100px "Courier New", monospace`;
-        const glyphMetrics = ctx.measureText('█');
-        const glyphHeight = glyphMetrics.actualBoundingBoxAscent + glyphMetrics.actualBoundingBoxDescent;
+    // Measure glyph at 100px, then scale to row height
+    ctx.font = `100px "Courier New", monospace`;
+    const glyphMetrics = ctx.measureText('█');
+    const glyphHeight = glyphMetrics.actualBoundingBoxAscent + glyphMetrics.actualBoundingBoxDescent;
 
-        const fontSize = Math.floor((charH / glyphHeight) * 100 * 1.15);
+    const fontSize = Math.floor((charH / glyphHeight) * 100 * 1.15);
 
-        ctx.font = `${fontSize}px "Courier New", monospace`;
-        const finalGlyphWidth = ctx.measureText('█').width;
+    ctx.font = `${fontSize}px "Courier New", monospace`;
+    const finalGlyphWidth = ctx.measureText('█').width;
 
-        const cols = Math.floor(innerW / finalGlyphWidth);
+    // FIX 1: subtract 1 so the frame's right edge lines up exactly with the last bar
+    const cols = Math.floor(innerW / finalGlyphWidth) - 1;
 
-        ctx.textBaseline = 'top';
-        ctx.textAlign = 'left';
+    ctx.textBaseline = 'top';
+    ctx.textAlign = 'left';
 
-        // ---- Draw the frame ----
-        const frameColor = ansiColorMode ? CGA_PALETTE[11] : ANSI_MONO;
-        ctx.fillStyle = frameColor;
+    // ---- Frame ----
+    const frameColor = ansiColorMode ? CGA_PALETTE[11] : ANSI_MONO;
+    ctx.fillStyle = frameColor;
 
-        const topRow = '╔' + '═'.repeat(cols) + '╗';
-        const botRow = '╚' + '═'.repeat(cols) + '╝';
+    const topRow = '╔' + '═'.repeat(cols) + '╗';
+    const botRow = '╚' + '═'.repeat(cols) + '╝';
 
-        const topY = padY;
-        const botY = padY + (ANSI_ROWS + 1) * charH;
-        ctx.fillText(topRow, padX, topY);
-        ctx.fillText(botRow, padX, botY);
+    const topY = padY;
+    const botY = padY + (ANSI_ROWS + 1) * charH;
+    ctx.fillText(topRow, padX, topY);
+    ctx.fillText(botRow, padX, botY);
 
-        for (let r = 0; r < ANSI_ROWS; r++) {
-            const rowY = padY + (r + 1) * charH;
-            ctx.fillText('║', padX, rowY);
-            ctx.fillText('║', padX + (cols + 1) * finalGlyphWidth, rowY);
+    for (let r = 0; r < ANSI_ROWS; r++) {
+        const rowY = padY + (r + 1) * charH;
+        ctx.fillText('║', padX, rowY);
+        ctx.fillText('║', padX + (cols + 1) * finalGlyphWidth, rowY);
+    }
+
+    // ---- Bars ----
+    const maxBin = freqData.length;
+    const SHADES = ['█', '▓', '▒', '░'];
+
+    // FIX 2: log-style frequency mapping so bass isn't overpowering
+    for (let c = 0; c < cols; c++) {
+        // Logarithmic distribution across the spectrum
+        const t0 = Math.pow(c / cols, 1.8);
+        const t1 = Math.pow((c + 1) / cols, 1.8);
+        const binStart = Math.floor(t0 * maxBin * 0.75);
+        const binEnd = Math.floor(t1 * maxBin * 0.75);
+        const span = Math.max(1, binEnd - binStart);
+
+        let sum = 0;
+        for (let j = binStart; j < binStart + span && j < maxBin; j++) {
+            sum += freqData[j];
         }
+        let value = sum / span / 255;
 
-        // ---- Draw the bars ----
-        const usableBins = Math.floor(freqData.length * 0.4);
-        const step = usableBins / cols;
-        const SHADES = ['█', '▓', '▒', '░'];
+        // Same gentle curve as original — kept for the visual feel you liked
+        value = Math.pow(value, 0.55);
+        value = Math.min(1, value * 1.6);
 
-        for (let c = 0; c < cols; c++) {
-            const start = Math.floor(c * step);
-            const end = Math.floor((c + 1) * step);
-            let sum = 0;
-            for (let j = start; j < end; j++) sum += freqData[j];
-            let value = sum / (end - start) / 255;
+        const filledRows = Math.round(value * ANSI_ROWS);
 
-            value = Math.pow(value, 0.55);
-            value = Math.min(1, value * 1.6);
+        let colColor;
+        if (ansiColorMode) {
+            colColor = CGA_PALETTE[ANSI_COLORS[c % ANSI_COLORS.length]];
+        } else {
+            colColor = ANSI_MONO;
+        }
+        ctx.fillStyle = colColor;
 
-            const filledRows = Math.round(value * ANSI_ROWS);
-
-            let colColor;
-            if (ansiColorMode) {
-                colColor = CGA_PALETTE[ANSI_COLORS[c % ANSI_COLORS.length]];
-            } else {
-                colColor = ANSI_MONO;
-            }
-            ctx.fillStyle = colColor;
-
-            for (let r = 0; r < filledRows; r++) {
-                const shadeIndex = Math.min(r, SHADES.length - 1);
-                const char = SHADES[shadeIndex];
-                const x = padX + (c + 1) * finalGlyphWidth;
-                const y = padY + (ANSI_ROWS - r) * charH;
-                ctx.fillText(char, x, y);
-            }
+        for (let r = 0; r < filledRows; r++) {
+            const shadeIndex = Math.min(r, SHADES.length - 1);
+            const char = SHADES[shadeIndex];
+            const x = padX + (c + 1) * finalGlyphWidth;
+            const y = padY + (ANSI_ROWS - r) * charH;
+            ctx.fillText(char, x, y);
         }
     }
+}
 
     function drawAscii() {
         analyser.getByteFrequencyData(freqData);
