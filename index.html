@@ -1021,71 +1021,68 @@
     });
 
     function drawANSI(w, h) {
+    // Get audio data
     analyser.getByteFrequencyData(freqData);
 
-    const padX = 4;
-    const padY = 3;
+    // Frame padding
+    const padX = 8;
+    const padY = 6;
     const innerW = w - padX * 2;
     const innerH = h - padY * 2;
 
-    const charH = innerH / (ANSI_ROWS + 2);
+    // Character cell size (based on rows)
+    const charH = innerH / (ANSI_ROWS + 2); // +2 for frame top/bottom
+    const charW = innerW / ANSI_COLS;
+    const fontSize = Math.floor(charH * 1.05);
 
-    // Measure glyph at 100px
-    ctx.font = `100px "Courier New", monospace`;
-    const glyphMetrics = ctx.measureText('█');
-    const glyphHeight = glyphMetrics.actualBoundingBoxAscent + glyphMetrics.actualBoundingBoxDescent;
-
-    // ORIGINAL glyph size — matches the screenshot
-    const fontSize = Math.floor((charH / glyphHeight) * 100 * 1.15);
-
+    // ---- Draw the frame ----
     ctx.font = `${fontSize}px "Courier New", monospace`;
-    const finalGlyphWidth = ctx.measureText('█').width;
-
-    // SPACING: add gap between columns without changing glyph size
-    const SPACING = 1.25;  // 1.0 = no gap, 1.25 = 25% gap, tune this
-    const cellWidth = finalGlyphWidth * SPACING;
-
-    // Frame width fits within padding
-    const cols = Math.floor(innerW / cellWidth);
-
     ctx.textBaseline = 'top';
     ctx.textAlign = 'left';
 
-    // ---- Frame ----
     const frameColor = ansiColorMode ? CGA_PALETTE[11] : ANSI_MONO;
     ctx.fillStyle = frameColor;
 
-    const topRow = '╔' + '═'.repeat(cols) + '╗';
-    const botRow = '╚' + '═'.repeat(cols) + '╝';
+    // Top frame
+    let topRow = '╔' + '═'.repeat(ANSI_COLS) + '╗';
+    // Bottom frame
+    let botRow = '╚' + '═'.repeat(ANSI_COLS) + '╝';
 
+    // Draw top and bottom frame rows
     const topY = padY;
     const botY = padY + (ANSI_ROWS + 1) * charH;
     ctx.fillText(topRow, padX, topY);
     ctx.fillText(botRow, padX, botY);
 
+    // Draw left and right vertical bars
     for (let r = 0; r < ANSI_ROWS; r++) {
         const rowY = padY + (r + 1) * charH;
         ctx.fillText('║', padX, rowY);
-        ctx.fillText('║', padX + (cols + 1) * cellWidth, rowY);
+        ctx.fillText('║', padX + ANSI_COLS * charW, rowY);  // ← FIXED: was (ANSI_COLS + 1)
     }
 
-    // ---- Bars — original algorithm, spaced columns ----
+    // ---- Draw the bars ----
     const usableBins = Math.floor(freqData.length * 0.4);
-    const step = usableBins / cols;
+    const step = usableBins / ANSI_COLS;
+
+    // Shade gradient: bottom = full, top = light
     const SHADES = ['█', '▓', '▒', '░'];
 
-    for (let c = 0; c < cols; c++) {
+    for (let c = 0; c < ANSI_COLS; c++) {
         const start = Math.floor(c * step);
         const end = Math.floor((c + 1) * step);
         let sum = 0;
         for (let j = start; j < end; j++) sum += freqData[j];
         let value = sum / (end - start) / 255;
 
-        value = Math.pow(value, 0.55);
-        value = Math.min(1, value * 1.6);
+        // Boost a bit so quiet bars aren't invisible
+        value = Math.pow(value, 0.7);
+        value = Math.min(1, value * 1.2);
 
+        // How many rows this bar fills
         const filledRows = Math.round(value * ANSI_ROWS);
 
+        // Pick color for this column
         let colColor;
         if (ansiColorMode) {
             colColor = CGA_PALETTE[ANSI_COLORS[c % ANSI_COLORS.length]];
@@ -1094,10 +1091,12 @@
         }
         ctx.fillStyle = colColor;
 
+        // Draw bars from bottom up
         for (let r = 0; r < filledRows; r++) {
-            const shadeIndex = Math.min(r, SHADES.length - 1);
+            const rowFromBottom = r; // 0 = bottom
+            const shadeIndex = Math.min(rowFromBottom, SHADES.length - 1);
             const char = SHADES[shadeIndex];
-            const x = padX + (c + 1) * cellWidth;
+            const x = padX + (c + 1) * charW;
             const y = padY + (ANSI_ROWS - r) * charH;
             ctx.fillText(char, x, y);
         }
