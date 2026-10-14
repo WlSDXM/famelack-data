@@ -1030,17 +1030,18 @@
 
     const charH = innerH / (ANSI_ROWS + 2);
 
-    // Measure glyph at 100px, then scale to row height
+    // Measure glyph at 100px
     ctx.font = `100px "Courier New", monospace`;
     const glyphMetrics = ctx.measureText('█');
     const glyphHeight = glyphMetrics.actualBoundingBoxAscent + glyphMetrics.actualBoundingBoxDescent;
 
-    const fontSize = Math.floor((charH / glyphHeight) * 100 * 1.15);
+    // Restore original spacing feel
+    const fontSize = Math.floor((charH / glyphHeight) * 100 * 0.95);
 
     ctx.font = `${fontSize}px "Courier New", monospace`;
     const finalGlyphWidth = ctx.measureText('█').width;
 
-    // FIX 1: subtract 1 so the frame's right edge lines up exactly with the last bar
+    // Frame right edge lines up with the last column
     const cols = Math.floor(innerW / finalGlyphWidth) - 1;
 
     ctx.textBaseline = 'top';
@@ -1065,16 +1066,15 @@
     }
 
     // ---- Bars ----
+    // Spread bins linearly across ALL columns (no log curve),
+    // so the right side always has visible bars.
     const maxBin = freqData.length;
     const SHADES = ['█', '▓', '▒', '░'];
+    const step = maxBin / cols; // even distribution
 
-    // FIX 2: log-style frequency mapping so bass isn't overpowering
     for (let c = 0; c < cols; c++) {
-        // Logarithmic distribution across the spectrum
-        const t0 = Math.pow(c / cols, 1.8);
-        const t1 = Math.pow((c + 1) / cols, 1.8);
-        const binStart = Math.floor(t0 * maxBin * 0.75);
-        const binEnd = Math.floor(t1 * maxBin * 0.75);
+        const binStart = Math.floor(c * step);
+        const binEnd = Math.floor((c + 1) * step);
         const span = Math.max(1, binEnd - binStart);
 
         let sum = 0;
@@ -1083,11 +1083,12 @@
         }
         let value = sum / span / 255;
 
-        // Same gentle curve as original — kept for the visual feel you liked
-        value = Math.pow(value, 0.55);
-        value = Math.min(1, value * 1.6);
+        // Slight boost so quiet right-side bars still show a little something
+        value = Math.pow(value, 0.7);
+        value = Math.min(1, value * 1.5);
 
-        const filledRows = Math.round(value * ANSI_ROWS);
+        // Ensure at least 1 row shows up so there's never a fully empty column
+        const filledRows = Math.max(1, Math.round(value * ANSI_ROWS));
 
         let colColor;
         if (ansiColorMode) {
