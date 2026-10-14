@@ -1035,19 +1035,19 @@
     const glyphMetrics = ctx.measureText('█');
     const glyphHeight = glyphMetrics.actualBoundingBoxAscent + glyphMetrics.actualBoundingBoxDescent;
 
-    // Restore original spacing feel
-    const fontSize = Math.floor((charH / glyphHeight) * 100 * 0.95);
+    // Original look — slightly larger character for that dense feel
+    const fontSize = Math.floor((charH / glyphHeight) * 100 * 1.05);
 
     ctx.font = `${fontSize}px "Courier New", monospace`;
     const finalGlyphWidth = ctx.measureText('█').width;
 
-    // Frame right edge lines up with the last column
+    // Frame lands exactly on the last bar column
     const cols = Math.floor(innerW / finalGlyphWidth) - 1;
 
     ctx.textBaseline = 'top';
     ctx.textAlign = 'left';
 
-    // ---- Frame ----
+    // ---- Frame (kept as-is) ----
     const frameColor = ansiColorMode ? CGA_PALETTE[11] : ANSI_MONO;
     ctx.fillStyle = frameColor;
 
@@ -1065,16 +1065,16 @@
         ctx.fillText('║', padX + (cols + 1) * finalGlyphWidth, rowY);
     }
 
-    // ---- Bars ----
-    // Spread bins linearly across ALL columns (no log curve),
-    // so the right side always has visible bars.
+    // ---- Bars — original look with log distribution ----
     const maxBin = freqData.length;
     const SHADES = ['█', '▓', '▒', '░'];
-    const step = maxBin / cols; // even distribution
 
     for (let c = 0; c < cols; c++) {
-        const binStart = Math.floor(c * step);
-        const binEnd = Math.floor((c + 1) * step);
+        // Logarithmic frequency mapping (fixes bass-heavy left side)
+        const t0 = Math.pow(c / cols, 1.8);
+        const t1 = Math.pow((c + 1) / cols, 1.8);
+        const binStart = Math.floor(t0 * maxBin * 0.75);
+        const binEnd = Math.floor(t1 * maxBin * 0.75);
         const span = Math.max(1, binEnd - binStart);
 
         let sum = 0;
@@ -1083,12 +1083,11 @@
         }
         let value = sum / span / 255;
 
-        // Slight boost so quiet right-side bars still show a little something
-        value = Math.pow(value, 0.7);
-        value = Math.min(1, value * 1.5);
+        // Original curve — kept
+        value = Math.pow(value, 0.55);
+        value = Math.min(1, value * 1.6);
 
-        // Ensure at least 1 row shows up so there's never a fully empty column
-        const filledRows = Math.max(1, Math.round(value * ANSI_ROWS));
+        const filledRows = Math.round(value * ANSI_ROWS);
 
         let colColor;
         if (ansiColorMode) {
