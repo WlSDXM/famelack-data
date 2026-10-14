@@ -1031,22 +1031,28 @@
     const innerH = h - padY * 2;
 
     // Character cell size (based on rows)
-    const charH = innerH / (ANSI_ROWS + 2); // +2 for frame top/bottom
+    const charH = innerH / (ANSI_ROWS + 2);
     const charW = innerW / ANSI_COLS;
-    const fontSize = Math.floor(charH * 1.05);
 
-    // ---- Draw the frame ----
+    // SPACING FIX: smaller multiplier = gap between bars
+    const fontSize = Math.floor(charH * 0.75);
+
+    // Set font before measuring
     ctx.font = `${fontSize}px "Courier New", monospace`;
     ctx.textBaseline = 'top';
     ctx.textAlign = 'left';
+
+    // FRAME FIX: measure actual glyph width and figure out how many fit
+    const measuredGlyphWidth = ctx.measureText('═').width;
+    const frameCols = Math.max(1, Math.floor(innerW / measuredGlyphWidth) - 1);
 
     const frameColor = ansiColorMode ? CGA_PALETTE[11] : ANSI_MONO;
     ctx.fillStyle = frameColor;
 
     // Top frame
-    let topRow = '╔' + '═'.repeat(ANSI_COLS) + '╗';
+    const topRow = '╔' + '═'.repeat(frameCols) + '╗';
     // Bottom frame
-    let botRow = '╚' + '═'.repeat(ANSI_COLS) + '╝';
+    const botRow = '╚' + '═'.repeat(frameCols) + '╝';
 
     // Draw top and bottom frame rows
     const topY = padY;
@@ -1054,18 +1060,16 @@
     ctx.fillText(topRow, padX, topY);
     ctx.fillText(botRow, padX, botY);
 
-    // Draw left and right vertical bars
+    // Draw left and right vertical bars — right bar at edge of frame
     for (let r = 0; r < ANSI_ROWS; r++) {
         const rowY = padY + (r + 1) * charH;
         ctx.fillText('║', padX, rowY);
-        ctx.fillText('║', padX + ANSI_COLS * charW, rowY);  // ← FIXED: was (ANSI_COLS + 1)
+        ctx.fillText('║', padX + (frameCols + 1) * measuredGlyphWidth, rowY);
     }
 
     // ---- Draw the bars ----
     const usableBins = Math.floor(freqData.length * 0.4);
     const step = usableBins / ANSI_COLS;
-
-    // Shade gradient: bottom = full, top = light
     const SHADES = ['█', '▓', '▒', '░'];
 
     for (let c = 0; c < ANSI_COLS; c++) {
@@ -1075,14 +1079,11 @@
         for (let j = start; j < end; j++) sum += freqData[j];
         let value = sum / (end - start) / 255;
 
-        // Boost a bit so quiet bars aren't invisible
         value = Math.pow(value, 0.7);
         value = Math.min(1, value * 1.2);
 
-        // How many rows this bar fills
         const filledRows = Math.round(value * ANSI_ROWS);
 
-        // Pick color for this column
         let colColor;
         if (ansiColorMode) {
             colColor = CGA_PALETTE[ANSI_COLORS[c % ANSI_COLORS.length]];
@@ -1091,10 +1092,8 @@
         }
         ctx.fillStyle = colColor;
 
-        // Draw bars from bottom up
         for (let r = 0; r < filledRows; r++) {
-            const rowFromBottom = r; // 0 = bottom
-            const shadeIndex = Math.min(rowFromBottom, SHADES.length - 1);
+            const shadeIndex = Math.min(r, SHADES.length - 1);
             const char = SHADES[shadeIndex];
             const x = padX + (c + 1) * charW;
             const y = padY + (ANSI_ROWS - r) * charH;
