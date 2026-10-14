@@ -1035,14 +1035,18 @@
     const glyphMetrics = ctx.measureText('█');
     const glyphHeight = glyphMetrics.actualBoundingBoxAscent + glyphMetrics.actualBoundingBoxDescent;
 
-    // SPACING FIX: smaller multiplier = visible gaps between bars
-    const fontSize = Math.floor((charH / glyphHeight) * 100 * 0.85);
+    // ORIGINAL glyph size — matches the screenshot
+    const fontSize = Math.floor((charH / glyphHeight) * 100 * 1.15);
 
     ctx.font = `${fontSize}px "Courier New", monospace`;
     const finalGlyphWidth = ctx.measureText('█').width;
 
-    // Frame lands exactly on last bar column
-    const cols = Math.floor(innerW / finalGlyphWidth) - 1;
+    // SPACING: add gap between columns without changing glyph size
+    const SPACING = 1.25;  // 1.0 = no gap, 1.25 = 25% gap, tune this
+    const cellWidth = finalGlyphWidth * SPACING;
+
+    // Frame width fits within padding
+    const cols = Math.floor(innerW / cellWidth);
 
     ctx.textBaseline = 'top';
     ctx.textAlign = 'left';
@@ -1062,10 +1066,10 @@
     for (let r = 0; r < ANSI_ROWS; r++) {
         const rowY = padY + (r + 1) * charH;
         ctx.fillText('║', padX, rowY);
-        ctx.fillText('║', padX + (cols + 1) * finalGlyphWidth, rowY);
+        ctx.fillText('║', padX + (cols + 1) * cellWidth, rowY);
     }
 
-    // ---- Bars — original algorithm ----
+    // ---- Bars — original algorithm, spaced columns ----
     const usableBins = Math.floor(freqData.length * 0.4);
     const step = usableBins / cols;
     const SHADES = ['█', '▓', '▒', '░'];
@@ -1093,7 +1097,7 @@
         for (let r = 0; r < filledRows; r++) {
             const shadeIndex = Math.min(r, SHADES.length - 1);
             const char = SHADES[shadeIndex];
-            const x = padX + (c + 1) * finalGlyphWidth;
+            const x = padX + (c + 1) * cellWidth;
             const y = padY + (ANSI_ROWS - r) * charH;
             ctx.fillText(char, x, y);
         }
