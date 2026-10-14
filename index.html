@@ -1035,13 +1035,13 @@
     const glyphMetrics = ctx.measureText('█');
     const glyphHeight = glyphMetrics.actualBoundingBoxAscent + glyphMetrics.actualBoundingBoxDescent;
 
-    // Original character size
-    const fontSize = Math.floor((charH / glyphHeight) * 100 * 1.15);
+    // SPACING FIX: smaller multiplier = visible gaps between bars
+    const fontSize = Math.floor((charH / glyphHeight) * 100 * 0.85);
 
     ctx.font = `${fontSize}px "Courier New", monospace`;
     const finalGlyphWidth = ctx.measureText('█').width;
 
-    // Frame width fix — subtract 1 so frame lands exactly on last bar
+    // Frame lands exactly on last bar column
     const cols = Math.floor(innerW / finalGlyphWidth) - 1;
 
     ctx.textBaseline = 'top';
@@ -1065,7 +1065,7 @@
         ctx.fillText('║', padX + (cols + 1) * finalGlyphWidth, rowY);
     }
 
-    // ---- Bars — ORIGINAL algorithm exactly ----
+    // ---- Bars — original algorithm ----
     const usableBins = Math.floor(freqData.length * 0.4);
     const step = usableBins / cols;
     const SHADES = ['█', '▓', '▒', '░'];
@@ -1077,7 +1077,6 @@
         for (let j = start; j < end; j++) sum += freqData[j];
         let value = sum / (end - start) / 255;
 
-        // Original curve — unchanged
         value = Math.pow(value, 0.55);
         value = Math.min(1, value * 1.6);
 
