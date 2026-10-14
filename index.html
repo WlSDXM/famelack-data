@@ -1012,7 +1012,6 @@ const CGA_PALETTE = [
 // Bright indices for ANSI column colors
 const ANSI_COLORS = [9, 10, 11, 12, 13, 14, 15]; // light blue, light green, light cyan, light red, light magenta, yellow, white
 
-const ANSI_COLS = 40;       // number of vertical bars
 const ANSI_ROWS = 6;        // vertical resolution
 const ANSI_MONO = '#e0e0e0'; // monochrome white
 let ansiColorMode = false;  // false = mono, true = CGA
@@ -1028,24 +1027,52 @@ function drawANSI(w, h) {
     // Get audio data
     analyser.getByteFrequencyData(freqData);
 
-    // Frame padding
-    const padX = 8;
-    const padY = 6;
+    // Frame padding (tight)
+    const padX = 4;
+    const padY = 3;
     const innerW = w - padX * 2;
     const innerH = h - padY * 2;
 
-    // Character cell size (based on rows)
+    // Rows of vertical resolution
     const charH = innerH / (ANSI_ROWS + 2); // +2 for frame top/bottom
-    const charW = innerW / ANSI_COLS;
-    const fontSize = Math.floor(charH * 1.05);
 
-    // ---- Draw the frame ----
+    // ---- Measure actual glyph dimensions ----
+    // We need the real character width AND height to size things correctly.
+    ctx.font = `100px "Courier New", monospace`;
+    const glyphMetrics = ctx.measureText('█');
+    const glyphHeight = glyphMetrics.actualBoundingBoxAscent + glyphMetrics.actualBoundingBoxDescent;
+    const glyphWidth = glyphMetrics.width;
+
+    // Compute font size so glyph height fits one row
+    const fontSize = Math.floor((charH / glyphHeight) * 100 * 1.15);
+
+    // Recompute the glyph width at the final font size
     ctx.font = `${fontSize}px "Courier New", monospace`;
+    const finalGlyphWidth = ctx.measureText('█').width;
+
+    // Now compute how many columns actually fit in the inner width
+    const cols = Math.floor(innerW / finalGlyphWidth);
+
     ctx.textBaseline = 'top';
     ctx.textAlign = 'left';
 
+        // ---- Draw the frame ----
     const frameColor = ansiColorMode ? CGA_PALETTE[11] : ANSI_MONO;
     ctx.fillStyle = frameColor;
+
+    const topRow = '╔' + '═'.repeat(cols) + '╗';
+    const botRow = '╚' + '═'.repeat(cols) + '╝';
+
+    const topY = padY;
+    const botY = padY + (ANSI_ROWS + 1) * charH;
+    ctx.fillText(topRow, padX, topY);
+    ctx.fillText(botRow, padX, botY);
+
+    for (let r = 0; r < ANSI_ROWS; r++) {
+        const rowY = padY + (r + 1) * charH;
+        ctx.fillText('║', padX, rowY);
+        ctx.fillText('║', padX + (cols + 1) * finalGlyphWidth, rowY);
+    }
 
     // Top frame
     let topRow = '╔' + '═'.repeat(ANSI_COLS) + '╗';
@@ -1065,28 +1092,23 @@ function drawANSI(w, h) {
         ctx.fillText('║', padX + (ANSI_COLS + 1) * charW, rowY);
     }
 
-    // ---- Draw the bars ----
+        // ---- Draw the bars ----
     const usableBins = Math.floor(freqData.length * 0.4);
-    const step = usableBins / ANSI_COLS;
-
-    // Shade gradient: bottom = full, top = light
+    const step = usableBins / cols;
     const SHADES = ['█', '▓', '▒', '░'];
 
-    for (let c = 0; c < ANSI_COLS; c++) {
+    for (let c = 0; c < cols; c++) {
         const start = Math.floor(c * step);
         const end = Math.floor((c + 1) * step);
         let sum = 0;
         for (let j = start; j < end; j++) sum += freqData[j];
         let value = sum / (end - start) / 255;
 
-        // Boost a bit so quiet bars aren't invisible
-        value = Math.pow(value, 0.7);
-        value = Math.min(1, value * 1.2);
+        value = Math.pow(value, 0.55);
+        value = Math.min(1, value * 1.6);
 
-        // How many rows this bar fills
         const filledRows = Math.round(value * ANSI_ROWS);
 
-        // Pick color for this column
         let colColor;
         if (ansiColorMode) {
             colColor = CGA_PALETTE[ANSI_COLORS[c % ANSI_COLORS.length]];
@@ -1095,12 +1117,11 @@ function drawANSI(w, h) {
         }
         ctx.fillStyle = colColor;
 
-        // Draw bars from bottom up
         for (let r = 0; r < filledRows; r++) {
-            const rowFromBottom = r; // 0 = bottom
+            const rowFromBottom = r;
             const shadeIndex = Math.min(rowFromBottom, SHADES.length - 1);
             const char = SHADES[shadeIndex];
-            const x = padX + (c + 1) * charW;
+            const x = padX + (c + 1) * finalGlyphWidth;
             const y = padY + (ANSI_ROWS - r) * charH;
             ctx.fillText(char, x, y);
         }
