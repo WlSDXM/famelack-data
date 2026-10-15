@@ -323,10 +323,21 @@
             padding: 0;
         }
         
-        /* ===== DAY MODE — GIF BLEND FIX ===== */
+        /* ===== DAY MODE — GIF  ===== */
 body.day-mode img.earth-anim,
 body.day-mode img.title-img {
-    mix-blend-mode: multiply;
+    background-color: #000;
+    padding: 6px 10px;
+    border-radius: 6px;
+    mix-blend-mode: normal;   
+}
+
+body.day-mode img.earth-anim {
+    padding: 10px 16px;
+}
+
+body.day-mode h2.title-gif {
+    display: inline-block;
 }
 
         .theme-toggle:hover {
