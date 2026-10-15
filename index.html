@@ -1070,64 +1070,56 @@ body.day-mode img.title-img[alt="Radio"] {
 
     const maxBin = freqData.length;
 
-    
+    // Overall volume pulse
     let totalSum = 0;
-    for (let j = 0; j < maxBin; j++) {
-        totalSum += freqData[j];
-    }
+    for (let j = 0; j < maxBin; j++) totalSum += freqData[j];
     const avgVolume = totalSum / maxBin / 255;
 
-    
-    let baseHeight = Math.pow(avgVolume, 0.4);
-    baseHeight = Math.min(1, baseHeight * 2.2);
+    let pulse = Math.pow(avgVolume, 0.5);
+    pulse = Math.min(1, pulse * 1.8);
 
-    
-    const bassEnd = Math.floor(maxBin * 0.15);
-    const midEnd = Math.floor(maxBin * 0.5);
-
-    let bassSum = 0, midSum = 0, trebleSum = 0;
-    for (let j = 0; j < bassEnd; j++) bassSum += freqData[j];
-    for (let j = bassEnd; j < midEnd; j++) midSum += freqData[j];
-    for (let j = midEnd; j < maxBin; j++) trebleSum += freqData[j];
-
-    
-    const bassAvg = Math.pow(bassSum / bassEnd / 255, 0.4) * 1.8;
-    const midAvg = Math.pow(midSum / (midEnd - bassEnd) / 255, 0.4) * 1.8;
-    const trebleAvg = Math.pow(trebleSum / (maxBin - midEnd) / 255, 0.4) * 1.8;
-
-    const time = Date.now() * 0.002;
+    const usableBins = Math.floor(maxBin * 0.8);
+    const time = Date.now() * 0.003;
 
     for (let i = 0; i < barCount; i++) {
         const t = i / barCount;
 
-        // Envelope — bass-heavy
-        let envelope;
-        if (t < 0.4) {
-            envelope = 1.0 - (t / 0.4) * 0.35;
-        } else if (t < 0.7) {
-            envelope = 0.65 + ((t - 0.4) / 0.3) * 0.05;
-        } else {
-            envelope = 0.7 + ((t - 0.7) / 0.3) * 0.15;
+        // Log spread of frequency bins
+        const tStart = Math.pow(t, 2.0);
+        const tEnd = Math.pow((i + 1) / barCount, 2.0);
+
+        const binStart = Math.floor(tStart * usableBins);
+        const binEnd = Math.max(binStart + 1, Math.floor(tEnd * usableBins));
+
+        let sum = 0, count = 0;
+        for (let j = binStart; j < binEnd && j < maxBin; j++) {
+            sum += freqData[j];
+            count++;
         }
+        let localValue = count > 0 ? sum / count / 255 : 0;
+        localValue = Math.pow(localValue, 0.5);
 
-        
-        let regionValue;
-        if (t < 0.4) regionValue = bassAvg;
-        else if (t < 0.7) regionValue = midAvg;
-        else regionValue = trebleAvg;
+        // Sine jitter for per-bar liveliness
+        const sineJitter = (Math.sin(i * 1.5 + time) + 1) * 0.5;
 
-        
-        let value = envelope * (baseHeight * 0.55 + regionValue * 0.55);
+        // Blend: 40% local + 40% pulse + 20% jitter
+        let value = (localValue * 0.4) + (pulse * 0.4) + (sineJitter * 0.2);
 
-        
-        const jitter = Math.sin(i * 1.7 + time) * 0.12;
-        value = Math.max(0.15, Math.min(1, value + jitter));
+        // === SPECTRUM SHAPE ===
+        // Falloff: tapers the height across the width
+        const falloff = 1.0 - (t * 0.45);
+        value = value * falloff;
 
-        
-        const litSegments = Math.max(
-            Math.round(segCount * 0.15),
-            Math.round(value * segCount)
-        );
+        // Boost and clamp
+        value = Math.min(1, value * 1.4);
+        value = Math.max(0.15, value);
+
+        // === CEILING CAP ===
+        // Bass can reach 100%, treble capped at 65%
+        const ceiling = 1.0 - (t * 0.35);
+        value = Math.min(ceiling, value);
+
+        const litSegments = Math.round(value * segCount);
 
         const x = i * barWidth;
         const actualX = x + (barWidth * gapRatio) / 2;
