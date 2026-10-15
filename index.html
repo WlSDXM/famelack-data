@@ -89,15 +89,11 @@
             gap: 30px;
             align-items: start;
         }
-        /* ============================================
-   TABLET / iPAD (701px – 1024px)
-   ============================================ */
-@media (min-width: 701px) and (max-width: 1024px) {
-    body {
-        padding: 14px;
-        overflow-x: hidden;
-        max-width: 100%;
+        @media (max-width: 900px) {
+    .layout-grid {
+        grid-template-columns: 1fr;
     }
+}
 
     .container {
         max-width: 100%;
@@ -670,8 +666,7 @@ body.day-mode img.title-img[alt="Radio"] {
 <script>
     const BASE = 'https://raw.githubusercontent.com/WlSDXM/famelack-data/main';
 
-    // Temporarily exclude iPad
-const IS_MOBILE = /iPhone|iPod|Android/i.test(navigator.userAgent);
+    const IS_MOBILE = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
     // ============ DAY / NIGHT TOGGLE ============
     (function initThemeToggle() {
