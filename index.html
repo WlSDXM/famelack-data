@@ -89,96 +89,11 @@
             gap: 30px;
             align-items: start;
         }
-        @media (max-width: 900px) {
-    .layout-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-    .container {
-        max-width: 100%;
-    }
-
-    /* Stack the grid into one column so nothing gets cramped */
-    .layout-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-
-    .right-column {
-        gap: 20px;
-    }
-
-    .right-column .player-box {
-        min-height: auto;
-    }
-
-    /* Heading & GIF sizes — between mobile and desktop */
-    img.earth-anim {
-        height: 65px;
-    }
-
-    img.title-img {
-        height: 34px;
-    }
-
-    /* Player box sizing */
-    .player-box {
-        padding: 16px;
-        border-radius: 8px;
-    }
-
-    /* Dropdowns can stay side by side on tablet — there's room */
-    .row {
-        flex-direction: row;
-        align-items: center;
-        gap: 10px;
-        margin-bottom: 12px;
-    }
-
-    select {
-        font-size: 16px;
-        padding: 10px 12px;
-        max-width: 100%;
-    }
-
-    /* Camera nav buttons — comfy but not huge */
-    .cam-nav button {
-        padding: 8px 16px;
-        font-size: 16px;
-        min-width: 46px;
-    }
-
-    .cam-star {
-        padding: 8px 16px;
-        font-size: 17px;
-        min-width: 46px;
-    }
-
-    .cam-title {
-        font-size: 13px;
-    }
-
-    /* Visualizer */
-    #visualizer, pre#asciiViz, .viz-fallback {
-        height: 80px !important;
-        min-height: 80px;
-        max-height: 80px;
-    }
-
-    /* Globe */
-    #globeCanvas {
-        height: 220px;
-        margin-top: -15px;
-    }
-
-    /* Theme toggle — slightly bigger tap target on tablet */
-    .theme-toggle {
-        width: 44px;
-        height: 44px;
-        font-size: 20px;
-    }
-}
+               @media (max-width: 900px) {
+            .layout-grid {
+                grid-template-columns: 1fr;
+            }
+        }
 
         .right-column {
             display: flex;
@@ -640,11 +555,12 @@ body.day-mode img.title-img[alt="Radio"] {
                 <div class="viz-controls">
                     <label for="vizStyle">Visualizer:</label>
                     <select id="vizStyle">
-                        <option value="bars">Bars</option>
-                        <option value="wave">Wave</option>
-                        <option value="ascii">ASCII</option>
-                        <option value="ansi">ANSI</option>
-                    </select>
+    <option value="bars">Bars</option>
+    <option value="wave">Wave</option>
+    <option value="ascii">ASCII</option>
+    <option value="ansi">ANSI</option>
+    <option value="dots">Dots</option>
+</select>
                     <button id="radioStar" class="cam-star" title="Save to favorites" style="margin-left: auto;">★</button>
                 </div>
 
@@ -1396,6 +1312,80 @@ function getAnsiMono() {
         }
     }
 
+    
+    // ============ DOTS VISUALIZER ============
+function drawDots(w, h) {
+    analyser.getByteFrequencyData(freqData);
+
+    const cols = 60;           // number of frequency columns
+    const rows = 14;           // number of vertical dots
+    const dotRadius = 1.5;     // base dot size
+
+    const colWidth = w / cols;
+    const rowHeight = h / rows;
+
+    const maxBin = freqData.length;
+    const usableBins = Math.floor(maxBin * 0.8);
+
+    for (let c = 0; c < cols; c++) {
+        const t = c / cols;
+
+        // Log-distributed frequency mapping (bass tall, treble shorter)
+        const tStart = Math.pow(t, 2.2);
+        const tEnd = Math.pow((c + 1) / cols, 2.2);
+
+        const binStart = Math.floor(tStart * usableBins);
+        const binEnd = Math.max(binStart + 1, Math.floor(tEnd * usableBins));
+
+        // Average the bins for this column
+        let sum = 0, count = 0;
+        for (let j = binStart; j < binEnd && j < maxBin; j++) {
+            sum += freqData[j];
+            count++;
+        }
+        let value = count > 0 ? sum / count / 255 : 0;
+        value = Math.pow(value, 0.6);
+        value = Math.min(1, value * 1.5);
+
+        // How many dots in this column are lit
+        const litDots = Math.round(value * rows);
+
+        // Calculate X position (center of the column)
+        const cx = c * colWidth + colWidth / 2;
+
+        // Draw dots from bottom up
+        for (let r = 0; r < rows; r++) {
+            const fromBottom = r;  // 0 = bottom dot
+            const isLit = fromBottom < litDots;
+
+            if (!isLit) continue;
+
+            // Y position (bottom = h - rowHeight/2, going up)
+            const cy = h - (r * rowHeight) - rowHeight / 2;
+
+            // Vertical position ratio (0 = bottom, 1 = top)
+            const posFromBottom = r / rows;
+
+            // Color — same gradient as bars (blue → purple)
+            const hue = 210 + posFromBottom * 40;
+            const lightness = 45 + posFromBottom * 25;
+
+            // Make the top lit dot glow
+            if (r === litDots - 1) {
+                ctx.shadowColor = `hsl(${hue}, 85%, ${lightness}%)`;
+                ctx.shadowBlur = 6;
+            }
+
+            ctx.beginPath();
+            ctx.arc(cx, cy, dotRadius, 0, Math.PI * 2);
+            ctx.fillStyle = `hsl(${hue}, 85%, ${lightness}%)`;
+            ctx.fill();
+
+            ctx.shadowBlur = 0;
+        }
+    }
+}
+
     function drawAscii() {
         analyser.getByteFrequencyData(freqData);
         const usableBins = Math.floor(freqData.length * 0.3);
@@ -1454,10 +1444,10 @@ function getAnsiMono() {
         }
 
         ctx.clearRect(0, 0, w, h);
-        if (currentStyle === 'wave') drawWave(w, h);
-        else if (currentStyle === 'ansi') drawANSI(w, h);
-        else drawBars(w, h);
-    }
+if (currentStyle === 'wave') drawWave(w, h);
+else if (currentStyle === 'ansi') drawANSI(w, h);
+else if (currentStyle === 'dots') drawDots(w, h);
+else drawBars(w, h);
 
     audio.addEventListener('play', () => {
         initVisualizer();
