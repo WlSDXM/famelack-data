@@ -1094,37 +1094,32 @@ body.day-mode img.title-img[alt="Radio"] {
 
         // Draw LED segments from bottom up
         for (let s = 0; s < segCount; s++) {
-            const segFromBottom = s; // 0 = bottom segment
             const y = h - (s + 1) * segHeight + segGap / 2;
 
             // LED is lit if within range
-            const isLit = segFromBottom < litSegments;
+            const isLit = s < litSegments;
 
-            // Pick LED color based on vertical position
-            // Bottom 60% = green, middle 25% = yellow, top 15% = red
+            // Skip drawing unlit LEDs — only show the lit ones
+            if (!isLit) continue;
+
+            // Smooth gradient: darker at the base, brighter at the top
             const posFromBottom = s / segCount;
-            let ledColor;
-            if (posFromBottom < 0.6) {
-                ledColor = isLit
-                    ? `hsl(120, 90%, ${45 + (posFromBottom * 20)}%)`   // green
-                    : `hsl(120, 40%, 12%)`;                            // dim green
-            } else if (posFromBottom < 0.85) {
-                ledColor = isLit
-                    ? `hsl(55, 95%, ${50 + ((posFromBottom - 0.6) * 15)}%)` // yellow
-                    : `hsl(55, 40%, 15%)`;                             // dim yellow
-            } else {
-                ledColor = isLit
-                    ? `hsl(0, 90%, ${50 + ((posFromBottom - 0.85) * 10)}%)` // red
-                    : `hsl(0, 40%, 15%)`;                              // dim red
-            }
+
+            // Brightness: 30% at bottom → 65% at top
+            const lightness = 30 + posFromBottom * 35;
+
+            // Hue: 210 (blue) → 250 (purple) across the vertical range
+            const hue = 210 + posFromBottom * 40;
+
+            const ledColor = `hsl(${hue}, 85%, ${lightness}%)`;
 
             ctx.fillStyle = ledColor;
             ctx.fillRect(actualX, y, drawWidth, drawSegHeight);
 
-            // Add a subtle glow on lit top segments (nice LED look)
-            if (isLit && s === litSegments - 1) {
+            // Subtle glow on the top lit LED
+            if (s === litSegments - 1) {
                 ctx.shadowColor = ledColor;
-                ctx.shadowBlur = 4;
+                ctx.shadowBlur = 5;
                 ctx.fillRect(actualX, y, drawWidth, drawSegHeight);
                 ctx.shadowBlur = 0;
             }
