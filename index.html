@@ -89,11 +89,100 @@
             gap: 30px;
             align-items: start;
         }
-        @media (max-width: 900px) {
-            .layout-grid {
-                grid-template-columns: 1fr;
-            }
-        }
+        /* ============================================
+   TABLET / iPAD (701px – 1024px)
+   ============================================ */
+@media (min-width: 701px) and (max-width: 1024px) {
+    body {
+        padding: 14px;
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    /* Stack the grid into one column so nothing gets cramped */
+    .layout-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .right-column {
+        gap: 20px;
+    }
+
+    .right-column .player-box {
+        min-height: auto;
+    }
+
+    /* Heading & GIF sizes — between mobile and desktop */
+    img.earth-anim {
+        height: 65px;
+    }
+
+    img.title-img {
+        height: 34px;
+    }
+
+    /* Player box sizing */
+    .player-box {
+        padding: 16px;
+        border-radius: 8px;
+    }
+
+    /* Dropdowns can stay side by side on tablet — there's room */
+    .row {
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 12px;
+    }
+
+    select {
+        font-size: 16px;
+        padding: 10px 12px;
+        max-width: 100%;
+    }
+
+    /* Camera nav buttons — comfy but not huge */
+    .cam-nav button {
+        padding: 8px 16px;
+        font-size: 16px;
+        min-width: 46px;
+    }
+
+    .cam-star {
+        padding: 8px 16px;
+        font-size: 17px;
+        min-width: 46px;
+    }
+
+    .cam-title {
+        font-size: 13px;
+    }
+
+    /* Visualizer */
+    #visualizer, pre#asciiViz, .viz-fallback {
+        height: 80px !important;
+        min-height: 80px;
+        max-height: 80px;
+    }
+
+    /* Globe */
+    #globeCanvas {
+        height: 220px;
+        margin-top: -15px;
+    }
+
+    /* Theme toggle — slightly bigger tap target on tablet */
+    .theme-toggle {
+        width: 44px;
+        height: 44px;
+        font-size: 20px;
+    }
+}
 
         .right-column {
             display: flex;
@@ -581,7 +670,8 @@ body.day-mode img.title-img[alt="Radio"] {
 <script>
     const BASE = 'https://raw.githubusercontent.com/WlSDXM/famelack-data/main';
 
-    const IS_MOBILE = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    // Temporarily exclude iPad
+const IS_MOBILE = /iPhone|iPod|Android/i.test(navigator.userAgent);
 
     // ============ DAY / NIGHT TOGGLE ============
     (function initThemeToggle() {
