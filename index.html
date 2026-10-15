@@ -1130,7 +1130,10 @@ body.day-mode img.earth-anim {
 
     const ANSI_COLS = 40;
     const ANSI_ROWS = 6;
-    const ANSI_MONO = '#e0e0e0';
+    // ANSI mono color — switches between light (night mode) and dark (day mode)
+function getAnsiMono() {
+    return document.body.classList.contains('day-mode') ? '#1a1a1a' : '#e0e0e0';
+}
     let ansiColorMode = false;
 
     canvas.addEventListener('click', () => {
@@ -1159,7 +1162,7 @@ body.day-mode img.earth-anim {
         const measuredGlyphWidth = ctx.measureText('═').width;
         const frameCols = Math.max(1, Math.floor(innerW / measuredGlyphWidth) - 1);
 
-        const frameColor = ansiColorMode ? CGA_PALETTE[11] : ANSI_MONO;
+        const frameColor = ansiColorMode ? CGA_PALETTE[11] : getAnsiMono();
         ctx.fillStyle = frameColor;
 
         const topRow = '╔' + '═'.repeat(frameCols) + '╗';
@@ -1196,7 +1199,7 @@ body.day-mode img.earth-anim {
             if (ansiColorMode) {
                 colColor = CGA_PALETTE[ANSI_COLORS[c % ANSI_COLORS.length]];
             } else {
-                colColor = ANSI_MONO;
+                colColor = getAnsiMono();
             }
             ctx.fillStyle = colColor;
 
