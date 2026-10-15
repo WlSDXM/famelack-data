@@ -26,7 +26,7 @@
             --accent-color: #4a9eff;
         }
 
-        /* ===== DAY MODE ===== */
+        
         body.day-mode {
             --bg-color: #B8B8B8;
             --surface-color: #e8e8e8;
@@ -473,7 +473,7 @@ img.title-img[alt="Live"] {
     filter: drop-shadow(0 0 1px rgba(180, 100, 255, 0.6));
 }
 
-/* Day mode — Live */
+/* Day mode — ライブ */
 body.day-mode img.title-img[alt="Live"] {
     filter:
         brightness(1.05)
@@ -483,12 +483,12 @@ body.day-mode img.title-img[alt="Live"] {
         drop-shadow(0 0 3px rgba(180, 100, 255, 0.3));
 }
 
-/* ===== RADIO GIF GLOW (teal) — NIGHT MODE (default) ===== */
+/* ===== ラジオ GLOW — NIGHT MODE (default) ===== */
 img.title-img[alt="Radio"] {
     filter: drop-shadow(0 0 1px rgba(0, 220, 200, 0.6));
 }
 
-/* Day mode — Radio */
+/* Day mode — ラジオ */
 body.day-mode img.title-img[alt="Radio"] {
     filter:
         brightness(1.05)
@@ -530,7 +530,7 @@ body.day-mode img.title-img[alt="Radio"] {
             </div>
         </div>
 
-        <!-- ===== RIGHT COLUMN (Radio + Globe) ===== -->
+        <!-- ===== RIGHT COLUMN ===== -->
         <div class="right-column">
 
             <div class="player-box">
@@ -568,7 +568,7 @@ body.day-mode img.title-img[alt="Radio"] {
                 <div id="vizFallback" class="viz-fallback">Visualizer not available on this device</div>
             </div>
 
-            <!-- ===== GLOBE (below Radio, no box) ===== -->
+            <!-- ===== GLOBE ===== -->
             <canvas id="globeCanvas" title="Click to change color"></canvas>
 
         </div>
@@ -1058,22 +1058,22 @@ body.day-mode img.title-img[alt="Radio"] {
     function drawBars(w, h) {
     analyser.getByteFrequencyData(freqData);
 
-    const barCount = 60;           // fewer, chunkier bars
+    const barCount = 60;           
     const barWidth = w / barCount;
-    const gapRatio = 0.25;         // 25% of bar width is a gap between bars
+    const gapRatio = 0.25;         
     const drawWidth = barWidth * (1 - gapRatio);
 
-    // LED segments — each bar is divided into discrete LED cells vertically
-    const segCount = 20;           // LEDs per column
+    // LED segments
+    const segCount = 20;           
     const segHeight = h / segCount;
-    const segGap = 1;              // pixels of gap between vertical segments
+    const segGap = 1;              
     const drawSegHeight = segHeight - segGap;
 
     const maxBin = freqData.length;
 
     for (let i = 0; i < barCount; i++) {
         const t = i / barCount;
-        const logPos = Math.pow(t, 2.2);          // log-ish distribution (bass-heavy left)
+        const logPos = Math.pow(t, 2.2);          
         const binIndex = Math.floor(logPos * maxBin);
 
         const windowSize = Math.max(1, Math.floor(maxBin / barCount));
@@ -1086,29 +1086,29 @@ body.day-mode img.title-img[alt="Radio"] {
         value = Math.pow(value, 0.7);
         value = Math.min(1, value * 1.15);
 
-        // How many LED segments light up for this bar
+        
         const litSegments = Math.round(value * segCount);
 
         const x = i * barWidth;
         const actualX = x + (barWidth * gapRatio) / 2;
 
-        // Draw LED segments from bottom up
+        
         for (let s = 0; s < segCount; s++) {
             const y = h - (s + 1) * segHeight + segGap / 2;
 
-            // LED is lit if within range
+            
             const isLit = s < litSegments;
 
-            // Skip drawing unlit LEDs — only show the lit ones
+            
             if (!isLit) continue;
 
-            // Smooth gradient: darker at the base, brighter at the top
+            
             const posFromBottom = s / segCount;
 
-            // Brightness: 30% at bottom → 65% at top
+            
             const lightness = 30 + posFromBottom * 35;
 
-            // Hue: 210 (blue) → 250 (purple) across the vertical range
+            
             const hue = 210 + posFromBottom * 40;
 
             const ledColor = `hsl(${hue}, 85%, ${lightness}%)`;
@@ -1116,7 +1116,7 @@ body.day-mode img.title-img[alt="Radio"] {
             ctx.fillStyle = ledColor;
             ctx.fillRect(actualX, y, drawWidth, drawSegHeight);
 
-            // Subtle glow on the top lit LED
+            
             if (s === litSegments - 1) {
                 ctx.shadowColor = ledColor;
                 ctx.shadowBlur = 5;
