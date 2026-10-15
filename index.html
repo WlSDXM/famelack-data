@@ -1058,65 +1058,70 @@ body.day-mode img.title-img[alt="Radio"] {
     function drawBars(w, h) {
     analyser.getByteFrequencyData(freqData);
 
-    const barCount = 60;           
+    const barCount = 60;
     const barWidth = w / barCount;
-    const gapRatio = 0.25;         
+    const gapRatio = 0.25;
     const drawWidth = barWidth * (1 - gapRatio);
 
-    // LED segments
-    const segCount = 20;           
+    const segCount = 20;
     const segHeight = h / segCount;
-    const segGap = 1;              
+    const segGap = 1;
     const drawSegHeight = segHeight - segGap;
 
     const maxBin = freqData.length;
 
+    
+    let totalSum = 0;
+    for (let j = 0; j < maxBin; j++) {
+        totalSum += freqData[j];
+    }
+    const avgVolume = totalSum / maxBin / 255;  // 0 to 1
+
+    
+    let globalValue = Math.pow(avgVolume, 0.6);
+    globalValue = Math.min(1, globalValue * 1.6);
+
+    
     for (let i = 0; i < barCount; i++) {
         const t = i / barCount;
-        const logPos = Math.pow(t, 2.2);          
-        const binIndex = Math.floor(logPos * maxBin);
-
+        const binIndex = Math.floor(t * maxBin);
         const windowSize = Math.max(1, Math.floor(maxBin / barCount));
+
+        
         let sum = 0, count = 0;
-        for (let j = binIndex; j < binIndex + windowSize && j < freqData.length; j++) {
+        for (let j = binIndex; j < binIndex + windowSize && j < maxBin; j++) {
             sum += freqData[j];
             count++;
         }
-        let value = count > 0 ? sum / count / 255 : 0;
-        value = Math.pow(value, 0.55);
-value = Math.min(1, value * 1.6);
+        let localValue = count > 0 ? sum / count / 255 : 0;
+        localValue = Math.pow(localValue, 0.6);
+
         
+        let value = globalValue * 0.7 + localValue * 0.3;
+        value = Math.min(1, value);
+
         
-const litSegments = Math.max(1, Math.round(value * segCount));
+        const litSegments = Math.max(
+            Math.round(segCount * 0.3),
+            Math.round(value * segCount)
+        );
 
         const x = i * barWidth;
         const actualX = x + (barWidth * gapRatio) / 2;
 
-        
         for (let s = 0; s < segCount; s++) {
             const y = h - (s + 1) * segHeight + segGap / 2;
-
-            
             const isLit = s < litSegments;
-
-            
             if (!isLit) continue;
 
-            
             const posFromBottom = s / segCount;
-
-            
             const lightness = 30 + posFromBottom * 35;
-
-            
             const hue = 210 + posFromBottom * 40;
-
             const ledColor = `hsl(${hue}, 85%, ${lightness}%)`;
 
             ctx.fillStyle = ledColor;
             ctx.fillRect(actualX, y, drawWidth, drawSegHeight);
 
-            
             if (s === litSegments - 1) {
                 ctx.shadowColor = ledColor;
                 ctx.shadowBlur = 5;
