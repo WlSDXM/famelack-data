@@ -1071,44 +1071,24 @@ body.day-mode img.title-img[alt="Radio"] {
     const maxBin = freqData.length;
 
     
-    let totalSum = 0;
-    for (let j = 0; j < maxBin; j++) {
-        totalSum += freqData[j];
-    }
-    const avgVolume = totalSum / maxBin / 255;
-    let globalValue = Math.pow(avgVolume, 0.6);
-    globalValue = Math.min(1, globalValue * 1.6);
-
-    
-    const usableBins = Math.floor(maxBin * 0.7);  
-    const step = usableBins / barCount;
-    const localValues = new Array(barCount);
-
     for (let i = 0; i < barCount; i++) {
-        const start = Math.floor(i * step);
-        const end = Math.max(start + 1, Math.floor((i + 1) * step));
+        const start = Math.floor((i / barCount) * maxBin);
+        const end = Math.floor(((i + 1) / barCount) * maxBin);
+        const span = Math.max(1, end - start);
 
-        let sum = 0, count = 0;
-        for (let j = start; j < end && j < usableBins; j++) {
+        let sum = 0;
+        for (let j = start; j < end && j < maxBin; j++) {
             sum += freqData[j];
-            count++;
         }
-        let localValue = count > 0 ? sum / count / 255 : 0;
+        let value = sum / span / 255;
 
         
-        localValue = Math.pow(localValue, 0.55);
-        localValues[i] = localValue;
-    }
-
-   
-    for (let i = 0; i < barCount; i++) {
-        
-        let value = globalValue * 0.4 + localValues[i] * 0.6;
-        value = Math.min(1, value);
+        value = Math.pow(value, 0.5);
+        value = Math.min(1, value * 2.2);
 
         
         const litSegments = Math.max(
-            Math.round(segCount * 0.15),
+            Math.round(segCount * 0.25),
             Math.round(value * segCount)
         );
 
