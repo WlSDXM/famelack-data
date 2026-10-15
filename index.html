@@ -1317,9 +1317,10 @@ function getAnsiMono() {
 function drawDots(w, h) {
     analyser.getByteFrequencyData(freqData);
 
-    const cols = 60;           // number of frequency columns
-    const rows = 14;           // number of vertical dots
-    const dotRadius = 1.5;     // base dot size
+    
+    const cols = 40;           
+    const rows = 10;           
+    const dotRadius = 1.2;     
 
     const colWidth = w / cols;
     const rowHeight = h / rows;
@@ -1330,14 +1331,13 @@ function drawDots(w, h) {
     for (let c = 0; c < cols; c++) {
         const t = c / cols;
 
-        // Log-distributed frequency mapping (bass tall, treble shorter)
+       
         const tStart = Math.pow(t, 2.2);
         const tEnd = Math.pow((c + 1) / cols, 2.2);
 
         const binStart = Math.floor(tStart * usableBins);
         const binEnd = Math.max(binStart + 1, Math.floor(tEnd * usableBins));
 
-        // Average the bins for this column
         let sum = 0, count = 0;
         for (let j = binStart; j < binEnd && j < maxBin; j++) {
             sum += freqData[j];
@@ -1347,41 +1347,28 @@ function drawDots(w, h) {
         value = Math.pow(value, 0.6);
         value = Math.min(1, value * 1.5);
 
-        // How many dots in this column are lit
         const litDots = Math.round(value * rows);
 
-        // Calculate X position (center of the column)
+        
         const cx = c * colWidth + colWidth / 2;
 
-        // Draw dots from bottom up
         for (let r = 0; r < rows; r++) {
-            const fromBottom = r;  // 0 = bottom dot
-            const isLit = fromBottom < litDots;
-
+            const isLit = r < litDots;
             if (!isLit) continue;
 
-            // Y position (bottom = h - rowHeight/2, going up)
+            
             const cy = h - (r * rowHeight) - rowHeight / 2;
 
-            // Vertical position ratio (0 = bottom, 1 = top)
+            
             const posFromBottom = r / rows;
 
-            // Color — same gradient as bars (blue → purple)
-            const hue = 210 + posFromBottom * 40;
-            const lightness = 45 + posFromBottom * 25;
-
-            // Make the top lit dot glow
-            if (r === litDots - 1) {
-                ctx.shadowColor = `hsl(${hue}, 85%, ${lightness}%)`;
-                ctx.shadowBlur = 6;
-            }
+            
+            const alpha = 0.35 + posFromBottom * 0.55;
 
             ctx.beginPath();
             ctx.arc(cx, cy, dotRadius, 0, Math.PI * 2);
-            ctx.fillStyle = `hsl(${hue}, 85%, ${lightness}%)`;
+            ctx.fillStyle = `rgba(255, 255, 255, ${alpha})`;
             ctx.fill();
-
-            ctx.shadowBlur = 0;
         }
     }
 }
