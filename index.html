@@ -1071,22 +1071,59 @@ body.day-mode img.title-img[alt="Radio"] {
     const maxBin = freqData.length;
 
     
+    let totalSum = 0;
+    for (let j = 0; j < maxBin; j++) {
+        totalSum += freqData[j];
+    }
+    const avgVolume = totalSum / maxBin / 255;
+
+    const bassEnd = Math.floor(maxBin * 0.15);
+    const midEnd = Math.floor(maxBin * 0.5);
+
+    let bassSum = 0, midSum = 0, trebleSum = 0;
+    for (let j = 0; j < bassEnd; j++) bassSum += freqData[j];
+    for (let j = bassEnd; j < midEnd; j++) midSum += freqData[j];
+    for (let j = midEnd; j < maxBin; j++) trebleSum += freqData[j];
+
+    const bassAvg = bassSum / bassEnd / 255;
+    const midAvg = midSum / (midEnd - bassEnd) / 255;
+    const trebleAvg = trebleSum / (maxBin - midEnd) / 255;
+
+    
+    baseHeight = Math.min(1, baseHeight * 1.8);
+
+    
     for (let i = 0; i < barCount; i++) {
-        const start = Math.floor((i / barCount) * maxBin);
-        const end = Math.floor(((i + 1) / barCount) * maxBin);
-        const span = Math.max(1, end - start);
+        const t = i / barCount;
 
-        let sum = 0;
-        for (let j = start; j < end && j < maxBin; j++) {
-            sum += freqData[j];
+        
+        let envelope;
+        if (t < 0.4) {
+           
+            envelope = 1.0 - (t / 0.4) * 0.35;
+        } else if (t < 0.7) {
+           
+            envelope = 0.65 + ((t - 0.4) / 0.3) * 0.05;
+        } else {
+            
+            envelope = 0.7 + ((t - 0.7) / 0.3) * 0.15;
         }
-        let value = sum / span / 255;
+
+       
+        let regionValue;
+        if (t < 0.4) regionValue = bassAvg;
+        else if (t < 0.7) regionValue = midAvg;
+        else regionValue = trebleAvg;
+
+        regionValue = Math.pow(regionValue, 0.5);
 
         
-        value = Math.pow(value, 0.5);
-        value = Math.min(1, value * 2.2);
+        let value = envelope * (baseHeight * 0.7 + regionValue * 0.3);
 
         
+        const jitter = Math.sin(i * 1.7 + performance.now() * 0.002) * 0.05;
+        value = Math.max(0.2, Math.min(1, value + jitter));
+
         const litSegments = Math.max(
             Math.round(segCount * 0.25),
             Math.round(value * segCount)
