@@ -1070,13 +1070,17 @@ body.day-mode img.title-img[alt="Radio"] {
 
     const maxBin = freqData.length;
 
-    
+    // Overall volume from audio
     let totalSum = 0;
     for (let j = 0; j < maxBin; j++) {
         totalSum += freqData[j];
     }
     const avgVolume = totalSum / maxBin / 255;
 
+    let baseHeight = Math.pow(avgVolume, 0.5);
+    baseHeight = Math.min(1, baseHeight * 1.8);
+
+    // Region averages — bass, mid, treble
     const bassEnd = Math.floor(maxBin * 0.15);
     const midEnd = Math.floor(maxBin * 0.5);
 
@@ -1089,27 +1093,24 @@ body.day-mode img.title-img[alt="Radio"] {
     const midAvg = midSum / (midEnd - bassEnd) / 255;
     const trebleAvg = trebleSum / (maxBin - midEnd) / 255;
 
-    
-    baseHeight = Math.min(1, baseHeight * 1.8);
+    // Time-based phase for jitter animation
+    const time = Date.now() * 0.002;
 
-    
+    // Draw each bar
     for (let i = 0; i < barCount; i++) {
         const t = i / barCount;
 
-        
+        // Fake spectrum envelope — tall on left, dip in middle, small rise on right
         let envelope;
         if (t < 0.4) {
-           
             envelope = 1.0 - (t / 0.4) * 0.35;
         } else if (t < 0.7) {
-           
             envelope = 0.65 + ((t - 0.4) / 0.3) * 0.05;
         } else {
-            
             envelope = 0.7 + ((t - 0.7) / 0.3) * 0.15;
         }
 
-       
+        // Region weight — uses real audio data
         let regionValue;
         if (t < 0.4) regionValue = bassAvg;
         else if (t < 0.7) regionValue = midAvg;
@@ -1117,11 +1118,11 @@ body.day-mode img.title-img[alt="Radio"] {
 
         regionValue = Math.pow(regionValue, 0.5);
 
-        
+        // Combine
         let value = envelope * (baseHeight * 0.7 + regionValue * 0.3);
 
-        
-        const jitter = Math.sin(i * 1.7 + performance.now() * 0.002) * 0.05;
+        // Small jitter so bars aren't identical
+        const jitter = Math.sin(i * 1.7 + time) * 0.05;
         value = Math.max(0.2, Math.min(1, value + jitter));
 
         const litSegments = Math.max(
