@@ -1083,9 +1083,8 @@ body.day-mode img.title-img[alt="Radio"] {
             count++;
         }
         let value = count > 0 ? sum / count / 255 : 0;
-        value = Math.pow(value, 0.7);
-        value = Math.min(1, value * 1.15);
-
+        value = Math.pow(value, 0.55);
+value = Math.min(1, value * 1.6);
         
         const litSegments = Math.round(value * segCount);
 
