@@ -1313,44 +1313,54 @@ function getAnsiMono() {
     }
 
     
-   // ============ DOTS VISUALIZER — WAVE RIDERS ============
+   // ============ DOTS VISUALIZER — SMOOTH WAVE ============
+// Persistent smoothing state for fluid motion
+if (!window.__dotsSmooth) {
+    window.__dotsSmooth = new Array(15).fill(0);
+}
+
 function drawDots(w, h) {
     analyser.getByteTimeDomainData(timeData);
 
     const dotCount = 15;
     const dotRadius = 1.8;
-
     const spacing = w / (dotCount + 1);
+    const amplitude = h * 0.32;
 
-    // Peak-to-peak amplitude — how far the dots move up/down
-    const amplitude = h * 0.35;
+    
+    const time = Date.now() * 0.0004;
 
-    // Time-based phase so it flows across the screen
-    const time = Date.now() * 0.0008;
+    
+    if (window.__dotsSmooth.length !== dotCount) {
+        window.__dotsSmooth = new Array(dotCount).fill(0);
+    }
 
     for (let i = 0; i < dotCount; i++) {
-        // X position — evenly spaced
         const x = (i + 1) * spacing;
 
-        // Sample the audio waveform at this X position
+        
         const sampleIdx = Math.floor((i / dotCount) * timeData.length);
-        const sample = (timeData[sampleIdx] - 128) / 128;   // -1 to 1
+        const rawSample = (timeData[sampleIdx] - 128) / 128;
 
-        // Base sine wave (flows left to right)
+       
+        const target = rawSample;
+        const current = window.__dotsSmooth[i];
+        
+        const smoothing = 0.08;
+        const smoothedSample = current + (target - current) * smoothing;
+        window.__dotsSmooth[i] = smoothedSample;
+
+        
         const wave = Math.sin((i / dotCount) * Math.PI * 2 + time);
 
-        // Blend the audio sample with the sine wave
-        const combined = wave * 0.6 + sample * 0.4;
+        
+        const combined = wave * 0.7 + smoothedSample * 0.5;
 
-        // Y position — centered vertically, modulated by the wave
         const y = h / 2 + combined * amplitude;
 
-        // Dot size grows slightly with intensity
         const intensity = Math.abs(combined);
-        const radius = dotRadius + intensity * 1.2;
-
-        // Opacity — brighter dots when the wave is strong
-        const alpha = 0.4 + intensity * 0.6;
+        const radius = dotRadius + intensity * 0.8;
+        const alpha = 0.5 + intensity * 0.5;
 
         ctx.beginPath();
         ctx.arc(x, y, radius, 0, Math.PI * 2);
@@ -1358,7 +1368,6 @@ function drawDots(w, h) {
         ctx.fill();
     }
 }
-
         function drawAscii() {
         analyser.getByteFrequencyData(freqData);
         const usableBins = Math.floor(freqData.length * 0.3);
