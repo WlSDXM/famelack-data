@@ -1313,63 +1313,49 @@ function getAnsiMono() {
     }
 
     
-    // ============ DOTS VISUALIZER ============
+   // ============ DOTS VISUALIZER — WAVE RIDERS ============
 function drawDots(w, h) {
-    analyser.getByteFrequencyData(freqData);
+    analyser.getByteTimeDomainData(timeData);
 
-    
-    const cols = 40;           
-    const rows = 10;           
-    const dotRadius = 1.2;     
+    const dotCount = 15;
+    const dotRadius = 1.8;
 
-    const colWidth = w / cols;
-    const rowHeight = h / rows;
+    const spacing = w / (dotCount + 1);
 
-    const maxBin = freqData.length;
-    const usableBins = Math.floor(maxBin * 0.8);
+    // Peak-to-peak amplitude — how far the dots move up/down
+    const amplitude = h * 0.35;
 
-    for (let c = 0; c < cols; c++) {
-        const t = c / cols;
+    // Time-based phase so it flows across the screen
+    const time = Date.now() * 0.0008;
 
-       
-        const tStart = Math.pow(t, 2.2);
-        const tEnd = Math.pow((c + 1) / cols, 2.2);
+    for (let i = 0; i < dotCount; i++) {
+        // X position — evenly spaced
+        const x = (i + 1) * spacing;
 
-        const binStart = Math.floor(tStart * usableBins);
-        const binEnd = Math.max(binStart + 1, Math.floor(tEnd * usableBins));
+        // Sample the audio waveform at this X position
+        const sampleIdx = Math.floor((i / dotCount) * timeData.length);
+        const sample = (timeData[sampleIdx] - 128) / 128;   // -1 to 1
 
-        let sum = 0, count = 0;
-        for (let j = binStart; j < binEnd && j < maxBin; j++) {
-            sum += freqData[j];
-            count++;
-        }
-        let value = count > 0 ? sum / count / 255 : 0;
-        value = Math.pow(value, 0.6);
-        value = Math.min(1, value * 1.5);
+        // Base sine wave (flows left to right)
+        const wave = Math.sin((i / dotCount) * Math.PI * 2 + time);
 
-        const litDots = Math.round(value * rows);
+        // Blend the audio sample with the sine wave
+        const combined = wave * 0.6 + sample * 0.4;
 
-        
-        const cx = c * colWidth + colWidth / 2;
+        // Y position — centered vertically, modulated by the wave
+        const y = h / 2 + combined * amplitude;
 
-        for (let r = 0; r < rows; r++) {
-            const isLit = r < litDots;
-            if (!isLit) continue;
+        // Dot size grows slightly with intensity
+        const intensity = Math.abs(combined);
+        const radius = dotRadius + intensity * 1.2;
 
-            
-            const cy = h - (r * rowHeight) - rowHeight / 2;
+        // Opacity — brighter dots when the wave is strong
+        const alpha = 0.4 + intensity * 0.6;
 
-            
-            const posFromBottom = r / rows;
-
-            
-            const alpha = 0.35 + posFromBottom * 0.55;
-
-            ctx.beginPath();
-            ctx.arc(cx, cy, dotRadius, 0, Math.PI * 2);
-            ctx.fillStyle = `rgba(255, 255, 255, ${alpha})`;
-            ctx.fill();
-        }
+        ctx.beginPath();
+        ctx.arc(x, y, radius, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(255, 255, 255, ${alpha})`;
+        ctx.fill();
     }
 }
 
