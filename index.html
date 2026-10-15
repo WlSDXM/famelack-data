@@ -1070,34 +1070,37 @@ body.day-mode img.title-img[alt="Radio"] {
 
     const maxBin = freqData.length;
 
-    
+   
     let totalSum = 0;
     for (let j = 0; j < maxBin; j++) {
         totalSum += freqData[j];
     }
-    const avgVolume = totalSum / maxBin / 255;  // 0 to 1
+    const avgVolume = totalSum / maxBin / 255;
 
-    
     let globalValue = Math.pow(avgVolume, 0.6);
     globalValue = Math.min(1, globalValue * 1.6);
 
     
-    for (let i = 0; i < barCount; i++) {
-        const t = i / barCount;
-        const binIndex = Math.floor(t * maxBin);
-        const windowSize = Math.max(1, Math.floor(maxBin / barCount));
+    const step = maxBin / barCount;
+    const localValues = new Array(barCount);
 
-        
+    for (let i = 0; i < barCount; i++) {
+        const start = Math.floor(i * step);
+        const end = Math.floor((i + 1) * step);
         let sum = 0, count = 0;
-        for (let j = binIndex; j < binIndex + windowSize && j < maxBin; j++) {
+        for (let j = start; j < end && j < maxBin; j++) {
             sum += freqData[j];
             count++;
         }
         let localValue = count > 0 ? sum / count / 255 : 0;
         localValue = Math.pow(localValue, 0.6);
+        localValues[i] = localValue;
+    }
 
-        
-        let value = globalValue * 0.7 + localValue * 0.3;
+  
+    for (let i = 0; i < barCount; i++) {
+       
+        let value = globalValue * 0.7 + localValues[i] * 0.3;
         value = Math.min(1, value);
 
         
