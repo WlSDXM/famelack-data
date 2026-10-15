@@ -1070,9 +1070,7 @@ body.day-mode img.title-img[alt="Radio"] {
 
     const maxBin = freqData.length;
 
-    // ============================================
-    // Compute the overall volume ONCE
-    // ============================================
+    
     let totalSum = 0;
     for (let j = 0; j < maxBin; j++) {
         totalSum += freqData[j];
@@ -1081,21 +1079,36 @@ body.day-mode img.title-img[alt="Radio"] {
     let globalValue = Math.pow(avgVolume, 0.6);
     globalValue = Math.min(1, globalValue * 1.6);
 
-    // Debug log — check the console to see actual values
-    // console.log('avgVolume:', avgVolume, 'globalValue:', globalValue);
+    
+    const usableBins = Math.floor(maxBin * 0.7);  
+    const step = usableBins / barCount;
+    const localValues = new Array(barCount);
 
-    // ============================================
-    // Draw each bar — every bar uses globalValue + a small fixed jitter
-    // ============================================
     for (let i = 0; i < barCount; i++) {
-        // Small per-bar variation using a sine wave so it wobbles naturally
-        const wobble = Math.sin(i * 0.5) * 0.08;
+        const start = Math.floor(i * step);
+        const end = Math.max(start + 1, Math.floor((i + 1) * step));
 
-        let value = globalValue + wobble;
-        value = Math.max(0.1, Math.min(1, value));
+        let sum = 0, count = 0;
+        for (let j = start; j < end && j < usableBins; j++) {
+            sum += freqData[j];
+            count++;
+        }
+        let localValue = count > 0 ? sum / count / 255 : 0;
 
+        
+        localValue = Math.pow(localValue, 0.55);
+        localValues[i] = localValue;
+    }
+
+   
+    for (let i = 0; i < barCount; i++) {
+        
+        let value = globalValue * 0.4 + localValues[i] * 0.6;
+        value = Math.min(1, value);
+
+        
         const litSegments = Math.max(
-            Math.round(segCount * 0.2),
+            Math.round(segCount * 0.15),
             Math.round(value * segCount)
         );
 
