@@ -1417,37 +1417,14 @@ function drawDots(w, h) {
         asciiViz.textContent = output;
     }
 
-    function draw() {
-        requestAnimationFrame(draw);
+        
 
-        if (visualizerDisabled) return;
-
-        if (currentStyle === 'ascii') {
-            if (analyser) drawAscii();
-            return;
-        }
-
-        if (canvas.style.display === 'none') return;
-        const rect = canvas.getBoundingClientRect();
-        const w = rect.width;
-        const h = rect.height;
-        if (w < 10 || h < 10) return;
-
-        if (!analyser) {
-            ctx.clearRect(0, 0, w, h);
-            ctx.strokeStyle = '#222';
-            ctx.beginPath();
-            ctx.moveTo(0, h / 2);
-            ctx.lineTo(w, h / 2);
-            ctx.stroke();
-            return;
-        }
-
-        ctx.clearRect(0, 0, w, h);
-if (currentStyle === 'wave') drawWave(w, h);
-else if (currentStyle === 'ansi') drawANSI(w, h);
-else if (currentStyle === 'dots') drawDots(w, h);
-else drawBars(w, h);
+               ctx.clearRect(0, 0, w, h);
+        if (currentStyle === 'wave') drawWave(w, h);
+        else if (currentStyle === 'ansi') drawANSI(w, h);
+        else if (currentStyle === 'dots') drawDots(w, h);
+        else drawBars(w, h);
+    }
 
     audio.addEventListener('play', () => {
         initVisualizer();
