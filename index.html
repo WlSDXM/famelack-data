@@ -22,6 +22,16 @@
             --accent-color: #4a9eff;
         }
 
+        /* ===== DAY MODE ===== */
+        body.day-mode {
+            --bg-color: #d4d4d4;
+            --surface-color: #e8e8e8;
+            --border-color: #999;
+            --text-color: #1a1a1a;
+            --text-muted: #555;
+            --accent-color: #1a6fcc;
+        }
+
         @font-face {
             font-family: 'stealth57';
             src: url('https://raw.githubusercontent.com/WlSDXM/famelack-data/main/stealth57.otf') format('opentype');
@@ -47,6 +57,7 @@
             padding-bottom: 17px;
             line-height: 1.5;
             overflow-x: hidden;
+            transition: background-color 0.3s, color 0.3s;
         }
 
         .container {
@@ -97,6 +108,7 @@
             border: 1px solid var(--border-color);
             padding: 20px;
             border-radius: 8px;
+            transition: background-color 0.3s, border-color 0.3s;
         }
 
         h2 {
@@ -140,6 +152,7 @@
             text-overflow: ellipsis;
             overflow: hidden;
             white-space: nowrap;
+            transition: background-color 0.3s, color 0.3s, border-color 0.3s;
         }
         select:focus { outline: none; border-color: var(--accent-color); }
 
@@ -176,6 +189,7 @@
             font-size: 15px;
             font-family: 'stealth57', monospace;
             cursor: pointer;
+            transition: background-color 0.3s, color 0.3s, border-color 0.3s;
         }
         .cam-nav button:hover:not(:disabled) {
             border-color: var(--accent-color);
@@ -199,7 +213,7 @@
             font-family: 'stealth57', monospace;
             cursor: pointer;
             line-height: 1;
-            transition: color 0.15s, border-color 0.15s, text-shadow 0.15s;
+            transition: color 0.15s, border-color 0.15s, text-shadow 0.15s, background-color 0.3s;
         }
         .cam-star:hover {
             border-color: #ffd966;
@@ -236,6 +250,7 @@
             margin-top: 10px;
             display: block;
             box-sizing: border-box;
+            transition: border-color 0.3s;
         }
 
         pre#asciiViz {
@@ -283,6 +298,38 @@
             border: none;
             margin: 0 auto;
             margin-top: -25px;
+        }
+
+        /* ===== DAY / NIGHT TOGGLE ===== */
+        .theme-toggle {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 9999;
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            border: 1px solid var(--border-color);
+            background: var(--surface-color);
+            color: var(--text-color);
+            font-size: 22px;
+            line-height: 1;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.2s, border-color 0.2s, background-color 0.3s, color 0.3s;
+            font-family: 'Segoe UI Emoji', 'Apple Color Emoji', system-ui, sans-serif;
+            padding: 0;
+        }
+
+        .theme-toggle:hover {
+            transform: scale(1.1);
+            border-color: var(--accent-color);
+        }
+
+        .theme-toggle:active {
+            transform: scale(0.95);
         }
 
         @media (max-width: 700px) {
@@ -377,6 +424,14 @@
             video { border-radius: 4px; }
 
             .right-column .player-box { min-height: auto; }
+
+            .theme-toggle {
+                bottom: 12px;
+                left: 12px;
+                width: 40px;
+                height: 40px;
+                font-size: 18px;
+            }
         }
 
         @media (max-width: 380px) {
@@ -390,7 +445,7 @@
 <body>
 <div class="container">
     <h1 class="earth-title">
-        <img src="https://i.postimg.cc/nzjfffkR/EARTH-GIF-FIXED4SITE.gif" alt="EARTH" class="earth-anim">
+        <img src="https://i.postimg.cc/8ckMtv6J/EARTH-GIF2.gif" alt="EARTH" class="earth-anim">
     </h1>
 
     <div class="layout-grid">
@@ -462,10 +517,47 @@
     </div>
 </div>
 
+<!-- ===== DAY / NIGHT TOGGLE ===== -->
+<button id="themeToggle" class="theme-toggle" title="Toggle day/night mode">☾</button>
+
 <script>
     const BASE = 'https://raw.githubusercontent.com/WlSDXM/famelack-data/main';
 
     const IS_MOBILE = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+    // ============ DAY / NIGHT TOGGLE ============
+    (function initThemeToggle() {
+        const toggle = document.getElementById('themeToggle');
+        if (!toggle) return;
+
+        const STORAGE_KEY = 'earth_themeMode';
+
+        function applyTheme(mode) {
+            if (mode === 'day') {
+                document.body.classList.add('day-mode');
+                toggle.textContent = '☀';
+                toggle.title = 'Switch to night mode';
+                const meta = document.querySelector('meta[name="theme-color"]');
+                if (meta) meta.setAttribute('content', '#d4d4d4');
+            } else {
+                document.body.classList.remove('day-mode');
+                toggle.textContent = '☾';
+                toggle.title = 'Switch to day mode';
+                const meta = document.querySelector('meta[name="theme-color"]');
+                if (meta) meta.setAttribute('content', '#000000');
+            }
+        }
+
+        const saved = localStorage.getItem(STORAGE_KEY) || 'night';
+        applyTheme(saved);
+
+        toggle.addEventListener('click', () => {
+            const isDay = document.body.classList.contains('day-mode');
+            const next = isDay ? 'night' : 'day';
+            applyTheme(next);
+            localStorage.setItem(STORAGE_KEY, next);
+        });
+    })();
 
     // ============ WEBCAM ============
     const video = document.getElementById('webcamPlayer');
@@ -1011,9 +1103,9 @@
     const ANSI_COLORS = [9, 10, 11, 12, 13, 14, 15];
 
     const ANSI_COLS = 40;
-const ANSI_ROWS = 6;
-const ANSI_MONO = '#e0e0e0';
-let ansiColorMode = false;
+    const ANSI_ROWS = 6;
+    const ANSI_MONO = '#e0e0e0';
+    let ansiColorMode = false;
 
     canvas.addEventListener('click', () => {
         if (currentStyle === 'ansi') {
@@ -1022,84 +1114,75 @@ let ansiColorMode = false;
     });
 
     function drawANSI(w, h) {
-    // Get audio data
-    analyser.getByteFrequencyData(freqData);
+        analyser.getByteFrequencyData(freqData);
 
-    // Frame padding
-    const padX = 8;
-    const padY = 6;
-    const innerW = w - padX * 2;
-    const innerH = h - padY * 2;
+        const padX = 8;
+        const padY = 6;
+        const innerW = w - padX * 2;
+        const innerH = h - padY * 2;
 
-    // Character cell size
-    const charH = innerH / (ANSI_ROWS + 2);
-    const charW = innerW / ANSI_COLS;
+        const charH = innerH / (ANSI_ROWS + 2);
+        const charW = innerW / ANSI_COLS;
 
-    // SPACING FIX: smaller multiplier = gap between bars
-    const fontSize = Math.floor(charH * 0.75);
+        const fontSize = Math.floor(charH * 0.75);
 
-    // Set font BEFORE measuring
-    ctx.font = `${fontSize}px "Courier New", monospace`;
-    ctx.textBaseline = 'top';
-    ctx.textAlign = 'left';
+        ctx.font = `${fontSize}px "Courier New", monospace`;
+        ctx.textBaseline = 'top';
+        ctx.textAlign = 'left';
 
-    // FRAME FIX: measure actual glyph width at this font size
-    const measuredGlyphWidth = ctx.measureText('═').width;
-    const frameCols = Math.max(1, Math.floor(innerW / measuredGlyphWidth) - 1);
+        const measuredGlyphWidth = ctx.measureText('═').width;
+        const frameCols = Math.max(1, Math.floor(innerW / measuredGlyphWidth) - 1);
 
-    const frameColor = ansiColorMode ? CGA_PALETTE[11] : ANSI_MONO;
-    ctx.fillStyle = frameColor;
+        const frameColor = ansiColorMode ? CGA_PALETTE[11] : ANSI_MONO;
+        ctx.fillStyle = frameColor;
 
-    // Top + bottom frame strings
-    const topRow = '╔' + '═'.repeat(frameCols) + '╗';
-    const botRow = '╚' + '═'.repeat(frameCols) + '╝';
+        const topRow = '╔' + '═'.repeat(frameCols) + '╗';
+        const botRow = '╚' + '═'.repeat(frameCols) + '╝';
 
-    const topY = padY;
-    const botY = padY + (ANSI_ROWS + 1) * charH;
-    ctx.fillText(topRow, padX, topY);
-    ctx.fillText(botRow, padX, botY);
+        const topY = padY;
+        const botY = padY + (ANSI_ROWS + 1) * charH;
+        ctx.fillText(topRow, padX, topY);
+        ctx.fillText(botRow, padX, botY);
 
-    // Left + right vertical frame bars
-    for (let r = 0; r < ANSI_ROWS; r++) {
-        const rowY = padY + (r + 1) * charH;
-        ctx.fillText('║', padX, rowY);
-        ctx.fillText('║', padX + (frameCols + 1) * measuredGlyphWidth, rowY);
-    }
-
-    // ---- Bars ----
-    const usableBins = Math.floor(freqData.length * 0.4);
-    const step = usableBins / ANSI_COLS;
-    const SHADES = ['█', '▓', '▒', '░'];
-
-    for (let c = 0; c < ANSI_COLS; c++) {
-        const start = Math.floor(c * step);
-        const end = Math.floor((c + 1) * step);
-        let sum = 0;
-        for (let j = start; j < end; j++) sum += freqData[j];
-        let value = sum / (end - start) / 255;
-
-        value = Math.pow(value, 0.7);
-        value = Math.min(1, value * 1.2);
-
-        const filledRows = Math.round(value * ANSI_ROWS);
-
-        let colColor;
-        if (ansiColorMode) {
-            colColor = CGA_PALETTE[ANSI_COLORS[c % ANSI_COLORS.length]];
-        } else {
-            colColor = ANSI_MONO;
+        for (let r = 0; r < ANSI_ROWS; r++) {
+            const rowY = padY + (r + 1) * charH;
+            ctx.fillText('║', padX, rowY);
+            ctx.fillText('║', padX + (frameCols + 1) * measuredGlyphWidth, rowY);
         }
-        ctx.fillStyle = colColor;
 
-        for (let r = 0; r < filledRows; r++) {
-            const shadeIndex = Math.min(r, SHADES.length - 1);
-            const char = SHADES[shadeIndex];
-            const x = padX + (c + 1) * charW;
-            const y = padY + (ANSI_ROWS - r) * charH;
-            ctx.fillText(char, x, y);
+        const usableBins = Math.floor(freqData.length * 0.4);
+        const step = usableBins / ANSI_COLS;
+        const SHADES = ['█', '▓', '▒', '░'];
+
+        for (let c = 0; c < ANSI_COLS; c++) {
+            const start = Math.floor(c * step);
+            const end = Math.floor((c + 1) * step);
+            let sum = 0;
+            for (let j = start; j < end; j++) sum += freqData[j];
+            let value = sum / (end - start) / 255;
+
+            value = Math.pow(value, 0.7);
+            value = Math.min(1, value * 1.2);
+
+            const filledRows = Math.round(value * ANSI_ROWS);
+
+            let colColor;
+            if (ansiColorMode) {
+                colColor = CGA_PALETTE[ANSI_COLORS[c % ANSI_COLORS.length]];
+            } else {
+                colColor = ANSI_MONO;
+            }
+            ctx.fillStyle = colColor;
+
+            for (let r = 0; r < filledRows; r++) {
+                const shadeIndex = Math.min(r, SHADES.length - 1);
+                const char = SHADES[shadeIndex];
+                const x = padX + (c + 1) * charW;
+                const y = padY + (ANSI_ROWS - r) * charH;
+                ctx.fillText(char, x, y);
+            }
         }
     }
-}
 
     function drawAscii() {
         analyser.getByteFrequencyData(freqData);
