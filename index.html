@@ -1070,7 +1070,7 @@ body.day-mode img.title-img[alt="Radio"] {
 
     const maxBin = freqData.length;
 
-    // Overall volume pulse
+    
     let totalSum = 0;
     for (let j = 0; j < maxBin; j++) totalSum += freqData[j];
     const avgVolume = totalSum / maxBin / 255;
@@ -1084,7 +1084,7 @@ body.day-mode img.title-img[alt="Radio"] {
     for (let i = 0; i < barCount; i++) {
         const t = i / barCount;
 
-        // Log spread of frequency bins
+        
         const tStart = Math.pow(t, 2.0);
         const tEnd = Math.pow((i + 1) / barCount, 2.0);
 
@@ -1099,23 +1099,21 @@ body.day-mode img.title-img[alt="Radio"] {
         let localValue = count > 0 ? sum / count / 255 : 0;
         localValue = Math.pow(localValue, 0.5);
 
-        // Sine jitter for per-bar liveliness
+       
         const sineJitter = (Math.sin(i * 1.5 + time) + 1) * 0.5;
 
-        // Blend: 40% local + 40% pulse + 20% jitter
+        
         let value = (localValue * 0.4) + (pulse * 0.4) + (sineJitter * 0.2);
 
-        // === SPECTRUM SHAPE ===
-        // Falloff: tapers the height across the width
+        
         const falloff = 1.0 - (t * 0.45);
         value = value * falloff;
 
-        // Boost and clamp
+        
         value = Math.min(1, value * 1.4);
         value = Math.max(0.15, value);
 
-        // === CEILING CAP ===
-        // Bass can reach 100%, treble capped at 65%
+        
         const ceiling = 1.0 - (t * 0.35);
         value = Math.min(ceiling, value);
 
