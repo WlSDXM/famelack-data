@@ -9,6 +9,8 @@
     <title>Earth — World Views & Radio</title>
     <link rel="icon" href="https://i.imgur.com/KwX2CTv.gif">
     <link rel="apple-touch-icon" href="https://i.postimg.cc/VLdC7n6S/EARTH-ICON.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://i.postimg.cc/VLdC7n6S/EARTH-ICON.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="https://i.postimg.cc/VLdC7n6S/EARTH-ICON.png">
     <meta name="mobile-web-app-capable" content="yes">
     <meta property="og:image" content="https://i.postimg.cc/bJBx0GRz/jpnearth-ascii-art-ezgif-com-optimize-(1).gif" />
     <meta property="twitter:card" content="summary_large_image">
@@ -121,11 +123,11 @@
             line-height: 1;
         }
         img.title-img {
-            display: block;
-            height: 40px;
-            width: auto;
-            mix-blend-mode: lighten;
-        }
+    display: block;
+    height: 40px;
+    width: auto;
+    /* mix-blend-mode: lighten; */
+}
 
         .row {
             display: flex;
@@ -466,7 +468,39 @@ body.day-mode img.earth-anim {
         drop-shadow(0 0 1px rgba(57, 255, 20, 0.8))
         drop-shadow(0 0 3px rgba(57, 255, 20, 0.4));
 }
+/* ===== LIVE GIF GLOW (purple) ===== */
+img.title-img[alt="Live"] {
+    filter:
+        drop-shadow(0 0 2px rgba(180, 100, 255, 0.8))
+        drop-shadow(0 0 6px rgba(180, 100, 255, 0.4));
+}
 
+/* Day mode — Live */
+body.day-mode img.title-img[alt="Live"] {
+    filter:
+        brightness(1.05)
+        saturate(1.2)
+        contrast(1.1)
+        drop-shadow(0 0 1px rgba(180, 100, 255, 0.6))
+        drop-shadow(0 0 3px rgba(180, 100, 255, 0.3));
+}
+
+/* ===== RADIO GIF GLOW (teal) ===== */
+img.title-img[alt="Radio"] {
+    filter:
+        drop-shadow(0 0 2px rgba(0, 220, 200, 0.8))
+        drop-shadow(0 0 6px rgba(0, 220, 200, 0.4));
+}
+
+/* Day mode — Radio */
+body.day-mode img.title-img[alt="Radio"] {
+    filter:
+        brightness(1.05)
+        saturate(1.2)
+        contrast(1.1)
+        drop-shadow(0 0 1px rgba(0, 220, 200, 0.6))
+        drop-shadow(0 0 3px rgba(0, 220, 200, 0.3));
+}
         
     </style>
 </head>
@@ -481,7 +515,7 @@ body.day-mode img.earth-anim {
         <!-- ===== LIVE (left column) ===== -->
         <div class="player-box">
             <h2 class="title-gif">
-                <img src="https://i.postimg.cc/QMsm9d2H/Live-ezgif-com-video-to-gif-converter.gif" alt="Live" class="title-img">
+                <img src="https://i.postimg.cc/W1NQLNBn/raibu-Live-transparent-GIF.gif" alt="Live" class="title-img">
             </h2>
             <div class="row">
                 <select id="countrySelect">
@@ -505,7 +539,7 @@ body.day-mode img.earth-anim {
 
             <div class="player-box">
                 <h2 class="title-gif">
-                    <img src="https://i.postimg.cc/1zftKGhW/RADIO-ezgif-com-video-to-gif-converter.gif" alt="Radio" class="title-img">
+                    <img src="https://i.postimg.cc/yNk6KXMn/rajio-RADIO-TRANS-GIF.gif" alt="Radio" class="title-img">
                 </h2>
 
                 <div class="row">
