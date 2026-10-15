@@ -322,6 +322,12 @@
             font-family: 'Segoe UI Emoji', 'Apple Color Emoji', system-ui, sans-serif;
             padding: 0;
         }
+        
+        /* ===== DAY MODE — GIF BLEND FIX ===== */
+body.day-mode img.earth-anim,
+body.day-mode img.title-img {
+    mix-blend-mode: multiply;
+}
 
         .theme-toggle:hover {
             transform: scale(1.1);
