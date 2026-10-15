@@ -1056,35 +1056,81 @@ body.day-mode img.title-img[alt="Radio"] {
     }
 
     function drawBars(w, h) {
-        analyser.getByteFrequencyData(freqData);
-        const barCount = 500;
-        const barWidth = w / barCount;
-        const maxBin = freqData.length;
+    analyser.getByteFrequencyData(freqData);
 
-        for (let i = 0; i < barCount; i++) {
-            const t = i / barCount;
-            const logPos = Math.pow(t, 2.2);
-            const binIndex = Math.floor(logPos * maxBin);
+    const barCount = 60;           // fewer, chunkier bars
+    const barWidth = w / barCount;
+    const gapRatio = 0.25;         // 25% of bar width is a gap between bars
+    const drawWidth = barWidth * (1 - gapRatio);
 
-            const windowSize = Math.max(1, Math.floor(maxBin / barCount));
-            let sum = 0, count = 0;
-            for (let j = binIndex; j < binIndex + windowSize && j < freqData.length; j++) {
-                sum += freqData[j];
-                count++;
+    // LED segments — each bar is divided into discrete LED cells vertically
+    const segCount = 20;           // LEDs per column
+    const segHeight = h / segCount;
+    const segGap = 1;              // pixels of gap between vertical segments
+    const drawSegHeight = segHeight - segGap;
+
+    const maxBin = freqData.length;
+
+    for (let i = 0; i < barCount; i++) {
+        const t = i / barCount;
+        const logPos = Math.pow(t, 2.2);          // log-ish distribution (bass-heavy left)
+        const binIndex = Math.floor(logPos * maxBin);
+
+        const windowSize = Math.max(1, Math.floor(maxBin / barCount));
+        let sum = 0, count = 0;
+        for (let j = binIndex; j < binIndex + windowSize && j < freqData.length; j++) {
+            sum += freqData[j];
+            count++;
+        }
+        let value = count > 0 ? sum / count / 255 : 0;
+        value = Math.pow(value, 0.7);
+        value = Math.min(1, value * 1.15);
+
+        // How many LED segments light up for this bar
+        const litSegments = Math.round(value * segCount);
+
+        const x = i * barWidth;
+        const actualX = x + (barWidth * gapRatio) / 2;
+
+        // Draw LED segments from bottom up
+        for (let s = 0; s < segCount; s++) {
+            const segFromBottom = s; // 0 = bottom segment
+            const y = h - (s + 1) * segHeight + segGap / 2;
+
+            // LED is lit if within range
+            const isLit = segFromBottom < litSegments;
+
+            // Pick LED color based on vertical position
+            // Bottom 60% = green, middle 25% = yellow, top 15% = red
+            const posFromBottom = s / segCount;
+            let ledColor;
+            if (posFromBottom < 0.6) {
+                ledColor = isLit
+                    ? `hsl(120, 90%, ${45 + (posFromBottom * 20)}%)`   // green
+                    : `hsl(120, 40%, 12%)`;                            // dim green
+            } else if (posFromBottom < 0.85) {
+                ledColor = isLit
+                    ? `hsl(55, 95%, ${50 + ((posFromBottom - 0.6) * 15)}%)` // yellow
+                    : `hsl(55, 40%, 15%)`;                             // dim yellow
+            } else {
+                ledColor = isLit
+                    ? `hsl(0, 90%, ${50 + ((posFromBottom - 0.85) * 10)}%)` // red
+                    : `hsl(0, 40%, 15%)`;                              // dim red
             }
-            let value = count > 0 ? sum / count / 255 : 0;
-            value = Math.pow(value, 0.7);
-            value = Math.min(1, value * 1.15);
 
-            const barHeight = value * (h * 0.9);
-            const x = i * barWidth;
-            const y = h - barHeight;
+            ctx.fillStyle = ledColor;
+            ctx.fillRect(actualX, y, drawWidth, drawSegHeight);
 
-            const hue = 210 + (i / barCount) * 100;
-            ctx.fillStyle = `hsl(${hue}, 80%, ${40 + value * 30}%)`;
-            ctx.fillRect(x, y, barWidth, barHeight);
+            // Add a subtle glow on lit top segments (nice LED look)
+            if (isLit && s === litSegments - 1) {
+                ctx.shadowColor = ledColor;
+                ctx.shadowBlur = 4;
+                ctx.fillRect(actualX, y, drawWidth, drawSegHeight);
+                ctx.shadowBlur = 0;
+            }
         }
     }
+}
 
     function drawWave(w, h) {
         analyser.getByteTimeDomainData(timeData);
