@@ -1106,29 +1106,34 @@ body.day-mode img.title-img[alt="Radio"] {
             return (a + b * 2 + c) / 4;
         });
 
-        for (let l = layers - 1; l >= 0; l--) {
-            const depth = l / (layers - 1);
-            const verticalOffset = depth * h * 0.28;
-            const amplitude = (1 - depth * 0.35);
-            const phaseShift = Math.floor(depth * 12);
+        const isDay = document.body.classList.contains('day-mode');
 
-            const alpha = 0.85 - depth * 0.6;
-            const lightness = 95 - depth * 45;
+for (let l = layers - 1; l >= 0; l--) {
+    const depth = l / (layers - 1);
+    const verticalOffset = depth * h * 0.28;
+    const amplitude = (1 - depth * 0.35);
+    const phaseShift = Math.floor(depth * 12);
 
-            ctx.beginPath();
-            for (let i = 0; i < smoothed.length; i++) {
-                const src = smoothed[(i + phaseShift) % smoothed.length];
-                const x = (i / (smoothed.length - 1)) * w;
-                const y = h * 0.55 + src * (h * 0.35) * amplitude - verticalOffset;
-                if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
-            }
+    const alpha = 0.85 - depth * 0.6;
+    // Day mode: darker blues (lightness 35-55). Night: light blues (50-95)
+    const lightness = isDay
+        ? 25 + (1 - depth) * 30
+        : 95 - depth * 45;
 
-            ctx.strokeStyle = `hsla(210, 30%, ${lightness}%, ${alpha})`;
-            ctx.lineWidth = 1.5;
-            ctx.lineJoin = 'round';
-            ctx.lineCap = 'round';
-            ctx.stroke();
-        }
+    ctx.beginPath();
+    for (let i = 0; i < smoothed.length; i++) {
+        const src = smoothed[(i + phaseShift) % smoothed.length];
+        const x = (i / (smoothed.length - 1)) * w;
+        const y = h * 0.55 + src * (h * 0.35) * amplitude - verticalOffset;
+        if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+    }
+
+    ctx.strokeStyle = `hsla(210, 60%, ${lightness}%, ${alpha})`;
+    ctx.lineWidth = 1.5;
+    ctx.lineJoin = 'round';
+    ctx.lineCap = 'round';
+    ctx.stroke();
+}
 
         if (!window.__wavePeak || window.__wavePeak.length !== smoothed.length) {
             window.__wavePeak = new Array(smoothed.length).fill(0);
@@ -1145,7 +1150,9 @@ body.day-mode img.title-img[alt="Radio"] {
             const y = h * 0.55 - window.__wavePeak[i] * (h * 0.35);
             if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
         }
-        ctx.strokeStyle = 'rgba(220, 60, 80, 0.85)';
+        ctx.strokeStyle = isDay
+    ? 'rgba(160, 30, 50, 0.9)'
+    : 'rgba(220, 60, 80, 0.85)';
         ctx.lineWidth = 1.2;
         ctx.stroke();
     }
