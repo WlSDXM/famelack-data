@@ -1070,17 +1070,18 @@ body.day-mode img.title-img[alt="Radio"] {
 
     const maxBin = freqData.length;
 
-    // Overall volume from audio
+    
     let totalSum = 0;
     for (let j = 0; j < maxBin; j++) {
         totalSum += freqData[j];
     }
     const avgVolume = totalSum / maxBin / 255;
 
-    let baseHeight = Math.pow(avgVolume, 0.5);
-    baseHeight = Math.min(1, baseHeight * 1.8);
+    
+    let baseHeight = Math.pow(avgVolume, 0.4);
+    baseHeight = Math.min(1, baseHeight * 2.2);
 
-    // Region averages — bass, mid, treble
+    
     const bassEnd = Math.floor(maxBin * 0.15);
     const midEnd = Math.floor(maxBin * 0.5);
 
@@ -1089,18 +1090,17 @@ body.day-mode img.title-img[alt="Radio"] {
     for (let j = bassEnd; j < midEnd; j++) midSum += freqData[j];
     for (let j = midEnd; j < maxBin; j++) trebleSum += freqData[j];
 
-    const bassAvg = bassSum / bassEnd / 255;
-    const midAvg = midSum / (midEnd - bassEnd) / 255;
-    const trebleAvg = trebleSum / (maxBin - midEnd) / 255;
+    
+    const bassAvg = Math.pow(bassSum / bassEnd / 255, 0.4) * 1.8;
+    const midAvg = Math.pow(midSum / (midEnd - bassEnd) / 255, 0.4) * 1.8;
+    const trebleAvg = Math.pow(trebleSum / (maxBin - midEnd) / 255, 0.4) * 1.8;
 
-    // Time-based phase for jitter animation
     const time = Date.now() * 0.002;
 
-    // Draw each bar
     for (let i = 0; i < barCount; i++) {
         const t = i / barCount;
 
-        // Fake spectrum envelope — tall on left, dip in middle, small rise on right
+        // Envelope — bass-heavy
         let envelope;
         if (t < 0.4) {
             envelope = 1.0 - (t / 0.4) * 0.35;
@@ -1110,23 +1110,22 @@ body.day-mode img.title-img[alt="Radio"] {
             envelope = 0.7 + ((t - 0.7) / 0.3) * 0.15;
         }
 
-        // Region weight — uses real audio data
+        
         let regionValue;
         if (t < 0.4) regionValue = bassAvg;
         else if (t < 0.7) regionValue = midAvg;
         else regionValue = trebleAvg;
 
-        regionValue = Math.pow(regionValue, 0.5);
+        
+        let value = envelope * (baseHeight * 0.55 + regionValue * 0.55);
 
-        // Combine
-        let value = envelope * (baseHeight * 0.7 + regionValue * 0.3);
+        
+        const jitter = Math.sin(i * 1.7 + time) * 0.12;
+        value = Math.max(0.15, Math.min(1, value + jitter));
 
-        // Small jitter so bars aren't identical
-        const jitter = Math.sin(i * 1.7 + time) * 0.05;
-        value = Math.max(0.2, Math.min(1, value + jitter));
-
+        
         const litSegments = Math.max(
-            Math.round(segCount * 0.25),
+            Math.round(segCount * 0.15),
             Math.round(value * segCount)
         );
 
@@ -1155,6 +1154,7 @@ body.day-mode img.title-img[alt="Radio"] {
         }
     }
 }
+    
     function drawWave(w, h) {
         analyser.getByteTimeDomainData(timeData);
 
