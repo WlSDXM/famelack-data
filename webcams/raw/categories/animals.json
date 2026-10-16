@@ -732,6 +732,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "9ygCTA6JWxm2R5",
+    "name": "Charter Group Birdcams Multi-Cam",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/hU-Mjicgs6o"
+      ]
+    },
+    "languages": [],
+    "country": "il",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "X88waPptJdXGp1",
     "name": "Chengdu Panda Base",
     "sources": {
@@ -856,7 +868,7 @@
     "name": "De Mortel Tawny Owl Nest Boxes",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/FT8v_n7D6BA"
+        "https://www.youtube-nocookie.com/embed/8RbT1qYAXkY"
       ]
     },
     "languages": [],
@@ -1164,6 +1176,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "kOIGA593CV5jf0",
+    "name": "Dolphin Watch, New Quay",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/OZbq0AaIXig"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "ussI7CFCXbcQUB",
     "name": "Doñana National Park Marsh",
     "sources": {
@@ -1389,6 +1413,18 @@
     },
     "languages": [],
     "country": "se",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "XHNGa4SIuxlk49",
+    "name": "Furball Farm Cat Sanctuary",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/oBa9r9xeXR4"
+      ]
+    },
+    "languages": [],
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -1665,6 +1701,18 @@
     },
     "languages": [],
     "country": "za",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "GMa0i4zTa0020h",
+    "name": "Highline MaST Center Aquarium",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/UtBXcDvJdnI"
+      ]
+    },
+    "languages": [],
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -2880,6 +2928,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "Ph3VA2zoMfniCC",
+    "name": "National Aquarium Reef Cam",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/9pInqwL0DEY"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "qA0GuhHQH4SBMS",
     "name": "National Elk Refuge Overlook",
     "sources": {
@@ -3137,6 +3197,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/ilfxEpk51oI"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "7qO8x7gnfJ9HeV",
+    "name": "Osprey Nest Loch of the Lowes",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/mdahTGKHcCE"
       ]
     },
     "languages": [],
@@ -4020,6 +4092,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "7HEKhTarQCjYej",
+    "name": "Radstadt Cow Sanctuary",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/U-ooVZa040Q"
+      ]
+    },
+    "languages": [],
+    "country": "at",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Qqr8q0QaHt1eql",
     "name": "Ram On Barn Owl Nest",
     "sources": {
@@ -4608,30 +4692,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "c6eBp8CYjkCWqF",
-    "name": "Sierra de Guadarrama National Park Black Vulture Nest",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/wde6Wc-ha6s"
-      ]
-    },
-    "languages": [],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "y3Hk6A013NRld5",
-    "name": "Sierra de Guadarrama National Park Booted Eagle Nest",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/gwD5MfaqbVc"
-      ]
-    },
-    "languages": [],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "hK7pmHdCHCUVRU",
     "name": "Sierra Madrid Bird Bath",
     "sources": {
@@ -4876,7 +4936,7 @@
     "name": "Squirrel and Wildlife Feeder",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/zKLp7JTOr8Q"
+        "https://www.youtube-nocookie.com/embed/Yqt_Q4m2yfQ"
       ]
     },
     "languages": [],
@@ -5961,6 +6021,18 @@
     },
     "languages": [],
     "country": "za",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ZA7UQqqcj3dyTN",
+    "name": "Wild Bald Eagle Nest Cam",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/LUmMBZ4kiMQ"
+      ]
+    },
+    "languages": [],
+    "country": "us",
     "isGeoBlocked": false
   },
   {

@@ -12,6 +12,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "gWJpvrwv2nPg9C",
+    "name": "Acapulco Bay Skyline Panorama",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/H6JeGx0SuN4"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Feeq4HU6W3QT1n",
     "name": "Acapulco Marina & Santa Lucía Bay",
     "sources": {
@@ -1272,23 +1284,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "SJbHB726vFJHsr",
-    "name": "Desembocadura Río Maipo",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/1U1hxY0kyPE"
-      ]
-    },
-    "languages": [],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Qil5wCpKXqbpSW",
     "name": "Detroit River",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/3RMjVIj0-rI"
+        "https://www.youtube-nocookie.com/embed/L73DrCZHJ8A"
       ]
     },
     "languages": [],
@@ -1348,7 +1348,7 @@
     "name": "Dotonbori Glico Sign",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/soT0yMSldwI"
+        "https://www.youtube-nocookie.com/embed/6OgYfTMOmhY"
       ]
     },
     "languages": [],
@@ -1516,7 +1516,7 @@
     "name": "Dunedin Otago Harbour",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/X2gal0q328o"
+        "https://www.youtube-nocookie.com/embed/626wrFwDE2w"
       ]
     },
     "languages": [],
@@ -1540,7 +1540,7 @@
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ZusPMAk84jQ"
+        "https://www.youtube-nocookie.com/embed/5Cq1OlYYqRs"
       ]
     },
     "languages": [],
@@ -2292,6 +2292,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "dm2YQd2wULpQDN",
+    "name": "Hotel Margaret Porat",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/B95TcB9KjJ8"
+      ]
+    },
+    "languages": [],
+    "country": "hr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "7vSNOdHIPe9jup",
     "name": "Hotelletje de Veerman, Vlieland",
     "sources": {
@@ -2325,18 +2337,6 @@
     },
     "languages": [],
     "country": "is",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "1B5o3dYnv5JeBI",
-    "name": "Ilulissat Iceberg",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/0GRxQoFMmqo"
-      ]
-    },
-    "languages": [],
-    "country": "dk",
     "isGeoBlocked": false
   },
   {
@@ -3732,6 +3732,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "AmoP0Zvgk3sdo0",
+    "name": "Pier 27 Cruise Terminal & SF Bay",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/PDKGik7Np88"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "f8PI00MaGxOwxd",
     "name": "Pier B Harbor",
     "sources": {
@@ -4881,18 +4893,6 @@
     },
     "languages": [],
     "country": "no",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "jU5TVrrFtghhY2",
-    "name": "Skiathos Bay & Port",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/QjyzWBH6Ycc"
-      ]
-    },
-    "languages": [],
-    "country": "gr",
     "isGeoBlocked": false
   },
   {
@@ -6268,7 +6268,7 @@
     "name": "Yokohama Port",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/QQ82q7huU3g"
+        "https://www.youtube-nocookie.com/embed/kfvj8k5ugvE"
       ]
     },
     "languages": [],
@@ -6297,18 +6297,6 @@
     },
     "languages": [],
     "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "4BGMqSlfJcvIza",
-    "name": "Zihuatanejo Pier",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/BOWocKBvbrY"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
     "isGeoBlocked": false
   },
   {

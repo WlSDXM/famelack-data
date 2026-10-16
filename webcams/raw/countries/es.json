@@ -1056,18 +1056,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "OAXa4cKeTnxAWq",
-    "name": "Platja D'Aro Town Center",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/LSPN10FbR3U"
-      ]
-    },
-    "languages": [],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "7gV8MCwRWEDGgb",
     "name": "Platja de L'Alguer",
     "sources": {
@@ -1284,18 +1272,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "7hiGgGEYgF28w1",
-    "name": "Refugio Collado Jermoso",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/WOOJaQmQ_u4"
-      ]
-    },
-    "languages": [],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "m6cJ4s3BUUFmqD",
     "name": "Riet Vell Bird Observatory",
     "sources": {
@@ -1457,30 +1433,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/YozT82BqQqg"
-      ]
-    },
-    "languages": [],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "c6eBp8CYjkCWqF",
-    "name": "Sierra de Guadarrama National Park Black Vulture Nest",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/wde6Wc-ha6s"
-      ]
-    },
-    "languages": [],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "y3Hk6A013NRld5",
-    "name": "Sierra de Guadarrama National Park Booted Eagle Nest",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/gwD5MfaqbVc"
       ]
     },
     "languages": [],

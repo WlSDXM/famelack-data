@@ -420,23 +420,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "SJbHB726vFJHsr",
-    "name": "Desembocadura Río Maipo",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/1U1hxY0kyPE"
-      ]
-    },
-    "languages": [],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Qil5wCpKXqbpSW",
     "name": "Detroit River",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/3RMjVIj0-rI"
+        "https://www.youtube-nocookie.com/embed/L73DrCZHJ8A"
       ]
     },
     "languages": [],
@@ -508,7 +496,7 @@
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ZusPMAk84jQ"
+        "https://www.youtube-nocookie.com/embed/5Cq1OlYYqRs"
       ]
     },
     "languages": [],
@@ -1464,18 +1452,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "6PxECb52jY1Y2Q",
-    "name": "Notre-Dame & Seine River",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/YgG3IqmL0TI"
-      ]
-    },
-    "languages": [],
-    "country": "fr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Q1Bp6rMW4A2WCQ",
     "name": "Ocean Isle Beach Jinks Creek",
     "sources": {
@@ -1545,6 +1521,18 @@
     },
     "languages": [],
     "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "7qO8x7gnfJ9HeV",
+    "name": "Osprey Nest Loch of the Lowes",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/mdahTGKHcCE"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
     "isGeoBlocked": false
   },
   {

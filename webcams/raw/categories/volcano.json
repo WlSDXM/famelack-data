@@ -444,6 +444,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "SfLSX6dDxQkggt",
+    "name": "Popocatépetl Volcano from San Pedro Benito Juárez",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/w6WsMTQw9ac"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "KCi04Cu1Gx8tmh",
     "name": "Popocatépetl Volcano Seismic and Volcanic Monitoring",
     "sources": {

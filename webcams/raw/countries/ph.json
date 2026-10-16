@@ -76,7 +76,7 @@
     "name": "Agdao Public Market Building 1 Aisle",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/cGIOjfZOkHI"
+        "https://www.youtube-nocookie.com/embed/HfSXKdknRGM"
       ]
     },
     "languages": [],
@@ -100,7 +100,7 @@
     "name": "Agdao Public Market Rose Store",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/AZWgPsla0C0"
+        "https://www.youtube-nocookie.com/embed/XKLjkY6t0_k"
       ]
     },
     "languages": [],
@@ -228,6 +228,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "iBivABa2bsc0qG",
+    "name": "D'Family BarberShop, Agdao",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/sLQ-XzD9NkQ"
+      ]
+    },
+    "languages": [],
+    "country": "ph",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "b9MAasqWPi4oAb",
     "name": "Dodong Barbershop Street, Agdao",
     "sources": {
@@ -276,6 +288,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "0qJYP943o7wnZr",
+    "name": "Jane Eatery Agdao",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/bIXDBp9wACw"
+      ]
+    },
+    "languages": [],
+    "country": "ph",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "ZHtjeGQy3Q3lJT",
     "name": "Jet Wash Area and Internet Cafe",
     "sources": {
@@ -293,6 +317,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/LjhN6FZWqi0"
+      ]
+    },
+    "languages": [],
+    "country": "ph",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "8doVnH06RK0oXY",
+    "name": "Kapitan Tomas Monteverde Barangay Hall Basketball Court",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/x0DtGn6FuZE"
       ]
     },
     "languages": [],

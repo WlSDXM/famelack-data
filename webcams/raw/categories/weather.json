@@ -208,7 +208,7 @@
     "name": "Caribou Weather Station Sky View",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HJICZQg1vlA"
+        "https://www.youtube-nocookie.com/embed/wT4ZkP0Kriw"
       ]
     },
     "languages": [],
@@ -256,7 +256,7 @@
     "name": "Creve Coeur Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Kaz7hJGKL18"
+        "https://www.youtube-nocookie.com/embed/esH1DeT_05Q"
       ]
     },
     "languages": [],
@@ -592,7 +592,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/KQX-Ao7cF0E"
+        "https://www.youtube-nocookie.com/embed/xbuZzJBLOhw"
       ]
     },
     "languages": [],
@@ -756,18 +756,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "7hiGgGEYgF28w1",
-    "name": "Refugio Collado Jermoso",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/WOOJaQmQ_u4"
-      ]
-    },
-    "languages": [],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "jTIukBd2AseDGo",
     "name": "Richmond, Kentucky",
     "sources": {
@@ -885,6 +873,18 @@
     },
     "languages": [],
     "country": "za",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "wetDm0tQuIZHe6",
+    "name": "Solitude Mountain Resort Snow Stake",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/lkEM6EC8NVA"
+      ]
+    },
+    "languages": [],
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -1084,7 +1084,7 @@
     "name": "Villa María Weather Camera",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/1N_B6pS1EFg"
+        "https://www.youtube-nocookie.com/embed/4sHqsTjMszM"
       ]
     },
     "languages": [],

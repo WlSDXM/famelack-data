@@ -480,18 +480,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "js1BsiMtws65Nt",
-    "name": "Arizona Snowbowl Hart Prairie Area",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/eRKNErHtJUE"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "RC3dBk5pGAmfR6",
     "name": "Arkansas River Whitewater Wave",
     "sources": {
@@ -1264,7 +1252,7 @@
     "name": "Biloxi Beach Boulevard",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/eSbyPyM9dec"
+        "https://www.youtube-nocookie.com/embed/9PzhYTO-5yA"
       ]
     },
     "languages": [],
@@ -2308,7 +2296,7 @@
     "name": "Caribou Weather Station Sky View",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HJICZQg1vlA"
+        "https://www.youtube-nocookie.com/embed/wT4ZkP0Kriw"
       ]
     },
     "languages": [],
@@ -2364,11 +2352,23 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "EBidNxNN7kX596",
+    "name": "Castro Street",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/oSlny-AuCNI"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "zSm83nc9Ya1E75",
     "name": "Castro Street Cam 1",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/7s9g4T_qFL0"
+        "https://www.youtube-nocookie.com/embed/j8WYcCjXoJk"
       ]
     },
     "languages": [],
@@ -2380,7 +2380,19 @@
     "name": "Castro Street Cam 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4J9tAMsc-f4"
+        "https://www.youtube-nocookie.com/embed/3su9l7nEb6Q"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "b7Z7P4jg4mQzAs",
+    "name": "Castro Street, San Francisco",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/e1eTLPc9pYU"
       ]
     },
     "languages": [],
@@ -2489,6 +2501,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/JcjXzM_WAe4"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "2zaDLIUhhMlQIR",
+    "name": "Chapel of the Holy Cross",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/ro9AMAW4DUc"
       ]
     },
     "languages": [],
@@ -2608,7 +2632,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/AI1MkBTNjnQ"
+        "https://www.youtube-nocookie.com/embed/Ab9wQH884KU"
       ]
     },
     "languages": [],
@@ -2872,7 +2896,7 @@
     "name": "Collins Avenue Street Cam",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HaOC_6s-9Pw"
+        "https://www.youtube-nocookie.com/embed/Pd7tV_87GCE"
       ]
     },
     "languages": [],
@@ -3160,7 +3184,7 @@
     "name": "Creve Coeur Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Kaz7hJGKL18"
+        "https://www.youtube-nocookie.com/embed/esH1DeT_05Q"
       ]
     },
     "languages": [],
@@ -3520,7 +3544,7 @@
     "name": "Detroit River",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/3RMjVIj0-rI"
+        "https://www.youtube-nocookie.com/embed/L73DrCZHJ8A"
       ]
     },
     "languages": [],
@@ -4060,7 +4084,7 @@
     "name": "Downtown Stuart",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/GQLHVrrm07g"
+        "https://www.youtube-nocookie.com/embed/pHPKD20YiN0"
       ]
     },
     "languages": [],
@@ -4420,7 +4444,7 @@
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ZusPMAk84jQ"
+        "https://www.youtube-nocookie.com/embed/5Cq1OlYYqRs"
       ]
     },
     "languages": [],
@@ -4625,6 +4649,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/bM0GplM_vPY"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "r0HIWy56zv0uls",
+    "name": "Elbo Room Social Club",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/n5X3UyodB_8"
       ]
     },
     "languages": [],
@@ -5244,6 +5280,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "XHNGa4SIuxlk49",
+    "name": "Furball Farm Cat Sanctuary",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/oBa9r9xeXR4"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "EpWvpg739VgUaZ",
     "name": "Galena Territory Owners' Club Overlook",
     "sources": {
@@ -5464,7 +5512,7 @@
     "name": "Georgica Jetty",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/nsFlNakBKIs"
+        "https://www.youtube-nocookie.com/embed/rhpj1WY7T5I"
       ]
     },
     "languages": [],
@@ -6149,6 +6197,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/R6mgkdG33Do"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "GMa0i4zTa0020h",
+    "name": "Highline MaST Center Aquarium",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/UtBXcDvJdnI"
       ]
     },
     "languages": [],
@@ -7708,7 +7768,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/BB2hgprYFuo"
+        "https://www.youtube-nocookie.com/embed/J9b4nDBh9us"
       ]
     },
     "languages": [],
@@ -9504,6 +9564,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "k5TybpufSaE78d",
+    "name": "Mount Southington Ski Area",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/vbbLaGIixcY"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "ZoiU0QHi4IdMCs",
     "name": "Mount Vernon Railcam",
     "sources": {
@@ -9520,7 +9592,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/KQX-Ao7cF0E"
+        "https://www.youtube-nocookie.com/embed/xbuZzJBLOhw"
       ]
     },
     "languages": [],
@@ -9785,6 +9857,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/ATbtGvbExP4"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Ph3VA2zoMfniCC",
+    "name": "National Aquarium Reef Cam",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/9pInqwL0DEY"
       ]
     },
     "languages": [],
@@ -11213,6 +11297,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/F1lNwIEAXJU"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AmoP0Zvgk3sdo0",
+    "name": "Pier 27 Cruise Terminal & SF Bay",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/PDKGik7Np88"
       ]
     },
     "languages": [],
@@ -13092,6 +13188,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "RVXlbyTPhtvJUX",
+    "name": "Sandestin Beach at Southwinds",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/t58vgIXjs8o"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "2j1ihig8qUpA1O",
     "name": "Sandy Hook Bay Harbor View",
     "sources": {
@@ -14268,6 +14376,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "wetDm0tQuIZHe6",
+    "name": "Solitude Mountain Resort Snow Stake",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/lkEM6EC8NVA"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "DYOMN0kMsPx3wU",
     "name": "Solitude Mountain Resort Sunshine Bowl",
     "sources": {
@@ -14764,7 +14884,7 @@
     "name": "Squirrel and Wildlife Feeder",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/zKLp7JTOr8Q"
+        "https://www.youtube-nocookie.com/embed/Yqt_Q4m2yfQ"
       ]
     },
     "languages": [],
@@ -15665,30 +15785,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/zfSst64NFcE"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "oQdLtUAAnjYGiz",
-    "name": "Tehachapi Loop Railroad Spiral",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/0t_wStRuryc"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "5nveyBztQthh9S",
-    "name": "Tehachapi Loop West Cable",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Bzd0z0YqTEw"
       ]
     },
     "languages": [],
@@ -17484,6 +17580,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "6nfc0v4CAg72QZ",
+    "name": "West Virginia State Fairgrounds",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/mnvU2N9z8BY"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "nvbIyg5pLwjw3m",
     "name": "Westborough Main Street",
     "sources": {
@@ -17657,6 +17765,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/KJ8C2vz7I70"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ZA7UQqqcj3dyTN",
+    "name": "Wild Bald Eagle Nest Cam",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/LUmMBZ4kiMQ"
       ]
     },
     "languages": [],

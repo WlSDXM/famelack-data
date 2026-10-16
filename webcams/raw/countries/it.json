@@ -192,6 +192,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "8JpbfRAcNk8dwN",
+    "name": "Camping La Riva, Sorico",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/LdKhjHA7hDU"
+      ]
+    },
+    "languages": [],
+    "country": "it",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "kfqKx74lpFlAE0",
     "name": "Campo Santa Maria Formosa",
     "sources": {
@@ -209,6 +221,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/-wMWwWQiFgI"
+      ]
+    },
+    "languages": [],
+    "country": "it",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ijVi45Rqmz5HPs",
+    "name": "Carosello 3000, Livigno",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/7KT0iCavO0A"
       ]
     },
     "languages": [],

@@ -720,6 +720,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "FtEtHu5ZZKzcpg",
+    "name": "Rozhledna Žaltman",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/fzfDBg_YoCA"
+      ]
+    },
+    "languages": [],
+    "country": "cz",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Pdv4gbcKYM97EE",
     "name": "Rozkoš Reservoir Panorama",
     "sources": {

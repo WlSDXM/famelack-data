@@ -60,18 +60,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "js1BsiMtws65Nt",
-    "name": "Arizona Snowbowl Hart Prairie Area",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/eRKNErHtJUE"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "IhmFL9N4MWepsF",
     "name": "Arrakis Ski Area Žacléř",
     "sources": {
@@ -309,6 +297,18 @@
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ijVi45Rqmz5HPs",
+    "name": "Carosello 3000, Livigno",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/7KT0iCavO0A"
+      ]
+    },
+    "languages": [],
+    "country": "it",
     "isGeoBlocked": false
   },
   {
@@ -612,6 +612,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "nkh5up66V9hW6r",
+    "name": "Les Gets Plateau des Chavannes",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/ZAq6F1Sjwoc"
+      ]
+    },
+    "languages": [],
+    "country": "fr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "DrgREfhPvWZazP",
     "name": "Levi Fell Summit View",
     "sources": {
@@ -897,6 +909,18 @@
     },
     "languages": [],
     "country": "it",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "k5TybpufSaE78d",
+    "name": "Mount Southington Ski Area",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/vbbLaGIixcY"
+      ]
+    },
+    "languages": [],
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -1409,6 +1433,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/yeoBog_kSzc"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "wetDm0tQuIZHe6",
+    "name": "Solitude Mountain Resort Snow Stake",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/lkEM6EC8NVA"
       ]
     },
     "languages": [],

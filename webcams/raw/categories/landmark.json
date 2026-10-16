@@ -372,6 +372,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "2zaDLIUhhMlQIR",
+    "name": "Chapel of the Holy Cross",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/ro9AMAW4DUc"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "fmXJB71k3HGFnM",
     "name": "Church of St. Stanislaus, Zabrzeż",
     "sources": {
@@ -581,6 +593,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/H6cm5Hf-yFY"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "r0HIWy56zv0uls",
+    "name": "Elbo Room Social Club",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/n5X3UyodB_8"
       ]
     },
     "languages": [],
@@ -952,7 +976,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/BB2hgprYFuo"
+        "https://www.youtube-nocookie.com/embed/J9b4nDBh9us"
       ]
     },
     "languages": [],
@@ -1212,18 +1236,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "6PxECb52jY1Y2Q",
-    "name": "Notre-Dame & Seine River",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/YgG3IqmL0TI"
-      ]
-    },
-    "languages": [],
-    "country": "fr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "GPiYdrP7u5tNc4",
     "name": "Nubble Lighthouse",
     "sources": {
@@ -1329,18 +1341,6 @@
     },
     "languages": [],
     "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "umyGNG4S5EyhEH",
-    "name": "Our Lady Star & St. John Paul II Sanctuary",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/IuRwHvaGfTk"
-      ]
-    },
-    "languages": [],
-    "country": "pl",
     "isGeoBlocked": false
   },
   {
@@ -1720,7 +1720,7 @@
     "name": "St. Elizabeth of Hungary Church, Stary Sącz",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HlrQRSuLI-c"
+        "https://www.youtube-nocookie.com/embed/RaRZoWu8tEA"
       ]
     },
     "languages": [],
@@ -1857,6 +1857,18 @@
     },
     "languages": [],
     "country": "tw",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Q2DVT0XE0E3Z5A",
+    "name": "Teatro Amazonas, Manaus",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/SupVriIt61k"
+      ]
+    },
+    "languages": [],
+    "country": "br",
     "isGeoBlocked": false
   },
   {

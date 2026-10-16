@@ -108,6 +108,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "j9rehNQReUPObV",
+    "name": "Homigot Sunrise Square",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/r06QHbh05qM"
+      ]
+    },
+    "languages": [],
+    "country": "kr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "4Pf6CCN7f3f3jG",
     "name": "Hongdae Seoul",
     "sources": {
@@ -149,6 +161,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/GhNscofIqHU"
+      ]
+    },
+    "languages": [],
+    "country": "kr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "b7sDHNjGB2X7lA",
+    "name": "Seongsan Ilchulbong",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/udRDI1uDdvQ"
       ]
     },
     "languages": [],

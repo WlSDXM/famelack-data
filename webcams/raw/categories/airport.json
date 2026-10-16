@@ -16,7 +16,7 @@
     "name": "Aeroporto de Navegantes",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/C6iMyfvXcDg"
+        "https://www.youtube-nocookie.com/embed/zF9fuiUv6vI"
       ]
     },
     "languages": [],
@@ -45,18 +45,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "OwUjGy3jwpfqFS",
-    "name": "Airport Runway Among the Mountains",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/lcTE3TnXSdE"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
     "isGeoBlocked": false
   },
   {
@@ -244,7 +232,7 @@
     "name": "Congonhas Airport Camera 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/GFJC025YALg"
+        "https://www.youtube-nocookie.com/embed/Ar2HwqMa_ns"
       ]
     },
     "languages": [],
@@ -256,7 +244,7 @@
     "name": "Congonhas Airport Camera 3",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/yrQuQ08LpNQ"
+        "https://www.youtube-nocookie.com/embed/GrObu2Mr8KA"
       ]
     },
     "languages": [],
@@ -268,7 +256,7 @@
     "name": "Creve Coeur Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Kaz7hJGKL18"
+        "https://www.youtube-nocookie.com/embed/esH1DeT_05Q"
       ]
     },
     "languages": [],
@@ -376,7 +364,7 @@
     "name": "Guarulhos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ZPRVrLcGDFg"
+        "https://www.youtube-nocookie.com/embed/I8GlOSNdnlY"
       ]
     },
     "languages": [],
@@ -388,7 +376,7 @@
     "name": "Guarulhos International Airport Runway 10L",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/nDb3qQMS0Yo"
+        "https://www.youtube-nocookie.com/embed/Wa_pEaCivvY"
       ]
     },
     "languages": [],
@@ -400,7 +388,7 @@
     "name": "Guarulhos International Airport Runway 10R",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/2DUMr0Dh2jk"
+        "https://www.youtube-nocookie.com/embed/vztjQz3P94Q"
       ]
     },
     "languages": [],
@@ -412,7 +400,7 @@
     "name": "Guarulhos International Airport Runway 28",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ai8mUZdNtRA"
+        "https://www.youtube-nocookie.com/embed/gzyqBJQgnWk"
       ]
     },
     "languages": [],
@@ -744,6 +732,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "A34J6I9JAkdPG6",
+    "name": "London Heathrow Airport",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/s44UdEa6KL0"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "bJ4C3NYcVB1urT",
     "name": "Los Angeles International Airport (LAX)",
     "sources": {
@@ -820,7 +820,7 @@
     "name": "Maho Beach Plane Spotting",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/zl-K_XGYJes"
+        "https://www.youtube-nocookie.com/embed/9tNbJDUIQSw"
       ]
     },
     "languages": [],
@@ -1168,7 +1168,7 @@
     "name": "Recife Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/PUVbFVlewok"
+        "https://www.youtube-nocookie.com/embed/6oiqj71k2oI"
       ]
     },
     "languages": [],
@@ -1180,7 +1180,7 @@
     "name": "Recife Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/dOZlEXSUNMk"
+        "https://www.youtube-nocookie.com/embed/GO8xPHNydmo"
       ]
     },
     "languages": [],
@@ -1240,7 +1240,7 @@
     "name": "Santos Dumont Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/L_wgeZkqPNU"
+        "https://www.youtube-nocookie.com/embed/9BHiRL3kNXs"
       ]
     },
     "languages": [],
@@ -1480,7 +1480,7 @@
     "name": "Viracopos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/XMKiRdJ2_dA"
+        "https://www.youtube-nocookie.com/embed/aUVDQCjmufI"
       ]
     },
     "languages": [],

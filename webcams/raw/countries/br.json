@@ -4,7 +4,7 @@
     "name": "Aeroporto de Navegantes",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/C6iMyfvXcDg"
+        "https://www.youtube-nocookie.com/embed/zF9fuiUv6vI"
       ]
     },
     "languages": [],
@@ -292,7 +292,7 @@
     "name": "Congonhas Airport Camera 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/GFJC025YALg"
+        "https://www.youtube-nocookie.com/embed/Ar2HwqMa_ns"
       ]
     },
     "languages": [],
@@ -304,7 +304,7 @@
     "name": "Congonhas Airport Camera 3",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/yrQuQ08LpNQ"
+        "https://www.youtube-nocookie.com/embed/GrObu2Mr8KA"
       ]
     },
     "languages": [],
@@ -472,7 +472,7 @@
     "name": "Guarulhos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ZPRVrLcGDFg"
+        "https://www.youtube-nocookie.com/embed/I8GlOSNdnlY"
       ]
     },
     "languages": [],
@@ -484,7 +484,7 @@
     "name": "Guarulhos International Airport Runway 10L",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/nDb3qQMS0Yo"
+        "https://www.youtube-nocookie.com/embed/Wa_pEaCivvY"
       ]
     },
     "languages": [],
@@ -496,7 +496,7 @@
     "name": "Guarulhos International Airport Runway 10R",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/2DUMr0Dh2jk"
+        "https://www.youtube-nocookie.com/embed/vztjQz3P94Q"
       ]
     },
     "languages": [],
@@ -508,7 +508,7 @@
     "name": "Guarulhos International Airport Runway 28",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ai8mUZdNtRA"
+        "https://www.youtube-nocookie.com/embed/gzyqBJQgnWk"
       ]
     },
     "languages": [],
@@ -772,7 +772,7 @@
     "name": "Recife Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/PUVbFVlewok"
+        "https://www.youtube-nocookie.com/embed/6oiqj71k2oI"
       ]
     },
     "languages": [],
@@ -784,7 +784,7 @@
     "name": "Recife Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/dOZlEXSUNMk"
+        "https://www.youtube-nocookie.com/embed/GO8xPHNydmo"
       ]
     },
     "languages": [],
@@ -892,7 +892,7 @@
     "name": "Santos Dumont Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/L_wgeZkqPNU"
+        "https://www.youtube-nocookie.com/embed/9BHiRL3kNXs"
       ]
     },
     "languages": [],
@@ -948,6 +948,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "Q2DVT0XE0E3Z5A",
+    "name": "Teatro Amazonas, Manaus",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/SupVriIt61k"
+      ]
+    },
+    "languages": [],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "lbWUcWi719ZqYg",
     "name": "Vale do Catimbau Vila Mara do Sertão",
     "sources": {
@@ -988,7 +1000,7 @@
     "name": "Viracopos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/XMKiRdJ2_dA"
+        "https://www.youtube-nocookie.com/embed/aUVDQCjmufI"
       ]
     },
     "languages": [],

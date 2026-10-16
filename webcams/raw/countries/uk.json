@@ -276,6 +276,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "vUxI9Rh7B4bEZ9",
+    "name": "Chesil Beach",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Ee4dRpBkMX4"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "F8z6oFZZ9jcm0V",
     "name": "Clevedon Marine Lake",
     "sources": {
@@ -389,6 +401,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/RcY-voZpbq0"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "kOIGA593CV5jf0",
+    "name": "Dolphin Watch, New Quay",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/OZbq0AaIXig"
       ]
     },
     "languages": [],
@@ -544,7 +568,7 @@
     "name": "Hawick High Street",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Vmf-OSRMj7M"
+        "https://www.youtube-nocookie.com/embed/ycyoUVF_7TM"
       ]
     },
     "languages": [],
@@ -665,6 +689,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/T09aQp1CqBI"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "A34J6I9JAkdPG6",
+    "name": "London Heathrow Airport",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/s44UdEa6KL0"
       ]
     },
     "languages": [],
@@ -797,6 +833,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/ilfxEpk51oI"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "7qO8x7gnfJ9HeV",
+    "name": "Osprey Nest Loch of the Lowes",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/mdahTGKHcCE"
       ]
     },
     "languages": [],
@@ -1336,7 +1384,7 @@
     "name": "West Kirby Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/TQLaYQNl15M"
+        "https://www.youtube-nocookie.com/embed/E80CeI-0-Go"
       ]
     },
     "languages": [],

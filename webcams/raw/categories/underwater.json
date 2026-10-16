@@ -204,6 +204,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "GMa0i4zTa0020h",
+    "name": "Highline MaST Center Aquarium",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/UtBXcDvJdnI"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "GLKRGXzKA0NuT5",
     "name": "Homosassa Springs Underwater Manatee Cam",
     "sources": {
@@ -305,6 +317,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/zL68biE6wAs"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Ph3VA2zoMfniCC",
+    "name": "National Aquarium Reef Cam",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/9pInqwL0DEY"
       ]
     },
     "languages": [],

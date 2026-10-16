@@ -24,18 +24,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "efhGAQpqwhNUYZ",
-    "name": "Akabane Station",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/jW-RHj7Ii8Y"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "no0BOq0PiUmV5h",
     "name": "Akita Station Square",
     "sources": {
@@ -2296,7 +2284,7 @@
     "name": "Meitetsu Tokoname Line Ono-machi",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/NBPzD8DS7v0"
+        "https://www.youtube-nocookie.com/embed/a4_lN0akiPo"
       ]
     },
     "languages": [],
@@ -3549,30 +3537,6 @@
     },
     "languages": [],
     "country": "tw",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "oQdLtUAAnjYGiz",
-    "name": "Tehachapi Loop Railroad Spiral",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/0t_wStRuryc"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "5nveyBztQthh9S",
-    "name": "Tehachapi Loop West Cable",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Bzd0z0YqTEw"
-      ]
-    },
-    "languages": [],
-    "country": "us",
     "isGeoBlocked": false
   },
   {

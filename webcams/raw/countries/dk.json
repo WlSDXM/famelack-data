@@ -22,17 +22,5 @@
     "languages": [],
     "country": "dk",
     "isGeoBlocked": false
-  },
-  {
-    "nanoid": "1B5o3dYnv5JeBI",
-    "name": "Ilulissat Iceberg",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/0GRxQoFMmqo"
-      ]
-    },
-    "languages": [],
-    "country": "dk",
-    "isGeoBlocked": false
   }
 ]
