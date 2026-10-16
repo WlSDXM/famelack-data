@@ -1056,18 +1056,18 @@ body.day-mode img.title-img[alt="Radio"] {
         }
     }
 
-                            function drawBars(w, h) {
+                                function drawBars(w, h) {
         analyser.getByteFrequencyData(freqData);
 
-        const halfCount = 28;
-        const barWidth = (w / 2) / halfCount;
+        const barCount = 60;
+        const barWidth = w / barCount;
 
         const segCount = 30;
         const segHeight = h / segCount;
         const segGap = 0.5;
         const drawSegHeight = segHeight - segGap;
 
-        const usableBins = Math.floor(freqData.length * 0.4);
+        const usableBins = Math.floor(freqData.length * 0.55);
 
         let peak = 0.2;
         for (let j = 0; j < usableBins; j++) {
@@ -1075,13 +1075,11 @@ body.day-mode img.title-img[alt="Radio"] {
         }
         peak /= 255;
 
-        const centerX = w / 2;
+        for (let i = 0; i < barCount; i++) {
+            const t = i / (barCount - 1);
 
-        for (let i = 0; i < halfCount; i++) {
-            const t = i / (halfCount - 1);
-
-            const tStart = Math.pow(t, 1.6);
-            const tEnd = Math.pow((i + 1) / halfCount, 1.6);
+            const tStart = Math.pow(t, 1.8);
+            const tEnd = Math.pow((i + 1) / barCount, 1.8);
 
             const binStart = Math.floor(tStart * usableBins);
             const binEnd = Math.max(binStart + 1, Math.floor(tEnd * usableBins));
@@ -1093,32 +1091,26 @@ body.day-mode img.title-img[alt="Radio"] {
             }
             let value = count > 0 ? (sum / count) / 255 : 0;
 
-            // ---- Stronger per-band compression ----
-            // Bass is punchy (^0.9 keeps it natural), treble is boosted hard (^0.25)
-            // so quiet real content fills the visual
-            const bassHeavy = 1 - t;
-            const compression = 0.25 + bassHeavy * 0.65;   // 0.25 edges → 0.9 center
+            // Per-band compression — treble gets more lift
+            const compression = 0.3 + (1 - t) * 0.5;
             value = Math.pow(value, compression);
 
             value = value / peak;
             value = Math.pow(Math.min(1, value), 0.7);
 
-            // ---- Much bigger floor ----
-            // Every bar is at least ~30% tall, so the shape fills the box
-            // with real data — no fake sine waves, just a floor curve
-            const floor = 0.28 + t * 0.05;    // slightly higher floor at edges
+            // Floor — every bar shows
+            const floor = 0.22 + t * 0.10;
             value = Math.max(floor, value);
             value = Math.min(1, value);
 
             const litSegments = Math.round(value * segCount);
-
-            const rightX = centerX + i * barWidth;
-            const leftX  = centerX - (i + 1) * barWidth;
+            const x = i * barWidth;
 
             for (let s = 0; s < litSegments; s++) {
                 const y = h - (s + 1) * segHeight + segGap / 2;
                 const litPos = s / Math.max(1, litSegments - 1);
 
+                // ---- Same color gradient you already had ----
                 let hue, sat, light;
                 if (litPos < 0.35) {
                     const localT = litPos / 0.35;
@@ -1138,15 +1130,13 @@ body.day-mode img.title-img[alt="Radio"] {
                 }
                 ctx.fillStyle = `hsl(${hue}, ${sat}%, ${light}%)`;
 
-                ctx.fillRect(rightX + barWidth * 0.06, y, barWidth * 0.88, drawSegHeight);
-                ctx.fillRect(leftX + barWidth * 0.06, y, barWidth * 0.88, drawSegHeight);
+                ctx.fillRect(x + barWidth * 0.12, y, barWidth * 0.76, drawSegHeight);
             }
 
             if (litSegments > 0) {
                 const topY = h - litSegments * segHeight + segGap / 2;
                 ctx.fillStyle = 'hsl(350, 95%, 65%)';
-                ctx.fillRect(rightX + barWidth * 0.06, topY, barWidth * 0.88, drawSegHeight);
-                ctx.fillRect(leftX + barWidth * 0.06, topY, barWidth * 0.88, drawSegHeight);
+                ctx.fillRect(x + barWidth * 0.12, topY, barWidth * 0.76, drawSegHeight);
             }
         }
     }
