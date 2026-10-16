@@ -82,6 +82,17 @@
             display: block;
             margin: 0 auto;
         }
+                a.earth-link {
+            display: block;
+            width: fit-content;
+            margin: 0 auto;
+            text-decoration: none;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+        a.earth-link:hover {
+            transform: scale(1.03);
+        }
 
         .layout-grid {
             display: grid;
@@ -126,7 +137,7 @@
     display: block;
     height: 40px;
     width: auto;
-    /* mix-blend-mode: lighten; */
+    
 }
 
         .row {
@@ -347,7 +358,7 @@
 
         
       
-        /* ===== FAVORITES MENU ===== */
+        
                 /* ===== FAVORITES MODAL ===== */
         .modal-backdrop {
             position: fixed;
@@ -1208,7 +1219,7 @@ body.day-mode img.title-img[alt="Radio"] {
         const segGap = 0.5;
         const drawSegHeight = segHeight - segGap;
 
-        // ---- Tighter frequency range so right side maps to audible treble ----
+        
         const usableBins = Math.floor(freqData.length * 0.4);
 
         let peak = 0.2;
@@ -1233,17 +1244,17 @@ body.day-mode img.title-img[alt="Radio"] {
             }
             const rawValue = count > 0 ? (sum / count) / 255 : 0;
 
-            // ---- Skip truly silent bars entirely (no dead dashes) ----
+            
             if (rawValue < 0.02) continue;
 
-            // Per-band compression — treble gets more lift
+            
             const compression = 0.3 + (1 - t) * 0.5;
             let value = Math.pow(rawValue, compression);
 
             value = value / peak;
             value = Math.pow(Math.min(1, value), 0.7);
 
-            // ---- Floor shrinks toward the right, no minimum ----
+            
             const floor = 0.22 * (1 - t);
             value = Math.max(floor, value);
             value = Math.min(1, value);
@@ -1310,7 +1321,6 @@ for (let l = layers - 1; l >= 0; l--) {
     const phaseShift = Math.floor(depth * 12);
 
     const alpha = 0.85 - depth * 0.6;
-    // Day mode: darker blues (lightness 35-55). Night: light blues (50-95)
     const lightness = isDay
         ? 25 + (1 - depth) * 30
         : 95 - depth * 45;
@@ -1368,8 +1378,8 @@ for (let l = layers - 1; l >= 0; l--) {
 
     const ANSI_COLS = 40;
     const ANSI_ROWS = 6;
-    // ANSI mono color — switches between light (night mode) and dark (day mode)
-function getAnsiMono() {
+    
+    function getAnsiMono() {
     return document.body.classList.contains('day-mode') ? '#1a1a1a' : '#e0e0e0';
 }
     let ansiColorMode = false;
@@ -1508,19 +1518,15 @@ function getAnsiMono() {
             if (spectrumPerCol[c] > peak) peak = spectrumPerCol[c];
         }
 
-        // ============================================
-        // VERTICAL GRADIENT — Black → Purple
-        // Hue stays at 280 (purple); lightness ramps
-        // from 0 (black) at the top to ~65 (bright purple) at the bottom
-        // ============================================
-        const HUE = 280;          // purple
-        const SAT = 85;           // saturation %
-        const LIGHT_TOP = 0;      // black at the top row
-        const LIGHT_BOTTOM = 65;  // bright purple at the bottom row
+        
+        const HUE = 280;          
+        const SAT = 85;           
+        const LIGHT_TOP = 0;      
+        const LIGHT_BOTTOM = 65;  
 
         // ---- Draw grid ----
         for (let r = 0; r < rows; r++) {
-            // Row-level color — this creates the vertical gradient
+            
             const rowT = r / (rows - 1);
             const baseLight = LIGHT_TOP + (LIGHT_BOTTOM - LIGHT_TOP) * rowT;
 
@@ -1528,21 +1534,21 @@ function getAnsiMono() {
                 const i = r * cols + c;
                 const t = c / (cols - 1);
 
-                // Natural halftone falloff
+                
                 const rowCenter = (rows - 1) / 2;
                 const rowDistance = Math.abs(r - rowCenter) / rowCenter;
                 const rowFalloff = 1 - Math.pow(rowDistance, 1.6);
 
                 const baseShape = 0.1 + rowFalloff * 0.15;
 
-                // Audio contribution
+                
                 const rawValue = spectrumPerCol[c] / peak;
                 const current = window.__dotsState.smoothed[i];
                 const smoothing = rawValue > current ? 0.35 : 0.08;
                 const smoothed = current + (rawValue - current) * smoothing;
                 window.__dotsState.smoothed[i] = smoothed;
 
-                // Motion layers
+               
                 const rowPhase = r * 0.4;
                 const wave = Math.sin(c * 0.35 + drift * 2 + rowPhase);
                 const waveAmount = Math.max(0, wave) * 0.12;
@@ -1563,10 +1569,10 @@ function getAnsiMono() {
                 const x = c * cellW + cellW / 2;
                 const y = r * cellH + cellH / 2;
 
-                // Alpha scales with intensity
+                
                 const alpha = 0.25 + value * 0.75;
 
-                // Lightness ramps up with intensity so loud dots glow brighter
+                
                 const lightness = baseLight + value * 15;
 
                 ctx.beginPath();
@@ -1858,14 +1864,14 @@ function getAnsiMono() {
 
         if (!toggleBtn || !modal) return;
 
-        // ---- Open modal ----
+        
         toggleBtn.addEventListener('click', (e) => {
             e.stopPropagation();
             modal.classList.add('open');
             modal.setAttribute('aria-hidden', 'false');
         });
 
-        // ---- Close on backdrop click ----
+        
         modal.addEventListener('click', (e) => {
             if (e.target === modal) {
                 modal.classList.remove('open');
@@ -1873,7 +1879,7 @@ function getAnsiMono() {
             }
         });
 
-        // ---- Close button ----
+        
         if (closeBtn) {
             closeBtn.addEventListener('click', () => {
                 modal.classList.remove('open');
@@ -1881,7 +1887,7 @@ function getAnsiMono() {
             });
         }
 
-        // ---- Close on Escape ----
+        
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape' && modal.classList.contains('open')) {
                 modal.classList.remove('open');
@@ -1889,7 +1895,7 @@ function getAnsiMono() {
             }
         });
 
-                                               // ---- Export ----
+         // ---- Export ----
         exportBtn.addEventListener('click', async () => {
             const payload = {
                 version: 1,
@@ -1928,7 +1934,7 @@ function getAnsiMono() {
                 }
             }
 
-            // ---- Desktop: classic blob download ----
+            // ---- Desktop: download ----
             try {
                 const blob = new Blob([json], { type: 'application/json' });
                 const url = URL.createObjectURL(blob);
