@@ -26,7 +26,6 @@
             --accent-color: #4a9eff;
         }
 
-        
         body.day-mode {
             --bg-color: #B8B8B8;
             --surface-color: #e8e8e8;
@@ -82,7 +81,7 @@
             display: block;
             margin: 0 auto;
         }
-                a.earth-link {
+        a.earth-link {
             display: block;
             width: fit-content;
             margin: 0 auto;
@@ -100,7 +99,7 @@
             gap: 30px;
             align-items: start;
         }
-               @media (max-width: 900px) {
+        @media (max-width: 900px) {
             .layout-grid {
                 grid-template-columns: 1fr;
             }
@@ -134,11 +133,10 @@
             line-height: 1;
         }
         img.title-img {
-    display: block;
-    height: 40px;
-    width: auto;
-    
-}
+            display: block;
+            height: 40px;
+            width: auto;
+        }
 
         .row {
             display: flex;
@@ -238,8 +236,7 @@
             border-color: #ffd966;
             text-shadow: 0 0 6px rgba(255, 217, 102, 0.6);
         }
-        
-        /* ===== FAVORITES SEPARATOR IN DROPDOWNS ===== */
+
         option.favorites-separator {
             color: var(--border-color);
             font-size: 10px;
@@ -321,14 +318,15 @@
             margin: 0 auto;
             margin-top: -25px;
         }
-        
+
         body.day-mode #globeCanvas {
-    filter:
-        drop-shadow(0 0 3px rgba(0, 0, 0, 0.5))
-        drop-shadow(0 0 8px rgba(0, 0, 0, 0.35))
-        drop-shadow(0 6px 14px rgba(0, 0, 0, 0.45));
-}
-                /* ===== FLOATING CONTROLS ===== */
+            filter:
+                drop-shadow(0 0 3px rgba(0, 0, 0, 0.5))
+                drop-shadow(0 0 8px rgba(0, 0, 0, 0.35))
+                drop-shadow(0 6px 14px rgba(0, 0, 0, 0.45));
+        }
+
+        /* ===== FLOATING CONTROLS ===== */
         .floating-controls {
             position: fixed;
             bottom: 20px;
@@ -364,10 +362,7 @@
             transform: scale(0.95);
         }
 
-        
-      
-        
-                /* ===== FAVORITES MODAL ===== */
+        /* ===== FAVORITES MODAL ===== */
         .modal-backdrop {
             position: fixed;
             inset: 0;
@@ -464,7 +459,6 @@
             opacity: 0.8;
         }
 
-                /* Mobile adjustments */
         @media (max-width: 700px) {
             .floating-controls {
                 bottom: 12px;
@@ -476,8 +470,7 @@
                 height: 40px;
                 font-size: 18px;
             }
-        }                  
-    
+        }
 
         .theme-toggle:hover {
             transform: scale(1.1);
@@ -489,164 +482,158 @@
         }
 
         @media (max-width: 700px) {
-    body {
-        padding: 10px;
-        padding-bottom: 10px;
-    }
+            body {
+                padding: 10px;
+                padding-bottom: 10px;
+            }
 
-    .container { max-width: 100%; }
+            .container { max-width: 100%; }
 
-    h1.earth-title {
-        padding-bottom: 6px;
-        margin: 0 0 12px 0;
-    }
+            h1.earth-title {
+                padding-bottom: 6px;
+                margin: 0 0 12px 0;
+            }
 
-    img.earth-anim { height: 55px; }
+            img.earth-anim { height: 55px; }
 
-    .layout-grid { gap: 16px; }
-    .right-column { gap: 16px; }
+            .layout-grid { gap: 16px; }
+            .right-column { gap: 16px; }
 
-    .player-box {
-        padding: 12px;
-        border-radius: 6px;
-    }
+            .player-box {
+                padding: 12px;
+                border-radius: 6px;
+            }
 
-    img.title-img { height: 28px; }
+            img.title-img { height: 28px; }
 
-    .row {
-        flex-direction: column;
-        align-items: stretch;
-        gap: 8px;
-        margin-bottom: 10px;
-    }
+            .row {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 8px;
+                margin-bottom: 10px;
+            }
 
-    select {
-        width: 100%;
-        font-size: 16px;
-        padding: 10px 12px;
-    }
+            select {
+                width: 100%;
+                font-size: 16px;
+                padding: 10px 12px;
+            }
 
-    .cam-nav {
-        gap: 6px;
-        margin-top: 8px;
-        flex-wrap: wrap;
-    }
+            .cam-nav {
+                gap: 6px;
+                margin-top: 8px;
+                flex-wrap: wrap;
+            }
 
-    .cam-nav button {
-        padding: 10px 16px;
-        font-size: 16px;
-        min-width: 46px;
-    }
+            .cam-nav button {
+                padding: 10px 16px;
+                font-size: 16px;
+                min-width: 46px;
+            }
 
-    .cam-star {
-        padding: 10px 16px;
-        font-size: 18px;
-        min-width: 46px;
-    }
+            .cam-star {
+                padding: 10px 16px;
+                font-size: 18px;
+                min-width: 46px;
+            }
 
-    .cam-title {
-        font-size: 12px;
-        flex-basis: 100%;
-        order: -1;
-        margin-bottom: 6px;
-    }
+            .cam-title {
+                font-size: 12px;
+                flex-basis: 100%;
+                order: -1;
+                margin-bottom: 6px;
+            }
 
-    #visualizer, pre#asciiViz, .viz-fallback {
-        height: 70px !important;
-        min-height: 70px;
-        max-height: 70px;
-    }
+            #visualizer, pre#asciiViz, .viz-fallback {
+                height: 70px !important;
+                min-height: 70px;
+                max-height: 70px;
+            }
 
-    pre#asciiViz {
-        font-size: 8px;
-        line-height: 1.05;
-        padding: 6px;
-    }
+            pre#asciiViz {
+                font-size: 8px;
+                line-height: 1.05;
+                padding: 6px;
+            }
 
-    .viz-controls {
-        flex-wrap: wrap;
-        gap: 8px;
-        justify-content: flex-end;
-    }
+            .viz-controls {
+                flex-wrap: wrap;
+                gap: 8px;
+                justify-content: flex-end;
+            }
 
-    .viz-controls select { flex: 1 1 100%; }
+            .viz-controls select { flex: 1 1 100%; }
 
-    #globeCanvas {
-        height: 180px;
-        margin-top: -10px;
-    }
+            #globeCanvas {
+                height: 180px;
+                margin-top: -10px;
+            }
 
-    iframe#webcamFrame,
-    video { border-radius: 4px; }
+            iframe#webcamFrame,
+            video { border-radius: 4px; }
 
-        .right-column .player-box { min-height: auto; }
-}
-        
+            .right-column .player-box { min-height: auto; }
+        }
+
         @media (max-width: 380px) {
             img.earth-anim { height: 42px; }
             img.title-img { height: 22px; }
             #globeCanvas { height: 150px; }
             .player-box { padding: 10px; }
         }
-        
-       /* ===== EARTH GIF GLOW ===== */
-img.earth-anim {
-    filter:
-        drop-shadow(0 0 2px rgba(57, 255, 20, 0.8))
-        drop-shadow(0 0 6px rgba(57, 255, 20, 0.4));
-}
 
-/* Day mode —  */
-body.day-mode img.earth-anim {
-    filter:
-        brightness(1.05)
-        saturate(0.7)
-        contrast(1.15)
-        drop-shadow(0 0 1px rgba(57, 255, 20, 0.8))
-        drop-shadow(0 0 3px rgba(57, 255, 20, 0.4));
-}
-/* ===== LIVE GIF — NIGHT MODE (default) ===== */
-img.title-img[alt="Live"] {
-    filter: drop-shadow(0 0 1px rgba(180, 100, 255, 0.6));
-}
+        /* ===== EARTH GIF GLOW ===== */
+        img.earth-anim {
+            filter:
+                drop-shadow(0 0 2px rgba(57, 255, 20, 0.8))
+                drop-shadow(0 0 6px rgba(57, 255, 20, 0.4));
+        }
 
-/* Day mode — ライブ */
-body.day-mode img.title-img[alt="Live"] {
-    filter:
-        brightness(1.05)
-        saturate(1.2)
-        contrast(1.1)
-        drop-shadow(0 0 1px rgba(180, 100, 255, 0.6))
-        drop-shadow(0 0 3px rgba(180, 100, 255, 0.3));
-}
+        body.day-mode img.earth-anim {
+            filter:
+                brightness(1.05)
+                saturate(0.7)
+                contrast(1.15)
+                drop-shadow(0 0 1px rgba(57, 255, 20, 0.8))
+                drop-shadow(0 0 3px rgba(57, 255, 20, 0.4));
+        }
 
-/* ===== ラジオ GLOW — NIGHT MODE (default) ===== */
-img.title-img[alt="Radio"] {
-    filter: drop-shadow(0 0 1px rgba(0, 220, 200, 0.6));
-}
+        img.title-img[alt="Live"] {
+            filter: drop-shadow(0 0 1px rgba(180, 100, 255, 0.6));
+        }
 
-/* Day mode — ラジオ */
-body.day-mode img.title-img[alt="Radio"] {
-    filter:
-        brightness(1.05)
-        saturate(1.2)
-        contrast(1.1)
-        drop-shadow(0 0 1px rgba(0, 220, 200, 0.6))
-        drop-shadow(0 0 3px rgba(0, 220, 200, 0.3));
-}
-        
+        body.day-mode img.title-img[alt="Live"] {
+            filter:
+                brightness(1.05)
+                saturate(1.2)
+                contrast(1.1)
+                drop-shadow(0 0 1px rgba(180, 100, 255, 0.6))
+                drop-shadow(0 0 3px rgba(180, 100, 255, 0.3));
+        }
+
+        img.title-img[alt="Radio"] {
+            filter: drop-shadow(0 0 1px rgba(0, 220, 200, 0.6));
+        }
+
+        body.day-mode img.title-img[alt="Radio"] {
+            filter:
+                brightness(1.05)
+                saturate(1.2)
+                contrast(1.1)
+                drop-shadow(0 0 1px rgba(0, 220, 200, 0.6))
+                drop-shadow(0 0 3px rgba(0, 220, 200, 0.3));
+        }
     </style>
 </head>
 <body>
 <div class="container">
-        <h1 class="earth-title">
+    <h1 class="earth-title">
         <a href="https://theokano.neocities.org/" class="earth-link" title="Back to Homepage" target="_blank" rel="noopener">
             <img src="https://i.postimg.cc/5NY61pbJ/EARTH-GIF2-CROP.gif" alt="EARTH" class="earth-anim">
         </a>
     </h1>
 
     <div class="layout-grid">
-
         <!-- ===== LIVE (left column) ===== -->
         <div class="player-box">
             <h2 class="title-gif">
@@ -671,7 +658,6 @@ body.day-mode img.title-img[alt="Radio"] {
 
         <!-- ===== RIGHT COLUMN ===== -->
         <div class="right-column">
-
             <div class="player-box">
                 <h2 class="title-gif">
                     <img src="https://i.postimg.cc/j29mzPg7/rajio-RADIO-TRANS-GIF.gif" alt="Radio" class="title-img">
@@ -694,13 +680,13 @@ body.day-mode img.title-img[alt="Radio"] {
                 <div class="viz-controls">
                     <label for="vizStyle">Visualizer:</label>
                     <select id="vizStyle">
-    <option value="bars">Bars</option>
-    <option value="wave">Wave</option>
-    <option value="ascii">ASCII</option>
-    <option value="ansi">ANSI</option>
-    <option value="dots">Dots</option>
-    <option value="droplet">Droplet</option>
-</select>
+                        <option value="bars">Bars</option>
+                        <option value="wave">Wave</option>
+                        <option value="ascii">ASCII</option>
+                        <option value="ansi">ANSI</option>
+                        <option value="dots">Dots</option>
+                        <option value="droplet">Droplet</option>
+                    </select>
                     <button id="radioStar" class="cam-star" title="Save to favorites" style="margin-left: auto;">★</button>
                 </div>
 
@@ -711,7 +697,6 @@ body.day-mode img.title-img[alt="Radio"] {
 
             <!-- ===== GLOBE ===== -->
             <canvas id="globeCanvas" title="Click to change color"></canvas>
-
         </div>
     </div>
 </div>
@@ -819,7 +804,7 @@ body.day-mode img.title-img[alt="Radio"] {
         camStar.title = isFav ? 'Remove from favorites' : 'Save to favorites';
     }
 
-        function buildFavoritesGroup() {
+    function buildFavoritesGroup() {
         const favorites = getFavorites();
         if (favorites.length === 0) return;
 
@@ -1033,7 +1018,7 @@ body.day-mode img.title-img[alt="Radio"] {
         radioStar.title = isFav ? 'Remove from favorites' : 'Save to favorites';
     }
 
-        function buildRadioFavoritesGroup() {
+    function buildRadioFavoritesGroup() {
         const favorites = getRadioFavorites();
         if (favorites.length === 0) return;
 
@@ -1229,7 +1214,7 @@ body.day-mode img.title-img[alt="Radio"] {
         }
     }
 
-                                       function drawBars(w, h) {
+    function drawBars(w, h) {
         analyser.getByteFrequencyData(freqData);
 
         const barCount = 60;
@@ -1240,7 +1225,6 @@ body.day-mode img.title-img[alt="Radio"] {
         const segGap = 0.5;
         const drawSegHeight = segHeight - segGap;
 
-        
         const usableBins = Math.floor(freqData.length * 0.4);
 
         let peak = 0.2;
@@ -1265,17 +1249,14 @@ body.day-mode img.title-img[alt="Radio"] {
             }
             const rawValue = count > 0 ? (sum / count) / 255 : 0;
 
-            
             if (rawValue < 0.02) continue;
 
-            
             const compression = 0.3 + (1 - t) * 0.5;
             let value = Math.pow(rawValue, compression);
 
             value = value / peak;
             value = Math.pow(Math.min(1, value), 0.7);
 
-            
             const floor = 0.22 * (1 - t);
             value = Math.max(floor, value);
             value = Math.min(1, value);
@@ -1316,7 +1297,7 @@ body.day-mode img.title-img[alt="Radio"] {
             }
         }
     }
-    
+
     function drawWave(w, h) {
         analyser.getByteTimeDomainData(timeData);
 
@@ -1335,31 +1316,31 @@ body.day-mode img.title-img[alt="Radio"] {
 
         const isDay = document.body.classList.contains('day-mode');
 
-for (let l = layers - 1; l >= 0; l--) {
-    const depth = l / (layers - 1);
-    const verticalOffset = depth * h * 0.28;
-    const amplitude = (1 - depth * 0.35);
-    const phaseShift = Math.floor(depth * 12);
+        for (let l = layers - 1; l >= 0; l--) {
+            const depth = l / (layers - 1);
+            const verticalOffset = depth * h * 0.28;
+            const amplitude = (1 - depth * 0.35);
+            const phaseShift = Math.floor(depth * 12);
 
-    const alpha = 0.85 - depth * 0.6;
-    const lightness = isDay
-        ? 25 + (1 - depth) * 30
-        : 95 - depth * 45;
+            const alpha = 0.85 - depth * 0.6;
+            const lightness = isDay
+                ? 25 + (1 - depth) * 30
+                : 95 - depth * 45;
 
-    ctx.beginPath();
-    for (let i = 0; i < smoothed.length; i++) {
-        const src = smoothed[(i + phaseShift) % smoothed.length];
-        const x = (i / (smoothed.length - 1)) * w;
-        const y = h * 0.55 + src * (h * 0.35) * amplitude - verticalOffset;
-        if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
-    }
+            ctx.beginPath();
+            for (let i = 0; i < smoothed.length; i++) {
+                const src = smoothed[(i + phaseShift) % smoothed.length];
+                const x = (i / (smoothed.length - 1)) * w;
+                const y = h * 0.55 + src * (h * 0.35) * amplitude - verticalOffset;
+                if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+            }
 
-    ctx.strokeStyle = `hsla(210, 60%, ${lightness}%, ${alpha})`;
-    ctx.lineWidth = 1.5;
-    ctx.lineJoin = 'round';
-    ctx.lineCap = 'round';
-    ctx.stroke();
-}
+            ctx.strokeStyle = `hsla(210, 60%, ${lightness}%, ${alpha})`;
+            ctx.lineWidth = 1.5;
+            ctx.lineJoin = 'round';
+            ctx.lineCap = 'round';
+            ctx.stroke();
+        }
 
         if (!window.__wavePeak || window.__wavePeak.length !== smoothed.length) {
             window.__wavePeak = new Array(smoothed.length).fill(0);
@@ -1377,8 +1358,8 @@ for (let l = layers - 1; l >= 0; l--) {
             if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
         }
         ctx.strokeStyle = isDay
-    ? 'rgba(160, 30, 50, 0.9)'
-    : 'rgba(220, 60, 80, 0.85)';
+            ? 'rgba(160, 30, 50, 0.9)'
+            : 'rgba(220, 60, 80, 0.85)';
         ctx.lineWidth = 1.2;
         ctx.stroke();
     }
@@ -1399,10 +1380,10 @@ for (let l = layers - 1; l >= 0; l--) {
 
     const ANSI_COLS = 40;
     const ANSI_ROWS = 6;
-    
+
     function getAnsiMono() {
-    return document.body.classList.contains('day-mode') ? '#1a1a1a' : '#e0e0e0';
-}
+        return document.body.classList.contains('day-mode') ? '#1a1a1a' : '#e0e0e0';
+    }
     let ansiColorMode = false;
 
     canvas.addEventListener('click', () => {
@@ -1482,8 +1463,7 @@ for (let l = layers - 1; l >= 0; l--) {
         }
     }
 
-    
-                               // ============ DOTS VISUALIZER — HALFTONE MATRIX ============
+    // ============ DOTS VISUALIZER — HALFTONE MATRIX ============
     if (!window.__dotsState) {
         window.__dotsState = {
             smoothed: null,
@@ -1513,7 +1493,6 @@ for (let l = layers - 1; l >= 0; l--) {
             window.__dotsState.rows = rows;
         }
 
-        // ---- Spectrum per column ----
         const usableBins = Math.floor(freqData.length * 0.4);
         const spectrumPerCol = new Array(cols).fill(0);
         const colBinWidth = usableBins / cols;
@@ -1539,15 +1518,12 @@ for (let l = layers - 1; l >= 0; l--) {
             if (spectrumPerCol[c] > peak) peak = spectrumPerCol[c];
         }
 
-        
-        const HUE = 280;          
-        const SAT = 85;           
-        const LIGHT_TOP = 0;      
-        const LIGHT_BOTTOM = 65;  
+        const HUE = 280;
+        const SAT = 85;
+        const LIGHT_TOP = 0;
+        const LIGHT_BOTTOM = 65;
 
-        // ---- Draw grid ----
         for (let r = 0; r < rows; r++) {
-            
             const rowT = r / (rows - 1);
             const baseLight = LIGHT_TOP + (LIGHT_BOTTOM - LIGHT_TOP) * rowT;
 
@@ -1555,21 +1531,18 @@ for (let l = layers - 1; l >= 0; l--) {
                 const i = r * cols + c;
                 const t = c / (cols - 1);
 
-                
                 const rowCenter = (rows - 1) / 2;
                 const rowDistance = Math.abs(r - rowCenter) / rowCenter;
                 const rowFalloff = 1 - Math.pow(rowDistance, 1.6);
 
                 const baseShape = 0.1 + rowFalloff * 0.15;
 
-                
                 const rawValue = spectrumPerCol[c] / peak;
                 const current = window.__dotsState.smoothed[i];
                 const smoothing = rawValue > current ? 0.35 : 0.08;
                 const smoothed = current + (rawValue - current) * smoothing;
                 window.__dotsState.smoothed[i] = smoothed;
 
-               
                 const rowPhase = r * 0.4;
                 const wave = Math.sin(c * 0.35 + drift * 2 + rowPhase);
                 const waveAmount = Math.max(0, wave) * 0.12;
@@ -1590,10 +1563,8 @@ for (let l = layers - 1; l >= 0; l--) {
                 const x = c * cellW + cellW / 2;
                 const y = r * cellH + cellH / 2;
 
-                
                 const alpha = 0.25 + value * 0.75;
 
-                
                 const lightness = baseLight + value * 15;
 
                 ctx.beginPath();
@@ -1604,13 +1575,11 @@ for (let l = layers - 1; l >= 0; l--) {
         }
     }
 
-
-    
-                        // ============ DROPLET VISUALIZER — GRAZING SIDE-ANGLE POOL ============
-            if (!window.__dropletState) {
+    // ============ DROPLET VISUALIZER — GRAZING SIDE-ANGLE POOL ============
+    if (!window.__dropletState) {
         window.__dropletState = {
             ripples: [],
-            streaks: [],       // <-- new
+            streaks: [],
             lastSpawn: 0,
             drift: 0,
             wavePhase: 0,
@@ -1628,7 +1597,7 @@ for (let l = layers - 1; l >= 0; l--) {
 
         const state = window.__dropletState;
         state.drift += 0.004;
-        state.wavePhase += 0.015;   
+        state.wavePhase += 0.015;
 
         // ---- Audio analysis ----
         let bassSum = 0;
@@ -1654,48 +1623,40 @@ for (let l = layers - 1; l >= 0; l--) {
             return 0.08 + depthT * 0.40;
         }
 
-        
-        // LAYER 1 — AMBIENT BLUE WAVES 
-        
+        // ============================================
+        // LAYER 1 — AMBIENT BLUE WAVES
+        // ============================================
         const isDay = document.body.classList.contains('day-mode');
-        
+
         const waveR = isDay ? 255 : 74;
         const waveG = isDay ? 150 : 158;
         const waveB = isDay ? 80  : 255;
         const waveBaseAlpha = 0.25;
 
-        
         const bassPulse = Math.min(1, bassEnergy * 1.4);
         const ampBoost = 1 + bassPulse * 0.9;
 
-        
         const waveCount = 5;
         for (let wi = 0; wi < waveCount; wi++) {
-            
             const yT = 0.18 + (wi / (waveCount - 1)) * 0.74;
             const baseY = h * yT;
 
-            
             const depthT = yT;
             const depthAmp = 2 + depthT * 6;
 
-            
             const phase = state.wavePhase + wi * 0.7;
 
-            
             const waveAlpha = waveBaseAlpha * (0.6 + depthT * 0.7);
 
             ctx.beginPath();
             ctx.strokeStyle = `rgba(${waveR}, ${waveG}, ${waveB}, ${waveAlpha})`;
             ctx.lineWidth = 1;
 
-            
             const steps = Math.max(40, Math.floor(w / 8));
             for (let s = 0; s <= steps; s++) {
                 const x = (s / steps) * w;
                 const xT = s / steps;
 
-                
                 const y1 = Math.sin(xT * Math.PI * 3 + phase) * depthAmp * ampBoost;
                 const y2 = Math.sin(xT * Math.PI * 7 + phase * 1.3) * depthAmp * 0.3;
                 const y = baseY + y1 + y2;
@@ -1705,64 +1666,47 @@ for (let l = layers - 1; l >= 0; l--) {
             }
             ctx.stroke();
         }
-                // ============================================
+
+        // ============================================
         // LAYER 1.5 — LITTLE SAILBOAT
         // ============================================
         const boat = state.boat;
 
-        // Initialize boat X on first run
         if (boat.x === null) {
             boat.x = w * 0.15;
         }
 
-        // Drift to the right, wrap when off the right edge
         boat.x += boat.speed;
         if (boat.x > w + 30) {
             boat.x = -30;
         }
 
-        // Find which wave band the boat is riding on
-        // Waves were drawn at yT = 0.18 + (wi / (waveCount - 1)) * 0.74
-        // We'll ride the 4th wave (index 3) — near the front but not the very closest
         const boatWaveIdx = 3;
         const boatYT = 0.18 + (boatWaveIdx / (waveCount - 1)) * 0.74;
         const boatBaseY = h * boatYT;
 
-        // Depth-based amplitude for the boat's wave
         const boatDepthAmp = 2 + boatYT * 6;
-
-        // Bass-driven amplitude boost (same formula as waves)
         const boatAmpBoost = ampBoost;
 
-        // Compute the actual Y of the wave at the boat's X position
-        // Mirrors the exact formula used for the wave curves
         const boatPhase = state.wavePhase + boatWaveIdx * 0.7;
         const boatXT = boat.x / w;
         const boatWaveY1 = Math.sin(boatXT * Math.PI * 3 + boatPhase) * boatDepthAmp * boatAmpBoost;
         const boatWaveY2 = Math.sin(boatXT * Math.PI * 7 + boatPhase * 1.3) * boatDepthAmp * 0.3;
         const boatY = boatBaseY + boatWaveY1 + boatWaveY2;
 
-        // ---- Compute tilt based on wave slope ----
-        // Sample the wave a few pixels ahead to get the slope
         const slopeLookahead = 8;
         const boatXT2 = (boat.x + slopeLookahead) / w;
         const boatWaveY1b = Math.sin(boatXT2 * Math.PI * 3 + boatPhase) * boatDepthAmp * boatAmpBoost;
         const boatWaveY2b = Math.sin(boatXT2 * Math.PI * 7 + boatPhase * 1.3) * boatDepthAmp * 0.3;
         const boatY2 = boatBaseY + boatWaveY1b + boatWaveY2b;
 
-        const slope = (boatY2 - boatY) / slopeLookahead;   // px of rise per px of run
-        // Convert slope to a rotation angle, damped and clamped
+        const slope = (boatY2 - boatY) / slopeLookahead;
         const targetTilt = Math.atan(slope) * 0.8;
-        // Smooth toward target for organic feel
         boat.tilt += (targetTilt - boat.tilt) * 0.08;
-        // Clamp tilt to a reasonable range so the boat never flips
         const clampedTilt = Math.max(-0.35, Math.min(0.35, boat.tilt));
 
-        // ---- Occasional bounce on bass hits ----
-        // Add a small vertical kick on strong bass
         const bassKick = bassEnergy > 0.5 ? (bassEnergy - 0.5) * 20 : 0;
 
-        // ---- Draw the boat ----
         const BOAT_W = 16;
         const BOAT_H = 12;
 
@@ -1770,18 +1714,17 @@ for (let l = layers - 1; l >= 0; l--) {
         ctx.translate(boat.x, boatY - bassKick);
         ctx.rotate(clampedTilt);
 
-        // Set colors: white outline + dark fill in night, inverted in day
         const hullOutline = isDay ? 'rgba(20, 20, 20, 0.95)' : 'rgba(255, 255, 255, 0.95)';
         const hullFill = isDay ? 'rgba(230, 230, 230, 0.85)' : 'rgba(10, 10, 10, 0.85)';
 
-        // ---- Hull (bottom half of boat, small trapezoid-ish shape) ----
+        // Hull
         ctx.beginPath();
-        ctx.moveTo(-BOAT_W / 2, 0);            // bottom-left
-        ctx.lineTo(-BOAT_W / 2 + 1.5, 3);      // slight curve in
-        ctx.lineTo(BOAT_W / 2 - 1.5, 3);       // bottom-right
-        ctx.lineTo(BOAT_W / 2, 0);             // top-right
-        ctx.lineTo(BOAT_W / 2 - 1, -1.5);      // top-right corner
-        ctx.lineTo(-BOAT_W / 2 + 1, -1.5);     // top-left corner
+        ctx.moveTo(-BOAT_W / 2, 0);
+        ctx.lineTo(-BOAT_W / 2 + 1.5, 3);
+        ctx.lineTo(BOAT_W / 2 - 1.5, 3);
+        ctx.lineTo(BOAT_W / 2, 0);
+        ctx.lineTo(BOAT_W / 2 - 1, -1.5);
+        ctx.lineTo(-BOAT_W / 2 + 1, -1.5);
         ctx.closePath();
         ctx.fillStyle = hullFill;
         ctx.fill();
@@ -1789,7 +1732,7 @@ for (let l = layers - 1; l >= 0; l--) {
         ctx.lineWidth = 1;
         ctx.stroke();
 
-        // ---- Mast ----
+        // Mast
         ctx.beginPath();
         ctx.moveTo(0, -1.5);
         ctx.lineTo(0, -BOAT_H);
@@ -1797,11 +1740,11 @@ for (let l = layers - 1; l >= 0; l--) {
         ctx.lineWidth = 1;
         ctx.stroke();
 
-        // ---- Main sail (right side, triangle) ----
+        // Main sail
         ctx.beginPath();
-        ctx.moveTo(0.8, -BOAT_H + 1);          // top of mast
-        ctx.lineTo(BOAT_W / 2 - 1.5, -1.8);    // back corner of sail
-        ctx.lineTo(0.8, -1.8);                 // bottom of sail along mast
+        ctx.moveTo(0.8, -BOAT_H + 1);
+        ctx.lineTo(BOAT_W / 2 - 1.5, -1.8);
+        ctx.lineTo(0.8, -1.8);
         ctx.closePath();
         ctx.fillStyle = hullFill;
         ctx.fill();
@@ -1809,7 +1752,7 @@ for (let l = layers - 1; l >= 0; l--) {
         ctx.lineWidth = 0.9;
         ctx.stroke();
 
-        // ---- Jib (small triangle in front of mast) ----
+        // Jib
         ctx.beginPath();
         ctx.moveTo(-0.8, -BOAT_H + 3);
         ctx.lineTo(-BOAT_W / 2 + 2, -1.8);
@@ -1821,32 +1764,30 @@ for (let l = layers - 1; l >= 0; l--) {
         ctx.lineWidth = 0.9;
         ctx.stroke();
 
-                ctx.restore();
+        ctx.restore();
 
-        // ---- Trailing wake ripples behind the boat ----
-        // Spawn a small ripple every few frames, offset behind the boat
-        if (Math.random() < 0.15) {   // ~15% chance per frame
+        // Trailing wake ripples behind the boat
+        if (Math.random() < 0.15) {
             state.ripples.push({
-                x: boat.x - 8,          // slightly behind the boat
-                y: boatY + 1,           // just below the hull
+                x: boat.x - 8,
+                y: boatY + 1,
                 r: 0,
                 maxR: 4 + Math.random() * 4,
-                squash: squashFactor(boatY) * 1.2,   // slightly wider than tall
+                squash: squashFactor(boatY) * 1.2,
                 alpha: 0.4,
                 speed: 0.4,
                 rings: 2,
                 fadeRate: 0.025
             });
         }
-        
 
-        
-        // LAYER 2 — RIPPLE SPAWNING 
-        
+        // ============================================
+        // LAYER 2 — RIPPLE SPAWNING
+        // ============================================
         const now = performance.now();
         const timeSinceLast = now - state.lastSpawn;
 
-                if (bassEnergy > 0.45 && timeSinceLast > 120) {
+        if (bassEnergy > 0.45 && timeSinceLast > 120) {
             state.lastSpawn = now;
             const rx = Math.random();
             const ry = 0.15 + Math.random() * 0.65;
@@ -1857,12 +1798,11 @@ for (let l = layers - 1; l >= 0; l--) {
             const maxR = (18 + depth * 90) * (0.6 + intensity * 0.9);
             const squash = squashFactor(y);
 
-            // Spawn the falling rain streak that lands at (x, y)
             state.streaks.push({
                 x: x,
                 landY: y,
-                currentY: -20,             // starts above canvas
-                speed: 6 + intensity * 6,  // px per frame
+                currentY: -20,
+                speed: 6 + intensity * 6,
                 length: 12 + Math.random() * 8,
                 intensity: intensity,
                 maxR: maxR,
@@ -1904,11 +1844,10 @@ for (let l = layers - 1; l >= 0; l--) {
                 fadeRate: 0.012
             });
         }
-        
 
-        
-        // LAYER 3 — RIPPLE RENDERING (same as before)
-        
+        // ============================================
+        // LAYER 3 — RIPPLE RENDERING
+        // ============================================
         const dotColor = isDay ? '0, 0, 0' : '255, 255, 255';
 
         for (let i = state.ripples.length - 1; i >= 0; i--) {
@@ -1952,26 +1891,23 @@ for (let l = layers - 1; l >= 0; l--) {
                 }
             }
         }
-    }
 
-            // ============================================
+        // ============================================
         // LAYER 4 — RAIN STREAKS (drops falling)
         // ============================================
         for (let i = state.streaks.length - 1; i >= 0; i--) {
             const s = state.streaks[i];
 
-            // Advance fall
             s.currentY += s.speed;
 
-            // Draw the streak as a vertical dotted line
             const streakTop = s.currentY - s.length;
             const streakBottom = s.currentY;
             const dotSpacing = 4;
 
             for (let yy = streakTop; yy < streakBottom; yy += dotSpacing) {
                 if (yy < -3 || yy > h + 3) continue;
-                const t = (yy - streakTop) / s.length;   // 0 top of streak, 1 bottom
-                const dotAlpha = s.alpha * t;             // brighter at the leading edge
+                const t = (yy - streakTop) / s.length;
+                const dotAlpha = s.alpha * t;
                 const dotSize = 0.6 + t * 0.8;
 
                 ctx.beginPath();
@@ -1980,9 +1916,7 @@ for (let l = layers - 1; l >= 0; l--) {
                 ctx.fill();
             }
 
-            // Has the streak landed?
             if (s.currentY >= s.landY) {
-                // Spawn the ripple at the landing point
                 state.ripples.push({
                     x: s.x,
                     y: s.landY,
@@ -1995,12 +1929,12 @@ for (let l = layers - 1; l >= 0; l--) {
                     fadeRate: 0.008 + s.intensity * 0.012
                 });
 
-                // Remove the streak
                 state.streaks.splice(i, 1);
             }
         }
-    
-        function drawAscii() {
+    }
+
+    function drawAscii() {
         analyser.getByteFrequencyData(freqData);
         const usableBins = Math.floor(freqData.length * 0.3);
         const step = usableBins / ASCII_COLS;
@@ -2030,8 +1964,6 @@ for (let l = layers - 1; l >= 0; l--) {
         }
         asciiViz.textContent = output;
     }
-    
-        
 
     function draw() {
         requestAnimationFrame(draw);
@@ -2271,7 +2203,8 @@ for (let l = layers - 1; l >= 0; l--) {
                 break;
         }
     });
-           // ============ FAVORITES EXPORT / IMPORT ============
+
+    // ============ FAVORITES EXPORT / IMPORT ============
     (function initFavoritesModal() {
         const toggleBtn = document.getElementById('favoritesToggle');
         const modal = document.getElementById('favoritesModal');
@@ -2282,14 +2215,12 @@ for (let l = layers - 1; l >= 0; l--) {
 
         if (!toggleBtn || !modal) return;
 
-        
         toggleBtn.addEventListener('click', (e) => {
             e.stopPropagation();
             modal.classList.add('open');
             modal.setAttribute('aria-hidden', 'false');
         });
 
-        
         modal.addEventListener('click', (e) => {
             if (e.target === modal) {
                 modal.classList.remove('open');
@@ -2297,7 +2228,6 @@ for (let l = layers - 1; l >= 0; l--) {
             }
         });
 
-        
         if (closeBtn) {
             closeBtn.addEventListener('click', () => {
                 modal.classList.remove('open');
@@ -2305,7 +2235,6 @@ for (let l = layers - 1; l >= 0; l--) {
             });
         }
 
-        
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape' && modal.classList.contains('open')) {
                 modal.classList.remove('open');
@@ -2313,7 +2242,7 @@ for (let l = layers - 1; l >= 0; l--) {
             }
         });
 
-         // ---- Export ----
+        // ---- Export ----
         exportBtn.addEventListener('click', async () => {
             const payload = {
                 version: 1,
@@ -2326,7 +2255,6 @@ for (let l = layers - 1; l >= 0; l--) {
             const json = JSON.stringify(payload, null, 2);
             const filename = `earth-favorites-${new Date().toISOString().slice(0, 10)}.json`;
 
-            // ---- Mobile: use Web Share API (opens "Save to Files") ----
             const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
             if (isMobile && navigator.canShare && typeof File !== 'undefined') {
@@ -2352,7 +2280,6 @@ for (let l = layers - 1; l >= 0; l--) {
                 }
             }
 
-            // ---- Desktop: download ----
             try {
                 const blob = new Blob([json], { type: 'application/json' });
                 const url = URL.createObjectURL(blob);
@@ -2374,7 +2301,7 @@ for (let l = layers - 1; l >= 0; l--) {
                 alert('Export failed. Try again or use a desktop browser.');
             }
         });
-        
+
         // ---- Import ----
         importBtn.addEventListener('click', () => {
             importInput.value = '';
@@ -2454,5 +2381,3 @@ for (let l = layers - 1; l >= 0; l--) {
 </script>
 </body>
 </html>
-
-<!-- rebuild -->
