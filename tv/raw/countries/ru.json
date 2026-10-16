@@ -558,62 +558,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "BN8UK0JlgAMrEm",
-    "name": "City Eden Birma Play",
-    "sources": {
-      "streams": [
-        "https://cityeden.catcast.tv/content/34364/index.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Lk2MXbqIFnMEMM",
-    "name": "City Eden Classic Music",
-    "sources": {
-      "streams": [
-        "https://cityeden.catcast.tv/content/47400/index.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "gUswhqxHZdKrP1",
-    "name": "City Eden KinoAction",
-    "sources": {
-      "streams": [
-        "https://cityeden.catcast.tv/content/41333/index.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "8Ucx5FG7ngDLh5",
-    "name": "City Eden KinoDetektiv",
-    "sources": {
-      "streams": [
-        "https://cityeden.catcast.tv/content/41327/index.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "UYW2WtzuwJvxrr",
     "name": "City Eden KinoDok",
     "sources": {
@@ -628,39 +572,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "FQwfx6NTcjE41o",
-    "name": "City Eden KinoDrama",
+    "nanoid": "N0XF0zTYtjf6Vc",
+    "name": "City Eden KinoKomediya",
     "sources": {
       "streams": [
-        "https://cityeden.catcast.tv/content/45269/index.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "zzxh5uo44jq1FL",
-    "name": "City Eden KinoFantastika",
-    "sources": {
-      "streams": [
-        "https://cityeden.catcast.tv/content/45268/index.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "hYJqIp24qMnNqd",
-    "name": "City Eden KinoMistika",
-    "sources": {
-      "streams": [
-        "https://cityeden.catcast.tv/content/40783/index.m3u8"
+        "https://cityeden.catcast.tv/content/41331/index.m3u8"
       ]
     },
     "languages": [
@@ -684,67 +600,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "9QIFKg7aQ0UqIc",
-    "name": "City Eden Play",
-    "sources": {
-      "streams": [
-        "https://cityeden.catcast.tv/content/34100/index.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "eLHDrGKZWgbc15",
     "name": "City Eden Sirtaki TV",
     "sources": {
       "streams": [
         "https://cityeden.catcast.tv/content/46421/index.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "CZ0c6ZasjBnZ4w",
-    "name": "City Eden TeleNovella",
-    "sources": {
-      "streams": [
-        "https://cityeden.catcast.tv/content/46209/index.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "JIOxlnAu1GPh23",
-    "name": "City Eden TV",
-    "sources": {
-      "streams": [
-        "https://cityeden.catcast.tv/content/34246/index.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "2Gi4riOGPwTn6u",
-    "name": "Current Time TV",
-    "sources": {
-      "streams": [
-        "https://rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/master.m3u8"
       ]
     },
     "languages": [
@@ -788,6 +648,20 @@
     "sources": {
       "streams": [
         "https://stream8.cinerama.uz/1033/tracks-v1a1/mono.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "xUgG4Xe5635smX",
+    "name": "Dikij",
+    "sources": {
+      "streams": [
+        "https://stream3.cinerama.uz/1230/tracks-v1a1/mono.m3u8"
       ]
     },
     "languages": [
@@ -956,12 +830,15 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "AebbSbQ8k1zQps",
+    "nanoid": "2GBAL7fVQGalJ1",
     "name": "Euronews Russian",
     "sources": {
       "streams": [
         "https://cdn-euronews.akamaized.net/live/eds/euronews-ru/25071/index.m3u8",
         "https://stream8.cinerama.uz/1024/tracks-v1a1/mono.m3u8"
+      ],
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/lwYzwdBiaho"
       ]
     },
     "languages": [
@@ -1317,9 +1194,7 @@
         "https://fs.uplink.kz/khl_prime/mono.m3u8?token=onlinetv"
       ]
     },
-    "languages": [
-      "rus"
-    ],
+    "languages": [],
     "country": "ru",
     "isGeoBlocked": false
   },
@@ -2621,11 +2496,41 @@
     "isGeoBlocked": true
   },
   {
+    "nanoid": "xyviT4pxyVKqDh",
+    "name": "RT en Espanol",
+    "sources": {
+      "streams": [
+        "https://rt-esp.rttv.com/dvr/rtesp/playlist.m3u8",
+        "https://rt-esp.rttv.com/live/rtesp/playlist.m3u8",
+        "https://streaming.thestream.cyou/live/46.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ru",
+    "isGeoBlocked": true
+  },
+  {
     "nanoid": "Y1NYjl7GEsAG9i",
     "name": "RTR Planeta Europe",
     "sources": {
       "streams": [
         "https://stream.smotrim.ru/hls/planeta_rtr_euro/playlist.m3u8?entity=channel&id=510&sign=5c0ac65d75140fac2fd938d77c92138d"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": true
+  },
+  {
+    "nanoid": "LMGu9PwKHxomgY",
+    "name": "RTVi",
+    "sources": {
+      "streams": [
+        "https://shift03.isp.bg/RTVi/index.m3u8"
       ]
     },
     "languages": [
@@ -2901,8 +2806,8 @@
     "name": "Shanson TV",
     "sources": {
       "streams": [
-        "https://streaming.thestream.cyou/live/7009.m3u8",
         "https://catchup.videoline.ru/shanson/index.m3u8",
+        "https://streaming.thestream.cyou/live/7009.m3u8",
         "https://fs.uplink.kz/shanson/mono.m3u8?token=onlinetv"
       ]
     },

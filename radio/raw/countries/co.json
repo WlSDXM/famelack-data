@@ -3898,6 +3898,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "GNgfhcCnmrEUNU",
+    "name": "Toca Stereo 105.3 FM",
+    "sources": {
+      "streams": [
+        "https://colombiawebs.com.co/proxy/tocaestereo/stream/1/"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "co",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "bhrDBSwiVWkfhh",
     "name": "Tropicalísima FM Tunja",
     "sources": {

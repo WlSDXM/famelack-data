@@ -1019,6 +1019,7 @@
     "name": "RDU 98.5 FM",
     "sources": {
       "streams": [
+        "https://rdu985fm-gecko.radioca.st/listen.pls/",
         "https://rdu985fm-gecko.radioca.st/stream"
       ]
     },
@@ -1218,7 +1219,8 @@
     "name": "The Generator FM",
     "sources": {
       "streams": [
-        "https://s1.myradiostream.com/:14268/;"
+        "https://s1.myradiostream.com/:14268/;",
+        "https://s1.myradiostream.com/14268/stream/1/"
       ]
     },
     "languages": [

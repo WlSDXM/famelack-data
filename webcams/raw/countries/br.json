@@ -4,7 +4,7 @@
     "name": "Aeroporto de Navegantes",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/AFeGegIj6_g"
+        "https://www.youtube-nocookie.com/embed/C6iMyfvXcDg"
       ]
     },
     "languages": [],
@@ -40,7 +40,7 @@
     "name": "Aparecida do Taboado Mania do Peixe",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/wSVcjl0edvM"
+        "https://www.youtube-nocookie.com/embed/Y05Gu085jXk"
       ]
     },
     "languages": [],
@@ -52,7 +52,7 @@
     "name": "Arraial do Cabo",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/cgibppPIx_s"
+        "https://www.youtube-nocookie.com/embed/dgd1eqX3M8U"
       ]
     },
     "languages": [],
@@ -124,7 +124,7 @@
     "name": "Balneário Camboriú Central",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/G_gVmyQkIYM"
+        "https://www.youtube-nocookie.com/embed/2hgqG86js-4"
       ]
     },
     "languages": [],
@@ -180,35 +180,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "jtcjJTPzQc7317",
-    "name": "Barra Funda Railway",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/4MGoJ-e7yic"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "7zM5RZT5dkjfkg",
     "name": "Blessed Sacrament Chapel",
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/6GKQTGz_NHk"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "jXzpQcZQWyiy14",
-    "name": "Boa Vista Velha - Campinas Railway",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/hhrvXTCUvW8"
       ]
     },
     "languages": [],
@@ -252,6 +228,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "GHTbEAbL1dHV7Q",
+    "name": "Caracol Falls",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/rmrw7giE2kg"
+      ]
+    },
+    "languages": [],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "3iNjhRenLmstFN",
     "name": "Central Altar, National Shrine of Aparecida",
     "sources": {
@@ -268,7 +256,7 @@
     "name": "Centro Sobradinho RS",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/nvt_sw5PuW8"
+        "https://www.youtube-nocookie.com/embed/UksH3aqn2Nk"
       ]
     },
     "languages": [],
@@ -280,7 +268,7 @@
     "name": "Chapecó Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/nxE5HbS5TgM"
+        "https://www.youtube-nocookie.com/embed/T1UAUCuDGV8"
       ]
     },
     "languages": [],
@@ -292,7 +280,7 @@
     "name": "Chapecó City Center",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/pmIx0Oh5vjk"
+        "https://www.youtube-nocookie.com/embed/6C7mi74aeqU"
       ]
     },
     "languages": [],
@@ -304,7 +292,7 @@
     "name": "Congonhas Airport Camera 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Ieqg3IfJATQ"
+        "https://www.youtube-nocookie.com/embed/GFJC025YALg"
       ]
     },
     "languages": [],
@@ -316,7 +304,7 @@
     "name": "Congonhas Airport Camera 3",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/xvJDABaPokY"
+        "https://www.youtube-nocookie.com/embed/yrQuQ08LpNQ"
       ]
     },
     "languages": [],
@@ -352,19 +340,7 @@
     "name": "Cristo Acolhedor, Sobradinho",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/hjljDV-qfCM"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "qCuSfvqNnN6d02",
-    "name": "Embu-Guaçu Railway Crossing",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/R2146UyP3Uc"
+        "https://www.youtube-nocookie.com/embed/Y3Tn1KGJtk0"
       ]
     },
     "languages": [],
@@ -424,7 +400,7 @@
     "name": "Galeão International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Opfmagls2lw"
+        "https://www.youtube-nocookie.com/embed/Tjs6h28LBtk"
       ]
     },
     "languages": [],
@@ -436,7 +412,7 @@
     "name": "Goio-Ên & Uruguay River",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/j16t8EZBO0o"
+        "https://www.youtube-nocookie.com/embed/bgxSiYYQ0w0"
       ]
     },
     "languages": [],
@@ -449,6 +425,30 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/IPR2ENWQlrs"
+      ]
+    },
+    "languages": [],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "uRI257c7osiZkO",
+    "name": "Gramado Centre",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/18qXeKqoiYE"
+      ]
+    },
+    "languages": [],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "dK0f3DdBX2TenP",
+    "name": "Gramado Church Tower Panorama",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/0tMTEejJwhc"
       ]
     },
     "languages": [],
@@ -472,7 +472,7 @@
     "name": "Guarulhos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/3sGubmF43J8"
+        "https://www.youtube-nocookie.com/embed/ZPRVrLcGDFg"
       ]
     },
     "languages": [],
@@ -484,7 +484,7 @@
     "name": "Guarulhos International Airport Runway 10L",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/vUHsLrAlQ4c"
+        "https://www.youtube-nocookie.com/embed/nDb3qQMS0Yo"
       ]
     },
     "languages": [],
@@ -496,7 +496,7 @@
     "name": "Guarulhos International Airport Runway 10R",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/07e7jFTgeoM"
+        "https://www.youtube-nocookie.com/embed/2DUMr0Dh2jk"
       ]
     },
     "languages": [],
@@ -508,7 +508,7 @@
     "name": "Guarulhos International Airport Runway 28",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/b5RDdujVfRo"
+        "https://www.youtube-nocookie.com/embed/ai8mUZdNtRA"
       ]
     },
     "languages": [],
@@ -772,7 +772,7 @@
     "name": "Recife Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/oSZJCTMhPJU"
+        "https://www.youtube-nocookie.com/embed/PUVbFVlewok"
       ]
     },
     "languages": [],
@@ -784,7 +784,7 @@
     "name": "Recife Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/EzpmqpAoPTk"
+        "https://www.youtube-nocookie.com/embed/dOZlEXSUNMk"
       ]
     },
     "languages": [],
@@ -820,7 +820,7 @@
     "name": "Santa Fé do Sul Praça Salles Filho",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/FRUu9HQmTLQ"
+        "https://www.youtube-nocookie.com/embed/-K3TGJoa9UI"
       ]
     },
     "languages": [],
@@ -892,7 +892,7 @@
     "name": "Santos Dumont Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/WRBKpBu4nv8"
+        "https://www.youtube-nocookie.com/embed/L_wgeZkqPNU"
       ]
     },
     "languages": [],
@@ -948,18 +948,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Q2DVT0XE0E3Z5A",
-    "name": "Teatro Amazonas, Manaus",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/zQk5FOcP0f0"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "lbWUcWi719ZqYg",
     "name": "Vale do Catimbau Vila Mara do Sertão",
     "sources": {
@@ -1000,7 +988,7 @@
     "name": "Viracopos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/PzoKl605pcY"
+        "https://www.youtube-nocookie.com/embed/XMKiRdJ2_dA"
       ]
     },
     "languages": [],

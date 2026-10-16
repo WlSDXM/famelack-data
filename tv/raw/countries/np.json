@@ -29,21 +29,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "DfD3tq4WpLgfKH",
-    "name": "Divya Darshan TV",
-    "sources": {
-      "streams": [
-        "https://live.divyadarshantv.com/hls/0/stream.m3u8",
-        "https://live.divyadarshantv.com/hls/stream.m3u8"
-      ]
-    },
-    "languages": [
-      "nep"
-    ],
-    "country": "np",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "ZmDRMCQnO0fBdl",
     "name": "Green Gold TV",
     "sources": {
@@ -109,6 +94,34 @@
     "languages": [
       "mai",
       "nep"
+    ],
+    "country": "np",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "QG38AVnrFiIrOE",
+    "name": "YRF Music Nepal",
+    "sources": {
+      "streams": [
+        "https://vidaa.kableone.com/hls/live/2111218/YrfMusic/1.m3u8"
+      ]
+    },
+    "languages": [
+      "hin"
+    ],
+    "country": "np",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "XjpTFUX5g4pbgr",
+    "name": "Zoom Nepal",
+    "sources": {
+      "streams": [
+        "https://pubads.g.doubleclick.net/ssai/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8"
+      ]
+    },
+    "languages": [
+      "hin"
     ],
     "country": "np",
     "isGeoBlocked": false

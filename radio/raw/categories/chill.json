@@ -2397,6 +2397,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "4Z8xlEDLxnj635",
+    "name": "Calm Radio - Zen",
+    "sources": {
+      "streams": [
+        "https://streams.calmradio.com:14028/stream/1/"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "PRHam0qXkfcv3R",
     "name": "Calm Smooth FM",
     "sources": {
@@ -6125,7 +6139,8 @@
     "name": "Jazz Sakura",
     "sources": {
       "streams": [
-        "https://kathy.torontocast.com:3330/;"
+        "https://kathy.torontocast.com:3330/;",
+        "https://kathy.torontocast.com:3330/stream/1/"
       ]
     },
     "languages": [
@@ -10255,6 +10270,20 @@
       "eng"
     ],
     "country": "de",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "XBRfF8d3wpcHK1",
+    "name": "Radio Horyzont",
+    "sources": {
+      "streams": [
+        "https://s1.slotex.pl:7328/stream/1/"
+      ]
+    },
+    "languages": [
+      "pol"
+    ],
+    "country": "pl",
     "isGeoBlocked": false
   },
   {

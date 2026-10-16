@@ -360,6 +360,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "ED2fBmu4ywwbMl",
+    "name": "24-7 Smooth Jazz",
+    "sources": {
+      "streams": [
+        "https://antares.dribbcast.com/proxy/s8280/stream"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "EoBUTYQrmAfNzq",
     "name": "24/7 Blues Radio",
     "sources": {
@@ -477,6 +491,20 @@
     "sources": {
       "streams": [
         "https://wrcj.streamguys1.com/live.aac"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "b3hCCrzpKseWy8",
+    "name": "91.5 Jazz & More",
+    "sources": {
+      "streams": [
+        "https://kunv.oit.unlv.edu/stream/1/"
       ]
     },
     "languages": [
@@ -6259,7 +6287,8 @@
     "name": "Jazz Sakura",
     "sources": {
       "streams": [
-        "https://kathy.torontocast.com:3330/;"
+        "https://kathy.torontocast.com:3330/;",
+        "https://kathy.torontocast.com:3330/stream/1/"
       ]
     },
     "languages": [

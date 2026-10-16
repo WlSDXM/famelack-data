@@ -156,6 +156,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "DJ2eKEMGFBQKFW",
+    "name": "Radio Cortes FM",
+    "sources": {
+      "streams": [
+        "https://cortesfm-zikoxweb.radioca.st/stream/1/"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "hn",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "csCRFkefxbObI9",
     "name": "Radio HRN 92.9 FM",
     "sources": {

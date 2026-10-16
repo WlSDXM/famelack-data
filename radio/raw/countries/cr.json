@@ -226,6 +226,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "JIr27ro7x5QI05",
+    "name": "Puerto Limón Radio",
+    "sources": {
+      "streams": [
+        "https://puertolimonradio-rowrigos.radioca.st/listen.pls/"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "L2Gx8220ALUlps",
     "name": "Radio 94.7 FM",
     "sources": {

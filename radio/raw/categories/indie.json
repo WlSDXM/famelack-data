@@ -2991,8 +2991,8 @@
     "name": "ByteFM",
     "sources": {
       "streams": [
-        "https://uplink.byte.fm/bytefm-mainhq/mp3-192/",
         "https://bytefm.cast.addradio.de/bytefm/main/high/stream",
+        "https://uplink.byte.fm/bytefm-mainhq/mp3-192/",
         "https://uplink.byte.fm/bytefm-main/mp3-128/"
       ]
     },
@@ -3021,7 +3021,8 @@
     "name": "Campus Rádió FM90",
     "sources": {
       "streams": [
-        "https://stream.fm90.hu:8000/;"
+        "https://stream.fm90.hu:8000/;",
+        "https://stream.fm90.hu:8000/stream/1/"
       ]
     },
     "languages": [
@@ -3797,6 +3798,22 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "q4umJOxrJ2wnpV",
+    "name": "Dark Edge Radio",
+    "sources": {
+      "streams": [
+        "https://stream.darkedge.ro:8002/stream/1/",
+        "https://stream.darkedge.ro:8002/stream/4/"
+      ]
+    },
+    "languages": [
+      "eng",
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "J7a8KSdKS4pszU",
     "name": "Dark Mythos",
     "sources": {
@@ -4044,7 +4061,9 @@
     "name": "detektor.fm Musik",
     "sources": {
       "streams": [
-        "https://streams.detektor.fm/musik/aac-128/streams.detektor.fm"
+        "https://detektor.fm/stream/mp3/musik/",
+        "https://streams.detektor.fm/musik/aac-128/streams.detektor.fm",
+        "https://detektor.fm/stream/aac/musik/"
       ]
     },
     "languages": [
@@ -11816,6 +11835,7 @@
     "name": "RDU 98.5 FM",
     "sources": {
       "streams": [
+        "https://rdu985fm-gecko.radioca.st/listen.pls/",
         "https://rdu985fm-gecko.radioca.st/stream"
       ]
     },
@@ -14065,6 +14085,18 @@
     "sources": {
       "streams": [
         "https://s4.radio.co/sbeba14c92/listen"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "2zTHqMix3AyDlK",
+    "name": "Whippet Radio",
+    "sources": {
+      "streams": [
+        "https://whippetradio.radioca.st/listen.pls/"
       ]
     },
     "languages": [],

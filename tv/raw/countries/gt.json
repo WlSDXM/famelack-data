@@ -56,6 +56,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "tkEITU2bEZ7qMi",
+    "name": "Canal 13 Esquipulas",
+    "sources": {
+      "streams": [
+        "https://tv91.hostingnuclear.com:19360/intercable/intercable.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "gt",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "HQW2P8evqWenGp",
     "name": "Canal 30 TV Bethel",
     "sources": {
@@ -140,11 +154,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "BwRr61iTuY4MpG",
-    "name": "Maxivision TV",
+    "nanoid": "TtxFJyJsrcdvCM",
+    "name": "MCN Television",
     "sources": {
       "streams": [
-        "https://video03.logicahost.com.br/maxivisiontv/maxivisiontv/playlist.m3u8"
+        "https://eu1.servers10.com:8081/8338/index.m3u8"
       ]
     },
     "languages": [
@@ -154,11 +168,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "TtxFJyJsrcdvCM",
-    "name": "MCN Television",
+    "nanoid": "0ZOxE1UhD8M7M9",
+    "name": "Multivision Canal 3",
     "sources": {
       "streams": [
-        "https://eu1.servers10.com:8081/8338/index.m3u8"
+        "https://stream.digitalgt.com:3136/live/multivisionlive.m3u8"
       ]
     },
     "languages": [

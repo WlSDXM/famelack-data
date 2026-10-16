@@ -114,20 +114,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ZQE8Kkj7LLaHHY",
-    "name": "BVG",
-    "sources": {
-      "streams": [
-        "https://mumt05.tangotv.in/87NeALx2BVG/index.m3u8"
-      ]
-    },
-    "languages": [
-      "hin"
-    ],
-    "country": "in",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "7vuNKG15VuJZNX",
     "name": "Campus TV",
     "sources": {
@@ -837,6 +823,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "9NYf5msdVIxgC1",
+    "name": "ILCE Canal 15 Summa Saberes",
+    "sources": {
+      "streams": [
+        "https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "wBMPZbYU5rhwEy",
     "name": "iSTUFF",
     "sources": {
@@ -1145,20 +1145,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "VFD90UpkQ7f9Ss",
-    "name": "Payam Javan TV",
-    "sources": {
-      "streams": [
-        "https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "fas"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "veSkgi6hizxqlB",
     "name": "PBS Kids",
     "sources": {
@@ -1314,20 +1300,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ilmq7YqEXqJqfJ",
-    "name": "Rai Scuola",
-    "sources": {
-      "streams": [
-        "https://d3k8wzt41aflvx.cloudfront.net/RAIScuola/Live.m3u8"
-      ]
-    },
-    "languages": [
-      "ita"
-    ],
-    "country": "it",
-    "isGeoBlocked": true
-  },
-  {
     "nanoid": "uOeqeeP7q9Tix0",
     "name": "Red Apple 21",
     "sources": {
@@ -1388,7 +1360,7 @@
     "name": "SQOOL TV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/fvdwGoCynIQ"
+        "https://www.youtube-nocookie.com/embed/N16IEGx4BNk"
       ]
     },
     "languages": [
@@ -1493,20 +1465,6 @@
       "eng"
     ],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "LSV8LWxmVrWxS3",
-    "name": "TV Cuatro 4.4",
-    "sources": {
-      "streams": [
-        "https://5ca3e84a76d30.streamlock.net/tv44gto/tv44gto.smil/.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
     "isGeoBlocked": false
   },
   {
@@ -1790,20 +1748,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "JliijnACP4jH0u",
-    "name": "Wiki TV",
-    "sources": {
-      "streams": [
-        "https://stream.wikitv.asia/live/ngrp:myStream_all/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "khm"
-    ],
-    "country": "kh",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "NpJ5K3Avxx4otV",
     "name": "WildEarth",
     "sources": {
@@ -1853,20 +1797,6 @@
     "sources": {
       "streams": [
         "https://world.lls.pbs.org/index.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "pvxpjJZ1DkpUbg",
-    "name": "WPS-TV",
-    "sources": {
-      "streams": [
-        "https://2-fss-2.streamhoster.com/pl_120/amlst:203530-1426406/playlist.m3u8"
       ]
     },
     "languages": [

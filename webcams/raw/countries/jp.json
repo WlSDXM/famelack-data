@@ -112,7 +112,7 @@
     "name": "Akabane Station",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/FbbhZN2tndQ"
+        "https://www.youtube-nocookie.com/embed/jW-RHj7Ii8Y"
       ]
     },
     "languages": [],
@@ -148,7 +148,7 @@
     "name": "Akita Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/vMyKRCq3HMI"
+        "https://www.youtube-nocookie.com/embed/0npXRf6Czz0"
       ]
     },
     "languages": [],
@@ -172,7 +172,7 @@
     "name": "Akita Port",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4_NvXFvjfKM"
+        "https://www.youtube-nocookie.com/embed/RgZuZ9HSQ_M"
       ]
     },
     "languages": [],
@@ -196,7 +196,7 @@
     "name": "Akita Station Square",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/EWxzTkgNIBw"
+        "https://www.youtube-nocookie.com/embed/V4sgelp4rZk"
       ]
     },
     "languages": [],
@@ -281,18 +281,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/4zTR72UGZ04"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "cgKCNZhVpCaOSl",
-    "name": "Arashiyama Togetsukyo Bridge",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/jqtsC5BYlIk"
       ]
     },
     "languages": [],
@@ -412,7 +400,7 @@
     "name": "Chuo Expressway Uenohara Interchange",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/slOgQojt8w8"
+        "https://www.youtube-nocookie.com/embed/0ZWLeCUwSOU"
       ]
     },
     "languages": [],
@@ -580,7 +568,7 @@
     "name": "Hakodate Station Plaza & Bay Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/3Q0U9jDAh5o"
+        "https://www.youtube-nocookie.com/embed/0pDnGSYXdMk"
       ]
     },
     "languages": [],
@@ -592,7 +580,7 @@
     "name": "Hakodate Station Streetcar & City View",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/wG3nr37RwCs"
+        "https://www.youtube-nocookie.com/embed/AsmL4dRdXrA"
       ]
     },
     "languages": [],
@@ -881,6 +869,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/NsFHt76uwh8"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "w1ouTTASGMw79n",
+    "name": "Ikegami Honmon-ji Temple",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/GjBvaIce014"
       ]
     },
     "languages": [],
@@ -1240,7 +1240,7 @@
     "name": "Kanda Station North Exit Cityscape",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ftkM0BVLhtg"
+        "https://www.youtube-nocookie.com/embed/FZfPB7krgyk"
       ]
     },
     "languages": [],
@@ -1348,7 +1348,7 @@
     "name": "Kawaguchiko Station & Mount Fuji",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/PW6zhYOkunI"
+        "https://www.youtube-nocookie.com/embed/ipbHUjTeUIw"
       ]
     },
     "languages": [],
@@ -1396,7 +1396,7 @@
     "name": "Kishamichi Promenade",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/9gDMWeqy0U0"
+        "https://www.youtube-nocookie.com/embed/6h4IGR61eUo"
       ]
     },
     "languages": [],
@@ -1409,6 +1409,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/_HZDjlfTuvQ"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "zgpd5HGU9oauEb",
+    "name": "Kitashinchi Hontori Darling Building",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/CtFhpJFGqC8"
       ]
     },
     "languages": [],
@@ -1444,7 +1456,7 @@
     "name": "Kohoku Parking Area on the Tomei Expressway",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/pawJL_P0_VI"
+        "https://www.youtube-nocookie.com/embed/oQ8EGJWu1iA"
       ]
     },
     "languages": [],
@@ -1632,18 +1644,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "4NqcWqp9dGyQaA",
-    "name": "Kusatsu Onsen Traffic and Parking Status",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/23OZYCMWKyY"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "dxGdvegbFeWzo4",
     "name": "Kusatsu Route 292 Kusatsu Onsen Entrance",
     "sources": {
@@ -1824,18 +1824,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "G4tyP8zYkMBnKG",
-    "name": "Marunuma Kogen Yellow Course",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/XqiDLNQA0HM"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Vt9avrCm4OljG3",
     "name": "Matsumoto Castle from Kuromon Gate",
     "sources": {
@@ -1912,7 +1900,7 @@
     "name": "Meitetsu Tokoname Line Ono-machi",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/CWkk70sU85U"
+        "https://www.youtube-nocookie.com/embed/NBPzD8DS7v0"
       ]
     },
     "languages": [],
@@ -2272,7 +2260,7 @@
     "name": "Mt. Fuji Panoramic Ropeway Observation Deck",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/eU8A7QQOcso"
+        "https://www.youtube-nocookie.com/embed/rW5aaFv8oxs"
       ]
     },
     "languages": [],
@@ -2417,18 +2405,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/cJd9IIu2vio"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "f29nBUByDkrDeo",
-    "name": "Naha Airport",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/vFSKi7cdGfs"
       ]
     },
     "languages": [],
@@ -2728,7 +2704,7 @@
     "name": "Ōjana Intersection on Route 58",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/qcXFhfNRe5g"
+        "https://www.youtube-nocookie.com/embed/ymP60Z2RRDM"
       ]
     },
     "languages": [],
@@ -2824,7 +2800,7 @@
     "name": "Osaka Castle & Skyline",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/alZ4nKwDQfc"
+        "https://www.youtube-nocookie.com/embed/dOKOq-jU1b8"
       ]
     },
     "languages": [],
@@ -2944,7 +2920,7 @@
     "name": "Osaka Umeda",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/tZOnHOpBJfg"
+        "https://www.youtube-nocookie.com/embed/VIOGBiNei3w"
       ]
     },
     "languages": [],
@@ -3028,7 +3004,7 @@
     "name": "Otawara Takatori Bridge River Surveillance",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/bFg0PC_IypY"
+        "https://www.youtube-nocookie.com/embed/2RmWXUoPMKU"
       ]
     },
     "languages": [],
@@ -3125,18 +3101,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/6DhFMy_i8bg"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "yvt2zYzxtlB99y",
-    "name": "Route 134 Shonan",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/DgIbfgFdGVI"
       ]
     },
     "languages": [],
@@ -3292,7 +3256,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/8WTiMNmxYHc"
+        "https://www.youtube-nocookie.com/embed/u0ReKZ7BYHU"
       ]
     },
     "languages": [],
@@ -3509,18 +3473,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/dfVK7ld38Ys"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "VFW2YTt7VTtA8u",
-    "name": "Shichirigahama Crossing Yukiai River",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/fV0PtrgPF6g"
       ]
     },
     "languages": [],
@@ -3756,18 +3708,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "8j30pSSRh2PGfH",
-    "name": "Sukiyabashi Crossing, Ginza",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/1Xm5bjdI5hU"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "mg9neb09QkZvyM",
     "name": "Sumida River and Tokyo Skytree",
     "sources": {
@@ -3844,7 +3784,7 @@
     "name": "Tanukikoji Shopping St, Sapporo",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/UQBED1DREUE"
+        "https://www.youtube-nocookie.com/embed/ncvEMktxVd4"
       ]
     },
     "languages": [],
@@ -4288,19 +4228,7 @@
     "name": "Yokohama Port",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/FbdUMW7321M"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "0VqlqCS9l5N5oH",
-    "name": "Yokosuka Anjindai Tokyo Bay View",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ob4ctpHiK58"
+        "https://www.youtube-nocookie.com/embed/QQ82q7huU3g"
       ]
     },
     "languages": [],

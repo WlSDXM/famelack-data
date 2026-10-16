@@ -1,10 +1,10 @@
 [
   {
-    "nanoid": "t2xHdunHhK2Qqc",
-    "name": "Aguacate TV",
+    "nanoid": "k5rLNH9bb5U3R9",
+    "name": "AbejalesTV",
     "sources": {
       "streams": [
-        "https://streamtv.intervenhosting.net:3040/hybrid/play.m3u8"
+        "https://183.bozztv.com/giatv/giatv-AbejalesTV/AbejalesTV/playlist.m3u8"
       ]
     },
     "languages": [
@@ -33,6 +33,20 @@
     "sources": {
       "streams": [
         "https://streamtv.as3sport.online:3394/hybrid/play.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ve",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "4OE4ZIp6ZfzmtV",
+    "name": "Audaz TV",
+    "sources": {
+      "streams": [
+        "https://cloud2.streaminglivehd.com:1936/8264/8264/playlist.m3u8"
       ]
     },
     "languages": [
@@ -112,54 +126,25 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "BcpXd12u6A6rk7",
+    "name": "Contactv",
+    "sources": {
+      "streams": [
+        "https://lbgo.bozztv.com/ssh101/ssh101/contactv/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ve",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "s3sqg6vutusQdl",
     "name": "eSports Max TV",
     "sources": {
       "streams": [
         "https://cdnlive.klicgo.net/esportsmax/live/playlist_dvr.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ve",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "gKZyGzv7VMGeI2",
-    "name": "Grande TV",
-    "sources": {
-      "streams": [
-        "https://live20.bozztv.com/akamaissh101/ssh101/grandetv2240/playlist.m3u8",
-        "https://vs20.live.opencaster.com/grande41_0b593479/index.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ve",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "c9vagOs8X6vg6Q",
-    "name": "Guaro TV",
-    "sources": {
-      "streams": [
-        "https://stream.guarotv.net:3592/hybrid/play.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ve",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "L2vaUyfehZpjxw",
-    "name": "Inter TV",
-    "sources": {
-      "streams": [
-        "https://streamtv.intervenhosting.net:3439/hybrid/play.m3u8"
       ]
     },
     "languages": [
@@ -188,6 +173,20 @@
     "sources": {
       "streams": [
         "https://streamtv.intervenhosting.net:3718/live/kandelamedioslive.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ve",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "jm0NQzDK6O3XDE",
+    "name": "Lara en Redes",
+    "sources": {
+      "streams": [
+        "https://streamtv.laraenredes.com:3020/hybrid/play.m3u8"
       ]
     },
     "languages": [
@@ -282,6 +281,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "Y5blHOrOCn0tLM",
+    "name": "Portuguesa Television",
+    "sources": {
+      "streams": [
+        "https://streamtv.intervenhosting.net:3789/live/portutvlive.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ve",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "YQGNpYUE3gQTO4",
     "name": "PromarTV",
     "sources": {
@@ -315,6 +328,20 @@
     "sources": {
       "streams": [
         "https://cdnbarinas.tvzamora.com/showven/index.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ve",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "8UCD3Qx8hCNOEd",
+    "name": "Siembra TV",
+    "sources": {
+      "streams": [
+        "https://cloud2.streaminglivehd.com:1936/siembratv/siembratv/playlist.m3u8"
       ]
     },
     "languages": [
@@ -424,6 +451,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "sB2nccFi22vLUq",
+    "name": "TNO Radio",
+    "sources": {
+      "streams": [
+        "https://stmv1.srvstm.com/tnovideo1/tnovideo1/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ve",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "rO6eV79GxNqt7n",
     "name": "TRT",
     "sources": {
@@ -470,7 +511,21 @@
     "name": "TV Oasis Monay",
     "sources": {
       "streams": [
-        "https://servilive.com:3562/live/vav4c8z38live.m3u8"
+        "https://live.teve.pro/live/tvoasis/index.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ve",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "1ek3W8mvyYSFj7",
+    "name": "TVes",
+    "sources": {
+      "streams": [
+        "https://vs20.live.opencaster.com/tves_5fd18b1e/index.m3u8"
       ]
     },
     "languages": [
@@ -494,14 +549,16 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "lupM9TqioABtUb",
-    "name": "UN24",
+    "nanoid": "aPoebbGsPHojms",
+    "name": "UniTV",
     "sources": {
       "streams": [
-        "https://59d39900ebfb8.streamlock.net/untv-720/untv-720/playlist.m3u8"
+        "https://vcp6.myplaytv.com/unitv/unitv/playlist.m3u8"
       ]
     },
-    "languages": [],
+    "languages": [
+      "spa"
+    ],
     "country": "ve",
     "isGeoBlocked": false
   },

@@ -1,15 +1,42 @@
 [
   {
-    "nanoid": "gnXbQSLxnNAtTV",
-    "name": "4 Fun TV",
+    "nanoid": "fooBWNn7lAf85s",
+    "name": "4 Fun Kids",
     "sources": {
       "streams": [
-        "https://stream.4fun.tv:8888/hls/4f.m3u8"
+        "https://stream.4fun.tv:8889/hls/4fk.m3u8"
       ]
     },
     "languages": [
       "pol"
     ],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "gnXbQSLxnNAtTV",
+    "name": "4 Fun TV",
+    "sources": {
+      "streams": [
+        "https://stream.4fun.tv:8888/hls/4f.m3u8",
+        "https://stream.4fun.tv:8888/sd/4fun_sd_high.m3u8"
+      ]
+    },
+    "languages": [
+      "pol"
+    ],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "3R0EfOPIBQ61UY",
+    "name": "Africanews",
+    "sources": {
+      "streams": [
+        "https://c3c275b999764df8a2dd55ffe2996818.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6576/bitok/eyJzdGlkIjoiOTU0NDAyODQtOTU0My00Yzc2LThmZjQtNDRhY2YwYmQxYTYwIiwibWt0IjoicGwiLCJjaCI6NjYwNiwicHRmIjo1fQ==/26036/africanews-en.m3u8"
+      ]
+    },
+    "languages": [],
     "country": "pl",
     "isGeoBlocked": false
   },
@@ -56,6 +83,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "BA4cWPIdrFeLrG",
+    "name": "Baby Shark TV",
+    "sources": {
+      "streams": [
+        "https://c0c65b821b3542c3a4dca92702f59944.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BabySharkTV/playlist.m3u8"
+      ]
+    },
+    "languages": [],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "kJrXloIeM5KZgw",
     "name": "Bialogardzka Telewizja Kablowa",
     "sources": {
@@ -78,22 +117,6 @@
       ]
     },
     "languages": [
-      "pol"
-    ],
-    "country": "pl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "vifXiIDfcyAksy",
-    "name": "BTB Info",
-    "sources": {
-      "streams": [
-        "https://panel.btb.j00r.us/memfs/928cfb64-fed7-4c27-9937-f5ad72d9d73c.m3u8",
-        "https://emisja2.btb.j00r.us/iptv/session/4/hls.m3u8"
-      ]
-    },
-    "languages": [
-      "eng",
       "pol"
     ],
     "country": "pl",
@@ -123,20 +146,6 @@
     },
     "languages": [
       "pol"
-    ],
-    "country": "pl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "lSTW1dzY0A0GTW",
-    "name": "Cartoon Classics FAST",
-    "sources": {
-      "streams": [
-        "https://daiconnect.com/live/hls/tvup/rk-cartoonclassics/578f4b7eb725168349ec0af81b21d388/index.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
     ],
     "country": "pl",
     "isGeoBlocked": false
@@ -312,20 +321,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "jzFKU5qfcCYERI",
-    "name": "NewsWorld FAST",
-    "sources": {
-      "streams": [
-        "https://amg01076-lightning-amg01076c5-rakuten-us-1788.playouts.now.amagi.tv/playlist/amg01076-lightning-newsworld-rakutenus/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "pl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "lgqzeQFxqCN8jW",
     "name": "NewTV",
     "sources": {
@@ -337,6 +332,30 @@
     "languages": [
       "pol"
     ],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "XZczg4azCqaOYB",
+    "name": "NOW 70s",
+    "sources": {
+      "streams": [
+        "https://lightning-now70s-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lightning-now70s-rakuten/CDN/playlist.m3u8"
+      ]
+    },
+    "languages": [],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "tZAzacl9CIrPEy",
+    "name": "NOW 80s",
+    "sources": {
+      "streams": [
+        "https://lightning-now80s-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lightning-now80s-rakuten/CDN/playlist.m3u8"
+      ]
+    },
+    "languages": [],
     "country": "pl",
     "isGeoBlocked": false
   },
@@ -357,6 +376,18 @@
     "isGeoBlocked": true
   },
   {
+    "nanoid": "0tIHesuXZ4Kajr",
+    "name": "NOW Rock",
+    "sources": {
+      "streams": [
+        "https://lightning-now90s-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lightning-now90s-rakuten/CDN/playlist.m3u8"
+      ]
+    },
+    "languages": [],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "HCuXiJRBY0QrpX",
     "name": "Puls 2",
     "sources": {
@@ -367,6 +398,18 @@
     "languages": [
       "pol"
     ],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "z9orLEtumAwQoS",
+    "name": "Qello Concerts by Stingray",
+    "sources": {
+      "streams": [
+        "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883052"
+      ]
+    },
+    "languages": [],
     "country": "pl",
     "isGeoBlocked": false
   },
@@ -469,6 +512,54 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "AUxowfXDEcV8md",
+    "name": "Stingray Greatest Hits",
+    "sources": {
+      "streams": [
+        "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883053"
+      ]
+    },
+    "languages": [],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "VyYM4FyimdIPD4",
+    "name": "Stingray Hitlist",
+    "sources": {
+      "streams": [
+        "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883054"
+      ]
+    },
+    "languages": [],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "A1T3tixQdrLLm1",
+    "name": "Stingray Naturescape",
+    "sources": {
+      "streams": [
+        "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883056"
+      ]
+    },
+    "languages": [],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "HAqpZorYfDzctU",
+    "name": "Stingray Remember the 80s",
+    "sources": {
+      "streams": [
+        "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883071"
+      ]
+    },
+    "languages": [],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "EQEGSe3LlRCr52",
     "name": "Szlagierowo: Biesiadne Radio",
     "sources": {
@@ -515,7 +606,7 @@
     "name": "Telewizja Gorzów",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/qOHwIKZzfFM"
+        "https://www.youtube-nocookie.com/embed/kimZMZ9y7Bw"
       ]
     },
     "languages": [
@@ -627,7 +718,7 @@
     "name": "Telewizja wPolsce",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/loS6SQnNnqg"
+        "https://www.youtube-nocookie.com/embed/kQ61Qr_nfVU"
       ]
     },
     "languages": [
@@ -655,12 +746,24 @@
     "name": "Telewizja Żary",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/snsBp91Augg"
+        "https://www.youtube-nocookie.com/embed/XN1Zj0JWZCk"
       ]
     },
     "languages": [
       "pol"
     ],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "bSTRLuL5KZysi9",
+    "name": "The Design Network",
+    "sources": {
+      "streams": [
+        "https://amg00441-amg00441c1-rakuten-us-6050.playouts.now.amagi.tv/playlist/amg00441-thedesignnetworkllcfast-thedesignnetwork-rakutenus/playlist.m3u8"
+      ]
+    },
+    "languages": [],
     "country": "pl",
     "isGeoBlocked": false
   },
@@ -751,20 +854,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Se7x9HGaZbNY8X",
-    "name": "TVP Info",
-    "sources": {
-      "streams": [
-        "https://dash4.antik.sk/live/test_tvp_info/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "pol"
-    ],
-    "country": "pl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "fzamcn1eHJ76Mf",
     "name": "TVP Polonia",
     "sources": {
@@ -788,6 +877,20 @@
     },
     "languages": [
       "eng"
+    ],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "8fkva1GfM7tM4w",
+    "name": "TVSUDECKA PL",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/HC4lvJqJkoI"
+      ]
+    },
+    "languages": [
+      "pol"
     ],
     "country": "pl",
     "isGeoBlocked": false
@@ -831,6 +934,18 @@
     "languages": [
       "eng"
     ],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "79fVSOpRIHlsyq",
+    "name": "World of Freesports",
+    "sources": {
+      "streams": [
+        "https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8"
+      ]
+    },
+    "languages": [],
     "country": "pl",
     "isGeoBlocked": false
   },

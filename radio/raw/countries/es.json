@@ -3094,6 +3094,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "Zo28eGJofhWZfj",
+    "name": "Hits 1",
+    "sources": {
+      "streams": [
+        "https://radio12.pro-fhi.net:19018/currentsong/"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "QNrr7ngbInRjHa",
     "name": "Hits 1 Ibiza",
     "sources": {
@@ -7125,6 +7139,20 @@
     },
     "languages": [
       "nld",
+      "spa"
+    ],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "kChlvEHwprY1rx",
+    "name": "Radio Mi Amigo International",
+    "sources": {
+      "streams": [
+        "https://lion.radioca.st/listen.pls/"
+      ]
+    },
+    "languages": [
       "spa"
     ],
     "country": "es",

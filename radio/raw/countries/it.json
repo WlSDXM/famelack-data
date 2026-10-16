@@ -263,6 +263,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "QEfQrA6orisjJY",
+    "name": "Art of Music",
+    "sources": {
+      "streams": [
+        "https://artofmusic.radioca.st/stream/1/"
+      ]
+    },
+    "languages": [
+      "eng",
+      "ita"
+    ],
+    "country": "it",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "j3OUXmj0a7gwER",
     "name": "Astarbene",
     "sources": {
@@ -282,6 +297,20 @@
     "sources": {
       "streams": [
         "https://stream.rcs.revma.com/sv2hu8qqv6bwv"
+      ]
+    },
+    "languages": [
+      "ita"
+    ],
+    "country": "it",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "LiL3t9XGenr57u",
+    "name": "BreakSpace.FM",
+    "sources": {
+      "streams": [
+        "https://breakspace.fm/listen.pls/"
       ]
     },
     "languages": [
@@ -427,6 +456,21 @@
       ]
     },
     "languages": [
+      "ita"
+    ],
+    "country": "it",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "bRmtAw7NTTv7kC",
+    "name": "Dee Jay Full Time Radio",
+    "sources": {
+      "streams": [
+        "https://djft.radioca.st/listen.pls/"
+      ]
+    },
+    "languages": [
+      "eng",
       "ita"
     ],
     "country": "it",
@@ -859,6 +903,7 @@
     "name": "FSNews Radio",
     "sources": {
       "streams": [
+        "https://fsnews128.newradio.it/listen.pls/",
         "https://fsnews128.newradio.it/stream"
       ]
     },
@@ -2011,6 +2056,20 @@
     "sources": {
       "streams": [
         "https://icy.unitedradio.it/R101YourLove.aac"
+      ]
+    },
+    "languages": [
+      "ita"
+    ],
+    "country": "it",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "qc6iklhZb1YK0o",
+    "name": "Radio 7 Asiago",
+    "sources": {
+      "streams": [
+        "https://ssl1.azotosolutions.com:1094/listen.pls/"
       ]
     },
     "languages": [
@@ -6745,7 +6804,8 @@
     "name": "Radio Studio Nord",
     "sources": {
       "streams": [
-        "https://nr6.newradio.it:19104/;"
+        "https://nr6.newradio.it:19104/;",
+        "https://nr6.newradio.it:19104/listen.pls/"
       ]
     },
     "languages": [
@@ -6759,7 +6819,22 @@
     "name": "Radio Studio Nord 80 Energia",
     "sources": {
       "streams": [
+        "https://nr6.newradio.it:19393/listen.pls/",
         "https://nr6.newradio.it:19393/;"
+      ]
+    },
+    "languages": [
+      "ita"
+    ],
+    "country": "it",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "mgAX0dJJOhnS6K",
+    "name": "Radio Studio Nord 90",
+    "sources": {
+      "streams": [
+        "https://nr6.newradio.it:19409/listen.pls/"
       ]
     },
     "languages": [
@@ -6773,7 +6848,8 @@
     "name": "Radio Studio Nord Rock Cafè",
     "sources": {
       "streams": [
-        "https://nr6.newradio.it:19363/;"
+        "https://nr6.newradio.it:19363/;",
+        "https://nr6.newradio.it:19363/listen.pls/"
       ]
     },
     "languages": [

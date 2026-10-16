@@ -252,6 +252,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "0uD03WNGMb1x0e",
+    "name": "Fude Rd, Xihu Township",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/yWM6Z9yb3Ug"
+      ]
+    },
+    "languages": [],
+    "country": "tw",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "q8LMfP3utIXa4u",
     "name": "Gaomei Wetland",
     "sources": {
@@ -436,7 +448,7 @@
     "name": "Kaohsiung Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/2CisFqtcg7o"
+        "https://www.youtube-nocookie.com/embed/m6i7rbFMxWk"
       ]
     },
     "languages": [],
@@ -557,18 +569,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/QBgn5a3k_T0"
-      ]
-    },
-    "languages": [],
-    "country": "tw",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "VhGABIfHELlmgX",
-    "name": "Nanfang'ao Jinan Temple Main Gate",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/nFd4550YnEQ"
       ]
     },
     "languages": [],
@@ -1024,7 +1024,7 @@
     "name": "Tamsui Ferry Pier",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/6TYQs_K3uvM"
+        "https://www.youtube-nocookie.com/embed/wamdV7N__Zg"
       ]
     },
     "languages": [],

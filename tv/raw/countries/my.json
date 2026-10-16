@@ -31,6 +31,20 @@
     "isGeoBlocked": true
   },
   {
+    "nanoid": "1h3TgefRfR3aSM",
+    "name": "Maah TV",
+    "sources": {
+      "streams": [
+        "https://hls.maahtv.live/hls/stream.m3u8"
+      ]
+    },
+    "languages": [
+      "fas"
+    ],
+    "country": "my",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "ZOTkMMGUEIitr9",
     "name": "Molek TV",
     "sources": {

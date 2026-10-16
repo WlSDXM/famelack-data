@@ -241,6 +241,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "bSzu62LTLaEBOZ",
+    "name": "Kalesijski.ba",
+    "sources": {
+      "streams": [
+        "https://stream1.srvnetplus.com:18102/listen.pls/"
+      ]
+    },
+    "languages": [
+      "bos"
+    ],
+    "country": "ba",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "UZzy9shvznSDWc",
     "name": "Kontakt Radio",
     "sources": {

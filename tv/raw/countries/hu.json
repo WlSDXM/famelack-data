@@ -28,6 +28,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "IAuzwfi3ffN5aQ",
+    "name": "Alfold TV",
+    "sources": {
+      "streams": [
+        "https://cloudfront41.lexanetwork.com:1344/relay01/livestream006.sdp/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "hun"
+    ],
+    "country": "hu",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "ZTvTYkAMkRF41z",
     "name": "Bajai TV",
     "sources": {
@@ -84,12 +98,15 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Iq86nUR80ay3qv",
+    "nanoid": "F8W8ZnEWFqrysS",
     "name": "Euronews Hungarian",
     "sources": {
       "streams": [
         "https://cdn-euronews.akamaized.net/live/eds/euronews-hu/25075/index.m3u8",
         "https://budapest-cache-1.antik.sk/live/test_euronews_hu_1200_atk/playlist.m3u8"
+      ],
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/jAn7L2Kt32U"
       ]
     },
     "languages": [

@@ -70,18 +70,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "3R0EfOPIBQ61UY",
-    "name": "Africanews",
-    "sources": {
-      "streams": [
-        "https://c3c275b999764df8a2dd55ffe2996818.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6576/bitok/eyJzdGlkIjoiOTU0NDAyODQtOTU0My00Yzc2LThmZjQtNDRhY2YwYmQxYTYwIiwibWt0IjoicGwiLCJjaCI6NjYwNiwicHRmIjo1fQ==/26036/africanews-en.m3u8"
-      ]
-    },
-    "languages": [],
-    "country": "fr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Gmuy6SpwOogHJz",
     "name": "Africanews English",
     "sources": {
@@ -142,20 +130,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "MV7j6dHcEiwyvr",
-    "name": "Antenne Reunion",
-    "sources": {
-      "streams": [
-        "https://live-antenne-reunion.zeop.tv/live/c3eds/antreunihd/hls_fta/antreunihd.m3u8?location=ZEOP01"
-      ]
-    },
-    "languages": [
-      "fra"
-    ],
-    "country": "fr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "VMCmeG0FLaHmw1",
     "name": "arte",
     "sources": {
@@ -174,7 +148,7 @@
     "name": "B SMART",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/dXzvSHeVj_w"
+        "https://www.youtube-nocookie.com/embed/MtfXGs0n23g"
       ]
     },
     "languages": [
@@ -558,39 +532,14 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "DmuSIeE8brywZA",
-    "name": "Euronews en Español",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/O9mOtdZ-nSk"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "fr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "32YXpnKvxn9M0K",
-    "name": "Euronews Français",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/NiRIbKwAejk"
-      ]
-    },
-    "languages": [
-      "fra"
-    ],
-    "country": "fr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "x5fWrafkMRpDW8",
     "name": "Euronews Greek",
     "sources": {
       "streams": [
         "https://cdn-euronews.akamaized.net/live/eds/euronews-el/25068/index.m3u8"
+      ],
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/uWIhV9gQClg"
       ]
     },
     "languages": [
@@ -600,36 +549,22 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "xrA5xgdFcK6f66",
-    "name": "Euronews Italiano",
+    "nanoid": "s8LUnwDl6mY0ZL",
+    "name": "Euronews Persian",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/pUcmpyynASM"
+        "https://www.youtube-nocookie.com/embed/A8eHIQdTpvQ"
       ]
     },
     "languages": [
-      "ita"
-    ],
-    "country": "fr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "JoqV25BvXTYp5C",
-    "name": "Euronews Magyar",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/jAn7L2Kt32U"
-      ]
-    },
-    "languages": [
-      "hun"
+      "fas"
     ],
     "country": "fr",
     "isGeoBlocked": false
   },
   {
     "nanoid": "ebFbvTKN8YcHpc",
-    "name": "Euronews Polski",
+    "name": "Euronews Polish",
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/fG7PjdiKaBY"
@@ -642,71 +577,18 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "iGI0lZtaC0qVgq",
-    "name": "Euronews Português",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/XuZAl-ZPEcA"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "fr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "edGsS9KBSmSMSh",
-    "name": "Euronews Română",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/IW7WOYL9zm8"
-      ]
-    },
-    "languages": [
-      "ron"
-    ],
-    "country": "fr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "xsUZSvBNUz3yiT",
     "name": "Euronews Spanish",
     "sources": {
       "streams": [
         "https://cdn-euronews.akamaized.net/live/eds/euronews-es/25053/index.m3u8"
+      ],
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/O9mOtdZ-nSk"
       ]
     },
     "languages": [
       "spa"
-    ],
-    "country": "fr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "SPix7L8rl3SPVz",
-    "name": "Euronews Ελληνικά",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/uWIhV9gQClg"
-      ]
-    },
-    "languages": [
-      "ell"
-    ],
-    "country": "fr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "xjpmQDsZSRhSoo",
-    "name": "Euronews Русский",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/lwYzwdBiaho"
-      ]
-    },
-    "languages": [
-      "rus"
     ],
     "country": "fr",
     "isGeoBlocked": false
@@ -858,6 +740,25 @@
     },
     "languages": [
       "eng"
+    ],
+    "country": "fr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "EGsBwKlWFjIivG",
+    "name": "France 24 Español",
+    "sources": {
+      "streams": [
+        "https://a-cdn.klowdtv.com/live2/france24sp_720p/playlist.m3u8",
+        "https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_2300.m3u8",
+        "https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_500.m3u8"
+      ],
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/zTv0hCakAhg"
+      ]
+    },
+    "languages": [
+      "spa"
     ],
     "country": "fr",
     "isGeoBlocked": false
@@ -1244,8 +1145,7 @@
     "name": "MyZen TV",
     "sources": {
       "streams": [
-        "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8",
-        "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-samsungen-samsungit/playlist.m3u8"
+        "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1274,20 +1174,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "B7oUuXqbWsfBhP",
-    "name": "OGGY",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/1R8767hzeLk"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "fr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "UV2K3Inr6FlKvf",
     "name": "P2M TV",
     "sources": {
@@ -1302,11 +1188,67 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "EXvskphL1UFUHC",
-    "name": "Persiana Junior",
+    "nanoid": "Qa2TkurpEPA9Uh",
+    "name": "Persiana China",
     "sources": {
       "streams": [
-        "https://junhls.persiana.live/hls/stream.m3u8"
+        "https://chinahls.persiana.live/hls/stream.m3u8"
+      ]
+    },
+    "languages": [
+      "fas"
+    ],
+    "country": "fr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "oZsxPrEzz4rgql",
+    "name": "Persiana Music",
+    "sources": {
+      "streams": [
+        "https://musichls.persiana.live/hls/stream.m3u8"
+      ]
+    },
+    "languages": [
+      "fas"
+    ],
+    "country": "fr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "NzExxCJopnh2RO",
+    "name": "Persiana Podcast",
+    "sources": {
+      "streams": [
+        "https://podhls.persiana.live/hls/stream.m3u8"
+      ]
+    },
+    "languages": [
+      "fas"
+    ],
+    "country": "fr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "YtM6FfHGe1sGb4",
+    "name": "Persiana SetMix",
+    "sources": {
+      "streams": [
+        "https://setmixhls.persiana.live/hls/stream.m3u8"
+      ]
+    },
+    "languages": [
+      "fas"
+    ],
+    "country": "fr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "5PUbpFZXErBkAG",
+    "name": "Persiana Voyage",
+    "sources": {
+      "streams": [
+        "https://voyhls.persiana.live/hls/stream.m3u8"
       ]
     },
     "languages": [
@@ -1320,7 +1262,7 @@
     "name": "Pocoyo",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/lXZJD1-o1SI"
+        "https://www.youtube-nocookie.com/embed/FlAabAyvVWg"
       ]
     },
     "languages": [
@@ -1400,11 +1342,11 @@
     "isGeoBlocked": true
   },
   {
-    "nanoid": "9PtGiKgkdbGXR3",
-    "name": "Rakuten TV Films Action",
+    "nanoid": "3UupDDnNXaxwcR",
+    "name": "Rakuten TV Films Comédie",
     "sources": {
       "streams": [
-        "https://01ac9352fbfa4204998783d41f9b1a2e.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6068/master.m3u8"
+        "https://cc9f70371e7144e7acae4de8b5832d7a.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6183/master.m3u8"
       ]
     },
     "languages": [],
@@ -1412,11 +1354,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "4ukW3AXj5x20Zs",
-    "name": "Rakuten TV Films Famille",
+    "nanoid": "iLva87P8XGqzZK",
+    "name": "Rakuten TV Films Romance",
     "sources": {
       "streams": [
-        "https://b3088e48baab418a9a95dc8110a1b736.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6206/master.m3u8"
+        "https://9affb6144c4c4cdca25d58908cb55a64.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6195/master.m3u8"
       ]
     },
     "languages": [],
@@ -1424,11 +1366,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "AIirayhr6r6kA6",
-    "name": "Rakuten TV Films Thriller",
+    "nanoid": "phice2bsfFKDLs",
+    "name": "Rakuten TV Séries Crime",
     "sources": {
       "streams": [
-        "https://thriller-rakuten-tv-fr.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6479/master.m3u8"
+        "https://1ffd245e4d30495e9b006502a155479e.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6214/master.m3u8"
       ]
     },
     "languages": [],
@@ -1453,6 +1395,34 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/OAoLGxrlBPY"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "fr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "pNZPBmJUBxUNCk",
+    "name": "RMC Decouverte",
+    "sources": {
+      "streams": [
+        "https://d16zzycxcd0m0r.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-hixvx5kymecr9/RMC_Decouverte_FR.m3u8"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "fr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "oHu9taZgmNAnls",
+    "name": "RMC Life",
+    "sources": {
+      "streams": [
+        "https://d3dcdjv6dx07iz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-eaaww2dyp3iih/RMC_Life_FR.m3u8"
       ]
     },
     "languages": [
@@ -1496,6 +1466,20 @@
     "sources": {
       "streams": [
         "https://rakutenaa-zylo-screamin-rakuten-p11ej.amagi.tv/playlist/rakutenAA-zylo-screamin-rakuten/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "fr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "e2QKMdwgfK4Vxo",
+    "name": "Simon Super Lapin",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/zUV96NgJVUM"
       ]
     },
     "languages": [
@@ -1569,7 +1553,7 @@
     "name": "SQOOL TV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/fvdwGoCynIQ"
+        "https://www.youtube-nocookie.com/embed/N16IEGx4BNk"
       ]
     },
     "languages": [
@@ -1588,6 +1572,20 @@
     },
     "languages": [
       "fra"
+    ],
+    "country": "fr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "LPPYKgzOw76HUC",
+    "name": "The '80s Guy: Darksynth FM",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/IosjNLdAlnk"
+      ]
+    },
+    "languages": [
+      "eng"
     ],
     "country": "fr",
     "isGeoBlocked": false
@@ -1955,20 +1953,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "inGlxKW8S2QpWf",
-    "name": "TV3V",
-    "sources": {
-      "streams": [
-        "https://tv3v.live-kd.com/live/tv3v/livestream/index.m3u8"
-      ]
-    },
-    "languages": [
-      "fra"
-    ],
-    "country": "fr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "DCLTXwqB1NQz9D",
     "name": "TV5Monde Asia",
     "sources": {
@@ -2037,20 +2021,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "4iaZvz0DlRN5Ya",
-    "name": "ViaMatele",
-    "sources": {
-      "streams": [
-        "https://5dd226f8f01e8.streamlock.net/via-matele-live/matelelive_1080/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "fra"
-    ],
-    "country": "fr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Vfl8587p5Rbn09",
     "name": "viaTelePaese",
     "sources": {
@@ -2113,20 +2083,6 @@
     },
     "languages": [
       "eng",
-      "fra"
-    ],
-    "country": "fr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "kz1QrxbntvR2ns",
-    "name": "Zig & Sharko",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/0flIX2kXnZs"
-      ]
-    },
-    "languages": [
       "fra"
     ],
     "country": "fr",

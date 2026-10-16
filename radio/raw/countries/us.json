@@ -1312,6 +1312,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "b3hCCrzpKseWy8",
+    "name": "91.5 Jazz & More",
+    "sources": {
+      "streams": [
+        "https://kunv.oit.unlv.edu/stream/1/"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "15h5U3YAhe5jEL",
     "name": "91.5 WBEZ",
     "sources": {
@@ -25401,6 +25415,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "jXkvjp4rIflZf6",
+    "name": "J-Pop Powerplay Kawaii",
+    "sources": {
+      "streams": [
+        "https://kathy.torontocast.com:3060/stream/1/"
+      ]
+    },
+    "languages": [
+      "jpn"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "tZtztEJMvEj1fk",
     "name": "JA Irie Radio",
     "sources": {
@@ -26913,6 +26941,20 @@
     "sources": {
       "streams": [
         "https://playerservices.streamtheworld.com/api/livestream-redirect/KAXEFM.mp3"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "jWxYNoO809iegd",
+    "name": "KAZA 1290 AM",
+    "sources": {
+      "streams": [
+        "https://kazafm.radioca.st/listen.pls/"
       ]
     },
     "languages": [
@@ -37349,6 +37391,20 @@
     "sources": {
       "streams": [
         "https://nhpr.streamguys1.com/classical"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "BB3g99L0rcbzZW",
+    "name": "Niagara Radio",
+    "sources": {
+      "streams": [
+        "https://radio4.tikilive.com/stream/42110/"
       ]
     },
     "languages": [
@@ -50720,6 +50776,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "1LrcWrbSwbtzDE",
+    "name": "WAPJ Torrington Community Radio",
+    "sources": {
+      "streams": [
+        "https://stream2724.egihosting.com:8002/listen.pls/"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "SYJ1ENbx3LMsKr",
     "name": "Warm 98.5",
     "sources": {
@@ -52720,6 +52790,18 @@
     "sources": {
       "streams": [
         "https://ad-oom-cmg.streamguys1.com/day957/day957-sgplayer-aac"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "2zTHqMix3AyDlK",
+    "name": "Whippet Radio",
+    "sources": {
+      "streams": [
+        "https://whippetradio.radioca.st/listen.pls/"
       ]
     },
     "languages": [],

@@ -87,26 +87,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "0obNTrGtjRCK4a",
-    "name": "K24",
-    "sources": {
-      "streams": [
-        "https://livecdn.premiumfree.tv/afxpstr/K24Backup/index.m3u8",
-        "https://livecdn.premiumfree.tv/afxpstr/K24Backup/tracks-v1a1/mono.ts.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "ke",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "g5kwz1y6chFW7A",
     "name": "K24TV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/NJMsd8dPUVU"
+        "https://www.youtube-nocookie.com/embed/xY7WoqLQbXg"
       ]
     },
     "languages": [
@@ -163,11 +148,25 @@
     "name": "NTV Kenya",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Lo3aXPh_0tY"
+        "https://www.youtube-nocookie.com/embed/PpcDyA3KOeg"
       ]
     },
     "languages": [
       "eng"
+    ],
+    "country": "ke",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "QNrQ5ZEGUQREnZ",
+    "name": "Ramogi TV",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/XBHeGGcvtwo"
+      ]
+    },
+    "languages": [
+      "luo"
     ],
     "country": "ke",
     "isGeoBlocked": false

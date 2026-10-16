@@ -98,18 +98,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "LWXmSBrEE8B8bT",
-    "name": "Myzen Fit",
-    "sources": {
-      "streams": [
-        "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-samsungen-samsungse/playlist.m3u8"
-      ]
-    },
-    "languages": [],
-    "country": "se",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "nC1I40bq1XGfc7",
     "name": "Real Crime",
     "sources": {

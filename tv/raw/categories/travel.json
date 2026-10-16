@@ -218,35 +218,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "50fISDUbgXCYss",
-    "name": "Living Asia Channel",
-    "sources": {
-      "streams": [
-        "https://cdn.vegasplus.us/vegas/lac/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "eng",
-      "tgl"
-    ],
-    "country": "ph",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "goNrMuzefDwskd",
-    "name": "Maldives TV",
-    "sources": {
-      "streams": [
-        "https://lana.psm.mv/live/mtv.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "mv",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "IG7KP9uOfXV0Z7",
     "name": "OEPM TV",
     "sources": {
@@ -314,6 +285,20 @@
       "deu"
     ],
     "country": "it",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "5PUbpFZXErBkAG",
+    "name": "Persiana Voyage",
+    "sources": {
+      "streams": [
+        "https://voyhls.persiana.live/hls/stream.m3u8"
+      ]
+    },
+    "languages": [
+      "fas"
+    ],
+    "country": "fr",
     "isGeoBlocked": false
   },
   {

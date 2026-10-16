@@ -534,6 +534,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "ICiZqzGRWK5pVU",
+    "name": "Radio Buenaza",
+    "sources": {
+      "streams": [
+        "https://sp.dattavolt.com:7033/listen.pls/"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "pe",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "JM4V5luvsIDyAO",
     "name": "Radio CaDis",
     "sources": {
@@ -1083,8 +1097,9 @@
     "name": "Radio Huancayo",
     "sources": {
       "streams": [
-        "https://cloud9.ldwebstudios.net:7000/;",
-        "https://cloud9.ldwebstudios.net:7000/stream"
+        "https://cloud9.ldwebstudios.net:7000/listen.pls/",
+        "https://cloud9.ldwebstudios.net:7000/stream",
+        "https://cloud9.ldwebstudios.net:7000/;"
       ]
     },
     "languages": [
@@ -1112,7 +1127,8 @@
     "name": "Radio JHC",
     "sources": {
       "streams": [
-        "https://sp.oyotunstream.com:10979/;"
+        "https://sp.oyotunstream.com:10979/;",
+        "https://sp.oyotunstream.com:10979/listen.pls/"
       ]
     },
     "languages": [
@@ -1127,6 +1143,20 @@
     "sources": {
       "streams": [
         "https://tupanel.info:2000/stream/radiojr/stream"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "pe",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "h04aMQvHHACl2z",
+    "name": "Radio Karibeña",
+    "sources": {
+      "streams": [
+        "https://karibena.egostreaming.pe/radio/6898b6e52d9e088a6de159/"
       ]
     },
     "languages": [
@@ -1169,6 +1199,20 @@
     "sources": {
       "streams": [
         "https://radio101.mjwebexperts.com/8006/stream"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "pe",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "fLPCZUvdRpBL05",
+    "name": "Radio La Kalle",
+    "sources": {
+      "streams": [
+        "https://lakalle.egostreaming.pe/radio/a7b9c3e4567f8d0123456789/"
       ]
     },
     "languages": [
@@ -1295,6 +1339,20 @@
     "sources": {
       "streams": [
         "https://cloud9.ldwebstudios.net:7011/;"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "pe",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "4om9FM1WI98Q1C",
+    "name": "Radio La Voz de Oyotún",
+    "sources": {
+      "streams": [
+        "https://sp.oyotunstream.com:10966/listen.pls/"
       ]
     },
     "languages": [
@@ -1538,6 +1596,20 @@
     "sources": {
       "streams": [
         "https://stream.zeno.fm/4q99spjike0uv"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "pe",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "xXKL5U4AUVESha",
+    "name": "Radio OK 88.3 FM",
+    "sources": {
+      "streams": [
+        "https://dattavolt.com/8090/listen.pls/"
       ]
     },
     "languages": [
@@ -2201,6 +2273,20 @@
     "sources": {
       "streams": [
         "https://tupanel.info:8780/stream"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "pe",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "laPySi6dfOc0si",
+    "name": "Z Rock & Pop",
+    "sources": {
+      "streams": [
+        "https://radioz.egostreaming.pe/radio/3e4f6a1b2c3d4e567890abcd/"
       ]
     },
     "languages": [

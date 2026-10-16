@@ -85,6 +85,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "FjdLgphriWW4if",
+    "name": "Al-Kawthar TV",
+    "sources": {
+      "streams": [
+        "https://cdn.faina.ir/faina-stream/tenants/3887e2cb-0766-419d-ac8a-6303ca2f09dc/videos/8582ec07-fbdf-4ef1-9ccd-346fcd76aac2/hls/master.m3u8"
+      ]
+    },
+    "languages": [],
+    "country": "ir",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "uo4r4AgtnKSByN",
     "name": "Arax TV",
     "sources": {
@@ -293,6 +305,62 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "HW3VPKyt6mpMGb",
+    "name": "iFilm 2",
+    "sources": {
+      "streams": [
+        "https://live.presstv.co.uk/hls/ifilm2.m3u8"
+      ]
+    },
+    "languages": [
+      "fas"
+    ],
+    "country": "ir",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "FThMLWk2PqeTHZ",
+    "name": "iFilm Arabic",
+    "sources": {
+      "streams": [
+        "https://live.presstv.co.uk/hls/ifilmar.m3u8"
+      ]
+    },
+    "languages": [
+      "ara"
+    ],
+    "country": "ir",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ELGjlFyEtfJ19e",
+    "name": "iFilm English",
+    "sources": {
+      "streams": [
+        "https://live.presstv.co.uk/hls/ifilmen.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ir",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "g3vaXRs7MKcSOW",
+    "name": "iFilm Persian",
+    "sources": {
+      "streams": [
+        "https://live.presstv.co.uk/hls/ifilmfa.m3u8"
+      ]
+    },
+    "languages": [
+      "fas"
+    ],
+    "country": "ir",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "bO295QluU8GdVM",
     "name": "Iran National Revolution TV",
     "sources": {
@@ -307,11 +375,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "1h3TgefRfR3aSM",
-    "name": "Maah TV",
+    "nanoid": "wVzuh54yEPRj8p",
+    "name": "Kalemeh TV",
     "sources": {
       "streams": [
-        "https://hls.maahtv.live/hls/stream.m3u8"
+        "https://klmhls.wns.live/hls/stream.m3u8"
       ]
     },
     "languages": [
@@ -560,6 +628,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "P7HHjZISueKx11",
+    "name": "Persiana Reality",
+    "sources": {
+      "streams": [
+        "https://realhls.persiana.live/hls/stream.m3u8"
+      ]
+    },
+    "languages": [
+      "fas"
+    ],
+    "country": "ir",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "pyxg7WrXUVQ7nj",
     "name": "Persiana Series",
     "sources": {
@@ -588,21 +670,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "pGp24DvGOMHEiZ",
-    "name": "Persiana Turkiye",
-    "sources": {
-      "streams": [
-        "https://turkhls.persiana.live/hls/stream.m3u8"
-      ]
-    },
-    "languages": [
-      "fas",
-      "tur"
-    ],
-    "country": "ir",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "bfGRrhHvnRbjYO",
     "name": "Persiana Vibe",
     "sources": {
@@ -612,6 +679,48 @@
     },
     "languages": [
       "fas"
+    ],
+    "country": "ir",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "DvG28Rm3jPp3cl",
+    "name": "Pooya TV",
+    "sources": {
+      "streams": [
+        "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-iribpooya/tracks-v1a1/mono.m3u8"
+      ]
+    },
+    "languages": [
+      "fas"
+    ],
+    "country": "ir",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Z0k0qEYEWnFz7F",
+    "name": "Press TV",
+    "sources": {
+      "streams": [
+        "https://live.presstv.co.uk/hls/presstv.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ir",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "gm4xqddWtJR9Ev",
+    "name": "Press TV French",
+    "sources": {
+      "streams": [
+        "https://live4.presstv.ir/live/smil:presstvfr.smil/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "fra"
     ],
     "country": "ir",
     "isGeoBlocked": false
@@ -710,6 +819,20 @@
     },
     "languages": [
       "fas"
+    ],
+    "country": "ir",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "hukeqny6nOwPuT",
+    "name": "WiseHumanTv",
+    "sources": {
+      "streams": [
+        "https://avr.host247.net/live/WiseHumanTv/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "far"
     ],
     "country": "ir",
     "isGeoBlocked": false

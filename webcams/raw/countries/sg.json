@@ -16,7 +16,7 @@
     "name": "Port of Singapore",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/lWmUyvtU-uI"
+        "https://www.youtube-nocookie.com/embed/Z7hAgOjTlbo"
       ]
     },
     "languages": [],
@@ -28,7 +28,31 @@
     "name": "Singapore CBD & Shipping",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/0mCvOcMW82w"
+        "https://www.youtube-nocookie.com/embed/w9PFn2beeFw"
+      ]
+    },
+    "languages": [],
+    "country": "sg",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "in1IyL9AY0r6yk",
+    "name": "Singapore Downtown",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/rQ3VvxadJeo"
+      ]
+    },
+    "languages": [],
+    "country": "sg",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "xEkCcL3VCIK5ba",
+    "name": "Singapore Seaside",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/uDdGLd5ML8s"
       ]
     },
     "languages": [],

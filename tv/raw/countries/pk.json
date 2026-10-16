@@ -35,7 +35,7 @@
         "https://cdn4.mjunoon.tv:8087/streamtest/146M/chunks.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/WMjysQB83xQ"
+        "https://www.youtube-nocookie.com/embed/5xKpzEqeLcs"
       ]
     },
     "languages": [
@@ -49,7 +49,7 @@
     "name": "92 News HD",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/B3X6wZi5PX4"
+        "https://www.youtube-nocookie.com/embed/kZK2BiSdC68"
       ]
     },
     "languages": [
@@ -131,7 +131,7 @@
     "name": "Awaz Tv News",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/JezrwkuIAZo"
+        "https://www.youtube-nocookie.com/embed/umsp8e94BKw"
       ]
     },
     "languages": [
@@ -216,7 +216,7 @@
     "name": "City 21 News",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/DGfzBm_g8XI"
+        "https://www.youtube-nocookie.com/embed/gj-pRUrnDc0"
       ]
     },
     "languages": [
@@ -230,7 +230,7 @@
     "name": "City 41",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/JYLnd29NRZw"
+        "https://www.youtube-nocookie.com/embed/pyJxbfzBDi8"
       ]
     },
     "languages": [
@@ -245,7 +245,7 @@
     "name": "City 42",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/PlNNmH0lyzE"
+        "https://www.youtube-nocookie.com/embed/vN3ZP64tDQY"
       ]
     },
     "languages": [
@@ -599,21 +599,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "OkQ04QjkopDSrH",
-    "name": "Jeremiah TV",
-    "sources": {
-      "streams": [
-        "https://x.streamablecloud.com/stream/hls/jeremiahtv/index.m3u8",
-        "https://x.streamablecloud.com/stream/hls/jeremiahtv/1_2/index.m3u8"
-      ]
-    },
-    "languages": [
-      "urd"
-    ],
-    "country": "pk",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "keDnMBwKoBk3De",
     "name": "JooMusic",
     "sources": {
@@ -647,7 +632,7 @@
     "name": "Kids Land: Urdu",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/6IJ5r0T6kpE"
+        "https://www.youtube-nocookie.com/embed/UQXnDd_8a4w"
       ]
     },
     "languages": [
@@ -690,7 +675,7 @@
     "name": "KTN NEWS TV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/1OvkxxsuE2I"
+        "https://www.youtube-nocookie.com/embed/0nUsLmp7nxY"
       ]
     },
     "languages": [
@@ -863,20 +848,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "SgbKpnUMcIpXd6",
-    "name": "Peace TV Urdu",
-    "sources": {
-      "streams": [
-        "https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8"
-      ]
-    },
-    "languages": [
-      "urd"
-    ],
-    "country": "pk",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "zzEkf9yZmrhUaA",
     "name": "PK Sports",
     "sources": {
@@ -924,7 +895,7 @@
     "name": "PTV News",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/F4cMRGdy8Tw"
+        "https://www.youtube-nocookie.com/embed/r6T5qL_tr0U"
       ]
     },
     "languages": [
@@ -983,7 +954,7 @@
     "name": "Sindh TV News",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/lKmqN9HDShA"
+        "https://www.youtube-nocookie.com/embed/Xrk4NuRoErU"
       ]
     },
     "languages": [

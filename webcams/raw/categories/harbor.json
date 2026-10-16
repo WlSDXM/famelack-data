@@ -12,18 +12,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "gWJpvrwv2nPg9C",
-    "name": "Acapulco Bay Skyline Panorama",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/wTpTtzT4j0Q"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Feeq4HU6W3QT1n",
     "name": "Acapulco Marina & Santa Lucía Bay",
     "sources": {
@@ -64,7 +52,7 @@
     "name": "Akita Port",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4_NvXFvjfKM"
+        "https://www.youtube-nocookie.com/embed/RgZuZ9HSQ_M"
       ]
     },
     "languages": [],
@@ -408,18 +396,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "X4l4KAHzeF7CI2",
-    "name": "Batsi Port, Island of Andros",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/aUXegBLod7E"
-      ]
-    },
-    "languages": [],
-    "country": "gr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "1zg66RBLdUhPfw",
     "name": "Bembridge Harbour",
     "sources": {
@@ -537,18 +513,6 @@
     },
     "languages": [],
     "country": "no",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "CQavCvvfcL38ev",
-    "name": "Bol Seafront",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/tRy1SknIrvc"
-      ]
-    },
-    "languages": [],
-    "country": "hr",
     "isGeoBlocked": false
   },
   {
@@ -849,18 +813,6 @@
     },
     "languages": [],
     "country": "nl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "psrL6ra16AfRKg",
-    "name": "Caniçal Harbour & Coastal Panorama",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/mUk5IYIfdOc"
-      ]
-    },
-    "languages": [],
-    "country": "pt",
     "isGeoBlocked": false
   },
   {
@@ -1272,18 +1224,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "j67snPxGoOgP5u",
-    "name": "Dauphin Island Sea Lab Bay View",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Kckw310hYgA"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "IFcAPjQBZRHUGE",
     "name": "DCMM South Waterway",
     "sources": {
@@ -1324,7 +1264,7 @@
     "name": "Delta Yacht",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/csl-8xORtlY"
+        "https://www.youtube-nocookie.com/embed/yd4I5B2nVys"
       ]
     },
     "languages": [],
@@ -1336,7 +1276,7 @@
     "name": "Desembocadura Río Maipo",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/fBVJIU9Fd1Q"
+        "https://www.youtube-nocookie.com/embed/1U1hxY0kyPE"
       ]
     },
     "languages": [],
@@ -1353,18 +1293,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "7Zz0JEk1wIwtfU",
-    "name": "Djúpivogur Harbour",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/eAm6iAB1pQQ"
-      ]
-    },
-    "languages": [],
-    "country": "is",
     "isGeoBlocked": false
   },
   {
@@ -1588,7 +1516,7 @@
     "name": "Dunedin Otago Harbour",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/x4RqZpXMMsI"
+        "https://www.youtube-nocookie.com/embed/X2gal0q328o"
       ]
     },
     "languages": [],
@@ -1612,7 +1540,7 @@
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/c27A-gBSaN4"
+        "https://www.youtube-nocookie.com/embed/ZusPMAk84jQ"
       ]
     },
     "languages": [],
@@ -1636,7 +1564,7 @@
     "name": "East Pass",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/7DvoYut6Dz4"
+        "https://www.youtube-nocookie.com/embed/Yh65ABXLjE0"
       ]
     },
     "languages": [],
@@ -1912,7 +1840,7 @@
     "name": "Galveston Ship Channel from The Emerald",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/knukcgripNQ"
+        "https://www.youtube-nocookie.com/embed/goeCBDBJZ1E"
       ]
     },
     "languages": [],
@@ -2104,7 +2032,7 @@
     "name": "Hakodate Station Streetcar & City View",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/wG3nr37RwCs"
+        "https://www.youtube-nocookie.com/embed/AsmL4dRdXrA"
       ]
     },
     "languages": [],
@@ -2344,7 +2272,7 @@
     "name": "Hong Kong Skyline",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Fwr8lBTaBtE"
+        "https://www.youtube-nocookie.com/embed/Z8NTLkEFZjg"
       ]
     },
     "languages": [],
@@ -2656,7 +2584,7 @@
     "name": "KJD BUM Žusterna",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/SFAybnT6Elo"
+        "https://www.youtube-nocookie.com/embed/e-bHddwseMg"
       ]
     },
     "languages": [],
@@ -2668,7 +2596,7 @@
     "name": "Klimno Port, Krk",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/lU3FjFJ5e2c"
+        "https://www.youtube-nocookie.com/embed/jHlPK0-jgxk"
       ]
     },
     "languages": [],
@@ -2776,7 +2704,7 @@
     "name": "La Concha Beach, San Sebastián",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Qw7aeUZpLTM"
+        "https://www.youtube-nocookie.com/embed/N1leboi8ePI"
       ]
     },
     "languages": [],
@@ -2841,18 +2769,6 @@
     },
     "languages": [],
     "country": "tc",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "p0e9rutLm6CERi",
-    "name": "Legendary Marina, Destin",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/_9VkcK5vHgY"
-      ]
-    },
-    "languages": [],
-    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -2988,18 +2904,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ZvWVjCAcGktPms",
-    "name": "Lulworth Cove on Jurassic Coast",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/mGlsYdJk5r8"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "B7Yq7kCyrEAnMJ",
     "name": "Lyme Regis Harbour & The Cobb",
     "sources": {
@@ -3089,18 +2993,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/lty-_xS_xWA"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "SFSLsWs9R4HtyC",
-    "name": "Manteo Waterfront Marina",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ZDiFe7c1ovQ"
       ]
     },
     "languages": [],
@@ -3220,7 +3112,7 @@
     "name": "Mejillones",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/hHA-j1eAAbs"
+        "https://www.youtube-nocookie.com/embed/a_k6npTBncw"
       ]
     },
     "languages": [],
@@ -3592,7 +3484,7 @@
     "name": "Nicosia Sailing Club",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/TtePjPKq2q0"
+        "https://www.youtube-nocookie.com/embed/tsTPw-cS-84"
       ]
     },
     "languages": [],
@@ -3628,7 +3520,7 @@
     "name": "Njivice Sea View",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/iH3XsQdvvBc"
+        "https://www.youtube-nocookie.com/embed/hcJCCWhQKQU"
       ]
     },
     "languages": [],
@@ -3820,7 +3712,7 @@
     "name": "Parry Sound Town Dock",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/n8B0r2LVnGM"
+        "https://www.youtube-nocookie.com/embed/5kI6FTPyw9A"
       ]
     },
     "languages": [],
@@ -4096,7 +3988,7 @@
     "name": "Port of IJmuiden",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Aq_EJRxTEdg"
+        "https://www.youtube-nocookie.com/embed/gqLcgUWIU3I"
       ]
     },
     "languages": [],
@@ -4132,7 +4024,7 @@
     "name": "Port of Machico Marina & Bay",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/MhOuCDXuP_0"
+        "https://www.youtube-nocookie.com/embed/Vr5lrM2oIHo"
       ]
     },
     "languages": [],
@@ -4168,7 +4060,7 @@
     "name": "Port of Singapore",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/lWmUyvtU-uI"
+        "https://www.youtube-nocookie.com/embed/Z7hAgOjTlbo"
       ]
     },
     "languages": [],
@@ -4204,7 +4096,7 @@
     "name": "Port St Laurent du Var",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/m8WaRdmmvtw"
+        "https://www.youtube-nocookie.com/embed/Uj3dffKphl4"
       ]
     },
     "languages": [],
@@ -4317,18 +4209,6 @@
     },
     "languages": [],
     "country": "fi",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "EqSm4YSCm2WlHS",
-    "name": "Quarterdeck & Harbour Town Lighthouse",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/CACUBXW6iUg"
-      ]
-    },
-    "languages": [],
-    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -4452,18 +4332,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "lEABVCCHJE5eos",
-    "name": "Roanoke Marshes Lighthouse",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/vswdnCbYK-M"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "jxzh1Xs4MvklkM",
     "name": "Robbie's Marina Tarpon Feeding Dock",
     "sources": {
@@ -4557,6 +4425,18 @@
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Xtns4FrS3hUNuO",
+    "name": "Ryde Pier",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/kbEN1MlM0PY"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
     "isGeoBlocked": false
   },
   {
@@ -4944,6 +4824,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "QUqVnt7igVnfmu",
+    "name": "Šilo Lučica",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/JC_M7mQqmmw"
+      ]
+    },
+    "languages": [],
+    "country": "hr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "XtW1NEbF50u86U",
     "name": "Silver Bay Marina Harbor",
     "sources": {
@@ -4996,7 +4888,7 @@
     "name": "Skiathos Bay & Port",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/vYRHcCUetr4"
+        "https://www.youtube-nocookie.com/embed/QjyzWBH6Ycc"
       ]
     },
     "languages": [],
@@ -5020,7 +4912,7 @@
     "name": "Smith Island Bayside Inn",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/vMKMwEFHb_g"
+        "https://www.youtube-nocookie.com/embed/vNzKSCE4O7g"
       ]
     },
     "languages": [],
@@ -5032,7 +4924,7 @@
     "name": "Smith Island County Dock",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/i24_RM_PlMg"
+        "https://www.youtube-nocookie.com/embed/XoRzErGZEBw"
       ]
     },
     "languages": [],
@@ -5044,7 +4936,7 @@
     "name": "Smith Island Goat Island View",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/xGdPWeDqeD0"
+        "https://www.youtube-nocookie.com/embed/Pk7ZzvmOzao"
       ]
     },
     "languages": [],
@@ -5056,7 +4948,7 @@
     "name": "Smith Island Sunset",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/hqEKXjqSLF4"
+        "https://www.youtube-nocookie.com/embed/zM9i09KTbqo"
       ]
     },
     "languages": [],
@@ -5284,7 +5176,7 @@
     "name": "St. John's Harbour",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/QowL9_N022o"
+        "https://www.youtube-nocookie.com/embed/mWWVOAhZfXY"
       ]
     },
     "languages": [],
@@ -5464,7 +5356,7 @@
     "name": "Tamsui Ferry Pier",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/6TYQs_K3uvM"
+        "https://www.youtube-nocookie.com/embed/wamdV7N__Zg"
       ]
     },
     "languages": [],
@@ -5808,35 +5700,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "OXm9Yy0PmDdEGr",
-    "name": "Vágur Southeast",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/EHaOI3U5M_s"
-      ]
-    },
-    "languages": [],
-    "country": "fo",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "hGZ4YZJYEOnJwF",
-    "name": "Vágur Town & Vágsfjørður",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/otu_D2_TiLM"
-      ]
-    },
-    "languages": [],
-    "country": "fo",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "3gC5LAxVuRiBnu",
     "name": "Valdez South Boat Harbor & Marina",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/wWIPAq1J6Xs"
+        "https://www.youtube-nocookie.com/embed/JsgsCLKnwB8"
       ]
     },
     "languages": [],
@@ -6088,7 +5956,7 @@
     "name": "Vlissingen Walcheren",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ntvPUNOOtxU"
+        "https://www.youtube-nocookie.com/embed/QL9kmPJutow"
       ]
     },
     "languages": [],
@@ -6124,7 +5992,7 @@
     "name": "Warrior, Portsmouth Harbour",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/N9KCrI_-Zv0"
+        "https://www.youtube-nocookie.com/embed/RVssQaFXeNI"
       ]
     },
     "languages": [],
@@ -6292,7 +6160,7 @@
     "name": "Winnisquam Marine Gas Dock",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/PkIHflXjtkg"
+        "https://www.youtube-nocookie.com/embed/SAv-i7SNu9E"
       ]
     },
     "languages": [],
@@ -6328,7 +6196,7 @@
     "name": "Winnisquam Marine, Lake Winnisquam",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/PSHMTUb7y8E"
+        "https://www.youtube-nocookie.com/embed/bn8NTchtDy0"
       ]
     },
     "languages": [],
@@ -6400,19 +6268,7 @@
     "name": "Yokohama Port",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/FbdUMW7321M"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "0VqlqCS9l5N5oH",
-    "name": "Yokosuka Anjindai Tokyo Bay View",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ob4ctpHiK58"
+        "https://www.youtube-nocookie.com/embed/QQ82q7huU3g"
       ]
     },
     "languages": [],

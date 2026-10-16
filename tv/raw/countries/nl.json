@@ -326,6 +326,22 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "CRZbysFo83yVVC",
+    "name": "INFAST",
+    "sources": {
+      "streams": [
+        "https://amg00861-amg00861c5-firetv-us-4727.playouts.now.amagi.tv/playlist.m3u8",
+        "https://amg00861-terncloud-amg00861c5-cineverse-us-963.playouts.now.amagi.tv/playlist/amg00861-terninternationalfast-lifestyleushd-cineverseus/playlist.m3u8",
+        "https://insighttv-samsung-canada.amagi.tv/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "nl",
+    "isGeoBlocked": true
+  },
+  {
     "nanoid": "YJ0VLCpIyYcZ5V",
     "name": "InTrouble",
     "sources": {
@@ -333,6 +349,22 @@
         "https://amg00861-amg00861c6-rlaxx-uk-3951.playouts.now.amagi.tv/playlist.m3u8",
         "https://amg00861-amg00861c6-stirr-us-8229.playouts.now.amagi.tv/playlist.m3u8",
         "https://amg00861-terncloud-amg00861c6-cineverse-us-964.playouts.now.amagi.tv/playlist/amg00861-terninternationalfast-introublehd-cineverseus/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "nl",
+    "isGeoBlocked": true
+  },
+  {
+    "nanoid": "FlqGAqnBqpvJeH",
+    "name": "INWILD",
+    "sources": {
+      "streams": [
+        "https://amg00861-amg00861c7-firetv-us-4725.playouts.now.amagi.tv/playlist.m3u8",
+        "https://amg00861-amg00861c7-stirr-us-8227.playouts.now.amagi.tv/playlist.m3u8",
+        "https://amg00861-terninternation-inwild-samsungau-3qrga.amagi.tv/playlist/amg00861-terninternation-inwild-samsungau/playlist.m3u8"
       ]
     },
     "languages": [
@@ -497,18 +529,6 @@
     ],
     "country": "nl",
     "isGeoBlocked": false
-  },
-  {
-    "nanoid": "NTVSvKBJVIIEgI",
-    "name": "MYZen Fit",
-    "sources": {
-      "streams": [
-        "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-samsungen-samsungnl/playlist.m3u8"
-      ]
-    },
-    "languages": [],
-    "country": "nl",
-    "isGeoBlocked": true
   },
   {
     "nanoid": "cz0NSemk409jgG",
@@ -1444,20 +1464,6 @@
     },
     "languages": [
       "eng"
-    ],
-    "country": "nl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "T6K1OzxVu2js0L",
-    "name": "ZFM Zoetermeer TV",
-    "sources": {
-      "streams": [
-        "https://zfmzoetermeer.nl/live/master.m3u8"
-      ]
-    },
-    "languages": [
-      "nld"
     ],
     "country": "nl",
     "isGeoBlocked": false

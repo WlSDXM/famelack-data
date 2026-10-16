@@ -1069,8 +1069,8 @@
     "name": "ByteFM",
     "sources": {
       "streams": [
-        "https://uplink.byte.fm/bytefm-mainhq/mp3-192/",
         "https://bytefm.cast.addradio.de/bytefm/main/high/stream",
+        "https://uplink.byte.fm/bytefm-mainhq/mp3-192/",
         "https://uplink.byte.fm/bytefm-main/mp3-128/"
       ]
     },

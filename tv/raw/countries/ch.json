@@ -114,20 +114,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "kNkzKA2MNou9IN",
-    "name": "Espansione TV",
-    "sources": {
-      "streams": [
-        "https://b53136fc0d724da78cac7754d601393d.msvdn.net/live/S13070333/lgUidxJCmpO3/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "ita"
-    ],
-    "country": "ch",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "y9fcNWUvgSqvX9",
     "name": "Immaculata TV",
     "sources": {
@@ -151,35 +137,6 @@
     },
     "languages": [
       "fra"
-    ],
-    "country": "ch",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "xYgLb0tc6pAHED",
-    "name": "More Than Sports TV",
-    "sources": {
-      "streams": [
-        "https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "deu"
-    ],
-    "country": "ch",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "ZUrwxBDVVmyicG",
-    "name": "NDR Fernsehen International",
-    "sources": {
-      "streams": [
-        "https://ndrint.akamaized.net/hls/live/2020766/ndr_int/index.m3u8",
-        "https://dash3.antik.sk/live/test_ndr_tizen/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "deu"
     ],
     "country": "ch",
     "isGeoBlocked": false
@@ -241,20 +198,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "GkcwPCezd4sFP5",
-    "name": "Telenova",
-    "sources": {
-      "streams": [
-        "https://64b16f23efbee.streamlock.net/telenova/telenova/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "ita"
-    ],
-    "country": "ch",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "OeC5ZVzNRndtBe",
     "name": "TeleTicino",
     "sources": {
@@ -264,6 +207,20 @@
     },
     "languages": [
       "ita"
+    ],
+    "country": "ch",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "zi0G4CpWbSYUlF",
+    "name": "WaterBear",
+    "sources": {
+      "streams": [
+        "https://amg01415-waterbearnetwor-waterbear-samsunguk-1h0y8.amagi.tv/playlist/amg01415-waterbearnetwor-waterbear-samsunguk/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
     ],
     "country": "ch",
     "isGeoBlocked": false

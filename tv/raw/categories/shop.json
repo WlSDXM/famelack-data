@@ -4,7 +4,7 @@
     "name": "AAC Television",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/iQDSxvqYioE"
+        "https://www.youtube-nocookie.com/embed/hQ84iLiqemI"
       ]
     },
     "languages": [
@@ -53,20 +53,6 @@
       "eng"
     ],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "vFuB4amnCAnzu2",
-    "name": "Crafter's TV",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/XW7H6VlYu74"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "uk",
     "isGeoBlocked": false
   },
   {
@@ -158,7 +144,7 @@
     "name": "Gem Shopping",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/OMQSvAbXcBk"
+        "https://www.youtube-nocookie.com/embed/bQl5dCYFEGU"
       ]
     },
     "languages": [
@@ -498,7 +484,7 @@
         "https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/hHrJB5xMQ7g"
+        "https://www.youtube-nocookie.com/embed/YO54qTdz6QI"
       ]
     },
     "languages": [
@@ -512,8 +498,7 @@
     "name": "KaufBei TV",
     "sources": {
       "streams": [
-        "https://elephant.t62a.com/hls/8103/index.m3u8",
-        "https://api.alpaca.t62a.com/hls/9103/index.m3u8"
+        "https://elephant.t62a.com/hls/8103/index.m3u8"
       ]
     },
     "languages": [
@@ -547,7 +532,7 @@
     "languages": [
       "vie"
     ],
-    "country": "vn",
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -1002,7 +987,7 @@
     "name": "SHOP CH Thailand",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/pTB4Cv0jbY4"
+        "https://www.youtube-nocookie.com/embed/0kc6T-urfH8"
       ]
     },
     "languages": [
@@ -1166,7 +1151,7 @@
         "https://tvsnhlslivetest.akamaized.net/hls/live/2034711/TVSN-MSL4/master.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/PwQgJcyoYV8"
+        "https://www.youtube-nocookie.com/embed/TRPsdqft2ks"
       ]
     },
     "languages": [

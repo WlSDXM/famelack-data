@@ -3129,6 +3129,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "IiNyFl72zzMiv5",
+    "name": "Calm Radio - Early 60's",
+    "sources": {
+      "streams": [
+        "https://streams.calmradio.com:16128/stream/1/"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "WrUqvxzFSbwIpB",
     "name": "Calm Radio - Early Baroque",
     "sources": {
@@ -3529,6 +3543,20 @@
     "sources": {
       "streams": [
         "https://streams.calmradio.com:11428/stream"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "4Z8xlEDLxnj635",
+    "name": "Calm Radio - Zen",
+    "sources": {
+      "streams": [
+        "https://streams.calmradio.com:14028/stream/1/"
       ]
     },
     "languages": [
@@ -8667,6 +8695,20 @@
     "sources": {
       "streams": [
         "https://corus.leanstream.co/CFIQAM-MP3"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "DgEHxlThaUtTdW",
+    "name": "Glory To Jesus",
+    "sources": {
+      "streams": [
+        "https://ca.publicssl.net/8006/"
       ]
     },
     "languages": [

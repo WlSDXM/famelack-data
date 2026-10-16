@@ -790,6 +790,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "7R8YBdAVlzYkfk",
+    "name": "Unión Radio",
+    "sources": {
+      "streams": [
+        "https://unionradio.radioca.st/stream/1/"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "gt",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "4oPYWvpGXcCkzD",
     "name": "YoSi Sideral 90.1",
     "sources": {

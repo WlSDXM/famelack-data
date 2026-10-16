@@ -40,7 +40,7 @@
     "name": "Acuña-Del Rio International Bridge 1",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/VRVfg6n_ucQ"
+        "https://www.youtube-nocookie.com/embed/FEDUQGoX63k"
       ]
     },
     "languages": [],
@@ -124,7 +124,7 @@
     "name": "Akita Station Square",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/EWxzTkgNIBw"
+        "https://www.youtube-nocookie.com/embed/V4sgelp4rZk"
       ]
     },
     "languages": [],
@@ -237,6 +237,18 @@
     },
     "languages": [],
     "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "F8cqWB3tn497ka",
+    "name": "Avenida Centenario",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/e1lHlPMunbE"
+      ]
+    },
+    "languages": [],
+    "country": "cl",
     "isGeoBlocked": false
   },
   {
@@ -364,7 +376,7 @@
     "name": "Biloxi Beach Boulevard",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Rea_GEBq1hU"
+        "https://www.youtube-nocookie.com/embed/eSbyPyM9dec"
       ]
     },
     "languages": [],
@@ -436,7 +448,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/MgOztc7E2XI"
+        "https://www.youtube-nocookie.com/embed/AI1MkBTNjnQ"
       ]
     },
     "languages": [],
@@ -448,7 +460,7 @@
     "name": "Chuo Expressway Uenohara Interchange",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/slOgQojt8w8"
+        "https://www.youtube-nocookie.com/embed/0ZWLeCUwSOU"
       ]
     },
     "languages": [],
@@ -648,6 +660,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "LNw5kuurO55gbR",
+    "name": "Downtown Santa Cruz",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/wJsOXySDNos"
+      ]
+    },
+    "languages": [],
+    "country": "jm",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "0Pz6VFY2tRZTbA",
     "name": "Dragon Bridge West Intersection",
     "sources": {
@@ -664,7 +688,7 @@
     "name": "Dundas Railroad Tracks",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/mdJ0fP4LtB8"
+        "https://www.youtube-nocookie.com/embed/fGPdEkXy6-Q"
       ]
     },
     "languages": [],
@@ -868,7 +892,7 @@
     "name": "George Washington Bridge",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/g2y2_t9yDoM"
+        "https://www.youtube-nocookie.com/embed/BJItr9ul6Do"
       ]
     },
     "languages": [],
@@ -916,7 +940,7 @@
     "name": "Goio-Ên & Uruguay River",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/j16t8EZBO0o"
+        "https://www.youtube-nocookie.com/embed/bgxSiYYQ0w0"
       ]
     },
     "languages": [],
@@ -1336,7 +1360,7 @@
     "name": "Khao Lak",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/jicF3UYfNus"
+        "https://www.youtube-nocookie.com/embed/eD_HcUSjmj4"
       ]
     },
     "languages": [],
@@ -1360,7 +1384,7 @@
     "name": "Kohoku Parking Area on the Tomei Expressway",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/pawJL_P0_VI"
+        "https://www.youtube-nocookie.com/embed/oQ8EGJWu1iA"
       ]
     },
     "languages": [],
@@ -1397,18 +1421,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/UdOAbyzxKto"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "4NqcWqp9dGyQaA",
-    "name": "Kusatsu Onsen Traffic and Parking Status",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/23OZYCMWKyY"
       ]
     },
     "languages": [],
@@ -1908,18 +1920,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "FhcN86FGXkJRPs",
-    "name": "Northern Bus Station & Yerevan-Sevan highway",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/qL4T3FRQbps"
-      ]
-    },
-    "languages": [],
-    "country": "am",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "ZQYNEVn4LVrwqC",
     "name": "Northport Pier Ferry Dock",
     "sources": {
@@ -1944,11 +1944,23 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "J19EayZL2NW0wc",
+    "name": "Ocho Rios Town Centre",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/L0ApNbBxexE"
+      ]
+    },
+    "languages": [],
+    "country": "jm",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "k55Fax1rJW0pBw",
     "name": "Ōjana Intersection on Route 58",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/qcXFhfNRe5g"
+        "https://www.youtube-nocookie.com/embed/ymP60Z2RRDM"
       ]
     },
     "languages": [],
@@ -1980,18 +1992,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "xpSoc8OigEC5Gd",
-    "name": "Omsk City",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/bu6XkQUmdJ8"
-      ]
-    },
-    "languages": [],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "7tZZawg6dQxm0F",
     "name": "Orange Beach Alabama",
     "sources": {
@@ -2008,7 +2008,7 @@
     "name": "Osaka Umeda",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/tZOnHOpBJfg"
+        "https://www.youtube-nocookie.com/embed/VIOGBiNei3w"
       ]
     },
     "languages": [],
@@ -2212,7 +2212,7 @@
     "name": "Piedras Negras Cam 1",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/NrTMSwYrsgg"
+        "https://www.youtube-nocookie.com/embed/T2xZtNipxmE"
       ]
     },
     "languages": [],
@@ -2301,18 +2301,6 @@
     },
     "languages": [],
     "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "eZeEt1k5L21IkX",
-    "name": "Queen Elizabeth Avenue North",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/49wqllNaCu0"
-      ]
-    },
-    "languages": [],
-    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -2416,7 +2404,7 @@
     "name": "Roundabout, Derry",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/sLpJHEoJO1s"
+        "https://www.youtube-nocookie.com/embed/9XBOVvgc4G4"
       ]
     },
     "languages": [],
@@ -2457,18 +2445,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "yvt2zYzxtlB99y",
-    "name": "Route 134 Shonan",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/DgIbfgFdGVI"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
     "isGeoBlocked": false
   },
   {
@@ -2544,18 +2520,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "7BowHn9iP1zOac",
-    "name": "Saint Petersburg Prospekt Prosveshcheniya",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/DO-MKoqOm1w"
-      ]
-    },
-    "languages": [],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "whdK74ub9u7gVW",
     "name": "Saint-Malo Port",
     "sources": {
@@ -2609,18 +2573,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/bYd6ChdCblg"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "EMMuyQ6ai56K2e",
-    "name": "San Marcos Traffic: Hopkins Street at Charles Austin Drive",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/qRYILPnsOns"
       ]
     },
     "languages": [],
@@ -2716,7 +2668,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/8WTiMNmxYHc"
+        "https://www.youtube-nocookie.com/embed/u0ReKZ7BYHU"
       ]
     },
     "languages": [],
@@ -3009,18 +2961,6 @@
     },
     "languages": [],
     "country": "th",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "8j30pSSRh2PGfH",
-    "name": "Sukiyabashi Crossing, Ginza",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/1Xm5bjdI5hU"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
     "isGeoBlocked": false
   },
   {
@@ -3376,7 +3316,7 @@
     "name": "Victoria Full Service Car Wash",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/onJln3Ypa9k"
+        "https://www.youtube-nocookie.com/embed/ymSE_p1_oXs"
       ]
     },
     "languages": [],
@@ -3532,7 +3472,7 @@
     "name": "Westmorland Street Bridge",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/l8jm11rhbCg"
+        "https://www.youtube-nocookie.com/embed/5yPimLNdWvg"
       ]
     },
     "languages": [],

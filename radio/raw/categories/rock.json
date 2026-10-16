@@ -911,6 +911,118 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "a9BHA9CkLWkioq",
+    "name": "24-7 Classic Rock",
+    "sources": {
+      "streams": [
+        "https://antares.dribbcast.com/proxy/s8180/stream"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "HjHWQIewCHYbqt",
+    "name": "24-7 Dance Rock",
+    "sources": {
+      "streams": [
+        "https://antares.dribbcast.com/proxy/s8290/stream"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "DnIeBVnNmEMRqc",
+    "name": "24-7 Just Rock",
+    "sources": {
+      "streams": [
+        "https://antares.dribbcast.com/proxy/s8170/stream"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "q5dZY63QPrU30a",
+    "name": "24-7 Legends",
+    "sources": {
+      "streams": [
+        "https://antares.dribbcast.com/proxy/s8160/stream"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Y7RMmJJrS35yLZ",
+    "name": "24-7 Psychedelic Rock",
+    "sources": {
+      "streams": [
+        "https://antares.dribbcast.com/proxy/s8150/stream"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "8LVvTs4y6CWYYD",
+    "name": "24-7 Punk",
+    "sources": {
+      "streams": [
+        "https://antares.dribbcast.com/proxy/s8310/stream"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "8wzksONWMkHFJP",
+    "name": "24-7 Rock 'n' Roll",
+    "sources": {
+      "streams": [
+        "https://antares.dribbcast.com/proxy/s8130/stream"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "TJ49xra66IA4Lp",
+    "name": "24-7 Women Rock",
+    "sources": {
+      "streams": [
+        "https://antares.dribbcast.com/proxy/s8340/stream"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "kK9IxiC3pmjMUI",
     "name": "40ROCK Radio",
     "sources": {
@@ -8826,8 +8938,8 @@
     "name": "ByteFM",
     "sources": {
       "streams": [
-        "https://uplink.byte.fm/bytefm-mainhq/mp3-192/",
         "https://bytefm.cast.addradio.de/bytefm/main/high/stream",
+        "https://uplink.byte.fm/bytefm-mainhq/mp3-192/",
         "https://uplink.byte.fm/bytefm-main/mp3-128/"
       ]
     },
@@ -8865,6 +8977,20 @@
       "eng"
     ],
     "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "hmFuAsdoqsq5rk",
+    "name": "Cadena Cool 103.7 FM",
+    "sources": {
+      "streams": [
+        "https://radios.solumedia.com:10805/stream/1/"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ar",
     "isGeoBlocked": false
   },
   {
@@ -8914,7 +9040,8 @@
     "name": "Campus Rádió FM90",
     "sources": {
       "streams": [
-        "https://stream.fm90.hu:8000/;"
+        "https://stream.fm90.hu:8000/;",
+        "https://stream.fm90.hu:8000/stream/1/"
       ]
     },
     "languages": [
@@ -19586,6 +19713,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "Gp599Wt8ENxt02",
+    "name": "KAOS Sound - Pink Floyd Radio",
+    "sources": {
+      "streams": [
+        "https://s3.myradiostream.com/:59506/stream/1/"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Thn45UFYuQX1e2",
     "name": "KB Rock",
     "sources": {
@@ -19987,6 +20128,20 @@
       "nld"
     ],
     "country": "nl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ogLApteFN32KVu",
+    "name": "Kiss FM 91.9",
+    "sources": {
+      "streams": [
+        "https://cloud1.cdnseguro.com:9758/listen.pls/"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
     "isGeoBlocked": false
   },
   {
@@ -25295,7 +25450,8 @@
     "name": "Pearl FM",
     "sources": {
       "streams": [
-        "https://dc4.serverse.com/proxy/pearlfm/stream"
+        "https://dc4.serverse.com/proxy/pearlfm/stream",
+        "https://dc4.serverse.com/proxy/pearlfm/stream/1/"
       ]
     },
     "languages": [
@@ -29166,7 +29322,8 @@
     "name": "Radio Britannia",
     "sources": {
       "streams": [
-        "https://01.solumedia.com.ar:8472/stream/;"
+        "https://01.solumedia.com.ar:8472/stream/;",
+        "https://01.solumedia.com.ar:8472/stream/listen.pls/"
       ]
     },
     "languages": [
@@ -32318,6 +32475,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "xXKL5U4AUVESha",
+    "name": "Radio OK 88.3 FM",
+    "sources": {
+      "streams": [
+        "https://dattavolt.com/8090/listen.pls/"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "pe",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "D89JNyVJ9cvWEW",
     "name": "Radio OKJ",
     "sources": {
@@ -34022,7 +34193,22 @@
     "name": "Radio Studio Nord 80 Energia",
     "sources": {
       "streams": [
+        "https://nr6.newradio.it:19393/listen.pls/",
         "https://nr6.newradio.it:19393/;"
+      ]
+    },
+    "languages": [
+      "ita"
+    ],
+    "country": "it",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "mgAX0dJJOhnS6K",
+    "name": "Radio Studio Nord 90",
+    "sources": {
+      "streams": [
+        "https://nr6.newradio.it:19409/listen.pls/"
       ]
     },
     "languages": [
@@ -34036,7 +34222,8 @@
     "name": "Radio Studio Nord Rock Cafè",
     "sources": {
       "streams": [
-        "https://nr6.newradio.it:19363/;"
+        "https://nr6.newradio.it:19363/;",
+        "https://nr6.newradio.it:19363/listen.pls/"
       ]
     },
     "languages": [
@@ -41895,7 +42082,8 @@
     "name": "The Generator FM",
     "sources": {
       "streams": [
-        "https://s1.myradiostream.com/:14268/;"
+        "https://s1.myradiostream.com/:14268/;",
+        "https://s1.myradiostream.com/14268/stream/1/"
       ]
     },
     "languages": [
@@ -44273,6 +44461,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "2zTHqMix3AyDlK",
+    "name": "Whippet Radio",
+    "sources": {
+      "streams": [
+        "https://whippetradio.radioca.st/listen.pls/"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "7vlSI1Vi6DZ5Tf",
     "name": "WHOU 100.1 FM",
     "sources": {
@@ -45520,6 +45720,20 @@
       "fin"
     ],
     "country": "fi",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "laPySi6dfOc0si",
+    "name": "Z Rock & Pop",
+    "sources": {
+      "streams": [
+        "https://radioz.egostreaming.pe/radio/3e4f6a1b2c3d4e567890abcd/"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "pe",
     "isGeoBlocked": false
   },
   {

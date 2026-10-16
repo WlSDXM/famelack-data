@@ -1,5 +1,20 @@
 [
   {
+    "nanoid": "fp34BcAXOlbIfX",
+    "name": "¡OPA!",
+    "sources": {
+      "streams": [
+        "https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/playlist.m3u8",
+        "https://5f1af61612fb5.streamlock.net/genteopa/videogenteopa_720p/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cr",
+    "isGeoBlocked": true
+  },
+  {
     "nanoid": "3gZO8yQ0WOkQ8B",
     "name": "88 Stereo",
     "sources": {
@@ -232,20 +247,6 @@
     },
     "languages": [
       "eng",
-      "spa"
-    ],
-    "country": "cr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "XI0tj0hHgDA4kn",
-    "name": "Extra TV 42",
-    "sources": {
-      "streams": [
-        "https://d2n1wzrr0aogf5.cloudfront.net/ts:abr.m3u8"
-      ]
-    },
-    "languages": [
       "spa"
     ],
     "country": "cr",
@@ -520,6 +521,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "FY9JMfvI9sWSMw",
+    "name": "TeleBrunca",
+    "sources": {
+      "streams": [
+        "https://59ef525c24caa.streamlock.net/telebrunca/telebrunca/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "0dNDSI0p6Xtcvm",
     "name": "TeleMas",
     "sources": {
@@ -576,6 +591,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "46bhWZVm1EdjmB",
+    "name": "TV Cartago Digital",
+    "sources": {
+      "streams": [
+        "https://video2.getstreamhosting.com:19360/8110/8110.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "oFBYYfrHTKyW0r",
     "name": "TV Nosara",
     "sources": {
@@ -607,6 +636,20 @@
     "sources": {
       "streams": [
         "https://59ef525c24caa.streamlock.net/tvurbano/tvurbano/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Nc2Y8BrEFeOYAw",
+    "name": "Video Tour Channel",
+    "sources": {
+      "streams": [
+        "https://59ef525c24caa.streamlock.net/videotour/videotour/playlist.m3u8"
       ]
     },
     "languages": [

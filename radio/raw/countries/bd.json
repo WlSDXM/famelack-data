@@ -113,6 +113,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "1cU94CZIMFnSYa",
+    "name": "Radio Sarabela 98.8",
+    "sources": {
+      "streams": [
+        "https://broadcast.energytech.com.bd/stream/1/"
+      ]
+    },
+    "languages": [
+      "ben"
+    ],
+    "country": "bd",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "5Ae6WS6iHFXlrB",
     "name": "Radio Shadhin 92.4",
     "sources": {

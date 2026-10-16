@@ -132,18 +132,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "xpSoc8OigEC5Gd",
-    "name": "Omsk City",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/bu6XkQUmdJ8"
-      ]
-    },
-    "languages": [],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "ajsjceLaxBGz9w",
     "name": "Palace Bridge",
     "sources": {
@@ -168,11 +156,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "vcQfDCN0G90KKE",
-    "name": "Saint Petersburg",
+    "nanoid": "hn3NOt4Nuqs3DO",
+    "name": "Prospekt Prosveshcheniya",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/u6bcfvalxtA"
+        "https://www.youtube-nocookie.com/embed/mLaZkiQfL6Y"
       ]
     },
     "languages": [],
@@ -180,11 +168,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "7BowHn9iP1zOac",
-    "name": "Saint Petersburg Prospekt Prosveshcheniya",
+    "nanoid": "vcQfDCN0G90KKE",
+    "name": "Saint Petersburg",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/DO-MKoqOm1w"
+        "https://www.youtube-nocookie.com/embed/u6bcfvalxtA"
       ]
     },
     "languages": [],

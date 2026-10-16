@@ -4435,6 +4435,7 @@
     "name": "Antena 102.5 FM",
     "sources": {
       "streams": [
+        "https://streamingcwsradio30.com:7093/listen.pls/",
         "https://streamingcwsradio30.com:7093/stream",
         "https://streamingcwsradio30.com:7093/;"
       ]
@@ -13252,6 +13253,7 @@
     "sources": {
       "streams": [
         "https://detektorfm.streamabc.net/detek-detektorfmwort-mp3-256-1425600",
+        "https://detektor.fm/stream/mp3/wort/",
         "https://streams.detektor.fm/wort/aac-128/streams.detektor.fm"
       ]
     },
@@ -14070,6 +14072,7 @@
     "name": "DWIZ 882 AM",
     "sources": {
       "streams": [
+        "https://dwizmanila.radioca.st/listen.pls/",
         "https://dwizmanila.radioca.st/stream"
       ]
     },
@@ -23027,6 +23030,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "jWxYNoO809iegd",
+    "name": "KAZA 1290 AM",
+    "sources": {
+      "streams": [
+        "https://kazafm.radioca.st/listen.pls/"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "CeD3xWIU50WaGU",
     "name": "KBACH 89.5 FM",
     "sources": {
@@ -26572,6 +26589,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "UbLTonfTxAuviQ",
+    "name": "La Patrona 91.1 FM",
+    "sources": {
+      "streams": [
+        "https://streamingcwsradio30.com:7067/listen.pls/"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "3axbJ4G3arE6vB",
     "name": "La Plana Ràdio",
     "sources": {
@@ -26600,6 +26631,20 @@
       "fra"
     ],
     "country": "be",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "kKIvpJTO12wy7W",
+    "name": "La Primera 105.9 FM",
+    "sources": {
+      "streams": [
+        "https://streamingcwsradio30.com:7112/listen.pls/"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
     "isGeoBlocked": false
   },
   {
@@ -28912,8 +28957,9 @@
     "name": "Mexiquense Radio 88.5 FM",
     "sources": {
       "streams": [
-        "https://streamingcwsradio30.com:7049/mexiquense",
-        "https://streamingcwsradio30.com:7049/;"
+        "https://streamingcwsradio30.com:7049/;",
+        "https://streamingcwsradio30.com:7049/listen.pls/",
+        "https://streamingcwsradio30.com:7049/mexiquense"
       ]
     },
     "languages": [
@@ -28927,7 +28973,9 @@
     "name": "Mexiquense Radio 91.7 FM",
     "sources": {
       "streams": [
-        "https://streamingcwsradio30.com:7019/;"
+        "https://streamingcwsradio30.com:7019/;",
+        "https://streamingcwsradio30.com:7019/listen.pls/",
+        "https://streamingcwsradio30.com:7047/listen.pls/"
       ]
     },
     "languages": [
@@ -28941,7 +28989,22 @@
     "name": "Mexiquense Radio 104.5 FM",
     "sources": {
       "streams": [
-        "https://streamingcwsradio30.com:7048/;"
+        "https://streamingcwsradio30.com:7048/;",
+        "https://streamingcwsradio30.com:7048/listen.pls/"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "FfJaQD1TnIpJ6O",
+    "name": "Mexiquense Radio 1080 AM",
+    "sources": {
+      "streams": [
+        "https://streamingcwsradio30.com:7050/listen.pls/"
       ]
     },
     "languages": [
@@ -28955,7 +29018,8 @@
     "name": "Mexiquense Radio 1600 AM",
     "sources": {
       "streams": [
-        "https://streamingcwsradio30.com:7046/;"
+        "https://streamingcwsradio30.com:7046/;",
+        "https://streamingcwsradio30.com:7046/listen.pls/"
       ]
     },
     "languages": [
@@ -34089,6 +34153,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "znzceL03zGEhBz",
+    "name": "Praktoreio FM 104.9",
+    "sources": {
+      "streams": [
+        "https://sh.onweb.gr:7048/listen.pls/"
+      ]
+    },
+    "languages": [
+      "ell"
+    ],
+    "country": "gr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "2hKLKM65YZE0bl",
     "name": "Prayer Tower Radio",
     "sources": {
@@ -35172,7 +35250,8 @@
     "name": "Radiante 91.1 FM",
     "sources": {
       "streams": [
-        "https://streamingcwsradio30.com:7035/;"
+        "https://streamingcwsradio30.com:7035/;",
+        "https://streamingcwsradio30.com:7035/listen.pls/"
       ]
     },
     "languages": [
@@ -35186,7 +35265,8 @@
     "name": "Radiante 98.3 FM",
     "sources": {
       "streams": [
-        "https://streamingcwsradio30.com:7034/;"
+        "https://streamingcwsradio30.com:7034/;",
+        "https://streamingcwsradio30.com:7034/listen.pls/"
       ]
     },
     "languages": [
@@ -37045,7 +37125,8 @@
     "name": "Radio Cadena YSKL 104.1 FM",
     "sources": {
       "streams": [
-        "https://media.dominiocreativo.com:8000/radioyskl"
+        "https://media.dominiocreativo.com:8000/radioyskl",
+        "https://media.dominiocreativo.com:8000/stream/1/"
       ]
     },
     "languages": [
@@ -40936,7 +41017,8 @@
     "name": "Radio JHC",
     "sources": {
       "streams": [
-        "https://sp.oyotunstream.com:10979/;"
+        "https://sp.oyotunstream.com:10979/;",
+        "https://sp.oyotunstream.com:10979/listen.pls/"
       ]
     },
     "languages": [
@@ -42075,7 +42157,8 @@
     "name": "Radio Madera 96.1 FM",
     "sources": {
       "streams": [
-        "https://streamingcwsradio30.com:7113/;"
+        "https://streamingcwsradio30.com:7113/;",
+        "https://streamingcwsradio30.com:7113/listen.pls/"
       ]
     },
     "languages": [
@@ -42124,6 +42207,20 @@
       "hin"
     ],
     "country": "in",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Q5MVW8f0sVxGrO",
+    "name": "Radio Maipú FM",
+    "sources": {
+      "streams": [
+        "https://pragustream.live:8040/stream/1/"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cl",
     "isGeoBlocked": false
   },
   {
@@ -47473,6 +47570,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "fNbLpmEXA7M7ha",
+    "name": "Radio UJAT 107.3 FM",
+    "sources": {
+      "streams": [
+        "https://streamingcwsradio30.com/8212/listen.pls/"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "IglAvQMeKbJ9Ll",
     "name": "Ràdio Ulldecona",
     "sources": {
@@ -51081,6 +51192,7 @@
     "name": "RPN DXKS 1080 Surigao",
     "sources": {
       "streams": [
+        "https://dxks-rpnradio.radioca.st/listen.pls/",
         "https://dxks-rpnradio.radioca.st/stream"
       ]
     },
@@ -58653,6 +58765,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "FH8z29jzeVbrBu",
+    "name": "Vive FM 89.5",
+    "sources": {
+      "streams": [
+        "https://s2.mexside.net/8100/listen.pls/"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "7yOSTavwfkdyaz",
     "name": "Vive FM 93.7",
     "sources": {
@@ -59831,6 +59957,20 @@
       "spa"
     ],
     "country": "pr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "1LrcWrbSwbtzDE",
+    "name": "WAPJ Torrington Community Radio",
+    "sources": {
+      "streams": [
+        "https://stream2724.egihosting.com:8002/listen.pls/"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
     "isGeoBlocked": false
   },
   {

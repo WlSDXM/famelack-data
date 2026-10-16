@@ -305,7 +305,8 @@
     "name": "Jazz Sakura",
     "sources": {
       "streams": [
-        "https://kathy.torontocast.com:3330/;"
+        "https://kathy.torontocast.com:3330/;",
+        "https://kathy.torontocast.com:3330/stream/1/"
       ]
     },
     "languages": [

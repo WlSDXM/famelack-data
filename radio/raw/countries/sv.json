@@ -144,7 +144,8 @@
     "name": "Radio Cadena YSKL 104.1 FM",
     "sources": {
       "streams": [
-        "https://media.dominiocreativo.com:8000/radioyskl"
+        "https://media.dominiocreativo.com:8000/radioyskl",
+        "https://media.dominiocreativo.com:8000/stream/1/"
       ]
     },
     "languages": [

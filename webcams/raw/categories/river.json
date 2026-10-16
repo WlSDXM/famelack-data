@@ -40,7 +40,7 @@
     "name": "Aparecida do Taboado Mania do Peixe",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/wSVcjl0edvM"
+        "https://www.youtube-nocookie.com/embed/Y05Gu085jXk"
       ]
     },
     "languages": [],
@@ -160,7 +160,7 @@
     "name": "Bopparder Hamm",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/zLlwPU3Xtrk"
+        "https://www.youtube-nocookie.com/embed/rTR0fkzM-tI"
       ]
     },
     "languages": [],
@@ -316,7 +316,7 @@
     "name": "Cincinnati Skyline",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/uCbwWg_hr0A"
+        "https://www.youtube-nocookie.com/embed/M3xoKJ0cK00"
       ]
     },
     "languages": [],
@@ -424,7 +424,7 @@
     "name": "Desembocadura Río Maipo",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/fBVJIU9Fd1Q"
+        "https://www.youtube-nocookie.com/embed/1U1hxY0kyPE"
       ]
     },
     "languages": [],
@@ -508,7 +508,7 @@
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/c27A-gBSaN4"
+        "https://www.youtube-nocookie.com/embed/ZusPMAk84jQ"
       ]
     },
     "languages": [],
@@ -640,7 +640,7 @@
     "name": "Goio-Ên & Uruguay River",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/j16t8EZBO0o"
+        "https://www.youtube-nocookie.com/embed/bgxSiYYQ0w0"
       ]
     },
     "languages": [],
@@ -1152,6 +1152,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "KPvHR0TGi8MluC",
+    "name": "Miami River Mouth",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/FHzIIYECzmM"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "sCXVeJcm2mn5jl",
     "name": "Middle Bridge",
     "sources": {
@@ -1524,18 +1536,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "xpSoc8OigEC5Gd",
-    "name": "Omsk City",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/bu6XkQUmdJ8"
-      ]
-    },
-    "languages": [],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "AdsbFpbpN6NuTQ",
     "name": "Osaka Nakanoshima",
     "sources": {
@@ -1545,18 +1545,6 @@
     },
     "languages": [],
     "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "7qO8x7gnfJ9HeV",
-    "name": "Osprey Nest Loch of the Lowes",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/HkQyPFPCJLA"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
     "isGeoBlocked": false
   },
   {
@@ -1624,7 +1612,7 @@
     "name": "Otawara Takatori Bridge River Surveillance",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/bFg0PC_IypY"
+        "https://www.youtube-nocookie.com/embed/2RmWXUoPMKU"
       ]
     },
     "languages": [],
@@ -1768,7 +1756,7 @@
     "name": "Puente Gral Belgrano",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/8KQHToUjndw"
+        "https://www.youtube-nocookie.com/embed/iPKv66eBOs4"
       ]
     },
     "languages": [],
@@ -1809,6 +1797,18 @@
     },
     "languages": [],
     "country": "ch",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "6wfagKOUG7PRLE",
+    "name": "Rhine River Rees",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/MllM80LS7gw"
+      ]
+    },
+    "languages": [],
+    "country": "de",
     "isGeoBlocked": false
   },
   {
@@ -1924,7 +1924,7 @@
     "name": "Saint John River Fredericton",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/_qbHnY633jY"
+        "https://www.youtube-nocookie.com/embed/7TWcVHjxLUo"
       ]
     },
     "languages": [],

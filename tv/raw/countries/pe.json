@@ -98,39 +98,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "0vujAjUQp2jlO3",
-    "name": "ATV",
+    "nanoid": "d4L8PBtWXj8rtD",
+    "name": "AsiriTV",
     "sources": {
       "streams": [
-        "https://d19e55ehz2il4i.cloudfront.net/ts:abr.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "pe",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "6WuGahJ0fZnc1G",
-    "name": "ATV Sur",
-    "sources": {
-      "streams": [
-        "https://dnhmqt6n0lkaq.cloudfront.net/ts:abr.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "pe",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "3vdt32eJcnfcz9",
-    "name": "ATV+",
-    "sources": {
-      "streams": [
-        "https://d26l0c7cli5gzs.cloudfront.net/ts:abr.m3u8"
+        "https://video2.lhdserver.es/asiritv/live.m3u8"
       ]
     },
     "languages": [
@@ -257,7 +229,7 @@
     "name": "Congreso del Perú en Vivo",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4PBOiYxjjcI"
+        "https://www.youtube-nocookie.com/embed/rqAA_XwDPqs"
       ]
     },
     "languages": [
@@ -646,6 +618,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "aUVq0M4bm1GMyx",
+    "name": "Millenium 109 FM",
+    "sources": {
+      "streams": [
+        "https://videoserver.tmcreativos.com:19360/nqvnhujhrx/nqvnhujhrx.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "pe",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "UDdMtzxSFo4KG2",
     "name": "MO Channel",
     "sources": {
@@ -686,11 +672,39 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "waRvUxbKqXuJg8",
+    "name": "Nativa",
+    "sources": {
+      "streams": [
+        "https://oneplay.iptvperu.tv:1936/static/nativa1.stream/chunks.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "pe",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "mi7Zl9xYkTcqpw",
     "name": "Nativa TV Satipo",
     "sources": {
       "streams": [
         "https://7.innovatestream.pe:19360/nativatv/nativatv.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "pe",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "zJfNt7gPSar8fv",
+    "name": "NZK Television",
+    "sources": {
+      "streams": [
+        "https://eu1.servers10.com:8081/8258/index.m3u8"
       ]
     },
     "languages": [
@@ -929,6 +943,7 @@
     "name": "Solar Television",
     "sources": {
       "streams": [
+        "https://live-evg11.tv360.bitel.com.pe/bitel/solartvSRT/playlist.m3u8",
         "https://7.innovatestream.pe:19360/corporacionperiodistica/corporacionperiodistica.m3u8"
       ]
     },
@@ -1109,11 +1124,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "nXrcWfZsttDQtv",
-    "name": "TV MAR",
+    "nanoid": "U0xG42x0mE1GTr",
+    "name": "TV Peruanisima",
     "sources": {
       "streams": [
-        "https://live-evg11.tv360.bitel.com.pe/bitel/tvmarSRT/playlist.m3u8"
+        "https://k20.usastreams.com:8081/tvperuanisima/index.m3u8"
       ]
     },
     "languages": [
@@ -1123,11 +1138,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "U0xG42x0mE1GTr",
-    "name": "TV Peruanisima",
+    "nanoid": "Ha82k7k0qWc0Us",
+    "name": "TV+ Chincha",
     "sources": {
       "streams": [
-        "https://k20.usastreams.com:8081/tvperuanisima/index.m3u8"
+        "https://live-evg11.tv360.bitel.com.pe/bitel/tvchincha/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1193,11 +1208,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "dbLCjbraoPInRW",
-    "name": "Uchu TV",
+    "nanoid": "aYohLShFUh3sGK",
+    "name": "Unicentro TV",
     "sources": {
       "streams": [
-        "https://live-evg11.tv360.bitel.com.pe/bitel/ucayalitvSRT/playlist.m3u8"
+        "https://live-evg11.tv360.bitel.com.pe/bitel/unicentroSRT/playlist.m3u8"
       ]
     },
     "languages": [

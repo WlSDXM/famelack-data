@@ -444,18 +444,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Dw6Pakt8LROpxU",
-    "name": "Popocatépetl Volcano San Matías Tlalancaleca",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/32aJkdXDmwE"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "KCi04Cu1Gx8tmh",
     "name": "Popocatépetl Volcano Seismic and Volcanic Monitoring",
     "sources": {
@@ -568,7 +556,7 @@
     "name": "Semeru Volcano Cone",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Hr1Sv6B-kfM"
+        "https://www.youtube-nocookie.com/embed/csMCgAuB5gc"
       ]
     },
     "languages": [],
@@ -580,7 +568,7 @@
     "name": "Semeru Volcano Watch",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/EYYgrzyqgZM"
+        "https://www.youtube-nocookie.com/embed/DwMEl1sSQdA"
       ]
     },
     "languages": [],
@@ -616,7 +604,7 @@
     "name": "Sundhnúkur Volcano A",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/BgimbZHOICU"
+        "https://www.youtube-nocookie.com/embed/SuOXfvH34nU"
       ]
     },
     "languages": [],
@@ -664,7 +652,7 @@
     "name": "Volcán de Fuego",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/_gTyIHcLhNg"
+        "https://www.youtube-nocookie.com/embed/Zx7Q9xDnrPA"
       ]
     },
     "languages": [],

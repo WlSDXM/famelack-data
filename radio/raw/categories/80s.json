@@ -413,6 +413,34 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "hg7RxPUAqFRpm6",
+    "name": "24-7 Decades",
+    "sources": {
+      "streams": [
+        "https://antares.dribbcast.com/proxy/s8120/stream"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "iCNd1K90HXA8I5",
+    "name": "24-7 The '80s",
+    "sources": {
+      "streams": [
+        "https://antares.dribbcast.com/proxy/s8270/stream"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "8BIQTT70wvNAdg",
     "name": "80's Hits",
     "sources": {
@@ -3239,6 +3267,7 @@
     "name": "Gem Radio New Wave",
     "sources": {
       "streams": [
+        "https://gemradio.radioca.st/stream/1/",
         "https://gemradionw.radioca.st/;stream.nsv"
       ]
     },
@@ -6400,6 +6429,20 @@
     },
     "languages": [
       "nld",
+      "spa"
+    ],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "kChlvEHwprY1rx",
+    "name": "Radio Mi Amigo International",
+    "sources": {
+      "streams": [
+        "https://lion.radioca.st/listen.pls/"
+      ]
+    },
+    "languages": [
       "spa"
     ],
     "country": "es",

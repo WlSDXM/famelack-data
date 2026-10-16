@@ -88,7 +88,7 @@
     "name": "GlobalNews TV: International News",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/a1YWMrmwXQs"
+        "https://www.youtube-nocookie.com/embed/Y8eZYHy8BDc"
       ]
     },
     "languages": [
@@ -187,20 +187,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/xbNWkUyxQGM"
-      ]
-    },
-    "languages": [
-      "zho"
-    ],
-    "country": "tw",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "DTGg8D0o8VdUIE",
-    "name": "NTD TV Asia-Pacific",
-    "sources": {
-      "streams": [
-        "https://live.ntdtv.com/aplive200/playlist.m3u8"
       ]
     },
     "languages": [

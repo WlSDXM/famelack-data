@@ -74,7 +74,7 @@
     "name": "Film Atölyesi: Şener Şen Filmleri",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/3rIrjQ2kJc0"
+        "https://www.youtube-nocookie.com/embed/OqVhyaoOBco"
       ]
     },
     "languages": [
@@ -100,7 +100,7 @@
     "name": "Gülşah Film: Kemal Sunal Filmleri",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/8AkJ9BgYB-c"
+        "https://www.youtube-nocookie.com/embed/IJKuZnfv_eA"
       ]
     },
     "languages": [
@@ -124,11 +124,25 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "4QXgwdYwMkY8d0",
+    "name": "LAMIL35 TV",
+    "sources": {
+      "streams": [
+        "https://vtm2.msinteractiva.com/lamil35/lamil35/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "cwqY1fSd0UvwAg",
     "name": "Land Of The Lost",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/KsYy5qOJVhs"
+        "https://www.youtube-nocookie.com/embed/lk7BZpk1PZ4"
       ]
     },
     "languages": [
@@ -177,6 +191,20 @@
       "rus"
     ],
     "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "UNigLBaZrxsC5x",
+    "name": "Retro Cartoon",
+    "sources": {
+      "streams": [
+        "https://stmv1.video.brstream.com.br/retrotv/retrotv/chunklist_w1069200121.m3u8"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
     "isGeoBlocked": false
   },
   {
@@ -236,6 +264,34 @@
     ],
     "country": "us",
     "isGeoBlocked": false
+  },
+  {
+    "nanoid": "X20ezVvgfOtILT",
+    "name": "TCM East",
+    "sources": {
+      "streams": [
+        "https://turnerlive.warnermediacdn.com/hls/live/2023186/tcmeast/noslate/VIDEO_1_5128000.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": true
+  },
+  {
+    "nanoid": "iKamvnY73w2HJ6",
+    "name": "TCM West",
+    "sources": {
+      "streams": [
+        "https://turnerlive.warnermediacdn.com/hls/live/2023187/tcmwest/noslate/VIDEO_1_5128000.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": true
   },
   {
     "nanoid": "qZJLmt0dETdzDZ",

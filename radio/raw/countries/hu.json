@@ -230,7 +230,8 @@
     "name": "Campus Rádió FM90",
     "sources": {
       "streams": [
-        "https://stream.fm90.hu:8000/;"
+        "https://stream.fm90.hu:8000/;",
+        "https://stream.fm90.hu:8000/stream/1/"
       ]
     },
     "languages": [

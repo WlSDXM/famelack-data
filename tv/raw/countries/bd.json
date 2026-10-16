@@ -42,11 +42,26 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "uXMcPHTew9graP",
+    "name": "Channel S",
+    "sources": {
+      "streams": [
+        "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "ben",
+      "eng"
+    ],
+    "country": "bd",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "mxpvI5Qy87eBeF",
     "name": "DBC News",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/lAZUeoBqX70"
+        "https://www.youtube-nocookie.com/embed/rveiIVuCtFc"
       ]
     },
     "languages": [
@@ -60,7 +75,7 @@
     "name": "Desh TV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/BAgrLE1NeHk"
+        "https://www.youtube-nocookie.com/embed/lbPno9RTD7U"
       ]
     },
     "languages": [
@@ -74,7 +89,6 @@
     "name": "Duronto TV",
     "sources": {
       "streams": [
-        "https://box.bbaria.net/DurontoTV/index.m3u8",
         "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8"
       ]
     },
@@ -89,7 +103,7 @@
     "name": "Ekattor TV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4WtEVUrHU6c"
+        "https://www.youtube-nocookie.com/embed/Z7R3s-KVg60"
       ]
     },
     "languages": [
@@ -104,20 +118,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/gh_DJW0hB8w"
-      ]
-    },
-    "languages": [
-      "ben"
-    ],
-    "country": "bd",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "KFm0NDZdja9VIZ",
-    "name": "Gazi TV",
-    "sources": {
-      "streams": [
-        "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8"
       ]
     },
     "languages": [
@@ -145,7 +145,7 @@
     "name": "Jamuna TV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/GATXTJQvlNs"
+        "https://www.youtube-nocookie.com/embed/yRX-c1F1Clg"
       ]
     },
     "languages": [
@@ -177,7 +177,7 @@
         "https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/master.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/hNBs0k4zru8"
+        "https://www.youtube-nocookie.com/embed/kxELsN5RCP0"
       ]
     },
     "languages": [
@@ -206,20 +206,6 @@
     "sources": {
       "streams": [
         "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "ben"
-    ],
-    "country": "bd",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "dm1aFguTzJoeDM",
-    "name": "NAN TV",
-    "sources": {
-      "streams": [
-        "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/nantv.stream/live-orgin/nantv.stream/playlist.m3u8"
       ]
     },
     "languages": [
@@ -271,20 +257,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "tzTABG45l31V9t",
-    "name": "Peace TV Bangla",
-    "sources": {
-      "streams": [
-        "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8"
-      ]
-    },
-    "languages": [
-      "ben"
-    ],
-    "country": "bd",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "rxGkYuJllm8fkD",
     "name": "Rajdhani TV",
     "sources": {
@@ -315,25 +287,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "nw7Gl0g9Hyfl04",
-    "name": "Rupashi Bangla TV",
-    "sources": {
-      "streams": [
-        "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "ben"
-    ],
-    "country": "bd",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "jRNbdDq68JaIxU",
     "name": "Somoy News TV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/8MDQ3tuKpqI"
+        "https://www.youtube-nocookie.com/embed/JSaja_7xyvM"
       ]
     },
     "languages": [

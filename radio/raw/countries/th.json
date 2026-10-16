@@ -99,11 +99,27 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "R2p6j2Gml5fJXD",
+    "name": "City Radio Pattaya 90.25 FM",
+    "sources": {
+      "streams": [
+        "https://media.onair.one:8200/stream/1/"
+      ]
+    },
+    "languages": [
+      "eng",
+      "tha"
+    ],
+    "country": "th",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "YwnO8kodaovgm6",
     "name": "COOLfahrenheit",
     "sources": {
       "streams": [
-        "https://coolism-web.cdn.byteark.com/;stream/1"
+        "https://coolism-web.cdn.byteark.com/;stream/1",
+        "https://coolism-web3rd.cdn.byteark.com/stream/1/"
       ]
     },
     "languages": [

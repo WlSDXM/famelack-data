@@ -2902,6 +2902,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "ogLApteFN32KVu",
+    "name": "Kiss FM 91.9",
+    "sources": {
+      "streams": [
+        "https://cloud1.cdnseguro.com:9758/listen.pls/"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "5qpsQhfzjqpgIG",
     "name": "Kiss FM 92.5",
     "sources": {
@@ -7593,6 +7607,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "uTGgOHVfE5X074",
+    "name": "Rádio Pop FM 90.9",
+    "sources": {
+      "streams": [
+        "https://pop.jmvstream.com/stream/1/"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "fGBoxVflGm40Y1",
     "name": "Rádio Portal da Tradição",
     "sources": {
@@ -10558,6 +10586,20 @@
     "sources": {
       "streams": [
         "https://servidor37-1.brlogic.com:8068/live"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "G3FkgXQn6vM6Ro",
+    "name": "Web Soul Radio",
+    "sources": {
+      "streams": [
+        "https://ic142561.radioca.st/listen.pls/"
       ]
     },
     "languages": [

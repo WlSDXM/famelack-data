@@ -29,6 +29,23 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "CffTMvOdCGylCI",
+    "name": "Animal Planet",
+    "sources": {
+      "streams": [
+        "https://drk6xq0vhn.gpcdn.net/live/animal_planet_hd_abr/index.m3u8",
+        "https://drk6xq0vhn.gpcdn.net/live/animal_planet_sd_abr/index.m3u8"
+      ]
+    },
+    "languages": [
+      "eng",
+      "hin",
+      "tam"
+    ],
+    "country": "in",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "3sxG7fzO8BuxxG",
     "name": "Arsenal",
     "sources": {
@@ -148,22 +165,6 @@
     "isGeoBlocked": true
   },
   {
-    "nanoid": "vifXiIDfcyAksy",
-    "name": "BTB Info",
-    "sources": {
-      "streams": [
-        "https://panel.btb.j00r.us/memfs/928cfb64-fed7-4c27-9937-f5ad72d9d73c.m3u8",
-        "https://emisja2.btb.j00r.us/iptv/session/4/hls.m3u8"
-      ]
-    },
-    "languages": [
-      "eng",
-      "pol"
-    ],
-    "country": "pl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "8qbHNd2Zc2MjWY",
     "name": "CCTV-9",
     "sources": {
@@ -242,7 +243,7 @@
     "name": "CNA Insider",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/fSUMKrxPEd8"
+        "https://www.youtube-nocookie.com/embed/9Y4kOQk_K3Y"
       ]
     },
     "languages": [
@@ -428,20 +429,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "FOmh48Vhhwgsmx",
-    "name": "Ecovision",
-    "sources": {
-      "streams": [
-        "https://streaming.grupomediosdelnorte.com:19360/ecovision/ecovision.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "do",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "455SjvDokn1Rzo",
     "name": "Epic Crimes",
     "sources": {
@@ -560,6 +547,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "3JfxiMIqhgZ6Ng",
+    "name": "Investigation Discovery",
+    "sources": {
+      "streams": [
+        "https://drk6xq0vhn.gpcdn.net/live/id_hd_abr/index.m3u8"
+      ]
+    },
+    "languages": [
+      "eng",
+      "hin"
+    ],
+    "country": "in",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "FlqGAqnBqpvJeH",
     "name": "INWILD",
     "sources": {
@@ -572,7 +574,7 @@
     "languages": [
       "eng"
     ],
-    "country": "in",
+    "country": "nl",
     "isGeoBlocked": true
   },
   {
@@ -590,17 +592,31 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ydI9RzI56VdmqS",
-    "name": "Karbala Documentary",
+    "nanoid": "YhG2yKqVnyrY83",
+    "name": "Italiana",
     "sources": {
       "streams": [
-        "https://ktvlive.online/stream/hls/ch3.m3u8"
+        "https://d3k8wzt41aflvx.cloudfront.net/RAIScuola/Live.m3u8"
       ]
     },
     "languages": [
-      "ara"
+      "ita"
     ],
-    "country": "iq",
+    "country": "it",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "RefcIuSWqtTcds",
+    "name": "kabel eins Doku",
+    "sources": {
+      "streams": [
+        "https://s6.hopslan.com/dokuX/index.m3u8"
+      ]
+    },
+    "languages": [
+      "deu"
+    ],
+    "country": "de",
     "isGeoBlocked": false
   },
   {
@@ -635,17 +651,32 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "xwu9RwQkvtgOhW",
+    "name": "Love The Planet DE",
+    "sources": {
+      "streams": [
+        "https://amg01821-amg01821c12-rlaxx-gb-10461.playouts.now.amagi.tv/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "deu"
+    ],
+    "country": "de",
+    "isGeoBlocked": true
+  },
+  {
     "nanoid": "vc83h8nvdBt03n",
     "name": "Love The Planet English",
     "sources": {
       "streams": [
+        "https://amg01821-lovetv-amg01821c8-xumo-us-3443.playouts.now.amagi.tv/playlist.m3u8",
         "https://amg01821-lovetvchannels-lovetheplanetuksamsung-samsunguk-apopw.amagi.tv/playlist/amg01821-lovetvchannels-lovetheplanetuksamsung-samsunguk/playlist.m3u8"
       ]
     },
     "languages": [
       "eng"
     ],
-    "country": "us",
+    "country": "es",
     "isGeoBlocked": true
   },
   {
@@ -707,6 +738,20 @@
     "isGeoBlocked": true
   },
   {
+    "nanoid": "AQcwe6Z9P7sz9G",
+    "name": "MRTV Farmer",
+    "sources": {
+      "streams": [
+        "https://mrtvott.com/cache/MRTV-FARMER/master.m3u8"
+      ]
+    },
+    "languages": [
+      "mya"
+    ],
+    "country": "mm",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "yWqRPjIHcgYftM",
     "name": "Nano",
     "sources": {
@@ -746,6 +791,20 @@
       "rus"
     ],
     "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "g2bTTopTiGfPsS",
+    "name": "National Geographic Latin America Panregional",
+    "sources": {
+      "streams": [
+        "https://barinaslive1.boldmss.com/NATGEO/NATGEO.isml/NATGEO.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -891,6 +950,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "C9r0nQTewOjHW3",
+    "name": "RL PRO TV",
+    "sources": {
+      "streams": [
+        "https://stream.berosat.live:19360/rlpro-tv/rlpro-tv.m3u8"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "cd",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Slt5syXsekpkl9",
     "name": "RT Documentary English",
     "sources": {
@@ -947,7 +1020,7 @@
     "languages": [
       "eng"
     ],
-    "country": "us",
+    "country": "de",
     "isGeoBlocked": true
   },
   {
@@ -993,6 +1066,34 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "ELDNWWv9rjJl60",
+    "name": "Viasat Explore",
+    "sources": {
+      "streams": [
+        "https://shift03.isp.bg/ViasatExplorer_HD/index.m3u8"
+      ]
+    },
+    "languages": [
+      "bul"
+    ],
+    "country": "bg",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "9qxiwyypjNrlXI",
+    "name": "Viasat History",
+    "sources": {
+      "streams": [
+        "https://shift03.isp.bg/ViasatHistory_HD/index.m3u8"
+      ]
+    },
+    "languages": [
+      "bul"
+    ],
+    "country": "bg",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "PfbaswQwxPL2la",
     "name": "Viasat History",
     "sources": {
@@ -1004,6 +1105,20 @@
       "ukr"
     ],
     "country": "ua",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "grL6LmvbHNpgqD",
+    "name": "Viasat Nature",
+    "sources": {
+      "streams": [
+        "https://shift03.isp.bg/ViasatNature_HD/index.m3u8"
+      ]
+    },
+    "languages": [
+      "bul"
+    ],
+    "country": "bg",
     "isGeoBlocked": false
   },
   {
@@ -1060,7 +1175,7 @@
     "languages": [
       "eng"
     ],
-    "country": "uk",
+    "country": "ch",
     "isGeoBlocked": false
   },
   {

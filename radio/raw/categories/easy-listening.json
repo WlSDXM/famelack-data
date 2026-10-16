@@ -590,6 +590,48 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "fsHjGpEgYixLWm",
+    "name": "24-7 Power Of Love",
+    "sources": {
+      "streams": [
+        "https://antares.dribbcast.com/proxy/s8320/stream"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "x1IOeF5s7nUAkT",
+    "name": "24-7 Romance",
+    "sources": {
+      "streams": [
+        "https://antares.dribbcast.com/proxy/s8140/stream"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "0xyS6SagbZUv35",
+    "name": "24-7 Serene",
+    "sources": {
+      "streams": [
+        "https://antares.dribbcast.com/proxy/s8210/stream"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "L3sSwg3xIKbpSE",
     "name": "24/7 Online Radio",
     "sources": {
@@ -2587,6 +2629,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "IiNyFl72zzMiv5",
+    "name": "Calm Radio - Early 60's",
+    "sources": {
+      "streams": [
+        "https://streams.calmradio.com:16128/stream/1/"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "b4oDKeSRgGMnjG",
     "name": "Calm Radio - Solo Piano",
     "sources": {
@@ -3151,7 +3207,8 @@
     "name": "COOLfahrenheit",
     "sources": {
       "streams": [
-        "https://coolism-web.cdn.byteark.com/;stream/1"
+        "https://coolism-web.cdn.byteark.com/;stream/1",
+        "https://coolism-web3rd.cdn.byteark.com/stream/1/"
       ]
     },
     "languages": [
@@ -3576,6 +3633,36 @@
       "eng"
     ],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "dEZkgJrNVAPpSL",
+    "name": "Easy Rock Boracay",
+    "sources": {
+      "streams": [
+        "https://easyrockboracay.radioca.st/listen.pls/"
+      ]
+    },
+    "languages": [
+      "eng",
+      "tgl"
+    ],
+    "country": "ph",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "NJ7Oc2SAWLeepf",
+    "name": "Easy Rock Cebu",
+    "sources": {
+      "streams": [
+        "https://easyrockcebu.radioca.st/listen.pls/"
+      ]
+    },
+    "languages": [
+      "eng",
+      "tgl"
+    ],
+    "country": "ph",
     "isGeoBlocked": false
   },
   {

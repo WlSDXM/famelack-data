@@ -4343,7 +4343,8 @@
     "name": "DWG Radio - Deutsch",
     "sources": {
       "streams": [
-        "https://server23644.streamplus.de/;"
+        "https://server23644.streamplus.de/;",
+        "https://server23644.streamplus.de/listen.pls/"
       ]
     },
     "languages": [
@@ -5555,6 +5556,20 @@
       "swa"
     ],
     "country": "ug",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "DgEHxlThaUtTdW",
+    "name": "Glory To Jesus",
+    "sources": {
+      "streams": [
+        "https://ca.publicssl.net/8006/"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ca",
     "isGeoBlocked": false
   },
   {
@@ -9831,7 +9846,8 @@
     "name": "Pearl FM",
     "sources": {
       "streams": [
-        "https://dc4.serverse.com/proxy/pearlfm/stream"
+        "https://dc4.serverse.com/proxy/pearlfm/stream",
+        "https://dc4.serverse.com/proxy/pearlfm/stream/1/"
       ]
     },
     "languages": [
@@ -11783,6 +11799,20 @@
       "streams": [
         "https://rr5100.globalhost1.com/8540/;",
         "https://rr5100.globalhost1.com/8540/stream;"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "gaBEXrruW3OOPl",
+    "name": "Radio Cristiana 95.7 FM",
+    "sources": {
+      "streams": [
+        "https://genexservicios.com:8098/listen.asx/"
       ]
     },
     "languages": [
@@ -17364,7 +17394,8 @@
     "name": "Spirit Live Radio",
     "sources": {
       "streams": [
-        "https://server7606.streamplus.de/;"
+        "https://server7606.streamplus.de/;",
+        "https://server7606.streamplus.de/listen.pls/"
       ]
     },
     "languages": [
@@ -18327,6 +18358,20 @@
       "eng"
     ],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "7R8YBdAVlzYkfk",
+    "name": "Unión Radio",
+    "sources": {
+      "streams": [
+        "https://unionradio.radioca.st/stream/1/"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "gt",
     "isGeoBlocked": false
   },
   {

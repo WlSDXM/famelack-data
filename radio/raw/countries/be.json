@@ -2025,6 +2025,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "kLxVKBY2QxQaKk",
+    "name": "Radio Qui Chifel",
+    "sources": {
+      "streams": [
+        "https://stream.rqc.be/listen.pls/"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "be",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "RPCsaesvbHKmnH",
     "name": "Radio Salamandre",
     "sources": {

@@ -1517,6 +1517,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "UtcDULcg8tOKx4",
+    "name": "Mix A Mix FM",
+    "sources": {
+      "streams": [
+        "https://radyo.yayin.com.tr:5998/stream/1/"
+      ]
+    },
+    "languages": [
+      "tur"
+    ],
+    "country": "tr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "bIHBTxc4ybcIT9",
     "name": "Moral FM",
     "sources": {

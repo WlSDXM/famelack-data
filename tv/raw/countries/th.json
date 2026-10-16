@@ -423,20 +423,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Vhaf6oXPlNRudx",
-    "name": "NBT 2 HD",
-    "sources": {
-      "streams": [
-        "https://cdn-edge.iiptvcdn.com/live_event/smil:f180-054a-38d7-ce66-f7cf.smil/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "tha"
-    ],
-    "country": "th",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "yyP2mON0H4n2JW",
     "name": "NBT TV Chiang Mai",
     "sources": {
@@ -494,20 +480,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "chmBg2GBFNqXoJ",
-    "name": "Police TV",
-    "sources": {
-      "streams": [
-        "https://cdn-th-vip.livestreaming.in.th/policetv/policetv/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "tha"
-    ],
-    "country": "th",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "3GZ46w4Jr2xtDE",
     "name": "Rama Channel",
     "sources": {
@@ -540,7 +512,7 @@
     "name": "SHOP CH Thailand",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/pTB4Cv0jbY4"
+        "https://www.youtube-nocookie.com/embed/0kc6T-urfH8"
       ]
     },
     "languages": [
@@ -597,20 +569,6 @@
     "sources": {
       "streams": [
         "https://live.thaichaiyo.tv/tcy/live-transmux.m3u8"
-      ]
-    },
-    "languages": [
-      "tha"
-    ],
-    "country": "th",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "ztLXAJFpTRNVhe",
-    "name": "Thai Parliament Television",
-    "sources": {
-      "streams": [
-        "https://tv-live.tpchannel.org/live/tv.m3u8"
       ]
     },
     "languages": [

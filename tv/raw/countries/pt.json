@@ -14,20 +14,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "k9YVnaB9vAhdV8",
-    "name": "Angel TV Portuguese",
-    "sources": {
-      "streams": [
-        "https://janya-digimix.akamaized.net/vglive-sk-382409/portuese/ngrp:angelportuguese_all/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "pt",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "aMfHfOa13YZ4ZC",
     "name": "ARTV",
     "sources": {
@@ -277,6 +263,20 @@
     ],
     "country": "pt",
     "isGeoBlocked": true
+  },
+  {
+    "nanoid": "PUdpiv6E36htAt",
+    "name": "RFPtv",
+    "sources": {
+      "streams": [
+        "https://video03.logicahost.com.br/rfptv/rfptv/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "pt",
+    "isGeoBlocked": false
   },
   {
     "nanoid": "MegvelUFPkbBIn",

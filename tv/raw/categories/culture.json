@@ -33,7 +33,6 @@
     "name": "Afro Magic Channel",
     "sources": {
       "streams": [
-        "https://video1.getstreamhosting.com:1936/8306/8306/playlist.m3u8",
         "https://video1.getstreamhosting.com:1936/8490/8490/playlist.m3u8"
       ]
     },
@@ -44,17 +43,15 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "n4RrCqsrdFtghH",
-    "name": "Afroculture TV",
+    "nanoid": "FjdLgphriWW4if",
+    "name": "Al-Kawthar TV",
     "sources": {
       "streams": [
-        "https://streamtv.cmediahosthosting.net:3836/live/myafroculturelive.m3u8"
+        "https://cdn.faina.ir/faina-stream/tenants/3887e2cb-0766-419d-ac8a-6303ca2f09dc/videos/8582ec07-fbdf-4ef1-9ccd-346fcd76aac2/hls/master.m3u8"
       ]
     },
-    "languages": [
-      "fra"
-    ],
-    "country": "ci",
+    "languages": [],
+    "country": "ir",
     "isGeoBlocked": false
   },
   {
@@ -98,6 +95,20 @@
       "ltz"
     ],
     "country": "lu",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "d4L8PBtWXj8rtD",
+    "name": "AsiriTV",
+    "sources": {
+      "streams": [
+        "https://video2.lhdserver.es/asiritv/live.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "pe",
     "isGeoBlocked": false
   },
   {
@@ -259,20 +270,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "kcUlTpEd2EjJLo",
-    "name": "Capital 21",
-    "sources": {
-      "streams": [
-        "https://video.cdmx.gob.mx/redes/stream.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "vUd9BZTcBgBOm3",
     "name": "Catamarca TV",
     "sources": {
@@ -291,7 +288,7 @@
     "name": "Channel One",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/AE_9EfvtGMI"
+        "https://www.youtube-nocookie.com/embed/DLTiP2PeUFU"
       ]
     },
     "languages": [
@@ -313,6 +310,21 @@
       "eng"
     ],
     "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "uXMcPHTew9graP",
+    "name": "Channel S",
+    "sources": {
+      "streams": [
+        "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "ben",
+      "eng"
+    ],
+    "country": "bd",
     "isGeoBlocked": false
   },
   {
@@ -434,11 +446,10 @@
     "name": "DD Bharati",
     "sources": {
       "streams": [
-        "https://cdn.pishow.tv/ott/live/10/master.m3u8",
         "https://d2lk5u59tns74c.cloudfront.net/out/v1/67cec794d8b14f9ba21f73924ac65797/index.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/wpb77nl38HA"
+        "https://www.youtube-nocookie.com/embed/TaymwEtfHFU"
       ]
     },
     "languages": [
@@ -536,6 +547,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "nuCkj2isILRO5a",
+    "name": "EET TV",
+    "sources": {
+      "streams": [
+        "https://eu.streamjo.com/eetlive/eettv.m3u8"
+      ]
+    },
+    "languages": [
+      "eng",
+      "tam"
+    ],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "h9xUZ9qtOT3ejC",
     "name": "El 33",
     "sources": {
@@ -563,6 +589,20 @@
       "cat"
     ],
     "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "vEu4AbFWQq3rTn",
+    "name": "El Sonorense",
+    "sources": {
+      "streams": [
+        "https://s5.mexside.net:1936/elsonorense/elsonorense/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
     "isGeoBlocked": false
   },
   {
@@ -734,6 +774,20 @@
       "hin"
     ],
     "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "WDEjDpDWifIyr0",
+    "name": "Imai TV",
+    "sources": {
+      "streams": [
+        "https://live20.bozztv.com/akamaissh101/ssh101/imaitv/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "tam"
+    ],
+    "country": "lk",
     "isGeoBlocked": false
   },
   {
@@ -981,6 +1035,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "R3BPTHW4pSeK4c",
+    "name": "Med.TV",
+    "sources": {
+      "streams": [
+        "https://med-tv-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-hls-aes128-medtv-1-restreaming/bitok/eyJzdGlkIjoiMGUzYjU2OWQtYTY3NC00ZDQxLThmZmMtNjA2NWU5YzMwNTViIiwibWt0IjoiaXQiLCJjaCI6IjUiLCJwdGYiOjV9/hls/main.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "mt",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "b1w0a8CZ0CNs0I",
     "name": "Medeniyyet TV",
     "sources": {
@@ -1036,6 +1104,20 @@
       "fra"
     ],
     "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "1wMsK4nhJMBFCb",
+    "name": "MRTV NRC",
+    "sources": {
+      "streams": [
+        "https://mrtvott.com/cache/MRTV-NRC-HD/master.m3u8"
+      ]
+    },
+    "languages": [
+      "mya"
+    ],
+    "country": "mm",
     "isGeoBlocked": false
   },
   {
@@ -1155,6 +1237,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "V3b7nvXml8zERG",
+    "name": "Paci Contemporary Channel",
+    "sources": {
+      "streams": [
+        "https://5f22d76e220e1.streamlock.net/pacicontemporarychannel/pacicontemporarychannel/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "ita"
+    ],
+    "country": "it",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "DKHLUT1IqpMkXM",
     "name": "Presumiendo Mexico",
     "sources": {
@@ -1187,7 +1283,8 @@
     "name": "Radio Suyai TV",
     "sources": {
       "streams": [
-        "https://cl-2.backend.energeek.cl/RadioSuyai-Neo/index.m3u8"
+        "https://cl-2.backend.energeek.cl/RadioSuyai-Neo/index.m3u8",
+        "https://trun.suyaitv.cl/memfs/d0835165-7fb4-4982-8336-84a7f4522908.m3u8"
       ]
     },
     "languages": [
@@ -1222,33 +1319,6 @@
       "por"
     ],
     "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "y8ufu4YXUzuRSK",
-    "name": "RTB 3",
-    "sources": {
-      "streams": [
-        "https://edge13.vedge.infomaniak.com/livecast/ik:rtb3-1/manifest.m3u8"
-      ]
-    },
-    "languages": [
-      "bbo",
-      "bib",
-      "box",
-      "dgi",
-      "dyu",
-      "ful",
-      "gux",
-      "lee",
-      "lob",
-      "mos",
-      "rkm",
-      "sbd",
-      "stj",
-      "sym"
-    ],
-    "country": "bf",
     "isGeoBlocked": false
   },
   {
@@ -1435,6 +1505,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "zxSTa9IKp200xg",
+    "name": "Suyai TV",
+    "sources": {
+      "streams": [
+        "https://trun.suyaitv.cl/memfs/1255a743-cd41-40a8-86c4-d264ee16ebf3.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "bZLmwi1rLZYaKq",
     "name": "Telepace 2",
     "sources": {
@@ -1476,7 +1560,7 @@
       "vie"
     ],
     "country": "vn",
-    "isGeoBlocked": true
+    "isGeoBlocked": false
   },
   {
     "nanoid": "SQGH8tX9KocSpb",
@@ -1509,17 +1593,17 @@
     "isGeoBlocked": true
   },
   {
-    "nanoid": "cWWftSEuzr59Qo",
-    "name": "TV Cuatro 4.2",
+    "nanoid": "46bhWZVm1EdjmB",
+    "name": "TV Cartago Digital",
     "sources": {
       "streams": [
-        "https://5f2c1b0d880e5.streamlock.net/tv42/tv42.smil/.m3u8"
+        "https://video2.getstreamhosting.com:19360/8110/8110.m3u8"
       ]
     },
     "languages": [
       "spa"
     ],
-    "country": "mx",
+    "country": "cr",
     "isGeoBlocked": false
   },
   {
@@ -1675,20 +1759,6 @@
       "spa"
     ],
     "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "VZBxSoe576CfEB",
-    "name": "YES",
-    "sources": {
-      "streams": [
-        "https://lana.psm.mv/live/yes.m3u8"
-      ]
-    },
-    "languages": [
-      "div"
-    ],
-    "country": "mv",
     "isGeoBlocked": false
   },
   {

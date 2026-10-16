@@ -910,6 +910,76 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "hg7RxPUAqFRpm6",
+    "name": "24-7 Decades",
+    "sources": {
+      "streams": [
+        "https://antares.dribbcast.com/proxy/s8120/stream"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "n6Rc1X9kW4emoX",
+    "name": "24-7 Dreamboats & Petticoats",
+    "sources": {
+      "streams": [
+        "https://antares.dribbcast.com/proxy/s8100/stream"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "8wzksONWMkHFJP",
+    "name": "24-7 Rock 'n' Roll",
+    "sources": {
+      "streams": [
+        "https://antares.dribbcast.com/proxy/s8130/stream"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "bPL3I5iL6pIpQz",
+    "name": "24-7 The '60s",
+    "sources": {
+      "streams": [
+        "https://antares.dribbcast.com/proxy/s8220/stream"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "b8breBtCwNy4cp",
+    "name": "24-7 The '70s",
+    "sources": {
+      "streams": [
+        "https://antares.dribbcast.com/proxy/s8260/stream"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "nVdMSvAU4KHrxg",
     "name": "45 Radio",
     "sources": {
@@ -5137,6 +5207,20 @@
       "eng"
     ],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "IiNyFl72zzMiv5",
+    "name": "Calm Radio - Early 60's",
+    "sources": {
+      "streams": [
+        "https://streams.calmradio.com:16128/stream/1/"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ca",
     "isGeoBlocked": false
   },
   {
@@ -16954,6 +17038,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "qc6iklhZb1YK0o",
+    "name": "Radio 7 Asiago",
+    "sources": {
+      "streams": [
+        "https://ssl1.azotosolutions.com:1094/listen.pls/"
+      ]
+    },
+    "languages": [
+      "ita"
+    ],
+    "country": "it",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "1mxUOjbW1c38Dw",
     "name": "Radio 10",
     "sources": {
@@ -20339,6 +20437,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "kChlvEHwprY1rx",
+    "name": "Radio Mi Amigo International",
+    "sources": {
+      "streams": [
+        "https://lion.radioca.st/listen.pls/"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "jffKcGDg8rDKNR",
     "name": "Radio Mil 80 101.7 FM",
     "sources": {
@@ -22010,6 +22122,7 @@
     "name": "Radio Studio Nord 80 Energia",
     "sources": {
       "streams": [
+        "https://nr6.newradio.it:19393/listen.pls/",
         "https://nr6.newradio.it:19393/;"
       ]
     },
@@ -24080,6 +24193,20 @@
       "eng"
     ],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "WpXL3IhYpiMfNb",
+    "name": "Royal Free Radio",
+    "sources": {
+      "streams": [
+        "https://royalfreeradio.radioca.st/listen.pls/"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
     "isGeoBlocked": false
   },
   {
@@ -27017,6 +27144,7 @@
     "name": "Venus Radio 99.3",
     "sources": {
       "streams": [
+        "https://sh.onweb.gr:7115/listen.pls/",
         "https://sh.onweb.gr/8410/;"
       ]
     },

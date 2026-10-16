@@ -44,15 +44,15 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "fruS79xWb73ha2",
-    "name": "Barney the Dinosaur",
+    "nanoid": "vLJxCfSjAO72Wd",
+    "name": "Belmedia TV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/NS0fu_Q7X8E"
+        "https://www.youtube-nocookie.com/embed/M4fyQIr3xAk"
       ]
     },
     "languages": [
-      "eng"
+      "fra"
     ],
     "country": "ca",
     "isGeoBlocked": false
@@ -367,6 +367,34 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "ZjrdyB3hSZu0bK",
+    "name": "CP24",
+    "sources": {
+      "streams": [
+        "https://tvsen6.aynaott.com/cp24/index.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ZXvLfybRDCi9xD",
+    "name": "DesheBideshe TV",
+    "sources": {
+      "streams": [
+        "https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8"
+      ]
+    },
+    "languages": [
+      "ben"
+    ],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "v0OeMdvjnnVO4J",
     "name": "Deshi TV",
     "sources": {
@@ -404,6 +432,21 @@
     },
     "languages": [
       "urd"
+    ],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "nuCkj2isILRO5a",
+    "name": "EET TV",
+    "sources": {
+      "streams": [
+        "https://eu.streamjo.com/eetlive/eettv.m3u8"
+      ]
+    },
+    "languages": [
+      "eng",
+      "tam"
     ],
     "country": "ca",
     "isGeoBlocked": false
@@ -471,20 +514,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/coPmE-pZDww"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "3PWIwG9FFIlO5Y",
-    "name": "Game+",
-    "sources": {
-      "streams": [
-        "https://a-cdn.klowdtv.com/live2/fntsy_720p/playlist.m3u8"
       ]
     },
     "languages": [
@@ -648,20 +677,6 @@
     "isGeoBlocked": true
   },
   {
-    "nanoid": "nHDxIofgkugzZk",
-    "name": "Ici Radio-Canada Télé Est du Québec (CJBR-DT)",
-    "sources": {
-      "streams": [
-        "https://rcavlive.akamaized.net/hls/live/704024/cancjbr/master.m3u8"
-      ]
-    },
-    "languages": [
-      "fra"
-    ],
-    "country": "ca",
-    "isGeoBlocked": true
-  },
-  {
     "nanoid": "rpQ8RA1mbZgwRB",
     "name": "Ici Radio-Canada Télé Estrie (CKSH-DT)",
     "sources": {
@@ -681,20 +696,6 @@
     "sources": {
       "streams": [
         "https://rcavlive.akamaized.net/hls/live/704018/cancbwft/master.m3u8"
-      ]
-    },
-    "languages": [
-      "fra"
-    ],
-    "country": "ca",
-    "isGeoBlocked": true
-  },
-  {
-    "nanoid": "MxGLQzbmn1eRI9",
-    "name": "Ici Radio-Canada Télé Mauricie/Centre-du-Québec (CKTM-DT)",
-    "sources": {
-      "streams": [
-        "https://rcavlive.akamaized.net/hls/live/704021/cancktm/master.m3u8"
       ]
     },
     "languages": [
@@ -732,39 +733,11 @@
     "isGeoBlocked": true
   },
   {
-    "nanoid": "qpj1oGnAfj0tNs",
-    "name": "Ici Radio-Canada Télé Québec (CBVT-DT)",
-    "sources": {
-      "streams": [
-        "https://rcavlive.akamaized.net/hls/live/664045/cancbvt/master.m3u8"
-      ]
-    },
-    "languages": [
-      "fra"
-    ],
-    "country": "ca",
-    "isGeoBlocked": true
-  },
-  {
     "nanoid": "v8YRKpn8C7SA8f",
     "name": "Ici Radio-Canada Télé Saguenay/Lac-St-Jean (CKTV-DT)",
     "sources": {
       "streams": [
         "https://rcavlive.akamaized.net/hls/live/704023/cancktv/master.m3u8"
-      ]
-    },
-    "languages": [
-      "fra"
-    ],
-    "country": "ca",
-    "isGeoBlocked": true
-  },
-  {
-    "nanoid": "fEhQEHi1zhQ9J9",
-    "name": "Ici Radio-Canada Télé Saskatchewan (CBKFT-DT)",
-    "sources": {
-      "streams": [
-        "https://rcavlive.akamaized.net/hls/live/704019/cancbkft/master.m3u8"
       ]
     },
     "languages": [
@@ -968,38 +941,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "tVSimuRyVg06J3",
-    "name": "New Channel",
-    "sources": {
-      "streams": [
-        "https://vodcdn.bamboo-cloud.com/livehls/6ab2104508fd5ee36702e3d4/master.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Z35fC410AatQuT",
-    "name": "New Channel Pop!",
-    "sources": {
-      "streams": [
-        "https://vodcdn.bamboo-cloud.com/livehls/6ab37c6c7e057f9063071c85/master.m3u8"
-      ]
-    },
-    "languages": [
-      "eng",
-      "ind",
-      "msa",
-      "por",
-      "rus"
-    ],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "npjeXau21Ev4bz",
     "name": "Newfoundland Television",
     "sources": {
@@ -1133,18 +1074,6 @@
     "languages": [
       "eng"
     ],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "z9orLEtumAwQoS",
-    "name": "Qello Concerts by Stingray",
-    "sources": {
-      "streams": [
-        "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883052"
-      ]
-    },
-    "languages": [],
     "country": "ca",
     "isGeoBlocked": false
   },
@@ -1495,18 +1424,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "VyYM4FyimdIPD4",
-    "name": "Stingray Hitlist",
-    "sources": {
-      "streams": [
-        "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883054"
-      ]
-    },
-    "languages": [],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "1VVSP3wvxZoS1t",
     "name": "Stingray Holiday Hits",
     "sources": {
@@ -1642,18 +1559,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "A1T3tixQdrLLm1",
-    "name": "Stingray Naturescape",
-    "sources": {
-      "streams": [
-        "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883056"
-      ]
-    },
-    "languages": [],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "CPmWhvF9GttjNW",
     "name": "Stingray Naturescape",
     "sources": {
@@ -1738,18 +1643,6 @@
     "sources": {
       "streams": [
         "https://lotus.stingray.com/manifest/ose-176ads-montreal/samsungtvplus/master.m3u8"
-      ]
-    },
-    "languages": [],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "HAqpZorYfDzctU",
-    "name": "Stingray Remember the 80s",
-    "sources": {
-      "streams": [
-        "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883071"
       ]
     },
     "languages": [],
@@ -1974,7 +1867,7 @@
     "name": "Super Simple: Bedtime Songs",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/o9urmT2xq4A"
+        "https://www.youtube-nocookie.com/embed/7OojDKcCqpM"
       ]
     },
     "languages": [
@@ -1988,7 +1881,7 @@
     "name": "Super Simple: Simple Songs",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/UMLSec3r7Jg"
+        "https://www.youtube-nocookie.com/embed/udECZre0m5I"
       ]
     },
     "languages": [
@@ -2155,7 +2048,7 @@
     "name": "TV Témis",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ga9YtCOd3rc"
+        "https://www.youtube-nocookie.com/embed/Kk4oES7P4pI"
       ]
     },
     "languages": [

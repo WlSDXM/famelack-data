@@ -16,7 +16,7 @@
     "name": "Akita Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/vMyKRCq3HMI"
+        "https://www.youtube-nocookie.com/embed/0npXRf6Czz0"
       ]
     },
     "languages": [],
@@ -28,7 +28,7 @@
     "name": "Akita Port",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4_NvXFvjfKM"
+        "https://www.youtube-nocookie.com/embed/RgZuZ9HSQ_M"
       ]
     },
     "languages": [],
@@ -52,7 +52,7 @@
     "name": "Akita Station Square",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/EWxzTkgNIBw"
+        "https://www.youtube-nocookie.com/embed/V4sgelp4rZk"
       ]
     },
     "languages": [],
@@ -88,7 +88,7 @@
     "name": "AZGMRS White Tanks Repeater Site",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/lhrlIB3KB00"
+        "https://www.youtube-nocookie.com/embed/HQgQHML_3LI"
       ]
     },
     "languages": [],
@@ -184,7 +184,7 @@
     "name": "Buffalo Bills Highmark Stadium",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/7k3fNLgxyQ4"
+        "https://www.youtube-nocookie.com/embed/-G7BtvC1PEg"
       ]
     },
     "languages": [],
@@ -244,7 +244,7 @@
     "name": "Chevy Chase, Lexington",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Fretabh_WhY"
+        "https://www.youtube-nocookie.com/embed/VR2t6FyUwM0"
       ]
     },
     "languages": [],
@@ -256,7 +256,7 @@
     "name": "Creve Coeur Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ezasG6Pz5H0"
+        "https://www.youtube-nocookie.com/embed/Kaz7hJGKL18"
       ]
     },
     "languages": [],
@@ -336,6 +336,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "0uD03WNGMb1x0e",
+    "name": "Fude Rd, Xihu Township",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/yWM6Z9yb3Ug"
+      ]
+    },
+    "languages": [],
+    "country": "tw",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "yfVmHTXO5UzELH",
     "name": "Georgica Beach, East Hampton",
     "sources": {
@@ -388,7 +400,7 @@
     "name": "Hanga Roa Coast, Rapa Nui",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/LgDO7VlvMpw"
+        "https://www.youtube-nocookie.com/embed/DRZkCLZ7g-o"
       ]
     },
     "languages": [],
@@ -552,18 +564,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "5xJgCRqGrumnTZ",
-    "name": "Montedarena Beach Weather",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/fSMf7uqsD3U"
-      ]
-    },
-    "languages": [],
-    "country": "it",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "H4qlAGmgko1eoL",
     "name": "Morgan Hill Santa Clara Valley Panorama",
     "sources": {
@@ -592,7 +592,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/bTRqQe0uWdM"
+        "https://www.youtube-nocookie.com/embed/KQX-Ao7cF0E"
       ]
     },
     "languages": [],
@@ -724,7 +724,7 @@
     "name": "Paris Dan Cummins Weather Cam",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/n7EyiWcrD8U"
+        "https://www.youtube-nocookie.com/embed/0-xXLC7IMco"
       ]
     },
     "languages": [],
@@ -772,7 +772,7 @@
     "name": "Richmond, Kentucky",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/WooRZfV4sKM"
+        "https://www.youtube-nocookie.com/embed/sL_2p9vADEY"
       ]
     },
     "languages": [],
@@ -892,7 +892,7 @@
     "name": "Somerset from Lake Cumberland Regional Hospital",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/7r3ExiLcFI8"
+        "https://www.youtube-nocookie.com/embed/onOEha5nSek"
       ]
     },
     "languages": [],

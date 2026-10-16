@@ -372,7 +372,7 @@
     "name": "Congreso del Perú en Vivo",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4PBOiYxjjcI"
+        "https://www.youtube-nocookie.com/embed/rqAA_XwDPqs"
       ]
     },
     "languages": [
@@ -719,8 +719,7 @@
     "name": "Hellenic Parliament TV",
     "sources": {
       "streams": [
-        "https://ert-ucdn.broadpeak-aas.com/bpk-tv/VOULITV/default/index.m3u8",
-        "https://streamer-cache.grnet.gr/parliament/parltv.sdp/master.m3u8"
+        "https://ert-ucdn.broadpeak-aas.com/bpk-tv/VOULITV/default/index.m3u8"
       ]
     },
     "languages": [
@@ -741,6 +740,20 @@
       "eng"
     ],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "p69vsxFs98WVu8",
+    "name": "Hluttaw S & D",
+    "sources": {
+      "streams": [
+        "https://mrtvott.com/cache/MRTV-HLUTTAW/master.m3u8"
+      ]
+    },
+    "languages": [
+      "mya"
+    ],
+    "country": "mm",
     "isGeoBlocked": false
   },
   {
@@ -1000,7 +1013,7 @@
     "name": "Nova24TV 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/7KHhGntQJKc"
+        "https://www.youtube-nocookie.com/embed/TgtUa4ddhCw"
       ]
     },
     "languages": [
@@ -1092,20 +1105,6 @@
       "eng"
     ],
     "country": "nz",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "be0rVB6CUa2XW4",
-    "name": "Pasco TV",
-    "sources": {
-      "streams": [
-        "https://cpcdn.azureedge.net/PASCOCOFLLIVE1/PASCOCOFLLIVE1/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -1214,7 +1213,7 @@
     "name": "Rio TV Câmara",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Ev7S88X9jLI"
+        "https://www.youtube-nocookie.com/embed/747fhkMTVSQ"
       ]
     },
     "languages": [
@@ -1313,20 +1312,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ztLXAJFpTRNVhe",
-    "name": "Thai Parliament Television",
-    "sources": {
-      "streams": [
-        "https://tv-live.tpchannel.org/live/tv.m3u8"
-      ]
-    },
-    "languages": [
-      "tha"
-    ],
-    "country": "th",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "9UN9Gjy7DEzHxw",
     "name": "The City of Marina",
     "sources": {
@@ -1361,7 +1346,7 @@
     "name": "TV Assembleia Minas Gerais",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/05tpi8GQmq4"
+        "https://www.youtube-nocookie.com/embed/DE1tmlXxrHs"
       ]
     },
     "languages": [

@@ -74,7 +74,7 @@
     "name": "Gemeinde TV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Ua9BVSklZpU"
+        "https://www.youtube-nocookie.com/embed/5g46yIyTCNo"
       ]
     },
     "languages": [
@@ -461,20 +461,6 @@
     },
     "languages": [
       "eng"
-    ],
-    "country": "at",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "YQPekJKCEusA1c",
-    "name": "Tirol TV",
-    "sources": {
-      "streams": [
-        "https://streaming14.huberwebmedia.at/LiveApp/streams/livestream.m3u8"
-      ]
-    },
-    "languages": [
-      "deu"
     ],
     "country": "at",
     "isGeoBlocked": false

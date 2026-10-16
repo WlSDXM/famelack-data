@@ -246,20 +246,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "CZ0c6ZasjBnZ4w",
-    "name": "City Eden TeleNovella",
-    "sources": {
-      "streams": [
-        "https://cityeden.catcast.tv/content/46209/index.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "OSKKDWCAHjH9Fa",
     "name": "CNBC-e",
     "sources": {
@@ -293,7 +279,7 @@
     "name": "Cops",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/bULURMtpV2M"
+        "https://www.youtube-nocookie.com/embed/p28z1Y-Mceg"
       ]
     },
     "languages": [
@@ -482,7 +468,7 @@
     "name": "Emret Komutanım",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/b4U9nt3s128"
+        "https://www.youtube-nocookie.com/embed/sU0Jly79jLs"
       ]
     },
     "languages": [
@@ -511,7 +497,7 @@
     "name": "Farscape",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/wxO9iUr4g88"
+        "https://www.youtube-nocookie.com/embed/_IKIyKwvBbI"
       ]
     },
     "languages": [
@@ -612,6 +598,34 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "jMajOHWjzDHSSI",
+    "name": "HBO 2 Latin America",
+    "sources": {
+      "streams": [
+        "https://bantel-cdn1.iptvperu.tv:1936/Bantel_new/hbo2/chunks.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "us",
+    "isGeoBlocked": true
+  },
+  {
+    "nanoid": "qr5SJlcRAJmYsA",
+    "name": "HBO Xtreme Latin America",
+    "sources": {
+      "streams": [
+        "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/HBO_Xtreme/chunks.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "X0zblbZ45u2Fyw",
     "name": "Hell's Kitchen UK",
     "sources": {
@@ -690,7 +704,7 @@
     "name": "Land Of The Lost",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/KsYy5qOJVhs"
+        "https://www.youtube-nocookie.com/embed/lk7BZpk1PZ4"
       ]
     },
     "languages": [
@@ -937,6 +951,20 @@
     "isGeoBlocked": true
   },
   {
+    "nanoid": "R193ToXFYYRnV4",
+    "name": "Serie Max",
+    "sources": {
+      "streams": [
+        "https://video1.getstreamhosting.com:1936/8330/8330/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "ci",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "MmvGAkIJ1Y1or8",
     "name": "Shout! Studios: Dennis the Menace",
     "sources": {
@@ -956,20 +984,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/xE098Hrr-co"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "rkSBlkz2deLyQZ",
-    "name": "Shout! Studios: Get A Life",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/yhhKQ_BGXhw"
       ]
     },
     "languages": [
@@ -1005,6 +1019,20 @@
       "fra"
     ],
     "country": "fr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "i6qK9glkflv1h2",
+    "name": "Star Channel Latin America South",
+    "sources": {
+      "streams": [
+        "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/StarChannel.stream/chunks.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -1118,6 +1146,34 @@
     },
     "languages": [
       "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "eH1h99AZo4vgfa",
+    "name": "TNT Novelas Panregional",
+    "sources": {
+      "streams": [
+        "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/tntnovelas.stream/chunks.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "JU01sbHNW54UMe",
+    "name": "TNT Series Latin America South",
+    "sources": {
+      "streams": [
+        "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/TNTseries.stream/chunks.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
     ],
     "country": "us",
     "isGeoBlocked": false

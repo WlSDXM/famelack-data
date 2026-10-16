@@ -681,7 +681,8 @@
     "name": "Pearl FM",
     "sources": {
       "streams": [
-        "https://dc4.serverse.com/proxy/pearlfm/stream"
+        "https://dc4.serverse.com/proxy/pearlfm/stream",
+        "https://dc4.serverse.com/proxy/pearlfm/stream/1/"
       ]
     },
     "languages": [

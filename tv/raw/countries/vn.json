@@ -1,5 +1,34 @@
 [
   {
+    "nanoid": "79lqDZYF5l4OvA",
+    "name": "An Ninh TV",
+    "sources": {
+      "streams": [
+        "https://freem3u.xyz/api/live/play.m3u8?vid=20"
+      ]
+    },
+    "languages": [
+      "vie"
+    ],
+    "country": "vn",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "MW4dJ69gdqJN9m",
+    "name": "Asian Food Network Vietnam",
+    "sources": {
+      "streams": [
+        "https://freem3u.xyz/api/live/play.m3u8?vid=215"
+      ]
+    },
+    "languages": [
+      "eng",
+      "vie"
+    ],
+    "country": "vn",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "n5a2vy0RLNr42v",
     "name": "Can Tho TV",
     "sources": {
@@ -19,20 +48,6 @@
     "sources": {
       "streams": [
         "https://live.canthotv.vn/cs2/live.stream/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "vie"
-    ],
-    "country": "vn",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "9mkVX2EDgu3ZHf",
-    "name": "Can Tho TV 3",
-    "sources": {
-      "streams": [
-        "https://live.canthotv.vn/cs3/tv/chunklist.m3u8"
       ]
     },
     "languages": [
@@ -72,7 +87,7 @@
     "name": "DGV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/UX-kpfFo47s"
+        "https://www.youtube-nocookie.com/embed/R8kVEeT89xA"
       ]
     },
     "languages": [
@@ -124,34 +139,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "QnYbafq8SSO9v0",
-    "name": "HanoiTV1",
-    "sources": {
-      "streams": [
-        "https://cloudstreamhntv.tek4tv.vn/capture/smil:HN1.smil/chunklist.m3u8"
-      ]
-    },
-    "languages": [
-      "vie"
-    ],
-    "country": "vn",
-    "isGeoBlocked": true
-  },
-  {
-    "nanoid": "MO8deGVLY2zQ9f",
-    "name": "HanoiTV2",
-    "sources": {
-      "streams": [
-        "https://cloudstreamhntv.tek4tv.vn/live/smil:HN2.smil/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "vie"
-    ],
-    "country": "vn",
-    "isGeoBlocked": true
-  },
-  {
     "nanoid": "6EdtrtcTzJTHBM",
     "name": "HTV4",
     "sources": {
@@ -166,25 +153,23 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "PYD65sKTsyBg8u",
+    "name": "Lao Cai TV",
+    "sources": {
+      "streams": [
+        "https://live.baolaocai.vn/channel2/stream.m3u8"
+      ]
+    },
+    "languages": [],
+    "country": "vn",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "nfUMYUgBEhhJaP",
     "name": "Lao SV TV",
     "sources": {
       "streams": [
         "https://livefta.malimarcdn.com/ftaedge00/laosvtv.stream/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "vie"
-    ],
-    "country": "vn",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "GYggfQq3olGvXb",
-    "name": "Lao-Thai TV",
-    "sources": {
-      "streams": [
-        "https://livefta.malimarcdn.com/ftaedge00/laothaius.sdp/playlist.m3u8"
       ]
     },
     "languages": [
@@ -236,6 +221,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "dnAjiRdyXVXCGu",
+    "name": "Outdoor Channel Vietnam",
+    "sources": {
+      "streams": [
+        "https://freem3u.xyz/api/live/play.m3u8?vid=216"
+      ]
+    },
+    "languages": [
+      "eng",
+      "vie"
+    ],
+    "country": "vn",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "1Z09wt5wx76BFs",
     "name": "QPVN",
     "sources": {
@@ -254,7 +254,7 @@
     "name": "Quang Lập Official",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/dgisExH-cQA"
+        "https://www.youtube-nocookie.com/embed/rQZ9j6r0wro"
       ]
     },
     "languages": [
@@ -317,7 +317,7 @@
       "vie"
     ],
     "country": "vn",
-    "isGeoBlocked": true
+    "isGeoBlocked": false
   },
   {
     "nanoid": "WDpo6d5ejxs4be",
@@ -527,7 +527,7 @@
       "vie"
     ],
     "country": "vn",
-    "isGeoBlocked": true
+    "isGeoBlocked": false
   },
   {
     "nanoid": "OHw1zTMDs2YTrv",

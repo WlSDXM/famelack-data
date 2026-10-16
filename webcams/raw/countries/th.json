@@ -36,6 +36,30 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "azIiuQpauKCvZx",
+    "name": "Big Buddha Pier, Koh Samui",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/ueGevhUuqZc"
+      ]
+    },
+    "languages": [],
+    "country": "th",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "WdMAKhDtBj3chE",
+    "name": "Bondi Bar Lamai",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/wP4gD-5g-90"
+      ]
+    },
+    "languages": [],
+    "country": "th",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "OqrPWuhe8bHe0w",
     "name": "Chaweng Beach Street View",
     "sources": {
@@ -124,7 +148,7 @@
     "name": "Khao Lak",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/jicF3UYfNus"
+        "https://www.youtube-nocookie.com/embed/eD_HcUSjmj4"
       ]
     },
     "languages": [],
@@ -172,7 +196,7 @@
     "name": "Pattaya Beach Road",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Bl31TjIJAzI"
+        "https://www.youtube-nocookie.com/embed/IQILBfKSicE"
       ]
     },
     "languages": [],
@@ -208,7 +232,7 @@
     "name": "Soi Buakhao Bar Strip",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/d9ymQ-xBGn8"
+        "https://www.youtube-nocookie.com/embed/dL0vVMwEBrU"
       ]
     },
     "languages": [],

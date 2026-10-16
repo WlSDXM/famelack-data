@@ -1,5 +1,36 @@
 [
   {
+    "nanoid": "F2ze7vbKV6XjQT",
+    "name": "KIX",
+    "sources": {
+      "streams": [
+        "https://freem3u.xyz/api/live/play.m3u8?vid=9901"
+      ]
+    },
+    "languages": [
+      "eng",
+      "ind",
+      "msa",
+      "zho"
+    ],
+    "country": "hk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "jzFKU5qfcCYERI",
+    "name": "NewsWorld FAST",
+    "sources": {
+      "streams": [
+        "https://amg01076-lightning-amg01076c5-rakuten-us-1788.playouts.now.amagi.tv/playlist/amg01076-lightning-newsworld-rakutenus/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "hk",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "cq6tthzEoEuekR",
     "name": "Pet Club TV",
     "sources": {

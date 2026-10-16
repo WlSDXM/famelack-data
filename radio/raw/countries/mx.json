@@ -623,6 +623,7 @@
     "name": "Antena 102.5 FM",
     "sources": {
       "streams": [
+        "https://streamingcwsradio30.com:7093/listen.pls/",
         "https://streamingcwsradio30.com:7093/stream",
         "https://streamingcwsradio30.com:7093/;"
       ]
@@ -3043,6 +3044,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "QkEueiYE9EU6I1",
+    "name": "Expresión Radio",
+    "sources": {
+      "streams": [
+        "https://streaming.servicioswebmx.com/8118/listen.pls/"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "VB0q0QRL3bpinf",
     "name": "Éxtasis Digital 94.9 FM",
     "sources": {
@@ -3472,6 +3487,20 @@
         "https://fusion.centrocibernetico.com/",
         "https://sgaudio.centrocibernetico.com/fusion",
         "https://sg.centrocibernetico.com/fusion"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "1uUoy4riPz6fw3",
+    "name": "Fusión 102.5",
+    "sources": {
+      "streams": [
+        "https://s2.mexside.net:7026/listen.pls/"
       ]
     },
     "languages": [
@@ -4872,7 +4901,8 @@
     "name": "La Ke Buena 90.1 FM",
     "sources": {
       "streams": [
-        "https://stream.zeno.fm/5t4ngp8hfphvv"
+        "https://stream.zeno.fm/5t4ngp8hfphvv",
+        "https://streaming.servicioswebmx.com:8304/stream/1/"
       ]
     },
     "languages": [
@@ -5639,6 +5669,7 @@
     "sources": {
       "streams": [
         "https://streamingcwsradio30.com:7058/;",
+        "https://streamingcwsradio30.com:7058/listen.pls/",
         "https://playerservices.streamtheworld.com/api/livestream-redirect/XHENAAAC.aac"
       ]
     },
@@ -5873,6 +5904,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "UbLTonfTxAuviQ",
+    "name": "La Patrona 91.1 FM",
+    "sources": {
+      "streams": [
+        "https://streamingcwsradio30.com:7067/listen.pls/"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "sN8Z0cFaQWbDZV",
     "name": "La Patrona 91.3 FM",
     "sources": {
@@ -5947,6 +5992,7 @@
     "name": "La Patrona 95.1 FM",
     "sources": {
       "streams": [
+        "https://streamingcwsradio30.com:7064/listen.pls/",
         "https://streamingcwsradio30.com:7064/;"
       ]
     },
@@ -6201,6 +6247,20 @@
     "sources": {
       "streams": [
         "https://stream.zeno.fm/g0fffb5ub84tv"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "kKIvpJTO12wy7W",
+    "name": "La Primera 105.9 FM",
+    "sources": {
+      "streams": [
+        "https://streamingcwsradio30.com:7112/listen.pls/"
       ]
     },
     "languages": [
@@ -8046,8 +8106,9 @@
     "name": "Mexiquense Radio 88.5 FM",
     "sources": {
       "streams": [
-        "https://streamingcwsradio30.com:7049/mexiquense",
-        "https://streamingcwsradio30.com:7049/;"
+        "https://streamingcwsradio30.com:7049/;",
+        "https://streamingcwsradio30.com:7049/listen.pls/",
+        "https://streamingcwsradio30.com:7049/mexiquense"
       ]
     },
     "languages": [
@@ -8061,7 +8122,9 @@
     "name": "Mexiquense Radio 91.7 FM",
     "sources": {
       "streams": [
-        "https://streamingcwsradio30.com:7019/;"
+        "https://streamingcwsradio30.com:7019/;",
+        "https://streamingcwsradio30.com:7019/listen.pls/",
+        "https://streamingcwsradio30.com:7047/listen.pls/"
       ]
     },
     "languages": [
@@ -8075,7 +8138,22 @@
     "name": "Mexiquense Radio 104.5 FM",
     "sources": {
       "streams": [
-        "https://streamingcwsradio30.com:7048/;"
+        "https://streamingcwsradio30.com:7048/;",
+        "https://streamingcwsradio30.com:7048/listen.pls/"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "FfJaQD1TnIpJ6O",
+    "name": "Mexiquense Radio 1080 AM",
+    "sources": {
+      "streams": [
+        "https://streamingcwsradio30.com:7050/listen.pls/"
       ]
     },
     "languages": [
@@ -8089,7 +8167,8 @@
     "name": "Mexiquense Radio 1600 AM",
     "sources": {
       "streams": [
-        "https://streamingcwsradio30.com:7046/;"
+        "https://streamingcwsradio30.com:7046/;",
+        "https://streamingcwsradio30.com:7046/listen.pls/"
       ]
     },
     "languages": [
@@ -8870,7 +8949,8 @@
     "name": "Radiante 91.1 FM",
     "sources": {
       "streams": [
-        "https://streamingcwsradio30.com:7035/;"
+        "https://streamingcwsradio30.com:7035/;",
+        "https://streamingcwsradio30.com:7035/listen.pls/"
       ]
     },
     "languages": [
@@ -8884,7 +8964,8 @@
     "name": "Radiante 98.3 FM",
     "sources": {
       "streams": [
-        "https://streamingcwsradio30.com:7034/;"
+        "https://streamingcwsradio30.com:7034/;",
+        "https://streamingcwsradio30.com:7034/listen.pls/"
       ]
     },
     "languages": [
@@ -10092,7 +10173,8 @@
     "name": "Radio Lobo 88.3 FM",
     "sources": {
       "streams": [
-        "https://radios.radiohd.com.mx/8270/;"
+        "https://radios.radiohd.com.mx/8270/;",
+        "https://radios.radiohd.com.mx/8270/listen.pls/"
       ]
     },
     "languages": [
@@ -10134,7 +10216,8 @@
     "name": "Radio Madera 96.1 FM",
     "sources": {
       "streams": [
-        "https://streamingcwsradio30.com:7113/;"
+        "https://streamingcwsradio30.com:7113/;",
+        "https://streamingcwsradio30.com:7113/listen.pls/"
       ]
     },
     "languages": [
@@ -10618,6 +10701,20 @@
     "sources": {
       "streams": [
         "https://streamingcwsradio30.com/8212/stream"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "fNbLpmEXA7M7ha",
+    "name": "Radio UJAT 107.3 FM",
+    "sources": {
+      "streams": [
+        "https://streamingcwsradio30.com/8212/listen.pls/"
       ]
     },
     "languages": [
@@ -11502,6 +11599,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "GRsP2OJ6APVQAE",
+    "name": "Stereo Uno 100.3 FM",
+    "sources": {
+      "streams": [
+        "https://audiostreaming.luz.network/stream/13/"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "puy6PedtIO6NXs",
     "name": "Stereo Uno 101.3 FM",
     "sources": {
@@ -12274,6 +12385,20 @@
     "sources": {
       "streams": [
         "https://stream.zenolive.com/sy87dubz5f5tv"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "FH8z29jzeVbrBu",
+    "name": "Vive FM 89.5",
+    "sources": {
+      "streams": [
+        "https://s2.mexside.net/8100/listen.pls/"
       ]
     },
     "languages": [

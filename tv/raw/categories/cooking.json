@@ -16,6 +16,21 @@
     "isGeoBlocked": true
   },
   {
+    "nanoid": "MW4dJ69gdqJN9m",
+    "name": "Asian Food Network Vietnam",
+    "sources": {
+      "streams": [
+        "https://freem3u.xyz/api/live/play.m3u8?vid=215"
+      ]
+    },
+    "languages": [
+      "eng",
+      "vie"
+    ],
+    "country": "vn",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "UScHhHKQkcsuIt",
     "name": "BBC Food",
     "sources": {
@@ -86,6 +101,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "iHcfV4gwyUQYof",
+    "name": "Dens Food Channel",
+    "sources": {
+      "streams": [
+        "https://op-flashcon-digdayahd-1.dens.tv/h/h221/02.m3u8"
+      ]
+    },
+    "languages": [
+      "ind"
+    ],
+    "country": "id",
+    "isGeoBlocked": true
+  },
+  {
     "nanoid": "Y8AFU7NIgn2ZOP",
     "name": "El Gourmet South",
     "sources": {
@@ -112,6 +141,20 @@
       "hin"
     ],
     "country": "in",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "7mF9lPyV9Hym2p",
+    "name": "Food Network",
+    "sources": {
+      "streams": [
+        "https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/FOODNETWORK/CMAF/index.m3u8"
+      ]
+    },
+    "languages": [
+      "ita"
+    ],
+    "country": "it",
     "isGeoBlocked": false
   },
   {
@@ -291,9 +334,9 @@
     "name": "Tastemade US",
     "sources": {
       "streams": [
+        "https://amg00047-tastemade-amg00047c4-cineverse-us-1361.playouts.now.amagi.tv/playlist/amg00047-tastemadefast-tastemadefreetv16-cineverseus/playlist.m3u8",
         "https://pb-rlo4if9lnjthw.akamaized.net/Tastemade.m3u8",
-        "https://rakutenaa-tm-intl-aus-rakuten-eu-n1gtg.amagi.tv/playlist/rakutenAA-tm-intl-aus-rakuten-eu/playlist.m3u8",
-        "https://amg00047-tastemade-amg00047c4-cineverse-us-1361.playouts.now.amagi.tv/playlist/amg00047-tastemadefast-tastemadefreetv16-cineverseus/playlist.m3u8"
+        "https://rakutenaa-tm-intl-aus-rakuten-eu-n1gtg.amagi.tv/playlist/rakutenAA-tm-intl-aus-rakuten-eu/playlist.m3u8"
       ]
     },
     "languages": [

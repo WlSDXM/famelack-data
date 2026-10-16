@@ -9824,8 +9824,8 @@
     "name": "ByteFM",
     "sources": {
       "streams": [
-        "https://uplink.byte.fm/bytefm-mainhq/mp3-192/",
         "https://bytefm.cast.addradio.de/bytefm/main/high/stream",
+        "https://uplink.byte.fm/bytefm-mainhq/mp3-192/",
         "https://uplink.byte.fm/bytefm-main/mp3-128/"
       ]
     },
@@ -10247,6 +10247,20 @@
     "sources": {
       "streams": [
         "https://classicrock.stream.laut.fm/classicrock"
+      ]
+    },
+    "languages": [
+      "deu"
+    ],
+    "country": "de",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "keWfdxgKZgYfZu",
+    "name": "Classic Videogames Radio",
+    "sources": {
+      "streams": [
+        "https://lead-server.de:1551/stream/2/"
       ]
     },
     "languages": [
@@ -11366,7 +11380,9 @@
     "name": "detektor.fm Musik",
     "sources": {
       "streams": [
-        "https://streams.detektor.fm/musik/aac-128/streams.detektor.fm"
+        "https://detektor.fm/stream/mp3/musik/",
+        "https://streams.detektor.fm/musik/aac-128/streams.detektor.fm",
+        "https://detektor.fm/stream/aac/musik/"
       ]
     },
     "languages": [
@@ -11381,6 +11397,7 @@
     "sources": {
       "streams": [
         "https://detektorfm.streamabc.net/detek-detektorfmwort-mp3-256-1425600",
+        "https://detektor.fm/stream/mp3/wort/",
         "https://streams.detektor.fm/wort/aac-128/streams.detektor.fm"
       ]
     },
@@ -12183,7 +12200,8 @@
     "name": "DWG Radio - Deutsch",
     "sources": {
       "streams": [
-        "https://server23644.streamplus.de/;"
+        "https://server23644.streamplus.de/;",
+        "https://server23644.streamplus.de/listen.pls/"
       ]
     },
     "languages": [

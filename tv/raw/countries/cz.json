@@ -42,6 +42,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "2Gi4riOGPwTn6u",
+    "name": "Current Time TV",
+    "sources": {
+      "streams": [
+        "https://rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/master.m3u8",
+        "https://dash3.antik.sk/live/test_current_time_atktv/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "cz",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "dbyEgy08JOPZdU",
     "name": "DVTV Extra",
     "sources": {
@@ -79,20 +94,6 @@
     },
     "languages": [
       "ces"
-    ],
-    "country": "cz",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Cpn6uRs6WJZHOr",
-    "name": "HAHA TV",
-    "sources": {
-      "streams": [
-        "https://dash3.antik.sk/live/test_haha_tv/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "slk"
     ],
     "country": "cz",
     "isGeoBlocked": false

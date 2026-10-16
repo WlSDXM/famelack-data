@@ -42,6 +42,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "hv5hUXMQAlrjyb",
+    "name": "TV Arta",
+    "sources": {
+      "streams": [
+        "https://gjirafa-video-live.gjirafa.net/gjvideo-live/mps-vgx-u9p-qv1/index.m3u8"
+      ]
+    },
+    "languages": [
+      "sqi"
+    ],
+    "country": "xk",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "K7EjioStSyXmA8",
     "name": "TV Syri",
     "sources": {

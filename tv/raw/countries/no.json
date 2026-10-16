@@ -1,21 +1,5 @@
 [
   {
-    "nanoid": "gype1Rdsg8nVpE",
-    "name": "Canal Motor",
-    "sources": {
-      "streams": [
-        "https://digicom.hls.iptvdc.com/canalmotor/index.m3u8",
-        "https://digicom.hls.iptvdc.com/motorstv/index.m3u8"
-      ]
-    },
-    "languages": [
-      "eng",
-      "nor"
-    ],
-    "country": "no",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "e3NUApkCSGAi5K",
     "name": "TV Ostfold",
     "sources": {

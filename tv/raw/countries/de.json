@@ -57,6 +57,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "Mn9IVvdpmAf7oU",
+    "name": "Altenburg TV",
+    "sources": {
+      "streams": [
+        "https://sdn-global-live-streaming-packager-cache.3qsdn.com/132661/132661_264_live.m3u8"
+      ]
+    },
+    "languages": [
+      "deu"
+    ],
+    "country": "de",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "IJpns8FI8lNpRr",
     "name": "ARD-alpha",
     "sources": {
@@ -240,11 +254,54 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "E3Fuo7LqwAfWE9",
+    "name": "Deluxe Dance",
+    "sources": {
+      "streams": [
+        "https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "de",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "hoEK50b8RIgSOh",
     "name": "Deluxe Music",
     "sources": {
       "streams": [
         "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8"
+      ]
+    },
+    "languages": [
+      "deu"
+    ],
+    "country": "de",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "kxfwLfpFpzHMm2",
+    "name": "Deluxe Rap",
+    "sources": {
+      "streams": [
+        "https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8"
+      ]
+    },
+    "languages": [
+      "deu",
+      "eng"
+    ],
+    "country": "de",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "nSzgFY1wA728Rf",
+    "name": "Disney Channel",
+    "sources": {
+      "streams": [
+        "https://s6.hopslan.com/disneyX/index.m3u8"
       ]
     },
     "languages": [
@@ -305,7 +362,7 @@
       "streams": [
         "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8",
         "https://amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01644-amg01644c1-amgplt0343/playlist.m3u8",
-        "https://mumt05.tangotv.in/87NeALx2DWTV/index.m3u8"
+        "https://freem3u.xyz/api/live/play.m3u8?vid=109"
       ],
       "youtube": [
         "https://www.youtube-nocookie.com/embed/LuKwFajn37U"
@@ -315,7 +372,7 @@
       "eng"
     ],
     "country": "de",
-    "isGeoBlocked": true
+    "isGeoBlocked": false
   },
   {
     "nanoid": "H4HR8svz54XngH",
@@ -489,20 +546,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "xceNg3zrNinnuh",
-    "name": "Glück Auf TV - Mittel Erzgebirgs Fernsehen",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/v8FxW7UhLxI"
-      ]
-    },
-    "languages": [
-      "deu"
-    ],
-    "country": "de",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "NYCRxxM21wcIxY",
     "name": "Graham Norton Germany",
     "sources": {
@@ -559,7 +602,7 @@
     "name": "Hits Radio 1: Pop",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/UWc_vMRGxDs"
+        "https://www.youtube-nocookie.com/embed/40GqAOnQGoA"
       ]
     },
     "languages": [
@@ -647,7 +690,7 @@
         "https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/7441_264_live.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/hHrJB5xMQ7g"
+        "https://www.youtube-nocookie.com/embed/YO54qTdz6QI"
       ]
     },
     "languages": [
@@ -671,11 +714,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "BwAEx0LmqBTmqp",
-    "name": "Kanal 9 Erzgebirge",
+    "nanoid": "RefcIuSWqtTcds",
+    "name": "kabel eins Doku",
     "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/sq17gOqi3dY"
+      "streams": [
+        "https://s6.hopslan.com/dokuX/index.m3u8"
       ]
     },
     "languages": [
@@ -689,8 +732,7 @@
     "name": "KaufBei TV",
     "sources": {
       "streams": [
-        "https://elephant.t62a.com/hls/8103/index.m3u8",
-        "https://api.alpaca.t62a.com/hls/9103/index.m3u8"
+        "https://elephant.t62a.com/hls/8103/index.m3u8"
       ]
     },
     "languages": [
@@ -742,6 +784,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "xwu9RwQkvtgOhW",
+    "name": "Love The Planet DE",
+    "sources": {
+      "streams": [
+        "https://amg01821-amg01821c12-rlaxx-gb-10461.playouts.now.amagi.tv/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "deu"
+    ],
+    "country": "de",
+    "isGeoBlocked": true
+  },
+  {
     "nanoid": "D9DLpbpBMDweEB",
     "name": "MDR Fernsehen Sachsen",
     "sources": {
@@ -783,6 +839,20 @@
     ],
     "country": "de",
     "isGeoBlocked": true
+  },
+  {
+    "nanoid": "xYgLb0tc6pAHED",
+    "name": "More Than Sports TV",
+    "sources": {
+      "streams": [
+        "https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "deu"
+    ],
+    "country": "de",
+    "isGeoBlocked": false
   },
   {
     "nanoid": "ojY3PgU9rwk9x4",
@@ -842,14 +912,17 @@
     "isGeoBlocked": true
   },
   {
-    "nanoid": "4YOpv1CYox1W50",
-    "name": "Naruto Germany",
+    "nanoid": "ZUrwxBDVVmyicG",
+    "name": "NDR Fernsehen International",
     "sources": {
       "streams": [
-        "https://palatinmedia-naruto-rakuten.amagi.tv/playlist.m3u8"
+        "https://ndrint.akamaized.net/hls/live/2020766/ndr_int/index.m3u8",
+        "https://dash3.antik.sk/live/test_ndr_tizen/playlist.m3u8"
       ]
     },
-    "languages": [],
+    "languages": [
+      "deu"
+    ],
     "country": "de",
     "isGeoBlocked": false
   },
@@ -1304,37 +1377,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "FT8VcZltRS1FOf",
-    "name": "Rakuten TV Action Movies Germany",
+    "nanoid": "SMFkP3zTr5LosF",
+    "name": "Rakuten TV German Cinema",
     "sources": {
       "streams": [
-        "https://284824cf70404fdfb6ddf9349009c710.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6066/master.m3u8"
-      ]
-    },
-    "languages": [
-      "deu"
-    ],
-    "country": "de",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "rahlDGPnE1FWrR",
-    "name": "Rakuten TV Crime Series Germany",
-    "sources": {
-      "streams": [
-        "https://b6244e915ee04a5aa758e863a55a6a3d.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6217/master.m3u8"
-      ]
-    },
-    "languages": [],
-    "country": "de",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "gaIbE0ft11ifJV",
-    "name": "Rakuten TV Romance Movies Germany",
-    "sources": {
-      "streams": [
-        "https://romance-rakuten-tv-de.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6475/master.m3u8"
+        "https://a5dc66582aa040269fd99d7d7a6ac23b.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6200/master.m3u8"
       ]
     },
     "languages": [],
@@ -1430,7 +1477,8 @@
     "name": "RiC",
     "sources": {
       "streams": [
-        "https://rictv.iptv-playoutcenter.de/rictv/rictv-web/playlist.m3u8"
+        "https://rictv.iptv-playoutcenter.de/rictv/rictv-web/playlist.m3u8",
+        "https://rictv.iptv-playoutcenter.de/rictv/rictv-web/chunks.m3u8"
       ]
     },
     "languages": [
@@ -1768,6 +1816,49 @@
     "sources": {
       "streams": [
         "https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8"
+      ]
+    },
+    "languages": [
+      "deu"
+    ],
+    "country": "de",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "APsiDTtaBUvYQA",
+    "name": "teltOwkanal",
+    "sources": {
+      "streams": [
+        "https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd8/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "deu"
+    ],
+    "country": "de",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "OR0bcDdbzNJR50",
+    "name": "Terra Mater WILD English",
+    "sources": {
+      "streams": [
+        "https://amg01775-amg01775c1-amgplt0343.playout.now3.amagi.tv/playlist/amg01775-amg01775c1-amgplt0343/playlist.m3u8",
+        "https://amg01775-amg01775c1-amgplt0002.playout.now3.amagi.tv/playlist/amg01775-amg01775c1-amgplt0002/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "de",
+    "isGeoBlocked": true
+  },
+  {
+    "nanoid": "OfmMpkKE1FtNkl",
+    "name": "TLC",
+    "sources": {
+      "streams": [
+        "https://s6.hopslan.com/tlcX/index.m3u8"
       ]
     },
     "languages": [
@@ -2127,18 +2218,6 @@
     "sources": {
       "streams": [
         "https://amg00353-amg00353c28-rakuten-us-4895.playouts.now.amagi.tv/playlist.m3u8"
-      ]
-    },
-    "languages": [],
-    "country": "de",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "79fVSOpRIHlsyq",
-    "name": "World of Freesports",
-    "sources": {
-      "streams": [
-        "https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8"
       ]
     },
     "languages": [],

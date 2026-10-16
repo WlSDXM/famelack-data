@@ -6697,6 +6697,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "2CwgH8FIck7FrF",
+    "name": "Helia",
+    "sources": {
+      "streams": [
+        "https://audio.lucaslempereur.fr/helia/"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "fr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "j55qOvZNyBfmO3",
     "name": "Hello Provence",
     "sources": {
@@ -13711,6 +13725,20 @@
     "sources": {
       "streams": [
         "https://streams.labomedia.org:8443/stream_rco"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "fr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ecpuLh18HMq2Ww",
+    "name": "Radio Campus Paris",
+    "sources": {
+      "streams": [
+        "https://www.radiocampusparis.org/stream/"
       ]
     },
     "languages": [

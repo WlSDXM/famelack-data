@@ -72,6 +72,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "b1T2dd1aO4vP0P",
+    "name": "Bonaire Coral Reef",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Qcmegnol9ys"
+      ]
+    },
+    "languages": [],
+    "country": "bq",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "gqwNp41tAHlVG6",
     "name": "Budapest Zoo Shark Aquarium",
     "sources": {
@@ -300,18 +312,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Ph3VA2zoMfniCC",
-    "name": "National Aquarium Reef Cam",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/KSxc-N67TU4"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "A7VCf2CnryurAV",
     "name": "Open Sea Exhibit Cam",
     "sources": {
@@ -388,7 +388,7 @@
     "name": "Silver Springs Manatee 180-Degree Underwater",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/zPqPFZMGTF8"
+        "https://www.youtube-nocookie.com/embed/uWiJ9qCYxoo"
       ]
     },
     "languages": [],
@@ -448,7 +448,7 @@
     "name": "Underwater Fish",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ALJRFvWOR9E"
+        "https://www.youtube-nocookie.com/embed/IJLigiwgdFA"
       ]
     },
     "languages": [],

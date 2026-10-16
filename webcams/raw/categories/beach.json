@@ -36,18 +36,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "gWJpvrwv2nPg9C",
-    "name": "Acapulco Bay Skyline Panorama",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/wTpTtzT4j0Q"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "RfMHXwj6TKJDxP",
     "name": "Acqualina Beach",
     "sources": {
@@ -57,6 +45,18 @@
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "CS2rZwPTZNFivs",
+    "name": "AIDA Bandar Jissah",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/lgQ8-E3rJ_4"
+      ]
+    },
+    "languages": [],
+    "country": "om",
     "isGeoBlocked": false
   },
   {
@@ -220,7 +220,7 @@
     "name": "Arraial do Cabo",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/cgibppPIx_s"
+        "https://www.youtube-nocookie.com/embed/dgd1eqX3M8U"
       ]
     },
     "languages": [],
@@ -280,7 +280,7 @@
     "name": "Avenida Perú Viña del Mar",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/PRqKjpMiruo"
+        "https://www.youtube-nocookie.com/embed/bN5mjTdJzBI"
       ]
     },
     "languages": [],
@@ -532,7 +532,7 @@
     "name": "Beach Bar & Seaside Promenade",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/AnQRM1q16kc"
+        "https://www.youtube-nocookie.com/embed/BvaNtRp_2pM"
       ]
     },
     "languages": [],
@@ -600,11 +600,23 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "azIiuQpauKCvZx",
+    "name": "Big Buddha Pier, Koh Samui",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/ueGevhUuqZc"
+      ]
+    },
+    "languages": [],
+    "country": "th",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "56PuvF0c6qYFih",
     "name": "Biloxi Beach Boulevard",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Rea_GEBq1hU"
+        "https://www.youtube-nocookie.com/embed/eSbyPyM9dec"
       ]
     },
     "languages": [],
@@ -700,7 +712,7 @@
     "name": "Bonny Hills Beach House",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/RAKFIzUb-lc"
+        "https://www.youtube-nocookie.com/embed/tiYla0081oc"
       ]
     },
     "languages": [],
@@ -792,6 +804,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "KNTaWQUBuNDpKp",
+    "name": "Buccanos Beach Club",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/9SzSS5QhkQc"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "bOvYP3IuSesZCi",
     "name": "Cahoon Hollow Beach at the Wellfleet Beachcomber",
     "sources": {
@@ -821,6 +845,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/tujHigBn_3E"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "lvAJbaXTeHQIjz",
+    "name": "Cala Agulla Beachfront View",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/t0wN-5gU2vs"
       ]
     },
     "languages": [],
@@ -952,7 +988,7 @@
     "name": "Campus Point Surf",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/sVENjHlL4Pk"
+        "https://www.youtube-nocookie.com/embed/V4h2soMLLPU"
       ]
     },
     "languages": [],
@@ -1044,18 +1080,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "pOBJt7pQ2bJiuE",
-    "name": "Carillon Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/QiSgK8TiNpU"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "8xszH6LyW0wGkJ",
     "name": "Carolina Beach",
     "sources": {
@@ -1108,7 +1132,7 @@
     "name": "Chesterman Beach, Tofino",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/LGbwe4fqzIA"
+        "https://www.youtube-nocookie.com/embed/Yx9WvQiTCLo"
       ]
     },
     "languages": [],
@@ -1476,18 +1500,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "286F8lBGNvMlkL",
-    "name": "Dune Allen Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/xNZBPxx8ykg"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "ogXg4IRibb1QNP",
     "name": "Dunes of Seagrove",
     "sources": {
@@ -1552,7 +1564,7 @@
     "name": "East Hampton Main Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/CAvD25PSe2E"
+        "https://www.youtube-nocookie.com/embed/C92aPUuBWA4"
       ]
     },
     "languages": [],
@@ -1576,7 +1588,7 @@
     "name": "East Pass 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/_vKSV4RfU6c"
+        "https://www.youtube-nocookie.com/embed/Q3pDjBM_xu8"
       ]
     },
     "languages": [],
@@ -1756,7 +1768,7 @@
     "name": "Evanston Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/yzSo_TOyrpw"
+        "https://www.youtube-nocookie.com/embed/xrqe-P1uT_I"
       ]
     },
     "languages": [],
@@ -1792,7 +1804,7 @@
     "name": "Faro Monumental de La Serena",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/xOeX3JiD2CI"
+        "https://www.youtube-nocookie.com/embed/M_Qk3Bv0-So"
       ]
     },
     "languages": [],
@@ -1992,6 +2004,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "2vJJWv578aBryv",
+    "name": "Gangmun Beach",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/ZddW7k1ZXr4"
+      ]
+    },
+    "languages": [],
+    "country": "kr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "nrgfLy8cA3eSgb",
     "name": "Garbí Sailing School",
     "sources": {
@@ -2001,18 +2025,6 @@
     },
     "languages": [],
     "country": "es",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "zc7E5xtZqNaqK2",
-    "name": "Gardens Plaza Skyline South",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/SAfiCTMfG9w"
-      ]
-    },
-    "languages": [],
-    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -2032,7 +2044,7 @@
     "name": "Georgica Jetty",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/AiCID_F5GtA"
+        "https://www.youtube-nocookie.com/embed/nsFlNakBKIs"
       ]
     },
     "languages": [],
@@ -2520,18 +2532,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "5gCWR7QYQrTt4u",
-    "name": "Ixtapa-Zihuatanejo East View",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/_ZAAyEDHSE0"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Cu0dDTStGCUva3",
     "name": "J.C.J. van Speijk Lighthouse, Egmond aan Zee",
     "sources": {
@@ -2788,7 +2788,7 @@
     "name": "KJD BUM Žusterna",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/SFAybnT6Elo"
+        "https://www.youtube-nocookie.com/embed/e-bHddwseMg"
       ]
     },
     "languages": [],
@@ -2872,7 +2872,7 @@
     "name": "La Concha Beach, San Sebastián",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Qw7aeUZpLTM"
+        "https://www.youtube-nocookie.com/embed/N1leboi8ePI"
       ]
     },
     "languages": [],
@@ -2992,7 +2992,7 @@
     "name": "Lawai Beach Resort",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/3ATYHKN2hIg"
+        "https://www.youtube-nocookie.com/embed/wTLnC0o0UJ0"
       ]
     },
     "languages": [],
@@ -3004,7 +3004,7 @@
     "name": "Le Morne",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/k7jWweZ_yyw"
+        "https://www.youtube-nocookie.com/embed/J2DT0xGbXCs"
       ]
     },
     "languages": [],
@@ -3160,7 +3160,7 @@
     "name": "Los Muertos Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/V2ULi9tICMY"
+        "https://www.youtube-nocookie.com/embed/zIHFaiBSe1k"
       ]
     },
     "languages": [],
@@ -3189,18 +3189,6 @@
     },
     "languages": [],
     "country": "hr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "ZvWVjCAcGktPms",
-    "name": "Lulworth Cove on Jurassic Coast",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/mGlsYdJk5r8"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
     "isGeoBlocked": false
   },
   {
@@ -3300,18 +3288,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "azJQg5pnMmRjx2",
-    "name": "Magaluf Beach & Punta Ballena",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/r0SNciGrKhA"
-      ]
-    },
-    "languages": [],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "DDkM90dfFzIbck",
     "name": "Maho Bay HD",
     "sources": {
@@ -3352,7 +3328,7 @@
     "name": "Maho Beach Plane Spotting",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Kj35XxirnpM"
+        "https://www.youtube-nocookie.com/embed/zl-K_XGYJes"
       ]
     },
     "languages": [],
@@ -3520,7 +3496,7 @@
     "name": "Mejillones",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/hHA-j1eAAbs"
+        "https://www.youtube-nocookie.com/embed/a_k6npTBncw"
       ]
     },
     "languages": [],
@@ -3588,18 +3564,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "539w4wSgXf0XWp",
-    "name": "Miramar Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/K1PkxWM6QB4"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "127l3YD3hMJ7t5",
     "name": "Miura Beach Bay & Coastal View",
     "sources": {
@@ -3629,18 +3593,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/Mw2R0FV7FP8"
-      ]
-    },
-    "languages": [],
-    "country": "it",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "5xJgCRqGrumnTZ",
-    "name": "Montedarena Beach Weather",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/fSMf7uqsD3U"
       ]
     },
     "languages": [],
@@ -3700,7 +3652,7 @@
     "name": "Muizenberg Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/H_wV0IBf_R8"
+        "https://www.youtube-nocookie.com/embed/pUZ_T-NwC2Q"
       ]
     },
     "languages": [],
@@ -3768,6 +3720,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "ybbR6E1ujWfN0S",
+    "name": "Napili Bay Beach",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/fwX04Gsb8W4"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "DP2K94z2HRQRmY",
     "name": "Napili Sunset Beachfront Resort",
     "sources": {
@@ -3820,7 +3784,7 @@
     "name": "Nicosia Sailing Club",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/TtePjPKq2q0"
+        "https://www.youtube-nocookie.com/embed/tsTPw-cS-84"
       ]
     },
     "languages": [],
@@ -4036,7 +4000,7 @@
     "name": "Ohrid Waterfront, Lake Ohrid",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/a973veA5Dvw"
+        "https://www.youtube-nocookie.com/embed/Tt6TSG55ULc"
       ]
     },
     "languages": [],
@@ -4048,7 +4012,7 @@
     "name": "Okaloosa Island Beachfront Gulf View",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/QnvxSpZ9HPI"
+        "https://www.youtube-nocookie.com/embed/Z5tHF5asP4A"
       ]
     },
     "languages": [],
@@ -4164,18 +4128,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "UE2755h5iiL2Gf",
-    "name": "Overcombe Beach, Weymouth",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/CC-Bw3f7UMw"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "AKoc821hnZE9bv",
     "name": "Paal 9, Texel",
     "sources": {
@@ -4252,7 +4204,7 @@
     "name": "Pacifica State Beach & Mori Point",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/q0Z7tv_7n-0"
+        "https://www.youtube-nocookie.com/embed/iQ7XJDXYSMo"
       ]
     },
     "languages": [],
@@ -4348,7 +4300,7 @@
     "name": "Pattaya Beach Road",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Bl31TjIJAzI"
+        "https://www.youtube-nocookie.com/embed/IQILBfKSicE"
       ]
     },
     "languages": [],
@@ -4392,18 +4344,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "RlkQ6LgjAf2RDd",
-    "name": "Pensacola Beach Pier",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/2X0GdFzfv3A"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "NRSJ7IIJomD3sI",
     "name": "Pensacola Beach Pier East",
     "sources": {
@@ -4432,7 +4372,7 @@
     "name": "Perdido Key Beach at La Riva East",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/_QBJTfY2EEU"
+        "https://www.youtube-nocookie.com/embed/v-TLkb9-S8k"
       ]
     },
     "languages": [],
@@ -4456,7 +4396,7 @@
     "name": "Pichilemu",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/GYoZjlluD50"
+        "https://www.youtube-nocookie.com/embed/ECE_YWN0n8g"
       ]
     },
     "languages": [],
@@ -4552,7 +4492,7 @@
     "name": "Playa Acapulco, Viña del Mar",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/9ukma1GKhAM"
+        "https://www.youtube-nocookie.com/embed/H9-TKARBLB8"
       ]
     },
     "languages": [],
@@ -4576,7 +4516,7 @@
     "name": "Playa de Cala Gat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/fFDTMmcQBoA"
+        "https://www.youtube-nocookie.com/embed/KwLMqsQVNe0"
       ]
     },
     "languages": [],
@@ -4600,7 +4540,7 @@
     "name": "Playa de Las Canteras",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/kyinoji2axA"
+        "https://www.youtube-nocookie.com/embed/_ti80PILX1I"
       ]
     },
     "languages": [],
@@ -4672,7 +4612,7 @@
     "name": "Playa Las Torpederas Valparaíso",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/eJKh0r2wzGA"
+        "https://www.youtube-nocookie.com/embed/xrCbx1D-K9E"
       ]
     },
     "languages": [],
@@ -4876,7 +4816,7 @@
     "name": "Praia da Rocha Portimão",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/q17PlNVdHlo"
+        "https://www.youtube-nocookie.com/embed/HbEcaqUSjFo"
       ]
     },
     "languages": [],
@@ -4984,7 +4924,7 @@
     "name": "Puente Gral Belgrano",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/8KQHToUjndw"
+        "https://www.youtube-nocookie.com/embed/iPKv66eBOs4"
       ]
     },
     "languages": [],
@@ -5116,7 +5056,7 @@
     "name": "Reñaca Beach, Viña del Mar",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/hr8hzOL2wHo"
+        "https://www.youtube-nocookie.com/embed/C_gIjFhZ058"
       ]
     },
     "languages": [],
@@ -5289,18 +5229,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "yvt2zYzxtlB99y",
-    "name": "Route 134 Shonan",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/DgIbfgFdGVI"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
     "isGeoBlocked": false
   },
   {
@@ -5512,7 +5440,7 @@
     "name": "Sant Antoni de Calonge Beachfront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/oNppHiImdzE"
+        "https://www.youtube-nocookie.com/embed/Pj14prgMryg"
       ]
     },
     "languages": [],
@@ -5565,18 +5493,6 @@
     },
     "languages": [],
     "country": "es",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "bFigEyCF5Dwz84",
-    "name": "Santa Rosa Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Tcw_v8NiQz8"
-      ]
-    },
-    "languages": [],
-    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -6228,6 +6144,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "k471fMp0B3PwjZ",
+    "name": "Spotlight Germany Webcam Tour",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/6-gOttxm1vI"
+      ]
+    },
+    "languages": [],
+    "country": "de",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "5eV05mx2qkgczC",
     "name": "SRIA East-West Cams",
     "sources": {
@@ -6340,7 +6268,7 @@
     "name": "Strandafgang, Egmond Aan Zee",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/tgmHF5QjpYs"
+        "https://www.youtube-nocookie.com/embed/JK4S4DzKiuM"
       ]
     },
     "languages": [],
@@ -7144,7 +7072,7 @@
     "name": "West Kirby Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/NwPM22hSnQQ"
+        "https://www.youtube-nocookie.com/embed/TQLaYQNl15M"
       ]
     },
     "languages": [],
@@ -7173,30 +7101,6 @@
     },
     "languages": [],
     "country": "de",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "JzuRnyF2Y2Is73",
-    "name": "Weston-super-Mare Beach & Knightstone Island",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/UqVS_f6neKQ"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "RHx8cDvkEJkYBZ",
-    "name": "Weston-super-Mare Beach from The Grand Pier",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/927bUBTR7v0"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
     "isGeoBlocked": false
   },
   {
@@ -7257,30 +7161,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "knQzfIfyc2yQab",
-    "name": "Wildwoods Sign",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/cK71xhMRtds"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "lF4Wp9aoN2isAp",
-    "name": "Wissant Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/54IhBEtQK8g"
-      ]
-    },
-    "languages": [],
-    "country": "fr",
     "isGeoBlocked": false
   },
   {

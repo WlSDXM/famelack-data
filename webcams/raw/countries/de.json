@@ -100,7 +100,7 @@
     "name": "Bopparder Hamm",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/zLlwPU3Xtrk"
+        "https://www.youtube-nocookie.com/embed/rTR0fkzM-tI"
       ]
     },
     "languages": [],
@@ -292,7 +292,7 @@
     "name": "Freiburg Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/cQBzvBc3EOk"
+        "https://www.youtube-nocookie.com/embed/rCVTfrswoA4"
       ]
     },
     "languages": [],
@@ -520,7 +520,7 @@
     "name": "Monheim am Rhein",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/OWdN8VW5aZk"
+        "https://www.youtube-nocookie.com/embed/bJeAutaGjLY"
       ]
     },
     "languages": [],
@@ -612,23 +612,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "qc2tZFM3mBRR8P",
-    "name": "Recke Garden Bird Bath & Hedgehog Feeder",
+    "nanoid": "6wfagKOUG7PRLE",
+    "name": "Rhine River Rees",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/t20fPDAZxCA"
-      ]
-    },
-    "languages": [],
-    "country": "de",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "uQWf0Cq6bn1ayH",
-    "name": "Recke Garden Bird Feeder",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/4kRzwJXaeIM"
+        "https://www.youtube-nocookie.com/embed/MllM80LS7gw"
       ]
     },
     "languages": [],
@@ -684,6 +672,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "k471fMp0B3PwjZ",
+    "name": "Spotlight Germany Webcam Tour",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/6-gOttxm1vI"
+      ]
+    },
+    "languages": [],
+    "country": "de",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "REj37TnXkfKLHn",
     "name": "St. Michael's Church Harbor Panorama",
     "sources": {
@@ -724,7 +724,7 @@
     "name": "Technik Museum Sinsheim",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/m1vV772HeSU"
+        "https://www.youtube-nocookie.com/embed/Nx9szy2GoT4"
       ]
     },
     "languages": [],

@@ -453,6 +453,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "u72JSkf2l6RYHs",
+    "name": "GCD FM 98.6",
+    "sources": {
+      "streams": [
+        "https://studio1.indostreamers.com:8014/stream/1/"
+      ]
+    },
+    "languages": [
+      "ind"
+    ],
+    "country": "id",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "P0Jl3qShuQyboB",
     "name": "Gema Surya FM",
     "sources": {
@@ -813,6 +827,20 @@
     "sources": {
       "streams": [
         "https://stream.lokermusik.com/listen/lokermusik/lokermusik"
+      ]
+    },
+    "languages": [
+      "ind"
+    ],
+    "country": "id",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "zJXdCw2VkBrINv",
+    "name": "LPPL Radio Kota Batik",
+    "sources": {
+      "streams": [
+        "https://studio1.indostreamers.com:8010/stream/1/"
       ]
     },
     "languages": [
@@ -1214,6 +1242,20 @@
     "sources": {
       "streams": [
         "https://radioadzanfmbandung.com/streamer"
+      ]
+    },
+    "languages": [
+      "ind"
+    ],
+    "country": "id",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ztf2W3jm7dYcSy",
+    "name": "Radio Alternatif FM 98.1",
+    "sources": {
+      "streams": [
+        "https://void.idserverhost.com:8016/stream/1/"
       ]
     },
     "languages": [

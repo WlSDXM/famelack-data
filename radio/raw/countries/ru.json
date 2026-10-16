@@ -11635,6 +11635,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "QkxxE4F0pvx1fK",
+    "name": "Радио Светигора",
+    "sources": {
+      "streams": [
+        "https://svetigoralive.com/listen.pls/"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "peRNI9ajzhk6le",
     "name": "Радио СИ 103.7 FM",
     "sources": {

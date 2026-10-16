@@ -1808,6 +1808,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "Q5MVW8f0sVxGrO",
+    "name": "Radio Maipú FM",
+    "sources": {
+      "streams": [
+        "https://pragustream.live:8040/stream/1/"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "BBKr1B1FJWpckB",
     "name": "Radio Manantial de Vida",
     "sources": {

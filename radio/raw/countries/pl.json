@@ -2444,6 +2444,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "XBRfF8d3wpcHK1",
+    "name": "Radio Horyzont",
+    "sources": {
+      "streams": [
+        "https://s1.slotex.pl:7328/stream/1/"
+      ]
+    },
+    "languages": [
+      "pol"
+    ],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "TStUA3ED3JxT2O",
     "name": "Radio i",
     "sources": {

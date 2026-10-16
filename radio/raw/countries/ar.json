@@ -387,6 +387,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "hmFuAsdoqsq5rk",
+    "name": "Cadena Cool 103.7 FM",
+    "sources": {
+      "streams": [
+        "https://radios.solumedia.com:10805/stream/1/"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "gK3R2t0a72OaLg",
     "name": "Cadena Eco AM 1220",
     "sources": {
@@ -1172,6 +1186,20 @@
     "sources": {
       "streams": [
         "https://stream.zeno.fm/7bs1rw5zw8quv"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "4ubokWW4OUiyTX",
+    "name": "FM Alegría 101.7",
+    "sources": {
+      "streams": [
+        "https://streaming.radiosenlinea.com.ar/8856/stream/1/"
       ]
     },
     "languages": [
@@ -3099,7 +3127,8 @@
     "name": "Radio Britannia",
     "sources": {
       "streams": [
-        "https://01.solumedia.com.ar:8472/stream/;"
+        "https://01.solumedia.com.ar:8472/stream/;",
+        "https://01.solumedia.com.ar:8472/stream/listen.pls/"
       ]
     },
     "languages": [
@@ -3256,6 +3285,20 @@
       "streams": [
         "https://rr5100.globalhost1.com/8540/;",
         "https://rr5100.globalhost1.com/8540/stream;"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "gaBEXrruW3OOPl",
+    "name": "Radio Cristiana 95.7 FM",
+    "sources": {
+      "streams": [
+        "https://genexservicios.com:8098/listen.asx/"
       ]
     },
     "languages": [

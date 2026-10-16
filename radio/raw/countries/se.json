@@ -74,6 +74,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "4joyzLQgXL2c69",
+    "name": "ericade.radio",
+    "sources": {
+      "streams": [
+        "https://radio.ericade.net/sc/stream/1/"
+      ]
+    },
+    "languages": [
+      "swe"
+    ],
+    "country": "se",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "nMTjAg2sl0FKCH",
     "name": "Guldkanalen 60-tal",
     "sources": {
@@ -1036,6 +1050,21 @@
       ]
     },
     "languages": [
+      "swe"
+    ],
+    "country": "se",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "u2pEYj1Kybj99S",
+    "name": "The Best of ericade.radio",
+    "sources": {
+      "streams": [
+        "https://radio.ericade.net/sc/stream/2/"
+      ]
+    },
+    "languages": [
+      "eng",
       "swe"
     ],
     "country": "se",

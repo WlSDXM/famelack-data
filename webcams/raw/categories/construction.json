@@ -88,7 +88,7 @@
     "name": "BC Place",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/rir0nFI5YmM"
+        "https://www.youtube-nocookie.com/embed/gEVhrDQc8C0"
       ]
     },
     "languages": [],
@@ -136,7 +136,7 @@
     "name": "Desembocadura Río Maipo",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/fBVJIU9Fd1Q"
+        "https://www.youtube-nocookie.com/embed/1U1hxY0kyPE"
       ]
     },
     "languages": [],
@@ -244,7 +244,7 @@
     "name": "Kohoku Parking Area on the Tomei Expressway",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/pawJL_P0_VI"
+        "https://www.youtube-nocookie.com/embed/oQ8EGJWu1iA"
       ]
     },
     "languages": [],
@@ -316,11 +316,23 @@
     "name": "Orbeli Street",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/kZOLq66XX4o"
+        "https://www.youtube-nocookie.com/embed/WUyKHJhw5UY"
       ]
     },
     "languages": [],
     "country": "am",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "5n5Sbxui9gY6bv",
+    "name": "Plaza Cuitláhuac",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/40W2Q6Hf0xY"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
     "isGeoBlocked": false
   },
   {
@@ -420,6 +432,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "xEkCcL3VCIK5ba",
+    "name": "Singapore Seaside",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/uDdGLd5ML8s"
+      ]
+    },
+    "languages": [],
+    "country": "sg",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "035tZgyBhaJNT4",
     "name": "Smith College Athletic Fields Geothermal Project",
     "sources": {
@@ -460,7 +484,7 @@
     "name": "SpaceX Starbase Multi Plex",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/XFmmS5BLlbE"
+        "https://www.youtube-nocookie.com/embed/vUPoqyYqago"
       ]
     },
     "languages": [],

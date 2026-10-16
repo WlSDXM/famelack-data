@@ -1,5 +1,20 @@
 [
   {
+    "nanoid": "o7f2wdALXEzHZs",
+    "name": "Ajman TV",
+    "sources": {
+      "streams": [
+        "https://cdn1.logichost.in/ajmantv/live/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "ara",
+      "eng"
+    ],
+    "country": "ae",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "2TkyVV55zzBzz3",
     "name": "Al Arabiya Business",
     "sources": {
@@ -34,6 +49,9 @@
     "nanoid": "axtrtUohLCP3GM",
     "name": "Al Mashhad",
     "sources": {
+      "streams": [
+        "https://amg30483-amg30483c23-amgplt0794.playout.now3.amagi.tv/ts-ap-s1-n1/playlist/amg30483-amg30483c23-amgplt0794/playlist.m3u8?ads.appversion=[APP_VERSION]&ads.devicemodel=[DEVICE_MODEL]&ads.lat=[LMT]&ads.bundleid=[APP_BUNDLE]&ads.donotsell=[DNS]&ads.ifa=[IFA]&ads.targetad=[TARGETAD_ALLOWED]&ads.appstoreurl=[APP_STOREURL]&ads.deviceid=[DEVICE_ID]&ads.devicemake=[DEVICE_MAKE]&ads.devicetype=[DEVICE_TYPE]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.ifatype=[IFA_TYPE]&ads.ip=[IP]&ads.appname=[APP_NAME]&ads.country=[COUNTRY]&ads.fck=[FCK]&ads.givn=[NONCE]&ads.ua=[UA]&ads.usprivacy=[US_PRIVACY]&ads.viewsize=[VIEWSIZE]&ads.coppa=0&ads.ic=[IC]&ads.network_name=[networkname]"
+      ],
       "youtube": [
         "https://www.youtube-nocookie.com/embed/fvYBSnXrdEA"
       ]
@@ -245,6 +263,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "tzTABG45l31V9t",
+    "name": "Peace TV Bangla",
+    "sources": {
+      "streams": [
+        "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8"
+      ]
+    },
+    "languages": [
+      "ben"
+    ],
+    "country": "ae",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "3Icuxq5qeDrJdW",
     "name": "Peace TV Chinese",
     "sources": {
@@ -268,6 +300,20 @@
     },
     "languages": [
       "eng"
+    ],
+    "country": "ae",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "SgbKpnUMcIpXd6",
+    "name": "Peace TV Urdu",
+    "sources": {
+      "streams": [
+        "https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8"
+      ]
+    },
+    "languages": [
+      "urd"
     ],
     "country": "ae",
     "isGeoBlocked": false

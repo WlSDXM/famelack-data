@@ -1,5 +1,19 @@
 [
   {
+    "nanoid": "EME4N9khfw88cn",
+    "name": "AnewZ TV",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/OckUkrPhM2s"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "az",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "UuxAvZJ7qbOfux",
     "name": "Ayaz TV",
     "sources": {
@@ -29,6 +43,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "BhIE684tnvCL5c",
+    "name": "Azad TV",
+    "sources": {
+      "streams": [
+        "https://lives.atv.az:5443/ATV_TV_STREAM/streams/atvcanli.m3u8"
+      ]
+    },
+    "languages": [
+      "aze"
+    ],
+    "country": "az",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "YejyDaiXX0bP2n",
     "name": "Azad TV",
     "sources": {
@@ -46,9 +74,6 @@
     "sources": {
       "streams": [
         "https://rtmp.baku.tv/hls/bakutv.m3u8"
-      ],
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/HhPMqoFi76o"
       ]
     },
     "languages": [
@@ -61,11 +86,8 @@
     "nanoid": "KsjaxPP1L7V1lh",
     "name": "Biznes TV",
     "sources": {
-      "streams": [
-        "https://biznestv.az/hls/live.m3u8"
-      ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/antwMEVVsog"
+        "https://www.youtube-nocookie.com/embed/HcHEkVe52rc"
       ]
     },
     "languages": [
@@ -200,20 +222,6 @@
     },
     "languages": [
       "ara",
-      "aze"
-    ],
-    "country": "az",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "BRcYI5UTMS9jQ8",
-    "name": "Xezer TV",
-    "sources": {
-      "streams": [
-        "https://www.xezerxeber.az/stream/index.m3u8"
-      ]
-    },
-    "languages": [
       "aze"
     ],
     "country": "az",

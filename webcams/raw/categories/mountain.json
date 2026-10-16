@@ -12,18 +12,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "gWJpvrwv2nPg9C",
-    "name": "Acapulco Bay Skyline Panorama",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/wTpTtzT4j0Q"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "9E82MTiT5HR3ow",
     "name": "Ainan Mishō Bay",
     "sources": {
@@ -192,18 +180,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "cgKCNZhVpCaOSl",
-    "name": "Arashiyama Togetsukyo Bridge",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/jqtsC5BYlIk"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "JqnAEVcWiAZE9N",
     "name": "Arc 1800 Village, Les Arcs",
     "sources": {
@@ -304,7 +280,7 @@
     "name": "AZGMRS White Tanks Repeater Site",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/lhrlIB3KB00"
+        "https://www.youtube-nocookie.com/embed/HQgQHML_3LI"
       ]
     },
     "languages": [],
@@ -612,18 +588,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "oxMF61ma1f3FV5",
-    "name": "Bran Castle Bucegi Mountain View",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ynUpKpsvtJw"
-      ]
-    },
-    "languages": [],
-    "country": "ro",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "0H26ylw3Ux4qDA",
     "name": "Brasov City",
     "sources": {
@@ -657,18 +621,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "0V1H4DietBoG7A",
-    "name": "Breuil-Cervinia & the Matterhorn",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/JcHYcrO4PRE"
-      ]
-    },
-    "languages": [],
-    "country": "it",
     "isGeoBlocked": false
   },
   {
@@ -792,18 +744,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "8JpbfRAcNk8dwN",
-    "name": "Camping La Riva, Sorico",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/9nOQgd5YhQo"
-      ]
-    },
-    "languages": [],
-    "country": "it",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "wx7SJzV2QzP2wY",
     "name": "Canmore Main Street",
     "sources": {
@@ -916,7 +856,7 @@
     "name": "Chocorua Lake & Mount Chocorua",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/2XptTNJC0ZU"
+        "https://www.youtube-nocookie.com/embed/NQIT9OOHaQs"
       ]
     },
     "languages": [],
@@ -1192,7 +1132,7 @@
     "name": "Donner Pass Summit East Norden",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/SQrfcbKyA-M"
+        "https://www.youtube-nocookie.com/embed/zDa-WiYj6ew"
       ]
     },
     "languages": [],
@@ -1264,7 +1204,7 @@
     "name": "Dutch Flats Forest Road",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/jitoUjq28Hs"
+        "https://www.youtube-nocookie.com/embed/URgBlL07djQ"
       ]
     },
     "languages": [],
@@ -1864,7 +1804,7 @@
     "name": "Hong Kong Skyline",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Fwr8lBTaBtE"
+        "https://www.youtube-nocookie.com/embed/Z8NTLkEFZjg"
       ]
     },
     "languages": [],
@@ -2140,7 +2080,7 @@
     "name": "Kawaguchiko Station & Mount Fuji",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/PW6zhYOkunI"
+        "https://www.youtube-nocookie.com/embed/ipbHUjTeUIw"
       ]
     },
     "languages": [],
@@ -2524,7 +2464,7 @@
     "name": "Le Morne",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/k7jWweZ_yyw"
+        "https://www.youtube-nocookie.com/embed/J2DT0xGbXCs"
       ]
     },
     "languages": [],
@@ -3048,18 +2988,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "G4tyP8zYkMBnKG",
-    "name": "Marunuma Kogen Yellow Course",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/XqiDLNQA0HM"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "60SgF1uXoIK8gp",
     "name": "Matoppie Peak",
     "sources": {
@@ -3484,7 +3412,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/bTRqQe0uWdM"
+        "https://www.youtube-nocookie.com/embed/KQX-Ao7cF0E"
       ]
     },
     "languages": [],
@@ -3540,42 +3468,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "vwmpwr3dC1pq9s",
-    "name": "Mountain High Bullwheel",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/tthdjwzt-PA"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "AvZbdZON7NuG9u",
-    "name": "Mountain High East Summit",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/o0tmdp9D6wI"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "UsKIzWqM4bC4Yn",
-    "name": "Mountain High Upper Chisolm",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/LfZN3OEGB0E"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "EzVBeyFu9iTbj1",
     "name": "Mountain High West Base",
     "sources": {
@@ -3604,7 +3496,7 @@
     "name": "Mt. Bachelor Mid-Mountain View",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/qjfPiDu9F50"
+        "https://www.youtube-nocookie.com/embed/lyN2JG7zowo"
       ]
     },
     "languages": [],
@@ -3640,7 +3532,7 @@
     "name": "Mt. Fuji Panoramic Ropeway Observation Deck",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/eU8A7QQOcso"
+        "https://www.youtube-nocookie.com/embed/rW5aaFv8oxs"
       ]
     },
     "languages": [],
@@ -4000,7 +3892,7 @@
     "name": "Palm Springs Air Museum",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/oqAlAEdMdLI"
+        "https://www.youtube-nocookie.com/embed/9-vcLafELUo"
       ]
     },
     "languages": [],
@@ -4852,7 +4744,7 @@
     "name": "Semeru Volcano Watch",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/EYYgrzyqgZM"
+        "https://www.youtube-nocookie.com/embed/DwMEl1sSQdA"
       ]
     },
     "languages": [],
@@ -4980,6 +4872,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "siH4CRFZY7zYtY",
+    "name": "SkyPark Panorama Over the Mountains",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/EVK9iNnARh8"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "n7WRXe2EVnqe12",
     "name": "Slovakia Scenic Views",
     "sources": {
@@ -5045,18 +4949,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/Kn4IAs67hNo"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "AaTF1h1XB5yyUj",
-    "name": "Snow Summit Miracle Mile",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/1sa8cuSm7dk"
       ]
     },
     "languages": [],
@@ -5232,6 +5124,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "k471fMp0B3PwjZ",
+    "name": "Spotlight Germany Webcam Tour",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/6-gOttxm1vI"
+      ]
+    },
+    "languages": [],
+    "country": "de",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "enq2wjFP7NopF3",
     "name": "Spray Valley Mountain View",
     "sources": {
@@ -5272,7 +5176,7 @@
     "name": "St. John's Harbour",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/QowL9_N022o"
+        "https://www.youtube-nocookie.com/embed/mWWVOAhZfXY"
       ]
     },
     "languages": [],
@@ -5536,7 +5440,7 @@
     "name": "Sundhnúkur Volcano A",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/BgimbZHOICU"
+        "https://www.youtube-nocookie.com/embed/SuOXfvH34nU"
       ]
     },
     "languages": [],
@@ -5788,7 +5692,7 @@
     "name": "Top of Cloudchaser, Mt. Bachelor",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/EaICEj8hgZk"
+        "https://www.youtube-nocookie.com/embed/gAftCYziGW4"
       ]
     },
     "languages": [],
@@ -5824,7 +5728,7 @@
     "name": "Trento Piazza Duomo",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Ksn-WDcM0y8"
+        "https://www.youtube-nocookie.com/embed/BfNH7aNQ1io"
       ]
     },
     "languages": [],
@@ -5908,23 +5812,11 @@
     "name": "University of Arizona, Tucson",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/H5W3Wox4zjQ"
+        "https://www.youtube-nocookie.com/embed/DbW1tUzvik0"
       ]
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "DVgHukB6ZgVM2s",
-    "name": "Uruapan Panoramic City View",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/4gRoc1igMUc"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
     "isGeoBlocked": false
   },
   {
@@ -5952,23 +5844,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "hGZ4YZJYEOnJwF",
-    "name": "Vágur Town & Vágsfjørður",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/otu_D2_TiLM"
-      ]
-    },
-    "languages": [],
-    "country": "fo",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "d78yMbqETrxiZS",
     "name": "Val d'Isère",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/5jVmKCOkQDI"
+        "https://www.youtube-nocookie.com/embed/adyXPXam-OQ"
       ]
     },
     "languages": [],

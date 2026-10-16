@@ -351,21 +351,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "TKlUtkeJbMnBT7",
-    "name": "Horse & Country TV",
-    "sources": {
-      "streams": [
-        "https://hnc-free-viewlift.amagi.tv/HNC_AUSTRALIA.m3u8",
-        "https://hncfree-samsung-uk.amagi.tv/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "au",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "pmtAxTGBGTpwKV",
     "name": "Leaderboard Sports News",
     "sources": {
@@ -525,20 +510,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "fupP8X3YpWBo3I",
-    "name": "Rai World Premium",
-    "sources": {
-      "streams": [
-        "https://d3k8wzt41aflvx.cloudfront.net/RAIP/Live.m3u8"
-      ]
-    },
-    "languages": [
-      "ita"
-    ],
-    "country": "au",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "t3FRxzQWFcum3k",
     "name": "RCM",
     "sources": {
@@ -547,20 +518,6 @@
       ]
     },
     "languages": [],
-    "country": "au",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "9sW5mZnXNxTjSv",
-    "name": "Shalom World Prayer",
-    "sources": {
-      "streams": [
-        "https://broadcaster-1.cclouds.in/srt-4/channel4_abr/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
     "country": "au",
     "isGeoBlocked": false
   },
@@ -678,7 +635,7 @@
         "https://tvsnhlslivetest.akamaized.net/hls/live/2034711/TVSN-MSL4/master.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/PwQgJcyoYV8"
+        "https://www.youtube-nocookie.com/embed/TRPsdqft2ks"
       ]
     },
     "languages": [

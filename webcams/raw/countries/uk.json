@@ -508,7 +508,7 @@
     "name": "Glaslyn Osprey Nest 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ld5Ed9ebVXU"
+        "https://www.youtube-nocookie.com/embed/_imMV0Z7ht8"
       ]
     },
     "languages": [],
@@ -544,7 +544,7 @@
     "name": "Hawick High Street",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/mTu4Fbw4jbA"
+        "https://www.youtube-nocookie.com/embed/Vmf-OSRMj7M"
       ]
     },
     "languages": [],
@@ -672,18 +672,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "A34J6I9JAkdPG6",
-    "name": "London Heathrow Airport",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/8xW74EocYb8"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "qsAhpfDr4hSz2t",
     "name": "Low Wood Bay, Lake Windermere",
     "sources": {
@@ -713,18 +701,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/D06cBYJILlI"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "ZvWVjCAcGktPms",
-    "name": "Lulworth Cove on Jurassic Coast",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/mGlsYdJk5r8"
       ]
     },
     "languages": [],
@@ -828,18 +804,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "7qO8x7gnfJ9HeV",
-    "name": "Osprey Nest Loch of the Lowes",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/HkQyPFPCJLA"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "B89vk4XjVHiZYa",
     "name": "OTC Watersports, Portland Harbour",
     "sources": {
@@ -857,18 +821,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/2eQlFsurl-s"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "UE2755h5iiL2Gf",
-    "name": "Overcombe Beach, Weymouth",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/CC-Bw3f7UMw"
       ]
     },
     "languages": [],
@@ -965,6 +917,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/aRNl3Us0V84"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Xtns4FrS3hUNuO",
+    "name": "Ryde Pier",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/kbEN1MlM0PY"
       ]
     },
     "languages": [],
@@ -1336,7 +1300,7 @@
     "name": "Warrior, Portsmouth Harbour",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/N9KCrI_-Zv0"
+        "https://www.youtube-nocookie.com/embed/RVssQaFXeNI"
       ]
     },
     "languages": [],
@@ -1372,31 +1336,7 @@
     "name": "West Kirby Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/NwPM22hSnQQ"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "XW8ccwzvWKRBci",
-    "name": "West Somerset Railway at Watchet - Cam 1",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/yCoeSJjUsDg"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "cggRmZSPrjy0rE",
-    "name": "West Somerset Railway at Watchet - Cam 2",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/lHPtw6tKigc"
+        "https://www.youtube-nocookie.com/embed/TQLaYQNl15M"
       ]
     },
     "languages": [],
@@ -1476,30 +1416,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "JzuRnyF2Y2Is73",
-    "name": "Weston-super-Mare Beach & Knightstone Island",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/UqVS_f6neKQ"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "RHx8cDvkEJkYBZ",
-    "name": "Weston-super-Mare Beach from The Grand Pier",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/927bUBTR7v0"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "gLlvL2us9YfCL6",
     "name": "Weymouth Beach & Seafront",
     "sources": {
@@ -1553,18 +1469,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/oXECyHh01Bc"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "BoSiTiIOzbt3z7",
-    "name": "Weymouth Mainline Railcam",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/VcrN2Z4peDk"
       ]
     },
     "languages": [],
