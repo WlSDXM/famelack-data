@@ -309,13 +309,18 @@
         drop-shadow(0 0 8px rgba(0, 0, 0, 0.35))
         drop-shadow(0 6px 14px rgba(0, 0, 0, 0.45));
 }
-
-        /* ===== DAY / NIGHT TOGGLE ===== */
-        .theme-toggle {
+                /* ===== FLOATING CONTROLS ===== */
+        .floating-controls {
             position: fixed;
             bottom: 20px;
             left: 20px;
             z-index: 9999;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .floating-btn {
             width: 46px;
             height: 46px;
             border-radius: 50%;
@@ -328,10 +333,97 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            padding: 0;
             transition: transform 0.2s, border-color 0.2s, background-color 0.3s, color 0.3s;
             font-family: 'Segoe UI Emoji', 'Apple Color Emoji', system-ui, sans-serif;
-            padding: 0;
         }
+        .floating-btn:hover {
+            transform: scale(1.1);
+            border-color: var(--accent-color);
+        }
+        .floating-btn:active {
+            transform: scale(0.95);
+        }
+
+        
+      
+        /* ===== FAVORITES MENU ===== */
+        .favorites-menu {
+            position: fixed;
+            bottom: 20px;
+            left: 76px;
+            z-index: 10000;
+            min-width: 200px;
+            background: var(--surface-color);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 6px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+            opacity: 0;
+            transform: translateX(-8px);
+            pointer-events: none;
+            transition: opacity 0.18s ease, transform 0.18s ease;
+        }
+        .favorites-menu.open {
+            opacity: 1;
+            transform: translateX(0);
+            pointer-events: auto;
+        }
+        .favorites-menu-title {
+            font-size: 12px;
+            color: var(--text-muted);
+            padding: 6px 12px 8px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-family: 'stealth57', monospace;
+        }
+        .favorites-menu-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            background: transparent;
+            border: none;
+            color: var(--text-color);
+            font-family: 'stealth57', system-ui, sans-serif;
+            font-size: 15px;
+            text-align: left;
+            padding: 10px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.15s, color 0.15s;
+        }
+        .favorites-menu-item:hover {
+            background: var(--bg-color);
+            color: var(--accent-color);
+        }
+        .favorites-menu-item-danger:hover {
+            color: #ff5a5a;
+        }
+        .fm-icon {
+            display: inline-block;
+            width: 16px;
+            text-align: center;
+            opacity: 0.75;
+        }
+
+                /* Mobile adjustments */
+        @media (max-width: 700px) {
+            .floating-controls {
+                bottom: 12px;
+                left: 12px;
+                gap: 8px;
+            }
+            .floating-btn {
+                width: 40px;
+                height: 40px;
+                font-size: 18px;
+            }
+            .favorites-menu {
+                bottom: 12px;
+                left: 60px;
+            }
+        }                  
     
 
         .theme-toggle:hover {
@@ -434,17 +526,9 @@
     iframe#webcamFrame,
     video { border-radius: 4px; }
 
-    .right-column .player-box { min-height: auto; }
-
-    .theme-toggle {
-        bottom: 12px;
-        left: 12px;
-        width: 40px;
-        height: 40px;
-        font-size: 18px;
-    }
+        .right-column .player-box { min-height: auto; }
 }
-
+        
         @media (max-width: 380px) {
             img.earth-anim { height: 42px; }
             img.title-img { height: 22px; }
@@ -1721,6 +1805,158 @@ function getAnsiMono() {
                 break;
         }
     });
+        // ============ FAVORITES EXPORT / IMPORT ============
+    (function initFavoritesMenu() {
+        const toggleBtn = document.getElementById('favoritesToggle');
+        const menu = document.getElementById('favoritesMenu');
+        const exportBtn = document.getElementById('favExportBtn');
+        const importBtn = document.getElementById('favImportBtn');
+        const importInput = document.getElementById('favImportInput');
+        const clearBtn = document.getElementById('favClearBtn');
+
+        if (!toggleBtn || !menu) return;
+
+        // ---- Open/close menu ----
+        toggleBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            menu.classList.toggle('open');
+        });
+
+        // Close when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!menu.classList.contains('open')) return;
+            if (menu.contains(e.target) || e.target === toggleBtn) return;
+            menu.classList.remove('open');
+        });
+
+        // Close on Escape
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') menu.classList.remove('open');
+        });
+
+        // ---- Export ----
+        exportBtn.addEventListener('click', () => {
+            const payload = {
+                version: 1,
+                exported: new Date().toISOString(),
+                app: 'earth',
+                cams: getFavorites(),
+                stations: getRadioFavorites()
+            };
+
+            const json = JSON.stringify(payload, null, 2);
+            const blob = new Blob([json], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `earth-favorites-${new Date().toISOString().slice(0,10)}.json`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+
+            menu.classList.remove('open');
+        });
+
+        // ---- Import ----
+        importBtn.addEventListener('click', () => {
+            importInput.value = '';   // reset so same file can be picked again
+            importInput.click();
+        });
+
+        importInput.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = (evt) => {
+                try {
+                    const data = JSON.parse(evt.target.result);
+
+                    // Basic validation
+                    if (typeof data !== 'object' || data === null) {
+                        throw new Error('Invalid file format');
+                    }
+
+                    const incomingCams = Array.isArray(data.cams) ? data.cams : [];
+                    const incomingStations = Array.isArray(data.stations) ? data.stations : [];
+
+                    // ---- Merge (dedupe by id for cams, by url for stations) ----
+                    const existingCams = getFavorites();
+                    const existingStations = getRadioFavorites();
+
+                    const camIds = new Set(existingCams.map(c => c.id));
+                    const stationUrls = new Set(existingStations.map(s => s.url));
+
+                    let addedCams = 0;
+                    let addedStations = 0;
+
+                    incomingCams.forEach(cam => {
+                        if (!cam || !cam.id || camIds.has(cam.id)) return;
+                        existingCams.push(cam);
+                        camIds.add(cam.id);
+                        addedCams++;
+                    });
+
+                    incomingStations.forEach(station => {
+                        if (!station || !station.url || stationUrls.has(station.url)) return;
+                        existingStations.push(station);
+                        stationUrls.add(station.url);
+                        addedStations++;
+                    });
+
+                    saveFavorites(existingCams);
+                    saveRadioFavorites(existingStations);
+
+                    // Refresh UI
+                    updateStarState();
+                    updateRadioStarState();
+
+                    // Rebuild the favorites dropdown groups
+                    document.querySelectorAll('optgroup').forEach(g => {
+                        if (g.label && g.label.includes('Favorites')) g.remove();
+                    });
+                    buildFavoritesGroup();
+                    buildRadioFavoritesGroup();
+
+                    menu.classList.remove('open');
+
+                    // Simple feedback
+                    if (addedCams || addedStations) {
+                        alert(`Imported ${addedCams} cam${addedCams === 1 ? '' : 's'} and ${addedStations} station${addedStations === 1 ? '' : 's'}.\n\n(Duplicates skipped.)`);
+                    } else {
+                        alert('No new favorites found — everything was already in your list.');
+                    }
+                } catch (err) {
+                    console.error('Import failed:', err);
+                    alert('Could not read that file. Make sure it\'s a valid Earth favorites export.');
+                }
+            };
+            reader.readAsText(file);
+        });
+
+        // ---- Clear all ----
+        clearBtn.addEventListener('click', () => {
+            const confirmed = confirm('Clear ALL favorites (both Live and Radio)?\n\nThis cannot be undone.');
+            if (!confirmed) return;
+
+            saveFavorites([]);
+            saveRadioFavorites([]);
+
+            updateStarState();
+            updateRadioStarState();
+
+            // Remove the favorites optgroups
+            document.querySelectorAll('optgroup').forEach(g => {
+                if (g.label && g.label.includes('Favorites')) g.remove();
+            });
+
+            menu.classList.remove('open');
+        });
+    })();
+
+    
 
     // ============ INIT ============
     loadWebcamCountries();
