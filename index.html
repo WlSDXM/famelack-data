@@ -1313,12 +1313,13 @@ function getAnsiMono() {
     }
 
     
-                   // ============ DOTS VISUALIZER — HALFTONE MATRIX ============
+                       // ============ DOTS VISUALIZER — HALFTONE MATRIX ============
     if (!window.__dotsState) {
         window.__dotsState = {
             smoothed: null,
             cols: 0,
-            rows: 0
+            rows: 0,
+            drift: 0
         };
     }
 
@@ -1330,9 +1331,12 @@ function getAnsiMono() {
 
         const cellW = w / cols;
         const cellH = h / rows;
-        // Capped at 0.45 so dots never touch
         const maxRadius = Math.min(cellW, cellH) * 0.45;
         const minRadius = 0.5;
+
+        // Slow drift phase — always ticking, gives ambient motion
+        window.__dotsState.drift += 0.02;
+        const drift = window.__dotsState.drift;
 
         if (!window.__dotsState.smoothed || window.__dotsState.cols !== cols || window.__dotsState.rows !== rows) {
             window.__dotsState.smoothed = new Array(cols * rows).fill(0);
@@ -1357,14 +1361,10 @@ function getAnsiMono() {
             for (let j = start; j < end; j++) { sum += freqData[j]; count++; }
             let value = count > 0 ? (sum / count) / 255 : 0;
 
-            // ---- Bass compression ----
-            // Compresses the curve so bass doesn't dominate
             value = Math.pow(value, 0.6);
-
             spectrumPerCol[c] = value;
         }
 
-        // Peak normalization
         let peak = 0.15;
         for (let c = 0; c < cols; c++) {
             if (spectrumPerCol[c] > peak) peak = spectrumPerCol[c];
@@ -1375,12 +1375,12 @@ function getAnsiMono() {
             for (let c = 0; c < cols; c++) {
                 const i = r * cols + c;
 
-                // Vertical halftone falloff — center rows bigger than top/bottom
+                // Vertical halftone falloff
                 const rowCenter = (rows - 1) / 2;
                 const rowDistance = Math.abs(r - rowCenter) / rowCenter;
                 const rowFalloff = 1 - Math.pow(rowDistance, 1.6);
 
-                // Base shape — subtle now, so audio has room to breathe
+                // Base shape — subtle
                 const baseShape = 0.1 + rowFalloff * 0.15;
 
                 // Audio contribution
@@ -1390,7 +1390,26 @@ function getAnsiMono() {
                 const smoothed = current + (rawValue - current) * smoothing;
                 window.__dotsState.smoothed[i] = smoothed;
 
-                const value = Math.min(1, baseShape + smoothed * rowFalloff * 0.9);
+                // ---- Motion layer 1: traveling wave ----
+                // A sine wave that moves left-to-right, offset per row
+                // so it reads as a diagonal ripple through the grid.
+                const rowPhase = r * 0.4;
+                const wave = Math.sin(c * 0.35 + drift * 2 + rowPhase);
+                // Only use the top half of the sine so it never goes negative
+                const waveAmount = Math.max(0, wave) * 0.12;
+
+                // ---- Motion layer 2: per-row phase offset ----
+                // Rows alternate slightly in when they respond to audio,
+                // creating a shimmering/staggered effect.
+                const rowStagger = Math.sin(r * Math.PI + drift * 1.3) * 0.06;
+
+                // ---- Combine ----
+                const value = Math.min(1,
+                    baseShape
+                    + smoothed * rowFalloff * 0.85
+                    + waveAmount
+                    + rowStagger * rowFalloff
+                );
 
                 const radius = minRadius + value * (maxRadius - minRadius);
                 const x = c * cellW + cellW / 2;
