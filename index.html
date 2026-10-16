@@ -1056,10 +1056,11 @@ body.day-mode img.title-img[alt="Radio"] {
         }
     }
 
-                    function drawBars(w, h) {
+                        function drawBars(w, h) {
         analyser.getByteFrequencyData(freqData);
 
-        const halfCount = 36;              // ← was 60 — wider bars
+        // Fewer, wider bars — each one covers more horizontal space
+        const halfCount = 28;                    // ← 56 total bars
         const barWidth = (w / 2) / halfCount;
 
         const segCount = 30;
@@ -1076,11 +1077,11 @@ body.day-mode img.title-img[alt="Radio"] {
         peak /= 255;
 
         const centerX = w / 2;
-        const time = Date.now() * 0.002;
 
         for (let i = 0; i < halfCount; i++) {
             const t = i / (halfCount - 1);
 
+            // Log-scaled frequency mapping
             const tStart = Math.pow(t, 1.6);
             const tEnd = Math.pow((i + 1) / halfCount, 1.6);
 
@@ -1094,18 +1095,19 @@ body.day-mode img.title-img[alt="Radio"] {
             }
             let value = count > 0 ? (sum / count) / 255 : 0;
 
+            // ---- Per-band compression (real data, honest lift for quiet bands) ----
+            // Bass (center) is punchy and needs less lift. Treble (edges) is quieter
+            // and gets a stronger lift so real hi-hats/cymbals actually show up.
+            const bassHeavy = 1 - t;                     // 1 at center, 0 at edges
+            const compression = 0.4 + bassHeavy * 0.4;   // 0.4 edges → 0.8 center
+            value = Math.pow(value, compression);
+
+            // Peak normalization (compresses everything so loud songs don't clip)
             value = value / peak;
             value = Math.pow(Math.min(1, value), 0.65);
 
-            // Reduced edge bias since wider bars naturally fill in
-            const edgeBias = t * 0.10;
-
-            // Ambient breathing
-            const breathPhase = i * 0.4 + time;
-            const breath = (Math.sin(breathPhase) * 0.5 + 0.5) * 0.08;
-
-            value = Math.max(0.05, value + edgeBias + breath);
-            value = Math.min(1, value);
+            // Small floor so bars are always visible as thin slivers
+            value = Math.max(0.04, value);
 
             const litSegments = Math.round(value * segCount);
 
@@ -1135,16 +1137,17 @@ body.day-mode img.title-img[alt="Radio"] {
                 }
                 ctx.fillStyle = `hsl(${hue}, ${sat}%, ${light}%)`;
 
-                // Wider bars — less internal padding too (0.10 instead of 0.15)
-                ctx.fillRect(rightX + barWidth * 0.10, y, barWidth * 0.8, drawSegHeight);
-                ctx.fillRect(leftX + barWidth * 0.10, y, barWidth * 0.8, drawSegHeight);
+                // Minimal internal padding — bars nearly touch
+                ctx.fillRect(rightX + barWidth * 0.06, y, barWidth * 0.88, drawSegHeight);
+                ctx.fillRect(leftX + barWidth * 0.06, y, barWidth * 0.88, drawSegHeight);
             }
 
+            // Bright red tip
             if (litSegments > 0) {
                 const topY = h - litSegments * segHeight + segGap / 2;
                 ctx.fillStyle = 'hsl(350, 95%, 65%)';
-                ctx.fillRect(rightX + barWidth * 0.10, topY, barWidth * 0.8, drawSegHeight);
-                ctx.fillRect(leftX + barWidth * 0.10, topY, barWidth * 0.8, drawSegHeight);
+                ctx.fillRect(rightX + barWidth * 0.06, topY, barWidth * 0.88, drawSegHeight);
+                ctx.fillRect(leftX + barWidth * 0.06, topY, barWidth * 0.88, drawSegHeight);
             }
         }
     }
