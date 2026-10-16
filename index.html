@@ -699,6 +699,7 @@ body.day-mode img.title-img[alt="Radio"] {
     <option value="ascii">ASCII</option>
     <option value="ansi">ANSI</option>
     <option value="dots">Dots</option>
+    <option value="droplet">Droplet</option>
 </select>
                     <button id="radioStar" class="cam-star" title="Save to favorites" style="margin-left: auto;">★</button>
                 </div>
@@ -1635,6 +1636,132 @@ for (let l = layers - 1; l >= 0; l--) {
         }
         asciiViz.textContent = output;
     }
+    
+        // ============ DROPLET VISUALIZER — RIPPLE RINGS ============
+    if (!window.__dropletState) {
+        window.__dropletState = {
+            ripples: [],
+            lastSpawn: 0,
+            drift: 0
+        };
+    }
+
+    function drawDroplet(w, h) {
+        analyser.getByteFrequencyData(freqData);
+
+        const state = window.__dropletState;
+
+        // ---- Slow drift for the "pond surface" wobble ----
+        state.drift += 0.008;
+
+        // ---- Compute bass energy (kick drums) ----
+        let bassSum = 0;
+        const bassBins = 8;      // first 8 bins = ~0–350 Hz
+        for (let j = 0; j < bassBins; j++) bassSum += freqData[j];
+        const bassEnergy = bassSum / bassBins / 255;
+
+        // ---- Compute overall energy for subtle ambient rings ----
+        let totalSum = 0;
+        for (let j = 0; j < freqData.length * 0.3; j++) totalSum += freqData[j];
+        const totalEnergy = totalSum / (freqData.length * 0.3) / 255;
+
+        // ---- Spawn ripples on bass hits ----
+        const now = performance.now();
+        const timeSinceLast = now - state.lastSpawn;
+
+        if (bassEnergy > 0.45 && timeSinceLast > 90) {
+            state.lastSpawn = now;
+
+            // Center of pond — can drift slightly for organic feel
+            const cx = w / 2 + Math.sin(state.drift * 0.7) * (w * 0.04);
+            const cy = h / 2 + Math.cos(state.drift * 0.5) * (h * 0.05);
+
+            // New ripple scales with bass intensity
+            const intensity = Math.min(1, bassEnergy * 1.4);
+            const maxR = Math.min(w, h) * (0.4 + intensity * 0.45);
+
+            state.ripples.push({
+                x: cx,
+                y: cy,
+                r: 0,
+                maxR: maxR,
+                alpha: 0.85,
+                speed: 1.6 + intensity * 2.2,
+                hue: 210 + (1 - intensity) * 60   // bass = blue, soft hits = purple
+            });
+        }
+
+        // ---- Ambient micro-ripples on quiet passages ----
+        if (totalEnergy > 0.15 && state.ripples.length < 2 && timeSinceLast > 400) {
+            state.lastSpawn = now;
+            const cx = w / 2 + Math.sin(state.drift * 1.3) * (w * 0.08);
+            const cy = h / 2 + Math.cos(state.drift * 0.9) * (h * 0.08);
+            state.ripples.push({
+                x: cx,
+                y: cy,
+                r: 0,
+                maxR: Math.min(w, h) * 0.35,
+                alpha: 0.35,
+                speed: 1.0,
+                hue: 200
+            });
+        }
+
+        // ---- Draw all ripples ----
+        const baseColor = 220;   // cool blue base
+
+        for (let i = state.ripples.length - 1; i >= 0; i--) {
+            const rp = state.ripples[i];
+
+            // Grow radius
+            rp.r += rp.speed;
+
+            // Fade as it expands
+            const lifeT = rp.r / rp.maxR;   // 0 = just spawned, 1 = fully expanded
+            rp.alpha = (1 - lifeT) * 0.9;
+
+            // Remove when fully faded
+            if (lifeT >= 1 || rp.alpha <= 0.01) {
+                state.ripples.splice(i, 1);
+                continue;
+            }
+
+            // ---- Draw the ripple ring ----
+            ctx.beginPath();
+            ctx.arc(rp.x, rp.y, rp.r, 0, Math.PI * 2);
+            ctx.strokeStyle = `hsla(${rp.hue}, 75%, 65%, ${rp.alpha})`;
+            ctx.lineWidth = 1.5 + (1 - lifeT) * 1.5;   // thicker when young
+            ctx.stroke();
+
+            // ---- Soft halo underneath (optional glow) ----
+            ctx.beginPath();
+            ctx.arc(rp.x, rp.y, rp.r, 0, Math.PI * 2);
+            ctx.strokeStyle = `hsla(${rp.hue}, 75%, 55%, ${rp.alpha * 0.25})`;
+            ctx.lineWidth = 4 + (1 - lifeT) * 4;
+            ctx.stroke();
+        }
+
+        // ---- Center droplet dot ----
+        const cx = w / 2 + Math.sin(state.drift * 0.7) * (w * 0.04);
+        const cy = h / 2 + Math.cos(state.drift * 0.5) * (h * 0.05);
+
+        const dotRadius = 1.8 + bassEnergy * 4;
+        const dotAlpha = 0.4 + bassEnergy * 0.5;
+
+        ctx.beginPath();
+        ctx.arc(cx, cy, dotRadius, 0, Math.PI * 2);
+        ctx.fillStyle = `hsla(210, 75%, 75%, ${dotAlpha})`;
+        ctx.fill();
+
+        // Soft bloom around the center dot on strong hits
+        if (bassEnergy > 0.5) {
+            const bloom = (bassEnergy - 0.5) * 2;   // 0..1
+            ctx.beginPath();
+            ctx.arc(cx, cy, 8 + bloom * 12, 0, Math.PI * 2);
+            ctx.fillStyle = `hsla(210, 75%, 70%, ${0.15 * bloom})`;
+            ctx.fill();
+        }
+    }
 
     function draw() {
         requestAnimationFrame(draw);
@@ -1666,6 +1793,7 @@ for (let l = layers - 1; l >= 0; l--) {
         if (currentStyle === 'wave') drawWave(w, h);
         else if (currentStyle === 'ansi') drawANSI(w, h);
         else if (currentStyle === 'dots') drawDots(w, h);
+        else if (currentStyle === 'droplet') drawDroplet(w, h);
         else drawBars(w, h);
     }
 
