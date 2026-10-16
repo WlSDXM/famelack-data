@@ -238,6 +238,14 @@
             border-color: #ffd966;
             text-shadow: 0 0 6px rgba(255, 217, 102, 0.6);
         }
+        
+        /* ===== FAVORITES SEPARATOR IN DROPDOWNS ===== */
+        option.favorites-separator {
+            color: var(--border-color);
+            font-size: 10px;
+            pointer-events: none;
+            background: var(--bg-color);
+        }
 
         .viz-controls {
             display: flex;
@@ -810,7 +818,7 @@ body.day-mode img.title-img[alt="Radio"] {
         camStar.title = isFav ? 'Remove from favorites' : 'Save to favorites';
     }
 
-    function buildFavoritesGroup() {
+        function buildFavoritesGroup() {
         const favorites = getFavorites();
         if (favorites.length === 0) return;
 
@@ -825,6 +833,12 @@ body.day-mode img.title-img[alt="Radio"] {
         });
 
         camSelect.appendChild(group);
+
+        const sep = document.createElement('option');
+        sep.disabled = true;
+        sep.textContent = '─────────────────────';
+        sep.className = 'favorites-separator';
+        camSelect.appendChild(sep);
     }
 
     camStar.addEventListener('click', () => {
@@ -1018,7 +1032,7 @@ body.day-mode img.title-img[alt="Radio"] {
         radioStar.title = isFav ? 'Remove from favorites' : 'Save to favorites';
     }
 
-    function buildRadioFavoritesGroup() {
+        function buildRadioFavoritesGroup() {
         const favorites = getRadioFavorites();
         if (favorites.length === 0) return;
 
@@ -1033,6 +1047,12 @@ body.day-mode img.title-img[alt="Radio"] {
         });
 
         radioStationSelect.appendChild(group);
+
+        const sep = document.createElement('option');
+        sep.disabled = true;
+        sep.textContent = '─────────────────────';
+        sep.className = 'favorites-separator';
+        radioStationSelect.appendChild(sep);
     }
 
     radioStar.addEventListener('click', () => {
