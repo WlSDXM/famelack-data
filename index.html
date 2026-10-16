@@ -348,63 +348,101 @@
         
       
         /* ===== FAVORITES MENU ===== */
-        .favorites-menu {
+                /* ===== FAVORITES MODAL ===== */
+        .modal-backdrop {
             position: fixed;
-            bottom: 20px;
-            left: 76px;
+            inset: 0;
             z-index: 10000;
-            min-width: 200px;
-            background: var(--surface-color);
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            padding: 6px;
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+            background: rgba(0, 0, 0, 0.65);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
             opacity: 0;
-            transform: translateX(-8px);
             pointer-events: none;
-            transition: opacity 0.18s ease, transform 0.18s ease;
+            transition: opacity 0.2s ease;
         }
-        .favorites-menu.open {
+        .modal-backdrop.open {
             opacity: 1;
-            transform: translateX(0);
             pointer-events: auto;
         }
-        .favorites-menu-title {
-            font-size: 12px;
-            color: var(--text-muted);
-            padding: 6px 12px 8px;
+
+        .modal-panel {
+            background: var(--surface-color);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 20px;
+            min-width: 280px;
+            max-width: 90vw;
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.75);
+            transform: scale(0.95);
+            transition: transform 0.2s ease;
+        }
+        .modal-backdrop.open .modal-panel {
+            transform: scale(1);
+        }
+
+        .modal-title {
+            font-size: 15px;
+            font-family: 'stealth57', system-ui, sans-serif;
+            color: var(--text-color);
             letter-spacing: 1px;
             text-transform: uppercase;
-            font-family: 'stealth57', monospace;
+            margin-bottom: 4px;
         }
-        .favorites-menu-item {
+        .modal-subtitle {
+            font-size: 12px;
+            color: var(--text-muted);
+            font-family: 'stealth57', monospace;
+            margin-bottom: 16px;
+        }
+
+        .modal-item {
             display: flex;
             align-items: center;
             gap: 10px;
             width: 100%;
             background: transparent;
-            border: none;
+            border: 1px solid var(--border-color);
             color: var(--text-color);
             font-family: 'stealth57', system-ui, sans-serif;
             font-size: 15px;
             text-align: left;
-            padding: 10px 12px;
+            padding: 12px 14px;
             border-radius: 6px;
             cursor: pointer;
-            transition: background-color 0.15s, color 0.15s;
+            margin-bottom: 8px;
+            transition: background-color 0.15s, color 0.15s, border-color 0.15s;
         }
-        .favorites-menu-item:hover {
+        .modal-item:hover {
             background: var(--bg-color);
             color: var(--accent-color);
+            border-color: var(--accent-color);
         }
-        .favorites-menu-item-danger:hover {
-            color: #ff5a5a;
+
+        .modal-close {
+            display: block;
+            width: 100%;
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            font-family: 'stealth57', monospace;
+            font-size: 13px;
+            padding: 10px;
+            cursor: pointer;
+            margin-top: 8px;
+            transition: color 0.15s;
         }
+        .modal-close:hover {
+            color: var(--text-color);
+        }
+
         .fm-icon {
             display: inline-block;
             width: 16px;
             text-align: center;
-            opacity: 0.75;
+            opacity: 0.8;
         }
 
                 /* Mobile adjustments */
@@ -418,10 +456,6 @@
                 width: 40px;
                 height: 40px;
                 font-size: 18px;
-            }
-            .favorites-menu {
-                bottom: 12px;
-                left: 60px;
             }
         }                  
     
@@ -666,18 +700,21 @@ body.day-mode img.title-img[alt="Radio"] {
     <button id="themeToggle" class="theme-toggle floating-btn" title="Toggle day/night mode">☾</button>
 </div>
 
-<!-- ===== FAVORITES MENU POPUP ===== -->
-<div id="favoritesMenu" class="favorites-menu" aria-hidden="true">
-    <div class="favorites-menu-title">★ Favorites</div>
-    <button id="favExportBtn" class="favorites-menu-item">
-        <span class="fm-icon">↓</span> Export to file
-    </button>
-    <button id="favImportBtn" class="favorites-menu-item">
-        <span class="fm-icon">↑</span> Import from file
-    </button>
-    <button id="favClearBtn" class="favorites-menu-item favorites-menu-item-danger">
-        <span class="fm-icon">✕</span> Clear all
-    </button>
+<!-- ===== FAVORITES MODAL ===== -->
+<div id="favoritesModal" class="modal-backdrop" aria-hidden="true">
+    <div class="modal-panel">
+        <div class="modal-title">★ Favorites</div>
+        <div class="modal-subtitle">Export or import your Live &amp; Radio favorites</div>
+
+        <button id="favExportBtn" class="modal-item">
+            <span class="fm-icon">↓</span> Export to file
+        </button>
+        <button id="favImportBtn" class="modal-item">
+            <span class="fm-icon">↑</span> Import from file
+        </button>
+
+        <button id="favCloseBtn" class="modal-close">Close</button>
+    </div>
     <input type="file" id="favImportInput" accept=".json,application/json" style="display:none;">
 </div>
 
@@ -1805,33 +1842,46 @@ function getAnsiMono() {
                 break;
         }
     });
-        // ============ FAVORITES EXPORT / IMPORT ============
-    (function initFavoritesMenu() {
+           // ============ FAVORITES EXPORT / IMPORT ============
+    (function initFavoritesModal() {
         const toggleBtn = document.getElementById('favoritesToggle');
-        const menu = document.getElementById('favoritesMenu');
+        const modal = document.getElementById('favoritesModal');
+        const closeBtn = document.getElementById('favCloseBtn');
         const exportBtn = document.getElementById('favExportBtn');
         const importBtn = document.getElementById('favImportBtn');
         const importInput = document.getElementById('favImportInput');
-        const clearBtn = document.getElementById('favClearBtn');
 
-        if (!toggleBtn || !menu) return;
+        if (!toggleBtn || !modal) return;
 
-        // ---- Open/close menu ----
+        // ---- Open modal ----
         toggleBtn.addEventListener('click', (e) => {
             e.stopPropagation();
-            menu.classList.toggle('open');
+            modal.classList.add('open');
+            modal.setAttribute('aria-hidden', 'false');
         });
 
-        // Close when clicking outside
-        document.addEventListener('click', (e) => {
-            if (!menu.classList.contains('open')) return;
-            if (menu.contains(e.target) || e.target === toggleBtn) return;
-            menu.classList.remove('open');
+        // ---- Close on backdrop click ----
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.classList.remove('open');
+                modal.setAttribute('aria-hidden', 'true');
+            }
         });
 
-        // Close on Escape
+        // ---- Close button ----
+        if (closeBtn) {
+            closeBtn.addEventListener('click', () => {
+                modal.classList.remove('open');
+                modal.setAttribute('aria-hidden', 'true');
+            });
+        }
+
+        // ---- Close on Escape ----
         document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') menu.classList.remove('open');
+            if (e.key === 'Escape' && modal.classList.contains('open')) {
+                modal.classList.remove('open');
+                modal.setAttribute('aria-hidden', 'true');
+            }
         });
 
         // ---- Export ----
@@ -1850,18 +1900,19 @@ function getAnsiMono() {
 
             const a = document.createElement('a');
             a.href = url;
-            a.download = `earth-favorites-${new Date().toISOString().slice(0,10)}.json`;
+            a.download = `earth-favorites-${new Date().toISOString().slice(0, 10)}.json`;
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
             URL.revokeObjectURL(url);
 
-            menu.classList.remove('open');
+            modal.classList.remove('open');
+            modal.setAttribute('aria-hidden', 'true');
         });
 
         // ---- Import ----
         importBtn.addEventListener('click', () => {
-            importInput.value = '';   // reset so same file can be picked again
+            importInput.value = '';
             importInput.click();
         });
 
@@ -1873,8 +1924,6 @@ function getAnsiMono() {
             reader.onload = (evt) => {
                 try {
                     const data = JSON.parse(evt.target.result);
-
-                    // Basic validation
                     if (typeof data !== 'object' || data === null) {
                         throw new Error('Invalid file format');
                     }
@@ -1882,7 +1931,6 @@ function getAnsiMono() {
                     const incomingCams = Array.isArray(data.cams) ? data.cams : [];
                     const incomingStations = Array.isArray(data.stations) ? data.stations : [];
 
-                    // ---- Merge (dedupe by id for cams, by url for stations) ----
                     const existingCams = getFavorites();
                     const existingStations = getRadioFavorites();
 
@@ -1909,20 +1957,18 @@ function getAnsiMono() {
                     saveFavorites(existingCams);
                     saveRadioFavorites(existingStations);
 
-                    // Refresh UI
                     updateStarState();
                     updateRadioStarState();
 
-                    // Rebuild the favorites dropdown groups
                     document.querySelectorAll('optgroup').forEach(g => {
                         if (g.label && g.label.includes('Favorites')) g.remove();
                     });
                     buildFavoritesGroup();
                     buildRadioFavoritesGroup();
 
-                    menu.classList.remove('open');
+                    modal.classList.remove('open');
+                    modal.setAttribute('aria-hidden', 'true');
 
-                    // Simple feedback
                     if (addedCams || addedStations) {
                         alert(`Imported ${addedCams} cam${addedCams === 1 ? '' : 's'} and ${addedStations} station${addedStations === 1 ? '' : 's'}.\n\n(Duplicates skipped.)`);
                     } else {
@@ -1934,25 +1980,6 @@ function getAnsiMono() {
                 }
             };
             reader.readAsText(file);
-        });
-
-        // ---- Clear all ----
-        clearBtn.addEventListener('click', () => {
-            const confirmed = confirm('Clear ALL favorites (both Live and Radio)?\n\nThis cannot be undone.');
-            if (!confirmed) return;
-
-            saveFavorites([]);
-            saveRadioFavorites([]);
-
-            updateStarState();
-            updateRadioStarState();
-
-            // Remove the favorites optgroups
-            document.querySelectorAll('optgroup').forEach(g => {
-                if (g.label && g.label.includes('Favorites')) g.remove();
-            });
-
-            menu.classList.remove('open');
         });
     })();
 
