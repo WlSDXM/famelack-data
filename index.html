@@ -1884,7 +1884,7 @@ function getAnsiMono() {
             }
         });
 
-                                       // ---- Export ----
+                                               // ---- Export ----
         exportBtn.addEventListener('click', async () => {
             const payload = {
                 version: 1,
@@ -1897,10 +1897,13 @@ function getAnsiMono() {
             const json = JSON.stringify(payload, null, 2);
             const filename = `earth-favorites-${new Date().toISOString().slice(0, 10)}.json`;
 
-            // ---- Try Web Share API first (iOS: opens "Save to Files" share sheet) ----
-            if (navigator.canShare && typeof File !== 'undefined') {
+            // ---- Mobile: use Web Share API (opens "Save to Files") ----
+            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+            if (isMobile && navigator.canShare && typeof File !== 'undefined') {
                 try {
                     const file = new File([json], filename, { type: 'application/json' });
+
                     if (navigator.canShare({ files: [file] })) {
                         await navigator.share({
                             files: [file],
@@ -1911,17 +1914,16 @@ function getAnsiMono() {
                         return;
                     }
                 } catch (err) {
-                    // User cancelled the share sheet
                     if (err && err.name === 'AbortError') {
                         modal.classList.remove('open');
                         modal.setAttribute('aria-hidden', 'true');
                         return;
                     }
-                    console.warn('Web Share failed, falling back:', err);
+                    console.warn('Share failed, falling back:', err);
                 }
             }
 
-            // ---- Fallback: classic blob download (desktop) ----
+            // ---- Desktop: classic blob download ----
             try {
                 const blob = new Blob([json], { type: 'application/json' });
                 const url = URL.createObjectURL(blob);
@@ -1943,7 +1945,7 @@ function getAnsiMono() {
                 alert('Export failed. Try again or use a desktop browser.');
             }
         });
-
+        
         // ---- Import ----
         importBtn.addEventListener('click', () => {
             importInput.value = '';
