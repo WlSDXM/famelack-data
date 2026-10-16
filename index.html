@@ -1606,9 +1606,9 @@ for (let l = layers - 1; l >= 0; l--) {
 
 
     
-                // ============ DROPLET VISUALIZER — RIPPLE RINGS ============
-                if (!window.__dropletState) {
-            window.__dropletState = {
+                    // ============ DROPLET VISUALIZER — GRAZING SIDE-ANGLE POOL ============
+    if (!window.__dropletState) {
+        window.__dropletState = {
             ripples: [],
             lastSpawn: 0,
             drift: 0
@@ -1619,65 +1619,119 @@ for (let l = layers - 1; l >= 0; l--) {
         analyser.getByteFrequencyData(freqData);
 
         const state = window.__dropletState;
+        state.drift += 0.004;
 
-        // ---- Slow drift for the "pond surface" wobble ----
-        state.drift += 0.008;
-
-        // ---- Compute bass energy (kick drums) ----
+        // ---- Audio analysis ----
+        // Bass = kick drums → big ripples
         let bassSum = 0;
-        const bassBins = 8;      // first 8 bins = ~0–350 Hz
+        const bassBins = 6;
         for (let j = 0; j < bassBins; j++) bassSum += freqData[j];
         const bassEnergy = bassSum / bassBins / 255;
 
-        // ---- Compute overall energy for subtle ambient rings ----
-        let totalSum = 0;
-        for (let j = 0; j < freqData.length * 0.3; j++) totalSum += freqData[j];
-        const totalEnergy = totalSum / (freqData.length * 0.3) / 255;
+        // Mids/highs = snare, vocals, hats → small ripples
+        let midSum = 0;
+        const midStart = 20, midEnd = 80;
+        for (let j = midStart; j < midEnd; j++) midSum += freqData[j];
+        const midEnergy = midSum / (midEnd - midStart) / 255;
 
-        // ---- Spawn ripples on bass hits ----
+        // ---- Perspective constants ----
+        // The canvas represents a plane seen at a grazing angle.
+        // Y = 0 (top of canvas) = far away (small ripples)
+        // Y = h (bottom) = close to camera (big ripples)
+        const Y_TOP = 0;
+        const Y_BOTTOM = h;
+
+        // depthT = 0 at top of canvas, 1 at bottom
+        function depthScale(y) {
+            const depthT = (y - Y_TOP) / (Y_BOTTOM - Y_TOP);   // 0..1
+            // Widen the perspective: very flat at top, rounder at bottom
+            // pow exponent: bigger = more dramatic perspective
+            return Math.pow(depthT, 1.8);
+        }
+
+        // Ellipse squash factor: how much vertical radius is compressed
+        // At top: very squished (0.08). At bottom: rounder (0.45).
+        function squashFactor(y) {
+            const depthT = (y - Y_TOP) / (Y_BOTTOM - Y_TOP);
+            return 0.08 + depthT * 0.40;
+        }
+
+        // ---- Spawn logic ----
         const now = performance.now();
         const timeSinceLast = now - state.lastSpawn;
 
-        if (bassEnergy > 0.45 && timeSinceLast > 90) {
+        // Bass hit → big ripple
+        if (bassEnergy > 0.45 && timeSinceLast > 120) {
             state.lastSpawn = now;
 
-            // Center of pond — can drift slightly for organic feel
-            const cx = w / 2 + Math.sin(state.drift * 0.7) * (w * 0.04);
-            const cy = h / 2 + Math.cos(state.drift * 0.5) * (h * 0.05);
+            // Random position, weighted toward the mid-depth (feels more "musical")
+            const rx = Math.random();
+            const ry = 0.15 + Math.random() * 0.65;   // avoid the very top/bottom edges
 
-            // New ripple scales with bass intensity
-            const intensity = Math.min(1, bassEnergy * 1.4);
-            const maxR = Math.min(w, h) * (0.4 + intensity * 0.45);
+            const x = w * (0.1 + rx * 0.8);
+            const y = h * ry;
+
+            const intensity = Math.min(1, bassEnergy * 1.3);
+            const depth = depthScale(y);
+            const maxR = (18 + depth * 90) * (0.6 + intensity * 0.9);
+            const squash = squashFactor(y);
 
             state.ripples.push({
-                x: cx,
-                y: cy,
+                x, y,
                 r: 0,
-                maxR: maxR,
-                alpha: 0.85,
-                speed: 1.6 + intensity * 2.2,
-                hue: 210 + (1 - intensity) * 60   // bass = blue, soft hits = purple
+                maxR,
+                squash,
+                alpha: 0.9,
+                speed: 0.9 + intensity * 1.4,
+                rings: 4,
+                fadeRate: 0.008 + intensity * 0.012
             });
         }
 
-        // ---- Ambient micro-ripples on quiet passages ----
-        if (totalEnergy > 0.15 && state.ripples.length < 2 && timeSinceLast > 400) {
+        // Mid-energy → small texture ripples (soft snare / vocals)
+        if (midEnergy > 0.32 && timeSinceLast > 200 && Math.random() < 0.35) {
             state.lastSpawn = now;
-            const cx = w / 2 + Math.sin(state.drift * 1.3) * (w * 0.08);
-            const cy = h / 2 + Math.cos(state.drift * 0.9) * (h * 0.08);
+
+            const x = w * (0.05 + Math.random() * 0.9);
+            const y = h * (0.2 + Math.random() * 0.65);
+            const depth = depthScale(y);
+            const maxR = (10 + depth * 45);
+            const squash = squashFactor(y);
+
             state.ripples.push({
-                x: cx,
-                y: cy,
+                x, y,
                 r: 0,
-                maxR: Math.min(w, h) * 0.35,
+                maxR,
+                squash,
+                alpha: 0.55,
+                speed: 0.7,
+                rings: 3,
+                fadeRate: 0.010
+            });
+        }
+
+        // Ambient: occasional small ripple when quiet, keeps it alive
+        if (bassEnergy < 0.2 && midEnergy < 0.15 && timeSinceLast > 800 && Math.random() < 0.25) {
+            state.lastSpawn = now;
+            const x = w * (0.1 + Math.random() * 0.8);
+            const y = h * (0.25 + Math.random() * 0.55);
+            const depth = depthScale(y);
+            const squash = squashFactor(y);
+            state.ripples.push({
+                x, y,
+                r: 0,
+                maxR: 10 + depth * 40,
+                squash,
                 alpha: 0.35,
-                speed: 1.0,
-                hue: 200
+                speed: 0.6,
+                rings: 3,
+                fadeRate: 0.012
             });
         }
 
-        // ---- Draw all ripples ----
-        const baseColor = 220;   // cool blue base
+        // ---- Update & draw ripples ----
+        const isDay = document.body.classList.contains('day-mode');
+        const dotColor = isDay ? '0, 0, 0' : '255, 255, 255';
 
         for (let i = state.ripples.length - 1; i >= 0; i--) {
             const rp = state.ripples[i];
@@ -1685,53 +1739,59 @@ for (let l = layers - 1; l >= 0; l--) {
             // Grow radius
             rp.r += rp.speed;
 
-            // Fade as it expands
-            const lifeT = rp.r / rp.maxR;   // 0 = just spawned, 1 = fully expanded
-            rp.alpha = (1 - lifeT) * 0.9;
+            // Fade
+            rp.alpha -= rp.fadeRate;
 
-            // Remove when fully faded
-            if (lifeT >= 1 || rp.alpha <= 0.01) {
+            // Remove when done
+            if (rp.alpha <= 0.02 || rp.r > rp.maxR) {
                 state.ripples.splice(i, 1);
                 continue;
             }
 
-            // ---- Draw the ripple ring ----
-            ctx.beginPath();
-            ctx.arc(rp.x, rp.y, rp.r, 0, Math.PI * 2);
-            ctx.strokeStyle = `hsla(${rp.hue}, 75%, 65%, ${rp.alpha})`;
-            ctx.lineWidth = 1.5 + (1 - lifeT) * 1.5;   // thicker when young
-            ctx.stroke();
+            // ---- Draw each concentric ring ----
+            // Ring 0 = innermost (newest), Ring N-1 = outermost (oldest)
+            for (let k = 0; k < rp.rings; k++) {
+                const ringR = rp.r - k * 6;
+                if (ringR <= 0) continue;
 
-            // ---- Soft halo underneath (optional glow) ----
-            ctx.beginPath();
-            ctx.arc(rp.x, rp.y, rp.r, 0, Math.PI * 2);
-            ctx.strokeStyle = `hsla(${rp.hue}, 75%, 55%, ${rp.alpha * 0.25})`;
-            ctx.lineWidth = 4 + (1 - lifeT) * 4;
-            ctx.stroke();
-        }
+                // Outer rings are fainter (older ripples)
+                const ringAlpha = rp.alpha * Math.pow(0.65, k);
+                if (ringAlpha < 0.03) continue;
 
-        // ---- Center droplet dot ----
-        const cx = w / 2 + Math.sin(state.drift * 0.7) * (w * 0.04);
-        const cy = h / 2 + Math.cos(state.drift * 0.5) * (h * 0.05);
+                // Ellipse: horizontal radius = ringR, vertical = ringR * squash
+                const rx = ringR;
+                const ry = ringR * rp.squash;
 
-        const dotRadius = 1.8 + bassEnergy * 4;
-        const dotAlpha = 0.4 + bassEnergy * 0.5;
+                // Number of dots scales with ring size so density stays consistent
+                // Bigger rings = more dots
+                const dotCount = Math.max(8, Math.floor(ringR * 0.9));
 
-        ctx.beginPath();
-        ctx.arc(cx, cy, dotRadius, 0, Math.PI * 2);
-        ctx.fillStyle = `hsla(210, 75%, 75%, ${dotAlpha})`;
-        ctx.fill();
+                // Draw dots around the ellipse
+                for (let d = 0; d < dotCount; d++) {
+                    const angle = (d / dotCount) * Math.PI * 2;
+                    const px = rp.x + Math.cos(angle) * rx;
+                    const py = rp.y + Math.sin(angle) * ry;
 
-        // Soft bloom around the center dot on strong hits
-        if (bassEnergy > 0.5) {
-            const bloom = (bassEnergy - 0.5) * 2;   // 0..1
-            ctx.beginPath();
-            ctx.arc(cx, cy, 8 + bloom * 12, 0, Math.PI * 2);
-            ctx.fillStyle = `hsla(210, 75%, 70%, ${0.15 * bloom})`;
-            ctx.fill();
+                    // Skip if off-canvas (saves draw calls)
+                    if (px < -3 || px > w + 3 || py < -3 || py > h + 3) continue;
+
+                    // Depth-based dot size: smaller at top, larger at bottom
+                    const depthT = (py - Y_TOP) / (Y_BOTTOM - Y_TOP);
+                    const dotSize = 0.6 + depthT * 1.0;
+
+                    // Fade dots at the back half of the ellipse a bit (depth hint)
+                    // "Back" = further from camera = top of canvas
+                    const isBackHalf = Math.sin(angle) < 0;   // top half
+                    const depthFade = isBackHalf ? 0.7 : 1.0;
+
+                    ctx.beginPath();
+                    ctx.arc(px, py, dotSize, 0, Math.PI * 2);
+                    ctx.fillStyle = `rgba(${dotColor}, ${ringAlpha * depthFade})`;
+                    ctx.fill();
+                }
+            }
         }
     }
-
     
         function drawAscii() {
         analyser.getByteFrequencyData(freqData);
