@@ -1623,14 +1623,14 @@
             return 0.08 + depthT * 0.40;
         }
 
-        // ============================================
+        
         // LAYER 1 — AMBIENT BLUE WAVES
-        // ============================================
+        
         const isDay = document.body.classList.contains('day-mode');
 
-        const waveR = isDay ? 255 : 74;
-        const waveG = isDay ? 150 : 158;
-        const waveB = isDay ? 80  : 255;
+        const waveR = isDay ? 100 : 74;
+        const waveG = isDay ? 180 : 158;
+        const waveB = isDay ? 240 : 255;
         const waveBaseAlpha = 0.25;
 
         const bassPulse = Math.min(1, bassEnergy * 1.4);
@@ -1667,9 +1667,9 @@
             ctx.stroke();
         }
 
-        // ============================================
+        
         // LAYER 1.5 — LITTLE SAILBOAT
-        // ============================================
+        
         const boat = state.boat;
 
         if (boat.x === null) {
@@ -1766,7 +1766,7 @@
 
         ctx.restore();
 
-        // Trailing wake ripples behind the boat
+        // Trailing 
         if (Math.random() < 0.15) {
             state.ripples.push({
                 x: boat.x - 8,
@@ -1781,9 +1781,9 @@
             });
         }
 
-        // ============================================
+        
         // LAYER 2 — RIPPLE SPAWNING
-        // ============================================
+        
         const now = performance.now();
         const timeSinceLast = now - state.lastSpawn;
 
@@ -1845,9 +1845,9 @@
             });
         }
 
-        // ============================================
+        
         // LAYER 3 — RIPPLE RENDERING
-        // ============================================
+        
         const dotColor = isDay ? '0, 0, 0' : '255, 255, 255';
 
         for (let i = state.ripples.length - 1; i >= 0; i--) {
@@ -1892,9 +1892,9 @@
             }
         }
 
-        // ============================================
+        
         // LAYER 4 — RAIN STREAKS (drops falling)
-        // ============================================
+        
         for (let i = state.streaks.length - 1; i >= 0; i--) {
             const s = state.streaks[i];
 
