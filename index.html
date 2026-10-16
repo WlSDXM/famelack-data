@@ -1056,10 +1056,10 @@ body.day-mode img.title-img[alt="Radio"] {
         }
     }
 
-                function drawBars(w, h) {
+                    function drawBars(w, h) {
         analyser.getByteFrequencyData(freqData);
 
-        const halfCount = 60;
+        const halfCount = 36;              // ← was 60 — wider bars
         const barWidth = (w / 2) / halfCount;
 
         const segCount = 30;
@@ -1076,13 +1076,11 @@ body.day-mode img.title-img[alt="Radio"] {
         peak /= 255;
 
         const centerX = w / 2;
-        const time = Date.now() * 0.002;   // for ambient motion
+        const time = Date.now() * 0.002;
 
         for (let i = 0; i < halfCount; i++) {
             const t = i / (halfCount - 1);
 
-            // ---- Softer log scale (1.6 instead of 2.0) ----
-            // Spreads energy more evenly so mid/treble bars aren't tiny
             const tStart = Math.pow(t, 1.6);
             const tEnd = Math.pow((i + 1) / halfCount, 1.6);
 
@@ -1099,12 +1097,10 @@ body.day-mode img.title-img[alt="Radio"] {
             value = value / peak;
             value = Math.pow(Math.min(1, value), 0.65);
 
-            // ---- Edge bias: keep outer bars from dying ----
-            // Adds a small floor that ramps up as t → 1
-            const edgeBias = t * 0.18;
+            // Reduced edge bias since wider bars naturally fill in
+            const edgeBias = t * 0.10;
 
-            // ---- Ambient motion: subtle breathing on each bar ----
-            // Uses t and i so adjacent bars have slightly different phases
+            // Ambient breathing
             const breathPhase = i * 0.4 + time;
             const breath = (Math.sin(breathPhase) * 0.5 + 0.5) * 0.08;
 
@@ -1113,9 +1109,6 @@ body.day-mode img.title-img[alt="Radio"] {
 
             const litSegments = Math.round(value * segCount);
 
-            // ---- Fix: bars now reach the exact edges ----
-            // Use i + 0.5 so the center bar sits right at centerX,
-            // and the outer bars sit exactly at the canvas edges.
             const rightX = centerX + i * barWidth;
             const leftX  = centerX - (i + 1) * barWidth;
 
@@ -1142,15 +1135,16 @@ body.day-mode img.title-img[alt="Radio"] {
                 }
                 ctx.fillStyle = `hsl(${hue}, ${sat}%, ${light}%)`;
 
-                ctx.fillRect(rightX + barWidth * 0.15, y, barWidth * 0.7, drawSegHeight);
-                ctx.fillRect(leftX + barWidth * 0.15, y, barWidth * 0.7, drawSegHeight);
+                // Wider bars — less internal padding too (0.10 instead of 0.15)
+                ctx.fillRect(rightX + barWidth * 0.10, y, barWidth * 0.8, drawSegHeight);
+                ctx.fillRect(leftX + barWidth * 0.10, y, barWidth * 0.8, drawSegHeight);
             }
 
             if (litSegments > 0) {
                 const topY = h - litSegments * segHeight + segGap / 2;
                 ctx.fillStyle = 'hsl(350, 95%, 65%)';
-                ctx.fillRect(rightX + barWidth * 0.15, topY, barWidth * 0.7, drawSegHeight);
-                ctx.fillRect(leftX + barWidth * 0.15, topY, barWidth * 0.7, drawSegHeight);
+                ctx.fillRect(rightX + barWidth * 0.10, topY, barWidth * 0.8, drawSegHeight);
+                ctx.fillRect(leftX + barWidth * 0.10, topY, barWidth * 0.8, drawSegHeight);
             }
         }
     }
