@@ -576,8 +576,26 @@ body.day-mode img.title-img[alt="Radio"] {
     </div>
 </div>
 
-<!-- ===== DAY / NIGHT TOGGLE ===== -->
-<button id="themeToggle" class="theme-toggle" title="Toggle day/night mode">☾</button>
+<!-- ===== FLOATING CONTROLS (bottom-left) ===== -->
+<div class="floating-controls">
+    <button id="favoritesToggle" class="floating-btn" title="Favorites menu">⚙</button>
+    <button id="themeToggle" class="theme-toggle floating-btn" title="Toggle day/night mode">☾</button>
+</div>
+
+<!-- ===== FAVORITES MENU POPUP ===== -->
+<div id="favoritesMenu" class="favorites-menu" aria-hidden="true">
+    <div class="favorites-menu-title">★ Favorites</div>
+    <button id="favExportBtn" class="favorites-menu-item">
+        <span class="fm-icon">↓</span> Export to file
+    </button>
+    <button id="favImportBtn" class="favorites-menu-item">
+        <span class="fm-icon">↑</span> Import from file
+    </button>
+    <button id="favClearBtn" class="favorites-menu-item favorites-menu-item-danger">
+        <span class="fm-icon">✕</span> Clear all
+    </button>
+    <input type="file" id="favImportInput" accept=".json,application/json" style="display:none;">
+</div>
 
 <script>
     const BASE = 'https://raw.githubusercontent.com/WlSDXM/famelack-data/main';
