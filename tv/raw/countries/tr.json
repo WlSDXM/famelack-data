@@ -254,7 +254,8 @@
     "name": "ATV",
     "sources": {
       "streams": [
-        "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8"
+        "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8",
+        "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8"
       ],
       "youtube": [
         "https://www.youtube-nocookie.com/embed/959bjt_iryU"
@@ -877,20 +878,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "I6D9IHQIDu6y7l",
-    "name": "Güldür Güldür Show",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/RKo3stUideQ"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "rk4CX2TtGGZ6cO",
     "name": "Gülşah Film: Kemal Sunal Filmleri",
     "sources": {
@@ -1232,6 +1219,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "hGtWqYE7XonF37",
+    "name": "Kanal Hayat",
+    "sources": {
+      "streams": [
+        "https://tbn02a.ltnschedule.com/hls/nx21i.m3u8"
+      ]
+    },
+    "languages": [
+      "tur"
+    ],
+    "country": "tr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "oVWM3Lwlb8W6WS",
     "name": "Kanal Plus",
     "sources": {
@@ -1389,7 +1390,7 @@
     "name": "Lider Haber",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/RdfCt4FZ5yc"
+        "https://www.youtube-nocookie.com/embed/E73cFH7QHB8"
       ]
     },
     "languages": [
@@ -1904,6 +1905,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "5GoagSnDbPwxmH",
+    "name": "Tele 1",
+    "sources": {
+      "streams": [
+        "https://tele1-live.ercdn.net/tele1/tele1.m3u8"
+      ]
+    },
+    "languages": [
+      "tur"
+    ],
+    "country": "tr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "rqkOBR323x5UjG",
     "name": "Tempo TV",
     "sources": {
@@ -2257,6 +2272,20 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/4WSvLRk83-c"
+      ]
+    },
+    "languages": [
+      "tur"
+    ],
+    "country": "tr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ZdxrMEOa28PZnq",
+    "name": "TV 264",
+    "sources": {
+      "streams": [
+        "https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8"
       ]
     },
     "languages": [

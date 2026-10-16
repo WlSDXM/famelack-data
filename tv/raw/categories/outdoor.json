@@ -42,20 +42,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "zLbErKeLWlYtjV",
-    "name": "Agro TV",
-    "sources": {
-      "streams": [
-        "https://play.agenciastreaming.com:8081/agrotv/index.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "pe",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "CtdqbL5wtTjnvo",
     "name": "AgroCanal",
     "sources": {
@@ -232,8 +218,7 @@
     "sources": {
       "streams": [
         "https://hnc-free-viewlift.amagi.tv/HNC_AUSTRALIA.m3u8",
-        "https://hncfree-samsung-uk.amagi.tv/playlist.m3u8",
-        "https://hncfree-samsungau.amagi.tv/playlist.m3u8"
+        "https://hncfree-samsung-uk.amagi.tv/playlist.m3u8"
       ]
     },
     "languages": [
@@ -264,6 +249,9 @@
     "sources": {
       "streams": [
         "https://fms.premio.link/fishingtv/playlist.m3u8"
+      ],
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/hWXAxfHSgDw"
       ]
     },
     "languages": [
@@ -308,20 +296,6 @@
     ],
     "country": "ca",
     "isGeoBlocked": true
-  },
-  {
-    "nanoid": "8oGSgOh8Xrsu3u",
-    "name": "Moya Planeta",
-    "sources": {
-      "streams": [
-        "https://fs.uplink.kz/moya_planeta/mono.m3u8?token=onlinetv"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
   },
   {
     "nanoid": "skmeLVfBwTzGbY",
@@ -455,20 +429,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "3EEayoY7m4WXhg",
-    "name": "Poehali!",
-    "sources": {
-      "streams": [
-        "https://fs.uplink.kz/poehali/mono.m3u8?token=onlinetv"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "bcFsomEBowqYIB",
     "name": "Productiva TV",
     "sources": {
@@ -597,20 +557,6 @@
       "ukr"
     ],
     "country": "ua",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "jJzPjlZwq4ZxB5",
-    "name": "Rybalka i okhota",
-    "sources": {
-      "streams": [
-        "https://fs.uplink.kz/ohota_i_ribalka/mono.m3u8?token=onlinetv"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
     "isGeoBlocked": false
   },
   {

@@ -74,6 +74,9 @@
     "sources": {
       "streams": [
         "https://rtmp.baku.tv/hls/bakutv.m3u8"
+      ],
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/FMK68x9i23k"
       ]
     },
     "languages": [
@@ -102,20 +105,6 @@
     "sources": {
       "streams": [
         "https://str2.yodacdn.net/kanal35/index.m3u8"
-      ]
-    },
-    "languages": [
-      "aze"
-    ],
-    "country": "az",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "itLokaJAiNkQNU",
-    "name": "Kanal S",
-    "sources": {
-      "streams": [
-        "https://lives.atv.az:5443/KANAL-S/streams/kanals.m3u8"
       ]
     },
     "languages": [

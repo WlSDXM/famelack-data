@@ -17,20 +17,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "hNpror6ZnqPuws",
-    "name": "Aleph Business",
-    "sources": {
-      "streams": [
-        "https://streamw.m.ro/Aleph/ngrp:Alephbiz.stream_all/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "ron"
-    ],
-    "country": "ro",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "8W6k7lrcWYDap4",
     "name": "apart TV",
     "sources": {
@@ -85,20 +71,6 @@
       "ara"
     ],
     "country": "sa",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "o33GtxEONALntd",
-    "name": "Atameken Business",
-    "sources": {
-      "streams": [
-        "https://fs.uplink.kz/atameken/mono.m3u8?token=onlinetv"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "kz",
     "isGeoBlocked": false
   },
   {
@@ -364,6 +336,20 @@
       "ara"
     ],
     "country": "ae",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "G00HUpBKHxckzh",
+    "name": "CNBC Asia",
+    "sources": {
+      "streams": [
+        "https://freem3u.xyz/api/live/play.m3u8?vid=9855"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "sg",
     "isGeoBlocked": false
   },
   {

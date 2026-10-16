@@ -340,20 +340,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "CrHxjo8TlGVNjG",
-    "name": "Despierta TV",
-    "sources": {
-      "streams": [
-        "https://video2.lhdserver.es/despiertatv/live.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "0v8d7EFpyejD8F",
     "name": "Eclipse TV",
     "sources": {
@@ -498,7 +484,7 @@
     "name": "Imagen Multicast",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/g2QIV8xn2f8"
+        "https://www.youtube-nocookie.com/embed/avFCB6hYlzE"
       ]
     },
     "languages": [
@@ -526,7 +512,7 @@
     "name": "Imagen TV+",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/e8_eQJEwPlI"
+        "https://www.youtube-nocookie.com/embed/HBJBsrHxo0E"
       ]
     },
     "languages": [],
@@ -899,20 +885,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "c0t3w9rs29fRKj",
-    "name": "Tele UV",
-    "sources": {
-      "streams": [
-        "https://58fe359775f31.streamlock.net/tvuv/myStream/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "arUwONnDyiIo6o",
     "name": "Tele Yucatan",
     "sources": {
@@ -1012,6 +984,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "V9bf7FdY5Rbg5t",
+    "name": "Televisa Guerrero",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/4I46Ggo5qDk"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "pTFEVIhFVG7hq3",
     "name": "Televisa Laguna",
     "sources": {
@@ -1044,7 +1030,7 @@
     "name": "Televisa Monterrey",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/dHuORW_diJs"
+        "https://www.youtube-nocookie.com/embed/Gtxh1KM9EXQ"
       ]
     },
     "languages": [
@@ -1058,7 +1044,7 @@
     "name": "Televisa Piedras Negras",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/OzlDVl4Dku4"
+        "https://www.youtube-nocookie.com/embed/TnZid862F28"
       ]
     },
     "languages": [
@@ -1563,20 +1549,6 @@
     "sources": {
       "streams": [
         "https://5ca9af4645e15.streamlock.net/chiapas/videochiapas/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "47o1HNzoeOQk95",
-    "name": "XHUNES-TDT",
-    "sources": {
-      "streams": [
-        "https://tv91.hostingnuclear.com:19360/xhunestv/xhunestv.m3u8"
       ]
     },
     "languages": [

@@ -140,20 +140,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "VW0YFydw9mhrOx",
-    "name": "Deportes TVC",
-    "sources": {
-      "streams": [
-        "https://streaming.onnethn.com/DEPORTES_TVC/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "hn",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "8vLOrCAwtecYqt",
     "name": "Dios Te Ve",
     "sources": {
@@ -552,6 +538,20 @@
     "sources": {
       "streams": [
         "https://5e85d90130e77.streamlock.net/6014/6014/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "hn",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "yH1S0lEj15Dojl",
+    "name": "Television Olanchana",
+    "sources": {
+      "streams": [
+        "https://viewhn.com/canal30/live/playlist.m3u8"
       ]
     },
     "languages": [

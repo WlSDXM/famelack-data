@@ -18,8 +18,7 @@
     "name": "Abai TV",
     "sources": {
       "streams": [
-        "https://abaitv-stream.qazcdn.com/abaitv/abaitv/playlist.m3u8",
-        "https://fs.uplink.kz/abai_tv/mono.m3u8?token=onlinetv"
+        "https://abaitv-stream.qazcdn.com/abaitv/abaitv/playlist.m3u8"
       ]
     },
     "languages": [
@@ -140,36 +139,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "sdiObwInEYoWku",
-    "name": "Balchi TV",
-    "sources": {
-      "streams": [
-        "https://rtmpcontrol.com:1936/balchitv/balchitv/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "nld",
-      "pap"
-    ],
-    "country": "aw",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "VtHTEOxTK0CD0C",
-    "name": "Belarus-3",
-    "sources": {
-      "streams": [
-        "https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "bel",
-      "rus"
-    ],
-    "country": "by",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "L3YkR6AcwrR8JI",
     "name": "Bem Mais TV",
     "sources": {
@@ -182,21 +151,6 @@
       "por"
     ],
     "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "bYTvtLA2rlhnbu",
-    "name": "Bonaire.tv",
-    "sources": {
-      "streams": [
-        "https://media.streambrothers.com:1936/8506/8506/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "nld",
-      "pap"
-    ],
-    "country": "bq",
     "isGeoBlocked": false
   },
   {
@@ -225,20 +179,6 @@
       "eng"
     ],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "XHxGpxMeodxqTd",
-    "name": "C Malayalam TV",
-    "sources": {
-      "streams": [
-        "https://2-fss-2.streamhoster.com/pl_120/206508-3261972-1/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "mal"
-    ],
-    "country": "ca",
     "isGeoBlocked": false
   },
   {
@@ -281,20 +221,6 @@
       "spa"
     ],
     "country": "ar",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "RMJta2uB0RhiFk",
-    "name": "Channel One",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/DLTiP2PeUFU"
-      ]
-    },
-    "languages": [
-      "fas"
-    ],
-    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -446,6 +372,7 @@
     "name": "DD Bharati",
     "sources": {
       "streams": [
+        "https://cdn.pishow.tv/ott/live/10/master.m3u8",
         "https://d2lk5u59tns74c.cloudfront.net/out/v1/67cec794d8b14f9ba21f73924ac65797/index.m3u8"
       ],
       "youtube": [
@@ -1154,8 +1081,7 @@
     "name": "NTV Mir",
     "sources": {
       "streams": [
-        "https://streaming.thestream.cyou/live/213.m3u8",
-        "https://fs.uplink.kz/ntv_mir/mono.m3u8?token=onlinetv"
+        "https://streaming.thestream.cyou/live/213.m3u8"
       ]
     },
     "languages": [
@@ -1326,9 +1252,9 @@
     "name": "Russia-K",
     "sources": {
       "streams": [
-        "https://fs.uplink.kz/rossia_k/mono.m3u8?token=onlinetv",
         "https://stream8.cinerama.uz/1048/tracks-v1a1/mono.m3u8",
-        "https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8"
+        "https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8",
+        "https://stream.smotrim.ru/hls2/russia_k/playlist_5.m3u8"
       ]
     },
     "languages": [

@@ -4,7 +4,6 @@
     "name": "365 days TV",
     "sources": {
       "streams": [
-        "https://fs.uplink.kz/365_dney/mono.m3u8?token=onlinetv",
         "https://stream8.cinerama.uz/1242/tracks-v1a1/mono.m3u8"
       ]
     },
@@ -208,20 +207,6 @@
       "zho"
     ],
     "country": "cn",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "UYW2WtzuwJvxrr",
-    "name": "City Eden KinoDok",
-    "sources": {
-      "streams": [
-        "https://cityeden.catcast.tv/content/38354/index.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
     "isGeoBlocked": false
   },
   {
@@ -429,6 +414,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "FOmh48Vhhwgsmx",
+    "name": "Ecovision",
+    "sources": {
+      "streams": [
+        "https://streaming.grupomediosdelnorte.com:19360/ecovision/ecovision.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "455SjvDokn1Rzo",
     "name": "Epic Crimes",
     "sources": {
@@ -489,9 +488,9 @@
     "name": "History Hit",
     "sources": {
       "streams": [
+        "https://lds-timeline-plex.amagi.tv/playlist.m3u8",
         "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-timelinenz-samsungnz/playlist.m3u8",
-        "https://ldsaaaaaa-timeline-samsungau-awedz.amagi.tv/playlist/ldsAAAAAA-timeline-samsungau/playlist.m3u8",
-        "https://timeline-samsung-uk.amagi.tv/playlist.m3u8"
+        "https://ldsaaaaaa-timeline-samsungau-awedz.amagi.tv/playlist/ldsAAAAAA-timeline-samsungau/playlist.m3u8"
       ]
     },
     "languages": [
@@ -576,20 +575,6 @@
     ],
     "country": "nl",
     "isGeoBlocked": true
-  },
-  {
-    "nanoid": "vWHREmfFSnsmrs",
-    "name": "Istoriya",
-    "sources": {
-      "streams": [
-        "https://fs.uplink.kz/istoriya/mono.m3u8?token=onlinetv"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
   },
   {
     "nanoid": "YhG2yKqVnyrY83",
@@ -780,20 +765,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "jDb8tgaBS3dpwH",
-    "name": "National Geographic",
-    "sources": {
-      "streams": [
-        "https://fs.uplink.kz/nat_geo/mono.m3u8?token=onlinetv"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "g2bTTopTiGfPsS",
     "name": "National Geographic Latin America Panregional",
     "sources": {
@@ -805,20 +776,6 @@
       "spa"
     ],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "FmClQA6aIx4mGP",
-    "name": "National Geographic Wild",
-    "sources": {
-      "streams": [
-        "https://fs.uplink.kz/nat_geo_wild/mono.m3u8?token=onlinetv"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
     "isGeoBlocked": false
   },
   {
@@ -1122,39 +1079,10 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "pZthsgjcG9ZCMb",
-    "name": "viju Explore",
-    "sources": {
-      "streams": [
-        "https://fs.uplink.kz/viju_explore/mono.m3u8?token=onlinetv"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "8XdbeDHcvZuIPU",
-    "name": "viju History",
-    "sources": {
-      "streams": [
-        "https://fs.uplink.kz/viju_history/mono.m3u8?token=onlinetv"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "lHhrFobodop0gc",
     "name": "viju Nature",
     "sources": {
       "streams": [
-        "https://fs.uplink.kz/viju_nature/mono.m3u8?token=onlinetv",
         "https://stream8.cinerama.uz/1228/tracks-v1a1/mono.m3u8"
       ]
     },

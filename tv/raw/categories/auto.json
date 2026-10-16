@@ -14,20 +14,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "VZhk7cz2JcEXl3",
-    "name": "Avto24",
-    "sources": {
-      "streams": [
-        "https://fs.uplink.kz/avto24/mono.m3u8?token=onlinetv"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "94QOTvoD2MmNeP",
     "name": "Choppertown",
     "sources": {

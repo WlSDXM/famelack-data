@@ -88,7 +88,7 @@
     "name": "24 Horas",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/DQZZvH3ZjH8"
+        "https://www.youtube-nocookie.com/embed/7He-zj4p-Wc"
       ]
     },
     "languages": [
@@ -507,6 +507,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "n4dKzonwHr1dN8",
+    "name": "ChileVision",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/DgQO3Cu3H4I"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "eDESw3Ox4wXwbn",
     "name": "Chiloe Red 25",
     "sources": {
@@ -553,7 +567,7 @@
     "name": "CHV Noticias",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HXQKceg8eDY"
+        "https://www.youtube-nocookie.com/embed/-3_U4pJzc0A"
       ]
     },
     "languages": [
@@ -1166,20 +1180,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "kzEcPH3uey0NcL",
-    "name": "La Red",
-    "sources": {
-      "streams": [
-        "https://tv-mgmt.gtd.cl/bpk-tv/LARED/default/index.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "cl",
-    "isGeoBlocked": true
-  },
-  {
     "nanoid": "2chkqgWCF5rRAH",
     "name": "Lila TV Pencahue",
     "sources": {
@@ -1255,7 +1255,7 @@
     "name": "Meganoticias",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/yudqneZm-Cs"
+        "https://www.youtube-nocookie.com/embed/As3cvdWxPkI"
       ]
     },
     "languages": [],
@@ -2178,20 +2178,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "hOGgRxhyqTyz2f",
-    "name": "TeleCauquenes",
-    "sources": {
-      "streams": [
-        "https://lbgo.bozztv.com/ssh101/ssh101/telecauquenestv/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "QCubHZSGzvkAVk",
     "name": "Teletrak TV",
     "sources": {
@@ -2211,20 +2197,6 @@
     "sources": {
       "streams": [
         "https://tls-cl.cdnz.cl/televida/live/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "mvCL9CmKOhlNrJ",
-    "name": "Televisión del Senado",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ScMO3oncXdM"
       ]
     },
     "languages": [
@@ -2478,8 +2450,8 @@
     "name": "UATV",
     "sources": {
       "streams": [
-        "https://unlimited6-cl.dps.live/uatv/uatv.smil/playlist.m3u8",
-        "https://unlimited1-us.dps.live/uatv/uatv.smil/playlist.m3u8"
+        "https://unlimited1-us.dps.live/uatv/uatv.smil/playlist.m3u8",
+        "https://unlimited6-cl.dps.live/uatv/uatv.smil/playlist.m3u8"
       ]
     },
     "languages": [

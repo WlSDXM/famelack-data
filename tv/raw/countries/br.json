@@ -262,7 +262,7 @@
     "name": "CNN Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/vSmw9jQqdJ8"
+        "https://www.youtube-nocookie.com/embed/xhJp31yG3Fc"
       ]
     },
     "languages": [
@@ -404,20 +404,6 @@
     "sources": {
       "streams": [
         "https://stmv1.samcast.com.br/ricardo2194/ricardo2194/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "b3HmytgXpnq9Lw",
-    "name": "Fala Litoral",
-    "sources": {
-      "streams": [
-        "https://5c483b9d1019c.streamlock.net/falalitoraltv/falalitoraltv/playlist.m3u8"
       ]
     },
     "languages": [
@@ -727,7 +713,7 @@
     "name": "Peppa Pig Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/eR_UoZyl8Z4"
+        "https://www.youtube-nocookie.com/embed/nf4XeHS_tvw"
       ]
     },
     "languages": [
@@ -828,7 +814,7 @@
         "https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HbcL1myvoVE"
+        "https://www.youtube-nocookie.com/embed/-YS0aMUHQDM"
       ]
     },
     "languages": [
@@ -1007,20 +993,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "O8tFJhKTZ0GylR",
-    "name": "Santa Cruz Feira Digital",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/DsdpTA1t9qQ"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "iHsfcZXYEPAKKO",
     "name": "Santuário Nacional de Aparecida",
     "sources": {
@@ -1078,53 +1050,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "pqj11LkViqg7gn",
-    "name": "SBT RIBEIRÃO PRETO",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/9zxY1qX1ny0"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "AirKXuG95kE7xD",
-    "name": "SBT Rio",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Kzkcz-mCXTg"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "RSNMIqz61yHtc6",
-    "name": "SBT RS",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/k_Jo76cA7v0"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "wQwzJWldq22ymG",
-    "name": "SIC TV",
+    "nanoid": "LLNkgpUxL9eFFQ",
+    "name": "SOU TV",
     "sources": {
       "streams": [
-        "https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8"
+        "https://video10.logicahost.com.br/soutv/soutv/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1292,7 +1222,7 @@
     "name": "TV Assembleia Minas Gerais",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/DE1tmlXxrHs"
+        "https://www.youtube-nocookie.com/embed/TCKsniOmaB8"
       ]
     },
     "languages": [
@@ -1611,20 +1541,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "9Z6UmtBHKa0451",
-    "name": "TV Notícia",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/TDZt6jtrvMY"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "dcIkvJvyHx3mhL",
     "name": "TV Padre Cicero",
     "sources": {
@@ -1659,6 +1575,20 @@
     "sources": {
       "streams": [
         "https://5a2b083e9f360.streamlock.net/tvpantanal/tvpantanal.sdp/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "HZWd4go9om2ldn",
+    "name": "TV Paraense",
+    "sources": {
+      "streams": [
+        "https://video09.logicahost.com.br/tvparaense/tvparaense/playlist.m3u"
       ]
     },
     "languages": [
@@ -1743,34 +1673,6 @@
     "sources": {
       "streams": [
         "https://5cf4a2c2512a2.streamlock.net/8236/8236/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "3SFbEQ5XiHL1nO",
-    "name": "TV Sul Bahia",
-    "sources": {
-      "streams": [
-        "https://live.cdn.upx.com/00046/myStream.sdp/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Apy4C6DTjAR2zf",
-    "name": "TV Tambaú",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/oo8HXCkkMA4"
       ]
     },
     "languages": [

@@ -216,8 +216,7 @@
     "name": "Balapan",
     "sources": {
       "streams": [
-        "https://balapantv-stream.qazcdn.com/balapantv/balapantv/playlist.m3u8",
-        "https://fs.uplink.kz/balapan/mono.m3u8?token=onlinetv"
+        "https://balapantv-stream.qazcdn.com/balapantv/balapantv/playlist.m3u8"
       ]
     },
     "languages": [
@@ -423,20 +422,6 @@
     ],
     "country": "ru",
     "isGeoBlocked": true
-  },
-  {
-    "nanoid": "J6iMoLxR0lXzRq",
-    "name": "Carousel International",
-    "sources": {
-      "streams": [
-        "https://fs.uplink.kz/karusel/mono.m3u8?token=onlinetv"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
   },
   {
     "nanoid": "co6UrhPBemum5j",
@@ -1788,25 +1773,10 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "pZCVQARMPmXKYC",
-    "name": "Mult International",
-    "sources": {
-      "streams": [
-        "https://fs.uplink.kz/mult/mono.m3u8?token=onlinetv"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Pl9PpHSjGV5iKN",
     "name": "Multilandia",
     "sources": {
       "streams": [
-        "https://fs.uplink.kz/multilandia/mono.m3u8?token=onlinetv",
         "https://stream8.cinerama.uz/1440/tracks-v1a1/mono.m3u8"
       ]
     },
@@ -1842,20 +1812,6 @@
       "por"
     ],
     "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "uU0w6PP1NhQ9xR",
-    "name": "Nickelodeon",
-    "sources": {
-      "streams": [
-        "https://tvsen7.aynascope.net/nicklodean/index.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "uk",
     "isGeoBlocked": false
   },
   {
@@ -1934,20 +1890,6 @@
     "sources": {
       "streams": [
         "https://stream8.cinerama.uz/1502/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "lNGCkJoFH408tm",
-    "name": "O! International",
-    "sources": {
-      "streams": [
-        "https://fs.uplink.kz/o/mono.m3u8?token=onlinetv"
       ]
     },
     "languages": [
@@ -2115,7 +2057,7 @@
     "name": "Peppa Pig Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/eR_UoZyl8Z4"
+        "https://www.youtube-nocookie.com/embed/nf4XeHS_tvw"
       ]
     },
     "languages": [
@@ -2520,20 +2462,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "U03XNglu5PbVmX",
-    "name": "STS kids International",
-    "sources": {
-      "streams": [
-        "https://fs.uplink.kz/sts_kids/mono.m3u8?token=onlinetv"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "h9eDkCfbFxUPDf",
     "name": "Sunny Bunnies",
     "sources": {
@@ -2552,7 +2480,7 @@
     "name": "Super Simple: Bedtime Songs",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/7OojDKcCqpM"
+        "https://www.youtube-nocookie.com/embed/i7-Z6Y0mxs8"
       ]
     },
     "languages": [
@@ -2566,7 +2494,7 @@
     "name": "Super Simple: Simple Songs",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/udECZre0m5I"
+        "https://www.youtube-nocookie.com/embed/yjpnXS51oNw"
       ]
     },
     "languages": [
@@ -2897,7 +2825,6 @@
     "name": "V gostyakh u skazki",
     "sources": {
       "streams": [
-        "https://fs.uplink.kz/v_gostyah_u_skazki/mono.m3u8?token=onlinetv",
         "https://stream8.cinerama.uz/1270/tracks-v1a1/mono.m3u8"
       ]
     },
@@ -2926,7 +2853,7 @@
     "name": "WildBrain Kids",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/pUzZMdzcyTw"
+        "https://www.youtube-nocookie.com/embed/PNXhT9T-PNY"
       ]
     },
     "languages": [
@@ -3045,6 +2972,20 @@
       "ben"
     ],
     "country": "in",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "kz1QrxbntvR2ns",
+    "name": "Zig & Sharko",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/pD5viVtu_Ys"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "fr",
     "isGeoBlocked": false
   },
   {

@@ -42,20 +42,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "SZKqh8My275jx3",
-    "name": "FairON",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/0S-jGDLn_bY"
-      ]
-    },
-    "languages": [
-      "deu"
-    ],
-    "country": "at",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "TIO4oK5UynDpK7",
     "name": "FS1 Salzburg",
     "sources": {
@@ -240,20 +226,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "hUh8zOVsiGJwtZ",
-    "name": "N1 TV",
-    "sources": {
-      "streams": [
-        "https://ms02.w24.at/R9Partner/noentv.smil/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "deu"
-    ],
-    "country": "at",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "1VnHK2mZ0MLj12",
     "name": "oe24 TV",
     "sources": {
@@ -396,20 +368,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "FprwnAkCKvi17W",
-    "name": "Steiermark TV",
-    "sources": {
-      "streams": [
-        "https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd4/playlist.m3u8?ref="
-      ]
-    },
-    "languages": [
-      "deu"
-    ],
-    "country": "at",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "dHIKj0PT3rIpW8",
     "name": "Stimmungsgarten TV",
     "sources": {
@@ -461,6 +419,20 @@
     },
     "languages": [
       "eng"
+    ],
+    "country": "at",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "YQPekJKCEusA1c",
+    "name": "Tirol TV",
+    "sources": {
+      "streams": [
+        "https://streaming14.huberwebmedia.at/LiveApp/streams/livestream.m3u8"
+      ]
+    },
+    "languages": [
+      "deu"
     ],
     "country": "at",
     "isGeoBlocked": false

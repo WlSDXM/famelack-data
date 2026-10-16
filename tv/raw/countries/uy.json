@@ -14,20 +14,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "qO9vRi6qWS9n0t",
-    "name": "Raquel Daruech TV",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/oC5wj2PsVkw"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "uy",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "wOuKcaJXWEMKNa",
     "name": "UCL",
     "sources": {

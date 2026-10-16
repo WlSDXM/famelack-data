@@ -14,20 +14,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "YbFD75G4AxdNyE",
-    "name": "All the K-POP",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/GaccTXdeRRI"
-      ]
-    },
-    "languages": [
-      "kor"
-    ],
-    "country": "kr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Tbc3pRPpRtjmFA",
     "name": "Arirang Radio",
     "sources": {
@@ -505,7 +491,7 @@
     "name": "JTBC News",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/nT1R7RTVQG4"
+        "https://www.youtube-nocookie.com/embed/adJJuGr4EiM"
       ]
     },
     "languages": [
@@ -519,7 +505,7 @@
     "name": "KBS News",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/bvAmUft_pNk"
+        "https://www.youtube-nocookie.com/embed/Fsmr_cr17ZY"
       ]
     },
     "languages": [
@@ -702,7 +688,7 @@
     "name": "SBS",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/xWfMbqzHV64"
+        "https://www.youtube-nocookie.com/embed/y82ICiZUF8Y"
       ]
     },
     "languages": [
@@ -941,20 +927,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/ciA-0rInLwQ"
-      ]
-    },
-    "languages": [
-      "kor"
-    ],
-    "country": "kr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "DtgYVbjB754i8Q",
-    "name": "어서와 한국은 처음이지",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/6eCKwa46LJI"
       ]
     },
     "languages": [

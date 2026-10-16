@@ -56,19 +56,5 @@
     ],
     "country": "om",
     "isGeoBlocked": false
-  },
-  {
-    "nanoid": "TG6opfslLpf6Db",
-    "name": "Oman TV Mubashir",
-    "sources": {
-      "streams": [
-        "https://partwota.cdn.mgmlcdn.com/omlive/smil:omlive.stream.smil/chunklist.m3u8"
-      ]
-    },
-    "languages": [
-      "ara"
-    ],
-    "country": "om",
-    "isGeoBlocked": false
   }
 ]

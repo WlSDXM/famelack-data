@@ -56,6 +56,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "vFuB4amnCAnzu2",
+    "name": "Crafter's TV",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/f_zqH-esDHo"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "SNT2M9ATZsS3tF",
     "name": "Create & Craft TV Extra",
     "sources": {
@@ -109,20 +123,6 @@
       "eng"
     ],
     "country": "au",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "SZKqh8My275jx3",
-    "name": "FairON",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/0S-jGDLn_bY"
-      ]
-    },
-    "languages": [
-      "deu"
-    ],
-    "country": "at",
     "isGeoBlocked": false
   },
   {

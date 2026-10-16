@@ -182,20 +182,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "LX1jOBuAPab8Ct",
-    "name": "Nim TV",
-    "sources": {
-      "streams": [
-        "https://cdn.streamhispanatv.net:3210/live/nimtvgtlive.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "gt",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "xzHB1m21hm0Vtm",
     "name": "Nuestra Imagen TV",
     "sources": {

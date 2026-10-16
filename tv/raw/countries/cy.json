@@ -1,20 +1,5 @@
 [
   {
-    "nanoid": "IkfmKBtuIvKiX8",
-    "name": "Ada TV",
-    "sources": {
-      "streams": [
-        "https://yayin1.canlitv.fun/live/kibrisadatv.stream/playlist.m3u8?hash=c8ef4693b88421be057e3f977eee146f",
-        "https://yayin1.canlitv.fun/live/kibrisadatv.stream/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "cy",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "RBsWEaAAzkcFkK",
     "name": "ANT1 Cyprus",
     "sources": {

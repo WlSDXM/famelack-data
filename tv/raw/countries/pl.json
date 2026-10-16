@@ -732,7 +732,7 @@
     "name": "Telewizja Zabrze",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/D5pE6bru9-w"
+        "https://www.youtube-nocookie.com/embed/6GSCCKAx1XI"
       ]
     },
     "languages": [
@@ -845,6 +845,20 @@
     "sources": {
       "streams": [
         "https://stream.tvkstella.pl/stella/stella.m3u8"
+      ]
+    },
+    "languages": [
+      "pol"
+    ],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Se7x9HGaZbNY8X",
+    "name": "TVP Info",
+    "sources": {
+      "streams": [
+        "https://dash4.antik.sk/live/test_tvp_info/playlist.m3u8"
       ]
     },
     "languages": [

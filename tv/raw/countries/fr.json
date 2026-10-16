@@ -970,6 +970,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "oETakhtKOAAoma",
+    "name": "L'Equipe",
+    "sources": {
+      "streams": [
+        "https://dq37unyetkpcz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-m04j89j7k5gtp/LEquipe_FR.m3u8"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "fr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "30bfOGEz7cdNL8",
     "name": "LCP",
     "sources": {
@@ -1342,11 +1356,11 @@
     "isGeoBlocked": true
   },
   {
-    "nanoid": "3UupDDnNXaxwcR",
-    "name": "Rakuten TV Films Comédie",
+    "nanoid": "4OHJUKjDj7pE2U",
+    "name": "Rakuten TV Films Drames",
     "sources": {
       "streams": [
-        "https://cc9f70371e7144e7acae4de8b5832d7a.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6183/master.m3u8"
+        "https://f396f4db84a54f7bb496b2541477b626.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6095/master.m3u8"
       ]
     },
     "languages": [],
@@ -1354,11 +1368,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "iLva87P8XGqzZK",
-    "name": "Rakuten TV Films Romance",
+    "nanoid": "AIirayhr6r6kA6",
+    "name": "Rakuten TV Films Thriller",
     "sources": {
       "streams": [
-        "https://9affb6144c4c4cdca25d58908cb55a64.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6195/master.m3u8"
+        "https://thriller-rakuten-tv-fr.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6479/master.m3u8"
       ]
     },
     "languages": [],
@@ -1957,6 +1971,7 @@
     "name": "TV5Monde Asia",
     "sources": {
       "streams": [
+        "https://freem3u.xyz/api/live/play.m3u8?vid=9852",
         "https://mumt03.tangotv.in/Dsly5z3HTV5MONDEASIA/index.m3u8"
       ]
     },
@@ -2017,6 +2032,20 @@
       ]
     },
     "languages": [],
+    "country": "fr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "4iaZvz0DlRN5Ya",
+    "name": "ViaMatele",
+    "sources": {
+      "streams": [
+        "https://5dd226f8f01e8.streamlock.net/via-matele-live/matelelive_1080/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
     "country": "fr",
     "isGeoBlocked": false
   },
@@ -2083,6 +2112,20 @@
     },
     "languages": [
       "eng",
+      "fra"
+    ],
+    "country": "fr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "kz1QrxbntvR2ns",
+    "name": "Zig & Sharko",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/pD5viVtu_Ys"
+      ]
+    },
+    "languages": [
       "fra"
     ],
     "country": "fr",

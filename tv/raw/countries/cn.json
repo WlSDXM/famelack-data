@@ -821,30 +821,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "2D80wABwXq6SL0",
-    "name": "浙江 I 绍兴影视",
-    "sources": {
-      "streams": [
-        "https://live.shaoxing.com.cn/video/s10001-sxtv3/index.m3u8"
-      ]
-    },
-    "languages": [],
-    "country": "cn",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "tWjSdo4t72dhtd",
-    "name": "浙江 I 绍兴综合",
-    "sources": {
-      "streams": [
-        "https://live.shaoxing.com.cn/video/s10001-sxtv1/index.m3u8"
-      ]
-    },
-    "languages": [],
-    "country": "cn",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "q3imX08R99F529",
     "name": "浙江国际",
     "sources": {

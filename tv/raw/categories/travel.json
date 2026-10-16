@@ -218,6 +218,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "50fISDUbgXCYss",
+    "name": "Living Asia Channel",
+    "sources": {
+      "streams": [
+        "https://cdn.vegasplus.us/vegas/lac/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "eng",
+      "tgl"
+    ],
+    "country": "ph",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "IG7KP9uOfXV0Z7",
     "name": "OEPM TV",
     "sources": {

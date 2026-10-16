@@ -42,20 +42,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "d8w13QXT1QMGcP",
-    "name": "BRIDGE Classic",
-    "sources": {
-      "streams": [
-        "https://fs.uplink.kz/bridge_classic/mono.m3u8?token=onlinetv"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "3FibakB882ByKy",
     "name": "Classic TV",
     "sources": {
@@ -142,27 +128,13 @@
     "name": "Land Of The Lost",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/lk7BZpk1PZ4"
+        "https://www.youtube-nocookie.com/embed/QBEMEmru4KY"
       ]
     },
     "languages": [
       "eng"
     ],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "E0XOi7kyOzOH98",
-    "name": "Nostalgia",
-    "sources": {
-      "streams": [
-        "https://fs.uplink.kz/nostalgia/mono.m3u8?token=onlinetv"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
     "isGeoBlocked": false
   },
   {
@@ -256,7 +228,7 @@
     "name": "Shout! Studios: Elvira's Movie Macabre",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/99Qr1DR1p3g"
+        "https://www.youtube-nocookie.com/embed/UjGpap-Ql9w"
       ]
     },
     "languages": [

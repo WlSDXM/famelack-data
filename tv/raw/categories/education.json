@@ -114,6 +114,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "ZQE8Kkj7LLaHHY",
+    "name": "BVG",
+    "sources": {
+      "streams": [
+        "https://mumt05.tangotv.in/87NeALx2BVG/index.m3u8"
+      ]
+    },
+    "languages": [
+      "hin"
+    ],
+    "country": "in",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "7vuNKG15VuJZNX",
     "name": "Campus TV",
     "sources": {
@@ -125,20 +139,6 @@
       "spa"
     ],
     "country": "hn",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "w9iKnoeRBQ99pR",
-    "name": "Can Tho TV 2",
-    "sources": {
-      "streams": [
-        "https://live.canthotv.vn/cs2/live.stream/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "vie"
-    ],
-    "country": "vn",
     "isGeoBlocked": false
   },
   {
@@ -286,7 +286,6 @@
     "name": "Da Vinci",
     "sources": {
       "streams": [
-        "https://fs.uplink.kz/da_vinci/mono.m3u8?token=onlinetv",
         "https://stream8.cinerama.uz/1231/tracks-v1a1/mono.m3u8"
       ]
     },
@@ -1398,20 +1397,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "c0t3w9rs29fRKj",
-    "name": "Tele UV",
-    "sources": {
-      "streams": [
-        "https://58fe359775f31.streamlock.net/tvuv/myStream/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "wG03qaF80rSneK",
     "name": "Telepace 3",
     "sources": {
@@ -1803,20 +1788,6 @@
       "eng"
     ],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "47o1HNzoeOQk95",
-    "name": "XHUNES-TDT",
-    "sources": {
-      "streams": [
-        "https://tv91.hostingnuclear.com:19360/xhunestv/xhunestv.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
     "isGeoBlocked": false
   },
   {

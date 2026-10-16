@@ -43,11 +43,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "w9iKnoeRBQ99pR",
-    "name": "Can Tho TV 2",
+    "nanoid": "9mkVX2EDgu3ZHf",
+    "name": "Can Tho TV 3",
     "sources": {
       "streams": [
-        "https://live.canthotv.vn/cs2/live.stream/playlist.m3u8"
+        "https://live.canthotv.vn/cs3/tv/chunklist.m3u8"
       ]
     },
     "languages": [
@@ -87,7 +87,7 @@
     "name": "DGV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/R8kVEeT89xA"
+        "https://www.youtube-nocookie.com/embed/EW3767GpTOk"
       ]
     },
     "languages": [

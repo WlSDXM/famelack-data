@@ -28,6 +28,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "HwKriYLLIfSseS",
+    "name": "Bayon TV",
+    "sources": {
+      "streams": [
+        "https://ip.pdtvhd.com/Khmer/streams/Bayonhd.m3u8"
+      ]
+    },
+    "languages": [
+      "khm"
+    ],
+    "country": "kh",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "g4A3bB8HmwN8Zj",
     "name": "CTV 9",
     "sources": {
@@ -89,6 +103,20 @@
     "sources": {
       "streams": [
         "https://stream.pdtvhd.com/LiveApp/streams/Townfullhd.m3u8"
+      ]
+    },
+    "languages": [
+      "khm"
+    ],
+    "country": "kh",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Mhke0W0yDC0bio",
+    "name": "TV5 Cambodia",
+    "sources": {
+      "streams": [
+        "https://ip.pdtvhd.com/Khmer/streams/CTV5.m3u8"
       ]
     },
     "languages": [
