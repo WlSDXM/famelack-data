@@ -686,6 +686,7 @@
                         <option value="ansi">ANSI</option>
                         <option value="dots">Dots</option>
                         <option value="droplet">Droplet</option>
+                        <option value="fish">Fish Tank</option>
                     </select>
                     <button id="radioStar" class="cam-star" title="Save to favorites" style="margin-left: auto;">★</button>
                 </div>
@@ -1934,6 +1935,355 @@
         }
     }
 
+        // ============ FISH TANK VISUALIZER ============
+    if (!window.__fishState) {
+        window.__fishState = {
+            dancer: {
+                x: null,
+                y: null,
+                facing: 1,           // 1 = right, -1 = left
+                wigglePhase: 0,
+                bouncePhase: 0,
+                flipTimer: 0,
+                baseY: 0.62         // 0..1 of canvas height
+            },
+            swimmers: [],
+            bubbles: [],
+            seaweed: [],
+            initialized: false
+        };
+    }
+
+    function drawFishTank(w, h) {
+        analyser.getByteFrequencyData(freqData);
+
+        const state = window.__fishState;
+        const isDay = document.body.classList.contains('day-mode');
+
+        // ---- Audio analysis ----
+        let bassSum = 0;
+        const bassBins = 6;
+        for (let j = 0; j < bassBins; j++) bassSum += freqData[j];
+        const bassEnergy = bassSum / bassBins / 255;
+
+        let midSum = 0;
+        const midStart = 20, midEnd = 80;
+        for (let j = midStart; j < midEnd; j++) midSum += freqData[j];
+        const midEnergy = midSum / (midEnd - midStart) / 255;
+
+        const bassPulse = Math.min(1, bassEnergy * 1.4);
+
+        // ---- Initialize scene on first run ----
+        if (!state.initialized || state.lastW !== w || state.lastH !== h) {
+            state.lastW = w;
+            state.lastH = h;
+
+            // Dancer
+            state.dancer.x = w * 0.5;
+            state.dancer.baseY = 0.62;
+            state.dancer.y = h * state.dancer.baseY;
+            state.dancer.facing = 1;
+            state.dancer.wigglePhase = 0;
+            state.dancer.bouncePhase = 0;
+            state.dancer.flipTimer = 0;
+
+            // Background swimmers — 3 of them at different depths
+            state.swimmers = [
+                { xT: 0.15, yT: 0.35, dir: 1,  speed: 0.35, depth: 0.6, wiggle: 0, fishSize: 0.75 },
+                { xT: 0.55, yT: 0.45, dir: -1, speed: 0.28, depth: 0.5, wiggle: 0, fishSize: 0.65 },
+                { xT: 0.80, yT: 0.52, dir: 1,  speed: 0.42, depth: 0.8, wiggle: 0, fishSize: 0.85 }
+            ];
+
+            // Bubbles — 5 of them
+            state.bubbles = [];
+            for (let i = 0; i < 5; i++) {
+                state.bubbles.push({
+                    xT: 0.1 + Math.random() * 0.8,
+                    yT: 1.05 + Math.random() * 0.3,   // below canvas
+                    speed: 0.0008 + Math.random() * 0.0006,
+                    wobblePhase: Math.random() * Math.PI * 2,
+                    size: 1 + Math.random() * 1.5
+                });
+            }
+
+            // Seaweed — 4 strands, scattered along the bottom
+            state.seaweed = [
+                { xT: 0.08, height: 0.30, phase: 0.0,  width: 1.8 },
+                { xT: 0.15, height: 0.22, phase: 1.2,  width: 1.4 },
+                { xT: 0.88, height: 0.26, phase: 2.4,  width: 1.6 },
+                { xT: 0.94, height: 0.34, phase: 3.7,  width: 2.0 }
+            ];
+
+            state.initialized = true;
+        }
+
+        // ---- Current time for smooth swaying ----
+        state.time = (state.time || 0) + 1;
+
+        // ============================================
+        // LAYER 1 — CORAL (bottom-right corner)
+        // ============================================
+        // Coral is a static silhouette — soft orange/pink tint
+        const coralR = isDay ? 220 : 255;
+        const coralG = isDay ? 130 : 150;
+        const coralB = isDay ? 130 : 130;
+        const coralFill = `rgba(${coralR}, ${coralG}, ${coralB}, 0.35)`;
+        const coralOutline = `rgba(${coralR}, ${coralG}, ${coralB}, 0.75)`;
+
+        ctx.save();
+        ctx.translate(w * 0.85, h);
+        drawCoralShape(ctx, coralFill, coralOutline);
+        ctx.restore();
+
+        // ============================================
+        // LAYER 2 — SEAWEED (background)
+        // ============================================
+        // Sway speed scales gently with bass
+        const swaySpeed = 0.035 + bassPulse * 0.03;
+        const swayAmp = 0.02 + bassPulse * 0.015;
+
+        for (let i = 0; i < state.seaweed.length; i++) {
+            const sw = state.seaweed[i];
+            const baseX = w * sw.xT;
+            const topY = h * (1 - sw.height);
+
+            // Simple back-and-forth sway — no visible sine wave, just the
+            // whole blade leaning left and right over time
+            const lean = Math.sin(state.time * swaySpeed + sw.phase) * swayAmp;
+            // Convert lean to an X offset at the top of the blade
+            const topOffset = lean * h;
+
+            // Seaweed color — greenish tint
+            const seaR = isDay ? 40 : 100;
+            const seaG = isDay ? 120 : 200;
+            const seaB = isDay ? 60 : 120;
+            const seaAlpha = 0.55;
+
+            // Draw as a curved blade using quadratic bezier
+            ctx.beginPath();
+            ctx.moveTo(baseX - sw.width, h);
+            ctx.quadraticCurveTo(
+                baseX + topOffset * 0.5, (h + topY) / 2,
+                baseX + topOffset, topY
+            );
+            ctx.quadraticCurveTo(
+                baseX + topOffset * 0.5 + sw.width, (h + topY) / 2,
+                baseX + sw.width, h
+            );
+            ctx.closePath();
+            ctx.fillStyle = `rgba(${seaR}, ${seaG}, ${seaB}, ${seaAlpha})`;
+            ctx.fill();
+        }
+
+        // ============================================
+        // LAYER 3 — BACKGROUND FISH (behind the dancer)
+        // ============================================
+        for (let i = 0; i < state.swimmers.length; i++) {
+            const sw = state.swimmers[i];
+
+            // Move horizontally — speed scales with bass
+            const moveSpeed = sw.speed * (1 + bassPulse * 1.2) / w;
+            sw.xT += sw.dir * moveSpeed;
+
+            // Wrap around
+            if (sw.xT > 1.15) sw.xT = -0.15;
+            if (sw.xT < -0.15) sw.xT = 1.15;
+
+            // Tail wiggle — faster with mid energy
+            sw.wiggle += (0.15 + midEnergy * 0.5);
+
+            const fishX = w * sw.xT;
+            const fishY = h * sw.yT;
+
+            // Depth determines size and opacity
+            const depthAlpha = 0.25 + sw.depth * 0.5;
+
+            drawFish(
+                ctx,
+                fishX,
+                fishY,
+                sw.fishSize * (0.5 + sw.depth * 0.5),  // scale
+                sw.dir,                                 // facing
+                sw.wiggle,                              // wiggle phase
+                isDay ? 'rgba(30, 30, 30, ' + depthAlpha + ')' : 'rgba(255, 255, 255, ' + depthAlpha + ')',
+                isDay ? 'rgba(220, 220, 220, 0.3)' : 'rgba(10, 10, 10, 0.3)'
+            );
+        }
+
+        // ============================================
+        // LAYER 4 — DANCER FISH (center stage)
+        // ============================================
+        const dancer = state.dancer;
+
+        // Flip direction every ~6 seconds
+        dancer.flipTimer += 1;
+        if (dancer.flipTimer > 360) {
+            dancer.facing *= -1;
+            dancer.flipTimer = 0;
+        }
+
+        // Dance wiggle — much more aggressive than the swimmers
+        const dancerWiggleSpeed = 0.2 + bassPulse * 0.8;
+        dancer.wigglePhase += dancerWiggleSpeed;
+
+        // Bounce vertically with bass
+        dancer.bouncePhase += 0.05 + bassPulse * 0.15;
+        const bounceAmp = 2 + bassPulse * 6;
+        const bounceOffset = Math.sin(dancer.bouncePhase) * bounceAmp;
+
+        const dancerX = dancer.x;
+        const dancerY = dancer.y + bounceOffset;
+
+        // Draw the dancer — larger than the swimmers
+        drawFish(
+            ctx,
+            dancerX,
+            dancerY,
+            1.4,                    // scale
+            dancer.facing,
+            dancer.wigglePhase,
+            isDay ? 'rgba(30, 30, 30, 0.9)' : 'rgba(255, 255, 255, 0.9)',
+            isDay ? 'rgba(240, 240, 240, 0.6)' : 'rgba(10, 10, 10, 0.6)'
+        );
+
+        // ============================================
+        // LAYER 5 — BUBBLES
+        // ============================================
+        for (let i = 0; i < state.bubbles.length; i++) {
+            const b = state.bubbles[i];
+            b.yT -= b.speed;
+
+            // Respawn at the bottom when it floats past the top
+            if (b.yT < -0.1) {
+                b.yT = 1.05 + Math.random() * 0.3;
+                b.xT = 0.1 + Math.random() * 0.8;
+                b.size = 1 + Math.random() * 1.5;
+            }
+
+            // Slight horizontal wobble as it rises
+            const wobbleX = Math.sin(b.yT * 8 + b.wobblePhase) * 0.008;
+
+            const bx = w * (b.xT + wobbleX);
+            const by = h * b.yT;
+
+            // Bubble color
+            const bubbleAlpha = 0.35;
+            const bubbleColor = isDay
+                ? `rgba(80, 80, 80, ${bubbleAlpha})`
+                : `rgba(255, 255, 255, ${bubbleAlpha})`;
+
+            ctx.beginPath();
+            ctx.arc(bx, by, b.size, 0, Math.PI * 2);
+            ctx.strokeStyle = bubbleColor;
+            ctx.lineWidth = 0.8;
+            ctx.stroke();
+
+            // Tiny inner highlight
+            ctx.beginPath();
+            ctx.arc(bx - b.size * 0.3, by - b.size * 0.3, b.size * 0.25, 0, Math.PI * 2);
+            ctx.fillStyle = bubbleColor;
+            ctx.fill();
+        }
+    }
+
+    // ---- Helper: draw a fish silhouette ----
+    function drawFish(ctx, x, y, scale, facing, wigglePhase, outlineColor, fillColor) {
+        ctx.save();
+        ctx.translate(x, y);
+        ctx.scale(facing * scale, scale);
+
+        // ---- Body wiggle ----
+        // The tail wags side to side while the head stays put
+        const wiggle = Math.sin(wigglePhase) * 0.5;
+
+        // Fish body — small oval, roughly 12px wide by 6px tall at scale 1
+        // Body
+        ctx.beginPath();
+        ctx.ellipse(0, 0, 7, 3.5, 0, 0, Math.PI * 2);
+        ctx.fillStyle = fillColor;
+        ctx.fill();
+        ctx.strokeStyle = outlineColor;
+        ctx.lineWidth = 1;
+        ctx.stroke();
+
+        // ---- Tail (behind the body) ----
+        // Tail wags based on wiggle value
+        const tailWag = wiggle * 2;
+        ctx.beginPath();
+        ctx.moveTo(-6, 0);
+        ctx.lineTo(-11, -3 + tailWag);
+        ctx.lineTo(-11, 3 + tailWag);
+        ctx.closePath();
+        ctx.fillStyle = fillColor;
+        ctx.fill();
+        ctx.strokeStyle = outlineColor;
+        ctx.lineWidth = 0.9;
+        ctx.stroke();
+
+        // ---- Eye (small dot) ----
+        ctx.beginPath();
+        ctx.arc(4, -1, 0.8, 0, Math.PI * 2);
+        ctx.fillStyle = outlineColor;
+        ctx.fill();
+
+        ctx.restore();
+    }
+
+    // ---- Helper: coral cluster shape ----
+    function drawCoralShape(ctx, fillColor, outlineColor) {
+        // Coral cluster — 3 branching shapes rising from the bottom-right
+        // Drawn at origin, translated externally
+
+        ctx.strokeStyle = outlineColor;
+        ctx.fillStyle = fillColor;
+        ctx.lineCap = 'round';
+        ctx.lineJoin = 'round';
+
+        // Branch 1 — tall, curving left
+        ctx.beginPath();
+        ctx.moveTo(0, 0);
+        ctx.bezierCurveTo(-2, -15, -8, -28, -6, -40);
+        ctx.lineWidth = 3.5;
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.moveTo(-6, -40);
+        ctx.lineTo(-10, -46);
+        ctx.moveTo(-6, -40);
+        ctx.lineTo(-2, -47);
+        ctx.lineWidth = 2.5;
+        ctx.stroke();
+
+        // Branch 2 — medium, curving right
+        ctx.beginPath();
+        ctx.moveTo(5, 0);
+        ctx.bezierCurveTo(8, -12, 14, -22, 12, -32);
+        ctx.lineWidth = 3;
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.moveTo(12, -32);
+        ctx.lineTo(8, -38);
+        ctx.moveTo(12, -32);
+        ctx.lineTo(16, -37);
+        ctx.lineWidth = 2;
+        ctx.stroke();
+
+        // Branch 3 — short, near center
+        ctx.beginPath();
+        ctx.moveTo(-1, 0);
+        ctx.bezierCurveTo(0, -8, 2, -14, 1, -20);
+        ctx.lineWidth = 2.5;
+        ctx.stroke();
+
+        // Small nubs
+        ctx.beginPath();
+        ctx.moveTo(1, -20);
+        ctx.lineTo(-2, -24);
+        ctx.lineWidth = 1.8;
+        ctx.stroke();
+    }
+
     function drawAscii() {
         analyser.getByteFrequencyData(freqData);
         const usableBins = Math.floor(freqData.length * 0.3);
@@ -1996,6 +2346,7 @@
         else if (currentStyle === 'ansi') drawANSI(w, h);
         else if (currentStyle === 'dots') drawDots(w, h);
         else if (currentStyle === 'droplet') drawDroplet(w, h);
+        else if (currentStyle === 'fish') drawFishTank(w, h);
         else drawBars(w, h);
     }
 
