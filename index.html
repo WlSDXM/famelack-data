@@ -1884,7 +1884,7 @@ function getAnsiMono() {
             }
         });
 
-                                // ---- Export ----
+                                       // ---- Export ----
         exportBtn.addEventListener('click', async () => {
             const payload = {
                 version: 1,
@@ -1897,24 +1897,7 @@ function getAnsiMono() {
             const json = JSON.stringify(payload, null, 2);
             const filename = `earth-favorites-${new Date().toISOString().slice(0, 10)}.json`;
 
-            // ---- iOS: open blob in new tab ----
-            const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
-            if (isIOS) {
-                try {
-                    const blob = new Blob([json], { type: 'application/json' });
-                    const url = URL.createObjectURL(blob);
-                    window.open(url, '_blank');
-                    // Give the tab time to load before revoking
-                    setTimeout(() => URL.revokeObjectURL(url), 60000);
-                    modal.classList.remove('open');
-                    modal.setAttribute('aria-hidden', 'true');
-                    return;
-                } catch (err) {
-                    console.error('iOS export failed:', err);
-                }
-            }
-
-            // ---- Try Web Share API (for browsers that support it properly) ----
+            // ---- Try Web Share API first (iOS: opens "Save to Files" share sheet) ----
             if (navigator.canShare && typeof File !== 'undefined') {
                 try {
                     const file = new File([json], filename, { type: 'application/json' });
@@ -1928,19 +1911,21 @@ function getAnsiMono() {
                         return;
                     }
                 } catch (err) {
+                    // User cancelled the share sheet
                     if (err && err.name === 'AbortError') {
                         modal.classList.remove('open');
                         modal.setAttribute('aria-hidden', 'true');
                         return;
                     }
-                    console.warn('Web Share failed:', err);
+                    console.warn('Web Share failed, falling back:', err);
                 }
             }
 
-            // ---- Desktop fallback: classic blob download ----
+            // ---- Fallback: classic blob download (desktop) ----
             try {
                 const blob = new Blob([json], { type: 'application/json' });
                 const url = URL.createObjectURL(blob);
+
                 const a = document.createElement('a');
                 a.href = url;
                 a.download = filename;
@@ -1948,7 +1933,9 @@ function getAnsiMono() {
                 document.body.appendChild(a);
                 a.click();
                 document.body.removeChild(a);
+
                 setTimeout(() => URL.revokeObjectURL(url), 1000);
+
                 modal.classList.remove('open');
                 modal.setAttribute('aria-hidden', 'true');
             } catch (err) {
