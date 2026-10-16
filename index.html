@@ -1606,12 +1606,13 @@ for (let l = layers - 1; l >= 0; l--) {
 
 
     
-                    // ============ DROPLET VISUALIZER — GRAZING SIDE-ANGLE POOL ============
+                        // ============ DROPLET VISUALIZER — GRAZING SIDE-ANGLE POOL ============
     if (!window.__dropletState) {
         window.__dropletState = {
             ripples: [],
             lastSpawn: 0,
-            drift: 0
+            drift: 0,
+            wavePhase: 0
         };
     }
 
@@ -1620,57 +1621,96 @@ for (let l = layers - 1; l >= 0; l--) {
 
         const state = window.__dropletState;
         state.drift += 0.004;
+        state.wavePhase += 0.015;   // ambient wave drift speed
 
         // ---- Audio analysis ----
-        // Bass = kick drums → big ripples
         let bassSum = 0;
         const bassBins = 6;
         for (let j = 0; j < bassBins; j++) bassSum += freqData[j];
         const bassEnergy = bassSum / bassBins / 255;
 
-        // Mids/highs = snare, vocals, hats → small ripples
         let midSum = 0;
         const midStart = 20, midEnd = 80;
         for (let j = midStart; j < midEnd; j++) midSum += freqData[j];
         const midEnergy = midSum / (midEnd - midStart) / 255;
 
-        // ---- Perspective constants ----
-        // The canvas represents a plane seen at a grazing angle.
-        // Y = 0 (top of canvas) = far away (small ripples)
-        // Y = h (bottom) = close to camera (big ripples)
+        // ---- Perspective helpers ----
         const Y_TOP = 0;
         const Y_BOTTOM = h;
 
-        // depthT = 0 at top of canvas, 1 at bottom
         function depthScale(y) {
-            const depthT = (y - Y_TOP) / (Y_BOTTOM - Y_TOP);   // 0..1
-            // Widen the perspective: very flat at top, rounder at bottom
-            // pow exponent: bigger = more dramatic perspective
+            const depthT = (y - Y_TOP) / (Y_BOTTOM - Y_TOP);
             return Math.pow(depthT, 1.8);
         }
-
-        // Ellipse squash factor: how much vertical radius is compressed
-        // At top: very squished (0.08). At bottom: rounder (0.45).
         function squashFactor(y) {
             const depthT = (y - Y_TOP) / (Y_BOTTOM - Y_TOP);
             return 0.08 + depthT * 0.40;
         }
 
-        // ---- Spawn logic ----
+        // ============================================
+        // LAYER 1 — AMBIENT BLUE WAVES (background)
+        // ============================================
+        const isDay = document.body.classList.contains('day-mode');
+        // Blue for night, soft orange for day
+        const waveR = isDay ? 255 : 74;
+        const waveG = isDay ? 150 : 158;
+        const waveB = isDay ? 80  : 255;
+        const waveBaseAlpha = 0.25;
+
+        // Wave amplitude grows with bass
+        const bassPulse = Math.min(1, bassEnergy * 1.4);
+        const ampBoost = 1 + bassPulse * 0.9;
+
+        // Draw ~5 waves, spread vertically, perspective-scaled
+        const waveCount = 5;
+        for (let wi = 0; wi < waveCount; wi++) {
+            // Position from top (0.18) to near bottom (0.92)
+            const yT = 0.18 + (wi / (waveCount - 1)) * 0.74;
+            const baseY = h * yT;
+
+            // Depth-based amplitude: bigger waves toward the bottom
+            const depthT = yT;
+            const depthAmp = 2 + depthT * 6;
+
+            // Each wave has its own phase offset for variety
+            const phase = state.wavePhase + wi * 0.7;
+
+            // Slightly higher opacity toward the bottom
+            const waveAlpha = waveBaseAlpha * (0.6 + depthT * 0.7);
+
+            ctx.beginPath();
+            ctx.strokeStyle = `rgba(${waveR}, ${waveG}, ${waveB}, ${waveAlpha})`;
+            ctx.lineWidth = 1;
+
+            // Draw a smooth sine curve across the width
+            const steps = Math.max(40, Math.floor(w / 8));
+            for (let s = 0; s <= steps; s++) {
+                const x = (s / steps) * w;
+                const xT = s / steps;
+
+                // Primary wave + a slower secondary wave for organic look
+                const y1 = Math.sin(xT * Math.PI * 3 + phase) * depthAmp * ampBoost;
+                const y2 = Math.sin(xT * Math.PI * 7 + phase * 1.3) * depthAmp * 0.3;
+                const y = baseY + y1 + y2;
+
+                if (s === 0) ctx.moveTo(x, y);
+                else ctx.lineTo(x, y);
+            }
+            ctx.stroke();
+        }
+
+        // ============================================
+        // LAYER 2 — RIPPLE SPAWNING (same as before)
+        // ============================================
         const now = performance.now();
         const timeSinceLast = now - state.lastSpawn;
 
-        // Bass hit → big ripple
         if (bassEnergy > 0.45 && timeSinceLast > 120) {
             state.lastSpawn = now;
-
-            // Random position, weighted toward the mid-depth (feels more "musical")
             const rx = Math.random();
-            const ry = 0.15 + Math.random() * 0.65;   // avoid the very top/bottom edges
-
+            const ry = 0.15 + Math.random() * 0.65;
             const x = w * (0.1 + rx * 0.8);
             const y = h * ry;
-
             const intensity = Math.min(1, bassEnergy * 1.3);
             const depth = depthScale(y);
             const maxR = (18 + depth * 90) * (0.6 + intensity * 0.9);
@@ -1678,9 +1718,7 @@ for (let l = layers - 1; l >= 0; l--) {
 
             state.ripples.push({
                 x, y,
-                r: 0,
-                maxR,
-                squash,
+                r: 0, maxR, squash,
                 alpha: 0.9,
                 speed: 0.9 + intensity * 1.4,
                 rings: 4,
@@ -1688,10 +1726,8 @@ for (let l = layers - 1; l >= 0; l--) {
             });
         }
 
-        // Mid-energy → small texture ripples (soft snare / vocals)
         if (midEnergy > 0.32 && timeSinceLast > 200 && Math.random() < 0.35) {
             state.lastSpawn = now;
-
             const x = w * (0.05 + Math.random() * 0.9);
             const y = h * (0.2 + Math.random() * 0.65);
             const depth = depthScale(y);
@@ -1700,9 +1736,7 @@ for (let l = layers - 1; l >= 0; l--) {
 
             state.ripples.push({
                 x, y,
-                r: 0,
-                maxR,
-                squash,
+                r: 0, maxR, squash,
                 alpha: 0.55,
                 speed: 0.7,
                 rings: 3,
@@ -1710,7 +1744,6 @@ for (let l = layers - 1; l >= 0; l--) {
             });
         }
 
-        // Ambient: occasional small ripple when quiet, keeps it alive
         if (bassEnergy < 0.2 && midEnergy < 0.15 && timeSinceLast > 800 && Math.random() < 0.25) {
             state.lastSpawn = now;
             const x = w * (0.1 + Math.random() * 0.8);
@@ -1719,9 +1752,7 @@ for (let l = layers - 1; l >= 0; l--) {
             const squash = squashFactor(y);
             state.ripples.push({
                 x, y,
-                r: 0,
-                maxR: 10 + depth * 40,
-                squash,
+                r: 0, maxR: 10 + depth * 40, squash,
                 alpha: 0.35,
                 speed: 0.6,
                 rings: 3,
@@ -1729,59 +1760,43 @@ for (let l = layers - 1; l >= 0; l--) {
             });
         }
 
-        // ---- Update & draw ripples ----
-        const isDay = document.body.classList.contains('day-mode');
+        // ============================================
+        // LAYER 3 — RIPPLE RENDERING (same as before)
+        // ============================================
         const dotColor = isDay ? '0, 0, 0' : '255, 255, 255';
 
         for (let i = state.ripples.length - 1; i >= 0; i--) {
             const rp = state.ripples[i];
-
-            // Grow radius
             rp.r += rp.speed;
-
-            // Fade
             rp.alpha -= rp.fadeRate;
 
-            // Remove when done
             if (rp.alpha <= 0.02 || rp.r > rp.maxR) {
                 state.ripples.splice(i, 1);
                 continue;
             }
 
-            // ---- Draw each concentric ring ----
-            // Ring 0 = innermost (newest), Ring N-1 = outermost (oldest)
             for (let k = 0; k < rp.rings; k++) {
                 const ringR = rp.r - k * 6;
                 if (ringR <= 0) continue;
 
-                // Outer rings are fainter (older ripples)
                 const ringAlpha = rp.alpha * Math.pow(0.65, k);
                 if (ringAlpha < 0.03) continue;
 
-                // Ellipse: horizontal radius = ringR, vertical = ringR * squash
                 const rx = ringR;
                 const ry = ringR * rp.squash;
-
-                // Number of dots scales with ring size so density stays consistent
-                // Bigger rings = more dots
                 const dotCount = Math.max(8, Math.floor(ringR * 0.9));
 
-                // Draw dots around the ellipse
                 for (let d = 0; d < dotCount; d++) {
                     const angle = (d / dotCount) * Math.PI * 2;
                     const px = rp.x + Math.cos(angle) * rx;
                     const py = rp.y + Math.sin(angle) * ry;
 
-                    // Skip if off-canvas (saves draw calls)
                     if (px < -3 || px > w + 3 || py < -3 || py > h + 3) continue;
 
-                    // Depth-based dot size: smaller at top, larger at bottom
                     const depthT = (py - Y_TOP) / (Y_BOTTOM - Y_TOP);
                     const dotSize = 0.6 + depthT * 1.0;
 
-                    // Fade dots at the back half of the ellipse a bit (depth hint)
-                    // "Back" = further from camera = top of canvas
-                    const isBackHalf = Math.sin(angle) < 0;   // top half
+                    const isBackHalf = Math.sin(angle) < 0;
                     const depthFade = isBackHalf ? 0.7 : 1.0;
 
                     ctx.beginPath();
