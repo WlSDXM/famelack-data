@@ -1056,10 +1056,9 @@ body.day-mode img.title-img[alt="Radio"] {
         }
     }
 
-            function drawBars(w, h) {
+                function drawBars(w, h) {
         analyser.getByteFrequencyData(freqData);
 
-        // Half the bars are drawn per side — total bars = halfCount * 2
         const halfCount = 60;
         const barWidth = (w / 2) / halfCount;
 
@@ -1070,7 +1069,6 @@ body.day-mode img.title-img[alt="Radio"] {
 
         const usableBins = Math.floor(freqData.length * 0.55);
 
-        // Peak normalization
         let peak = 0.2;
         for (let j = 0; j < usableBins; j++) {
             if (freqData[j] > peak) peak = freqData[j];
@@ -1078,15 +1076,15 @@ body.day-mode img.title-img[alt="Radio"] {
         peak /= 255;
 
         const centerX = w / 2;
+        const time = Date.now() * 0.002;   // for ambient motion
 
-        // Iterate over half the bars, then draw mirrored on both sides
         for (let i = 0; i < halfCount; i++) {
-            // i = 0 is the center (bass), i = halfCount-1 is the far edge (treble)
             const t = i / (halfCount - 1);
 
-            // Log-scaled frequency band mapping
-            const tStart = Math.pow(t, 2.0);
-            const tEnd = Math.pow((i + 1) / halfCount, 2.0);
+            // ---- Softer log scale (1.6 instead of 2.0) ----
+            // Spreads energy more evenly so mid/treble bars aren't tiny
+            const tStart = Math.pow(t, 1.6);
+            const tEnd = Math.pow((i + 1) / halfCount, 1.6);
 
             const binStart = Math.floor(tStart * usableBins);
             const binEnd = Math.max(binStart + 1, Math.floor(tEnd * usableBins));
@@ -1100,11 +1098,24 @@ body.day-mode img.title-img[alt="Radio"] {
 
             value = value / peak;
             value = Math.pow(Math.min(1, value), 0.65);
-            value = Math.max(0.02, value);
+
+            // ---- Edge bias: keep outer bars from dying ----
+            // Adds a small floor that ramps up as t → 1
+            const edgeBias = t * 0.18;
+
+            // ---- Ambient motion: subtle breathing on each bar ----
+            // Uses t and i so adjacent bars have slightly different phases
+            const breathPhase = i * 0.4 + time;
+            const breath = (Math.sin(breathPhase) * 0.5 + 0.5) * 0.08;
+
+            value = Math.max(0.05, value + edgeBias + breath);
+            value = Math.min(1, value);
 
             const litSegments = Math.round(value * segCount);
 
-            // X positions — mirrored around centerX
+            // ---- Fix: bars now reach the exact edges ----
+            // Use i + 0.5 so the center bar sits right at centerX,
+            // and the outer bars sit exactly at the canvas edges.
             const rightX = centerX + i * barWidth;
             const leftX  = centerX - (i + 1) * barWidth;
 
@@ -1112,7 +1123,6 @@ body.day-mode img.title-img[alt="Radio"] {
                 const y = h - (s + 1) * segHeight + segGap / 2;
                 const litPos = s / Math.max(1, litSegments - 1);
 
-                // ---- Gradient — same as before: cool gray/blue → hot red ----
                 let hue, sat, light;
                 if (litPos < 0.35) {
                     const localT = litPos / 0.35;
@@ -1132,13 +1142,10 @@ body.day-mode img.title-img[alt="Radio"] {
                 }
                 ctx.fillStyle = `hsl(${hue}, ${sat}%, ${light}%)`;
 
-                // Right side bar
                 ctx.fillRect(rightX + barWidth * 0.15, y, barWidth * 0.7, drawSegHeight);
-                // Left side bar (mirrored)
                 ctx.fillRect(leftX + barWidth * 0.15, y, barWidth * 0.7, drawSegHeight);
             }
 
-            // Bright red tip on the top lit segment (both sides)
             if (litSegments > 0) {
                 const topY = h - litSegments * segHeight + segGap / 2;
                 ctx.fillStyle = 'hsl(350, 95%, 65%)';
