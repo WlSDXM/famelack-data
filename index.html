@@ -1056,33 +1056,37 @@ body.day-mode img.title-img[alt="Radio"] {
         }
     }
 
-        function drawBars(w, h) {
+            function drawBars(w, h) {
         analyser.getByteFrequencyData(freqData);
 
-        const barCount = 90;              // more bars = finer detail, more like the screenshot
-        const barWidth = w / barCount;
+        // Half the bars are drawn per side — total bars = halfCount * 2
+        const halfCount = 60;
+        const barWidth = (w / 2) / halfCount;
 
-        const segCount = 30;              // more vertical segments = smoother gradient
+        const segCount = 30;
         const segHeight = h / segCount;
         const segGap = 0.5;
         const drawSegHeight = segHeight - segGap;
 
-        // Frequency bin mapping — log-scaled so bass doesn't hog the left side
         const usableBins = Math.floor(freqData.length * 0.55);
 
-        // Find peak for normalization so quiet music still fills the box
+        // Peak normalization
         let peak = 0.2;
         for (let j = 0; j < usableBins; j++) {
             if (freqData[j] > peak) peak = freqData[j];
         }
         peak /= 255;
 
-        for (let i = 0; i < barCount; i++) {
-            const t = i / (barCount - 1);
+        const centerX = w / 2;
 
-            // Logarithmic band mapping
+        // Iterate over half the bars, then draw mirrored on both sides
+        for (let i = 0; i < halfCount; i++) {
+            // i = 0 is the center (bass), i = halfCount-1 is the far edge (treble)
+            const t = i / (halfCount - 1);
+
+            // Log-scaled frequency band mapping
             const tStart = Math.pow(t, 2.0);
-            const tEnd = Math.pow((i + 1) / barCount, 2.0);
+            const tEnd = Math.pow((i + 1) / halfCount, 2.0);
 
             const binStart = Math.floor(tStart * usableBins);
             const binEnd = Math.max(binStart + 1, Math.floor(tEnd * usableBins));
@@ -1094,56 +1098,52 @@ body.day-mode img.title-img[alt="Radio"] {
             }
             let value = count > 0 ? (sum / count) / 255 : 0;
 
-            // Normalize + compress so quiet songs are still visible
             value = value / peak;
             value = Math.pow(Math.min(1, value), 0.65);
-            value = Math.max(0.02, value);   // tiny floor so bars never fully disappear
+            value = Math.max(0.02, value);
 
             const litSegments = Math.round(value * segCount);
-            const x = i * barWidth;
 
-            // ---- Draw the lit segments ----
+            // X positions — mirrored around centerX
+            const rightX = centerX + i * barWidth;
+            const leftX  = centerX - (i + 1) * barWidth;
+
             for (let s = 0; s < litSegments; s++) {
                 const y = h - (s + 1) * segHeight + segGap / 2;
-
-                // Position of this segment within the *lit* range (0 = bottom, 1 = top of the bar)
                 const litPos = s / Math.max(1, litSegments - 1);
 
-                // ---- Vertical gradient — cool gray/blue at bottom → bright red at top ----
-                // This is a fixed gradient regardless of bar height, so all bars glow
-                // the same way. That's what gives the "heatmap" look.
+                // ---- Gradient — same as before: cool gray/blue → hot red ----
                 let hue, sat, light;
-
                 if (litPos < 0.35) {
-                    // Bottom third: dim blue-gray
                     const localT = litPos / 0.35;
                     hue = 220;
                     sat = 15 + localT * 30;
                     light = 35 + localT * 15;
                 } else if (litPos < 0.75) {
-                    // Middle: shift to purple/magenta
                     const localT = (litPos - 0.35) / 0.4;
-                    hue = 250 + localT * 60;   // 250 → 310
+                    hue = 250 + localT * 60;
                     sat = 45 + localT * 35;
                     light = 50 + localT * 10;
                 } else {
-                    // Top: hot red/pink
                     const localT = (litPos - 0.75) / 0.25;
-                    hue = 310 + localT * 40;   // 310 → 350
+                    hue = 310 + localT * 40;
                     sat = 80 + localT * 15;
                     light = 60 + localT * 20;
                 }
-
                 ctx.fillStyle = `hsl(${hue}, ${sat}%, ${light}%)`;
-                ctx.fillRect(x + barWidth * 0.15, y, barWidth * 0.7, drawSegHeight);
+
+                // Right side bar
+                ctx.fillRect(rightX + barWidth * 0.15, y, barWidth * 0.7, drawSegHeight);
+                // Left side bar (mirrored)
+                ctx.fillRect(leftX + barWidth * 0.15, y, barWidth * 0.7, drawSegHeight);
             }
 
-            // ---- Bright red tip on the very top segment ----
+            // Bright red tip on the top lit segment (both sides)
             if (litSegments > 0) {
-                const topSeg = litSegments - 1;
-                const topY = h - (topSeg + 1) * segHeight + segGap / 2;
+                const topY = h - litSegments * segHeight + segGap / 2;
                 ctx.fillStyle = 'hsl(350, 95%, 65%)';
-                ctx.fillRect(x + barWidth * 0.15, topY, barWidth * 0.7, drawSegHeight);
+                ctx.fillRect(rightX + barWidth * 0.15, topY, barWidth * 0.7, drawSegHeight);
+                ctx.fillRect(leftX + barWidth * 0.15, topY, barWidth * 0.7, drawSegHeight);
             }
         }
     }
