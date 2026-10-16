@@ -1195,7 +1195,7 @@ body.day-mode img.title-img[alt="Radio"] {
         }
     }
 
-                                   function drawBars(w, h) {
+                                       function drawBars(w, h) {
         analyser.getByteFrequencyData(freqData);
 
         const barCount = 60;
@@ -1229,17 +1229,20 @@ body.day-mode img.title-img[alt="Radio"] {
                 sum += freqData[j];
                 count++;
             }
-            let value = count > 0 ? (sum / count) / 255 : 0;
+            const rawValue = count > 0 ? (sum / count) / 255 : 0;
+
+            // ---- Skip truly silent bars entirely (no dead dashes) ----
+            if (rawValue < 0.02) continue;
 
             // Per-band compression — treble gets more lift
             const compression = 0.3 + (1 - t) * 0.5;
-            value = Math.pow(value, compression);
+            let value = Math.pow(rawValue, compression);
 
             value = value / peak;
             value = Math.pow(Math.min(1, value), 0.7);
 
-            // ---- Floor shrinks toward the right so quiet treble fades out ----
-            const floor = 0.22 * (1 - t) + 0.02;
+            // ---- Floor shrinks toward the right, no minimum ----
+            const floor = 0.22 * (1 - t);
             value = Math.max(floor, value);
             value = Math.min(1, value);
 
