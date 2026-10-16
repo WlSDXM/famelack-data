@@ -1607,15 +1607,16 @@ for (let l = layers - 1; l >= 0; l--) {
 
     
                         // ============ DROPLET VISUALIZER — GRAZING SIDE-ANGLE POOL ============
-        if (!window.__dropletState) {
+            if (!window.__dropletState) {
         window.__dropletState = {
             ripples: [],
+            streaks: [],       // <-- new
             lastSpawn: 0,
             drift: 0,
             wavePhase: 0,
             boat: {
-                x: null,       
-                speed: 0.35,   
+                x: null,
+                speed: 0.35,
                 bobPhase: Math.random() * Math.PI * 2,
                 tilt: 0
             }
@@ -1820,7 +1821,24 @@ for (let l = layers - 1; l >= 0; l--) {
         ctx.lineWidth = 0.9;
         ctx.stroke();
 
-        ctx.restore();
+                ctx.restore();
+
+        // ---- Trailing wake ripples behind the boat ----
+        // Spawn a small ripple every few frames, offset behind the boat
+        if (Math.random() < 0.15) {   // ~15% chance per frame
+            state.ripples.push({
+                x: boat.x - 8,          // slightly behind the boat
+                y: boatY + 1,           // just below the hull
+                r: 0,
+                maxR: 4 + Math.random() * 4,
+                squash: squashFactor(boatY) * 1.2,   // slightly wider than tall
+                alpha: 0.4,
+                speed: 0.4,
+                rings: 2,
+                fadeRate: 0.025
+            });
+        }
+        
 
         
         // LAYER 2 — RIPPLE SPAWNING 
@@ -1828,7 +1846,7 @@ for (let l = layers - 1; l >= 0; l--) {
         const now = performance.now();
         const timeSinceLast = now - state.lastSpawn;
 
-        if (bassEnergy > 0.45 && timeSinceLast > 120) {
+                if (bassEnergy > 0.45 && timeSinceLast > 120) {
             state.lastSpawn = now;
             const rx = Math.random();
             const ry = 0.15 + Math.random() * 0.65;
@@ -1839,13 +1857,17 @@ for (let l = layers - 1; l >= 0; l--) {
             const maxR = (18 + depth * 90) * (0.6 + intensity * 0.9);
             const squash = squashFactor(y);
 
-            state.ripples.push({
-                x, y,
-                r: 0, maxR, squash,
-                alpha: 0.9,
-                speed: 0.9 + intensity * 1.4,
-                rings: 4,
-                fadeRate: 0.008 + intensity * 0.012
+            // Spawn the falling rain streak that lands at (x, y)
+            state.streaks.push({
+                x: x,
+                landY: y,
+                currentY: -20,             // starts above canvas
+                speed: 6 + intensity * 6,  // px per frame
+                length: 12 + Math.random() * 8,
+                intensity: intensity,
+                maxR: maxR,
+                squash: squash,
+                alpha: 0.9
             });
         }
 
@@ -1882,6 +1904,7 @@ for (let l = layers - 1; l >= 0; l--) {
                 fadeRate: 0.012
             });
         }
+        
 
         
         // LAYER 3 — RIPPLE RENDERING (same as before)
@@ -1930,6 +1953,52 @@ for (let l = layers - 1; l >= 0; l--) {
             }
         }
     }
+
+            // ============================================
+        // LAYER 4 — RAIN STREAKS (drops falling)
+        // ============================================
+        for (let i = state.streaks.length - 1; i >= 0; i--) {
+            const s = state.streaks[i];
+
+            // Advance fall
+            s.currentY += s.speed;
+
+            // Draw the streak as a vertical dotted line
+            const streakTop = s.currentY - s.length;
+            const streakBottom = s.currentY;
+            const dotSpacing = 4;
+
+            for (let yy = streakTop; yy < streakBottom; yy += dotSpacing) {
+                if (yy < -3 || yy > h + 3) continue;
+                const t = (yy - streakTop) / s.length;   // 0 top of streak, 1 bottom
+                const dotAlpha = s.alpha * t;             // brighter at the leading edge
+                const dotSize = 0.6 + t * 0.8;
+
+                ctx.beginPath();
+                ctx.arc(s.x, yy, dotSize, 0, Math.PI * 2);
+                ctx.fillStyle = `rgba(${isDay ? '0,0,0' : '255,255,255'}, ${dotAlpha})`;
+                ctx.fill();
+            }
+
+            // Has the streak landed?
+            if (s.currentY >= s.landY) {
+                // Spawn the ripple at the landing point
+                state.ripples.push({
+                    x: s.x,
+                    y: s.landY,
+                    r: 0,
+                    maxR: s.maxR,
+                    squash: s.squash,
+                    alpha: 0.9,
+                    speed: 0.9 + s.intensity * 1.4,
+                    rings: 4,
+                    fadeRate: 0.008 + s.intensity * 0.012
+                });
+
+                // Remove the streak
+                state.streaks.splice(i, 1);
+            }
+        }
     
         function drawAscii() {
         analyser.getByteFrequencyData(freqData);
