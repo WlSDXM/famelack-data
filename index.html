@@ -1313,79 +1313,104 @@ function getAnsiMono() {
     }
 
     
-           // ============ DOTS VISUALIZER — AUDIO REACTIVE ============
-    // Persistent state for smooth motion
+               // ============ DOTS VISUALIZER — HALFTONE MATRIX ============
     if (!window.__dotsState) {
         window.__dotsState = {
-            smoothed: new Array(15).fill(0)
+            smoothed: null,
+            cols: 0,
+            rows: 0
         };
     }
 
     function drawDots(w, h) {
         analyser.getByteFrequencyData(freqData);
 
-        const dotCount = 15;
-        const dotRadius = 1.8;
-        const spacing = w / (dotCount + 1);
-        const maxAmplitude = h * 0.38;
+        // ---- Grid dimensions ----
+        // These determine how many dots across and down.
+        // Adjust to taste: more cols = denser texture
+        const cols = 42;
+        const rows = 12;
 
-        // Make sure smoothing array matches
-        if (window.__dotsState.smoothed.length !== dotCount) {
-            window.__dotsState.smoothed = new Array(dotCount).fill(0);
+        const cellW = w / cols;
+        const cellH = h / rows;
+        const maxRadius = Math.min(cellW, cellH) * 0.85;
+        const minRadius = 0.4;
+
+        // Rebuild smoothing array if grid size changed
+        if (!window.__dotsState.smoothed || window.__dotsState.cols !== cols || window.__dotsState.rows !== rows) {
+            window.__dotsState.smoothed = new Array(cols * rows).fill(0);
+            window.__dotsState.cols = cols;
+            window.__dotsState.rows = rows;
         }
 
-        // Find the max value in the whole spectrum for normalization
-        // (so quiet songs still look alive)
-        let spectrumMax = 1;
-        for (let j = 0; j < freqData.length; j++) {
-            if (freqData[j] > spectrumMax) spectrumMax = freqData[j];
-        }
+        // ---- Compute spectrum energy per column ----
+        // Each column of the grid reacts to one frequency band
+        const usableBins = Math.floor(freqData.length * 0.7);
+        const spectrumPerCol = new Array(cols).fill(0);
+        const colBinWidth = usableBins / cols;
 
-        for (let i = 0; i < dotCount; i++) {
-            const x = (i + 1) * spacing;
-
-            // ---- Frequency band mapping ----
-            // i=0 = bass, i=dotCount-1 = highs
-            const t = i / (dotCount - 1);
-
-            // Logarithmic spread — more dots cover the highs where most music lives
-            const logT = Math.pow(t, 1.5);
-
-            // Ignore the very top bins (usually silent)
-            const usableBins = Math.floor(freqData.length * 0.7);
+        for (let c = 0; c < cols; c++) {
+            // Log-scaled so bass doesn't dominate the whole left half
+            const t = c / (cols - 1);
+            const logT = Math.pow(t, 1.4);
             const bandCenter = Math.floor(logT * usableBins);
 
-            // Average a small window of bins around the center
-            const windowSize = Math.max(2, Math.floor(usableBins / dotCount));
+            const start = Math.max(0, bandCenter - Math.floor(colBinWidth / 2));
+            const end = Math.min(usableBins, start + Math.max(1, Math.floor(colBinWidth)));
+
             let sum = 0, count = 0;
-            for (let j = bandCenter; j < bandCenter + windowSize && j < usableBins; j++) {
-                sum += freqData[j];
-                count++;
+            for (let j = start; j < end; j++) { sum += freqData[j]; count++; }
+            spectrumPerCol[c] = count > 0 ? (sum / count) / 255 : 0;
+        }
+
+        // ---- Find peak for normalization ----
+        let peak = 0.15;   // floor so quiet music still animates
+        for (let c = 0; c < cols; c++) {
+            if (spectrumPerCol[c] > peak) peak = spectrumPerCol[c];
+        }
+
+        // ---- Draw the grid ----
+        for (let r = 0; r < rows; r++) {
+            for (let c = 0; c < cols; c++) {
+                const i = r * cols + c;
+
+                // Vertical falloff — center rows are big, top/bottom rows are small.
+                // This creates the "halftone photo" feel of a bulge in the middle.
+                const rowCenter = (rows - 1) / 2;
+                const rowDistance = Math.abs(r - rowCenter) / rowCenter;   // 0 at center, 1 at edges
+                const rowFalloff = 1 - Math.pow(rowDistance, 1.6);          // smooth bulge
+
+                // Base shape — gives the grid a permanent halftone gradient even in silence
+                // (bias toward the left/center, so it feels grounded)
+                const baseShape = 0.25 + rowFalloff * 0.35;
+
+                // Audio contribution — the column's frequency energy
+                const rawValue = spectrumPerCol[c];
+
+                // Fast attack, slow release
+                const current = window.__dotsState.smoothed[i];
+                const smoothing = rawValue > current ? 0.35 : 0.08;
+                const smoothed = current + (rawValue - current) * smoothing;
+                window.__dotsState.smoothed[i] = smoothed;
+
+                // Combine: base shape + smoothed audio
+                const value = Math.min(1, baseShape + smoothed * rowFalloff * 1.1);
+
+                // Final radius
+                const radius = minRadius + value * (maxRadius - minRadius);
+
+                // Position (top-left of cell + half cell to center)
+                const x = c * cellW + cellW / 2;
+                const y = r * cellH + cellH / 2;
+
+                // Alpha scales with dot size so small dots are faint, big dots solid
+                const alpha = 0.25 + value * 0.75;
+
+                ctx.beginPath();
+                ctx.arc(x, y, radius, 0, Math.PI * 2);
+                ctx.fillStyle = `rgba(255, 255, 255, ${alpha})`;
+                ctx.fill();
             }
-
-            // Normalize against the loudest bin in the spectrum
-            const rawValue = count > 0 ? (sum / count) / spectrumMax : 0;
-
-            // ---- Fast attack, slow release ----
-            // Feels like real instruments — punchy on hits, natural decay
-            const current = window.__dotsState.smoothed[i];
-            const smoothing = rawValue > current ? 0.5 : 0.12;
-            const smoothed = current + (rawValue - current) * smoothing;
-            window.__dotsState.smoothed[i] = smoothed;
-
-            // ---- Vertical position ----
-            // Map 0..1 audio value to a vertical swing
-            const value = Math.min(1, smoothed * 1.2);
-            const y = h / 2 - value * maxAmplitude + (maxAmplitude * 0.5);
-
-            // ---- Minimal dot appearance ----
-            const radius = dotRadius + value * 0.8;
-            const alpha = 0.55 + value * 0.45;
-
-            ctx.beginPath();
-            ctx.arc(x, y, radius, 0, Math.PI * 2);
-            ctx.fillStyle = `rgba(255, 255, 255, ${alpha})`;
-            ctx.fill();
         }
     }
         function drawAscii() {
