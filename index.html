@@ -1313,61 +1313,104 @@ function getAnsiMono() {
     }
 
     
-   // ============ DOTS VISUALIZER — SMOOTH WAVE ============
-// Persistent smoothing state for fluid motion
-if (!window.__dotsSmooth) {
-    window.__dotsSmooth = new Array(15).fill(0);
-}
-
-function drawDots(w, h) {
-    analyser.getByteTimeDomainData(timeData);
-
-    const dotCount = 15;
-    const dotRadius = 1.8;
-    const spacing = w / (dotCount + 1);
-    const amplitude = h * 0.32;
-
-    
-    const time = Date.now() * 0.0004;
-
-    
-    if (window.__dotsSmooth.length !== dotCount) {
-        window.__dotsSmooth = new Array(dotCount).fill(0);
+       // ============ DOTS VISUALIZER — HYBRID ============
+    // Persistent state for smooth, organic motion
+    if (!window.__dotsState) {
+        window.__dotsState = {
+            smoothed: new Array(24).fill(0.5),   // smoothed values per dot
+            drift: 0                              // slow drift phase
+        };
     }
 
-    for (let i = 0; i < dotCount; i++) {
-        const x = (i + 1) * spacing;
+    function drawDots(w, h) {
+        analyser.getByteFrequencyData(freqData);
 
-        
-        const sampleIdx = Math.floor((i / dotCount) * timeData.length);
-        const rawSample = (timeData[sampleIdx] - 128) / 128;
+        const dotCount = 24;
+        const dotRadius = 2.2;
+        const spacing = w / (dotCount + 1);
+        const maxAmplitude = h * 0.38;
 
-       
-        const target = rawSample;
-        const current = window.__dotsSmooth[i];
-        
-        const smoothing = 0.08;
-        const smoothedSample = current + (target - current) * smoothing;
-        window.__dotsSmooth[i] = smoothedSample;
+        // Slow drift for the ambient wobble
+        window.__dotsState.drift += 0.008;
+        const drift = window.__dotsState.drift;
 
-        
-        const wave = Math.sin((i / dotCount) * Math.PI * 2 + time);
+        // Make sure smoothing array matches
+        if (window.__dotsState.smoothed.length !== dotCount) {
+            window.__dotsState.smoothed = new Array(dotCount).fill(0.5);
+        }
 
-        
-        const combined = wave * 0.7 + smoothedSample * 0.5;
+        for (let i = 0; i < dotCount; i++) {
+            const x = (i + 1) * spacing;
 
-        const y = h / 2 + combined * amplitude;
+            // ---- Frequency band mapping ----
+            // i=0 = bass, i=dotCount-1 = highs
+            // Use a logarithmic spread so bass gets less space, highs get more
+            const t = i / (dotCount - 1);
+            const logT = Math.pow(t, 1.6);   // push dots toward high freq
 
-        const intensity = Math.abs(combined);
-        const radius = dotRadius + intensity * 0.8;
-        const alpha = 0.5 + intensity * 0.5;
+            // Map to a range within the frequency bins
+            // Ignore the very top bins (they're usually silent)
+            const usableBins = Math.floor(freqData.length * 0.7);
+            const bandCenter = Math.floor(logT * usableBins);
 
-        ctx.beginPath();
-        ctx.arc(x, y, radius, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(255, 255, 255, ${alpha})`;
-        ctx.fill();
+            // Average a small window of bins around the center
+            const windowSize = Math.max(2, Math.floor(usableBins / dotCount));
+            let sum = 0, count = 0;
+            for (let j = bandCenter; j < bandCenter + windowSize && j < usableBins; j++) {
+                sum += freqData[j];
+                count++;
+            }
+            const rawValue = count > 0 ? (sum / count) / 255 : 0;
+
+            // ---- Smoothing ----
+            // Fast attack, slow release — feels like real music
+            const target = rawValue;
+            const current = window.__dotsState.smoothed[i];
+            const smoothing = target > current ? 0.35 : 0.08;
+            const smoothed = current + (target - current) * smoothing;
+            window.__dotsState.smoothed[i] = smoothed;
+
+            // ---- Compose the motion ----
+            // Bass dots (left) swing wide, high dots (right) twinkle with less swing
+            const bassWeight = Math.pow(1 - t, 0.7);   // 1 at left, 0 at right
+            const sparkleWeight = t;                    // 0 at left, 1 at right
+
+            // Slow drift sine — always animating, even in silence
+            const driftWave = Math.sin(t * Math.PI * 2 + drift) * 0.15;
+            const driftWave2 = Math.sin(t * Math.PI * 4 - drift * 0.7) * 0.08;
+
+            // The actual Y offset
+            const audioSwing = smoothed * bassWeight * 1.0;
+            const sparkle = smoothed * sparkleWeight * 0.4;
+            const combined = driftWave + driftWave2 + audioSwing + sparkle;
+
+            // Center + offset
+            const y = h / 2 + combined * maxAmplitude;
+
+            // ---- Visuals ----
+            // Dots grow and glow based on their own intensity
+            const intensity = Math.abs(combined) * 1.5 + smoothed * 0.5;
+            const radius = dotRadius + intensity * 1.6;
+            const alpha = 0.35 + intensity * 0.65;
+
+            // Color: use the same accent blue → purple gradient as Bars
+            const hue = 210 + t * 100;
+            const lightness = 55 + intensity * 25;
+
+            ctx.beginPath();
+            ctx.arc(x, y, radius, 0, Math.PI * 2);
+            ctx.fillStyle = `hsla(${hue}, 80%, ${lightness}%, ${alpha})`;
+            ctx.fill();
+
+            // Subtle glow halo for the brightest dots
+            if (intensity > 0.4) {
+                ctx.beginPath();
+                ctx.arc(x, y, radius * 2.2, 0, Math.PI * 2);
+                ctx.fillStyle = `hsla(${hue}, 80%, ${lightness}%, ${alpha * 0.12})`;
+                ctx.fill();
+            }
+        }
     }
-}
         function drawAscii() {
         analyser.getByteFrequencyData(freqData);
         const usableBins = Math.floor(freqData.length * 0.3);
