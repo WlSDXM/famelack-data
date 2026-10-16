@@ -1884,8 +1884,8 @@ function getAnsiMono() {
             }
         });
 
-        // ---- Export ----
-        exportBtn.addEventListener('click', () => {
+                        // ---- Export ----
+        exportBtn.addEventListener('click', async () => {
             const payload = {
                 version: 1,
                 exported: new Date().toISOString(),
@@ -1895,19 +1895,52 @@ function getAnsiMono() {
             };
 
             const json = JSON.stringify(payload, null, 2);
-            const blob = new Blob([json], { type: 'application/json' });
-            const url = URL.createObjectURL(blob);
+            const filename = `earth-favorites-${new Date().toISOString().slice(0, 10)}.json`;
 
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = `earth-favorites-${new Date().toISOString().slice(0, 10)}.json`;
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
-            URL.revokeObjectURL(url);
+            // ---- Try Web Share API first (works great on iOS) ----
+            if (navigator.canShare && typeof File !== 'undefined') {
+                try {
+                    const file = new File([json], filename, { type: 'application/json' });
+                    if (navigator.canShare({ files: [file] })) {
+                        await navigator.share({
+                            files: [file],
+                            title: 'Earth Favorites'
+                        });
+                        modal.classList.remove('open');
+                        modal.setAttribute('aria-hidden', 'true');
+                        return;
+                    }
+                } catch (err) {
+                    if (err && err.name === 'AbortError') {
+                        modal.classList.remove('open');
+                        modal.setAttribute('aria-hidden', 'true');
+                        return;
+                    }
+                    console.warn('Web Share failed, falling back:', err);
+                }
+            }
 
-            modal.classList.remove('open');
-            modal.setAttribute('aria-hidden', 'true');
+            // ---- Fallback: classic blob download (desktop) ----
+            try {
+                const blob = new Blob([json], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = filename;
+                a.style.display = 'none';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+
+                setTimeout(() => URL.revokeObjectURL(url), 1000);
+
+                modal.classList.remove('open');
+                modal.setAttribute('aria-hidden', 'true');
+            } catch (err) {
+                console.error('Download failed:', err);
+                alert('Export failed. Try again or use a desktop browser.');
+            }
         });
 
         // ---- Import ----
@@ -1982,8 +2015,6 @@ function getAnsiMono() {
             reader.readAsText(file);
         });
     })();
-
-    
 
     // ============ INIT ============
     loadWebcamCountries();
