@@ -1456,7 +1456,7 @@
         }
     }
 
-            // ============ DOTS VISUALIZER — DITHER EFFECT ============
+               // ============ DOTS VISUALIZER — DITHER EFFECT ============
     if (!window.__dotsState) {
         window.__dotsState = {
             smoothed: null,
@@ -1516,11 +1516,6 @@
             if (spectrumPerCol[c] > peak) peak = spectrumPerCol[c];
         }
 
-        // Colors
-        const baseR = isDay ? 30 : 50;
-        const baseG = isDay ? 80 : 120;
-        const baseB = isDay ? 255 : 255;
-
         const bayer = [
             [ 0,  8,  2, 10],
             [12,  4, 14,  6],
@@ -1551,23 +1546,58 @@
                 const threshold = bayer[r % 4][c % 4] / 16.0;
 
                 let dotRadius = minRadius;
+                let dotAlpha = 0.15;
                 
                 if (combinedValue > threshold) {
                     // Dot is "on"
                     dotRadius = minRadius + (maxRadius - minRadius) * Math.min(1, smoothed * 1.5);
+                    dotAlpha = 0.9;
                 } else {
                     // Dot is "off" (background texture)
                     dotRadius = minRadius;
+                    dotAlpha = 0.15;
                 }
 
                 const x = c * cellW + cellW / 2;
                 const y = r * cellH + cellH / 2;
 
+                // ---- 3-Color Gradient Logic ----
+                // 1. Vertical position (0 at top, 1 at bottom)
+                const posY = r / rows; 
+                
+                // 2. Audio intensity (0 to 1)
+                const intensity = Math.min(1, smoothed * 1.5);
+
+                // 3. Color Mapping
+                let hue;
+                
+                if (isDay) {
+                    // Day mode: Keep it a clean, readable blue.
+                    hue = 230 - (intensity * 20);
+                } else {
+                    // Night mode: Dark Blue (Base) -> Lavender (Middle) -> Purple (Top)
+                    if (posY > 0.5) {
+                        // Bottom half: Dark Blue (230) shifting to Lavender (270)
+                        const localT = (posY - 0.5) * 2; // 0 at middle, 1 at bottom
+                        hue = 270 - (localT * 40);
+                    } else {
+                        // Top half: Lavender (270) shifting to Purple (290)
+                        const localT = posY * 2; // 0 at top, 1 at middle
+                        hue = 290 - (localT * 20);
+                    }
+                    
+                    // Audio makes the color shift slightly more vibrant
+                    hue -= intensity * 10;
+                }
+                
+                // Brightness: louder = brighter
+                const lightness = 40 + intensity * 30;
+
                 ctx.beginPath();
                 ctx.arc(x, y, dotRadius, 0, Math.PI * 2);
                 
-                const alpha = dotRadius > minRadius + 0.1 ? 0.9 : 0.2;
-                ctx.fillStyle = `rgba(${baseR}, ${baseG}, ${baseB}, ${alpha})`;
+                // Use HSLA for the gradient effect
+                ctx.fillStyle = `hsla(${hue}, 100%, ${lightness}%, ${dotAlpha})`;
                 ctx.fill();
             }
         }
