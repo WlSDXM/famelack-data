@@ -1916,6 +1916,7 @@
             dancerBubbles: [], // New
             crab: null,        // New
             jellyfish: null,   // New
+            diver: null,
             lastW: 0,
             lastH: 0
         };
@@ -1980,6 +1981,15 @@
             };
 
             state.initialized = true;
+
+            // Diver state
+            state.diver = {
+                xT: 0.1,
+                yT: 0.45,
+                dir: 1,
+                speed: 0.0008, // slowly swims across
+                bobPhase: 0
+            };
         }
 
         state.time = (state.time || 0) + 1;
@@ -2216,6 +2226,62 @@
         ctx.fillRect(1, -4, 1, 1);
         ctx.restore();
 
+        // ---- SCUBA DIVER ----
+        const diver = state.diver;
+        diver.xT += diver.dir * diver.speed * (1 + bassPulse * 0.5);
+        
+        // Loop around
+        if (diver.xT > 1.1) { diver.xT = -0.1; diver.dir = 1; }
+        if (diver.xT < -0.1) { diver.xT = 1.1; diver.dir = -1; }
+        
+        diver.bobPhase += 0.02;
+        const diverX = Math.floor(w * diver.xT);
+        const diverY = Math.floor(h * diver.yT + Math.sin(diver.bobPhase) * 6);
+
+        // Diver Pixel Art (8x8 cells)
+        // O = outline, F = fill, G = glass/mask, T = tank
+        const diverSprite = [
+            "..OOO...",
+            ".OOFGO..",
+            ".OOFGO..",
+            "TTOOFF..",
+            "TTOOFF..",
+            "..OFOO..",
+            "..OOO...",
+            "..O.O..."
+        ];
+
+        const startX = Math.floor(diverX / pxUnit) - 4;
+        const startY = Math.floor(diverY / pxUnit) - 4;
+        
+        // Flipper animation (shifts the bottom row side to side)
+        const kick = Math.sin(state.time * 0.2) > 0 ? 1 : -1;
+
+        const dOutline = isDay ? 'rgba(30,30,30,0.9)' : 'rgba(255,255,255,0.9)';
+        const dFill = isDay ? 'rgba(200,200,200,0.8)' : 'rgba(50,50,50,0.8)';
+        const dGlass = isDay ? 'rgba(100,200,255,0.9)' : 'rgba(0,200,255,0.9)';
+        const dTank = isDay ? 'rgba(150,150,150,0.9)' : 'rgba(100,150,200,0.9)';
+
+        for (let r = 0; r < diverSprite.length; r++) {
+            for (let c = 0; c < diverSprite[r].length; c++) {
+                const ch = diverSprite[r][c];
+                if (ch === '.') continue;
+
+                let color;
+                if (ch === 'O') color = dOutline;
+                else if (ch === 'G') color = dGlass;
+                else if (ch === 'T') color = dTank;
+                else color = dFill;
+
+                // Flip based on direction
+                const finalCol = diver.dir === -1 ? (diverSprite[r].length - 1 - c) : c;
+                
+                // Apply kick to the bottom row
+                const xOffset = (r === 7) ? kick : 0;
+
+                px(ctx, startX + finalCol + xOffset, startY + r, pxUnit, color);
+            }
+        }
         // ---- FLOATING BUBBLES ----
         for (let i = 0; i < state.bubbles.length; i++) {
             const b = state.bubbles[i];
@@ -2302,26 +2368,31 @@
         }
     }
 
-    // ---- Pixel octopus ----
+        // ---- Pixel octopus (Detailed, chunky) ----
     function drawPixelOctopus(ctx, centerX, baseY, unit, fillColor, darkColor, time, bassPulse) {
-        const startX = Math.floor(centerX / unit) - 6;
-        const startY = Math.floor(baseY / unit) - 11;
+        // Scale up the pixels slightly for a bigger, chunkier sprite
+        const scaleUnit = unit * 1.5;
+        
+        // Origin: base of octopus (bottom-center)
+        const startX = Math.floor(centerX / scaleUnit) - 6; // 12 cells wide
+        const startY = Math.floor(baseY / scaleUnit) - 10;  // 10 cells tall
 
         const fill = rgba(fillColor, 0.85);
         const dark = rgba(darkColor, 0.95);
 
+        // Detailed sprite, using chunky pixels
+        // F = fill, D = dark outline, E = eye, . = empty
         const sprite = [
-            "....FFFFFF...",
-            "..FFFFFFFFFF.",
-            ".FFFDDDDDFFF.",
-            "FFFDDEDDEDFFF",
-            "FFFDDDDDDDFFF",
-            "FFFFDDDDDFFF.",
-            ".FFFFDDDFFF..",
-            "..FFFDDDFFF..",
-            ".FF.FFF.FFF..",
-            "FF..FF..FF.F.",
-            "F...F....F..F"
+            "...FFFFFF...",
+            "..FFFFFFFF..",
+            ".FFFDDDDFFF.",
+            "FFFDDEDDFFF.",
+            "FFFDDDDDFFF.",
+            "FFFFDDDFFF..",
+            "..FFFDFFF...",
+            ".FFFFDFFFF..",
+            "FF.FF.FF.FF.",
+            "F..F...F..F."
         ];
 
         const wiggleAmp = bassPulse;
@@ -2333,8 +2404,9 @@
                 if (ch === '.') continue;
 
                 let xOffset = 0;
-                if (row >= 8) {
-                    const phase = col * 0.8;
+                if (row >= 7) {
+                    // Wavy tentacles
+                    const phase = col * 0.9;
                     xOffset = Math.round(Math.sin(time * 0.08 + phase) * wiggleAmp);
                 }
 
@@ -2346,7 +2418,7 @@
                 else if (ch === 'D') color = dark;
                 else color = fill;
 
-                px(ctx, finalX, finalY, unit, color);
+                px(ctx, finalX, finalY, scaleUnit, color);
             }
         }
     }
