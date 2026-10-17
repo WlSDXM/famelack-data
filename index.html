@@ -3265,53 +3265,45 @@
         }
     `;
 
-    const fsSource = `
+        const fsSource = `
         precision mediump float;
         varying vec2 v_texCoord;
-        uniform sampler2D u_texture;
         uniform float u_time;
         uniform float u_bass;
         uniform float u_volume;
-        uniform vec2 u_resolution;
         uniform float u_waveform[128];
 
         void main() {
-            vec2 uv = v_texCoord - 0.5;
+            // Start with a dark background
+            vec3 color = vec3(0.05, 0.0, 0.1);
 
-            float angle = u_time * 0.2;
-            float s = sin(angle);
-            float c = cos(angle);
-            mat2 rotation = mat2(c, -s, s, c);
-            uv = rotation * uv;
+            // Draw a glowing grid background so we know the shader is running
+            float gridX = step(0.98, fract(v_texCoord.x * 20.0));
+            float gridY = step(0.90, fract(v_texCoord.y * 10.0));
+            color += vec3(0.1, 0.0, 0.2) * (gridX + gridY);
 
-            float zoom = 1.0 - (u_bass * 0.1);
-            uv /= zoom;
-
-            uv.x += sin(uv.y * 8.0 + u_time * 2.0) * 0.05;
-            uv.y += cos(uv.x * 8.0 + u_time * 2.0) * 0.05;
-
-            vec2 texUv = uv + 0.5;
-            vec4 color = texture2D(u_texture, texUv);
-            
-            color.rgb *= 0.94; 
-
+            // Get the waveform
             float waveX = v_texCoord.x;
             int index = int(waveX * 127.0);
             float waveY = u_waveform[index];
             
+            // Distance from the center line
             float distanceToLine = abs((v_texCoord.y - 0.5) - (waveY * 0.5));
 
-            float lineThickness = 0.04 + (u_volume * 0.1);
+            // Make the line glowing
+            float lineThickness = 0.02 + (u_volume * 0.05);
             float glow = smoothstep(lineThickness, 0.0, distanceToLine);
 
+            // Rainbow colors
             vec3 waveColor;
             waveColor.r = sin(v_texCoord.x * 10.0 + u_time) * 0.5 + 0.5;
             waveColor.g = sin(v_texCoord.x * 10.0 + u_time + 2.0) * 0.5 + 0.5;
             waveColor.b = sin(v_texCoord.x * 10.0 + u_time + 4.0) * 0.5 + 0.5;
 
-            color.rgb += waveColor * glow * 1.5;
+            // Add the glowing waveform
+            color += waveColor * glow;
 
-            gl_FragColor = vec4(color.rgb, 1.0);
+            gl_FragColor = vec4(color, 1.0);
         }
     `;
 
