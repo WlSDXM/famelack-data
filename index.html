@@ -2176,42 +2176,84 @@
         return `rgba(${c[0]}, ${c[1]}, ${c[2]}, ${a})`;
     }
 
-    // ---- Pixel fish ----
+        // ---- Pixel fish — full sprite for the dancer, simple for background ----
     function drawPixelFish(ctx, centerX, centerY, unit, facing, wiggle, outlineColor, alpha, hero = false) {
-        // Fish is drawn in pixel grid cells. Origin is head-left.
-        // Body: 9 wide x 5 tall. Tail: 3 wide x 5 tall behind.
+        // Fish sprite — 13 wide x 10 tall, drawn facing LEFT.
+        // When facing = -1 (facing right), the sprite is flipped horizontally.
+        //
+        // Legend: ■ = body/outline, ○ = checkered interior, ● = eye, . = empty
+        //
+        // Two sprites:
+        //   HERO:  full detail — outline, top fin, bottom fin, forked tail, checker body, eye
+        //   SIMPLE: outline only + tail (for background swimmers)
 
-        const bodyW = 9;
-        const bodyH = 5;
-        const tailW = 3;
+        // ---- HERO sprite (13 wide × 10 tall, facing left) ----
+        const heroSprite = [
+            ".....■■■.....",
+            "....■...■....",
+            "..■■■...■....",
+            ".■.○.○.○.■...",
+            "■..○.○.○..■■.",
+            ".■.○.○.○.■..■",
+            "..■■■...■..■■",
+            "....■...■....",
+            ".....■■■.....",
+            "............."
+        ];
 
-        const totalW = bodyW + tailW;
-        const startX = Math.floor((centerX / unit) - (totalW * unit / 2) / unit);
-        const startY = Math.floor((centerY / unit) - (bodyH / 2));
+        // ---- SIMPLE sprite (11 wide × 5 tall, facing left) — for background swimmers ----
+        const simpleSprite = [
+            "....■■■...",
+            "..■■...■..",
+            "■..○.○.■.■",
+            "..■■...■..",
+            "....■■■..."
+        ];
 
-        const color = rgba(outlineColor, alpha);
-        const tailWag = Math.round(Math.sin(wiggle) * 1);   // -1, 0, or 1 pixel offset
+        const sprite = hero ? heroSprite : simpleSprite;
 
-        // ---- Body outline (rounded rectangle) ----
-        for (let x = 0; x < bodyW; x++) {
-            for (let y = 0; y < bodyH; y++) {
-                // Only draw border cells (hollow center)
-                const isBorder =
-                    x === 0 || x === bodyW - 1 ||
-                    y === 0 || y === bodyH - 1;
+        const rows = sprite.length;
+        const cols = sprite[0].length;
 
-                // Corners of the rounded rect
-                if ((x === 0 || x === bodyW - 1) &&
-                    (y === 0 || y === bodyH - 1)) continue;
+        // Compute top-left start so the sprite is centered on (centerX, centerY)
+        const startX = Math.floor(centerX / unit) - Math.floor(cols / 2);
+        const startY = Math.floor(centerY / unit) - Math.floor(rows / 2);
 
-                // The nose (rightmost column) is only 3 tall — pointed front
-                if (x === bodyW - 1 && (y === 0 || y === bodyH - 1)) continue;
+        // Body color + interior checker color
+        const bodyColor = rgba(outlineColor, alpha);
+        const checkerColor = rgba(outlineColor, alpha * 0.55);
 
-                if (isBorder) {
-                    px(ctx, startX + x, startY + y, unit, color);
+        // Tail wag — bottom rows shift ±1 pixel for the swimming motion
+        const wiggleAmp = hero ? 1 : 1;
+        const tailWag = Math.round(Math.sin(wiggle) * wiggleAmp);
+
+        for (let row = 0; row < rows; row++) {
+            for (let col = 0; col < cols; col++) {
+                const ch = sprite[row][col];
+                if (ch === '.') continue;
+
+                // Apply tail wag to the rightmost 3 columns (the tail side, since sprite faces left)
+                let xOffset = 0;
+                if (col >= cols - 3) {
+                    // Tail wags more the further right we are
+                    const tailT = (col - (cols - 4)) / 3;   // 0..1
+                    xOffset = Math.round(tailWag * tailT);
                 }
+
+                // Facing flip: if facing = -1 (right), mirror the X
+                const finalCol = facing === -1 ? (cols - 1 - col) : col;
+                const finalX = startX + finalCol + (facing === -1 ? -xOffset : xOffset);
+                const finalY = startY + row;
+
+                let color;
+                if (ch === '●') color = rgba(outlineColor, alpha);
+                else if (ch === '○') color = checkerColor;
+                else color = bodyColor;
+
+                px(ctx, finalX, finalY, unit, color);
             }
         }
+    }
 
         // ---- Tail — triangle, wags up/down ----
         for (let x = 0; x < tailW; x++) {
