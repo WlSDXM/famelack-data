@@ -682,7 +682,7 @@
                         <option value="dots">Dots</option>
                         <option value="droplet">Droplet</option>
                         <option value="fish">Fish Tank</option>
-                        <option value="terrain">Terrain</option>
+                        <option value="terrain">Grid</option>
                     </select>
                     <button id="radioStar" class="cam-star" title="Save to favorites" style="margin-left: auto;">★</button>
                 </div>
@@ -1604,12 +1604,13 @@
     }
 
 
-                       // ============ TERRAIN VISUALIZER (3D MESH RIPPLE) ============
+        // ============ TERRAIN VISUALIZER (3D MESH RIPPLE) ============
     if (!window.__terrainState) {
         window.__terrainState = {
             cols: 35,   
-            rows: 22,   
-            time: 0
+            rows: 25,   
+            time: 0,
+            smoothedHeights: null
         };
     }
 
@@ -1621,15 +1622,15 @@
         const cols = state.cols;
         const rows = state.rows;
 
-        // Slightly slower time for smoother flow
-        state.time += 0.035;
+        // Smooth, continuous scroll
+        state.time += 0.025;
 
         // Perspective constants
-        const fov = 500;
-        const tilt = 1.2;      
-        const spacingX = 22;
-        const spacingZ = 22;
-        const baseY = h * 0.6; 
+        const fov = 350;            // Controls how wide the view is
+        const horizonY = h * 0.35;  // The horizon line (pushed up so we see more terrain)
+        const cameraHeight = 80;    // How high the camera is floating above the terrain
+        const spacingX = 20;
+        const spacingZ = 20;
 
         // Audio analysis
         const usableBins = Math.floor(freqData.length * 0.5); 
@@ -1639,7 +1640,6 @@
         }
         peak /= 255;
 
-        // Smoothing state for the heights
         if (!state.smoothedHeights) {
             state.smoothedHeights = new Array(cols * rows).fill(0);
         }
@@ -1650,53 +1650,64 @@
         for (let z = 0; z < rows; z++) {
             grid[z] = [];
             
-            const worldZ = (z - rows / 2) * spacingZ;
+            // Z axis: We move it forward constantly to scroll the terrain
+            const worldZ = z * spacingZ + (state.time * spacingZ * 2) % spacingZ;
 
             for (let x = 0; x < cols; x++) {
                 const i = z * cols + x;
+                
+                // X axis: Center it
                 const worldX = (x - cols / 2) * spacingX;
 
-                // Distance from center
-                const dist = Math.sqrt(worldX * worldX + worldZ * worldZ);
-                
-                // Map distance to audio bins
-                const normDist = Math.min(1, dist / 280); 
-                const binIndex = Math.floor(Math.pow(normDist, 1.3) * usableBins);
+                // Map X position to audio (center = bass, edges = treble)
+                const distFromCenter = Math.abs(x - cols / 2) / (cols / 2);
+                const binIndex = Math.floor(Math.pow(distFromCenter, 1.5) * usableBins);
 
                 let audioValue = (freqData[binIndex] / 255) / peak;
-                // Softer audio compression (0.8 instead of 1.4) makes peaks rounder
-                audioValue = Math.pow(audioValue, 0.8); 
+                audioValue = Math.pow(audioValue, 0.8); // Soften the spikes
 
-                // ---- SMOOTHER RIPPLES ----
-                // Only two overlapping sine waves now, moving gracefully
-                const wave1 = Math.sin(dist * 0.04 - state.time) * 0.6;
-                const wave2 = Math.sin(dist * 0.07 + state.time * 0.8) * 0.4;
-                const combinedWave = (wave1 + wave2) + 1; // Shift to 0-2 range
+                // ---- Terrain Generation ----
+                // 1. Base Terrain: Constant ambient waves so it's never flat
+                const ambientWave1 = Math.sin(worldX * 0.05 + state.time * 2) * 15;
+                const ambientWave2 = Math.sin(worldZ * 0.05 - state.time * 1.5) * 15;
+                const ambientHeight = ambientWave1 + ambientWave2;
 
-                // Softer center boost
-                const centerBoost = 1 - Math.pow(normDist, 2);
+                // 2. Audio Terrain: The music pushes the hills up
+                // We use a slower sine wave for the audio shape so it looks like hills
+                const audioWave = Math.sin(worldX * 0.03 - state.time * 2) * 0.5 + 0.5;
                 
-                const targetHeight = audioValue * 120 * combinedWave * (centerBoost * 0.7 + 0.3);
+                // Center gets a bit more boost
+                const centerBoost = 1 - Math.pow(distFromCenter, 2);
+                const audioHeight = audioValue * 120 * audioWave * (centerBoost * 0.5 + 0.5);
 
-                // Lerp the height for buttery smooth transitions
+                // Combine them
+                const targetHeight = ambientHeight + audioHeight;
+
+                // Lerp for buttery smooth transitions
                 state.smoothedHeights[i] += (targetHeight - state.smoothedHeights[i]) * 0.15;
                 const worldY = state.smoothedHeights[i];
 
-                // --- 3D Projection ---
-                const camY = worldY * Math.cos(tilt) - worldZ * Math.sin(tilt);
-                const camZ = worldY * Math.sin(tilt) + worldZ * Math.cos(tilt) + 400;
+                // --- 3D Projection (Camera looking across the surface) ---
+                // Move the camera back and up
+                const camZ = worldZ + 100; 
+                
+                if (camZ <= 10) continue; // Don't draw behind camera
 
                 const scale = fov / camZ;
+                
+                // Project to 2D
                 const screenX = w / 2 + worldX * scale;
-                const screenY = baseY + camY * scale;
+                // Subtract worldY so higher values go UP on the screen
+                const screenY = horizonY + (cameraHeight * scale) - (worldY * scale);
 
-                const alpha = Math.max(0, 1 - normDist * 0.8);
+                // Fade out into the distance
+                const alpha = Math.max(0, 1 - (z / rows));
 
                 grid[z][x] = {
                     x: screenX,
                     y: screenY,
-                    alpha: alpha,
-                    intensity: audioValue * (combinedWave * 0.5)
+                    alpha: alpha * 0.8,
+                    intensity: audioValue
                 };
             }
         }
@@ -1709,9 +1720,9 @@
                 const p = grid[z][x];
                 if (!p) continue;
 
-                // Color: Deep purple (280) to Cyan (180)
+                // Color: Purple (280) to Cyan (180)
                 const hue = 280 - (p.intensity * 100);
-                const lightness = isDay ? 40 : 60 + p.intensity * 20;
+                const lightness = isDay ? 40 : 50 + p.intensity * 30;
                 
                 ctx.strokeStyle = `hsla(${hue}, 100%, ${lightness}%, ${p.alpha})`;
 
@@ -2828,7 +2839,7 @@
         else if (currentStyle === 'dots') drawDots(w, h);
         else if (currentStyle === 'droplet') drawDroplet(w, h);
         else if (currentStyle === 'fish') drawFishTank(w, h);
-        else if (currentStyle === 'terrain') drawTerrain(w, h);
+        else if (currentStyle === 'terrain') drawTerrain(w, h); // Selects "Grid"
         else drawBars(w, h);
     }
 
