@@ -1605,13 +1605,14 @@
     }
 
 
-        // ============ TERRAIN VISUALIZER (3D WIREFRAME) ============
+            // ============ TERRAIN VISUALIZER (3D WIREFRAME) ============
     if (!window.__terrainState) {
         window.__terrainState = {
             time: 0,
-            cols: 30,   // Grid width
-            rows: 25,   // Grid depth
-            maxHeight: 0
+            cols: 25,   // Grid width
+            rows: 20,   // Grid depth
+            spacingX: 30,
+            spacingZ: 30
         };
     }
 
@@ -1621,19 +1622,15 @@
         const isDay = document.body.classList.contains('day-mode');
 
         // Move the camera forward over time
-        state.time += 0.015;
+        state.time += 0.05;
 
         const cols = state.cols;
         const rows = state.rows;
 
         // Perspective constants
-        const fov = w * 0.6;
-        const cameraY = h * 0.4; 
-        const cameraZ = -3; 
-        const spacingX = 4;
-        const spacingZ = 3;
-        const baseY = h * 0.7; // Horizon line
-
+        const fov = h * 1.5;       // Field of view (higher = wider)
+        const horizonY = h * 0.3;  // Where the horizon sits on screen
+        
         // Audio analysis
         const usableBins = Math.floor(freqData.length * 0.4);
         let peak = 0.15;
@@ -1642,42 +1639,40 @@
         }
         peak /= 255;
 
-        // Create a 2D array to hold the projected coordinates so we can draw the lines
         const grid = [];
+        const offsetZ = (state.time * state.spacingZ) % state.spacingZ;
 
         // 1. Calculate 3D vertices and project them to 2D
         for (let z = 0; z < rows; z++) {
             grid[z] = [];
-            // Move the grid towards the camera
-            const worldZ = z * spacingZ - ((state.time * spacingZ) % spacingZ);
             
+            // Calculate 3D Z position (starts at z=1 to avoid dividing by zero)
+            const worldZ = z * state.spacingZ + offsetZ + 10; 
+
             // Fade out the back rows
             const depthAlpha = 1 - (z / rows);
 
             for (let x = 0; x < cols; x++) {
                 // Center the X axis
-                const worldX = (x - cols / 2) * spacingX;
+                const worldX = (x - cols / 2) * state.spacingX;
 
                 // Map X position to a frequency bin (center gets bass, edges get treble)
                 const distFromCenter = Math.abs(x - cols / 2) / (cols / 2);
                 const binIndex = Math.floor(Math.pow(distFromCenter, 1.5) * usableBins);
 
                 let audioValue = (freqData[binIndex] / 255) / peak;
-                audioValue = Math.pow(audioValue, 1.5); // Compress so it's not too spiky
+                audioValue = Math.pow(audioValue, 1.5); // Compress
 
                 // The wave height (Y axis). The center column is usually the tallest.
                 const centerBoost = 1 - Math.pow(distFromCenter, 2);
-                const worldY = -audioValue * 150 * centerBoost;
+                const worldY = audioValue * 200 * centerBoost;
 
                 // --- 3D Projection ---
-                // Z distance from camera
-                const dz = worldZ + cameraZ + 2; 
-                if (dz <= 0) continue; // Don't draw things behind the camera
-
-                // Project to 2D
-                const scale = fov / dz;
+                const scale = fov / worldZ;
                 const screenX = w / 2 + worldX * scale;
-                const screenY = baseY + (worldY - cameraY) * scale;
+                
+                // Subtract worldY from horizon (higher Y in 3D means higher up on screen)
+                const screenY = horizonY + (200 * scale) - (worldY * scale);
 
                 grid[z][x] = {
                     x: screenX,
@@ -1699,8 +1694,10 @@
                 // Pick color based on audio intensity (Purple to Cyan)
                 // Hue 280 = Purple, 180 = Cyan
                 const hue = 280 - (p.intensity * 100);
-                const color = `hsla(${hue}, 100%, 60%, ${p.alpha})`;
-                ctx.strokeStyle = color;
+                
+                // In day mode, make the colors darker so they show up on light gray
+                const lightness = isDay ? 40 : 60;
+                ctx.strokeStyle = `hsla(${hue}, 100%, ${lightness}%, ${p.alpha})`;
 
                 // Draw line to the RIGHT (X axis)
                 if (x < cols - 1 && grid[z][x + 1]) {
