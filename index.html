@@ -1604,13 +1604,14 @@
     }
 
 
-        // ============ TERRAIN VISUALIZER (3D MESH RIPPLE) ============
+            // ============ GRID VISUALIZER (AUDIO-DRIVEN) ============
     if (!window.__terrainState) {
         window.__terrainState = {
             cols: 35,   
             rows: 25,   
-            time: 0,
-            smoothedHeights: null
+            scrollSpeed: 0,
+            smoothedHeights: null,
+            time: 0
         };
     }
 
@@ -1622,17 +1623,26 @@
         const cols = state.cols;
         const rows = state.rows;
 
-        // Smooth, continuous scroll
-        state.time += 0.025;
+        // ---- Audio Analysis ----
+        // Get the bass energy specifically to drive the movement
+        let bassSum = 0;
+        const bassBins = 8;
+        for (let j = 0; j < bassBins; j++) bassSum += freqData[j];
+        const bassEnergy = bassSum / bassBins / 255;
+
+        // Smooth the bass so the scrolling is fluid, not jerky
+        const targetScrollSpeed = Math.pow(bassEnergy, 1.5) * 1.5; 
+        state.scrollSpeed += (targetScrollSpeed - state.scrollSpeed) * 0.05;
+        state.time += state.scrollSpeed;
 
         // Perspective constants
-        const fov = 350;            // Controls how wide the view is
-        const horizonY = h * 0.35;  // The horizon line (pushed up so we see more terrain)
-        const cameraHeight = 80;    // How high the camera is floating above the terrain
+        const fov = 350;            
+        const horizonY = h * 0.35;  
+        const cameraHeight = 80;    
         const spacingX = 20;
         const spacingZ = 20;
 
-        // Audio analysis
+        // Full spectrum analysis for the wave heights
         const usableBins = Math.floor(freqData.length * 0.5); 
         let peak = 0.15;
         for (let j = 0; j < usableBins; j++) {
@@ -1646,68 +1656,58 @@
 
         const grid = [];
 
-        // 1. Calculate 3D vertices and project them to 2D
         for (let z = 0; z < rows; z++) {
             grid[z] = [];
             
-            // Z axis: We move it forward constantly to scroll the terrain
+            // The Z axis now moves based on the music (state.time is driven by bass)
             const worldZ = z * spacingZ + (state.time * spacingZ * 2) % spacingZ;
 
             for (let x = 0; x < cols; x++) {
                 const i = z * cols + x;
                 
-                // X axis: Center it
                 const worldX = (x - cols / 2) * spacingX;
 
-                // Map X position to audio (center = bass, edges = treble)
                 const distFromCenter = Math.abs(x - cols / 2) / (cols / 2);
                 const binIndex = Math.floor(Math.pow(distFromCenter, 1.5) * usableBins);
 
                 let audioValue = (freqData[binIndex] / 255) / peak;
-                audioValue = Math.pow(audioValue, 0.8); // Soften the spikes
+                audioValue = Math.pow(audioValue, 0.8);
 
-                // ---- Terrain Generation ----
-                // 1. Base Terrain: Constant ambient waves so it's never flat
-                const ambientWave1 = Math.sin(worldX * 0.05 + state.time * 2) * 15;
-                const ambientWave2 = Math.sin(worldZ * 0.05 - state.time * 1.5) * 15;
-                const ambientHeight = ambientWave1 + ambientWave2;
-
-                // 2. Audio Terrain: The music pushes the hills up
-                // We use a slower sine wave for the audio shape so it looks like hills
-                const audioWave = Math.sin(worldX * 0.03 - state.time * 2) * 0.5 + 0.5;
+                // ---- Natural Music Waves ----
+                // Instead of ambient waves, we use the audio value to create ripples
+                // As the music pulses, it creates a wave that travels along the grid
+                const pulseWave = Math.sin(worldX * 0.05 + worldZ * 0.05 - state.time * 2);
                 
-                // Center gets a bit more boost
+                // The wave only goes UP, never below 0
+                const waveHeight = Math.max(0, pulseWave) * 0.5 + 0.5; 
+
+                // Center boost
                 const centerBoost = 1 - Math.pow(distFromCenter, 2);
-                const audioHeight = audioValue * 120 * audioWave * (centerBoost * 0.5 + 0.5);
+                
+                // Combine audio volume + wave shape
+                const targetHeight = audioValue * 120 * waveHeight * (centerBoost * 0.5 + 0.5);
 
-                // Combine them
-                const targetHeight = ambientHeight + audioHeight;
-
-                // Lerp for buttery smooth transitions
+                // Lerp for smooth transitions
                 state.smoothedHeights[i] += (targetHeight - state.smoothedHeights[i]) * 0.15;
                 const worldY = state.smoothedHeights[i];
 
-                // --- 3D Projection (Camera looking across the surface) ---
-                // Move the camera back and up
+                // --- 3D Projection ---
                 const camZ = worldZ + 100; 
                 
-                if (camZ <= 10) continue; // Don't draw behind camera
+                if (camZ <= 10) continue; 
 
                 const scale = fov / camZ;
                 
-                // Project to 2D
                 const screenX = w / 2 + worldX * scale;
-                // Subtract worldY so higher values go UP on the screen
                 const screenY = horizonY + (cameraHeight * scale) - (worldY * scale);
 
-                // Fade out into the distance
                 const alpha = Math.max(0, 1 - (z / rows));
 
                 grid[z][x] = {
                     x: screenX,
                     y: screenY,
                     alpha: alpha * 0.8,
-                    intensity: audioValue
+                    intensity: audioValue * waveHeight // Color reacts to the height
                 };
             }
         }
@@ -1726,7 +1726,6 @@
                 
                 ctx.strokeStyle = `hsla(${hue}, 100%, ${lightness}%, ${p.alpha})`;
 
-                // Draw line to the RIGHT (X axis)
                 if (x < cols - 1) {
                     const pRight = grid[z][x + 1];
                     if (pRight) {
@@ -1737,7 +1736,6 @@
                     }
                 }
 
-                // Draw line FORWARD (Z axis)
                 if (z < rows - 1) {
                     const pForward = grid[z + 1][x];
                     if (pForward) {
