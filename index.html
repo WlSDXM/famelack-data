@@ -1604,7 +1604,7 @@
     }
 
 
-                    // ============ TERRAIN VISUALIZER (3D MESH RIPPLE) ============
+                       // ============ TERRAIN VISUALIZER (3D MESH RIPPLE) ============
     if (!window.__terrainState) {
         window.__terrainState = {
             cols: 35,   
@@ -1621,8 +1621,8 @@
         const cols = state.cols;
         const rows = state.rows;
 
-        // Speed of the ripple flow
-        state.time += 0.05;
+        // Slightly slower time for smoother flow
+        state.time += 0.035;
 
         // Perspective constants
         const fov = 500;
@@ -1639,6 +1639,11 @@
         }
         peak /= 255;
 
+        // Smoothing state for the heights
+        if (!state.smoothedHeights) {
+            state.smoothedHeights = new Array(cols * rows).fill(0);
+        }
+
         const grid = [];
 
         // 1. Calculate 3D vertices and project them to 2D
@@ -1648,30 +1653,34 @@
             const worldZ = (z - rows / 2) * spacingZ;
 
             for (let x = 0; x < cols; x++) {
+                const i = z * cols + x;
                 const worldX = (x - cols / 2) * spacingX;
 
                 // Distance from center
                 const dist = Math.sqrt(worldX * worldX + worldZ * worldZ);
                 
-                // Map distance to audio bins (center gets bass, edges get highs)
+                // Map distance to audio bins
                 const normDist = Math.min(1, dist / 280); 
-                const binIndex = Math.floor(Math.pow(normDist, 1.3) * usableBins); 
+                const binIndex = Math.floor(Math.pow(normDist, 1.3) * usableBins);
 
                 let audioValue = (freqData[binIndex] / 255) / peak;
-                audioValue = Math.pow(audioValue, 1.4);
+                // Softer audio compression (0.8 instead of 1.4) makes peaks rounder
+                audioValue = Math.pow(audioValue, 0.8); 
 
-                // ---- MULTI-RIPPLE MATH ----
-                
-                const wave1 = Math.sin(dist * 0.04 - state.time);
-                const wave2 = Math.sin(dist * 0.08 + state.time * 1.5) * 0.5;
-                const wave3 = Math.sin(worldX * 0.05 + worldZ * 0.05) * 0.3; 
-                
-                // Combine the waves (0.5 to 1.5 range)
-                const combinedWave = (wave1 + wave2 + wave3) * 0.5 + 0.5;
+                // ---- SMOOTHER RIPPLES ----
+                // Only two overlapping sine waves now, moving gracefully
+                const wave1 = Math.sin(dist * 0.04 - state.time) * 0.6;
+                const wave2 = Math.sin(dist * 0.07 + state.time * 0.8) * 0.4;
+                const combinedWave = (wave1 + wave2) + 1; // Shift to 0-2 range
 
-                // Height calculation
-                const centerBoost = 1 - Math.pow(normDist, 1.5); 
-                const worldY = audioValue * 140 * combinedWave * (centerBoost * 0.8 + 0.2);
+                // Softer center boost
+                const centerBoost = 1 - Math.pow(normDist, 2);
+                
+                const targetHeight = audioValue * 120 * combinedWave * (centerBoost * 0.7 + 0.3);
+
+                // Lerp the height for buttery smooth transitions
+                state.smoothedHeights[i] += (targetHeight - state.smoothedHeights[i]) * 0.15;
+                const worldY = state.smoothedHeights[i];
 
                 // --- 3D Projection ---
                 const camY = worldY * Math.cos(tilt) - worldZ * Math.sin(tilt);
@@ -1687,7 +1696,7 @@
                     x: screenX,
                     y: screenY,
                     alpha: alpha,
-                    intensity: audioValue * combinedWave 
+                    intensity: audioValue * (combinedWave * 0.5)
                 };
             }
         }
@@ -1700,11 +1709,10 @@
                 const p = grid[z][x];
                 if (!p) continue;
 
-                // Color: Deep purple (280) to Cyan (180) based on intensity
+                // Color: Deep purple (280) to Cyan (180)
                 const hue = 280 - (p.intensity * 100);
-                const lightness = isDay ? 40 : 60 + p.intensity * 30;
+                const lightness = isDay ? 40 : 60 + p.intensity * 20;
                 
-                // Make the lines slightly transparent based on distance
                 ctx.strokeStyle = `hsla(${hue}, 100%, ${lightness}%, ${p.alpha})`;
 
                 // Draw line to the RIGHT (X axis)
