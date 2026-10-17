@@ -683,6 +683,7 @@
                         <option value="droplet">Droplet</option>
                         <option value="fish">Fish Tank</option>
                         <option value="terrain">Grid</option>
+                        <option value="milkdrop">MilkDrop (WebGL)</option>
                     </select>
                     <button id="radioStar" class="cam-star" title="Save to favorites" style="margin-left: auto;">★</button>
                 </div>
@@ -2804,10 +2805,16 @@
         asciiViz.textContent = output;
     }
 
-    function draw() {
+        function draw() {
         requestAnimationFrame(draw);
 
         if (visualizerDisabled) return;
+
+        // If WebGL is selected, let the WebGL loop handle it
+        if (currentStyle === 'milkdrop') {
+            renderMilkdrop();
+            return;
+        }
 
         if (currentStyle === 'ascii') {
             if (analyser) drawAscii();
@@ -2834,9 +2841,9 @@
         if (currentStyle === 'wave') drawWave(w, h);
         else if (currentStyle === 'ansi') drawANSI(w, h);
         else if (currentStyle === 'dots') drawDots(w, h);
+        else if (currentStyle === 'terrain') drawTerrain(w, h);
         else if (currentStyle === 'droplet') drawDroplet(w, h);
         else if (currentStyle === 'fish') drawFishTank(w, h);
-        else if (currentStyle === 'terrain') drawTerrain(w, h); // Selects "Grid"
         else drawBars(w, h);
     }
 
@@ -3213,7 +3220,198 @@
             reader.readAsText(file);
         });
     })();
+    // ============ TRUE MILKDROP (WEBGL) ============
+    let gl = null;
+    let milkdropProgram = null;
+    let milkdropTexture = null;
+    let milkdropFramebuffer = null;
+    let milkdropVertexBuffer = null;
+    let milkdropTime = 0;
+    let milkdropInitialized = false;
 
+    // The Shaders (written in GLSL, the language of the GPU)
+    const vsSource = `
+        attribute vec2 a_position;
+        varying vec2 v_texCoord;
+        void main() {
+            // Convert screen coordinates to texture coordinates (0 to 1)
+            v_texCoord = a_position * 0.5 + 0.5;
+            gl_Position = vec4(a_position, 0.0, 1.0);
+        }
+    `;
+
+    const fsSource = `
+        precision mediump float;
+        varying vec2 v_texCoord;
+        uniform sampler2D u_texture;
+        uniform float u_time;
+        uniform float u_bass;
+        uniform float u_volume;
+
+        void main() {
+            // Center the coordinates so we can zoom/rotate from the middle
+            vec2 uv = v_texCoord - 0.5;
+
+            // --- Warp Math ---
+            // Zoom in slightly based on time and bass
+            float zoom = 1.0 - (u_bass * 0.05); 
+            
+            // Rotate slowly
+            float angle = u_time * 0.2;
+            float s = sin(angle);
+            float c = cos(angle);
+            mat2 rotation = mat2(c, -s, s, c);
+
+            // Apply rotation and zoom
+            uv = rotation * uv * zoom;
+
+            // Add a slight liquid ripple
+            uv.x += sin(uv.y * 10.0 + u_time * 2.0) * 0.02 * u_volume;
+            uv.y += cos(uv.x * 10.0 + u_time * 2.0) * 0.02 * u_volume;
+
+            // Move it back to texture space
+            uv += 0.5;
+
+            // Sample the previous frame
+            vec4 color = texture2D(u_texture, uv);
+
+            // Fade it out slightly so the feedback loop doesn't burn in
+            color.rgb *= 0.96; 
+
+            // Add a psychedelic hue shift based on time and bass
+            float hueShift = sin(u_time + uv.x * 5.0 + uv.y * 5.0) * 0.5 + 0.5;
+            vec3 newColor = mix(color.rgb, vec3(uv.y, uv.x, 1.0), 0.05 + (u_bass * 0.1));
+
+            // Add a glowing pulse in the center
+            float dist = length(uv - 0.5);
+            float pulse = smoothstep(0.1, 0.0, dist) * u_bass * 0.5;
+
+            gl_FragColor = vec4(newColor + pulse, 1.0);
+        }
+    `;
+
+    function initMilkdrop() {
+        if (milkdropInitialized) return true;
+        
+        try {
+            // Get WebGL context (this might fail on some old machines)
+            gl = canvas.getContext('webgl', { alpha: false, preserveDrawingBuffer: true }) || 
+                 canvas.getContext('experimental-webgl', { alpha: false, preserveDrawingBuffer: true });
+            
+            if (!gl) throw new Error("WebGL not supported");
+
+            // Compile shaders
+            const vertexShader = gl.createShader(gl.VERTEX_SHADER);
+            gl.shaderSource(vertexShader, vsSource);
+            gl.compileShader(vertexShader);
+
+            const fragmentShader = gl.createShader(gl.FRAGMENT_SHADER);
+            gl.shaderSource(fragmentShader, fsSource);
+            gl.compileShader(fragmentShader);
+
+            // Create program
+            milkdropProgram = gl.createProgram();
+            gl.attachShader(milkdropProgram, vertexShader);
+            gl.attachShader(milkdropProgram, fragmentShader);
+            gl.linkProgram(milkdropProgram);
+            gl.useProgram(milkdropProgram);
+
+            // Create a full-screen quad
+            milkdropVertexBuffer = gl.createBuffer();
+            gl.bindBuffer(gl.ARRAY_BUFFER, milkdropVertexBuffer);
+            const vertices = new Float32Array([
+                -1.0, -1.0,  1.0, -1.0, -1.0,  1.0,
+                -1.0,  1.0,  1.0, -1.0,  1.0,  1.0
+            ]);
+            gl.bufferData(gl.ARRAY_BUFFER, vertices, gl.STATIC_DRAW);
+            
+            const positionLoc = gl.getAttribLocation(milkdropProgram, "a_position");
+            gl.enableVertexAttribArray(positionLoc);
+            gl.vertexAttribPointer(positionLoc, 2, gl.FLOAT, false, 0, 0);
+
+            // Create a texture to hold the feedback
+            milkdropTexture = gl.createTexture();
+            gl.bindTexture(gl.TEXTURE_2D, milkdropTexture);
+            gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, canvas.width, canvas.height, 0, gl.RGBA, gl.UNSIGNED_BYTE, null);
+            
+            // Texture parameters (must be clamp and linear for feedback loops)
+            gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+            gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+            gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+            gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+
+            // Create framebuffer (lets us draw into the texture)
+            milkdropFramebuffer = gl.createFramebuffer();
+            gl.bindFramebuffer(gl.FRAMEBUFFER, milkdropFramebuffer);
+            gl.framebufferTexture2D(gl.FRAMEBUFFER, gl.COLOR_ATTACHMENT0, gl.TEXTURE_2D, milkdropTexture, 0);
+
+            milkdropInitialized = true;
+            return true;
+        } catch (e) {
+            console.warn("MilkDrop (WebGL) failed to initialize, falling back to Bars.", e);
+            // Fallback to Canvas 2D Bars
+            currentStyle = 'bars';
+            vizStyleSelect.value = 'bars';
+            return false;
+        }
+    }
+
+    function renderMilkdrop() {
+        // If WebGL failed to initialize, don't try to render
+        if (!initMilkdrop()) return;
+
+        // Size WebGL canvas to match CSS size
+        if (canvas.width !== canvas.clientWidth || canvas.height !== canvas.clientHeight) {
+            canvas.width = canvas.clientWidth;
+            canvas.height = canvas.clientHeight;
+            gl.viewport(0, 0, canvas.width, canvas.height);
+            
+            // Resize texture
+            gl.bindTexture(gl.TEXTURE_2D, milkdropTexture);
+            gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, canvas.width, canvas.height, 0, gl.RGBA, gl.UNSIGNED_BYTE, null);
+        }
+
+        // Get Audio Data
+        analyser.getByteFrequencyData(freqData);
+        let bassSum = 0;
+        for (let i = 0; i < 8; i++) bassSum += freqData[i];
+        let bass = (bassSum / 8) / 255;
+        
+        let volSum = 0;
+        for (let i = 0; i < freqData.length; i++) volSum += freqData[i];
+        let vol = (volSum / freqData.length) / 255;
+
+        milkdropTime += 0.016; // Approx 60fps
+
+        // Bind the framebuffer (we are drawing into the texture)
+        gl.bindFramebuffer(gl.FRAMEBUFFER, milkdropFramebuffer);
+        gl.viewport(0, 0, canvas.width, canvas.height);
+
+        // Set uniforms (pass variables to the shader)
+        gl.useProgram(milkdropProgram);
+        
+        const timeLoc = gl.getUniformLocation(milkdropProgram, "u_time");
+        const bassLoc = gl.getUniformLocation(milkdropProgram, "u_bass");
+        const volLoc = gl.getUniformLocation(milkdropProgram, "u_volume");
+        
+        gl.uniform1f(timeLoc, milkdropTime);
+        gl.uniform1f(bassLoc, bass);
+        gl.uniform1f(volLoc, vol);
+
+        // Bind the previous frame
+        gl.bindTexture(gl.TEXTURE_2D, milkdropTexture);
+        
+        // Draw the full screen quad
+        gl.drawArrays(gl.TRIANGLES, 0, 6);
+        
+        // To see it on the screen, we actually need to draw the framebuffer to the canvas.
+        // Since we are reading/writing the same texture, we have to flip it back to the screen buffer.
+        // WebGL automatically draws to the canvas if we unbind the framebuffer.
+        gl.bindFramebuffer(gl.FRAMEBUFFER, null);
+        gl.bindTexture(gl.TEXTURE_2D, milkdropTexture);
+        gl.drawArrays(gl.TRIANGLES, 0, 6);
+    }
+    
     // ============ INIT ============
     loadWebcamCountries();
     loadRadioCountries();
