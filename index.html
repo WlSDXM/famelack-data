@@ -1456,36 +1456,38 @@
         }
     }
 
-    // ============ DOTS VISUALIZER ============
+        // ============ DOTS VISUALIZER — DITHER EFFECT ============
     if (!window.__dotsState) {
         window.__dotsState = {
             smoothed: null,
             cols: 0,
-            rows: 0,
-            drift: 0
+            rows: 0
         };
     }
 
     function drawDots(w, h) {
         analyser.getByteFrequencyData(freqData);
 
-        const cols = 42;
-        const rows = 12;
+        const state = window.__dotsState;
+        const isDay = document.body.classList.contains('day-mode');
+
+        // Grid size (higher = more dots)
+        const cols = 60;
+        const rows = 25;
 
         const cellW = w / cols;
         const cellH = h / rows;
-        const maxRadius = Math.min(cellW, cellH) * 0.45;
+        const maxRadius = Math.min(cellW, cellH) * 0.75; // Dot can get quite big
         const minRadius = 0.5;
 
-        window.__dotsState.drift += 0.02;
-        const drift = window.__dotsState.drift;
-
-        if (!window.__dotsState.smoothed || window.__dotsState.cols !== cols || window.__dotsState.rows !== rows) {
-            window.__dotsState.smoothed = new Array(cols * rows).fill(0);
-            window.__dotsState.cols = cols;
-            window.__dotsState.rows = rows;
+        // Rebuild smoothing array if grid size changed
+        if (!state.smoothed || state.cols !== cols || state.rows !== rows) {
+            state.smoothed = new Array(cols * rows).fill(0);
+            state.cols = cols;
+            state.rows = rows;
         }
 
+        // ---- Compute spectrum energy per column ----
         const usableBins = Math.floor(freqData.length * 0.4);
         const spectrumPerCol = new Array(cols).fill(0);
         const colBinWidth = usableBins / cols;
@@ -1511,58 +1513,63 @@
             if (spectrumPerCol[c] > peak) peak = spectrumPerCol[c];
         }
 
-        const HUE = 280;
-        const SAT = 85;
-        const LIGHT_TOP = 0;
-        const LIGHT_BOTTOM = 65;
+        // Colors
+        const baseR = isDay ? 30 : 50;
+        const baseG = isDay ? 80 : 120;
+        const baseB = isDay ? 255 : 255;
+
+        // ---- Bayer 4x4 Matrix for that classic "dither" pattern ----
+        const bayer = [
+            [ 0,  8,  2, 10],
+            [12,  4, 14,  6],
+            [ 3, 11,  1,  9],
+            [15,  7, 13,  5]
+        ];
 
         for (let r = 0; r < rows; r++) {
-            const rowT = r / (rows - 1);
-            const baseLight = LIGHT_TOP + (LIGHT_BOTTOM - LIGHT_TOP) * rowT;
-
             for (let c = 0; c < cols; c++) {
                 const i = r * cols + c;
-                const t = c / (cols - 1);
 
-                const rowCenter = (rows - 1) / 2;
-                const rowDistance = Math.abs(r - rowCenter) / rowCenter;
-                const rowFalloff = 1 - Math.pow(rowDistance, 1.6);
-
-                const baseShape = 0.1 + rowFalloff * 0.15;
-
+                // 1. Get the audio energy for this column
                 const rawValue = spectrumPerCol[c] / peak;
-                const current = window.__dotsState.smoothed[i];
+                
+                // 2. Smooth the value (fast attack, slow release)
+                const current = state.smoothed[i];
                 const smoothing = rawValue > current ? 0.35 : 0.08;
                 const smoothed = current + (rawValue - current) * smoothing;
-                window.__dotsState.smoothed[i] = smoothed;
+                state.smoothed[i] = smoothed;
 
-                const rowPhase = r * 0.4;
-                const wave = Math.sin(c * 0.35 + drift * 2 + rowPhase);
-                const waveAmount = Math.max(0, wave) * 0.12;
+                // 3. Create a spatial gradient (diagonal sweep from top-left to bottom-right)
+                // This makes the dither pattern look like a wave of energy moving across the screen
+                const spatialGradient = (r / rows) * 0.3 + (c / cols) * 0.3;
 
-                const rowStagger = Math.sin(r * Math.PI + drift * 1.3) * 0.06;
+                // 4. Combine audio + spatial gradient
+                const combinedValue = smoothed + spatialGradient;
 
-                const highFreqBias = t * 0.15;
+                // 5. Apply the Bayer Dither threshold
+                // We use modulo to make the 4x4 pattern repeat infinitely
+                const threshold = bayer[r % 4][c % 4] / 16.0;
 
-                const value = Math.min(1,
-                    baseShape
-                    + smoothed * rowFalloff * 0.85
-                    + waveAmount
-                    + rowStagger * rowFalloff
-                    + highFreqBias
-                );
+                // 6. Determine if the dot should be big or small based on threshold
+                let dotRadius = minRadius;
+                
+                if (combinedValue > threshold) {
+                    // Dot is "on" - make its size scale with the audio volume
+                    dotRadius = minRadius + (maxRadius - minRadius) * (0.5 + smoothed * 0.5);
+                } else {
+                    // Dot is "off" - keep it tiny as a background texture
+                    dotRadius = minRadius;
+                }
 
-                const radius = minRadius + value * (maxRadius - minRadius);
                 const x = c * cellW + cellW / 2;
                 const y = r * cellH + cellH / 2;
 
-                const alpha = 0.25 + value * 0.75;
-
-                const lightness = baseLight + value * 15;
-
                 ctx.beginPath();
-                ctx.arc(x, y, radius, 0, Math.PI * 2);
-                ctx.fillStyle = `hsla(${HUE}, ${SAT}%, ${lightness}%, ${alpha})`;
+                ctx.arc(x, y, dotRadius, 0, Math.PI * 2);
+                
+                // Opacity is higher for the "on" dots
+                const alpha = dotRadius > minRadius + 0.1 ? 0.85 : 0.15;
+                ctx.fillStyle = `rgba(${baseR}, ${baseG}, ${baseB}, ${alpha})`;
                 ctx.fill();
             }
         }
