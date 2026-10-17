@@ -689,6 +689,7 @@
                 </div>
 
                 <canvas id="visualizer"></canvas>
+                <canvas id="glCanvas" style="display:none; width:100%; height:90px; border:1px solid var(--border-color); border-radius:4px; margin-top:10px;"></canvas>
                 <pre id="asciiViz" style="display:none;"></pre>
                 <div id="vizFallback" class="viz-fallback">Visualizer not available on this device</div>
             </div>
@@ -1150,18 +1151,33 @@
         if (vizSelect) vizSelect.style.display = 'none';
     }
 
-    if (!visualizerDisabled && vizStyleSelect) {
+        if (!visualizerDisabled && vizStyleSelect) {
         vizStyleSelect.addEventListener('change', (e) => {
             currentStyle = e.target.value;
+            
+            const glCanvas = document.getElementById('glCanvas');
 
+            // 1. Handle WebGL visibility first
+            if (currentStyle === 'milkdrop') {
+                canvas.style.display = 'none';
+                if (glCanvas) glCanvas.style.display = 'block';
+            } else {
+                canvas.style.display = 'block';
+                if (glCanvas) glCanvas.style.display = 'none';
+            }
+
+            // 2. Handle ASCII visibility
             if (currentStyle === 'ascii') {
                 canvas.style.display = 'none';
                 asciiViz.style.display = 'block';
                 if (analyser) drawAscii();
             } else {
-                canvas.style.display = 'block';
                 asciiViz.style.display = 'none';
-                requestAnimationFrame(() => requestAnimationFrame(() => sizeCanvas()));
+                
+                // Only resize the 2D canvas if we aren't using WebGL
+                if (currentStyle !== 'milkdrop') {
+                    requestAnimationFrame(() => requestAnimationFrame(() => sizeCanvas()));
+                }
             }
         });
     }
@@ -3290,13 +3306,17 @@
         }
     `;
 
-    function initMilkdrop() {
+        function initMilkdrop() {
         if (milkdropInitialized) return true;
         
+        // CHANGE THIS LINE:
+        const glCanvas = document.getElementById('glCanvas');
+        if (!glCanvas) return false;
+
         try {
-            // Get WebGL context (this might fail on some old machines)
-            gl = canvas.getContext('webgl', { alpha: false, preserveDrawingBuffer: true }) || 
-                 canvas.getContext('experimental-webgl', { alpha: false, preserveDrawingBuffer: true });
+            // CHANGE THIS LINE:
+            gl = glCanvas.getContext('webgl', { alpha: false, preserveDrawingBuffer: true }) || 
+                 glCanvas.getContext('experimental-webgl', { alpha: false, preserveDrawingBuffer: true });
             
             if (!gl) throw new Error("WebGL not supported");
 
@@ -3356,21 +3376,20 @@
         }
     }
 
-    function renderMilkdrop() {
-        // If WebGL failed to initialize, don't try to render
+        function renderMilkdrop() {
         if (!initMilkdrop()) return;
 
-        // Size WebGL canvas to match CSS size
-        if (canvas.width !== canvas.clientWidth || canvas.height !== canvas.clientHeight) {
-            canvas.width = canvas.clientWidth;
-            canvas.height = canvas.clientHeight;
-            gl.viewport(0, 0, canvas.width, canvas.height);
+        // CHANGE THESE LINES:
+        const glCanvas = document.getElementById('glCanvas');
+        if (glCanvas.width !== glCanvas.clientWidth || glCanvas.height !== glCanvas.clientHeight) {
+            glCanvas.width = glCanvas.clientWidth;
+            glCanvas.height = glCanvas.clientHeight;
+            gl.viewport(0, 0, glCanvas.width, glCanvas.height);
             
-            // Resize texture
             gl.bindTexture(gl.TEXTURE_2D, milkdropTexture);
-            gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, canvas.width, canvas.height, 0, gl.RGBA, gl.UNSIGNED_BYTE, null);
+            gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, glCanvas.width, glCanvas.height, 0, gl.RGBA, gl.UNSIGNED_BYTE, null);
         }
-
+        // ... keep the rest the same ...
         // Get Audio Data
         analyser.getByteFrequencyData(freqData);
         let bassSum = 0;
