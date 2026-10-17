@@ -2105,12 +2105,13 @@
             dancer.flipTimer = 0;
         }
 
-                const dancerWiggleSpeed = 0.2 + bassPulse * 0.8;
+                // Slow, steady swimming pace
+        const dancerWiggleSpeed = 0.15;
         dancer.wigglePhase += dancerWiggleSpeed;
         
-        // NEW: Side to side swimming
-        dancer.bouncePhase += 0.02 + bassPulse * 0.05; 
-        const swimOffset = Math.sin(dancer.bouncePhase) * (15 + bassPulse * 25); 
+        // Slow swim back and forth
+        dancer.bouncePhase += 0.015; 
+        const swimOffset = Math.sin(dancer.bouncePhase) * 30; 
 
         // ---- NEW: Dancer bubbles ----
         // Spawn bubbles from the dancer's mouth on strong bass
@@ -2224,13 +2225,13 @@
 
         // ---- CRAB ----
         const crab = state.crab;
-        // Scuttle left/right
-        crab.xT += crab.dir * crab.speed * (1 + bassPulse * 2);
+        // Scuttle left/right (Slowed down)
+        crab.xT += crab.dir * (crab.speed * 0.5) * (1 + bassPulse * 1.2);
         if (crab.xT > 0.5) crab.dir = -1;
         if (crab.xT < 0.25) crab.dir = 1;
         
-        // Wiggle legs
-        crab.wiggle += 0.2 + bassPulse * 0.5;
+        // Wiggle legs (Slowed down)
+        crab.wiggle += 0.1 + bassPulse * 0.2;
 
         const crabX = Math.floor(w * crab.xT);
         const crabY = h - 2; // on the floor
