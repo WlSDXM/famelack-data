@@ -1604,10 +1604,10 @@
     }
 
 
-            // ============ GRID VISUALIZER (AUDIO-DRIVEN) ============
+                // ============ GRID VISUALIZER (FLUID WAVES) ============
     if (!window.__terrainState) {
         window.__terrainState = {
-            cols: 35,   
+            cols: 40,   // Slightly more columns for a smoother mesh
             rows: 25,   
             scrollSpeed: 0,
             smoothedHeights: null,
@@ -1624,13 +1624,12 @@
         const rows = state.rows;
 
         // ---- Audio Analysis ----
-        // Get the bass energy specifically to drive the movement
         let bassSum = 0;
         const bassBins = 8;
         for (let j = 0; j < bassBins; j++) bassSum += freqData[j];
         const bassEnergy = bassSum / bassBins / 255;
 
-        // Smooth the bass so the scrolling is fluid, not jerky
+        // Scroll speed driven by bass
         const targetScrollSpeed = Math.pow(bassEnergy, 1.5) * 1.5; 
         state.scrollSpeed += (targetScrollSpeed - state.scrollSpeed) * 0.05;
         state.time += state.scrollSpeed;
@@ -1642,7 +1641,7 @@
         const spacingX = 20;
         const spacingZ = 20;
 
-        // Full spectrum analysis for the wave heights
+        // Audio analysis
         const usableBins = Math.floor(freqData.length * 0.5); 
         let peak = 0.15;
         for (let j = 0; j < usableBins; j++) {
@@ -1659,7 +1658,6 @@
         for (let z = 0; z < rows; z++) {
             grid[z] = [];
             
-            // The Z axis now moves based on the music (state.time is driven by bass)
             const worldZ = z * spacingZ + (state.time * spacingZ * 2) % spacingZ;
 
             for (let x = 0; x < cols; x++) {
@@ -1667,28 +1665,30 @@
                 
                 const worldX = (x - cols / 2) * spacingX;
 
+                // Map X position to audio bins (center gets bass, edges get treble)
                 const distFromCenter = Math.abs(x - cols / 2) / (cols / 2);
-                const binIndex = Math.floor(Math.pow(distFromCenter, 1.5) * usableBins);
+                
+                // CHANGED: We use Math.pow(0.8) here instead of 1.5 so the bass spreads wider
+                const binIndex = Math.floor(Math.pow(distFromCenter, 0.8) * usableBins);
 
                 let audioValue = (freqData[binIndex] / 255) / peak;
                 audioValue = Math.pow(audioValue, 0.8);
 
-                // ---- Natural Music Waves ----
-                // Instead of ambient waves, we use the audio value to create ripples
-                // As the music pulses, it creates a wave that travels along the grid
-                const pulseWave = Math.sin(worldX * 0.05 + worldZ * 0.05 - state.time * 2);
+                // ---- Fluid Wave Math ----
+                // We create a rolling wave that travels diagonally across the screen
+                const wavePhase = worldX * 0.04 + worldZ * 0.04 - state.time * 2;
                 
-                // The wave only goes UP, never below 0
-                const waveHeight = Math.max(0, pulseWave) * 0.5 + 0.5; 
+                // Math.sin gives us a smooth -1 to 1 value. We shift it to 0 to 1.
+                const fluidWave = (Math.sin(wavePhase) * 0.5) + 0.5;
 
-                // Center boost
-                const centerBoost = 1 - Math.pow(distFromCenter, 2);
-                
-                // Combine audio volume + wave shape
-                const targetHeight = audioValue * 120 * waveHeight * (centerBoost * 0.5 + 0.5);
+                // CHANGED: We removed the harsh centerBoost. Now it's a gentle slope.
+                const spreadBoost = 1 - (distFromCenter * 0.3); 
 
-                // Lerp for smooth transitions
-                state.smoothedHeights[i] += (targetHeight - state.smoothedHeights[i]) * 0.15;
+                // Combine audio volume with the fluid wave shape
+                const targetHeight = audioValue * 100 * fluidWave * spreadBoost;
+
+                // Lerp for buttery smooth transitions
+                state.smoothedHeights[i] += (targetHeight - state.smoothedHeights[i]) * 0.1;
                 const worldY = state.smoothedHeights[i];
 
                 // --- 3D Projection ---
@@ -1707,7 +1707,7 @@
                     x: screenX,
                     y: screenY,
                     alpha: alpha * 0.8,
-                    intensity: audioValue * waveHeight // Color reacts to the height
+                    intensity: audioValue * fluidWave
                 };
             }
         }
