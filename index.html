@@ -2113,11 +2113,10 @@
         dancer.bouncePhase += 0.015; 
         const swimOffset = Math.sin(dancer.bouncePhase) * 30; 
 
-        // ---- NEW: Dancer bubbles ----
-        // Spawn bubbles from the dancer's mouth on strong bass
-        if (bassEnergy > 0.45 && Math.random() < 0.15) {
-            const mouthX = (w * 0.5) + (dancer.facing === 1 ? 14 : -14); // front of fish
-            const mouthY = (h * 0.62) + bouncePx * pxUnit;
+        // ---- Dancer bubbles ----
+         if (bassEnergy > 0.45 && state.dancerBubbles.length < 10 && Math.random() < 0.08) {
+            const mouthX = (w * 0.5 + swimOffset) + (dancer.facing === 1 ? 14 : -14); 
+            const mouthY = (h * 0.62) + (Math.sin(dancer.bouncePhase) * (1 + bassPulse * 2)) * pxUnit;
             state.dancerBubbles.push({
                 x: mouthX,
                 y: mouthY,
@@ -2148,9 +2147,9 @@
         if (swimOffset < -2) dancer.facing = -1;
 
         drawPixelFish(
-            ctx,
-            Math.round(w * 0.5 + swimOffset), // <-- Moves left and right
-            Math.round(h * 0.62),             // <-- Stays on the same line
+             ctx,
+            w * 0.5 + swimOffset, 
+            h * 0.62 + (Math.sin(dancer.bouncePhase) * (1 + bassPulse * 2)) * pxUnit,
             pxUnit,
             dancer.facing,
             dancer.wigglePhase,
@@ -2167,8 +2166,8 @@
         
         jf.bobPhase += 0.01 + bassPulse * 0.03;
         // Round the Y position ONCE, then divide by pxUnit
-        const jfY = Math.floor((h * 0.3 + Math.sin(jf.bobPhase) * 10) / pxUnit) * pxUnit;
-        const jfX = Math.floor(w * jf.xT / pxUnit) * pxUnit;
+        const jfY = h * 0.3 + Math.sin(jf.bobPhase) * 10;
+        const jfX = w * jf.xT;
 
         // Pixel Jellyfish Sprite (9x8 cells)
         const jellySprite = [
@@ -2182,9 +2181,9 @@
             "...J.J..."
         ];
 
-        const jStartX = Math.floor(jfX / pxUnit) - 4;
-        const jStartY = Math.floor(jfY / pxUnit) - 4;
-
+        const jStartX = Math.round(jfX / pxUnit) - 4;
+        const jStartY = Math.round(jfY / pxUnit) - 4;
+            
         const jellyColor = isDay ? 'rgba(255, 150, 180, 0.5)' : 'rgba(255, 120, 180, 0.5)';
         const jellyTentacle = isDay ? 'rgba(255, 150, 180, 0.3)' : 'rgba(255, 120, 180, 0.25)';
 
@@ -2231,8 +2230,8 @@
         crab.wiggle += 0.1 + bassPulse * 0.2;
 
         // Stabilize the exact pixel position
-        const crabX = Math.round((w * crab.xT) / pxUnit) * pxUnit;
-        const crabY = Math.floor(h) / pxUnit * pxUnit; 
+         const crabX = w * crab.xT;
+        const crabY = h - 2; 
 
         // Draw Crab
         ctx.save();
@@ -2317,13 +2316,14 @@
                 px(ctx, startX + finalCol + xOffset, startY + r, pxUnit, color);
             }
         }
-                    // ---- OCTOPUS (Front Layer) ----
-        const octoBobPx = Math.round(Math.sin(state.time * 0.04) * (0.5 + bassPulse * 2));
+            
+         // ---- OCTOPUS (Front Layer) ----
+        const octoBobPx = Math.sin(state.time * 0.04) * (0.5 + bassPulse * 2);
         const octoShuffle = Math.sin(state.time * 0.008) * 3;
 
         drawPixelOctopus(
             ctx,
-            Math.round(w * 0.12 + octoShuffle),
+            w * 0.12 + octoShuffle,
             h + 2 + octoBobPx * pxUnit,
             pxUnit * 1.8, // <-- Big, chunky size
             octoFill,
@@ -2351,10 +2351,11 @@
     }
 
     // ---- Pixel helper ----
-    function px(ctx, x, y, unit, color) {
+        function px(ctx, x, y, unit, color) {
         ctx.fillStyle = color;
-        ctx.fillRect(x * unit, y * unit, unit, unit);
+        ctx.fillRect(Math.round(x) * unit, Math.round(y) * unit, unit, unit);
     }
+    
     function rgba(c, a) {
         return `rgba(${c[0]}, ${c[1]}, ${c[2]}, ${a})`;
     }
