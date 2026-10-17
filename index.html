@@ -326,7 +326,6 @@
                 drop-shadow(0 6px 14px rgba(0, 0, 0, 0.45));
         }
 
-        /* ===== FLOATING CONTROLS ===== */
         .floating-controls {
             position: fixed;
             bottom: 20px;
@@ -362,7 +361,6 @@
             transform: scale(0.95);
         }
 
-        /* ===== FAVORITES MODAL ===== */
         .modal-backdrop {
             position: fixed;
             inset: 0;
@@ -582,7 +580,6 @@
             .player-box { padding: 10px; }
         }
 
-        /* ===== EARTH GIF GLOW ===== */
         img.earth-anim {
             filter:
                 drop-shadow(0 0 2px rgba(57, 255, 20, 0.8))
@@ -634,7 +631,6 @@
     </h1>
 
     <div class="layout-grid">
-        <!-- ===== LIVE (left column) ===== -->
         <div class="player-box">
             <h2 class="title-gif">
                 <img src="https://i.postimg.cc/zvM6nKtm/raibu-Live-transparent-GIF.gif" alt="Live" class="title-img">
@@ -656,7 +652,6 @@
             </div>
         </div>
 
-        <!-- ===== RIGHT COLUMN ===== -->
         <div class="right-column">
             <div class="player-box">
                 <h2 class="title-gif">
@@ -696,19 +691,16 @@
                 <div id="vizFallback" class="viz-fallback">Visualizer not available on this device</div>
             </div>
 
-            <!-- ===== GLOBE ===== -->
             <canvas id="globeCanvas" title="Click to change color"></canvas>
         </div>
     </div>
 </div>
 
-<!-- ===== FLOATING CONTROLS (bottom-left) ===== -->
 <div class="floating-controls">
     <button id="favoritesToggle" class="floating-btn" title="Favorites menu">⚙</button>
     <button id="themeToggle" class="theme-toggle floating-btn" title="Toggle day/night mode">☾</button>
 </div>
 
-<!-- ===== FAVORITES MODAL ===== -->
 <div id="favoritesModal" class="modal-backdrop" aria-hidden="true">
     <div class="modal-panel">
         <div class="modal-title">★ Favorites</div>
@@ -1464,7 +1456,7 @@
         }
     }
 
-    // ============ DOTS VISUALIZER — HALFTONE MATRIX ============
+    // ============ DOTS VISUALIZER ============
     if (!window.__dotsState) {
         window.__dotsState = {
             smoothed: null,
@@ -1576,7 +1568,7 @@
         }
     }
 
-    // ============ DROPLET VISUALIZER — GRAZING SIDE-ANGLE POOL ============
+    // ============ DROPLET VISUALIZER ============
     if (!window.__dropletState) {
         window.__dropletState = {
             ripples: [],
@@ -1600,7 +1592,6 @@
         state.drift += 0.004;
         state.wavePhase += 0.015;
 
-        // ---- Audio analysis ----
         let bassSum = 0;
         const bassBins = 6;
         for (let j = 0; j < bassBins; j++) bassSum += freqData[j];
@@ -1611,7 +1602,6 @@
         for (let j = midStart; j < midEnd; j++) midSum += freqData[j];
         const midEnergy = midSum / (midEnd - midStart) / 255;
 
-        // ---- Perspective helpers ----
         const Y_TOP = 0;
         const Y_BOTTOM = h;
 
@@ -1624,9 +1614,6 @@
             return 0.08 + depthT * 0.40;
         }
 
-        
-        // LAYER 1 — AMBIENT BLUE WAVES
-        
         const isDay = document.body.classList.contains('day-mode');
 
         const waveR = isDay ? 100 : 74;
@@ -1668,9 +1655,6 @@
             ctx.stroke();
         }
 
-        
-        // LAYER 1.5 — LITTLE SAILBOAT
-        
         const boat = state.boat;
 
         if (boat.x === null) {
@@ -1718,7 +1702,6 @@
         const hullOutline = isDay ? 'rgba(20, 20, 20, 0.95)' : 'rgba(255, 255, 255, 0.95)';
         const hullFill = isDay ? 'rgba(230, 230, 230, 0.85)' : 'rgba(10, 10, 10, 0.85)';
 
-        // Hull
         ctx.beginPath();
         ctx.moveTo(-BOAT_W / 2, 0);
         ctx.lineTo(-BOAT_W / 2 + 1.5, 3);
@@ -1733,7 +1716,6 @@
         ctx.lineWidth = 1;
         ctx.stroke();
 
-        // Mast
         ctx.beginPath();
         ctx.moveTo(0, -1.5);
         ctx.lineTo(0, -BOAT_H);
@@ -1741,7 +1723,6 @@
         ctx.lineWidth = 1;
         ctx.stroke();
 
-        // Main sail
         ctx.beginPath();
         ctx.moveTo(0.8, -BOAT_H + 1);
         ctx.lineTo(BOAT_W / 2 - 1.5, -1.8);
@@ -1753,7 +1734,6 @@
         ctx.lineWidth = 0.9;
         ctx.stroke();
 
-        // Jib
         ctx.beginPath();
         ctx.moveTo(-0.8, -BOAT_H + 3);
         ctx.lineTo(-BOAT_W / 2 + 2, -1.8);
@@ -1767,7 +1747,6 @@
 
         ctx.restore();
 
-        // Trailing 
         if (Math.random() < 0.15) {
             state.ripples.push({
                 x: boat.x - 8,
@@ -1782,9 +1761,6 @@
             });
         }
 
-        
-        // LAYER 2 — RIPPLE SPAWNING
-        
         const now = performance.now();
         const timeSinceLast = now - state.lastSpawn;
 
@@ -1846,9 +1822,6 @@
             });
         }
 
-        
-        // LAYER 3 — RIPPLE RENDERING
-        
         const dotColor = isDay ? '0, 0, 0' : '255, 255, 255';
 
         for (let i = state.ripples.length - 1; i >= 0; i--) {
@@ -1893,9 +1866,6 @@
             }
         }
 
-        
-        // LAYER 4 — RAIN STREAKS (drops falling)
-        
         for (let i = state.streaks.length - 1; i >= 0; i--) {
             const s = state.streaks[i];
 
@@ -1935,12 +1905,12 @@
         }
     }
 
-            // ============ FISH TANK VISUALIZER — PIXEL EDITION ============
+    // ============ FISH TANK VISUALIZER — PIXEL EDITION ============
     if (!window.__fishState) {
         window.__fishState = {
             initialized: false,
             time: 0,
-            dancers: null,
+            dancer: null,
             swimmers: null,
             bubbles: null,
             lastW: 0,
@@ -1954,7 +1924,6 @@
         const state = window.__fishState;
         const isDay = document.body.classList.contains('day-mode');
 
-        // ---- Audio analysis ----
         let bassSum = 0;
         const bassBins = 6;
         for (let j = 0; j < bassBins; j++) bassSum += freqData[j];
@@ -1967,7 +1936,6 @@
 
         const bassPulse = Math.min(1, bassEnergy * 1.4);
 
-        // ---- Initialize ----
         if (!state.initialized || state.lastW !== w || state.lastH !== h) {
             state.lastW = w;
             state.lastH = h;
@@ -1994,72 +1962,56 @@
 
         state.time = (state.time || 0) + 1;
 
-        // ---- Colors ----
         const pxUnit = 2;
 
-        // Octopus purple
         const octoFill = isDay ? [130, 90, 160] : [180, 130, 220];
         const octoDark = isDay ? [60, 40, 80] : [100, 60, 140];
 
-        // Anemone deep orange
         const anemFill = isDay ? [200, 80, 40] : [255, 110, 50];
         const anemDark = isDay ? [120, 40, 20] : [180, 60, 30];
 
-        // Coral soft pink-orange
         const coralFill = isDay ? [220, 130, 130] : [255, 150, 130];
         const coralDark = isDay ? [140, 80, 80] : [180, 90, 90];
 
-        // Seaweed green
         const seaFill = isDay ? [80, 140, 80] : [100, 200, 120];
         const seaDark = isDay ? [40, 80, 40] : [60, 130, 70];
 
-        // Fish
         const fishOutline = isDay ? [30, 30, 30] : [255, 255, 255];
 
-        // ============================================
-        // CORAL — pixel art branches at bottom-right
-        // ============================================
+        // ---- CORAL ----
         drawPixelCoral(ctx, Math.floor(w * 0.85), h, pxUnit, coralFill, coralDark);
 
-        // ============================================
-        // OCTOPUS — pixel sprite at bottom-left
-        // ============================================
-        // Bob with bass — but keep integer offsets so pixels don't blur
+        // ---- OCTOPUS ----
         const octoBobPx = Math.round(Math.sin(state.time * 0.04) * (0.5 + bassPulse * 2));
         const octoShuffle = Math.sin(state.time * 0.008) * 3;
-        const octoLift = 4;   // pixels
+        const octoLift = 4;
 
-                drawPixelOctopus(
+        drawPixelOctopus(
             ctx,
             Math.round(w * 0.12 + octoShuffle),
             h - 2 - octoLift + octoBobPx * pxUnit,
-            pxUnit * 1.8,     // ← bigger octopus
+            pxUnit * 1.8,
             octoFill,
             octoDark,
             state.time,
             bassPulse
         );
 
-        // ============================================
-        // ANEMONE — pixel blob between fish and coral
-        // ============================================
-        // Pulse: wider on bass, narrower when quiet
+        // ---- ANEMONE ----
         const anemPulse = 1 + Math.sin(state.time * 0.06) * 0.08 + bassPulse * 0.25;
         const anemSway = Math.sin(state.time * 0.02 + 1.2) * 2;
 
-                drawPixelAnemone(
+        drawPixelAnemone(
             ctx,
             Math.round(w * 0.68 + anemSway),
-            h - 1 - 3,     // lift anemone slightly
-            pxUnit * 1.8,     // ← bigger anemone
+            h - 1 - 3,
+            pxUnit * 1.8,
             anemFill,
             anemDark,
             anemPulse
         );
 
-        // ============================================
-        // SEAWEED — pixel blades
-        // ============================================
+        // ---- SEAWEED ----
         const swaySpeed = 0.035 + bassPulse * 0.03;
         const seaweeds = [
             { xT: 0.08, height: 7, phase: 0.0 },
@@ -2069,21 +2021,10 @@
         ];
         for (const sw of seaweeds) {
             const lean = Math.sin(state.time * swaySpeed + sw.phase) * 0.8;
-            drawPixelSeaweed(
-                ctx,
-                Math.round(w * sw.xT),
-                h,
-                pxUnit,
-                sw.height,
-                lean,
-                seaFill,
-                seaDark
-            );
+            drawPixelSeaweed(ctx, Math.round(w * sw.xT), h, pxUnit, sw.height, lean, seaFill, seaDark);
         }
 
-        // ============================================
-        // BACKGROUND FISH — pixel outlines, drifting
-        // ============================================
+        // ---- BACKGROUND FISH ----
         for (let i = 0; i < state.swimmers.length; i++) {
             const sw = state.swimmers[i];
 
@@ -2094,28 +2035,14 @@
 
             sw.wiggle += (0.15 + midEnergy * 0.5);
 
-            // Pixel positions — integer so it stays crisp
             const fishX = Math.round(w * sw.xT);
             const fishY = Math.round(h * sw.yT);
-
-            // Depth affects opacity, not size (keeps pixel scale consistent)
             const depthAlpha = 0.35 + sw.depth * 0.5;
 
-            drawPixelFish(
-                ctx,
-                fishX,
-                fishY,
-                pxUnit,
-                sw.dir,
-                sw.wiggle,
-                fishOutline,
-                depthAlpha
-            );
+            drawPixelFish(ctx, fishX, fishY, pxUnit, sw.dir, sw.wiggle, fishOutline, depthAlpha);
         }
 
-        // ============================================
-        // DANCER FISH — larger pixel fish, center stage
-        // ============================================
+        // ---- DANCER FISH ----
         if (!state.dancer) {
             state.dancer = { facing: 1, flipTimer: 0, wigglePhase: 0, bouncePhase: 0 };
         }
@@ -2141,12 +2068,10 @@
             dancer.wigglePhase,
             fishOutline,
             0.95,
-            true   // larger "hero" fish
+            true
         );
 
-        // ============================================
-        // BUBBLES
-        // ============================================
+        // ---- BUBBLES ----
         for (let i = 0; i < state.bubbles.length; i++) {
             const b = state.bubbles[i];
             b.yT -= b.speed;
@@ -2158,16 +2083,13 @@
             const wobbleX = Math.sin(b.yT * 8 + b.wobblePhase) * 0.008;
             const bx = Math.round(w * (b.xT + wobbleX));
             const by = Math.round(h * b.yT);
-            const bubbleColor = isDay
-                ? `rgba(80, 80, 80, 0.45)`
-                : `rgba(255, 255, 255, 0.45)`;
+            const bubbleColor = isDay ? `rgba(80, 80, 80, 0.45)` : `rgba(255, 255, 255, 0.45)`;
             ctx.fillStyle = bubbleColor;
-            // Draw bubble as a small pixel square
             ctx.fillRect(bx - pxUnit, by - pxUnit, pxUnit * 2, pxUnit * 2);
         }
     }
 
-    // ---- Pixel helper: fill a single pixel cell ----
+    // ---- Pixel helper ----
     function px(ctx, x, y, unit, color) {
         ctx.fillStyle = color;
         ctx.fillRect(x * unit, y * unit, unit, unit);
@@ -2176,18 +2098,8 @@
         return `rgba(${c[0]}, ${c[1]}, ${c[2]}, ${a})`;
     }
 
-        // ---- Pixel fish — full sprite for the dancer, simple for background ----
+    // ---- Pixel fish ----
     function drawPixelFish(ctx, centerX, centerY, unit, facing, wiggle, outlineColor, alpha, hero = false) {
-        // Fish sprite — 13 wide x 10 tall, drawn facing LEFT.
-        // When facing = -1 (facing right), the sprite is flipped horizontally.
-        //
-        // Legend: ■ = body/outline, ○ = checkered interior, ● = eye, . = empty
-        //
-        // Two sprites:
-        //   HERO:  full detail — outline, top fin, bottom fin, forked tail, checker body, eye
-        //   SIMPLE: outline only + tail (for background swimmers)
-
-        // ---- HERO sprite (13 wide × 10 tall, facing left) ----
         const heroSprite = [
             ".....■■■.....",
             "....■...■....",
@@ -2201,7 +2113,6 @@
             "............."
         ];
 
-        // ---- SIMPLE sprite (11 wide × 5 tall, facing left) — for background swimmers ----
         const simpleSprite = [
             "....■■■...",
             "..■■...■..",
@@ -2211,43 +2122,34 @@
         ];
 
         const sprite = hero ? heroSprite : simpleSprite;
-
         const rows = sprite.length;
         const cols = sprite[0].length;
 
-        // Compute top-left start so the sprite is centered on (centerX, centerY)
         const startX = Math.floor(centerX / unit) - Math.floor(cols / 2);
         const startY = Math.floor(centerY / unit) - Math.floor(rows / 2);
 
-        // Body color + interior checker color
         const bodyColor = rgba(outlineColor, alpha);
         const checkerColor = rgba(outlineColor, alpha * 0.55);
 
-        // Tail wag — bottom rows shift ±1 pixel for the swimming motion
-        const wiggleAmp = hero ? 1 : 1;
-        const tailWag = Math.round(Math.sin(wiggle) * wiggleAmp);
+        const tailWag = Math.round(Math.sin(wiggle) * 1);
 
         for (let row = 0; row < rows; row++) {
             for (let col = 0; col < cols; col++) {
                 const ch = sprite[row][col];
                 if (ch === '.') continue;
 
-                // Apply tail wag to the rightmost 3 columns (the tail side, since sprite faces left)
                 let xOffset = 0;
                 if (col >= cols - 3) {
-                    // Tail wags more the further right we are
-                    const tailT = (col - (cols - 4)) / 3;   // 0..1
+                    const tailT = (col - (cols - 4)) / 3;
                     xOffset = Math.round(tailWag * tailT);
                 }
 
-                // Facing flip: if facing = -1 (right), mirror the X
                 const finalCol = facing === -1 ? (cols - 1 - col) : col;
                 const finalX = startX + finalCol + (facing === -1 ? -xOffset : xOffset);
                 const finalY = startY + row;
 
                 let color;
-                if (ch === '●') color = rgba(outlineColor, alpha);
-                else if (ch === '○') color = checkerColor;
+                if (ch === '○') color = checkerColor;
                 else color = bodyColor;
 
                 px(ctx, finalX, finalY, unit, color);
@@ -2255,34 +2157,14 @@
         }
     }
 
-        // ---- Tail — triangle, wags up/down ----
-        for (let x = 0; x < tailW; x++) {
-            const heightAtX = (x + 1) * 2 - 1;   // 1, 3, 5
-            const offset = tailWag * (x / tailW);   // tail wags more at tip
-            const startTailY = startY + Math.floor((bodyH - heightAtX) / 2) + Math.round(offset);
-            for (let y = 0; y < heightAtX; y++) {
-                px(ctx, startX - tailW + x, startTailY + y, unit, color);
-            }
-        }
-
-        // ---- Eye — single pixel near the nose ----
-        const eyeX = startX + bodyW - 2;
-        const eyeY = startY + 1;
-        px(ctx, eyeX, eyeY, unit, color);
-    }
-
     // ---- Pixel octopus ----
     function drawPixelOctopus(ctx, centerX, baseY, unit, fillColor, darkColor, time, bassPulse) {
-        // Origin: base of octopus (bottom-center)
-        const startX = Math.floor(centerX / unit) - 6;   // 13 cells wide
-        const startY = Math.floor(baseY / unit) - 11;   // 11 cells tall
+        const startX = Math.floor(centerX / unit) - 6;
+        const startY = Math.floor(baseY / unit) - 11;
 
         const fill = rgba(fillColor, 0.85);
         const dark = rgba(darkColor, 0.95);
 
-        // Pixel art octopus — 13 wide x 11 tall sprite
-        // Legend: F = fill, D = dark outline, E = eye, . = empty
-        // This is the octopus shape with a rounded mantle and 6 tentacles.
         const sprite = [
             "....FFFFFF...",
             "..FFFFFFFFFF.",
@@ -2297,8 +2179,6 @@
             "F...F....F..F"
         ];
 
-        // Tentacle wiggle — each row of the bottom 3 rows shifts ±1 pixel
-        // Each tentacle has its own phase based on column index
         const wiggleAmp = bassPulse;
 
         for (let row = 0; row < sprite.length; row++) {
@@ -2307,7 +2187,6 @@
                 const ch = line[col];
                 if (ch === '.') continue;
 
-                // Apply tentacle wiggle for bottom rows
                 let xOffset = 0;
                 if (row >= 8) {
                     const phase = col * 0.8;
@@ -2336,7 +2215,6 @@
         const fill = rgba(fillColor, 0.9);
         const dark = rgba(darkColor, 0.95);
 
-        // Small pixel anemone sprite — 6 wide x 6 tall
         const sprite = [
             ".D..D.",
             ".D..D.",
@@ -2351,13 +2229,11 @@
                 const ch = sprite[row][col];
                 if (ch === '.') continue;
 
-                // Slightly stretch horizontally if wide
                 const finalX = startX + col;
                 const finalY = startY + row;
                 const color = ch === 'D' ? dark : fill;
                 px(ctx, finalX, finalY, unit, color);
 
-                // Add stretch cells
                 if (widthScale > 1.05 && col === 2) {
                     px(ctx, finalX + 1, finalY, unit, color);
                 }
@@ -2372,10 +2248,8 @@
         const startX = Math.floor(centerX / unit);
         const startY = Math.floor(baseY / unit);
 
-        // Column of pixels with a slight lean at the top
         for (let i = 0; i < height; i++) {
             const y = startY - 1 - i;
-            // Lean is strongest at the top
             const t = i / height;
             const xOffset = Math.round(lean * t * 1.5);
             const x = startX + xOffset;
@@ -2391,10 +2265,6 @@
         const startX = Math.floor(centerX / unit);
         const startY = Math.floor(baseY / unit);
 
-        // 3 pixel branches rising up, curves are approximated with
-        // stepwise pixel moves (classic 8-bit technique)
-
-        // Branch 1 — tall, curves left
         const branch1 = [
             [0, -1], [0, -2], [0, -3], [0, -4],
             [-1, -5], [-1, -6], [-1, -7],
@@ -2403,7 +2273,6 @@
             [-4, -14], [-4, -15], [-5, -16]
         ];
 
-        // Branch 2 — medium, curves right
         const branch2 = [
             [1, -1], [1, -2], [2, -3], [2, -4],
             [3, -5], [3, -6], [3, -7],
@@ -2411,7 +2280,6 @@
             [5, -11], [6, -12]
         ];
 
-        // Branch 3 — short, near center
         const branch3 = [
             [0, -1], [0, -2], [0, -3],
             [1, -4], [1, -5], [1, -6]
@@ -2427,7 +2295,6 @@
         drawBranch(branch2, fill);
         drawBranch(branch3, fill);
 
-        // Coral tips — small bright pixels at the ends
         px(ctx, startX - 5, startY - 16, unit, dark);
         px(ctx, startX - 4, startY - 17, unit, dark);
         px(ctx, startX + 6, startY - 12, unit, dark);
@@ -2744,7 +2611,6 @@
             }
         });
 
-        // ---- Export ----
         exportBtn.addEventListener('click', async () => {
             const payload = {
                 version: 1,
@@ -2804,7 +2670,6 @@
             }
         });
 
-        // ---- Import ----
         importBtn.addEventListener('click', () => {
             importInput.value = '';
             importInput.click();
