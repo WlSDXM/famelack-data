@@ -682,6 +682,7 @@
                         <option value="dots">Dots</option>
                         <option value="droplet">Droplet</option>
                         <option value="fish">Fish Tank</option>
+                        <option value="terrain">Terrain</option>
                     </select>
                     <button id="radioStar" class="cam-star" title="Save to favorites" style="margin-left: auto;">★</button>
                 </div>
@@ -1599,6 +1600,125 @@
                 // Use HSLA for the gradient effect
                 ctx.fillStyle = `hsla(${hue}, 100%, ${lightness}%, ${dotAlpha})`;
                 ctx.fill();
+            }
+        }
+    }
+
+
+        // ============ TERRAIN VISUALIZER (3D WIREFRAME) ============
+    if (!window.__terrainState) {
+        window.__terrainState = {
+            time: 0,
+            cols: 30,   // Grid width
+            rows: 25,   // Grid depth
+            maxHeight: 0
+        };
+    }
+
+    function drawTerrain(w, h) {
+        analyser.getByteFrequencyData(freqData);
+        const state = window.__terrainState;
+        const isDay = document.body.classList.contains('day-mode');
+
+        // Move the camera forward over time
+        state.time += 0.015;
+
+        const cols = state.cols;
+        const rows = state.rows;
+
+        // Perspective constants
+        const fov = w * 0.6;
+        const cameraY = h * 0.4; 
+        const cameraZ = -3; 
+        const spacingX = 4;
+        const spacingZ = 3;
+        const baseY = h * 0.7; // Horizon line
+
+        // Audio analysis
+        const usableBins = Math.floor(freqData.length * 0.4);
+        let peak = 0.15;
+        for (let j = 0; j < usableBins; j++) {
+            if (freqData[j] > peak) peak = freqData[j];
+        }
+        peak /= 255;
+
+        // Create a 2D array to hold the projected coordinates so we can draw the lines
+        const grid = [];
+
+        // 1. Calculate 3D vertices and project them to 2D
+        for (let z = 0; z < rows; z++) {
+            grid[z] = [];
+            // Move the grid towards the camera
+            const worldZ = z * spacingZ - ((state.time * spacingZ) % spacingZ);
+            
+            // Fade out the back rows
+            const depthAlpha = 1 - (z / rows);
+
+            for (let x = 0; x < cols; x++) {
+                // Center the X axis
+                const worldX = (x - cols / 2) * spacingX;
+
+                // Map X position to a frequency bin (center gets bass, edges get treble)
+                const distFromCenter = Math.abs(x - cols / 2) / (cols / 2);
+                const binIndex = Math.floor(Math.pow(distFromCenter, 1.5) * usableBins);
+
+                let audioValue = (freqData[binIndex] / 255) / peak;
+                audioValue = Math.pow(audioValue, 1.5); // Compress so it's not too spiky
+
+                // The wave height (Y axis). The center column is usually the tallest.
+                const centerBoost = 1 - Math.pow(distFromCenter, 2);
+                const worldY = -audioValue * 150 * centerBoost;
+
+                // --- 3D Projection ---
+                // Z distance from camera
+                const dz = worldZ + cameraZ + 2; 
+                if (dz <= 0) continue; // Don't draw things behind the camera
+
+                // Project to 2D
+                const scale = fov / dz;
+                const screenX = w / 2 + worldX * scale;
+                const screenY = baseY + (worldY - cameraY) * scale;
+
+                grid[z][x] = {
+                    x: screenX,
+                    y: screenY,
+                    alpha: depthAlpha * 0.8,
+                    intensity: audioValue
+                };
+            }
+        }
+
+        // 2. Draw the grid lines
+        ctx.lineWidth = 1;
+
+        for (let z = 0; z < rows; z++) {
+            for (let x = 0; x < cols; x++) {
+                const p = grid[z][x];
+                if (!p) continue;
+
+                // Pick color based on audio intensity (Purple to Cyan)
+                // Hue 280 = Purple, 180 = Cyan
+                const hue = 280 - (p.intensity * 100);
+                const color = `hsla(${hue}, 100%, 60%, ${p.alpha})`;
+                ctx.strokeStyle = color;
+
+                // Draw line to the RIGHT (X axis)
+                if (x < cols - 1 && grid[z][x + 1]) {
+                    const pRight = grid[z][x + 1];
+                    ctx.beginPath();
+                    ctx.moveTo(p.x, p.y);
+                    ctx.lineTo(pRight.x, pRight.y);
+                    ctx.stroke();
+                }
+
+                // Draw line FORWARD (Z axis)
+                if (z < rows - 1 && grid[z + 1][x]) {
+                    const pForward = grid[z + 1][x];
+                    ctx.beginPath();
+                    ctx.moveTo(p.x, p.y);
+                    ctx.lineTo(pForward.x, pForward.y);
+                    ctx.stroke();
+                }
             }
         }
     }
@@ -2692,6 +2812,7 @@
         else if (currentStyle === 'dots') drawDots(w, h);
         else if (currentStyle === 'droplet') drawDroplet(w, h);
         else if (currentStyle === 'fish') drawFishTank(w, h);
+        else if (currentStyle === 'terrain') drawTerrain(w, h);
         else drawBars(w, h);
     }
 
