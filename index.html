@@ -3256,7 +3256,7 @@
         }
     `;
 
-        const fsSource = `
+            const fsSource = `
         precision mediump float;
         varying vec2 v_texCoord;
         uniform sampler2D u_texture;
@@ -3266,43 +3266,47 @@
         uniform vec2 u_resolution;
 
         void main() {
-            // Center the coordinates
             vec2 uv = v_texCoord - 0.5;
-
-            // Fix aspect ratio so circles look like circles, not stretched ovals
             uv.x *= u_resolution.x / u_resolution.y;
 
-            // --- Warp Math ---
-            // Slow rotation
-            float angle = u_time * 0.1;
+            float angle = u_time * 0.2;
             float s = sin(angle);
             float c = cos(angle);
             mat2 rotation = mat2(c, -s, s, c);
             uv = rotation * uv;
 
-            // Zoom: zoom OUT when bass hits to reveal the whole screen
-            float zoom = 1.0 + (u_bass * 0.1) + (sin(u_time * 0.5) * 0.05);
+            // Zoom out slightly based on bass
+            float zoom = 1.0 + (u_bass * 0.2); 
             uv /= zoom;
 
-            // Liquid ripple (Makes it wavy)
-            uv.x += sin(uv.y * 5.0 + u_time) * 0.05;
-            uv.y += cos(uv.x * 5.0 + u_time) * 0.05;
+            // Wave distortion
+            uv.x += sin(uv.y * 10.0 + u_time * 2.0) * 0.05;
+            uv.y += cos(uv.x * 10.0 + u_time * 2.0) * 0.05;
 
-            // Move back to texture space
             uv += 0.5;
 
-            // Sample the previous frame
+            // Sample previous frame
             vec4 color = texture2D(u_texture, uv);
-
-            // Fade out slightly to prevent burn-in (the lower, the faster the trails vanish)
-            color.rgb *= 0.94; 
-
-            // Add a colorful glow based on the angle and audio
-            float hue = sin(u_time + uv.x * 3.0 + uv.y * 3.0) * 0.5 + 0.5;
-            vec3 newColor = vec3(hue * 0.5, uv.x, 1.0 - hue) * u_volume;
             
-            // Combine the warped feedback with the new color
-            gl_FragColor = vec4(color.rgb + newColor * 0.1, 1.0);
+            // Fade the trail slightly
+            color.rgb *= 0.95; 
+
+            // --- FORCE COLOR GENERATION ---
+            // Generate a rainbow based on the distance from the center and time
+            float dist = length(v_texCoord - 0.5);
+            float hue = sin(dist * 10.0 - u_time * 3.0);
+            
+            // Map the hue to RGB (simple approximation)
+            vec3 generatedColor;
+            generatedColor.r = sin(hue * 3.14159);
+            generatedColor.g = sin(hue * 3.14159 + 2.094);
+            generatedColor.b = sin(hue * 3.14159 + 4.188);
+
+            // Mix the feedback trail with the newly generated color. 
+            // The u_bass makes the new colors flash brighter when the beat hits.
+            color.rgb += generatedColor * (0.02 + u_bass * 0.1);
+
+            gl_FragColor = vec4(color.rgb, 1.0);
         }
     `;
 
@@ -3362,6 +3366,8 @@
 
             // Create framebuffer (lets us draw into the texture)
             milkdropFramebuffer = gl.createFramebuffer();
+            gl.clearColor(0.0, 0.0, 0.0, 1.0);
+            gl.clear(gl.COLOR_BUFFER_BIT);
             gl.bindFramebuffer(gl.FRAMEBUFFER, milkdropFramebuffer);
             gl.framebufferTexture2D(gl.FRAMEBUFFER, gl.COLOR_ATTACHMENT0, gl.TEXTURE_2D, milkdropTexture, 0);
 
