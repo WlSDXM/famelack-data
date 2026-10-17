@@ -3270,58 +3270,55 @@
         uniform float u_bass;
         uniform float u_volume;
         uniform vec2 u_resolution;
-        uniform float u_waveform[128]; // The audio waveform array
+        uniform float u_waveform[128];
 
         void main() {
-            // Fix aspect ratio
             vec2 uv = v_texCoord - 0.5;
-            uv.x *= u_resolution.x / u_resolution.y;
 
-            // --- Warping (Feedback) ---
+            // --- Warping (No aspect ratio scaling, just raw feedback) ---
             float angle = u_time * 0.2;
             float s = sin(angle);
             float c = cos(angle);
             mat2 rotation = mat2(c, -s, s, c);
             uv = rotation * uv;
 
-            // Zoom and twist based on bass
             float zoom = 1.0 + (u_bass * 0.1);
             uv /= zoom;
 
-            // Swirling distortion
             uv.x += sin(uv.y * 5.0 + u_time * 2.0) * 0.05;
             uv.y += cos(uv.x * 5.0 + u_time * 2.0) * 0.05;
 
-            // Sample the previous frame
             vec2 texUv = uv + 0.5;
             vec4 color = texture2D(u_texture, texUv);
             
-            // Fade out the trail
+            // Fade the trail
             color.rgb *= 0.95; 
 
             // --- Draw the Waveform ---
-            // Map the X coordinate to the waveform array
             float waveX = v_texCoord.x;
             int index = int(waveX * 127.0);
-            
-            // Get the waveform height at this X position
             float waveY = u_waveform[index];
             
-            // Center the wave on the Y axis
+            // The waveform is mapped to the full height of the canvas
             float distanceToLine = abs((v_texCoord.y - 0.5) - (waveY * 0.5));
 
-            // Draw a glowing line if we are close to the waveform height
-            float lineThickness = 0.02 + (u_volume * 0.05);
+            // Make the line huge and glowing
+            float lineThickness = 0.05 + (u_volume * 0.1);
             float glow = smoothstep(lineThickness, 0.0, distanceToLine);
 
-            // Color the line based on the waveform height and time
+            // Bright colorful wave
             vec3 waveColor;
             waveColor.r = sin(v_texCoord.x * 10.0 + u_time) * 0.5 + 0.5;
             waveColor.g = sin(v_texCoord.x * 10.0 + u_time + 2.0) * 0.5 + 0.5;
             waveColor.b = sin(v_texCoord.x * 10.0 + u_time + 4.0) * 0.5 + 0.5;
 
             // Add the glowing waveform to the feedback
-            color.rgb += waveColor * glow * 1.5;
+            color.rgb += waveColor * glow * 2.0;
+
+            // If the screen is totally black, draw a baseline so we know it's running
+            if (length(color.rgb) < 0.01) {
+                color.rgb += vec3(0.0, 0.1, 0.2); // Faint blue seed
+            }
 
             gl_FragColor = vec4(color.rgb, 1.0);
         }
