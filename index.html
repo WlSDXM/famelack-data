@@ -1138,6 +1138,7 @@
 
     let audioCtx, analyser, source, freqData, timeData;
     let currentStyle = 'bars';
+    let isAudioPlaying = false;
     let visualizerDisabled = false;
 
     if (IS_MOBILE) {
@@ -2863,10 +2864,15 @@
         else drawBars(w, h);
     }
 
-    audio.addEventListener('play', () => {
+        audio.addEventListener('play', () => {
+        isAudioPlaying = true; 
         initVisualizer();
         if (audioCtx && audioCtx.state === 'suspended') audioCtx.resume();
         updateRadioStarState();
+    });
+
+        audio.addEventListener('pause', () => {
+        isAudioPlaying = false;
     });
 
     draw();
@@ -3256,7 +3262,7 @@
         }
     `;
 
-            const fsSource = `
+        const fsSource = `
         precision mediump float;
         varying vec2 v_texCoord;
         uniform sampler2D u_texture;
@@ -3266,22 +3272,24 @@
         uniform vec2 u_resolution;
 
         void main() {
+            // Fix the aspect ratio so circles look like circles, not ovals
             vec2 uv = v_texCoord - 0.5;
             uv.x *= u_resolution.x / u_resolution.y;
 
+            // Rotate and warp
             float angle = u_time * 0.2;
             float s = sin(angle);
             float c = cos(angle);
             mat2 rotation = mat2(c, -s, s, c);
             uv = rotation * uv;
 
-            // Zoom out slightly based on bass
-            float zoom = 1.0 + (u_bass * 0.2); 
+            // Zoom in slightly when bass hits
+            float zoom = 1.0 - (u_bass * 0.1); 
             uv /= zoom;
 
-            // Wave distortion
-            uv.x += sin(uv.y * 10.0 + u_time * 2.0) * 0.05;
-            uv.y += cos(uv.x * 10.0 + u_time * 2.0) * 0.05;
+            // Liquid distortion
+            uv.x += sin(uv.y * 8.0 + u_time * 2.0) * 0.1;
+            uv.y += cos(uv.x * 8.0 + u_time * 2.0) * 0.1;
 
             uv += 0.5;
 
@@ -3289,22 +3297,18 @@
             vec4 color = texture2D(u_texture, uv);
             
             // Fade the trail slightly
-            color.rgb *= 0.95; 
+            color.rgb *= 0.96; 
 
-            // --- FORCE COLOR GENERATION ---
-            // Generate a rainbow based on the distance from the center and time
-            float dist = length(v_texCoord - 0.5);
-            float hue = sin(dist * 10.0 - u_time * 3.0);
+            // --- Swirling Color Generation ---
+            float swirl = sin(v_texCoord.x * 10.0 + v_texCoord.y * 5.0 + u_time * 3.0);
             
-            // Map the hue to RGB (simple approximation)
             vec3 generatedColor;
-            generatedColor.r = sin(hue * 3.14159);
-            generatedColor.g = sin(hue * 3.14159 + 2.094);
-            generatedColor.b = sin(hue * 3.14159 + 4.188);
+            generatedColor.r = sin(swirl * 3.14159);
+            generatedColor.g = sin(swirl * 3.14159 + 2.094);
+            generatedColor.b = sin(swirl * 3.14159 + 4.188);
 
-            // Mix the feedback trail with the newly generated color. 
-            // The u_bass makes the new colors flash brighter when the beat hits.
-            color.rgb += generatedColor * (0.02 + u_bass * 0.1);
+            // Inject the new color, scaling it by the volume
+            color.rgb += generatedColor * (0.02 + u_volume * 0.1);
 
             gl_FragColor = vec4(color.rgb, 1.0);
         }
@@ -3384,6 +3388,15 @@
 
             function renderMilkdrop() {
         if (!initMilkdrop()) return;
+        
+        // If music is paused, just clear to black and don't animate
+        if (!isAudioPlaying) {
+            const glCanvas = document.getElementById('glCanvas');
+            gl.viewport(0, 0, glCanvas.width, glCanvas.height);
+            gl.clearColor(0.0, 0.0, 0.0, 1.0);
+            gl.clear(gl.COLOR_BUFFER_BIT);
+            return;
+        }
 
         const glCanvas = document.getElementById('glCanvas');
 
@@ -3409,7 +3422,11 @@
 
         milkdropTime += 0.016; 
 
+        // Clear the framebuffer before drawing the feedback
         gl.bindFramebuffer(gl.FRAMEBUFFER, milkdropFramebuffer);
+        gl.clearColor(0.0, 0.0, 0.0, 1.0);
+        gl.clear(gl.COLOR_BUFFER_BIT);
+        
         gl.viewport(0, 0, glCanvas.width, glCanvas.height);
         gl.useProgram(milkdropProgram);
         
@@ -3424,6 +3441,8 @@
         
         // Draw to the screen
         gl.bindFramebuffer(gl.FRAMEBUFFER, null);
+        gl.clearColor(0.0, 0.0, 0.0, 1.0);
+        gl.clear(gl.COLOR_BUFFER_BIT);
         gl.bindTexture(gl.TEXTURE_2D, milkdropTexture);
         gl.drawArrays(gl.TRIANGLES, 0, 6);
     }
