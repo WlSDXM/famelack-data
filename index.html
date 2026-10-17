@@ -1935,22 +1935,16 @@
         }
     }
 
-        // ============ FISH TANK VISUALIZER ============
+            // ============ FISH TANK VISUALIZER — PIXEL EDITION ============
     if (!window.__fishState) {
         window.__fishState = {
-            dancer: {
-                x: null,
-                y: null,
-                facing: 1,           // 1 = right, -1 = left
-                wigglePhase: 0,
-                bouncePhase: 0,
-                flipTimer: 0,
-                baseY: 0.62         // 0..1 of canvas height
-            },
-            swimmers: [],
-            bubbles: [],
-            seaweed: [],
-            initialized: false
+            initialized: false,
+            time: 0,
+            dancers: null,
+            swimmers: null,
+            bubbles: null,
+            lastW: 0,
+            lastH: 0
         };
     }
 
@@ -1973,484 +1967,429 @@
 
         const bassPulse = Math.min(1, bassEnergy * 1.4);
 
-        // ---- Initialize scene on first run ----
+        // ---- Initialize ----
         if (!state.initialized || state.lastW !== w || state.lastH !== h) {
             state.lastW = w;
             state.lastH = h;
 
-            // Dancer
-            state.dancer.x = w * 0.5;
-            state.dancer.baseY = 0.62;
-            state.dancer.y = h * state.dancer.baseY;
-            state.dancer.facing = 1;
-            state.dancer.wigglePhase = 0;
-            state.dancer.bouncePhase = 0;
-            state.dancer.flipTimer = 0;
-
-            // Background swimmers — 3 of them at different depths
             state.swimmers = [
-                { xT: 0.15, yT: 0.35, dir: 1,  speed: 0.35, depth: 0.6, wiggle: 0, fishSize: 0.75 },
-                { xT: 0.55, yT: 0.45, dir: -1, speed: 0.28, depth: 0.5, wiggle: 0, fishSize: 0.65 },
-                { xT: 0.80, yT: 0.52, dir: 1,  speed: 0.42, depth: 0.8, wiggle: 0, fishSize: 0.85 }
+                { xT: 0.15, yT: 0.35, dir: 1, speed: 0.35, depth: 0.6, wiggle: 0 },
+                { xT: 0.55, yT: 0.45, dir: -1, speed: 0.28, depth: 0.5, wiggle: 0 },
+                { xT: 0.80, yT: 0.52, dir: 1, speed: 0.42, depth: 0.8, wiggle: 0 }
             ];
 
-            // Bubbles — 5 of them
             state.bubbles = [];
             for (let i = 0; i < 5; i++) {
                 state.bubbles.push({
                     xT: 0.1 + Math.random() * 0.8,
-                    yT: 1.05 + Math.random() * 0.3,   // below canvas
+                    yT: 1.05 + Math.random() * 0.3,
                     speed: 0.0008 + Math.random() * 0.0006,
                     wobblePhase: Math.random() * Math.PI * 2,
                     size: 1 + Math.random() * 1.5
                 });
             }
 
-            // Seaweed — 4 strands, scattered along the bottom
-            state.seaweed = [
-                { xT: 0.08, height: 0.30, phase: 0.0,  width: 1.8 },
-                { xT: 0.15, height: 0.22, phase: 1.2,  width: 1.4 },
-                { xT: 0.88, height: 0.26, phase: 2.4,  width: 1.6 },
-                { xT: 0.94, height: 0.34, phase: 3.7,  width: 2.0 }
-            ];
-
             state.initialized = true;
         }
 
-        // ---- Current time for smooth swaying ----
         state.time = (state.time || 0) + 1;
 
-        // ============================================
-        // LAYER 1 — CORAL (bottom-right corner)
-        // ============================================
-        // Coral is a static silhouette — soft orange/pink tint
-        const coralR = isDay ? 220 : 255;
-        const coralG = isDay ? 130 : 150;
-        const coralB = isDay ? 130 : 130;
-        const coralFill = `rgba(${coralR}, ${coralG}, ${coralB}, 0.35)`;
-        const coralOutline = `rgba(${coralR}, ${coralG}, ${coralB}, 0.75)`;
+        // ---- Colors ----
+        const pxUnit = 2;
 
-        ctx.save();
-        ctx.translate(w * 0.85, h);
-        drawCoralShape(ctx, coralFill, coralOutline);
-        ctx.restore();
+        // Octopus purple
+        const octoFill = isDay ? [130, 90, 160] : [180, 130, 220];
+        const octoDark = isDay ? [60, 40, 80] : [100, 60, 140];
 
-                // ============================================
-        // LAYER 1.5 — DANCING OCTOPUS (bottom-left)
-        // ============================================
-        // Octopus sits at bottom-left, dances with bass.
-        // All its movement is driven by time + bass energy.
+        // Anemone deep orange
+        const anemFill = isDay ? [200, 80, 40] : [255, 110, 50];
+        const anemDark = isDay ? [120, 40, 20] : [180, 60, 30];
 
-        // Octopus timing
-        state.octoTime = (state.octoTime || 0) + 1;
-        const octoWiggleSpeed = 0.06 + bassPulse * 0.14;
-        const octoBobAmp = 2 + bassPulse * 5;
-        const octoBob = Math.sin(state.octoTime * (0.04 + bassPulse * 0.06)) * octoBobAmp;
+        // Coral soft pink-orange
+        const coralFill = isDay ? [220, 130, 130] : [255, 150, 130];
+        const coralDark = isDay ? [140, 80, 80] : [180, 90, 90];
 
-        // Lateral shuffle — the whole octopus drifts left/right occasionally
-        const octoShuffle = Math.sin(state.octoTime * 0.008) * 4;
+        // Seaweed green
+        const seaFill = isDay ? [80, 140, 80] : [100, 200, 120];
+        const seaDark = isDay ? [40, 80, 40] : [60, 130, 70];
 
-        // Octopus colors — purple tint
-        const octoR = isDay ? 130 : 180;
-        const octoG = isDay ? 90  : 130;
-        const octoB = isDay ? 160 : 220;
-        const octoFill = `rgba(${octoR}, ${octoG}, ${octoB}, 0.45)`;
-        const octoOutline = `rgba(${octoR}, ${octoG}, ${octoB}, 0.85)`;
-
-        ctx.save();
-        ctx.translate(w * 0.12 + octoShuffle, h - 2 + octoBob);
-        drawOctopusShape(ctx, octoFill, octoOutline, state.octoTime, bassPulse);
-        ctx.restore();
+        // Fish
+        const fishOutline = isDay ? [30, 30, 30] : [255, 255, 255];
 
         // ============================================
-        // LAYER 1.6 — DANCING ANEMONE (between fish and coral)
+        // CORAL — pixel art branches at bottom-right
         // ============================================
-        // Small stubby anemone, no tentacles — just a pulsing
-        // rounded body that breathes with the music.
-
-        state.anemoneTime = (state.anemoneTime || 0) + 1;
-
-        // Breathing: the anemone widens and narrows, mostly with bass
-        const anemonePulse = Math.sin(state.anemoneTime * (0.08 + bassPulse * 0.15)) * 0.5 + 0.5;
-        // Width factor: 0.85 to 1.15
-        const anemoneWidthScale = 0.85 + anemonePulse * 0.3 + bassPulse * 0.15;
-        // Height factor: 0.9 to 1.1
-        const anemoneHeightScale = 1.05 - anemonePulse * 0.15 + bassPulse * 0.1;
-
-        // Gentle sway left/right
-        const anemoneSway = Math.sin(state.anemoneTime * 0.02 + 1.2) * 2;
-        // Vertical bob
-        const anemoneBob = Math.sin(state.anemoneTime * 0.05 + 2.5) * 1.5;
-
-        // Deep orange color
-        const anemR = isDay ? 200 : 255;
-        const anemG = isDay ? 80  : 110;
-        const anemB = isDay ? 40  : 50;
-        const anemoneFill = `rgba(${anemR}, ${anemG}, ${anemB}, 0.55)`;
-        const anemoneOutline = `rgba(${anemR}, ${anemG}, ${anemB}, 0.9)`;
-
-        ctx.save();
-        ctx.translate(w * 0.68 + anemoneSway, h - 1 + anemoneBob);
-        ctx.scale(anemoneWidthScale, anemoneHeightScale);
-        drawAnemoneShape(ctx, anemoneFill, anemoneOutline);
-        ctx.restore();
-        
+        drawPixelCoral(ctx, Math.floor(w * 0.85), h, pxUnit, coralFill, coralDark);
 
         // ============================================
-        // LAYER 2 — SEAWEED (background)
+        // OCTOPUS — pixel sprite at bottom-left
         // ============================================
-        // Sway speed scales gently with bass
+        // Bob with bass — but keep integer offsets so pixels don't blur
+        const octoBobPx = Math.round(Math.sin(state.time * 0.04) * (0.5 + bassPulse * 2));
+        const octoShuffle = Math.sin(state.time * 0.008) * 3;
+
+        drawPixelOctopus(
+            ctx,
+            Math.round(w * 0.12 + octoShuffle),
+            h - 2 + octoBobPx * pxUnit,
+            pxUnit,
+            octoFill,
+            octoDark,
+            state.time,
+            bassPulse
+        );
+
+        // ============================================
+        // ANEMONE — pixel blob between fish and coral
+        // ============================================
+        // Pulse: wider on bass, narrower when quiet
+        const anemPulse = 1 + Math.sin(state.time * 0.06) * 0.08 + bassPulse * 0.25;
+        const anemSway = Math.sin(state.time * 0.02 + 1.2) * 2;
+
+        drawPixelAnemone(
+            ctx,
+            Math.round(w * 0.68 + anemSway),
+            h - 1,
+            pxUnit,
+            anemFill,
+            anemDark,
+            anemPulse
+        );
+
+        // ============================================
+        // SEAWEED — pixel blades
+        // ============================================
         const swaySpeed = 0.035 + bassPulse * 0.03;
-        const swayAmp = 0.02 + bassPulse * 0.015;
-
-        for (let i = 0; i < state.seaweed.length; i++) {
-            const sw = state.seaweed[i];
-            const baseX = w * sw.xT;
-            const topY = h * (1 - sw.height);
-
-            // Simple back-and-forth sway — no visible sine wave, just the
-            // whole blade leaning left and right over time
-            const lean = Math.sin(state.time * swaySpeed + sw.phase) * swayAmp;
-            // Convert lean to an X offset at the top of the blade
-            const topOffset = lean * h;
-
-            // Seaweed color — greenish tint
-            const seaR = isDay ? 40 : 100;
-            const seaG = isDay ? 120 : 200;
-            const seaB = isDay ? 60 : 120;
-            const seaAlpha = 0.55;
-
-            // Draw as a curved blade using quadratic bezier
-            ctx.beginPath();
-            ctx.moveTo(baseX - sw.width, h);
-            ctx.quadraticCurveTo(
-                baseX + topOffset * 0.5, (h + topY) / 2,
-                baseX + topOffset, topY
+        const seaweeds = [
+            { xT: 0.08, height: 7, phase: 0.0 },
+            { xT: 0.15, height: 5, phase: 1.2 },
+            { xT: 0.88, height: 6, phase: 2.4 },
+            { xT: 0.94, height: 8, phase: 3.7 }
+        ];
+        for (const sw of seaweeds) {
+            const lean = Math.sin(state.time * swaySpeed + sw.phase) * 0.8;
+            drawPixelSeaweed(
+                ctx,
+                Math.round(w * sw.xT),
+                h,
+                pxUnit,
+                sw.height,
+                lean,
+                seaFill,
+                seaDark
             );
-            ctx.quadraticCurveTo(
-                baseX + topOffset * 0.5 + sw.width, (h + topY) / 2,
-                baseX + sw.width, h
-            );
-            ctx.closePath();
-            ctx.fillStyle = `rgba(${seaR}, ${seaG}, ${seaB}, ${seaAlpha})`;
-            ctx.fill();
         }
 
         // ============================================
-        // LAYER 3 — BACKGROUND FISH (behind the dancer)
+        // BACKGROUND FISH — pixel outlines, drifting
         // ============================================
         for (let i = 0; i < state.swimmers.length; i++) {
             const sw = state.swimmers[i];
 
-            // Move horizontally — speed scales with bass
             const moveSpeed = sw.speed * (1 + bassPulse * 1.2) / w;
             sw.xT += sw.dir * moveSpeed;
-
-            // Wrap around
             if (sw.xT > 1.15) sw.xT = -0.15;
             if (sw.xT < -0.15) sw.xT = 1.15;
 
-            // Tail wiggle — faster with mid energy
             sw.wiggle += (0.15 + midEnergy * 0.5);
 
-            const fishX = w * sw.xT;
-            const fishY = h * sw.yT;
+            // Pixel positions — integer so it stays crisp
+            const fishX = Math.round(w * sw.xT);
+            const fishY = Math.round(h * sw.yT);
 
-            // Depth determines size and opacity
-            const depthAlpha = 0.25 + sw.depth * 0.5;
+            // Depth affects opacity, not size (keeps pixel scale consistent)
+            const depthAlpha = 0.35 + sw.depth * 0.5;
 
-            drawFish(
+            drawPixelFish(
                 ctx,
                 fishX,
                 fishY,
-                sw.fishSize * (0.5 + sw.depth * 0.5),  // scale
-                sw.dir,                                 // facing
-                sw.wiggle,                              // wiggle phase
-                isDay ? 'rgba(30, 30, 30, ' + depthAlpha + ')' : 'rgba(255, 255, 255, ' + depthAlpha + ')',
-                isDay ? 'rgba(220, 220, 220, 0.3)' : 'rgba(10, 10, 10, 0.3)'
+                pxUnit,
+                sw.dir,
+                sw.wiggle,
+                fishOutline,
+                depthAlpha
             );
         }
 
         // ============================================
-        // LAYER 4 — DANCER FISH (center stage)
+        // DANCER FISH — larger pixel fish, center stage
         // ============================================
+        if (!state.dancer) {
+            state.dancer = { facing: 1, flipTimer: 0, wigglePhase: 0, bouncePhase: 0 };
+        }
         const dancer = state.dancer;
 
-        // Flip direction every ~6 seconds
         dancer.flipTimer += 1;
         if (dancer.flipTimer > 360) {
             dancer.facing *= -1;
             dancer.flipTimer = 0;
         }
 
-        // Dance wiggle — much more aggressive than the swimmers
         const dancerWiggleSpeed = 0.2 + bassPulse * 0.8;
         dancer.wigglePhase += dancerWiggleSpeed;
-
-        // Bounce vertically with bass
         dancer.bouncePhase += 0.05 + bassPulse * 0.15;
-        const bounceAmp = 2 + bassPulse * 6;
-        const bounceOffset = Math.sin(dancer.bouncePhase) * bounceAmp;
+        const bouncePx = Math.round(Math.sin(dancer.bouncePhase) * (1 + bassPulse * 2));
 
-        const dancerX = dancer.x;
-        const dancerY = dancer.y + bounceOffset;
-
-        // Draw the dancer — larger than the swimmers
-        drawFish(
+        drawPixelFish(
             ctx,
-            dancerX,
-            dancerY,
-            1.4,                    // scale
+            Math.round(w * 0.5),
+            Math.round(h * 0.62) + bouncePx * pxUnit,
+            pxUnit,
             dancer.facing,
             dancer.wigglePhase,
-            isDay ? 'rgba(30, 30, 30, 0.9)' : 'rgba(255, 255, 255, 0.9)',
-            isDay ? 'rgba(240, 240, 240, 0.6)' : 'rgba(10, 10, 10, 0.6)'
+            fishOutline,
+            0.95,
+            true   // larger "hero" fish
         );
 
         // ============================================
-        // LAYER 5 — BUBBLES
+        // BUBBLES
         // ============================================
         for (let i = 0; i < state.bubbles.length; i++) {
             const b = state.bubbles[i];
             b.yT -= b.speed;
-
-            // Respawn at the bottom when it floats past the top
             if (b.yT < -0.1) {
                 b.yT = 1.05 + Math.random() * 0.3;
                 b.xT = 0.1 + Math.random() * 0.8;
                 b.size = 1 + Math.random() * 1.5;
             }
-
-            // Slight horizontal wobble as it rises
             const wobbleX = Math.sin(b.yT * 8 + b.wobblePhase) * 0.008;
-
-            const bx = w * (b.xT + wobbleX);
-            const by = h * b.yT;
-
-            // Bubble color
-            const bubbleAlpha = 0.35;
+            const bx = Math.round(w * (b.xT + wobbleX));
+            const by = Math.round(h * b.yT);
             const bubbleColor = isDay
-                ? `rgba(80, 80, 80, ${bubbleAlpha})`
-                : `rgba(255, 255, 255, ${bubbleAlpha})`;
-
-            ctx.beginPath();
-            ctx.arc(bx, by, b.size, 0, Math.PI * 2);
-            ctx.strokeStyle = bubbleColor;
-            ctx.lineWidth = 0.8;
-            ctx.stroke();
-
-            // Tiny inner highlight
-            ctx.beginPath();
-            ctx.arc(bx - b.size * 0.3, by - b.size * 0.3, b.size * 0.25, 0, Math.PI * 2);
+                ? `rgba(80, 80, 80, 0.45)`
+                : `rgba(255, 255, 255, 0.45)`;
             ctx.fillStyle = bubbleColor;
-            ctx.fill();
+            // Draw bubble as a small pixel square
+            ctx.fillRect(bx - pxUnit, by - pxUnit, pxUnit * 2, pxUnit * 2);
         }
     }
 
-    // ---- Helper: draw a fish silhouette ----
-    function drawFish(ctx, x, y, scale, facing, wigglePhase, outlineColor, fillColor) {
-        ctx.save();
-        ctx.translate(x, y);
-        ctx.scale(facing * scale, scale);
-
-        // ---- Body wiggle ----
-        // The tail wags side to side while the head stays put
-        const wiggle = Math.sin(wigglePhase) * 0.5;
-
-        // Fish body — small oval, roughly 12px wide by 6px tall at scale 1
-        // Body
-        ctx.beginPath();
-        ctx.ellipse(0, 0, 7, 3.5, 0, 0, Math.PI * 2);
-        ctx.fillStyle = fillColor;
-        ctx.fill();
-        ctx.strokeStyle = outlineColor;
-        ctx.lineWidth = 1;
-        ctx.stroke();
-
-        // ---- Tail (behind the body) ----
-        // Tail wags based on wiggle value
-        const tailWag = wiggle * 2;
-        ctx.beginPath();
-        ctx.moveTo(-6, 0);
-        ctx.lineTo(-11, -3 + tailWag);
-        ctx.lineTo(-11, 3 + tailWag);
-        ctx.closePath();
-        ctx.fillStyle = fillColor;
-        ctx.fill();
-        ctx.strokeStyle = outlineColor;
-        ctx.lineWidth = 0.9;
-        ctx.stroke();
-
-        // ---- Eye (small dot) ----
-        ctx.beginPath();
-        ctx.arc(4, -1, 0.8, 0, Math.PI * 2);
-        ctx.fillStyle = outlineColor;
-        ctx.fill();
-
-        ctx.restore();
+    // ---- Pixel helper: fill a single pixel cell ----
+    function px(ctx, x, y, unit, color) {
+        ctx.fillStyle = color;
+        ctx.fillRect(x * unit, y * unit, unit, unit);
+    }
+    function rgba(c, a) {
+        return `rgba(${c[0]}, ${c[1]}, ${c[2]}, ${a})`;
     }
 
-    // ---- Helper: coral cluster shape ----
-    function drawCoralShape(ctx, fillColor, outlineColor) {
-        // Coral cluster — 3 branching shapes rising from the bottom-right
-        // Drawn at origin, translated externally
+    // ---- Pixel fish ----
+    function drawPixelFish(ctx, centerX, centerY, unit, facing, wiggle, outlineColor, alpha, hero = false) {
+        // Fish is drawn in pixel grid cells. Origin is head-left.
+        // Body: 9 wide x 5 tall. Tail: 3 wide x 5 tall behind.
 
-        ctx.strokeStyle = outlineColor;
-        ctx.fillStyle = fillColor;
-        ctx.lineCap = 'round';
-        ctx.lineJoin = 'round';
+        const bodyW = 9;
+        const bodyH = 5;
+        const tailW = 3;
 
-        // Branch 1 — tall, curving left
-        ctx.beginPath();
-        ctx.moveTo(0, 0);
-        ctx.bezierCurveTo(-2, -15, -8, -28, -6, -40);
-        ctx.lineWidth = 3.5;
-        ctx.stroke();
+        const totalW = bodyW + tailW;
+        const startX = Math.floor((centerX / unit) - (totalW * unit / 2) / unit);
+        const startY = Math.floor((centerY / unit) - (bodyH / 2));
 
-        ctx.beginPath();
-        ctx.moveTo(-6, -40);
-        ctx.lineTo(-10, -46);
-        ctx.moveTo(-6, -40);
-        ctx.lineTo(-2, -47);
-        ctx.lineWidth = 2.5;
-        ctx.stroke();
+        const color = rgba(outlineColor, alpha);
+        const tailWag = Math.round(Math.sin(wiggle) * 1);   // -1, 0, or 1 pixel offset
 
-        // Branch 2 — medium, curving right
-        ctx.beginPath();
-        ctx.moveTo(5, 0);
-        ctx.bezierCurveTo(8, -12, 14, -22, 12, -32);
-        ctx.lineWidth = 3;
-        ctx.stroke();
+        // ---- Body outline (rounded rectangle) ----
+        for (let x = 0; x < bodyW; x++) {
+            for (let y = 0; y < bodyH; y++) {
+                // Only draw border cells (hollow center)
+                const isBorder =
+                    x === 0 || x === bodyW - 1 ||
+                    y === 0 || y === bodyH - 1;
 
-        ctx.beginPath();
-        ctx.moveTo(12, -32);
-        ctx.lineTo(8, -38);
-        ctx.moveTo(12, -32);
-        ctx.lineTo(16, -37);
-        ctx.lineWidth = 2;
-        ctx.stroke();
+                // Corners of the rounded rect
+                if ((x === 0 || x === bodyW - 1) &&
+                    (y === 0 || y === bodyH - 1)) continue;
+
+                // The nose (rightmost column) is only 3 tall — pointed front
+                if (x === bodyW - 1 && (y === 0 || y === bodyH - 1)) continue;
+
+                if (isBorder) {
+                    px(ctx, startX + x, startY + y, unit, color);
+                }
+            }
+        }
+
+        // ---- Tail — triangle, wags up/down ----
+        for (let x = 0; x < tailW; x++) {
+            const heightAtX = (x + 1) * 2 - 1;   // 1, 3, 5
+            const offset = tailWag * (x / tailW);   // tail wags more at tip
+            const startTailY = startY + Math.floor((bodyH - heightAtX) / 2) + Math.round(offset);
+            for (let y = 0; y < heightAtX; y++) {
+                px(ctx, startX - tailW + x, startTailY + y, unit, color);
+            }
+        }
+
+        // ---- Eye — single pixel near the nose ----
+        const eyeX = startX + bodyW - 2;
+        const eyeY = startY + 1;
+        px(ctx, eyeX, eyeY, unit, color);
+    }
+
+    // ---- Pixel octopus ----
+    function drawPixelOctopus(ctx, centerX, baseY, unit, fillColor, darkColor, time, bassPulse) {
+        // Origin: base of octopus (bottom-center)
+        const startX = Math.floor(centerX / unit) - 6;   // 13 cells wide
+        const startY = Math.floor(baseY / unit) - 11;   // 11 cells tall
+
+        const fill = rgba(fillColor, 0.85);
+        const dark = rgba(darkColor, 0.95);
+
+        // Pixel art octopus — 13 wide x 11 tall sprite
+        // Legend: F = fill, D = dark outline, E = eye, . = empty
+        // This is the octopus shape with a rounded mantle and 6 tentacles.
+        const sprite = [
+            "....FFFFFF...",
+            "..FFFFFFFFFF.",
+            ".FFFDDDDDFFF.",
+            "FFFDDEDDEDFFF",
+            "FFFDDDDDDDFFF",
+            "FFFFDDDDDFFF.",
+            ".FFFFDDDFFF..",
+            "..FFFDDDFFF..",
+            ".FF.FFF.FFF..",
+            "FF..FF..FF.F.",
+            "F...F....F..F"
+        ];
+
+        // Tentacle wiggle — each row of the bottom 3 rows shifts ±1 pixel
+        // Each tentacle has its own phase based on column index
+        const wiggleAmp = bassPulse;
+
+        for (let row = 0; row < sprite.length; row++) {
+            const line = sprite[row];
+            for (let col = 0; col < line.length; col++) {
+                const ch = line[col];
+                if (ch === '.') continue;
+
+                // Apply tentacle wiggle for bottom rows
+                let xOffset = 0;
+                if (row >= 8) {
+                    const phase = col * 0.8;
+                    xOffset = Math.round(Math.sin(time * 0.08 + phase) * wiggleAmp);
+                }
+
+                const finalX = startX + col + xOffset;
+                const finalY = startY + row;
+
+                let color;
+                if (ch === 'E') color = '#000000';
+                else if (ch === 'D') color = dark;
+                else color = fill;
+
+                px(ctx, finalX, finalY, unit, color);
+            }
+        }
+    }
+
+    // ---- Pixel anemone ----
+    function drawPixelAnemone(ctx, centerX, baseY, unit, fillColor, darkColor, widthScale) {
+        const widthCells = Math.round(6 * widthScale);
+        const startX = Math.floor(centerX / unit) - Math.floor(widthCells / 2);
+        const startY = Math.floor(baseY / unit) - 6;
+
+        const fill = rgba(fillColor, 0.9);
+        const dark = rgba(darkColor, 0.95);
+
+        // Small pixel anemone sprite — 6 wide x 6 tall
+        const sprite = [
+            ".D..D.",
+            ".D..D.",
+            "DFFFFD",
+            "DFFFFD",
+            "DFFFFD",
+            "DDFFDD"
+        ];
+
+        for (let row = 0; row < sprite.length; row++) {
+            for (let col = 0; col < sprite[row].length; col++) {
+                const ch = sprite[row][col];
+                if (ch === '.') continue;
+
+                // Slightly stretch horizontally if wide
+                const finalX = startX + col;
+                const finalY = startY + row;
+                const color = ch === 'D' ? dark : fill;
+                px(ctx, finalX, finalY, unit, color);
+
+                // Add stretch cells
+                if (widthScale > 1.05 && col === 2) {
+                    px(ctx, finalX + 1, finalY, unit, color);
+                }
+            }
+        }
+    }
+
+    // ---- Pixel seaweed ----
+    function drawPixelSeaweed(ctx, centerX, baseY, unit, height, lean, fillColor, darkColor) {
+        const fill = rgba(fillColor, 0.75);
+        const dark = rgba(darkColor, 0.9);
+        const startX = Math.floor(centerX / unit);
+        const startY = Math.floor(baseY / unit);
+
+        // Column of pixels with a slight lean at the top
+        for (let i = 0; i < height; i++) {
+            const y = startY - 1 - i;
+            // Lean is strongest at the top
+            const t = i / height;
+            const xOffset = Math.round(lean * t * 1.5);
+            const x = startX + xOffset;
+            const color = (i % 2 === 0) ? fill : dark;
+            px(ctx, x, y, unit, color);
+        }
+    }
+
+    // ---- Pixel coral ----
+    function drawPixelCoral(ctx, centerX, baseY, unit, fillColor, darkColor) {
+        const fill = rgba(fillColor, 0.7);
+        const dark = rgba(darkColor, 0.9);
+        const startX = Math.floor(centerX / unit);
+        const startY = Math.floor(baseY / unit);
+
+        // 3 pixel branches rising up, curves are approximated with
+        // stepwise pixel moves (classic 8-bit technique)
+
+        // Branch 1 — tall, curves left
+        const branch1 = [
+            [0, -1], [0, -2], [0, -3], [0, -4],
+            [-1, -5], [-1, -6], [-1, -7],
+            [-1, -8], [-2, -9], [-2, -10],
+            [-2, -11], [-3, -12], [-3, -13],
+            [-4, -14], [-4, -15], [-5, -16]
+        ];
+
+        // Branch 2 — medium, curves right
+        const branch2 = [
+            [1, -1], [1, -2], [2, -3], [2, -4],
+            [3, -5], [3, -6], [3, -7],
+            [4, -8], [4, -9], [5, -10],
+            [5, -11], [6, -12]
+        ];
 
         // Branch 3 — short, near center
-        ctx.beginPath();
-        ctx.moveTo(-1, 0);
-        ctx.bezierCurveTo(0, -8, 2, -14, 1, -20);
-        ctx.lineWidth = 2.5;
-        ctx.stroke();
+        const branch3 = [
+            [0, -1], [0, -2], [0, -3],
+            [1, -4], [1, -5], [1, -6]
+        ];
 
-        // Small nubs
-        ctx.beginPath();
-        ctx.moveTo(1, -20);
-        ctx.lineTo(-2, -24);
-        ctx.lineWidth = 1.8;
-        ctx.stroke();
-    }
-        // ---- Helper: dancing octopus shape ----
-    // Origin is at the base (bottom-center of the octopus).
-    // Octopus faces forward (viewer sees its eyes).
-    function drawOctopusShape(ctx, fillColor, outlineColor, time, bassPulse) {
-        // ---- Mantle (head) ----
-        // Rounded dome, ~16px wide x 12px tall
-        ctx.beginPath();
-        ctx.moveTo(-8, -8);            // bottom-left of mantle
-        ctx.bezierCurveTo(-8, -18, -4, -22, 0, -22);   // up the left side
-        ctx.bezierCurveTo(4, -22, 8, -18, 8, -8);      // down the right side
-        ctx.closePath();
-        ctx.fillStyle = fillColor;
-        ctx.fill();
-        ctx.strokeStyle = outlineColor;
-        ctx.lineWidth = 1.2;
-        ctx.stroke();
+        const drawBranch = (branch, color) => {
+            for (const [dx, dy] of branch) {
+                px(ctx, startX + dx, startY + dy, unit, color);
+            }
+        };
 
-        // ---- Eyes ----
-        ctx.beginPath();
-        ctx.arc(-3, -13, 1.1, 0, Math.PI * 2);
-        ctx.arc(3, -13, 1.1, 0, Math.PI * 2);
-        ctx.fillStyle = outlineColor;
-        ctx.fill();
+        drawBranch(branch1, dark);
+        drawBranch(branch2, fill);
+        drawBranch(branch3, fill);
 
-        // ---- Tentacles ----
-        // 6 tentacles fanning out from the bottom of the mantle.
-        // Each has a phase offset so they wave independently.
-        const tentacleCount = 6;
-        const baseY = -8;
-
-        for (let i = 0; i < tentacleCount; i++) {
-            const t = i / (tentacleCount - 1);   // 0..1 across tentacles
-            // Starting X spread: -7 to +7
-            const startX = -7 + t * 14;
-            // Each tentacle has its own phase (0, 0.8, 1.6, etc.)
-            const phase = i * 0.9;
-            // Wiggle speed is slower than the fish tail — smoother
-            const wiggle = Math.sin(time * 0.08 + phase) * (0.6 + bassPulse * 1.2);
-
-            // Length varies: outer tentacles a bit longer
-            const length = 8 + Math.abs(t - 0.5) * 4;
-
-            // End point: spread out, wiggle sideways
-            const endX = startX * 1.2 + wiggle * 3;
-            const endY = baseY + length;
-
-            // Mid control point for a soft curve
-            const midX = startX * 1.1 + wiggle * 1.5;
-            const midY = baseY + length * 0.5;
-
-            ctx.beginPath();
-            ctx.moveTo(startX, baseY);
-            ctx.quadraticCurveTo(midX, midY, endX, endY);
-            ctx.strokeStyle = outlineColor;
-            ctx.lineWidth = 1.8;
-            ctx.lineCap = 'round';
-            ctx.stroke();
-
-            // Small rounded tip at the end of each tentacle
-            ctx.beginPath();
-            ctx.arc(endX, endY, 0.9, 0, Math.PI * 2);
-            ctx.fillStyle = outlineColor;
-            ctx.fill();
-        }
-    }
-
-    // ---- Helper: dancing anemone shape ----
-    // Origin is at the base (bottom-center of the anemone).
-    // Small stubby round body, no tentacles.
-    function drawAnemoneShape(ctx, fillColor, outlineColor) {
-        // ---- Body ----
-        // A soft dome/blob shape, roughly 12px wide x 10px tall.
-        // Feels like a small sea anemone stub.
-
-        ctx.beginPath();
-        ctx.moveTo(-6, 0);              // bottom-left
-        ctx.bezierCurveTo(-7, -4, -6, -9, -3, -11);    // left side up
-        ctx.bezierCurveTo(-1, -12, 1, -12, 3, -11);    // rounded top
-        ctx.bezierCurveTo(6, -9, 7, -4, 6, 0);         // right side down
-        ctx.closePath();
-        ctx.fillStyle = fillColor;
-        ctx.fill();
-        ctx.strokeStyle = outlineColor;
-        ctx.lineWidth = 1.2;
-        ctx.stroke();
-
-        // ---- Top ridges ----
-        // Three small bumps along the top so it reads as an anemone
-        // (not just a random blob). Sort of like the "mouth" or "fringe."
-        for (let i = -1; i <= 1; i++) {
-            const cx = i * 3;
-            const cy = -11 + Math.abs(i) * 0.8;
-
-            ctx.beginPath();
-            ctx.arc(cx, cy, 1.2, 0, Math.PI * 2);
-            ctx.fillStyle = outlineColor;
-            ctx.fill();
-        }
-
-        // ---- Subtle inner highlight ----
-        // A thin lighter arc across the upper-left of the body
-        // to hint at volume.
-        ctx.beginPath();
-        ctx.arc(-1, -6, 4, Math.PI * 1.1, Math.PI * 1.7);
-        ctx.strokeStyle = `rgba(255, 255, 255, 0.25)`;
-        ctx.lineWidth = 0.8;
-        ctx.stroke();
+        // Coral tips — small bright pixels at the ends
+        px(ctx, startX - 5, startY - 16, unit, dark);
+        px(ctx, startX - 4, startY - 17, unit, dark);
+        px(ctx, startX + 6, startY - 12, unit, dark);
+        px(ctx, startX + 7, startY - 13, unit, dark);
+        px(ctx, startX + 1, startY - 6, unit, dark);
     }
 
     function drawAscii() {
