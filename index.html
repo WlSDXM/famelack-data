@@ -1905,7 +1905,7 @@
         }
     }
 
-    // ============ FISH TANK VISUALIZER — PIXEL EDITION ============
+        // ============ FISH TANK VISUALIZER — PIXEL EDITION ============
     if (!window.__fishState) {
         window.__fishState = {
             initialized: false,
@@ -1913,12 +1913,15 @@
             dancer: null,
             swimmers: null,
             bubbles: null,
+            dancerBubbles: [], // New
+            crab: null,        // New
+            jellyfish: null,   // New
             lastW: 0,
             lastH: 0
         };
     }
 
-    function drawFishTank(w, h) {
+        function drawFishTank(w, h) {
         analyser.getByteFrequencyData(freqData);
 
         const state = window.__fishState;
@@ -1957,18 +1960,35 @@
                 });
             }
 
+            state.dancerBubbles = [];
+            
+            // Crab state
+            state.crab = {
+                xT: 0.35,       // starting position (between octopus and anemone)
+                dir: 1,         // moving right
+                speed: 0.002,
+                wiggle: 0
+            };
+
+            // Jellyfish state
+            state.jellyfish = {
+                xT: 0.8,        // right side
+                yT: 0.3,        // in the upper water
+                dir: -1,        // drifting left
+                speed: 0.0005,
+                bobPhase: 0
+            };
+
             state.initialized = true;
         }
 
-                state.time = (state.time || 0) + 1;
+        state.time = (state.time || 0) + 1;
 
-        // ---- Underwater blue tint ----
-        // A soft translucent blue over the whole canvas gives everything
-        // a submerged, aquarium feel. Slightly different shade for day mode.
-        const tintR = isDay ? 120 : 15;
-        const tintG = isDay ? 180 : 35;
-        const tintB = isDay ? 220 : 75;
-        const tintAlpha = isDay ? 0.12 : 0.18;
+        // ---- Darker Underwater Blue Tint ----
+        const tintR = isDay ? 80 : 8;
+        const tintG = isDay ? 140 : 20;
+        const tintB = isDay ? 180 : 60;
+        const tintAlpha = isDay ? 0.15 : 0.30; // Darker: 30% opacity at night
 
         ctx.save();
         ctx.globalCompositeOperation = 'source-over';
@@ -1978,6 +1998,7 @@
 
         const pxUnit = 2;
 
+        // Colors
         const octoFill = isDay ? [130, 90, 160] : [180, 130, 220];
         const octoDark = isDay ? [60, 40, 80] : [100, 60, 140];
 
@@ -1992,70 +2013,65 @@
 
         const fishOutline = isDay ? [30, 30, 30] : [255, 255, 255];
 
-               // ---- CORAL ----
-        // Main coral cluster + two smaller satellite corals
+        const decorOrange = isDay ? [200, 90, 40] : [255, 140, 60];
+        const decorDark = isDay ? [120, 50, 20] : [180, 80, 30];
+
+        // ---- NEW: Sun Ray / Light Beam ----
+        // Faint diagonal translucent stripe from top-left
+        const rayGrad = ctx.createLinearGradient(0, 0, w * 0.6, h);
+        rayGrad.addColorStop(0, isDay ? 'rgba(255, 255, 255, 0.15)' : 'rgba(180, 230, 255, 0.08)');
+        rayGrad.addColorStop(1, 'rgba(0, 0, 0, 0)');
+        ctx.fillStyle = rayGrad;
+        ctx.beginPath();
+        ctx.moveTo(w * 0.1, 0);
+        ctx.lineTo(w * 0.4, 0);
+        ctx.lineTo(w * 0.7, h);
+        ctx.lineTo(w * 0.3, h);
+        ctx.closePath();
+        ctx.fill();
+
+        // ---- NEW: Water Surface at the top ----
+        const surfaceY = 4 + Math.sin(state.time * 0.05) * 2;
+        ctx.strokeStyle = isDay ? 'rgba(80, 150, 200, 0.5)' : 'rgba(100, 180, 255, 0.4)';
+        ctx.lineWidth = 1.5;
+        ctx.beginPath();
+        for (let x = 0; x <= w; x += 5) {
+            const y = surfaceY + Math.sin(x * 0.05 + state.time * 0.03) * 2;
+            if (x === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+        }
+        ctx.stroke();
+
+                // ---- Static Decor: Seashells & Starfish ----
+        const shellColor = rgba(decorOrange, 0.7);
+        const shellX = Math.floor(w * 0.78) / pxUnit;
+        const shellY = Math.floor(h) / pxUnit;
+
+        // Little seashell (bottom right, before coral)
+        px(ctx, shellX, shellY - 1, pxUnit, shellColor);
+        px(ctx, shellX + 1, shellY - 2, pxUnit, shellColor);
+        px(ctx, shellX - 1, shellY - 2, pxUnit, shellColor);
+
+        // Little seashell (bottom left)
+        const shell2X = Math.floor(w * 0.28) / pxUnit;
+        px(ctx, shell2X, shellY - 1, pxUnit, shellColor);
+        px(ctx, shell2X + 1, shellY - 2, pxUnit, shellColor);
+            
+        // Red Starfish (bottom center)
+        drawStarfish(ctx, Math.floor(w * 0.48), h, pxUnit, [200, 60, 60], [120, 20, 20]);
+
+        // ---- CORAL ----
         drawPixelCoral(ctx, Math.floor(w * 0.85), h, pxUnit, coralFill, coralDark);
-
-        // Small coral at the bottom-center-left (smaller scale)
-        drawPixelCoral(
-            ctx,
-            Math.floor(w * 0.55),
-            h,
-            pxUnit * 0.7,   // smaller
-            coralFill,
-            coralDark
-        );
-
-        // Tiny coral at the far left (very small)
-        drawPixelCoral(
-            ctx,
-            Math.floor(w * 0.03),
-            h,
-            pxUnit * 0.55,   // tiny
-            coralFill,
-            coralDark
-        );
-
-        // ---- OCTOPUS ----
-        const octoBobPx = Math.round(Math.sin(state.time * 0.04) * (0.5 + bassPulse * 2));
-        const octoShuffle = Math.sin(state.time * 0.008) * 3;
-        const octoLift = 4;
-
-        drawPixelOctopus(
-            ctx,
-            Math.round(w * 0.12 + octoShuffle),
-            h - 2 - octoLift + octoBobPx * pxUnit,
-            pxUnit * 1.8,
-            octoFill,
-            octoDark,
-            state.time,
-            bassPulse
-        );
-
-        // ---- ANEMONE ----
-        const anemPulse = 1 + Math.sin(state.time * 0.06) * 0.08 + bassPulse * 0.25;
-        const anemSway = Math.sin(state.time * 0.02 + 1.2) * 2;
-
-                drawPixelAnemone(
-            ctx,
-            Math.round(w * 0.68 + anemSway),
-            h + 2,          // ← sits directly on the floor
-            pxUnit * 1.8,
-            anemFill,
-            anemDark,
-            anemPulse
-        );
+        drawPixelCoral(ctx, Math.floor(w * 0.58), h, pxUnit * 0.7, coralFill, coralDark);
+        drawPixelCoral(ctx, Math.floor(w * 0.03), h, pxUnit * 0.55, coralFill, coralDark);
 
         // ---- SEAWEED ----
         const swaySpeed = 0.035 + bassPulse * 0.03;
-                const seaweeds = [
-            // Left side — dense cluster
+        const seaweeds = [
             { xT: 0.06, height: 6, phase: 0.0 },
             { xT: 0.09, height: 8, phase: 1.2 },
             { xT: 0.13, height: 5, phase: 2.1 },
             { xT: 0.17, height: 7, phase: 0.8 },
             { xT: 0.21, height: 4, phase: 3.1 },
-            // Right side — dense cluster
             { xT: 0.78, height: 5, phase: 1.7 },
             { xT: 0.83, height: 7, phase: 2.8 },
             { xT: 0.88, height: 6, phase: 0.4 },
@@ -2065,24 +2081,6 @@
         for (const sw of seaweeds) {
             const lean = Math.sin(state.time * swaySpeed + sw.phase) * 0.8;
             drawPixelSeaweed(ctx, Math.round(w * sw.xT), h, pxUnit, sw.height, lean, seaFill, seaDark);
-        }
-
-        // ---- BACKGROUND FISH ----
-        for (let i = 0; i < state.swimmers.length; i++) {
-            const sw = state.swimmers[i];
-
-            const moveSpeed = sw.speed * (1 + bassPulse * 1.2) / w;
-            sw.xT += sw.dir * moveSpeed;
-            if (sw.xT > 1.15) sw.xT = -0.15;
-            if (sw.xT < -0.15) sw.xT = 1.15;
-
-            sw.wiggle += (0.15 + midEnergy * 0.5);
-
-            const fishX = Math.round(w * sw.xT);
-            const fishY = Math.round(h * sw.yT);
-            const depthAlpha = 0.35 + sw.depth * 0.5;
-
-            drawPixelFish(ctx, fishX, fishY, pxUnit, sw.dir, sw.wiggle, fishOutline, depthAlpha);
         }
 
         // ---- DANCER FISH ----
@@ -2102,6 +2100,36 @@
         dancer.bouncePhase += 0.05 + bassPulse * 0.15;
         const bouncePx = Math.round(Math.sin(dancer.bouncePhase) * (1 + bassPulse * 2));
 
+        // ---- NEW: Dancer bubbles ----
+        // Spawn bubbles from the dancer's mouth on strong bass
+        if (bassEnergy > 0.45 && Math.random() < 0.15) {
+            const mouthX = (w * 0.5) + (dancer.facing === 1 ? 14 : -14); // front of fish
+            const mouthY = (h * 0.62) + bouncePx * pxUnit;
+            state.dancerBubbles.push({
+                x: mouthX,
+                y: mouthY,
+                r: 1.5 + Math.random() * 2,
+                speed: 0.5 + Math.random() * 0.5,
+                wobblePhase: Math.random() * Math.PI * 2
+            });
+        }
+
+        // Draw dancer bubbles
+        const bubbleColor = isDay ? 'rgba(255,255,255,0.6)' : 'rgba(200,230,255,0.6)';
+        for (let i = state.dancerBubbles.length - 1; i >= 0; i--) {
+            const b = state.dancerBubbles[i];
+            b.y -= b.speed;
+            b.x += Math.sin(state.time * 0.1 + b.wobblePhase) * 0.5;
+            if (b.y < -10) {
+                state.dancerBubbles.splice(i, 1);
+                continue;
+            }
+            ctx.fillStyle = bubbleColor;
+            ctx.beginPath();
+            ctx.arc(b.x, b.y, b.r, 0, Math.PI * 2);
+            ctx.fill();
+        }
+
         drawPixelFish(
             ctx,
             Math.round(w * 0.5),
@@ -2114,7 +2142,81 @@
             true
         );
 
-        // ---- BUBBLES ----
+        // ---- JELLYFISH ----
+        const jf = state.jellyfish;
+        jf.xT += jf.dir * jf.speed * (1 + bassPulse);
+        if (jf.xT > 1.1) { jf.xT = -0.1; jf.dir = -1; } // loop
+        if (jf.xT < -0.1) { jf.xT = 1.1; jf.dir = 1; }
+        
+        jf.bobPhase += 0.01 + bassPulse * 0.03;
+        const jfY = h * 0.3 + Math.sin(jf.bobPhase) * 10;
+        const jfX = w * jf.xT;
+
+        // Draw Jellyfish (translucent, pixel-ish but soft)
+        ctx.fillStyle = isDay ? 'rgba(150, 150, 220, 0.3)' : 'rgba(180, 130, 255, 0.25)';
+        ctx.beginPath();
+        ctx.arc(jfX, jfY, 8 + bassPulse * 4, Math.PI, 0);
+        ctx.fill();
+        // Jelly tentacles
+        ctx.strokeStyle = isDay ? 'rgba(150, 150, 220, 0.2)' : 'rgba(180, 130, 255, 0.2)';
+        ctx.lineWidth = 1;
+        for (let i = -2; i <= 2; i++) {
+            ctx.beginPath();
+            ctx.moveTo(jfX + i * 3, jfY + 2);
+            ctx.lineTo(jfX + i * 4 + Math.sin(state.time * 0.1 + i)*3, jfY + 15);
+            ctx.stroke();
+        }
+
+        // ---- ANEMONE ----
+        const anemPulse = 1 + Math.sin(state.time * 0.06) * 0.08 + bassPulse * 0.25;
+        const anemSway = Math.sin(state.time * 0.02 + 1.2) * 2;
+
+        drawPixelAnemone(
+            ctx,
+            Math.round(w * 0.68 + anemSway),
+            h + 2,
+            pxUnit * 1.8,
+            anemFill,
+            anemDark,
+            anemPulse
+        );
+
+        // ---- CRAB ----
+        const crab = state.crab;
+        // Scuttle left/right
+        crab.xT += crab.dir * crab.speed * (1 + bassPulse * 2);
+        if (crab.xT > 0.5) crab.dir = -1;
+        if (crab.xT < 0.25) crab.dir = 1;
+        
+        // Wiggle legs
+        crab.wiggle += 0.2 + bassPulse * 0.5;
+
+        const crabX = Math.floor(w * crab.xT);
+        const crabY = h - 2; // on the floor
+
+        // Draw Crab
+        ctx.save();
+        ctx.translate(crabX, crabY);
+        ctx.scale(crab.dir, 1); // flip based on direction
+
+        const crabCol = rgba(decorOrange, 0.9);
+        // Body
+        ctx.fillStyle = crabCol;
+        ctx.fillRect(-4, -3, 8, 3);
+        ctx.fillRect(-3, -4, 6, 1);
+        // Legs (wiggle up/down)
+        const legWiggle = Math.sin(crab.wiggle) > 0 ? 1 : 0;
+        ctx.fillRect(-5, -1 + legWiggle, 1, 2);
+        ctx.fillRect(4, -1 - legWiggle, 1, 2);
+        ctx.fillRect(-2, -3 - legWiggle, 1, 1); // claw
+        ctx.fillRect(2, -3 + legWiggle, 1, 1);  // claw
+        // Eyes
+        ctx.fillStyle = '#000';
+        ctx.fillRect(-1, -4, 1, 1);
+        ctx.fillRect(1, -4, 1, 1);
+        ctx.restore();
+
+        // ---- FLOATING BUBBLES ----
         for (let i = 0; i < state.bubbles.length; i++) {
             const b = state.bubbles[i];
             b.yT -= b.speed;
@@ -2126,8 +2228,8 @@
             const wobbleX = Math.sin(b.yT * 8 + b.wobblePhase) * 0.008;
             const bx = Math.round(w * (b.xT + wobbleX));
             const by = Math.round(h * b.yT);
-            const bubbleColor = isDay ? `rgba(80, 80, 80, 0.45)` : `rgba(255, 255, 255, 0.45)`;
-            ctx.fillStyle = bubbleColor;
+            
+            ctx.fillStyle = isDay ? `rgba(80, 80, 80, 0.45)` : `rgba(255, 255, 255, 0.45)`;
             ctx.fillRect(bx - pxUnit, by - pxUnit, pxUnit * 2, pxUnit * 2);
         }
     }
@@ -2298,6 +2400,33 @@
             const x = startX + xOffset;
             const color = (i % 2 === 0) ? fill : dark;
             px(ctx, x, y, unit, color);
+        }
+    }
+        // ---- Pixel starfish ----
+    function drawStarfish(ctx, centerX, baseY, unit, fillColor, darkColor) {
+        const fill = rgba(fillColor, 0.9);
+        const dark = rgba(darkColor, 0.9);
+        const startX = Math.floor(centerX / unit);
+        const startY = Math.floor(baseY / unit);
+
+        // 7x7 pixel starfish
+        const sprite = [
+            "..D.D..",
+            "..DFD..",
+            "DDFFFDD",
+            ".DFFFD.",
+            "..DFD..",
+            "..DFD..",
+            "..D.D.."
+        ];
+
+        for (let row = 0; row < sprite.length; row++) {
+            for (let col = 0; col < sprite[row].length; col++) {
+                const ch = sprite[row][col];
+                if (ch === '.') continue;
+                const color = ch === 'D' ? dark : fill;
+                px(ctx, startX + col, startY - sprite.length + 1 + row, unit, color);
+            }
         }
     }
 
