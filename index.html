@@ -2159,15 +2159,16 @@
             true
         );
 
-                // ---- JELLYFISH (Pixel) ----
+        // ---- JELLYFISH ----
         const jf = state.jellyfish;
         jf.xT += jf.dir * jf.speed * (1 + bassPulse);
-        if (jf.xT > 1.1) { jf.xT = -0.1; jf.dir = -1; } // loop
+        if (jf.xT > 1.1) { jf.xT = -0.1; jf.dir = -1; }
         if (jf.xT < -0.1) { jf.xT = 1.1; jf.dir = 1; }
         
         jf.bobPhase += 0.01 + bassPulse * 0.03;
-        const jfY = Math.floor(h * 0.25 + Math.sin(jf.bobPhase) * 8);
-        const jfX = Math.floor(w * jf.xT);
+        // Round the Y position ONCE, then divide by pxUnit
+        const jfY = Math.floor((h * 0.3 + Math.sin(jf.bobPhase) * 10) / pxUnit) * pxUnit;
+        const jfX = Math.floor(w * jf.xT / pxUnit) * pxUnit;
 
         // Pixel Jellyfish Sprite (9x8 cells)
         const jellySprite = [
@@ -2192,13 +2193,11 @@
                 const ch = jellySprite[r][c];
                 if (ch === '.') continue;
 
-                // Jellyfish tentacles sway
                 let xOffset = 0;
                 if (r > 3) {
                     xOffset = Math.round(Math.sin(state.time * 0.1 + c) * 0.8);
                 }
 
-                // The dome breathes with the bass
                 let yOffset = 0;
                 if (r < 3 && bassPulse > 0.5) {
                     yOffset = -1; 
@@ -2225,37 +2224,41 @@
 
         // ---- CRAB ----
         const crab = state.crab;
-        // Scuttle left/right (Slowed down)
         crab.xT += crab.dir * (crab.speed * 0.5) * (1 + bassPulse * 1.2);
         if (crab.xT > 0.5) crab.dir = -1;
         if (crab.xT < 0.25) crab.dir = 1;
         
-        // Wiggle legs (Slowed down)
         crab.wiggle += 0.1 + bassPulse * 0.2;
 
-        const crabX = Math.floor(w * crab.xT);
-        const crabY = h - 2; // on the floor
+        // Stabilize the exact pixel position
+        const crabX = Math.round((w * crab.xT) / pxUnit) * pxUnit;
+        const crabY = Math.floor(h) / pxUnit * pxUnit; 
 
         // Draw Crab
         ctx.save();
         ctx.translate(crabX, crabY);
-        ctx.scale(crab.dir, 1); // flip based on direction
+        ctx.scale(crab.dir, 1);
 
         const crabCol = rgba(decorOrange, 0.9);
-        // Body
         ctx.fillStyle = crabCol;
-        ctx.fillRect(-4, -3, 8, 3);
-        ctx.fillRect(-3, -4, 6, 1);
-        // Legs (wiggle up/down)
+        
+        // Draw using exact pixel sizes instead of floating point math
+        const cw = pxUnit;
+        ctx.fillRect(-2 * cw, -1.5 * cw, 4 * cw, 1.5 * cw); // Body
+        ctx.fillRect(-1.5 * cw, -2 * cw, 3 * cw, 0.5 * cw); // Top shell
+
         const legWiggle = Math.sin(crab.wiggle) > 0 ? 1 : 0;
-        ctx.fillRect(-5, -1 + legWiggle, 1, 2);
-        ctx.fillRect(4, -1 - legWiggle, 1, 2);
-        ctx.fillRect(-2, -3 - legWiggle, 1, 1); // claw
-        ctx.fillRect(2, -3 + legWiggle, 1, 1);  // claw
+        ctx.fillRect(-2.5 * cw, -0.5 * cw + legWiggle * cw, 0.5 * cw, 1 * cw); // Left leg
+        ctx.fillRect(2 * cw, -0.5 * cw - legWiggle * cw, 0.5 * cw, 1 * cw);  // Right leg
+        
+        ctx.fillRect(-1 * cw, -1.5 * cw - legWiggle * cw, 0.5 * cw, 0.5 * cw); // Claw
+        ctx.fillRect(0.5 * cw, -1.5 * cw + legWiggle * cw, 0.5 * cw, 0.5 * cw);  // Claw
+        
         // Eyes
         ctx.fillStyle = '#000';
-        ctx.fillRect(-1, -4, 1, 1);
-        ctx.fillRect(1, -4, 1, 1);
+        ctx.fillRect(-0.5 * cw, -2 * cw, 0.5 * cw, 0.5 * cw);
+        ctx.fillRect(0.5 * cw, -2 * cw, 0.5 * cw, 0.5 * cw);
+        
         ctx.restore();
 
         // ---- SCUBA DIVER ----
