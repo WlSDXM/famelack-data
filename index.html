@@ -2105,10 +2105,12 @@
             dancer.flipTimer = 0;
         }
 
-        const dancerWiggleSpeed = 0.2 + bassPulse * 0.8;
+                const dancerWiggleSpeed = 0.2 + bassPulse * 0.8;
         dancer.wigglePhase += dancerWiggleSpeed;
-        dancer.bouncePhase += 0.05 + bassPulse * 0.15;
-        const bouncePx = Math.round(Math.sin(dancer.bouncePhase) * (1 + bassPulse * 2));
+        
+        // NEW: Side to side swimming
+        dancer.bouncePhase += 0.02 + bassPulse * 0.05; 
+        const swimOffset = Math.sin(dancer.bouncePhase) * (15 + bassPulse * 25); 
 
         // ---- NEW: Dancer bubbles ----
         // Spawn bubbles from the dancer's mouth on strong bass
@@ -2140,10 +2142,14 @@
             ctx.fill();
         }
 
+                // Make the fish face the direction it's swimming
+        if (swimOffset > 2) dancer.facing = 1;
+        if (swimOffset < -2) dancer.facing = -1;
+
         drawPixelFish(
             ctx,
-            Math.round(w * 0.5),
-            Math.round(h * 0.62) + bouncePx * pxUnit,
+            Math.round(w * 0.5 + swimOffset), // <-- Moves left and right
+            Math.round(h * 0.62),             // <-- Stays on the same line
             pxUnit,
             dancer.facing,
             dancer.wigglePhase,
@@ -2152,29 +2158,54 @@
             true
         );
 
-        // ---- JELLYFISH ----
+                // ---- JELLYFISH (Pixel) ----
         const jf = state.jellyfish;
         jf.xT += jf.dir * jf.speed * (1 + bassPulse);
         if (jf.xT > 1.1) { jf.xT = -0.1; jf.dir = -1; } // loop
         if (jf.xT < -0.1) { jf.xT = 1.1; jf.dir = 1; }
         
         jf.bobPhase += 0.01 + bassPulse * 0.03;
-        const jfY = h * 0.3 + Math.sin(jf.bobPhase) * 10;
-        const jfX = w * jf.xT;
+        const jfY = Math.floor(h * 0.25 + Math.sin(jf.bobPhase) * 8);
+        const jfX = Math.floor(w * jf.xT);
 
-        // Draw Jellyfish (translucent, pixel-ish but soft)
-        ctx.fillStyle = isDay ? 'rgba(150, 150, 220, 0.3)' : 'rgba(180, 130, 255, 0.25)';
-        ctx.beginPath();
-        ctx.arc(jfX, jfY, 8 + bassPulse * 4, Math.PI, 0);
-        ctx.fill();
-        // Jelly tentacles
-        ctx.strokeStyle = isDay ? 'rgba(150, 150, 220, 0.2)' : 'rgba(180, 130, 255, 0.2)';
-        ctx.lineWidth = 1;
-        for (let i = -2; i <= 2; i++) {
-            ctx.beginPath();
-            ctx.moveTo(jfX + i * 3, jfY + 2);
-            ctx.lineTo(jfX + i * 4 + Math.sin(state.time * 0.1 + i)*3, jfY + 15);
-            ctx.stroke();
+        // Pixel Jellyfish Sprite (9x8 cells)
+        const jellySprite = [
+            "..JJJJJ..",
+            ".JJJJJJJ.",
+            "JJJJJJJJJ",
+            "JJJ...JJJ",
+            ".J.J.J.J.",
+            "...J.J...",
+            "..J...J..",
+            "...J.J..."
+        ];
+
+        const jStartX = Math.floor(jfX / pxUnit) - 4;
+        const jStartY = Math.floor(jfY / pxUnit) - 4;
+
+        const jellyColor = isDay ? 'rgba(150, 150, 220, 0.5)' : 'rgba(180, 130, 255, 0.4)';
+        const jellyTentacle = isDay ? 'rgba(150, 150, 220, 0.3)' : 'rgba(180, 130, 255, 0.2)';
+
+        for (let r = 0; r < jellySprite.length; r++) {
+            for (let c = 0; c < jellySprite[r].length; c++) {
+                const ch = jellySprite[r][c];
+                if (ch === '.') continue;
+
+                // Jellyfish tentacles sway
+                let xOffset = 0;
+                if (r > 3) {
+                    xOffset = Math.round(Math.sin(state.time * 0.1 + c) * 0.8);
+                }
+
+                // The dome breathes with the bass
+                let yOffset = 0;
+                if (r < 3 && bassPulse > 0.5) {
+                    yOffset = -1; 
+                }
+
+                const color = (r > 3) ? jellyTentacle : jellyColor;
+                px(ctx, jStartX + c + xOffset, jStartY + r + yOffset, pxUnit, color);
+            }
         }
 
         // ---- ANEMONE ----
