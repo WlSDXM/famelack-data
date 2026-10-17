@@ -2035,6 +2035,67 @@
         drawCoralShape(ctx, coralFill, coralOutline);
         ctx.restore();
 
+                // ============================================
+        // LAYER 1.5 — DANCING OCTOPUS (bottom-left)
+        // ============================================
+        // Octopus sits at bottom-left, dances with bass.
+        // All its movement is driven by time + bass energy.
+
+        // Octopus timing
+        state.octoTime = (state.octoTime || 0) + 1;
+        const octoWiggleSpeed = 0.06 + bassPulse * 0.14;
+        const octoBobAmp = 2 + bassPulse * 5;
+        const octoBob = Math.sin(state.octoTime * (0.04 + bassPulse * 0.06)) * octoBobAmp;
+
+        // Lateral shuffle — the whole octopus drifts left/right occasionally
+        const octoShuffle = Math.sin(state.octoTime * 0.008) * 4;
+
+        // Octopus colors — purple tint
+        const octoR = isDay ? 130 : 180;
+        const octoG = isDay ? 90  : 130;
+        const octoB = isDay ? 160 : 220;
+        const octoFill = `rgba(${octoR}, ${octoG}, ${octoB}, 0.45)`;
+        const octoOutline = `rgba(${octoR}, ${octoG}, ${octoB}, 0.85)`;
+
+        ctx.save();
+        ctx.translate(w * 0.12 + octoShuffle, h - 2 + octoBob);
+        drawOctopusShape(ctx, octoFill, octoOutline, state.octoTime, bassPulse);
+        ctx.restore();
+
+        // ============================================
+        // LAYER 1.6 — DANCING ANEMONE (between fish and coral)
+        // ============================================
+        // Small stubby anemone, no tentacles — just a pulsing
+        // rounded body that breathes with the music.
+
+        state.anemoneTime = (state.anemoneTime || 0) + 1;
+
+        // Breathing: the anemone widens and narrows, mostly with bass
+        const anemonePulse = Math.sin(state.anemoneTime * (0.08 + bassPulse * 0.15)) * 0.5 + 0.5;
+        // Width factor: 0.85 to 1.15
+        const anemoneWidthScale = 0.85 + anemonePulse * 0.3 + bassPulse * 0.15;
+        // Height factor: 0.9 to 1.1
+        const anemoneHeightScale = 1.05 - anemonePulse * 0.15 + bassPulse * 0.1;
+
+        // Gentle sway left/right
+        const anemoneSway = Math.sin(state.anemoneTime * 0.02 + 1.2) * 2;
+        // Vertical bob
+        const anemoneBob = Math.sin(state.anemoneTime * 0.05 + 2.5) * 1.5;
+
+        // Deep orange color
+        const anemR = isDay ? 200 : 255;
+        const anemG = isDay ? 80  : 110;
+        const anemB = isDay ? 40  : 50;
+        const anemoneFill = `rgba(${anemR}, ${anemG}, ${anemB}, 0.55)`;
+        const anemoneOutline = `rgba(${anemR}, ${anemG}, ${anemB}, 0.9)`;
+
+        ctx.save();
+        ctx.translate(w * 0.68 + anemoneSway, h - 1 + anemoneBob);
+        ctx.scale(anemoneWidthScale, anemoneHeightScale);
+        drawAnemoneShape(ctx, anemoneFill, anemoneOutline);
+        ctx.restore();
+        
+
         // ============================================
         // LAYER 2 — SEAWEED (background)
         // ============================================
@@ -2281,6 +2342,114 @@
         ctx.moveTo(1, -20);
         ctx.lineTo(-2, -24);
         ctx.lineWidth = 1.8;
+        ctx.stroke();
+    }
+        // ---- Helper: dancing octopus shape ----
+    // Origin is at the base (bottom-center of the octopus).
+    // Octopus faces forward (viewer sees its eyes).
+    function drawOctopusShape(ctx, fillColor, outlineColor, time, bassPulse) {
+        // ---- Mantle (head) ----
+        // Rounded dome, ~16px wide x 12px tall
+        ctx.beginPath();
+        ctx.moveTo(-8, -8);            // bottom-left of mantle
+        ctx.bezierCurveTo(-8, -18, -4, -22, 0, -22);   // up the left side
+        ctx.bezierCurveTo(4, -22, 8, -18, 8, -8);      // down the right side
+        ctx.closePath();
+        ctx.fillStyle = fillColor;
+        ctx.fill();
+        ctx.strokeStyle = outlineColor;
+        ctx.lineWidth = 1.2;
+        ctx.stroke();
+
+        // ---- Eyes ----
+        ctx.beginPath();
+        ctx.arc(-3, -13, 1.1, 0, Math.PI * 2);
+        ctx.arc(3, -13, 1.1, 0, Math.PI * 2);
+        ctx.fillStyle = outlineColor;
+        ctx.fill();
+
+        // ---- Tentacles ----
+        // 6 tentacles fanning out from the bottom of the mantle.
+        // Each has a phase offset so they wave independently.
+        const tentacleCount = 6;
+        const baseY = -8;
+
+        for (let i = 0; i < tentacleCount; i++) {
+            const t = i / (tentacleCount - 1);   // 0..1 across tentacles
+            // Starting X spread: -7 to +7
+            const startX = -7 + t * 14;
+            // Each tentacle has its own phase (0, 0.8, 1.6, etc.)
+            const phase = i * 0.9;
+            // Wiggle speed is slower than the fish tail — smoother
+            const wiggle = Math.sin(time * 0.08 + phase) * (0.6 + bassPulse * 1.2);
+
+            // Length varies: outer tentacles a bit longer
+            const length = 8 + Math.abs(t - 0.5) * 4;
+
+            // End point: spread out, wiggle sideways
+            const endX = startX * 1.2 + wiggle * 3;
+            const endY = baseY + length;
+
+            // Mid control point for a soft curve
+            const midX = startX * 1.1 + wiggle * 1.5;
+            const midY = baseY + length * 0.5;
+
+            ctx.beginPath();
+            ctx.moveTo(startX, baseY);
+            ctx.quadraticCurveTo(midX, midY, endX, endY);
+            ctx.strokeStyle = outlineColor;
+            ctx.lineWidth = 1.8;
+            ctx.lineCap = 'round';
+            ctx.stroke();
+
+            // Small rounded tip at the end of each tentacle
+            ctx.beginPath();
+            ctx.arc(endX, endY, 0.9, 0, Math.PI * 2);
+            ctx.fillStyle = outlineColor;
+            ctx.fill();
+        }
+    }
+
+    // ---- Helper: dancing anemone shape ----
+    // Origin is at the base (bottom-center of the anemone).
+    // Small stubby round body, no tentacles.
+    function drawAnemoneShape(ctx, fillColor, outlineColor) {
+        // ---- Body ----
+        // A soft dome/blob shape, roughly 12px wide x 10px tall.
+        // Feels like a small sea anemone stub.
+
+        ctx.beginPath();
+        ctx.moveTo(-6, 0);              // bottom-left
+        ctx.bezierCurveTo(-7, -4, -6, -9, -3, -11);    // left side up
+        ctx.bezierCurveTo(-1, -12, 1, -12, 3, -11);    // rounded top
+        ctx.bezierCurveTo(6, -9, 7, -4, 6, 0);         // right side down
+        ctx.closePath();
+        ctx.fillStyle = fillColor;
+        ctx.fill();
+        ctx.strokeStyle = outlineColor;
+        ctx.lineWidth = 1.2;
+        ctx.stroke();
+
+        // ---- Top ridges ----
+        // Three small bumps along the top so it reads as an anemone
+        // (not just a random blob). Sort of like the "mouth" or "fringe."
+        for (let i = -1; i <= 1; i++) {
+            const cx = i * 3;
+            const cy = -11 + Math.abs(i) * 0.8;
+
+            ctx.beginPath();
+            ctx.arc(cx, cy, 1.2, 0, Math.PI * 2);
+            ctx.fillStyle = outlineColor;
+            ctx.fill();
+        }
+
+        // ---- Subtle inner highlight ----
+        // A thin lighter arc across the upper-left of the body
+        // to hint at volume.
+        ctx.beginPath();
+        ctx.arc(-1, -6, 4, Math.PI * 1.1, Math.PI * 1.7);
+        ctx.strokeStyle = `rgba(255, 255, 255, 0.25)`;
+        ctx.lineWidth = 0.8;
         ctx.stroke();
     }
 
