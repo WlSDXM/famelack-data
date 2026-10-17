@@ -2368,31 +2368,28 @@
         }
     }
 
-        // ---- Pixel octopus (Detailed, chunky) ----
+            // ---- Pixel octopus  ----
     function drawPixelOctopus(ctx, centerX, baseY, unit, fillColor, darkColor, time, bassPulse) {
-        // Scale up the pixels slightly for a bigger, chunkier sprite
-        const scaleUnit = unit * 1.5;
-        
         // Origin: base of octopus (bottom-center)
-        const startX = Math.floor(centerX / scaleUnit) - 6; // 12 cells wide
-        const startY = Math.floor(baseY / scaleUnit) - 10;  // 10 cells tall
+        const startX = Math.floor(centerX / unit) - 6;
+        const startY = Math.floor(baseY / unit) - 11;
 
         const fill = rgba(fillColor, 0.85);
         const dark = rgba(darkColor, 0.95);
 
-        // Detailed sprite, using chunky pixels
-        // F = fill, D = dark outline, E = eye, . = empty
+        // Classic 13x11 chunky octopus
         const sprite = [
-            "...FFFFFF...",
-            "..FFFFFFFF..",
-            ".FFFDDDDFFF.",
-            "FFFDDEDDFFF.",
-            "FFFDDDDDFFF.",
-            "FFFFDDDFFF..",
-            "..FFFDFFF...",
-            ".FFFFDFFFF..",
-            "FF.FF.FF.FF.",
-            "F..F...F..F."
+            "....FFFFFF...",
+            "..FFFFFFFFFF.",
+            ".FFFDDDDDFFF.",
+            "FFFDDEDDEDFFF",
+            "FFFDDDDDDDFFF",
+            "FFFFDDDDDFFF.",
+            ".FFFFDDDFFF..",
+            "..FFFDDDFFF..",
+            ".FF.FFF.FFF..",
+            "FF..FF..FF.F.",
+            "F...F....F..F"
         ];
 
         const wiggleAmp = bassPulse;
@@ -2404,9 +2401,9 @@
                 if (ch === '.') continue;
 
                 let xOffset = 0;
-                if (row >= 7) {
-                    // Wavy tentacles
-                    const phase = col * 0.9;
+                if (row >= 8) {
+                    // Tentacle wiggle
+                    const phase = col * 0.8;
                     xOffset = Math.round(Math.sin(time * 0.08 + phase) * wiggleAmp);
                 }
 
@@ -2418,7 +2415,7 @@
                 else if (ch === 'D') color = dark;
                 else color = fill;
 
-                px(ctx, finalX, finalY, scaleUnit, color);
+                px(ctx, finalX, finalY, unit, color);
             }
         }
     }
