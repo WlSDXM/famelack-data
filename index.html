@@ -3242,27 +3242,30 @@
             reader.readAsText(file);
         });
     })();
-    // ============ TRUE MILKDROP (WEBGL) ============
+
+    
+        // ============ TRUE MILKDROP (WEBGL) ============
     let gl = null;
     let milkdropProgram = null;
     let milkdropTexture = null;
+    let milkdropTexture2 = null;
     let milkdropFramebuffer = null;
+    let milkdropFramebuffer2 = null;
     let milkdropVertexBuffer = null;
     let milkdropTime = 0;
     let milkdropInitialized = false;
+    let pingPong = false;
 
-    // The Shaders (written in GLSL, the language of the GPU)
     const vsSource = `
         attribute vec2 a_position;
         varying vec2 v_texCoord;
         void main() {
-            // Convert screen coordinates to texture coordinates (0 to 1)
             v_texCoord = a_position * 0.5 + 0.5;
             gl_Position = vec4(a_position, 0.0, 1.0);
         }
     `;
 
-            const fsSource = `
+    const fsSource = `
         precision mediump float;
         varying vec2 v_texCoord;
         uniform sampler2D u_texture;
@@ -3275,57 +3278,120 @@
         void main() {
             vec2 uv = v_texCoord - 0.5;
 
-            // --- Warping (Feedback) ---
             float angle = u_time * 0.2;
             float s = sin(angle);
             float c = cos(angle);
             mat2 rotation = mat2(c, -s, s, c);
             uv = rotation * uv;
 
-            // Zoom and twist based on bass
             float zoom = 1.0 - (u_bass * 0.1);
             uv /= zoom;
 
-            // Liquid distortion
             uv.x += sin(uv.y * 8.0 + u_time * 2.0) * 0.05;
             uv.y += cos(uv.x * 8.0 + u_time * 2.0) * 0.05;
 
-            // Sample previous frame
             vec2 texUv = uv + 0.5;
             vec4 color = texture2D(u_texture, texUv);
             
-            // Fade out the trail
             color.rgb *= 0.94; 
 
-            // --- Draw the Waveform ---
             float waveX = v_texCoord.x;
             int index = int(waveX * 127.0);
             float waveY = u_waveform[index];
             
-            // Distance from the center line
             float distanceToLine = abs((v_texCoord.y - 0.5) - (waveY * 0.5));
 
-            // Make the line VERY thick so we can't miss it
             float lineThickness = 0.04 + (u_volume * 0.1);
             float glow = smoothstep(lineThickness, 0.0, distanceToLine);
 
-            // Rainbow colors
             vec3 waveColor;
             waveColor.r = sin(v_texCoord.x * 10.0 + u_time) * 0.5 + 0.5;
             waveColor.g = sin(v_texCoord.x * 10.0 + u_time + 2.0) * 0.5 + 0.5;
             waveColor.b = sin(v_texCoord.x * 10.0 + u_time + 4.0) * 0.5 + 0.5;
 
-            // Add the glowing waveform to the feedback
             color.rgb += waveColor * glow * 1.5;
 
             gl_FragColor = vec4(color.rgb, 1.0);
         }
     `;
 
-            function renderMilkdrop() {
+    function initMilkdrop() {
+        if (milkdropInitialized) return true;
+        
+        const glCanvas = document.getElementById('glCanvas');
+        if (!glCanvas) return false;
+
+        try {
+            gl = glCanvas.getContext('webgl', { alpha: false, preserveDrawingBuffer: true }) || 
+                 glCanvas.getContext('experimental-webgl', { alpha: false, preserveDrawingBuffer: true });
+            
+            if (!gl) throw new Error("WebGL not supported");
+
+            const vertexShader = gl.createShader(gl.VERTEX_SHADER);
+            gl.shaderSource(vertexShader, vsSource);
+            gl.compileShader(vertexShader);
+
+            const fragmentShader = gl.createShader(gl.FRAGMENT_SHADER);
+            gl.shaderSource(fragmentShader, fsSource);
+            gl.compileShader(fragmentShader);
+
+            milkdropProgram = gl.createProgram();
+            gl.attachShader(milkdropProgram, vertexShader);
+            gl.attachShader(milkdropProgram, fragmentShader);
+            gl.linkProgram(milkdropProgram);
+            gl.useProgram(milkdropProgram);
+
+            milkdropVertexBuffer = gl.createBuffer();
+            gl.bindBuffer(gl.ARRAY_BUFFER, milkdropVertexBuffer);
+            const vertices = new Float32Array([
+                -1.0, -1.0,  1.0, -1.0, -1.0,  1.0,
+                -1.0,  1.0,  1.0, -1.0,  1.0,  1.0
+            ]);
+            gl.bufferData(gl.ARRAY_BUFFER, vertices, gl.STATIC_DRAW);
+            
+            const positionLoc = gl.getAttribLocation(milkdropProgram, "a_position");
+            gl.enableVertexAttribArray(positionLoc);
+            gl.vertexAttribPointer(positionLoc, 2, gl.FLOAT, false, 0, 0);
+
+            // Texture 1
+            milkdropTexture = gl.createTexture();
+            gl.bindTexture(gl.TEXTURE_2D, milkdropTexture);
+            gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, glCanvas.width || 800, glCanvas.height || 90, 0, gl.RGBA, gl.UNSIGNED_BYTE, null);
+            gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+            gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+            gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+            gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+
+            milkdropFramebuffer = gl.createFramebuffer();
+            gl.bindFramebuffer(gl.FRAMEBUFFER, milkdropFramebuffer);
+            gl.framebufferTexture2D(gl.FRAMEBUFFER, gl.COLOR_ATTACHMENT0, gl.TEXTURE_2D, milkdropTexture, 0);
+
+            // Texture 2
+            milkdropTexture2 = gl.createTexture();
+            gl.bindTexture(gl.TEXTURE_2D, milkdropTexture2);
+            gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, glCanvas.width || 800, glCanvas.height || 90, 0, gl.RGBA, gl.UNSIGNED_BYTE, null);
+            gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+            gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+            gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+            gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+
+            milkdropFramebuffer2 = gl.createFramebuffer();
+            gl.bindFramebuffer(gl.FRAMEBUFFER, milkdropFramebuffer2);
+            gl.framebufferTexture2D(gl.FRAMEBUFFER, gl.COLOR_ATTACHMENT0, gl.TEXTURE_2D, milkdropTexture2, 0);
+
+            milkdropInitialized = true;
+            return true;
+        } catch (e) {
+            console.warn("MilkDrop (WebGL) failed to initialize, falling back to Bars.", e);
+            currentStyle = 'bars';
+            vizStyleSelect.value = 'bars';
+            return false;
+        }
+    }
+
+    function renderMilkdrop() {
         if (!initMilkdrop()) return;
         
-        // If music is paused, just clear to black and don't animate
         if (!isAudioPlaying) {
             const glCanvas = document.getElementById('glCanvas');
             gl.viewport(0, 0, glCanvas.width, glCanvas.height);
@@ -3343,9 +3409,11 @@
             
             gl.bindTexture(gl.TEXTURE_2D, milkdropTexture);
             gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, glCanvas.width, glCanvas.height, 0, gl.RGBA, gl.UNSIGNED_BYTE, null);
+            
+            gl.bindTexture(gl.TEXTURE_2D, milkdropTexture2);
+            gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, glCanvas.width, glCanvas.height, 0, gl.RGBA, gl.UNSIGNED_BYTE, null);
         }
 
-        // Get Audio Data
         analyser.getByteFrequencyData(freqData);
         let bassSum = 0;
         for (let i = 0; i < 8; i++) bassSum += freqData[i];
@@ -3364,8 +3432,10 @@
 
         milkdropTime += 0.016; 
 
-        // 1. Render to the FEEDBACK TEXTURE
-        gl.bindFramebuffer(gl.FRAMEBUFFER, milkdropFramebuffer);
+        const readTexture = pingPong ? milkdropTexture2 : milkdropTexture;
+        const writeFramebuffer = pingPong ? milkdropFramebuffer : milkdropFramebuffer2;
+
+        gl.bindFramebuffer(gl.FRAMEBUFFER, writeFramebuffer);
         gl.viewport(0, 0, glCanvas.width, glCanvas.height);
         gl.useProgram(milkdropProgram);
         
@@ -3375,15 +3445,16 @@
         gl.uniform2f(gl.getUniformLocation(milkdropProgram, "u_resolution"), glCanvas.width, glCanvas.height);
         gl.uniform1fv(gl.getUniformLocation(milkdropProgram, "u_waveform"), waveformArray);
 
-        gl.bindTexture(gl.TEXTURE_2D, milkdropTexture);
+        gl.bindTexture(gl.TEXTURE_2D, readTexture);
         gl.drawArrays(gl.TRIANGLES, 0, 6);
-        
-        // 2. Render the TEXTURE to the SCREEN
+
+        pingPong = !pingPong;
+
         gl.bindFramebuffer(gl.FRAMEBUFFER, null);
         gl.clearColor(0.0, 0.0, 0.0, 1.0);
         gl.clear(gl.COLOR_BUFFER_BIT);
         
-        gl.bindTexture(gl.TEXTURE_2D, milkdropTexture);
+        gl.bindTexture(gl.TEXTURE_2D, pingPong ? milkdropTexture2 : milkdropTexture);
         gl.drawArrays(gl.TRIANGLES, 0, 6);
     }
     
