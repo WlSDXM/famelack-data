@@ -620,6 +620,61 @@
                 drop-shadow(0 0 1px rgba(0, 220, 200, 0.6))
                 drop-shadow(0 0 3px rgba(0, 220, 200, 0.3));
         }
+
+        /* ============ TV POP-OUT ============ */
+.tv-panel {
+    position: fixed; left: 20px; top: 80px; width: 360px; max-width: 100vw;
+    z-index: 9500; display: none; flex-direction: column; overflow: hidden;
+    background: var(--surface-color); border: 1px solid var(--border-color);
+    border-radius: 10px; box-shadow: 0 12px 40px rgba(0,0,0,0.6);
+}
+.tv-panel.open { display: flex; }
+.tv-bar {
+    display: flex; align-items: center; gap: 6px; padding: 8px 10px;
+    border-bottom: 1px solid var(--border-color); cursor: grab;
+    user-select: none; -webkit-user-select: none; touch-action: none;
+}
+.tv-panel.dragging .tv-bar { cursor: grabbing; }
+.tv-bar-title {
+    flex: 1; font-size: 13px; letter-spacing: 1px; text-transform: uppercase;
+    color: var(--accent-color);
+}
+.tv-bar button {
+    background: none; border: none; color: var(--text-muted); cursor: pointer;
+    font-size: 16px; line-height: 1; padding: 4px 8px; font-family: inherit;
+}
+.tv-bar button:hover { color: var(--accent-color); }
+.tv-body { padding: 10px 10px 24px; }
+.tv-panel.min .tv-body { display: none; }
+.tv-selects { display: flex; flex-direction: column; gap: 8px; margin-bottom: 10px; }
+.tv-panel select { flex: none; width: 100%; }
+.tv-screen {
+    position: relative; aspect-ratio: 16 / 9; background: #000;
+    border-radius: 4px; overflow: hidden;
+}
+.tv-screen video, .tv-screen iframe {
+    position: absolute; inset: 0; width: 100%; height: 100%; border: none;
+}
+.tv-screen iframe { display: none; }
+.tv-msg {
+    position: absolute; inset: 0; display: flex; align-items: center;
+    justify-content: center; text-align: center; padding: 12px;
+    color: #ccc; font-size: 13px; pointer-events: none;
+}
+.tv-msg:empty { display: none; }
+.tv-shield { position: absolute; inset: 0; display: none; z-index: 5; }
+.tv-panel.dragging .tv-shield { display: block; }
+.tv-resize {
+    position: absolute; right: 0; bottom: 0; width: 24px; height: 24px;
+    cursor: nwse-resize; touch-action: none; z-index: 6;
+    background: linear-gradient(135deg, transparent 55%, var(--text-muted) 55%,
+        var(--text-muted) 62%, transparent 62%, transparent 72%,
+        var(--text-muted) 72%, var(--text-muted) 79%, transparent 79%);
+}
+.tv-panel.min .tv-resize { display: none; }
+#tvToggle.active { border-color: var(--accent-color); color: var(--accent-color); }
+
+        
     </style>
 </head>
 <body>
@@ -678,8 +733,7 @@
                         <option value="bars">Bars</option>
                         <option value="wave">Wave</option>
                         <option value="ascii">ASCII</option>
-                        <option value="ansi">ANSI</option>
-                        <option value="dots">Dots</option>
+                        <option value="ansi">ANSI</option>                        
                         <option value="droplet">Droplet</option>
                         <option value="fish">Fish Tank</option>
                         <option value="terrain">Grid</option>                        
@@ -700,13 +754,41 @@
 
 <div class="floating-controls">
     <button id="favoritesToggle" class="floating-btn" title="Favorites menu">⚙</button>
+    <button id="tvToggle" class="floating-btn" title="Open TV">📺</button>
     <button id="themeToggle" class="theme-toggle floating-btn" title="Toggle day/night mode">☾</button>
 </div>
+    
+    <div id="tvPanel" class="tv-panel" aria-hidden="true">
+    <div class="tv-bar" id="tvBar">
+        <span class="tv-bar-title">TV</span>
+        <button id="tvMin" title="Minimize">–</button>
+        <button id="tvClose" title="Close (stops playback)">✕</button>
+    </div>
+    <div class="tv-body">
+        <div class="tv-selects">
+            <select id="tvCountry"><option value="">-- Select a Country --</option></select>
+            <select id="tvChannel" disabled><option value="">-- Select a Channel --</option></select>
+        </div>
+        <div class="tv-screen">
+            <video id="tvVideo" controls autoplay playsinline></video>
+            <iframe id="tvFrame" allow="autoplay; encrypted-media; fullscreen" allowfullscreen></iframe>
+            <div class="tv-msg" id="tvMsg"></div>
+        </div>
+        <div class="cam-nav visible" style="margin-top:10px;">
+            <button id="tvPrev" title="Previous channel">◀</button>
+            <span class="cam-title" id="tvTitle"></span>
+            <button id="tvNext" title="Next channel">▶</button>
+            <button id="tvStar" class="cam-star" title="Save to favorites">★</button>
+        </div>
+    </div>
+    <div class="tv-shield"></div>
+    <div class="tv-resize" id="tvResize" title="Drag to resize"></div>
+</div>    
 
 <div id="favoritesModal" class="modal-backdrop" aria-hidden="true">
     <div class="modal-panel">
         <div class="modal-title">★ Favorites</div>
-        <div class="modal-subtitle">Export / Import your Live &amp; Radio Favorites</div>
+        <div class="modal-subtitle">Export / Import your Live, Radio &amp; TV Favorites</div>
 
         <button id="favExportBtn" class="modal-item">
             <span class="fm-icon">↓</span> Export to file
@@ -3026,6 +3108,7 @@
         const tag = document.activeElement.tagName;
         if (tag === 'INPUT' || tag === 'SELECT' || tag === 'TEXTAREA') return;
         if (e.ctrlKey || e.altKey || e.metaKey) return;
+        if (window.__tvKey && window.__tvKey(e)) return;
 
         switch (e.key) {
             case 'ArrowLeft':
@@ -3112,13 +3195,14 @@
         });
 
         exportBtn.addEventListener('click', async () => {
-            const payload = {
-                version: 1,
-                exported: new Date().toISOString(),
-                app: 'earth',
-                cams: getFavorites(),
-                stations: getRadioFavorites()
-            };
+    const payload = {
+        version: 1,
+        exported: new Date().toISOString(),
+        app: 'earth',
+        cams: getFavorites(),
+        stations: getRadioFavorites(),
+        tv: window.getTVFavorites()
+    };
 
             const json = JSON.stringify(payload, null, 2);
             const filename = `earth-favorites-${new Date().toISOString().slice(0, 10)}.json`;
@@ -3189,6 +3273,17 @@
 
                     const incomingCams = Array.isArray(data.cams) ? data.cams : [];
                     const incomingStations = Array.isArray(data.stations) ? data.stations : [];
+                    const incomingTV = Array.isArray(data.tv) ? data.tv : [];
+const existingTV = window.getTVFavorites();
+const tvIds = new Set(existingTV.map(t => t.id));
+let addedTV = 0;
+incomingTV.forEach(t => {
+    if (!t || !t.id || tvIds.has(t.id)) return;
+    existingTV.push(t);
+    tvIds.add(t.id);
+    addedTV++;
+});
+window.saveTVFavorites(existingTV);
 
                     const existingCams = getFavorites();
                     const existingStations = getRadioFavorites();
@@ -3224,12 +3319,13 @@
                     });
                     buildFavoritesGroup();
                     buildRadioFavoritesGroup();
+                    window.rebuildTVFavorites();
 
                     modal.classList.remove('open');
                     modal.setAttribute('aria-hidden', 'true');
 
-                    if (addedCams || addedStations) {
-                        alert(`Imported ${addedCams} cam${addedCams === 1 ? '' : 's'} and ${addedStations} station${addedStations === 1 ? '' : 's'}.\n\n(Duplicates skipped.)`);
+                    if (addedCams || addedStations || addedTV) {
+    alert(`Imported ${addedCams} cam${addedCams === 1 ? '' : 's'}, ${addedStations} station${addedStations === 1 ? '' : 's'} and ${addedTV} TV channel${addedTV === 1 ? '' : 's'}.\n\n(Duplicates skipped.)`);
                     } else {
                         alert('No new favorites found — everything was already in your list.');
                     }
@@ -3448,6 +3544,340 @@
         gl.bindTexture(gl.TEXTURE_2D, pingPong ? milkdropTexture2 : milkdropTexture);
         gl.drawArrays(gl.TRIANGLES, 0, 6);
     }
+
+    // ============ TV POP-OUT ============
+(function initTV() {
+    const FAV_KEY = 'earth_favoriteTV';
+    const UI_KEY = 'earth_tvPanel';
+    const MIN_W = 280;
+
+    const $ = (id) => document.getElementById(id);
+    const panel = $('tvPanel'), bar = $('tvBar'), toggle = $('tvToggle');
+    const countrySel = $('tvCountry'), channelSel = $('tvChannel');
+    const video = $('tvVideo'), frame = $('tvFrame'), msg = $('tvMsg');
+    const prevBtn = $('tvPrev'), nextBtn = $('tvNext'), starBtn = $('tvStar'), titleEl = $('tvTitle');
+
+    let list = [], idx = 0, hls = null, focused = false;
+
+    // ---------- favorites ----------
+    function getFavs() {
+        try { return JSON.parse(localStorage.getItem(FAV_KEY)) || []; } catch { return []; }
+    }
+    function saveFavs(l) { localStorage.setItem(FAV_KEY, JSON.stringify(l)); }
+    window.getTVFavorites = getFavs;
+    window.saveTVFavorites = saveFavs;
+
+    function updateStar() {
+        const item = list[idx];
+        const isFav = item && getFavs().some(f => f.id === item.nanoid);
+        starBtn.classList.toggle('active', !!isFav);
+        starBtn.title = isFav ? 'Remove from favorites' : 'Save to favorites';
+    }
+
+    // ---------- dropdown ----------
+    function renderChannels() {
+        const keep = channelSel.value;
+        channelSel.innerHTML = '<option value="">-- Select a Channel --</option>';
+
+        const favs = getFavs();
+        if (favs.length) {
+            const g = document.createElement('optgroup');
+            g.label = '★ Favorites';
+            favs.forEach(f => {
+                const o = document.createElement('option');
+                o.value = `fav:${f.id}`;
+                o.textContent = `${f.name} (${f.country.toUpperCase()})`;
+                g.appendChild(o);
+            });
+            channelSel.appendChild(g);
+            const sep = document.createElement('option');
+            sep.disabled = true;
+            sep.textContent = '─────────────────────';
+            sep.className = 'favorites-separator';
+            channelSel.appendChild(sep);
+        }
+
+        const frag = document.createDocumentFragment();
+        list.forEach((ch, i) => {
+            const o = document.createElement('option');
+            o.value = `ch:${i}`;
+            o.textContent = (ch.name || `Channel ${i + 1}`) + (ch.isGeoBlocked ? ' [geo]' : '');
+            frag.appendChild(o);
+        });
+        channelSel.appendChild(frag);
+        channelSel.disabled = list.length === 0 && favs.length === 0;
+        if (keep && channelSel.querySelector(`option[value="${keep}"]`)) channelSel.value = keep;
+    }
+    // used by the import code
+    window.rebuildTVFavorites = renderChannels;
+
+    async function loadCountries() {
+        try {
+            const res = await fetch(`${BASE}/tv/raw/countries_metadata.json`);
+            const data = await res.json();
+            Object.entries(data).forEach(([code, info]) => {
+                if (!info.hasChannels) return;
+                const o = document.createElement('option');
+                o.value = code;
+                o.textContent = `${info.country} (${info.channelCount})`;
+                countrySel.appendChild(o);
+            });
+        } catch (e) { console.error('Failed to load TV countries:', e); }
+    }
+
+    async function loadCountry(code) {
+        const res = await fetch(`${BASE}/tv/raw/countries/${code.toLowerCase()}.json`);
+        const items = await res.json();
+        list = items.filter(i => i.sources && ((i.sources.streams && i.sources.streams[0]) ||
+                                              (i.sources.youtube && i.sources.youtube[0])));
+        idx = 0;
+        renderChannels();
+    }
+
+    // ---------- playback ----------
+    function setMsg(t) { msg.textContent = t || ''; }
+
+    function stopPlayback() {
+        if (hls) { hls.destroy(); hls = null; }
+        video.pause();
+        video.removeAttribute('src');
+        video.load();
+        frame.src = 'about:blank';
+        setMsg('');
+    }
+
+    function play(i) {
+        const item = list[i];
+        if (!item) return;
+        idx = i;
+        stopPlayback();
+        updateNav();
+        updateStar();
+
+        const stream = item.sources.streams && item.sources.streams[0];
+        const yt = item.sources.youtube && item.sources.youtube[0];
+
+        if (stream) {
+            frame.style.display = 'none';
+            video.style.display = 'block';
+            setMsg('Loading…');
+            if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = stream; // Safari / iOS native HLS
+            } else if (window.Hls && Hls.isSupported()) {
+                hls = new Hls();
+                hls.loadSource(stream);
+                hls.attachMedia(video);
+                hls.on(Hls.Events.ERROR, (_, d) => { if (d.fatal) streamFailed(); });
+            } else {
+                streamFailed(); return;
+            }
+            video.play().catch(() => { video.muted = true; video.play().catch(() => {}); });
+        } else if (yt) {
+            video.style.display = 'none';
+            frame.style.display = 'block';
+            frame.src = yt + (yt.includes('?') ? '&' : '?') + 'autoplay=1&mute=1';
+        }
+    }
+
+    function streamFailed() {
+        setMsg('Stream unavailable (offline, geo-blocked or CORS-restricted). Try ▶ for the next channel.');
+    }
+    video.addEventListener('playing', () => setMsg(''));
+    video.addEventListener('error', () => { if (video.getAttribute('src')) streamFailed(); });
+
+    function updateNav() {
+        const item = list[idx];
+        titleEl.textContent = item ? (list.length > 1 ? `${item.name} — ${idx + 1} / ${list.length}` : item.name) : '';
+        prevBtn.disabled = idx <= 0;
+        nextBtn.disabled = idx >= list.length - 1;
+    }
+
+    function go(delta) {
+        const n = idx + delta;
+        if (n < 0 || n >= list.length) return;
+        play(n);
+        channelSel.value = `ch:${n}`;
+    }
+
+    // ---------- events ----------
+    prevBtn.addEventListener('click', () => go(-1));
+    nextBtn.addEventListener('click', () => go(1));
+
+    starBtn.addEventListener('click', () => {
+        const item = list[idx];
+        if (!item) return;
+        const favs = getFavs();
+        const at = favs.findIndex(f => f.id === item.nanoid);
+        if (at >= 0) favs.splice(at, 1);
+        else favs.push({ id: item.nanoid, name: item.name, country: countrySel.value });
+        saveFavs(favs);
+        renderChannels();
+        channelSel.value = `ch:${idx}`;
+        updateStar();
+    });
+
+    countrySel.addEventListener('change', async (e) => {
+        const code = e.target.value;
+        channelSel.innerHTML = '<option value="">-- Select a Channel --</option>';
+        channelSel.disabled = true;
+        list = [];
+        if (!code) { stopPlayback(); updateNav(); return; }
+        try {
+            await loadCountry(code);
+            if (list.length) { channelSel.value = 'ch:0'; play(0); }
+        } catch (err) {
+            console.error('Failed to load TV channels for', code, err);
+            setMsg('Could not load channel list.');
+        }
+    });
+
+    channelSel.addEventListener('change', async (e) => {
+        const v = e.target.value;
+        if (!v) return;
+        if (v.startsWith('ch:')) { play(parseInt(v.slice(3), 10)); return; }
+
+        if (v.startsWith('fav:')) {
+            const fav = getFavs().find(f => f.id === v.slice(4));
+            if (!fav) return;
+            if (fav.country !== countrySel.value) {
+                countrySel.value = fav.country;
+                try { await loadCountry(fav.country); } catch { setMsg('Could not load channel list.'); return; }
+            }
+            const i = list.findIndex(c => c.nanoid === fav.id);
+            if (i >= 0) { channelSel.value = `ch:${i}`; play(i); }
+            else setMsg('That channel is no longer in the list.');
+        }
+    });
+
+    // ---------- open / close / minimize ----------
+    function saveUI() {
+        try {
+            localStorage.setItem(UI_KEY, JSON.stringify({
+                x: parseInt(panel.style.left, 10), y: parseInt(panel.style.top, 10),
+                w: parseInt(panel.style.width, 10),
+                open: panel.classList.contains('open'), min: panel.classList.contains('min')
+            }));
+        } catch {}
+    }
+
+    function clampPosition() {
+        const w = panel.offsetWidth || 360;
+        const maxW = Math.max(MIN_W, window.innerWidth - 10);
+        if (w > maxW) panel.style.width = maxW + 'px';
+        const pw = panel.offsetWidth || w;
+        let x = parseInt(panel.style.left, 10) || 0;
+        let y = parseInt(panel.style.top, 10) || 0;
+        x = Math.max(0, Math.min(x, window.innerWidth - pw));
+        y = Math.max(0, Math.min(y, window.innerHeight - 44)); // title bar always reachable
+        panel.style.left = x + 'px';
+        panel.style.top = y + 'px';
+    }
+
+    function openPanel() {
+        panel.classList.add('open');
+        panel.setAttribute('aria-hidden', 'false');
+        toggle.classList.add('active');
+        toggle.title = 'Close TV';
+        audio.pause(); // pause the radio when TV opens
+        clampPosition();
+        saveUI();
+    }
+
+    function closePanel() {
+        stopPlayback();
+        panel.classList.remove('open');
+        panel.setAttribute('aria-hidden', 'true');
+        toggle.classList.remove('active');
+        toggle.title = 'Open TV';
+        saveUI();
+    }
+
+    toggle.addEventListener('click', () => panel.classList.contains('open') ? closePanel() : openPanel());
+    $('tvClose').addEventListener('click', closePanel);
+    $('tvMin').addEventListener('click', () => { panel.classList.toggle('min'); clampPosition(); saveUI(); });
+
+    // ---------- drag ----------
+    let drag = null;
+    bar.addEventListener('pointerdown', (e) => {
+        if (e.target.closest('button')) return;
+        drag = { dx: e.clientX - panel.offsetLeft, dy: e.clientY - panel.offsetTop };
+        panel.classList.add('dragging');
+        bar.setPointerCapture(e.pointerId);
+    });
+    bar.addEventListener('pointermove', (e) => {
+        if (!drag) return;
+        panel.style.left = (e.clientX - drag.dx) + 'px';
+        panel.style.top = (e.clientY - drag.dy) + 'px';
+        clampPosition();
+    });
+    const endDrag = () => { if (!drag) return; drag = null; panel.classList.remove('dragging'); saveUI(); };
+    bar.addEventListener('pointerup', endDrag);
+    bar.addEventListener('pointercancel', endDrag);
+
+    // ---------- resize (width only; height follows 16:9) ----------
+    const handle = $('tvResize');
+    let rs = null;
+    handle.addEventListener('pointerdown', (e) => {
+        rs = { x: e.clientX, w: panel.offsetWidth };
+        panel.classList.add('dragging');
+        handle.setPointerCapture(e.pointerId);
+        e.preventDefault();
+    });
+    handle.addEventListener('pointermove', (e) => {
+        if (!rs) return;
+        const maxW = Math.min(960, window.innerWidth - panel.offsetLeft);
+        const w = Math.max(MIN_W, Math.min(maxW, rs.w + (e.clientX - rs.x)));
+        panel.style.width = w + 'px';
+    });
+    const endResize = () => { if (!rs) return; rs = null; panel.classList.remove('dragging'); clampPosition(); saveUI(); };
+    handle.addEventListener('pointerup', endResize);
+    handle.addEventListener('pointercancel', endResize);
+
+    window.addEventListener('resize', () => { if (panel.classList.contains('open')) { clampPosition(); saveUI(); } });
+
+    // ---------- keyboard: only active after you've clicked inside the TV panel ----------
+    document.addEventListener('pointerdown', (e) => { focused = panel.contains(e.target); }, true);
+    window.__tvKey = function (e) {
+        if (!focused || !panel.classList.contains('open')) return false;
+        if (e.key === 'ArrowLeft') { e.preventDefault(); go(-1); return true; }
+        if (e.key === 'ArrowRight') { e.preventDefault(); go(1); return true; }
+        if (e.key === ' ' && video.style.display !== 'none') {
+            e.preventDefault();
+            video.paused ? video.play().catch(() => {}) : video.pause();
+            return true;
+        }
+        if (e.key === 'f' || e.key === 'F') {
+            e.preventDefault();
+            const el = video.style.display !== 'none' ? video : frame;
+            if (!document.fullscreenElement) el.requestFullscreen && el.requestFullscreen().catch(() => {});
+            else document.exitFullscreen();
+            return true;
+        }
+        return false;
+    };
+
+    // ---------- restore saved position / size (and open state, without autoplay) ----------
+    (function restore() {
+        let s = {};
+        try { s = JSON.parse(localStorage.getItem(UI_KEY)) || {}; } catch {}
+        const vw = window.innerWidth;
+        const isSmall = vw <= 700;
+        const w = s.w ? s.w : (isSmall ? Math.min(360, vw - 20) : 360);
+        panel.style.width = Math.max(MIN_W, Math.min(w, vw - 10)) + 'px';
+        panel.style.left = (Number.isFinite(s.x) ? s.x : (isSmall ? 10 : Math.max(10, vw - w - 20))) + 'px';
+        panel.style.top = (Number.isFinite(s.y) ? s.y : (isSmall ? 70 : 80)) + 'px';
+        if (s.min) panel.classList.add('min');
+        if (s.open) {
+            panel.classList.add('open');
+            panel.setAttribute('aria-hidden', 'false');
+            toggle.classList.add('active');
+            toggle.title = 'Close TV';
+            clampPosition();
+        }
+    })();
+
+    loadCountries();
+})();
     
     // ============ INIT ============
     loadWebcamCountries();
