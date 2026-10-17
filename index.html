@@ -3262,7 +3262,7 @@
         }
     `;
 
-        const fsSource = `
+            const fsSource = `
         precision mediump float;
         varying vec2 v_texCoord;
         uniform sampler2D u_texture;
@@ -3270,45 +3270,58 @@
         uniform float u_bass;
         uniform float u_volume;
         uniform vec2 u_resolution;
+        uniform float u_waveform[128]; // The audio waveform array
 
         void main() {
-            // Fix the aspect ratio so circles look like circles, not ovals
+            // Fix aspect ratio
             vec2 uv = v_texCoord - 0.5;
             uv.x *= u_resolution.x / u_resolution.y;
 
-            // Rotate and warp
+            // --- Warping (Feedback) ---
             float angle = u_time * 0.2;
             float s = sin(angle);
             float c = cos(angle);
             mat2 rotation = mat2(c, -s, s, c);
             uv = rotation * uv;
 
-            // Zoom in slightly when bass hits
-            float zoom = 1.0 - (u_bass * 0.1); 
+            // Zoom and twist based on bass
+            float zoom = 1.0 + (u_bass * 0.1);
             uv /= zoom;
 
-            // Liquid distortion
-            uv.x += sin(uv.y * 8.0 + u_time * 2.0) * 0.1;
-            uv.y += cos(uv.x * 8.0 + u_time * 2.0) * 0.1;
+            // Swirling distortion
+            uv.x += sin(uv.y * 5.0 + u_time * 2.0) * 0.05;
+            uv.y += cos(uv.x * 5.0 + u_time * 2.0) * 0.05;
 
-            uv += 0.5;
-
-            // Sample previous frame
-            vec4 color = texture2D(u_texture, uv);
+            // Sample the previous frame
+            vec2 texUv = uv + 0.5;
+            vec4 color = texture2D(u_texture, texUv);
             
-            // Fade the trail slightly
-            color.rgb *= 0.96; 
+            // Fade out the trail
+            color.rgb *= 0.95; 
 
-            // --- Swirling Color Generation ---
-            float swirl = sin(v_texCoord.x * 10.0 + v_texCoord.y * 5.0 + u_time * 3.0);
+            // --- Draw the Waveform ---
+            // Map the X coordinate to the waveform array
+            float waveX = v_texCoord.x;
+            int index = int(waveX * 127.0);
             
-            vec3 generatedColor;
-            generatedColor.r = sin(swirl * 3.14159);
-            generatedColor.g = sin(swirl * 3.14159 + 2.094);
-            generatedColor.b = sin(swirl * 3.14159 + 4.188);
+            // Get the waveform height at this X position
+            float waveY = u_waveform[index];
+            
+            // Center the wave on the Y axis
+            float distanceToLine = abs((v_texCoord.y - 0.5) - (waveY * 0.5));
 
-            // Inject the new color, scaling it by the volume
-            color.rgb += generatedColor * (0.02 + u_volume * 0.1);
+            // Draw a glowing line if we are close to the waveform height
+            float lineThickness = 0.02 + (u_volume * 0.05);
+            float glow = smoothstep(lineThickness, 0.0, distanceToLine);
+
+            // Color the line based on the waveform height and time
+            vec3 waveColor;
+            waveColor.r = sin(v_texCoord.x * 10.0 + u_time) * 0.5 + 0.5;
+            waveColor.g = sin(v_texCoord.x * 10.0 + u_time + 2.0) * 0.5 + 0.5;
+            waveColor.b = sin(v_texCoord.x * 10.0 + u_time + 4.0) * 0.5 + 0.5;
+
+            // Add the glowing waveform to the feedback
+            color.rgb += waveColor * glow * 1.5;
 
             gl_FragColor = vec4(color.rgb, 1.0);
         }
@@ -3420,9 +3433,20 @@
         for (let i = 0; i < freqData.length; i++) volSum += freqData[i];
         let vol = (volSum / freqData.length) / 255;
 
+                        // Get the raw audio waveform for the line
+        analyser.getByteTimeDomainData(timeData);
+        
+        // Normalize the waveform to -1 to 1 and put it in an array
+        let waveformArray = new Float32Array(128);
+        let step = Math.floor(timeData.length / 128);
+        for (let i = 0; i < 128; i++) {
+            waveformArray[i] = (timeData[i * step] - 128) / 128.0;
+        }
+
         milkdropTime += 0.016; 
 
         // Clear the framebuffer before drawing the feedback
+        gl.clearColor(0.0, 0.0, 0.0, 1.0);           
         gl.bindFramebuffer(gl.FRAMEBUFFER, milkdropFramebuffer);
         gl.clearColor(0.0, 0.0, 0.0, 1.0);
         gl.clear(gl.COLOR_BUFFER_BIT);
@@ -3435,6 +3459,7 @@
         gl.uniform1f(gl.getUniformLocation(milkdropProgram, "u_bass"), bass);
         gl.uniform1f(gl.getUniformLocation(milkdropProgram, "u_volume"), vol);
         gl.uniform2f(gl.getUniformLocation(milkdropProgram, "u_resolution"), glCanvas.width, glCanvas.height);
+        gl.uniform1fv(gl.getUniformLocation(milkdropProgram, "u_waveform"), waveformArray);
 
         gl.bindTexture(gl.TEXTURE_2D, milkdropTexture);
         gl.drawArrays(gl.TRIANGLES, 0, 6);
