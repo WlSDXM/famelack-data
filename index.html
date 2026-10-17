@@ -1479,18 +1479,18 @@
         const cellW = w / cols;
         const cellH = h / rows;
         
-        // Cap the max radius so dots NEVER touch each other (0.5 is touching, 0.48 leaves a gap)
+       
         const maxRadius = Math.min(cellW, cellH) * 0.48; 
         const minRadius = 0.5;
 
-        // Rebuild smoothing array
+        
         if (!state.smoothed || state.cols !== cols || state.rows !== rows) {
             state.smoothed = new Array(cols * rows).fill(0);
             state.cols = cols;
             state.rows = rows;
         }
 
-        // ---- Compute spectrum energy per column ----
+        
         const usableBins = Math.floor(freqData.length * 0.4);
         const spectrumPerCol = new Array(cols).fill(0);
         const colBinWidth = usableBins / cols;
@@ -1507,7 +1507,7 @@
             for (let j = start; j < end; j++) { sum += freqData[j]; count++; }
             let value = count > 0 ? (sum / count) / 255 : 0;
 
-            // Compress the audio value so bass doesn't instantly max out the dots
+            
             value = Math.pow(value, 0.8); 
             spectrumPerCol[c] = value;
         }
@@ -1535,13 +1535,13 @@
                 const smoothed = current + (rawValue - current) * smoothing;
                 state.smoothed[i] = smoothed;
 
-                // Create a diagonal gradient (top-left to bottom-right)
+                
                 const spatialGradient = (r / rows) * 0.25 + (c / cols) * 0.25;
 
-                // MOVEMENT: Add a time-based phase offset to make the dots wave vertically
+                
                 const wavePhase = Math.sin(r * 0.2 - performance.now() * 0.002) * 0.15;
 
-                // Combine audio + spatial gradient + wave movement
+                
                 const combinedValue = (smoothed + spatialGradient + wavePhase);
 
                 const threshold = bayer[r % 4][c % 4] / 16.0;
@@ -1562,14 +1562,13 @@
                 const x = c * cellW + cellW / 2;
                 const y = r * cellH + cellH / 2;
 
-                // ---- 3-Color Gradient Logic ----
-                // 1. Vertical position (0 at top, 1 at bottom)
+                
                 const posY = r / rows; 
                 
-                // 2. Audio intensity (0 to 1)
+                
                 const intensity = Math.min(1, smoothed * 1.5);
 
-                // 3. Color Mapping
+                
                 let hue;
                 
                 if (isDay) {
@@ -1579,11 +1578,11 @@
                     // Night mode: Dark Blue (Base) -> Lavender (Middle) -> Purple (Top)
                     if (posY > 0.5) {
                         // Bottom half: Dark Blue (230) shifting to Lavender (270)
-                        const localT = (posY - 0.5) * 2; // 0 at middle, 1 at bottom
+                        const localT = (posY - 0.5) * 2;
                         hue = 270 - (localT * 40);
                     } else {
                         // Top half: Lavender (270) shifting to Purple (290)
-                        const localT = posY * 2; // 0 at top, 1 at middle
+                        const localT = posY * 2; 
                         hue = 290 - (localT * 20);
                     }
                     
@@ -1605,11 +1604,11 @@
     }
 
 
-                // ============ TERRAIN VISUALIZER (3D MESH RIPPLE) ============
+                    // ============ TERRAIN VISUALIZER (3D MESH RIPPLE) ============
     if (!window.__terrainState) {
         window.__terrainState = {
-            cols: 35,   // Grid width
-            rows: 22,   // Grid depth
+            cols: 35,   
+            rows: 22,   
             time: 0
         };
     }
@@ -1622,18 +1621,18 @@
         const cols = state.cols;
         const rows = state.rows;
 
-        // Slowly drift the ripple
-        state.time += 0.04;
+        // Speed of the ripple flow
+        state.time += 0.05;
 
         // Perspective constants
         const fov = 500;
-        const tilt = 1.2;     // How much the grid tilts backwards
+        const tilt = 1.2;      
         const spacingX = 22;
         const spacingZ = 22;
-        const baseY = h * 0.6; // Vertical center of the grid
+        const baseY = h * 0.6; 
 
         // Audio analysis
-        const usableBins = Math.floor(freqData.length * 0.4);
+        const usableBins = Math.floor(freqData.length * 0.5); 
         let peak = 0.15;
         for (let j = 0; j < usableBins; j++) {
             if (freqData[j] > peak) peak = freqData[j];
@@ -1646,31 +1645,35 @@
         for (let z = 0; z < rows; z++) {
             grid[z] = [];
             
-            // Center the Z axis (depth)
             const worldZ = (z - rows / 2) * spacingZ;
 
             for (let x = 0; x < cols; x++) {
-                // Center the X axis (width)
                 const worldX = (x - cols / 2) * spacingX;
 
-                // Calculate distance from the center for the circular ripple
+                // Distance from center
                 const dist = Math.sqrt(worldX * worldX + worldZ * worldZ);
                 
-                // Map the distance to a frequency bin (center = bass, edges = treble)
-                const normDist = Math.min(1, dist / 300); 
-                const binIndex = Math.floor(Math.pow(normDist, 1.5) * usableBins);
+                // Map distance to audio bins (center gets bass, edges get highs)
+                const normDist = Math.min(1, dist / 280); 
+                const binIndex = Math.floor(Math.pow(normDist, 1.3) * usableBins); 
 
                 let audioValue = (freqData[binIndex] / 255) / peak;
-                audioValue = Math.pow(audioValue, 1.5);
+                audioValue = Math.pow(audioValue, 1.4);
 
-                // The ripple waves outward from the center
-                const wave = Math.sin(dist * 0.05 - state.time) * 0.5 + 0.5;
+                // ---- MULTI-RIPPLE MATH ----
                 
-                // Height is the audio value multiplied by the wave
-                const worldY = audioValue * 120 * wave;
+                const wave1 = Math.sin(dist * 0.04 - state.time);
+                const wave2 = Math.sin(dist * 0.08 + state.time * 1.5) * 0.5;
+                const wave3 = Math.sin(worldX * 0.05 + worldZ * 0.05) * 0.3; 
+                
+                // Combine the waves (0.5 to 1.5 range)
+                const combinedWave = (wave1 + wave2 + wave3) * 0.5 + 0.5;
+
+                // Height calculation
+                const centerBoost = 1 - Math.pow(normDist, 1.5); 
+                const worldY = audioValue * 140 * combinedWave * (centerBoost * 0.8 + 0.2);
 
                 // --- 3D Projection ---
-                // Tilt the Y axis into the Z axis to fake a camera looking down
                 const camY = worldY * Math.cos(tilt) - worldZ * Math.sin(tilt);
                 const camZ = worldY * Math.sin(tilt) + worldZ * Math.cos(tilt) + 400;
 
@@ -1678,14 +1681,13 @@
                 const screenX = w / 2 + worldX * scale;
                 const screenY = baseY + camY * scale;
 
-                // Fade out the edges
                 const alpha = Math.max(0, 1 - normDist * 0.8);
 
                 grid[z][x] = {
                     x: screenX,
                     y: screenY,
                     alpha: alpha,
-                    intensity: audioValue
+                    intensity: audioValue * combinedWave 
                 };
             }
         }
@@ -1698,9 +1700,11 @@
                 const p = grid[z][x];
                 if (!p) continue;
 
-                // Color: Deep purple when quiet, shifting to Cyan/White when loud
-                const hue = 280 - (p.intensity * 120);
+                // Color: Deep purple (280) to Cyan (180) based on intensity
+                const hue = 280 - (p.intensity * 100);
                 const lightness = isDay ? 40 : 60 + p.intensity * 30;
+                
+                // Make the lines slightly transparent based on distance
                 ctx.strokeStyle = `hsla(${hue}, 100%, ${lightness}%, ${p.alpha})`;
 
                 // Draw line to the RIGHT (X axis)
@@ -2073,9 +2077,9 @@
             dancer: null,
             swimmers: null,
             bubbles: null,
-            dancerBubbles: [], // New
-            crab: null,        // New
-            jellyfish: null,   // New
+            dancerBubbles: [], 
+            crab: null,        
+            jellyfish: null,   
             diver: null,
             lastW: 0,
             lastH: 0
@@ -2125,17 +2129,17 @@
             
             // Crab state
             state.crab = {
-                xT: 0.35,       // starting position (between octopus and anemone)
-                dir: 1,         // moving right
+                xT: 0.35,       
+                dir: 1,         
                 speed: 0.002,
                 wiggle: 0
             };
 
             // Jellyfish state
             state.jellyfish = {
-                xT: 0.8,        // right side
-                yT: 0.3,        // in the upper water
-                dir: -1,        // drifting left
+                xT: 0.8,        
+                yT: 0.3,        
+                dir: -1,        
                 speed: 0.0005,
                 bobPhase: 0
             };
@@ -2147,7 +2151,7 @@
                 xT: 0.1,
                 yT: 0.45,
                 dir: 1,
-                speed: 0.0008, // slowly swims across
+                speed: 0.0008, 
                 bobPhase: 0
             };
         }
@@ -2158,7 +2162,7 @@
         const tintR = isDay ? 80 : 8;
         const tintG = isDay ? 140 : 20;
         const tintB = isDay ? 180 : 60;
-        const tintAlpha = isDay ? 0.15 : 0.30; // Darker: 30% opacity at night
+        const tintAlpha = isDay ? 0.15 : 0.30; 
 
         ctx.save();
         ctx.globalCompositeOperation = 'source-over';
@@ -2186,8 +2190,7 @@
         const decorOrange = isDay ? [200, 90, 40] : [255, 140, 60];
         const decorDark = isDay ? [120, 50, 20] : [180, 80, 30];
 
-        // ---- NEW: Sun Ray / Light Beam ----
-        // Faint diagonal translucent stripe from top-left
+        // ---- Sun Ray / Light Beam ----
         const rayGrad = ctx.createLinearGradient(0, 0, w * 0.6, h);
         rayGrad.addColorStop(0, isDay ? 'rgba(255, 255, 255, 0.15)' : 'rgba(180, 230, 255, 0.08)');
         rayGrad.addColorStop(1, 'rgba(0, 0, 0, 0)');
@@ -2200,7 +2203,7 @@
         ctx.closePath();
         ctx.fill();
 
-        // ---- NEW: Water Surface at the top ----
+        // ---- Water Surface at the top ----
         const surfaceY = 4 + Math.sin(state.time * 0.05) * 2;
         ctx.strokeStyle = isDay ? 'rgba(80, 150, 200, 0.5)' : 'rgba(100, 180, 255, 0.4)';
         ctx.lineWidth = 1.5;
@@ -2211,7 +2214,7 @@
         }
         ctx.stroke();
 
-                // ---- Static Decor: Seashells & Starfish ----
+        // ---- Static Decor: Seashells & Starfish ----
         const shellColor = rgba(decorOrange, 0.7);
         const shellX = Math.floor(w * 0.78) / pxUnit;
         const shellY = Math.floor(h) / pxUnit;
@@ -2265,7 +2268,7 @@
             dancer.flipTimer = 0;
         }
 
-                // Slow, steady swimming pace
+        // Slow, steady swimming pace
         const dancerWiggleSpeed = 0.15;
         dancer.wigglePhase += dancerWiggleSpeed;
         
@@ -2302,7 +2305,7 @@
             ctx.fill();
         }
 
-                // Make the fish face the direction it's swimming
+        // Make the fish face the direction it's swimming
         if (swimOffset > 2) dancer.facing = 1;
         if (swimOffset < -2) dancer.facing = -1;
 
@@ -2325,7 +2328,7 @@
         if (jf.xT < -0.1) { jf.xT = 1.1; jf.dir = 1; }
         
         jf.bobPhase += 0.01 + bassPulse * 0.03;
-        // Round the Y position ONCE, then divide by pxUnit
+        
         const jfY = h * 0.3 + Math.sin(jf.bobPhase) * 10;
         const jfX = w * jf.xT;
 
@@ -2403,15 +2406,15 @@
         
         // Draw using exact pixel sizes instead of floating point math
         const cw = pxUnit;
-        ctx.fillRect(-2 * cw, -1.5 * cw, 4 * cw, 1.5 * cw); // Body
-        ctx.fillRect(-1.5 * cw, -2 * cw, 3 * cw, 0.5 * cw); // Top shell
+        ctx.fillRect(-2 * cw, -1.5 * cw, 4 * cw, 1.5 * cw); 
+        ctx.fillRect(-1.5 * cw, -2 * cw, 3 * cw, 0.5 * cw); 
 
         const legWiggle = Math.sin(crab.wiggle) > 0 ? 1 : 0;
-        ctx.fillRect(-2.5 * cw, -0.5 * cw + legWiggle * cw, 0.5 * cw, 1 * cw); // Left leg
-        ctx.fillRect(2 * cw, -0.5 * cw - legWiggle * cw, 0.5 * cw, 1 * cw);  // Right leg
+        ctx.fillRect(-2.5 * cw, -0.5 * cw + legWiggle * cw, 0.5 * cw, 1 * cw); 
+        ctx.fillRect(2 * cw, -0.5 * cw - legWiggle * cw, 0.5 * cw, 1 * cw);  
         
-        ctx.fillRect(-1 * cw, -1.5 * cw - legWiggle * cw, 0.5 * cw, 0.5 * cw); // Claw
-        ctx.fillRect(0.5 * cw, -1.5 * cw + legWiggle * cw, 0.5 * cw, 0.5 * cw);  // Claw
+        ctx.fillRect(-1 * cw, -1.5 * cw - legWiggle * cw, 0.5 * cw, 0.5 * cw); 
+        ctx.fillRect(0.5 * cw, -1.5 * cw + legWiggle * cw, 0.5 * cw, 0.5 * cw);  
         
         // Eyes
         ctx.fillStyle = '#000';
@@ -2485,7 +2488,7 @@
             ctx,
             w * 0.12 + octoShuffle,
             h + 2 + octoBobPx * pxUnit,
-            pxUnit * 1.8, // <-- Big, chunky size
+            pxUnit * 1.8, 
             octoFill,
             octoDark,
             state.time,
@@ -2579,8 +2582,8 @@
         }
     }
 
-            // ---- Pixel octopus  ----
-    function drawPixelOctopus(ctx, centerX, baseY, unit, fillColor, darkColor, time, bassPulse) {
+        // ---- Pixel octopus  ----
+        function drawPixelOctopus(ctx, centerX, baseY, unit, fillColor, darkColor, time, bassPulse) {
         // Origin: base of octopus (bottom-center)
         const startX = Math.floor(centerX / unit) - 6;
         const startY = Math.floor(baseY / unit) - 11;
