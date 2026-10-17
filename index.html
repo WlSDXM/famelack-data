@@ -1605,14 +1605,12 @@
     }
 
 
-            // ============ TERRAIN VISUALIZER (3D WIREFRAME) ============
+                // ============ TERRAIN VISUALIZER (3D MESH RIPPLE) ============
     if (!window.__terrainState) {
         window.__terrainState = {
-            time: 0,
-            cols: 25,   // Grid width
-            rows: 20,   // Grid depth
-            spacingX: 30,
-            spacingZ: 30
+            cols: 35,   // Grid width
+            rows: 22,   // Grid depth
+            time: 0
         };
     }
 
@@ -1621,16 +1619,19 @@
         const state = window.__terrainState;
         const isDay = document.body.classList.contains('day-mode');
 
-        // Move the camera forward over time
-        state.time += 0.05;
-
         const cols = state.cols;
         const rows = state.rows;
 
+        // Slowly drift the ripple
+        state.time += 0.04;
+
         // Perspective constants
-        const fov = h * 1.5;       // Field of view (higher = wider)
-        const horizonY = h * 0.3;  // Where the horizon sits on screen
-        
+        const fov = 500;
+        const tilt = 1.2;     // How much the grid tilts backwards
+        const spacingX = 22;
+        const spacingZ = 22;
+        const baseY = h * 0.6; // Vertical center of the grid
+
         // Audio analysis
         const usableBins = Math.floor(freqData.length * 0.4);
         let peak = 0.15;
@@ -1640,44 +1641,50 @@
         peak /= 255;
 
         const grid = [];
-        const offsetZ = (state.time * state.spacingZ) % state.spacingZ;
 
         // 1. Calculate 3D vertices and project them to 2D
         for (let z = 0; z < rows; z++) {
             grid[z] = [];
             
-            // Calculate 3D Z position (starts at z=1 to avoid dividing by zero)
-            const worldZ = z * state.spacingZ + offsetZ + 10; 
-
-            // Fade out the back rows
-            const depthAlpha = 1 - (z / rows);
+            // Center the Z axis (depth)
+            const worldZ = (z - rows / 2) * spacingZ;
 
             for (let x = 0; x < cols; x++) {
-                // Center the X axis
-                const worldX = (x - cols / 2) * state.spacingX;
+                // Center the X axis (width)
+                const worldX = (x - cols / 2) * spacingX;
 
-                // Map X position to a frequency bin (center gets bass, edges get treble)
-                const distFromCenter = Math.abs(x - cols / 2) / (cols / 2);
-                const binIndex = Math.floor(Math.pow(distFromCenter, 1.5) * usableBins);
+                // Calculate distance from the center for the circular ripple
+                const dist = Math.sqrt(worldX * worldX + worldZ * worldZ);
+                
+                // Map the distance to a frequency bin (center = bass, edges = treble)
+                const normDist = Math.min(1, dist / 300); 
+                const binIndex = Math.floor(Math.pow(normDist, 1.5) * usableBins);
 
                 let audioValue = (freqData[binIndex] / 255) / peak;
-                audioValue = Math.pow(audioValue, 1.5); // Compress
+                audioValue = Math.pow(audioValue, 1.5);
 
-                // The wave height (Y axis). The center column is usually the tallest.
-                const centerBoost = 1 - Math.pow(distFromCenter, 2);
-                const worldY = audioValue * 200 * centerBoost;
+                // The ripple waves outward from the center
+                const wave = Math.sin(dist * 0.05 - state.time) * 0.5 + 0.5;
+                
+                // Height is the audio value multiplied by the wave
+                const worldY = audioValue * 120 * wave;
 
                 // --- 3D Projection ---
-                const scale = fov / worldZ;
+                // Tilt the Y axis into the Z axis to fake a camera looking down
+                const camY = worldY * Math.cos(tilt) - worldZ * Math.sin(tilt);
+                const camZ = worldY * Math.sin(tilt) + worldZ * Math.cos(tilt) + 400;
+
+                const scale = fov / camZ;
                 const screenX = w / 2 + worldX * scale;
-                
-                // Subtract worldY from horizon (higher Y in 3D means higher up on screen)
-                const screenY = horizonY + (200 * scale) - (worldY * scale);
+                const screenY = baseY + camY * scale;
+
+                // Fade out the edges
+                const alpha = Math.max(0, 1 - normDist * 0.8);
 
                 grid[z][x] = {
                     x: screenX,
                     y: screenY,
-                    alpha: depthAlpha * 0.8,
+                    alpha: alpha,
                     intensity: audioValue
                 };
             }
@@ -1691,30 +1698,31 @@
                 const p = grid[z][x];
                 if (!p) continue;
 
-                // Pick color based on audio intensity (Purple to Cyan)
-                // Hue 280 = Purple, 180 = Cyan
-                const hue = 280 - (p.intensity * 100);
-                
-                // In day mode, make the colors darker so they show up on light gray
-                const lightness = isDay ? 40 : 60;
+                // Color: Deep purple when quiet, shifting to Cyan/White when loud
+                const hue = 280 - (p.intensity * 120);
+                const lightness = isDay ? 40 : 60 + p.intensity * 30;
                 ctx.strokeStyle = `hsla(${hue}, 100%, ${lightness}%, ${p.alpha})`;
 
                 // Draw line to the RIGHT (X axis)
-                if (x < cols - 1 && grid[z][x + 1]) {
+                if (x < cols - 1) {
                     const pRight = grid[z][x + 1];
-                    ctx.beginPath();
-                    ctx.moveTo(p.x, p.y);
-                    ctx.lineTo(pRight.x, pRight.y);
-                    ctx.stroke();
+                    if (pRight) {
+                        ctx.beginPath();
+                        ctx.moveTo(p.x, p.y);
+                        ctx.lineTo(pRight.x, pRight.y);
+                        ctx.stroke();
+                    }
                 }
 
                 // Draw line FORWARD (Z axis)
-                if (z < rows - 1 && grid[z + 1][x]) {
+                if (z < rows - 1) {
                     const pForward = grid[z + 1][x];
-                    ctx.beginPath();
-                    ctx.moveTo(p.x, p.y);
-                    ctx.lineTo(pForward.x, pForward.y);
-                    ctx.stroke();
+                    if (pForward) {
+                        ctx.beginPath();
+                        ctx.moveTo(p.x, p.y);
+                        ctx.lineTo(pForward.x, pForward.y);
+                        ctx.stroke();
+                    }
                 }
             }
         }
