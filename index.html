@@ -2282,6 +2282,21 @@
                 px(ctx, startX + finalCol + xOffset, startY + r, pxUnit, color);
             }
         }
+                    // ---- OCTOPUS (Front Layer) ----
+        const octoBobPx = Math.round(Math.sin(state.time * 0.04) * (0.5 + bassPulse * 2));
+        const octoShuffle = Math.sin(state.time * 0.008) * 3;
+
+        drawPixelOctopus(
+            ctx,
+            Math.round(w * 0.12 + octoShuffle),
+            h + 2 + octoBobPx * pxUnit,
+            pxUnit * 1.8, // <-- Big, chunky size
+            octoFill,
+            octoDark,
+            state.time,
+            bassPulse
+        );
+            
         // ---- FLOATING BUBBLES ----
         for (let i = 0; i < state.bubbles.length; i++) {
             const b = state.bubbles[i];
