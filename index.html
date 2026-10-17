@@ -1456,7 +1456,7 @@
         }
     }
 
-        // ============ DOTS VISUALIZER — DITHER EFFECT ============
+            // ============ DOTS VISUALIZER — DITHER EFFECT ============
     if (!window.__dotsState) {
         window.__dotsState = {
             smoothed: null,
@@ -1471,16 +1471,18 @@
         const state = window.__dotsState;
         const isDay = document.body.classList.contains('day-mode');
 
-        // Grid size (higher = more dots)
+        // Grid size
         const cols = 60;
         const rows = 25;
 
         const cellW = w / cols;
         const cellH = h / rows;
-        const maxRadius = Math.min(cellW, cellH) * 0.75; // Dot can get quite big
+        
+        // Cap the max radius so dots NEVER touch each other (0.5 is touching, 0.48 leaves a gap)
+        const maxRadius = Math.min(cellW, cellH) * 0.48; 
         const minRadius = 0.5;
 
-        // Rebuild smoothing array if grid size changed
+        // Rebuild smoothing array
         if (!state.smoothed || state.cols !== cols || state.rows !== rows) {
             state.smoothed = new Array(cols * rows).fill(0);
             state.cols = cols;
@@ -1504,7 +1506,8 @@
             for (let j = start; j < end; j++) { sum += freqData[j]; count++; }
             let value = count > 0 ? (sum / count) / 255 : 0;
 
-            value = Math.pow(value, 0.6);
+            // Compress the audio value so bass doesn't instantly max out the dots
+            value = Math.pow(value, 0.8); 
             spectrumPerCol[c] = value;
         }
 
@@ -1518,7 +1521,6 @@
         const baseG = isDay ? 80 : 120;
         const baseB = isDay ? 255 : 255;
 
-        // ---- Bayer 4x4 Matrix for that classic "dither" pattern ----
         const bayer = [
             [ 0,  8,  2, 10],
             [12,  4, 14,  6],
@@ -1530,34 +1532,31 @@
             for (let c = 0; c < cols; c++) {
                 const i = r * cols + c;
 
-                // 1. Get the audio energy for this column
                 const rawValue = spectrumPerCol[c] / peak;
                 
-                // 2. Smooth the value (fast attack, slow release)
                 const current = state.smoothed[i];
                 const smoothing = rawValue > current ? 0.35 : 0.08;
                 const smoothed = current + (rawValue - current) * smoothing;
                 state.smoothed[i] = smoothed;
 
-                // 3. Create a spatial gradient (diagonal sweep from top-left to bottom-right)
-                // This makes the dither pattern look like a wave of energy moving across the screen
-                const spatialGradient = (r / rows) * 0.3 + (c / cols) * 0.3;
+                // Create a diagonal gradient (top-left to bottom-right)
+                const spatialGradient = (r / rows) * 0.25 + (c / cols) * 0.25;
 
-                // 4. Combine audio + spatial gradient
-                const combinedValue = smoothed + spatialGradient;
+                // MOVEMENT: Add a time-based phase offset to make the dots wave vertically
+                const wavePhase = Math.sin(r * 0.2 - performance.now() * 0.002) * 0.15;
 
-                // 5. Apply the Bayer Dither threshold
-                // We use modulo to make the 4x4 pattern repeat infinitely
+                // Combine audio + spatial gradient + wave movement
+                const combinedValue = (smoothed + spatialGradient + wavePhase);
+
                 const threshold = bayer[r % 4][c % 4] / 16.0;
 
-                // 6. Determine if the dot should be big or small based on threshold
                 let dotRadius = minRadius;
                 
                 if (combinedValue > threshold) {
-                    // Dot is "on" - make its size scale with the audio volume
-                    dotRadius = minRadius + (maxRadius - minRadius) * (0.5 + smoothed * 0.5);
+                    // Dot is "on"
+                    dotRadius = minRadius + (maxRadius - minRadius) * Math.min(1, smoothed * 1.5);
                 } else {
-                    // Dot is "off" - keep it tiny as a background texture
+                    // Dot is "off" (background texture)
                     dotRadius = minRadius;
                 }
 
@@ -1567,8 +1566,7 @@
                 ctx.beginPath();
                 ctx.arc(x, y, dotRadius, 0, Math.PI * 2);
                 
-                // Opacity is higher for the "on" dots
-                const alpha = dotRadius > minRadius + 0.1 ? 0.85 : 0.15;
+                const alpha = dotRadius > minRadius + 0.1 ? 0.9 : 0.2;
                 ctx.fillStyle = `rgba(${baseR}, ${baseG}, ${baseB}, ${alpha})`;
                 ctx.fill();
             }
