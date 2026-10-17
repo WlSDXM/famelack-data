@@ -3433,10 +3433,7 @@
         for (let i = 0; i < freqData.length; i++) volSum += freqData[i];
         let vol = (volSum / freqData.length) / 255;
 
-                        // Get the raw audio waveform for the line
         analyser.getByteTimeDomainData(timeData);
-        
-        // Normalize the waveform to -1 to 1 and put it in an array
         let waveformArray = new Float32Array(128);
         let step = Math.floor(timeData.length / 128);
         for (let i = 0; i < 128; i++) {
@@ -3445,12 +3442,8 @@
 
         milkdropTime += 0.016; 
 
-        // Clear the framebuffer before drawing the feedback
-        gl.clearColor(0.0, 0.0, 0.0, 1.0);           
+        // 1. Render the Feedback Loop (Draw to the hidden texture)
         gl.bindFramebuffer(gl.FRAMEBUFFER, milkdropFramebuffer);
-        gl.clearColor(0.0, 0.0, 0.0, 1.0);
-        gl.clear(gl.COLOR_BUFFER_BIT);
-        
         gl.viewport(0, 0, glCanvas.width, glCanvas.height);
         gl.useProgram(milkdropProgram);
         
@@ -3464,10 +3457,11 @@
         gl.bindTexture(gl.TEXTURE_2D, milkdropTexture);
         gl.drawArrays(gl.TRIANGLES, 0, 6);
         
-        // Draw to the screen
+        // 2. Draw the texture to the screen (with a clear first!)
         gl.bindFramebuffer(gl.FRAMEBUFFER, null);
         gl.clearColor(0.0, 0.0, 0.0, 1.0);
         gl.clear(gl.COLOR_BUFFER_BIT);
+        
         gl.bindTexture(gl.TEXTURE_2D, milkdropTexture);
         gl.drawArrays(gl.TRIANGLES, 0, 6);
     }
