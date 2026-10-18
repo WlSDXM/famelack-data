@@ -412,7 +412,7 @@
     "name": "Dolphin Watch, New Quay",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/OZbq0AaIXig"
+        "https://www.youtube-nocookie.com/embed/sZ-kIl2cA5E"
       ]
     },
     "languages": [],
@@ -568,7 +568,7 @@
     "name": "Hawick High Street",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ycyoUVF_7TM"
+        "https://www.youtube-nocookie.com/embed/CPKsP3nHkF0"
       ]
     },
     "languages": [],
@@ -700,7 +700,7 @@
     "name": "London Heathrow Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/s44UdEa6KL0"
+        "https://www.youtube-nocookie.com/embed/tY-FFLw8tsw"
       ]
     },
     "languages": [],
@@ -844,7 +844,7 @@
     "name": "Osprey Nest Loch of the Lowes",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/mdahTGKHcCE"
+        "https://www.youtube-nocookie.com/embed/Puq8NKPnNlo"
       ]
     },
     "languages": [],
@@ -1384,7 +1384,31 @@
     "name": "West Kirby Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/E80CeI-0-Go"
+        "https://www.youtube-nocookie.com/embed/K7Hw0N5nklg"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "XW8ccwzvWKRBci",
+    "name": "West Somerset Railway at Watchet - Cam 1",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/KYsuunnOCIg"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "cggRmZSPrjy0rE",
+    "name": "West Somerset Railway at Watchet - Cam 2",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/AT3eAf-IB0w"
       ]
     },
     "languages": [],

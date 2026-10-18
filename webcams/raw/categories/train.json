@@ -24,6 +24,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "efhGAQpqwhNUYZ",
+    "name": "Akabane Station",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Mbr6qdr2XPM"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "no0BOq0PiUmV5h",
     "name": "Akita Station Square",
     "sources": {
@@ -2284,7 +2296,7 @@
     "name": "Meitetsu Tokoname Line Ono-machi",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/a4_lN0akiPo"
+        "https://www.youtube-nocookie.com/embed/33OZl6kphHQ"
       ]
     },
     "languages": [],
@@ -2596,7 +2608,7 @@
     "name": "Nevada Trainspotting at the Grade Crossing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/zjisPq3vrrU"
+        "https://www.youtube-nocookie.com/embed/sAmTSmuIk7U"
       ]
     },
     "languages": [],
@@ -3412,7 +3424,7 @@
     "name": "St Louis",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/h19fX6yYkHc"
+        "https://www.youtube-nocookie.com/embed/rgbz-vJsaGg"
       ]
     },
     "languages": [],
@@ -3544,7 +3556,7 @@
     "name": "Tehachapi Railroad",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/yVfFVNmE0LE"
+        "https://www.youtube-nocookie.com/embed/Inq-RVJLb_o"
       ]
     },
     "languages": [],
@@ -3837,6 +3849,30 @@
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "XW8ccwzvWKRBci",
+    "name": "West Somerset Railway at Watchet - Cam 1",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/KYsuunnOCIg"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "cggRmZSPrjy0rE",
+    "name": "West Somerset Railway at Watchet - Cam 2",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/AT3eAf-IB0w"
+      ]
+    },
+    "languages": [],
+    "country": "uk",
     "isGeoBlocked": false
   },
   {

@@ -2708,6 +2708,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "E04RKOUYWLxfud",
+    "name": "Bob Ross",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/FZAxBA4BxYU"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "qjlcw1flQxD6UO",
     "name": "Bold and the Beautiful",
     "sources": {
@@ -2752,7 +2766,7 @@
     "name": "Botflix aiTV: Pleasant Programming",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/TlGQqESctls"
+        "https://www.youtube-nocookie.com/embed/n2pXyIbha88"
       ]
     },
     "languages": [
@@ -2766,7 +2780,7 @@
     "name": "Botflix aiTV: Robot Radioo",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/tRRIgkokEjo"
+        "https://www.youtube-nocookie.com/embed/XchujZ3SzOs"
       ]
     },
     "languages": [
@@ -2780,7 +2794,7 @@
     "name": "Botflix aiTV: Robot TV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/RX6SgN8APEQ"
+        "https://www.youtube-nocookie.com/embed/l7GBaRz90o4"
       ]
     },
     "languages": [
@@ -2794,7 +2808,7 @@
     "name": "Botflix aiTV: VH010",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/a8amJAH-TJI"
+        "https://www.youtube-nocookie.com/embed/aIqNAYqyWWk"
       ]
     },
     "languages": [
@@ -2869,20 +2883,6 @@
       ]
     },
     "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "LHPz1aKU2GRHnH",
-    "name": "Brevard Government Access TV",
-    "sources": {
-      "streams": [
-        "https://cdn3.wowza.com/5/cXdyRHF0Z3kxN0k2/brevardfl/G2111_002/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
     "country": "us",
     "isGeoBlocked": false
   },
@@ -3245,6 +3245,7 @@
     "name": "Cartoon Network [Not 24/7;Geo-blocked]",
     "sources": {
       "streams": [
+        "https://tvsen7.aynascope.net/cartoonnetwork/index.m3u8",
         "https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_1928000.m3u8"
       ]
     },
@@ -3656,20 +3657,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "xIwhqLk3kSoWQX",
-    "name": "CFM TV Channel 98",
-    "sources": {
-      "streams": [
-        "https://cdn3.wowza.com/5/djRwZmQvTEJidmZD/cityftmyers/G2083_002/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "8h6KOJsz3bPpts",
     "name": "CGTV",
     "sources": {
@@ -3933,8 +3920,8 @@
     "sources": {
       "streams": [
         "https://amg00432-circletvfast-amg00432c1-cineverse-us-1112.playouts.now.amagi.tv/playlist/amg00432-circletv-circletv-cineverseus/playlist.m3u8",
-        "https://circle-roku.amagi.tv/playlist.m3u8",
-        "https://circle-xumo.amagi.tv/playlist.m3u8"
+        "https://circle-xumo.amagi.tv/playlist.m3u8",
+        "https://circle-samsung.amagi.tv/playlist.m3u8"
       ]
     },
     "languages": [
@@ -4307,20 +4294,6 @@
     "isGeoBlocked": true
   },
   {
-    "nanoid": "6FLFfPAcHyrZYX",
-    "name": "CNN",
-    "sources": {
-      "streams": [
-        "https://tvsen6.aynaott.com/cnn/index.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": true
-  },
-  {
     "nanoid": "Wtyq7SimFUgv5A",
     "name": "CNN en Espanol",
     "sources": {
@@ -4606,9 +4579,9 @@
     "name": "Court TV",
     "sources": {
       "streams": [
-        "https://content.uplynk.com/channel/6c0bd0f94b1d4526a98676e9699a10ef.m3u8",
         "https://aegis-cloudfront-1.tubi.video/661c498b-4af0-4ba9-ae1c-4081340ee085/playlist.m3u8",
-        "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-courttv-tablo/playlist.m3u8"
+        "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-courttv-tablo/playlist.m3u8",
+        "https://pb-2rv53xe17yzvq.akamaized.net/Court_TV_US.m3u8"
       ]
     },
     "languages": [
@@ -5483,6 +5456,22 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "U8REylkpG4igqA",
+    "name": "Disney Junior East",
+    "sources": {
+      "streams": [
+        "https://tvsen5.aynascope.net/disney/index.m3u8",
+        "https://tvsen7.aynascope.net/disney/index.m3u8"
+      ]
+    },
+    "languages": [
+      "eng",
+      "spa"
+    ],
+    "country": "us",
+    "isGeoBlocked": true
+  },
+  {
     "nanoid": "VKKpehR0qNSoUY",
     "name": "Disney Junior: Bluey",
     "sources": {
@@ -6347,7 +6336,7 @@
     "name": "Farscape",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/_IKIyKwvBbI"
+        "https://www.youtube-nocookie.com/embed/CsyLdouuV5Q"
       ]
     },
     "languages": [
@@ -6477,6 +6466,21 @@
     },
     "languages": [
       "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "c0yG5xI2YUavP8",
+    "name": "FilAmTV Network",
+    "sources": {
+      "streams": [
+        "https://cdn.vegasplus.us/vegas/ftv/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "eng",
+      "tgl"
     ],
     "country": "us",
     "isGeoBlocked": false
@@ -6646,7 +6650,7 @@
     "name": "Food Network",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/COxo9IfLIds"
+        "https://www.youtube-nocookie.com/embed/q9YfFLlIRhQ"
       ]
     },
     "languages": [
@@ -6819,6 +6823,20 @@
     "languages": [],
     "country": "us",
     "isGeoBlocked": true
+  },
+  {
+    "nanoid": "1jYy0MieRH4RsH",
+    "name": "FOX Sports YT",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/h7xRJ1ACniM"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
   },
   {
     "nanoid": "IP9BtoTfdM66NO",
@@ -7795,9 +7813,9 @@
     "name": "History Hit",
     "sources": {
       "streams": [
-        "https://lds-timeline-plex.amagi.tv/playlist.m3u8",
         "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-timelinenz-samsungnz/playlist.m3u8",
-        "https://ldsaaaaaa-timeline-samsungau-awedz.amagi.tv/playlist/ldsAAAAAA-timeline-samsungau/playlist.m3u8"
+        "https://ldsaaaaaa-timeline-samsungau-awedz.amagi.tv/playlist/ldsAAAAAA-timeline-samsungau/playlist.m3u8",
+        "https://timeline-samsung-uk.amagi.tv/playlist.m3u8"
       ]
     },
     "languages": [
@@ -9198,20 +9216,6 @@
     "sources": {
       "streams": [
         "https://cdn3.wowza.com/5/cHYzekYzM2kvTVFH/lakehavasucity/G0643_003/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "cwqY1fSd0UvwAg",
-    "name": "Land Of The Lost",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/QBEMEmru4KY"
       ]
     },
     "languages": [
@@ -10646,7 +10650,6 @@
     "name": "Mystery Science Theater 3000",
     "sources": {
       "streams": [
-        "https://mst3k-vizio.amagi.tv/playlist.m3u8",
         "https://d1c73nj8qxp55a.cloudfront.net/Mystery_Science_Theater_3000.m3u8"
       ]
     },
@@ -10661,7 +10664,7 @@
     "name": "Mystery Science Theater 3000: FOREVER-a-thon",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/wQ_iYWL3JYs"
+        "https://www.youtube-nocookie.com/embed/bUaHUrzjiEU"
       ]
     },
     "languages": [
@@ -11157,7 +11160,7 @@
         "https://livehub-voidnet.onrender.com/cluster/streamcore/us/NBC_REDIS.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/DLnAwi5wQwk"
+        "https://www.youtube-nocookie.com/embed/KQT3uyD6jQQ"
       ]
     },
     "languages": [
@@ -11293,8 +11296,8 @@
     "name": "NEW K.MOVIES",
     "sources": {
       "streams": [
-        "https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=GB1700007PK&channel_id=newid_343&tp=samsung_tvplus",
-        "https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=USAJ30000122O&channel_id=newid_342&tp=samsung_tvplus"
+        "https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=USAJ30000122O&channel_id=newid_342&tp=samsung_tvplus",
+        "https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=GB1700007PK&channel_id=newid_343&tp=samsung_tvplus"
       ]
     },
     "languages": [
@@ -11587,20 +11590,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "XdBBT0nNYrdIFQ",
-    "name": "NMBTV",
-    "sources": {
-      "streams": [
-        "https://cdn3.wowza.com/5/cXdyRHF0Z3kxN0k2/citynmb/G2044_002/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "f39IJRVJcdw1WH",
     "name": "NorCast Weather",
     "sources": {
@@ -11743,8 +11732,8 @@
     "name": "NRBTV",
     "sources": {
       "streams": [
-        "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=15811",
-        "https://uni6rtmp.tulix.tv/nrbnetwork/myStream.sdp/playlist.m3u8"
+        "https://uni6rtmp.tulix.tv/nrbnetwork/myStream.sdp/playlist.m3u8",
+        "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=15811"
       ]
     },
     "languages": [
@@ -12152,7 +12141,6 @@
     "name": "Pac-12 Insider",
     "sources": {
       "streams": [
-        "https://pac12-roku-us.amagi.tv/playlist.m3u8",
         "https://pac12-samsungus.amagi.tv/playlist.m3u8"
       ]
     },
@@ -14248,39 +14236,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "i3xr0qWNj713tk",
-    "name": "Shout! Studios: Bonanza (Español)",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/4XC-lFiU8Ho"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "MmvGAkIJ1Y1or8",
     "name": "Shout! Studios: Dennis the Menace",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/S7dehZP7oJ8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "ZUiCxfI2YHTlLz",
-    "name": "Shout! Studios: Elvira's Movie Macabre",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/UjGpap-Ql9w"
+        "https://www.youtube-nocookie.com/embed/oGVrzvH8tKg"
       ]
     },
     "languages": [
@@ -14294,21 +14254,7 @@
     "name": "Shout! Studios: Father Knows Best",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/xE098Hrr-co"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "rkSBlkz2deLyQZ",
-    "name": "Shout! Studios: Get A Life",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/6Hs-QaMd_iQ"
+        "https://www.youtube-nocookie.com/embed/_tVBWW0Pb4M"
       ]
     },
     "languages": [
@@ -14322,7 +14268,7 @@
     "name": "Shout! Studios: MST3K",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/MPRp8mc4jK8"
+        "https://www.youtube-nocookie.com/embed/PXj0J8Q8N34"
       ]
     },
     "languages": [
@@ -14336,21 +14282,7 @@
     "name": "Shout! Studios: Pee-wee's Playhouse",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/gXkLwk_0W3o"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "P0LU27eSLAz1HY",
-    "name": "Shout! Studios: Speed Racer",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/gHdaSZ3rFlM"
+        "https://www.youtube-nocookie.com/embed/oReD5WZJNxk"
       ]
     },
     "languages": [
@@ -14685,22 +14617,7 @@
     "name": "SportsGrid",
     "sources": {
       "streams": [
-        "https://sportsgrid-plex.amagi.tv/playlist.m3u8",
         "https://sportsgrid-samsungus.amagi.tv/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "h50zFJwbL1011G",
-    "name": "SPTV",
-    "sources": {
-      "streams": [
-        "https://cdn3.wowza.com/5/RXJNMFI3VlVkOEFP/stpete/G0187_003/playlist.m3u8"
       ]
     },
     "languages": [
@@ -15489,8 +15406,7 @@
     "sources": {
       "streams": [
         "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8",
-        "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8",
-        "https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8"
+        "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8"
       ]
     },
     "languages": [
@@ -16242,6 +16158,22 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "AV6zfkWJ1ysSXd",
+    "name": "TNT West",
+    "sources": {
+      "streams": [
+        "https://turnerlive.warnermediacdn.com/hls/live/2023170/tntwest/slate/VIDEO_0_3564000.m3u8"
+      ]
+    },
+    "languages": [
+      "eng",
+      "por",
+      "spa"
+    ],
+    "country": "us",
+    "isGeoBlocked": true
+  },
+  {
     "nanoid": "bPaKHxIHUZKrax",
     "name": "TODAY All Day",
     "sources": {
@@ -16306,20 +16238,6 @@
     },
     "languages": [
       "jpn"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "vxuvNL1pu9DfjK",
-    "name": "TokuSHOUTsu: Speed Racer",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/80yZwIsxBe4"
-      ]
-    },
-    "languages": [
-      "eng"
     ],
     "country": "us",
     "isGeoBlocked": false
@@ -16520,6 +16438,20 @@
     "sources": {
       "streams": [
         "https://turnerlive.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_3564000.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": true
+  },
+  {
+    "nanoid": "sNd7eV7PoGPFi6",
+    "name": "truTV West",
+    "sources": {
+      "streams": [
+        "https://turnerlive.warnermediacdn.com/hls/live/2023178/truwest/slate/VIDEO_0_3564000.m3u8"
       ]
     },
     "languages": [
@@ -18204,6 +18136,18 @@
     "sources": {
       "streams": [
         "https://cdn.jaybirdtv.com/wfmz/5/live/master.m3u8"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AJTmHwIJM7UaGv",
+    "name": "WFMZ PennST camera",
+    "sources": {
+      "streams": [
+        "https://cdn.jaybirdtv.com/wfmz/6/live/master.m3u8"
       ]
     },
     "languages": [],

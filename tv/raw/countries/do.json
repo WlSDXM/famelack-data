@@ -658,20 +658,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Wxf1OrLlT4Y7mE",
-    "name": "Del Pueblo TV",
-    "sources": {
-      "streams": [
-        "https://vdopanel.jlahozconsulting.com:3869/hybrid/play.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "do",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "ne8LS4D4PQ9vnz",
     "name": "Digital Vision 63",
     "sources": {
@@ -1093,6 +1079,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "1E6yornrvUYytl",
+    "name": "Laguna TV",
+    "sources": {
+      "streams": [
+        "https://cnn.hostlagarto.com/lagutv/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "OVV3xXUAUVDEzN",
     "name": "Latina TV Internacional",
     "sources": {
@@ -1178,20 +1178,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Lcw5g5VNHiCYIy",
-    "name": "Makina TV",
-    "sources": {
-      "streams": [
-        "https://vdopanel.jlahozconsulting.com:3303/live/makinalive.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "do",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "n07Bqfiep3PYlV",
     "name": "Manaclar Television",
     "sources": {
@@ -1211,6 +1197,20 @@
     "sources": {
       "streams": [
         "https://5790d294af2dc.streamlock.net/markatv/markatv/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Dh1GjkJ8Qo0h7C",
+    "name": "Marla Vision",
+    "sources": {
+      "streams": [
+        "https://soportedvb.click:3877/live/merlavisionlive.m3u8"
       ]
     },
     "languages": [
@@ -1457,6 +1457,20 @@
     ],
     "country": "do",
     "isGeoBlocked": false
+  },
+  {
+    "nanoid": "W1B9qplRVWPPfO",
+    "name": "Peravia Vision",
+    "sources": {
+      "streams": [
+        "https://ss2.tvrdomi.com:1936/peraviavision/peraviavision/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": true
   },
   {
     "nanoid": "gD8b6UqLHFJhPd",
@@ -1753,20 +1767,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "8lg7qT7CxxMwKe",
-    "name": "Tele Dajabon TV",
-    "sources": {
-      "streams": [
-        "https://5790d294af2dc.streamlock.net/dajabon/dajabon/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "do",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "q3s8mH9XozYPSB",
     "name": "Tele Dominicana TV",
     "sources": {
@@ -1963,20 +1963,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "hVHCiZlLoCKH6i",
-    "name": "Teleuniverso",
-    "sources": {
-      "streams": [
-        "https://hls.tvabierta.net/hls/029.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "do",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Rq6AkjwJCWvOOq",
     "name": "Telever",
     "sources": {
@@ -1996,6 +1982,34 @@
     "sources": {
       "streams": [
         "https://cnn.hostlagarto.com/televida/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "wou1ed2Dn3HMYz",
+    "name": "Television del Este",
+    "sources": {
+      "streams": [
+        "https://edge.essastream.com/televisiondeleste/tracks-v1a1/mono.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "PIluhlMF5nMowT",
+    "name": "Tenarenses TV",
+    "sources": {
+      "streams": [
+        "https://edge.essastream.com/tenarensestvrd/playlist.m3u8"
       ]
     },
     "languages": [
@@ -2284,20 +2298,6 @@
     ],
     "country": "do",
     "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Ts2CPCoq6B5xeI",
-    "name": "VTV Canal 32",
-    "sources": {
-      "streams": [
-        "https://cnn.livestreaminggroup.info:3507/live/vtv32live.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "do",
-    "isGeoBlocked": true
   },
   {
     "nanoid": "qZaR37EtRhf6Wl",

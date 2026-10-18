@@ -124,20 +124,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "cwqY1fSd0UvwAg",
-    "name": "Land Of The Lost",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/QBEMEmru4KY"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "eCX0RwFfFIFc73",
     "name": "Persiana Nostalgia",
     "sources": {
@@ -201,34 +187,6 @@
       "streams": [
         "https://d2nqmwm1ndpgi2.cloudfront.net/playlist.m3u8",
         "https://linear-899.frequency.stream/dist/cineverse/899/hls/master/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "i3xr0qWNj713tk",
-    "name": "Shout! Studios: Bonanza (Español)",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/4XC-lFiU8Ho"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "ZUiCxfI2YHTlLz",
-    "name": "Shout! Studios: Elvira's Movie Macabre",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/UjGpap-Ql9w"
       ]
     },
     "languages": [

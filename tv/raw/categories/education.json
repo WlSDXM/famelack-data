@@ -42,20 +42,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "FHHW8HxY4wkWHY",
-    "name": "Arche TV",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/LH4VxLk1PuQ"
-      ]
-    },
-    "languages": [
-      "pol"
-    ],
-    "country": "pl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "IJpns8FI8lNpRr",
     "name": "ARD-alpha",
     "sources": {
@@ -139,6 +125,20 @@
       "spa"
     ],
     "country": "hn",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "w9iKnoeRBQ99pR",
+    "name": "Can Tho TV 2",
+    "sources": {
+      "streams": [
+        "https://live.canthotv.vn/cs2/live.stream/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "vie"
+    ],
+    "country": "vn",
     "isGeoBlocked": false
   },
   {
@@ -740,8 +740,8 @@
     "name": "English Club TV",
     "sources": {
       "streams": [
-        "https://dash2.antik.sk/live/test_ectv_hd_1200/playlist.m3u8",
-        "https://stream8.cinerama.uz/1442/tracks-v1a1/mono.m3u8"
+        "https://stream8.cinerama.uz/1442/tracks-v1a1/mono.m3u8",
+        "https://dash2.antik.sk/live/test_ectv_hd_1200/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1788,6 +1788,20 @@
       "eng"
     ],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "47o1HNzoeOQk95",
+    "name": "XHUNES-TDT",
+    "sources": {
+      "streams": [
+        "https://tv91.hostingnuclear.com:19360/xhunestv/xhunestv.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
     "isGeoBlocked": false
   },
   {

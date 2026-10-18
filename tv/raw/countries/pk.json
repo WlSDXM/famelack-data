@@ -35,7 +35,7 @@
         "https://cdn4.mjunoon.tv:8087/streamtest/146M/chunks.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/mDIJZsI-vFQ"
+        "https://www.youtube-nocookie.com/embed/HZzku3pN8JY"
       ]
     },
     "languages": [
@@ -216,7 +216,7 @@
     "name": "City 21 News",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/uCS0LeAmq4Y"
+        "https://www.youtube-nocookie.com/embed/I1DHNdjhaUg"
       ]
     },
     "languages": [
@@ -230,7 +230,7 @@
     "name": "City 41",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/nmOAP14Yx8Y"
+        "https://www.youtube-nocookie.com/embed/Gd1okNolRqA"
       ]
     },
     "languages": [
@@ -245,7 +245,7 @@
     "name": "City 42",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/xRZggl6r2q4"
+        "https://www.youtube-nocookie.com/embed/My5nDJAsMvM"
       ]
     },
     "languages": [
@@ -628,20 +628,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "yQPdPKGvAyjQ79",
-    "name": "Kids Land: Urdu",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/UQXnDd_8a4w"
-      ]
-    },
-    "languages": [
-      "urd"
-    ],
-    "country": "pk",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "0DyoG3XduwwwLj",
     "name": "King TV",
     "sources": {
@@ -764,7 +750,7 @@
         "https://streaming.madanichannel.tv/static/streaming-playlists/hls/b9790f10-cb0d-4e30-82bf-84a756234e58/master.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-3J8e7KDQtc"
+        "https://www.youtube-nocookie.com/embed/epnThSqcS04"
       ]
     },
     "languages": [
@@ -953,7 +939,7 @@
     "name": "Sindh TV News",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/N_60qygXIcw"
+        "https://www.youtube-nocookie.com/embed/6-vs-TIQrrw"
       ]
     },
     "languages": [

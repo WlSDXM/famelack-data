@@ -292,7 +292,7 @@
     "name": "Avenida Perú Viña del Mar",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/bN5mjTdJzBI"
+        "https://www.youtube-nocookie.com/embed/ysqxSxIqiq0"
       ]
     },
     "languages": [],
@@ -717,6 +717,18 @@
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "4ka0z9q25r5E8D",
+    "name": "Bonny Hills Beach House",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/c72Pvnpzc9k"
+      ]
+    },
+    "languages": [],
+    "country": "au",
     "isGeoBlocked": false
   },
   {
@@ -1660,7 +1672,7 @@
     "name": "El Quisco Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/oDErMN0_ehw"
+        "https://www.youtube-nocookie.com/embed/aKtIqdQznlU"
       ]
     },
     "languages": [],
@@ -1672,7 +1684,7 @@
     "name": "El Quisco Fishing Harbor",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/mjE3Zb3aBHE"
+        "https://www.youtube-nocookie.com/embed/TYW7WeLBRWw"
       ]
     },
     "languages": [],
@@ -2056,7 +2068,7 @@
     "name": "Georgica Jetty",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/rhpj1WY7T5I"
+        "https://www.youtube-nocookie.com/embed/aPsisum6YG0"
       ]
     },
     "languages": [],
@@ -2116,19 +2128,7 @@
     "name": "Grand Park Royal Cancún",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HY_mkO3SzBs"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "CJQMmUgQHGxIZr",
-    "name": "Grand Park Royal Puerto Vallarta",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/V6Co4YdL25Q"
+        "https://www.youtube-nocookie.com/embed/hAGNCcPGae8"
       ]
     },
     "languages": [],
@@ -2373,18 +2373,6 @@
     },
     "languages": [],
     "country": "kr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "iX3JHjBR6YNLej",
-    "name": "Hotel B Cozumel",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/SurkkASGLpw"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
     "isGeoBlocked": false
   },
   {
@@ -3040,7 +3028,7 @@
     "name": "Le Morne",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HBi6vNgwCok"
+        "https://www.youtube-nocookie.com/embed/IiK5zK8bGas"
       ]
     },
     "languages": [],
@@ -3364,7 +3352,7 @@
     "name": "Maho Beach Plane Spotting",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/9tNbJDUIQSw"
+        "https://www.youtube-nocookie.com/embed/LUCWrO4oPxA"
       ]
     },
     "languages": [],
@@ -3532,7 +3520,7 @@
     "name": "Mejillones",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/a_k6npTBncw"
+        "https://www.youtube-nocookie.com/embed/0rJ4TKsW_Ng"
       ]
     },
     "languages": [],
@@ -4336,7 +4324,7 @@
     "name": "Pattaya Beach Road",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-mfMhx2_pS8"
+        "https://www.youtube-nocookie.com/embed/dSrhwbTQvwA"
       ]
     },
     "languages": [],
@@ -4377,6 +4365,18 @@
     },
     "languages": [],
     "country": "pt",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "YqD9EYutl6o5fw",
+    "name": "Pensacola Beach",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/vdr7QQ_HAgQ"
+      ]
+    },
+    "languages": [],
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -4432,7 +4432,7 @@
     "name": "Pichilemu",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ECE_YWN0n8g"
+        "https://www.youtube-nocookie.com/embed/oneTQy8PWGA"
       ]
     },
     "languages": [],
@@ -4528,7 +4528,7 @@
     "name": "Playa Acapulco, Viña del Mar",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/H9-TKARBLB8"
+        "https://www.youtube-nocookie.com/embed/gW7OTeLXrI4"
       ]
     },
     "languages": [],
@@ -4660,7 +4660,7 @@
     "name": "Playa Las Torpederas Valparaíso",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/xrCbx1D-K9E"
+        "https://www.youtube-nocookie.com/embed/MIHl7F_0ayo"
       ]
     },
     "languages": [],
@@ -4972,7 +4972,7 @@
     "name": "Puente Gral Belgrano",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/iPKv66eBOs4"
+        "https://www.youtube-nocookie.com/embed/-EgHV6XosfE"
       ]
     },
     "languages": [],
@@ -4996,7 +4996,7 @@
     "name": "Punta Cancún Beach Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/QneynPTSOao"
+        "https://www.youtube-nocookie.com/embed/NeHO46kDJ20"
       ]
     },
     "languages": [],
@@ -5104,7 +5104,7 @@
     "name": "Reñaca Beach, Viña del Mar",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/C_gIjFhZ058"
+        "https://www.youtube-nocookie.com/embed/F57ENlfm-ww"
       ]
     },
     "languages": [],
@@ -7132,7 +7132,7 @@
     "name": "West Kirby Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/E80CeI-0-Go"
+        "https://www.youtube-nocookie.com/embed/K7Hw0N5nklg"
       ]
     },
     "languages": [],

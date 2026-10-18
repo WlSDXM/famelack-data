@@ -528,6 +528,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "9FACMEW5P67m46",
+    "name": "Disney California Adventure",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/ny1BGEtZILI"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "6jFPUKbCA7bxDt",
     "name": "Divine Mercy Church, Stary Sącz",
     "sources": {
@@ -604,7 +616,7 @@
     "name": "Elbo Room Social Club",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/n5X3UyodB_8"
+        "https://www.youtube-nocookie.com/embed/2YtQez2GaqM"
       ]
     },
     "languages": [],
@@ -712,7 +724,7 @@
     "name": "George Washington Bridge",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/BJItr9ul6Do"
+        "https://www.youtube-nocookie.com/embed/5BlEY0fpCRs"
       ]
     },
     "languages": [],
@@ -796,7 +808,7 @@
     "name": "Holy Dormition Pochaiv Lavra",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-6ayje73wqY"
+        "https://www.youtube-nocookie.com/embed/m0cgC8Z3aa0"
       ]
     },
     "languages": [],
@@ -976,7 +988,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/J9b4nDBh9us"
+        "https://www.youtube-nocookie.com/embed/DRGCWpBF0Kw"
       ]
     },
     "languages": [],
@@ -1344,6 +1356,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "umyGNG4S5EyhEH",
+    "name": "Our Lady Star & St. John Paul II Sanctuary",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Jf26758cTI0"
+      ]
+    },
+    "languages": [],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "VFlUc4D3vd0CQW",
     "name": "Paul Bunyan & Babe the Blue Ox",
     "sources": {
@@ -1661,18 +1685,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/68XVh5TcgBk"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "87WhdUP81iPyaF",
-    "name": "Southernmost Point, Key West",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/LAbf0dIc2VU"
       ]
     },
     "languages": [],

@@ -108,6 +108,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "VwCua2EOw4q38w",
+    "name": "Akihabara Electric Town Crossing",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/LS1-Ykhiguo"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "no0BOq0PiUmV5h",
     "name": "Akita Station Square",
     "sources": {
@@ -208,7 +220,7 @@
     "name": "Avenida 5 de Febrero",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/k5wkyi9vZGo"
+        "https://www.youtube-nocookie.com/embed/v4biWAUlApI"
       ]
     },
     "languages": [],
@@ -436,7 +448,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Ab9wQH884KU"
+        "https://www.youtube-nocookie.com/embed/TBHol9qkAtU"
       ]
     },
     "languages": [],
@@ -496,7 +508,7 @@
     "name": "Collins Avenue Street Cam",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Pd7tV_87GCE"
+        "https://www.youtube-nocookie.com/embed/KtADDcFVaqc"
       ]
     },
     "languages": [],
@@ -880,7 +892,7 @@
     "name": "George Washington Bridge",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/BJItr9ul6Do"
+        "https://www.youtube-nocookie.com/embed/5BlEY0fpCRs"
       ]
     },
     "languages": [],
@@ -1348,7 +1360,7 @@
     "name": "Khao Lak",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/LtCYBZvE1Ec"
+        "https://www.youtube-nocookie.com/embed/puNPOQFq2Sg"
       ]
     },
     "languages": [],
@@ -1372,7 +1384,7 @@
     "name": "Kohoku Parking Area on the Tomei Expressway",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/oQ8EGJWu1iA"
+        "https://www.youtube-nocookie.com/embed/rB1Q2rmOVzM"
       ]
     },
     "languages": [],
@@ -2008,7 +2020,7 @@
     "name": "Paseo de la Reforma",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/9HyGes7M-o0"
+        "https://www.youtube-nocookie.com/embed/tSmFJwNAQ_M"
       ]
     },
     "languages": [],
@@ -2196,23 +2208,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "yafm3xVoxVMWJR",
-    "name": "Piedras Negras Cam 1",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/T2xZtNipxmE"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "G5hzD2NeP1JaLJ",
     "name": "Piedras Negras Cam 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/FqAoWOpQKUk"
+        "https://www.youtube-nocookie.com/embed/iTBVXtwe6xM"
       ]
     },
     "languages": [],
@@ -2284,7 +2284,7 @@
     "name": "Puente Internacional 2 Piedras Negras-Eagle Pass",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/JAo4Fgwrdk4"
+        "https://www.youtube-nocookie.com/embed/luZM_RJj6dE"
       ]
     },
     "languages": [],
@@ -2656,7 +2656,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/6fcErTjUW-w"
+        "https://www.youtube-nocookie.com/embed/jhN0F0SdGqM"
       ]
     },
     "languages": [],

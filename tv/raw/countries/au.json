@@ -550,6 +550,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "ETqvT5LgWgnMQa",
+    "name": "Sky News Extra",
+    "sources": {
+      "streams": [
+        "https://skynewsau-live-premium.akamaized.net/hls/live/2105306/skynewsextra/live_540p.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "au",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "86AfUT4ix8tXB4",
     "name": "Sky News Extra 1",
     "sources": {
@@ -583,6 +597,20 @@
     "sources": {
       "streams": [
         "https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "au",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "mYD9mYo12NQa8H",
+    "name": "Sky News Weather Channel",
+    "sources": {
+      "streams": [
+        "https://skynewsau-live-premium.akamaized.net/hls/live/2105305/skynewsweather/live_540p.m3u8"
       ]
     },
     "languages": [

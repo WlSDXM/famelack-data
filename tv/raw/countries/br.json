@@ -258,20 +258,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "DqexB6yaP4LscU",
-    "name": "CNN Brasil",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/xhJp31yG3Fc"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "DNa7AQHZDPi0it",
     "name": "COM Brasil",
     "sources": {
@@ -404,6 +390,20 @@
     "sources": {
       "streams": [
         "https://stmv1.samcast.com.br/ricardo2194/ricardo2194/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "b3HmytgXpnq9Lw",
+    "name": "Fala Litoral",
+    "sources": {
+      "streams": [
+        "https://5c483b9d1019c.streamlock.net/falalitoraltv/falalitoraltv/playlist.m3u8"
       ]
     },
     "languages": [
@@ -625,20 +625,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "NojFEcZYn2QGaE",
-    "name": "N Sports",
-    "sources": {
-      "streams": [
-        "https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "iTYbfotwsIv7iD",
     "name": "Nickelodeon",
     "sources": {
@@ -713,7 +699,7 @@
     "name": "Peppa Pig Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/nf4XeHS_tvw"
+        "https://www.youtube-nocookie.com/embed/W-RudNdP3zg"
       ]
     },
     "languages": [
@@ -741,7 +727,7 @@
     "name": "PJ Masks Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/CArlAdAg-60"
+        "https://www.youtube-nocookie.com/embed/hS9IyqydBGI"
       ]
     },
     "languages": [
@@ -814,7 +800,7 @@
         "https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-YS0aMUHQDM"
+        "https://www.youtube-nocookie.com/embed/yCfb9Na3rcI"
       ]
     },
     "languages": [
@@ -1050,20 +1036,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "LLNkgpUxL9eFFQ",
-    "name": "SOU TV",
-    "sources": {
-      "streams": [
-        "https://video10.logicahost.com.br/soutv/soutv/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "7omf3emk4fDdL8",
     "name": "STZ TV",
     "sources": {
@@ -1222,7 +1194,7 @@
     "name": "TV Assembleia Minas Gerais",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/TCKsniOmaB8"
+        "https://www.youtube-nocookie.com/embed/7Km4V6uFNKA"
       ]
     },
     "languages": [
@@ -1306,7 +1278,7 @@
     "name": "TV Cancao Nova",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/dR9U-xw0s5o"
+        "https://www.youtube-nocookie.com/embed/rYvBZ23cBCk"
       ]
     },
     "languages": [
@@ -1406,20 +1378,6 @@
     "sources": {
       "streams": [
         "https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "OXfFnCDtrQdqyq",
-    "name": "TV Guara",
-    "sources": {
-      "streams": [
-        "https://video02.logicahost.com.br/tvguara23/tvguara23/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1673,6 +1631,20 @@
     "sources": {
       "streams": [
         "https://5cf4a2c2512a2.streamlock.net/8236/8236/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "3SFbEQ5XiHL1nO",
+    "name": "TV Sul Bahia",
+    "sources": {
+      "streams": [
+        "https://live.cdn.upx.com/00046/myStream.sdp/playlist.m3u8"
       ]
     },
     "languages": [

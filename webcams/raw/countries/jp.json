@@ -96,11 +96,47 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "OwUjGy3jwpfqFS",
+    "name": "Airport Runway Among the Mountains",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/fId1i2nDYXQ"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "efhGAQpqwhNUYZ",
+    "name": "Akabane Station",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Mbr6qdr2XPM"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "X2LGD3uwPKwkcl",
     "name": "Akashi Kaikyō Bridge",
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/W5iKrSNyJhQ"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "VwCua2EOw4q38w",
+    "name": "Akihabara Electric Town Crossing",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/LS1-Ykhiguo"
       ]
     },
     "languages": [],
@@ -1420,7 +1456,7 @@
     "name": "Kohoku Parking Area on the Tomei Expressway",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/oQ8EGJWu1iA"
+        "https://www.youtube-nocookie.com/embed/rB1Q2rmOVzM"
       ]
     },
     "languages": [],
@@ -1864,7 +1900,7 @@
     "name": "Meitetsu Tokoname Line Ono-machi",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/a4_lN0akiPo"
+        "https://www.youtube-nocookie.com/embed/33OZl6kphHQ"
       ]
     },
     "languages": [],
@@ -3208,7 +3244,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/6fcErTjUW-w"
+        "https://www.youtube-nocookie.com/embed/jhN0F0SdGqM"
       ]
     },
     "languages": [],
@@ -3640,7 +3676,7 @@
     "name": "Shonai Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/VUztn_JkOjM"
+        "https://www.youtube-nocookie.com/embed/wtHY4hH6xMY"
       ]
     },
     "languages": [],

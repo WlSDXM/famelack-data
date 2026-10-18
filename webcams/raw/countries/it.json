@@ -348,18 +348,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "sLLOaKMiv6ydXL",
-    "name": "Circolo Golf Degli Ulivi",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/sWi_PLZJAHI"
-      ]
-    },
-    "languages": [],
-    "country": "it",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "MZCK7dGHD40tmj",
     "name": "Col Margherita, San Pellegrino",
     "sources": {
@@ -1025,18 +1013,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/QAsn_SUp130"
-      ]
-    },
-    "languages": [],
-    "country": "it",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "ACk4DfCOGxGpjh",
-    "name": "Mount Etna Volcano",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/qCWgJeTZNTY"
       ]
     },
     "languages": [],

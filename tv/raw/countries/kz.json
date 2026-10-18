@@ -232,19 +232,5 @@
     ],
     "country": "kz",
     "isGeoBlocked": false
-  },
-  {
-    "nanoid": "if2kwrLRFc4oRC",
-    "name": "Телеканал 24kz",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/4PLfitb9rdI"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "kz",
-    "isGeoBlocked": false
   }
 ]

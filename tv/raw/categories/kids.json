@@ -424,6 +424,20 @@
     "isGeoBlocked": true
   },
   {
+    "nanoid": "lSTW1dzY0A0GTW",
+    "name": "Cartoon Classics FAST",
+    "sources": {
+      "streams": [
+        "https://daiconnect.com/live/hls/tvup/rk-cartoonclassics/578f4b7eb725168349ec0af81b21d388/index.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "co6UrhPBemum5j",
     "name": "Cartoon Network",
     "sources": {
@@ -461,6 +475,7 @@
     "name": "Cartoon Network [Not 24/7;Geo-blocked]",
     "sources": {
       "streams": [
+        "https://tvsen7.aynascope.net/cartoonnetwork/index.m3u8",
         "https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_1928000.m3u8"
       ]
     },
@@ -903,6 +918,22 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "U8REylkpG4igqA",
+    "name": "Disney Junior East",
+    "sources": {
+      "streams": [
+        "https://tvsen5.aynascope.net/disney/index.m3u8",
+        "https://tvsen7.aynascope.net/disney/index.m3u8"
+      ]
+    },
+    "languages": [
+      "eng",
+      "spa"
+    ],
+    "country": "us",
+    "isGeoBlocked": true
+  },
+  {
     "nanoid": "VKKpehR0qNSoUY",
     "name": "Disney Junior: Bluey",
     "sources": {
@@ -1073,20 +1104,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "G2NosoJRDb3Bwq",
-    "name": "Duronto TV",
-    "sources": {
-      "streams": [
-        "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8"
-      ]
-    },
-    "languages": [
-      "ben"
-    ],
-    "country": "bd",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "mkS2euN6WoaBGB",
     "name": "EBS Kids",
     "sources": {
@@ -1161,7 +1178,7 @@
     "name": "Garfield & Friends",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Efoq894hd5A"
+        "https://www.youtube-nocookie.com/embed/tzaV0gRId60"
       ]
     },
     "languages": [
@@ -1370,20 +1387,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "95mvfX5TCBOt4J",
-    "name": "Jungle Beat",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/LnVvGexrhPg"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "SO5UU0dDwSV4en",
     "name": "Kapitan Fantastika",
     "sources": {
@@ -1411,20 +1414,6 @@
       "eng"
     ],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "yQPdPKGvAyjQ79",
-    "name": "Kids Land: Urdu",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/UQXnDd_8a4w"
-      ]
-    },
-    "languages": [
-      "urd"
-    ],
-    "country": "pk",
     "isGeoBlocked": false
   },
   {
@@ -1575,8 +1564,8 @@
     "name": "Mama",
     "sources": {
       "streams": [
-        "https://flussonic.linkintel.ru/mama/index.m3u8",
-        "https://stream8.cinerama.uz/1244/tracks-v1a1/mono.m3u8"
+        "https://stream8.cinerama.uz/1244/tracks-v1a1/mono.m3u8",
+        "https://flussonic.linkintel.ru/mama/index.m3u8"
       ]
     },
     "languages": [
@@ -1761,8 +1750,8 @@
     "name": "Mult",
     "sources": {
       "streams": [
-        "https://flussonic.linkintel.ru/Mult/index.m3u8",
-        "https://stream8.cinerama.uz/1246/tracks-v1a1/mono.m3u8"
+        "https://stream8.cinerama.uz/1246/tracks-v1a1/mono.m3u8",
+        "https://flussonic.linkintel.ru/Mult/index.m3u8"
       ]
     },
     "languages": [
@@ -1812,6 +1801,20 @@
       "por"
     ],
     "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "uU0w6PP1NhQ9xR",
+    "name": "Nickelodeon",
+    "sources": {
+      "streams": [
+        "https://tvsen7.aynascope.net/nicklodean/index.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
     "isGeoBlocked": false
   },
   {
@@ -2057,7 +2060,7 @@
     "name": "Peppa Pig Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/nf4XeHS_tvw"
+        "https://www.youtube-nocookie.com/embed/W-RudNdP3zg"
       ]
     },
     "languages": [
@@ -2354,7 +2357,7 @@
     "name": "Shout! Studios: Pee-wee's Playhouse",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/gXkLwk_0W3o"
+        "https://www.youtube-nocookie.com/embed/oReD5WZJNxk"
       ]
     },
     "languages": [
@@ -2480,21 +2483,7 @@
     "name": "Super Simple: Bedtime Songs",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/i7-Z6Y0mxs8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "5X99oRpChEcKAS",
-    "name": "Super Simple: Simple Songs",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/yjpnXS51oNw"
+        "https://www.youtube-nocookie.com/embed/BfkMWTHeDMY"
       ]
     },
     "languages": [
@@ -2979,7 +2968,7 @@
     "name": "Zig & Sharko",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/pD5viVtu_Ys"
+        "https://www.youtube-nocookie.com/embed/laI--0QRyu8"
       ]
     },
     "languages": [

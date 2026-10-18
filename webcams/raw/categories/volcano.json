@@ -276,18 +276,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ACk4DfCOGxGpjh",
-    "name": "Mount Etna Volcano",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/qCWgJeTZNTY"
-      ]
-    },
-    "languages": [],
-    "country": "it",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "wLEWiVEDX62Xs1",
     "name": "Mount Etna Volcano",
     "sources": {
@@ -424,7 +412,7 @@
     "name": "Popocatépetl Volcano from Amecameca",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/5-brwJ9ezMo"
+        "https://www.youtube-nocookie.com/embed/JV9do5UXN2M"
       ]
     },
     "languages": [],

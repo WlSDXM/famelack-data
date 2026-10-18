@@ -204,6 +204,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "fr2ojQ4w36HEdb",
+    "name": "Barn Owl Nest Box",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/3BZ-rgidYyU"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "KLoPkJVizfCJGc",
     "name": "Barn Owl Nest Cam",
     "sources": {
@@ -1180,7 +1192,7 @@
     "name": "Dolphin Watch, New Quay",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/OZbq0AaIXig"
+        "https://www.youtube-nocookie.com/embed/sZ-kIl2cA5E"
       ]
     },
     "languages": [],
@@ -1420,7 +1432,7 @@
     "name": "Furball Farm Cat Sanctuary",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/oBa9r9xeXR4"
+        "https://www.youtube-nocookie.com/embed/n1aXWy_qnoo"
       ]
     },
     "languages": [],
@@ -2436,18 +2448,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "b4Yjjh1Lbj3ez8",
-    "name": "LujiiGarden Bird Feeder",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/i59UQijZ4-Y"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "tg5bfJbaOUluFE",
     "name": "Maasai Mara Mahali Mzuri Landscape",
     "sources": {
@@ -3208,7 +3208,7 @@
     "name": "Osprey Nest Loch of the Lowes",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/mdahTGKHcCE"
+        "https://www.youtube-nocookie.com/embed/Puq8NKPnNlo"
       ]
     },
     "languages": [],
@@ -3293,18 +3293,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/_wnjeiATFk4"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "OZ0nznNO6fnEsJ",
-    "name": "PA Bird Feeder Cam, Murrysville",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/6--SErd7u4o"
       ]
     },
     "languages": [],
@@ -3696,30 +3684,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "usd8anJRcxq77j",
-    "name": "PixCams Natural Bird Bath",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/pgMuZvyFw4k"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "GV4RLEImAGsLsK",
-    "name": "PixCams Pennsylvania Bird Feeder 2",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/JosQdXWDn6g"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Ga3NQhOGui1rWv",
     "name": "Polar Bear Passage",
     "sources": {
@@ -3820,7 +3784,7 @@
     "name": "Raccoon Saloon Behind Dresser",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ciHfyR8WgNM"
+        "https://www.youtube-nocookie.com/embed/1ebGqws8rWk"
       ]
     },
     "languages": [],
@@ -3832,7 +3796,7 @@
     "name": "Raccoon Saloon Boat View",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/8tZdaT1e2Wg"
+        "https://www.youtube-nocookie.com/embed/jkClZOWEuQ4"
       ]
     },
     "languages": [],
@@ -3940,7 +3904,7 @@
     "name": "Raccoon Saloon Living Room",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/lyWSzCY4SDY"
+        "https://www.youtube-nocookie.com/embed/NsJ_iKHX4hE"
       ]
     },
     "languages": [],
@@ -4024,7 +3988,7 @@
     "name": "Raccoon Saloon Pond Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/17EzpMpCV3A"
+        "https://www.youtube-nocookie.com/embed/tt5mi8hvgcM"
       ]
     },
     "languages": [],
@@ -4084,7 +4048,7 @@
     "name": "Raccoon Saloon Woodshed",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/U-i7n9TvaFQ"
+        "https://www.youtube-nocookie.com/embed/-cyNWUJmTxE"
       ]
     },
     "languages": [],
@@ -4692,6 +4656,30 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "c6eBp8CYjkCWqF",
+    "name": "Sierra de Guadarrama National Park Black Vulture Nest",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/I7Djy5fuFN0"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "y3Hk6A013NRld5",
+    "name": "Sierra de Guadarrama National Park Booted Eagle Nest",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/MAs-O2oGqis"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "hK7pmHdCHCUVRU",
     "name": "Sierra Madrid Bird Bath",
     "sources": {
@@ -4936,7 +4924,7 @@
     "name": "Squirrel and Wildlife Feeder",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Yqt_Q4m2yfQ"
+        "https://www.youtube-nocookie.com/embed/2GpSLL9wf9U"
       ]
     },
     "languages": [],

@@ -108,6 +108,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "fr2ojQ4w36HEdb",
+    "name": "Barn Owl Nest Box",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/3BZ-rgidYyU"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "KLoPkJVizfCJGc",
     "name": "Barn Owl Nest Cam",
     "sources": {
@@ -1433,6 +1445,30 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/YozT82BqQqg"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "c6eBp8CYjkCWqF",
+    "name": "Sierra de Guadarrama National Park Black Vulture Nest",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/I7Djy5fuFN0"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "y3Hk6A013NRld5",
+    "name": "Sierra de Guadarrama National Park Booted Eagle Nest",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/MAs-O2oGqis"
       ]
     },
     "languages": [],

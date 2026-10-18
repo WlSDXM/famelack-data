@@ -76,7 +76,7 @@
     "name": "Avenida 5 de Febrero",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/k5wkyi9vZGo"
+        "https://www.youtube-nocookie.com/embed/v4biWAUlApI"
       ]
     },
     "languages": [],
@@ -244,7 +244,7 @@
     "name": "Grand Park Royal Cancún",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HY_mkO3SzBs"
+        "https://www.youtube-nocookie.com/embed/hAGNCcPGae8"
       ]
     },
     "languages": [],
@@ -256,19 +256,7 @@
     "name": "Grand Park Royal Cozumel Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Cmzo6T9lz40"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "CJQMmUgQHGxIZr",
-    "name": "Grand Park Royal Puerto Vallarta",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/V6Co4YdL25Q"
+        "https://www.youtube-nocookie.com/embed/CTivhpHqQ0o"
       ]
     },
     "languages": [],
@@ -304,7 +292,7 @@
     "name": "Guadalajara West",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/AnkcjG75gmQ"
+        "https://www.youtube-nocookie.com/embed/i1_y735Rowg"
       ]
     },
     "languages": [],
@@ -341,18 +329,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/bpLSXpXtRbk"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "iX3JHjBR6YNLej",
-    "name": "Hotel B Cozumel",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/SurkkASGLpw"
       ]
     },
     "languages": [],
@@ -496,7 +472,7 @@
     "name": "Nichupté Lagoon, Cancún Hotel Zone",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/albRLCpp2b8"
+        "https://www.youtube-nocookie.com/embed/QuJMhE5qJXI"
       ]
     },
     "languages": [],
@@ -520,7 +496,7 @@
     "name": "Paseo de la Reforma",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/9HyGes7M-o0"
+        "https://www.youtube-nocookie.com/embed/tSmFJwNAQ_M"
       ]
     },
     "languages": [],
@@ -564,23 +540,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "yafm3xVoxVMWJR",
-    "name": "Piedras Negras Cam 1",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/T2xZtNipxmE"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "G5hzD2NeP1JaLJ",
     "name": "Piedras Negras Cam 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/FqAoWOpQKUk"
+        "https://www.youtube-nocookie.com/embed/iTBVXtwe6xM"
       ]
     },
     "languages": [],
@@ -684,18 +648,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "5n5Sbxui9gY6bv",
-    "name": "Plaza Cuitláhuac",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/40W2Q6Hf0xY"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "bNLJ7gcld34AnW",
     "name": "Plaza Garibaldi, Home of Mariachi",
     "sources": {
@@ -748,7 +700,7 @@
     "name": "Popocatépetl Volcano from Amecameca",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/5-brwJ9ezMo"
+        "https://www.youtube-nocookie.com/embed/JV9do5UXN2M"
       ]
     },
     "languages": [],
@@ -808,7 +760,7 @@
     "name": "Puente Internacional 2 Piedras Negras-Eagle Pass",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/JAo4Fgwrdk4"
+        "https://www.youtube-nocookie.com/embed/luZM_RJj6dE"
       ]
     },
     "languages": [],
@@ -820,7 +772,7 @@
     "name": "Punta Cancún Beach Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/QneynPTSOao"
+        "https://www.youtube-nocookie.com/embed/NeHO46kDJ20"
       ]
     },
     "languages": [],
@@ -840,23 +792,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "qntxMH7SzXBIA8",
-    "name": "Rancho La Onza Hillside",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/XzLCgdWGLPg"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "GWqgsL8u8GD8wA",
     "name": "Rancho La Onza Valley Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/bDPR_HamGlA"
+        "https://www.youtube-nocookie.com/embed/qtBeETsPTUA"
       ]
     },
     "languages": [],
@@ -892,7 +832,7 @@
     "name": "San Carlos Marina and Red Hills",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/wdwUguy8T8s"
+        "https://www.youtube-nocookie.com/embed/YA8_X4gMVAg"
       ]
     },
     "languages": [],
@@ -905,18 +845,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/CAb2AjJNTHo"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "j8QVv5It73xuE1",
-    "name": "Santo Domingo de Guzmán, Oaxaca",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/YC13-sQ6pbg"
       ]
     },
     "languages": [],
@@ -965,6 +893,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/v2YavymJoK4"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "1qXcH64BIMNVF0",
+    "name": "Tijuana Skyline Panorama",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/xNfAyXAhAQI"
       ]
     },
     "languages": [],
@@ -1084,7 +1024,7 @@
     "name": "Xel-Há Inlet",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/RNnegygsAc8"
+        "https://www.youtube-nocookie.com/embed/TKY_hurPDZw"
       ]
     },
     "languages": [],
@@ -1180,7 +1120,7 @@
     "name": "Zócalo Mexico City",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/KmoZh0KYAyk"
+        "https://www.youtube-nocookie.com/embed/gj6lXqFzzbQ"
       ]
     },
     "languages": [],

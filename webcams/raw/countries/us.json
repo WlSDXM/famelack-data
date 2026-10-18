@@ -2356,7 +2356,7 @@
     "name": "Castro Street",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/oSlny-AuCNI"
+        "https://www.youtube-nocookie.com/embed/m4diAJPEqDY"
       ]
     },
     "languages": [],
@@ -2392,7 +2392,7 @@
     "name": "Castro Street, San Francisco",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/e1eTLPc9pYU"
+        "https://www.youtube-nocookie.com/embed/5JWUeGiGgvo"
       ]
     },
     "languages": [],
@@ -2632,7 +2632,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Ab9wQH884KU"
+        "https://www.youtube-nocookie.com/embed/TBHol9qkAtU"
       ]
     },
     "languages": [],
@@ -2896,7 +2896,7 @@
     "name": "Collins Avenue Street Cam",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Pd7tV_87GCE"
+        "https://www.youtube-nocookie.com/embed/KtADDcFVaqc"
       ]
     },
     "languages": [],
@@ -3588,6 +3588,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "9FACMEW5P67m46",
+    "name": "Disney California Adventure",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/ny1BGEtZILI"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "7cWQOqwrolB1pI",
     "name": "Dixon Square, Downtown Westerly",
     "sources": {
@@ -3881,18 +3893,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/RQvL67g8ry4"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "qrysApWElvFuVS",
-    "name": "Downtown Clayton Main Street",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/BWtr3Od7lTk"
       ]
     },
     "languages": [],
@@ -4372,7 +4372,7 @@
     "name": "Dunrovin Ranch",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/PoJl1a22L60"
+        "https://www.youtube-nocookie.com/embed/8jXK5b6LfHg"
       ]
     },
     "languages": [],
@@ -4444,7 +4444,7 @@
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/5Cq1OlYYqRs"
+        "https://www.youtube-nocookie.com/embed/-ToxU5idDK0"
       ]
     },
     "languages": [],
@@ -4660,7 +4660,7 @@
     "name": "Elbo Room Social Club",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/n5X3UyodB_8"
+        "https://www.youtube-nocookie.com/embed/2YtQez2GaqM"
       ]
     },
     "languages": [],
@@ -5284,7 +5284,7 @@
     "name": "Furball Farm Cat Sanctuary",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/oBa9r9xeXR4"
+        "https://www.youtube-nocookie.com/embed/n1aXWy_qnoo"
       ]
     },
     "languages": [],
@@ -5488,7 +5488,7 @@
     "name": "George Washington Bridge",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/BJItr9ul6Do"
+        "https://www.youtube-nocookie.com/embed/5BlEY0fpCRs"
       ]
     },
     "languages": [],
@@ -5512,7 +5512,7 @@
     "name": "Georgica Jetty",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/rhpj1WY7T5I"
+        "https://www.youtube-nocookie.com/embed/aPsisum6YG0"
       ]
     },
     "languages": [],
@@ -7768,7 +7768,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/J9b4nDBh9us"
+        "https://www.youtube-nocookie.com/embed/DRGCWpBF0Kw"
       ]
     },
     "languages": [],
@@ -7805,18 +7805,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/wTLnC0o0UJ0"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "sLTnHJD6kCCm2s",
-    "name": "LAX Airport Arrivals",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/VNwgk1xIeUc"
       ]
     },
     "languages": [],
@@ -8225,18 +8213,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/zScdt7Z839s"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "b4Yjjh1Lbj3ez8",
-    "name": "LujiiGarden Bird Feeder",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/i59UQijZ4-Y"
       ]
     },
     "languages": [],
@@ -9592,7 +9568,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/xbuZzJBLOhw"
+        "https://www.youtube-nocookie.com/embed/nZE7QH2v8eE"
       ]
     },
     "languages": [],
@@ -10012,7 +9988,7 @@
     "name": "Nevada Trainspotting at the Grade Crossing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/zjisPq3vrrU"
+        "https://www.youtube-nocookie.com/embed/sAmTSmuIk7U"
       ]
     },
     "languages": [],
@@ -10752,18 +10728,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "OZ0nznNO6fnEsJ",
-    "name": "PA Bird Feeder Cam, Murrysville",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/6--SErd7u4o"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "FQjgFs5STQWv9h",
     "name": "Pacific Northwest Trains",
     "sources": {
@@ -11208,6 +11172,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "YqD9EYutl6o5fw",
+    "name": "Pensacola Beach",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/vdr7QQ_HAgQ"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "NRSJ7IIJomD3sI",
     "name": "Pensacola Beach Pier East",
     "sources": {
@@ -11424,18 +11400,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "JXaFhu42ZB8K7f",
-    "name": "PixCams Field Cam",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/JQWvjG5arhQ"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "0utCmFghoO6haL",
     "name": "PixCams Migration Optical Camera",
     "sources": {
@@ -11453,30 +11417,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/WLSkgf-dvOI"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "usd8anJRcxq77j",
-    "name": "PixCams Natural Bird Bath",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/pgMuZvyFw4k"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "GV4RLEImAGsLsK",
-    "name": "PixCams Pennsylvania Bird Feeder 2",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/JosQdXWDn6g"
       ]
     },
     "languages": [],
@@ -11680,7 +11620,7 @@
     "name": "Port Miami Cruise Ship Terminals",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/eKzbmnE9uYU"
+        "https://www.youtube-nocookie.com/embed/pR-HIAJsXCU"
       ]
     },
     "languages": [],
@@ -11956,7 +11896,7 @@
     "name": "Raccoon Saloon Behind Dresser",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ciHfyR8WgNM"
+        "https://www.youtube-nocookie.com/embed/1ebGqws8rWk"
       ]
     },
     "languages": [],
@@ -11968,7 +11908,7 @@
     "name": "Raccoon Saloon Boat View",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/8tZdaT1e2Wg"
+        "https://www.youtube-nocookie.com/embed/jkClZOWEuQ4"
       ]
     },
     "languages": [],
@@ -12076,7 +12016,7 @@
     "name": "Raccoon Saloon Living Room",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/lyWSzCY4SDY"
+        "https://www.youtube-nocookie.com/embed/NsJ_iKHX4hE"
       ]
     },
     "languages": [],
@@ -12160,7 +12100,7 @@
     "name": "Raccoon Saloon Pond Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/17EzpMpCV3A"
+        "https://www.youtube-nocookie.com/embed/tt5mi8hvgcM"
       ]
     },
     "languages": [],
@@ -12220,7 +12160,7 @@
     "name": "Raccoon Saloon Woodshed",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/U-i7n9TvaFQ"
+        "https://www.youtube-nocookie.com/embed/-cyNWUJmTxE"
       ]
     },
     "languages": [],
@@ -14592,18 +14532,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "87WhdUP81iPyaF",
-    "name": "Southernmost Point, Key West",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/LAbf0dIc2VU"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "d5lJEcN1c172hp",
     "name": "Southernmost Point, Key West 2",
     "sources": {
@@ -14884,7 +14812,7 @@
     "name": "Squirrel and Wildlife Feeder",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Yqt_Q4m2yfQ"
+        "https://www.youtube-nocookie.com/embed/2GpSLL9wf9U"
       ]
     },
     "languages": [],
@@ -14968,7 +14896,7 @@
     "name": "St Louis",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/h19fX6yYkHc"
+        "https://www.youtube-nocookie.com/embed/rgbz-vJsaGg"
       ]
     },
     "languages": [],
@@ -15796,7 +15724,7 @@
     "name": "Tehachapi Railroad",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/yVfFVNmE0LE"
+        "https://www.youtube-nocookie.com/embed/Inq-RVJLb_o"
       ]
     },
     "languages": [],
@@ -16588,7 +16516,7 @@
     "name": "Two Friends Patio",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/cJMhHVTRXy4"
+        "https://www.youtube-nocookie.com/embed/PU77FsPZGic"
       ]
     },
     "languages": [],

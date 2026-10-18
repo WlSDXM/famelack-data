@@ -179,6 +179,118 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "9IFqWFas19TpyP",
+    "name": "beIN Sports 1 MENA",
+    "sources": {
+      "streams": [
+        "https://primetv.cc.cd/beinfhd1/tracks-v1a1/mono.tbin.m3u8"
+      ]
+    },
+    "languages": [
+      "ara"
+    ],
+    "country": "qa",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "XOMy3RHPEjefQf",
+    "name": "beIN Sports 2 MENA",
+    "sources": {
+      "streams": [
+        "https://primetv.cc.cd/beinfhd2/index.m3u8"
+      ]
+    },
+    "languages": [
+      "ara"
+    ],
+    "country": "qa",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "P1fP1rwjCDEOOl",
+    "name": "beIN Sports 3 MENA",
+    "sources": {
+      "streams": [
+        "https://primetv.cc.cd/beinfhd3/index.m3u8"
+      ]
+    },
+    "languages": [
+      "ara"
+    ],
+    "country": "qa",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "auUlqGzfbW0sFf",
+    "name": "beIN Sports 4 MENA",
+    "sources": {
+      "streams": [
+        "https://primetv.cc.cd/beinfhd4/tracks-v1a1/mono.tbin.m3u8"
+      ]
+    },
+    "languages": [
+      "ara"
+    ],
+    "country": "qa",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ZWDunXQWK9uiBV",
+    "name": "beIN Sports 5 MENA",
+    "sources": {
+      "streams": [
+        "https://primetv.cc.cd/beinfhd5/tracks-v1a1/mono.tbin.m3u8"
+      ]
+    },
+    "languages": [
+      "ara"
+    ],
+    "country": "qa",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "0ywDwwGIueAJ8z",
+    "name": "beIN Sports 6 MENA",
+    "sources": {
+      "streams": [
+        "https://primetv.cc.cd/beinfhd6/index.m3u8"
+      ]
+    },
+    "languages": [
+      "ara"
+    ],
+    "country": "qa",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "FXr8zSlnYCYTeI",
+    "name": "beIN Sports 7 MENA",
+    "sources": {
+      "streams": [
+        "https://primetv.cc.cd/beinfhd7/index.m3u8"
+      ]
+    },
+    "languages": [
+      "ara"
+    ],
+    "country": "qa",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "5Q3OIzNGOlRGG4",
+    "name": "beIN Sports 8 MENA",
+    "sources": {
+      "streams": [
+        "https://primetv.cc.cd/beinfhd8/index.m3u8"
+      ]
+    },
+    "languages": [
+      "ara"
+    ],
+    "country": "qa",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "sCYZ4Box9Vsqsi",
     "name": "Qatar Television",
     "sources": {

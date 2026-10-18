@@ -112,20 +112,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "LHPz1aKU2GRHnH",
-    "name": "Brevard Government Access TV",
-    "sources": {
-      "streams": [
-        "https://cdn3.wowza.com/5/cXdyRHF0Z3kxN0k2/brevardfl/G2111_002/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "UTKM2yB8tUj85p",
     "name": "Camera dei Deputati",
     "sources": {
@@ -176,20 +162,6 @@
     "sources": {
       "streams": [
         "https://capitalcityconnection.cablecast.tv/live/stream-1/live.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "xIwhqLk3kSoWQX",
-    "name": "CFM TV Channel 98",
-    "sources": {
-      "streams": [
-        "https://cdn3.wowza.com/5/djRwZmQvTEJidmZD/cityftmyers/G2083_002/playlist.m3u8"
       ]
     },
     "languages": [
@@ -563,6 +535,20 @@
       "eng"
     ],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "xupLUhlUhMmQst",
+    "name": "Duma TV",
+    "sources": {
+      "streams": [
+        "https://dumatv.iptv2022.com/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
     "isGeoBlocked": false
   },
   {
@@ -982,20 +968,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "XdBBT0nNYrdIFQ",
-    "name": "NMBTV",
-    "sources": {
-      "streams": [
-        "https://cdn3.wowza.com/5/cXdyRHF0Z3kxN0k2/citynmb/G2044_002/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "9N0REUHRJR4gUt",
     "name": "Nova24TV 2",
     "sources": {
@@ -1285,20 +1257,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "h50zFJwbL1011G",
-    "name": "SPTV",
-    "sources": {
-      "streams": [
-        "https://cdn3.wowza.com/5/RXJNMFI3VlVkOEFP/stpete/G0187_003/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "ztLXAJFpTRNVhe",
     "name": "Thai Parliament Television",
     "sources": {
@@ -1347,7 +1305,7 @@
     "name": "TV Assembleia Minas Gerais",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/TCKsniOmaB8"
+        "https://www.youtube-nocookie.com/embed/7Km4V6uFNKA"
       ]
     },
     "languages": [

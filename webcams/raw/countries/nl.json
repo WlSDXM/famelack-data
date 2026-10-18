@@ -408,18 +408,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "T34Jt7zHYzi1DE",
-    "name": "Delta Yacht",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/yd4I5B2nVys"
-      ]
-    },
-    "languages": [],
-    "country": "nl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "LvZrSgVg45qlwA",
     "name": "Dormakade, Urk",
     "sources": {
@@ -1516,7 +1504,7 @@
     "name": "Vlissingen Walcheren",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/QL9kmPJutow"
+        "https://www.youtube-nocookie.com/embed/05D9kA0Ya94"
       ]
     },
     "languages": [],
