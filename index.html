@@ -3953,16 +3953,24 @@ window.saveTVFavorites(existingTV);
     // Mouse/trackpad devices get the custom dropdown; touch devices keep the native one.
     const mq = window.matchMedia('(hover: hover) and (pointer: fine)');
     const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    const matchOpt = (o, q) => (o._n || (o._n = norm(o.textContent))).includes(q); // normalized text is cached
     const valueDesc = Object.getOwnPropertyDescriptor(HTMLSelectElement.prototype, 'value');
     const widgets = [];
+
+    const CHUNK = 120; // rows drawn at a time (long lists load more as you scroll)
+    const DEEP = 800;  // don't draw this many rows just to reveal the selected item
 
     function makeSearchable(select, opts = {}) {
         if (!select) return;
 
         let isOpen = false;
-        let items = [];
-        let act = -1;
-        let all = []; // unfiltered copy of the select's children (touch search only)
+        let rows = [];   // every row that matches (plain data, cheap)
+        let els = [];    // DOM elements drawn so far (index matches rows)
+        let act = -1;    // highlighted row
+        let curVal = '';
+        let all = [];    // unfiltered copy of the list (touch search only)
+        let filtered = false;
+        let touchTimer = 0;
 
         // ---------- desktop: custom button + panel ----------
         const widget = document.createElement('div');
@@ -4027,71 +4035,93 @@ window.saveTVFavorites(existingTV);
         });
         select.addEventListener('change', syncLabel);
 
-        // ---------- panel list ----------
-        const matchOpt = (o, q) => norm(o.textContent).includes(q);
-
-        function mkItem(o, cur) {
-            const el = document.createElement('div');
-            el.className = 'ss-item' + (o.value === cur ? ' sel' : '');
-            el.textContent = o.textContent;
-            el.dataset.value = o.value;
-            el.setAttribute('role', 'option');
-            el._i = items.length;
-            items.push(el);
-            return el;
-        }
-
-        function setAct(i, scroll) {
-            if (act >= 0 && items[act]) items[act].classList.remove('act');
-            if (!items.length) { act = -1; return; }
-            act = Math.max(0, Math.min(items.length - 1, i));
-            items[act].classList.add('act');
-            if (scroll) items[act].scrollIntoView({ block: 'nearest' });
-        }
-
-        function render() {
+        // ---------- panel list (lazy: only ~CHUNK rows exist in the DOM at a time) ----------
+        function buildRows() {
             const q = norm(query.value.trim());
-            const cur = select.value;
-            const frag = document.createDocumentFragment();
-            items = [];
-            act = -1;
-
+            rows = [];
             Array.from(select.children).forEach((node) => {
                 if (node.tagName === 'OPTGROUP') {
-                    const opts2 = Array.from(node.children)
-                        .filter((o) => o.value !== '' && !o.disabled && (!q || matchOpt(o, q)));
-                    if (!opts2.length) return;
-                    const h = document.createElement('div');
-                    h.className = 'ss-group';
-                    h.textContent = node.label;
-                    frag.appendChild(h);
-                    opts2.forEach((o) => frag.appendChild(mkItem(o, cur)));
+                    let header = false;
+                    Array.from(node.children).forEach((o) => {
+                        if (o.value === '' || o.disabled || (q && !matchOpt(o, q))) return;
+                        if (!header) { header = true; rows.push({ t: 'g', text: node.label }); }
+                        rows.push({ t: 'i', value: o.value, text: o.textContent });
+                    });
                 } else if (node.tagName === 'OPTION') {
                     if (node.value === '') return; // the "-- Select … --" placeholder
                     if (node.disabled) {           // your favorites separator line
-                        if (!q && node.classList.contains('favorites-separator')) {
-                            const s = document.createElement('div');
-                            s.className = 'ss-sep';
-                            frag.appendChild(s);
-                        }
+                        if (!q && node.classList.contains('favorites-separator')) rows.push({ t: 's' });
                         return;
                     }
                     if (q && !matchOpt(node, q)) return;
-                    frag.appendChild(mkItem(node, cur));
+                    rows.push({ t: 'i', value: node.value, text: node.textContent });
                 }
             });
+        }
 
+        function mkRow(r, i) {
+            const el = document.createElement('div');
+            if (r.t === 'g') { el.className = 'ss-group'; el.textContent = r.text; }
+            else if (r.t === 's') { el.className = 'ss-sep'; }
+            else {
+                el.className = 'ss-item' + (r.value === curVal ? ' sel' : '');
+                el.textContent = r.text;
+                el.dataset.value = r.value;
+                el.setAttribute('role', 'option');
+                el._r = i;
+            }
+            return el;
+        }
+
+        function drawTo(n) {
+            const end = Math.min(rows.length, n);
+            if (end <= els.length) return;
+            const frag = document.createDocumentFragment();
+            for (let i = els.length; i < end; i++) {
+                const el = mkRow(rows[i], i);
+                els.push(el);
+                frag.appendChild(el);
+            }
+            list.appendChild(frag);
+        }
+
+        function setAct(r, scroll) {
+            if (act >= 0 && els[act]) els[act].classList.remove('act');
+            act = r;
+            if (r < 0) return;
+            if (r >= els.length) drawTo(r + CHUNK);
+            const el = els[r];
+            if (!el) return;
+            el.classList.add('act');
+            if (scroll) el.scrollIntoView({ block: 'nearest' });
+        }
+
+        function stepAct(dir) {
+            let r = act + dir;
+            while (r >= 0 && r < rows.length && rows[r].t !== 'i') r += dir;
+            if (r >= 0 && r < rows.length) setAct(r, true);
+        }
+
+        function render() {
+            const hasQuery = !!query.value.trim();
+            buildRows();
+            curVal = select.value;
+            els = [];
+            act = -1;
             list.textContent = '';
-            if (!items.length) {
+
+            if (!rows.length) {
                 const e = document.createElement('div');
                 e.className = 'ss-empty';
-                e.textContent = q ? 'No matches' : 'Nothing to show yet';
+                e.textContent = hasQuery ? 'No matches' : 'Nothing to show yet';
                 list.appendChild(e);
-            } else {
-                list.appendChild(frag);
-                const selIdx = items.findIndex((el) => el.classList.contains('sel'));
-                setAct(q ? 0 : (selIdx >= 0 ? selIdx : 0), false);
+                return;
             }
+
+            const selRow = hasQuery ? -1 : rows.findIndex((r) => r.t === 'i' && r.value === curVal);
+            const reveal = selRow >= 0 && selRow < DEEP;
+            drawTo(reveal ? Math.max(CHUNK, selRow + 40) : CHUNK);
+            setAct(reveal ? selRow : rows.findIndex((r) => r.t === 'i'), false);
         }
 
         function place() {
@@ -4120,7 +4150,7 @@ window.saveTVFavorites(existingTV);
             widget.classList.add('open');
             btn.setAttribute('aria-expanded', 'true');
             place();
-            if (act >= 0 && items[act]) list.scrollTop = Math.max(0, items[act].offsetTop - list.clientHeight / 2);
+            if (act >= 0 && els[act]) list.scrollTop = Math.max(0, els[act].offsetTop - list.clientHeight / 2);
             query.focus({ preventScroll: true });
         }
 
@@ -4130,6 +4160,9 @@ window.saveTVFavorites(existingTV);
             panel.classList.remove('open');
             widget.classList.remove('open');
             btn.setAttribute('aria-expanded', 'false');
+            list.textContent = '';  // free the rows
+            els = [];
+            rows = [];
             if (returnFocus) btn.focus({ preventScroll: true });
         }
 
@@ -4151,9 +4184,9 @@ window.saveTVFavorites(existingTV);
 
         query.addEventListener('input', render);
         query.addEventListener('keydown', (e) => {
-            if (e.key === 'ArrowDown') { e.preventDefault(); setAct(act + 1, true); }
-            else if (e.key === 'ArrowUp') { e.preventDefault(); setAct(act - 1, true); }
-            else if (e.key === 'Enter') { e.preventDefault(); if (items[act]) choose(items[act].dataset.value); }
+            if (e.key === 'ArrowDown') { e.preventDefault(); stepAct(1); }
+            else if (e.key === 'ArrowUp') { e.preventDefault(); stepAct(-1); }
+            else if (e.key === 'Enter') { e.preventDefault(); if (act >= 0 && rows[act]) choose(rows[act].value); }
             else if (e.key === 'Escape') { e.preventDefault(); e.stopPropagation(); close(true); }
             else if (e.key === 'Tab') close(false);
         });
@@ -4163,8 +4196,14 @@ window.saveTVFavorites(existingTV);
             if (it) choose(it.dataset.value);
         });
         list.addEventListener('mousemove', (e) => {
+            if (!e.movementX && !e.movementY) return; // ignore the fake mouse-move browsers fire while scrolling
             const it = e.target.closest('.ss-item');
-            if (it && it._i !== act) setAct(it._i, false);
+            if (it && it._r !== act) setAct(it._r, false);
+        });
+        list.addEventListener('scroll', () => {       // load the next chunk when you near the bottom
+            if (els.length < rows.length && list.scrollTop + list.clientHeight >= list.scrollHeight - 400) {
+                drawTo(els.length + CHUNK);
+            }
         });
 
         document.addEventListener('pointerdown', (e) => {
@@ -4177,7 +4216,10 @@ window.saveTVFavorites(existingTV);
         function snapshot() { all = Array.from(select.children, (n) => n.cloneNode(true)); }
 
         function applyTouch() {
+            clearTimeout(touchTimer);
             const q = norm(touch.value.trim());
+            if (!q && !filtered) return;     // nothing to filter or restore
+            if (!filtered) snapshot();       // the select currently holds the full list
             const prev = select.value;
             const frag = document.createDocumentFragment();
             let hits = 0;
@@ -4207,12 +4249,17 @@ window.saveTVFavorites(existingTV);
 
             select.innerHTML = '';
             select.appendChild(frag);
+            filtered = !!q;
+            if (!q) all = [];
             if (prev && Array.from(select.options).some((o) => o.value === prev)) select.value = prev;
             mo.takeRecords(); // ignore our own changes
         }
 
         if (touch) {
-            touch.addEventListener('input', applyTouch);
+            touch.addEventListener('input', () => {
+                clearTimeout(touchTimer);
+                touchTimer = setTimeout(applyTouch, 150); // wait for a pause in typing
+            });
             touch.addEventListener('keydown', (e) => {
                 if (e.key === 'Escape') {
                     e.stopPropagation();
@@ -4220,6 +4267,7 @@ window.saveTVFavorites(existingTV);
                     applyTouch();
                 } else if (e.key === 'Enter') {
                     e.preventDefault();
+                    applyTouch(); // apply right away if the timer hasn't fired yet
                     const first = Array.from(select.options).find((o) => o.value && !o.disabled);
                     if (first) {
                         select.value = first.value;
@@ -4231,13 +4279,16 @@ window.saveTVFavorites(existingTV);
         }
 
         // ---------- keep up with your existing code rebuilding the list ----------
-        const mo = new MutationObserver(() => {
+        const mo = new MutationObserver((recs) => {
             btn.disabled = select.disabled;
             if (touch) {
                 touch.disabled = select.disabled;
-                snapshot();
-                if (select.children.length <= 1) touch.value = '';  // country changed → clear search
-                else if (touch.value.trim()) applyTouch();          // list rebuilt → re-apply search
+                if (recs.some((r) => r.type === 'childList')) {
+                    filtered = false; // the page rebuilt the list, so it's unfiltered again
+                    all = [];
+                    if (select.children.length <= 1) touch.value = '';   // country changed → clear search
+                    else if (touch.value.trim()) applyTouch();           // list rebuilt → re-apply search
+                }
             }
             syncLabel();
             if (isOpen) render();
@@ -4266,7 +4317,6 @@ window.saveTVFavorites(existingTV);
         widgets.push({ api });
 
         btn.disabled = select.disabled;
-        if (touch) snapshot();
         setMode(mq.matches);
     }
 
