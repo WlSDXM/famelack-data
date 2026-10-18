@@ -360,6 +360,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "17s2Ziw2Wa3ESN",
+    "name": "Bird Feeder, Sierra Madrid",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/DgM19IpSz2E"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "IYG7EEJebMCi7o",
     "name": "Birds & Squirrels Feeder Cam",
     "sources": {
@@ -1188,18 +1200,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "kOIGA593CV5jf0",
-    "name": "Dolphin Watch, New Quay",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/sZ-kIl2cA5E"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "ussI7CFCXbcQUB",
     "name": "Doñana National Park Marsh",
     "sources": {
@@ -1432,7 +1432,7 @@
     "name": "Furball Farm Cat Sanctuary",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/n1aXWy_qnoo"
+        "https://www.youtube-nocookie.com/embed/07RhV0yFHWI"
       ]
     },
     "languages": [],
@@ -2585,18 +2585,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/i07IVN7ZKek"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "FG7Cg1mb5xtt5G",
-    "name": "Manchester Peregrine Falcon Nest 1",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ud1zupQMHA8"
       ]
     },
     "languages": [],
@@ -4812,23 +4800,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "7E5eX5KBRTvZUA",
-    "name": "SNAP Cats FeLV+ Catio",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/gXtkAzgaL_k"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "KN1NV4yIMmaW2O",
     "name": "SNAP Cats Kitten Catio",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/IR1LShPldpk"
+        "https://www.youtube-nocookie.com/embed/21B489OWrKc"
       ]
     },
     "languages": [],
@@ -4840,7 +4816,7 @@
     "name": "SNAP Cats Kitten Room",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/t1W44lOV-oU"
+        "https://www.youtube-nocookie.com/embed/tswjOa_sS1M"
       ]
     },
     "languages": [],
@@ -4852,7 +4828,7 @@
     "name": "SNAP Cats Senior Catio",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/yoMLCleZAao"
+        "https://www.youtube-nocookie.com/embed/V9dLBE78u5k"
       ]
     },
     "languages": [],
@@ -4924,7 +4900,7 @@
     "name": "Squirrel and Wildlife Feeder",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/2GpSLL9wf9U"
+        "https://www.youtube-nocookie.com/embed/eBpuQDElTB0"
       ]
     },
     "languages": [],

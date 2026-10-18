@@ -1248,18 +1248,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "56PuvF0c6qYFih",
-    "name": "Biloxi Beach Boulevard",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/9PzhYTO-5yA"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "aBuVySPTpwdFYu",
     "name": "Bimini Bay",
     "sources": {
@@ -2356,7 +2344,7 @@
     "name": "Castro Street",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/m4diAJPEqDY"
+        "https://www.youtube-nocookie.com/embed/dpKb99MHxD0"
       ]
     },
     "languages": [],
@@ -2376,23 +2364,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Ui5Xgu33j2MZic",
-    "name": "Castro Street Cam 2",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/3su9l7nEb6Q"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "b7Z7P4jg4mQzAs",
     "name": "Castro Street, San Francisco",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/5JWUeGiGgvo"
+        "https://www.youtube-nocookie.com/embed/_0vXxm35p84"
       ]
     },
     "languages": [],
@@ -2632,7 +2608,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/TBHol9qkAtU"
+        "https://www.youtube-nocookie.com/embed/DD7cYbwbPCQ"
       ]
     },
     "languages": [],
@@ -3588,18 +3564,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "9FACMEW5P67m46",
-    "name": "Disney California Adventure",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ny1BGEtZILI"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "7cWQOqwrolB1pI",
     "name": "Dixon Square, Downtown Westerly",
     "sources": {
@@ -4396,7 +4360,7 @@
     "name": "Duval Street",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/0hCX2G_-Jzg"
+        "https://www.youtube-nocookie.com/embed/H_kswlYZN5o"
       ]
     },
     "languages": [],
@@ -4444,7 +4408,7 @@
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-ToxU5idDK0"
+        "https://www.youtube-nocookie.com/embed/HqA7SiDDqc0"
       ]
     },
     "languages": [],
@@ -4649,18 +4613,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/bM0GplM_vPY"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "r0HIWy56zv0uls",
-    "name": "Elbo Room Social Club",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/2YtQez2GaqM"
       ]
     },
     "languages": [],
@@ -5284,7 +5236,7 @@
     "name": "Furball Farm Cat Sanctuary",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/n1aXWy_qnoo"
+        "https://www.youtube-nocookie.com/embed/07RhV0yFHWI"
       ]
     },
     "languages": [],
@@ -5512,7 +5464,7 @@
     "name": "Georgica Jetty",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/aPsisum6YG0"
+        "https://www.youtube-nocookie.com/embed/EQEt_3GkUx4"
       ]
     },
     "languages": [],
@@ -6173,6 +6125,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/qpue1F6xGes"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ipbnDCCjbj69H6",
+    "name": "Higgins Beach",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/2XANfO8oAxg"
       ]
     },
     "languages": [],
@@ -7768,7 +7732,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/DRGCWpBF0Kw"
+        "https://www.youtube-nocookie.com/embed/R_0fcmaK-0c"
       ]
     },
     "languages": [],
@@ -8525,18 +8489,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/i07IVN7ZKek"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "FG7Cg1mb5xtt5G",
-    "name": "Manchester Peregrine Falcon Nest 1",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ud1zupQMHA8"
       ]
     },
     "languages": [],
@@ -9568,7 +9520,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/nZE7QH2v8eE"
+        "https://www.youtube-nocookie.com/embed/af8MZHS8zDM"
       ]
     },
     "languages": [],
@@ -10416,18 +10368,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "aYmxnvI6uUzc0O",
-    "name": "Ocean Key Bar",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/htpZ21xtzhM"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "gTEe4Dce3sr6Uv",
     "name": "Oceanside Pier & Pacific Ocean View",
     "sources": {
@@ -10516,7 +10456,7 @@
     "name": "Old Bridge Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/6Td2YRYzDKs"
+        "https://www.youtube-nocookie.com/embed/VtVU40dviR0"
       ]
     },
     "languages": [],
@@ -14100,23 +14040,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "7E5eX5KBRTvZUA",
-    "name": "SNAP Cats FeLV+ Catio",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/gXtkAzgaL_k"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "KN1NV4yIMmaW2O",
     "name": "SNAP Cats Kitten Catio",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/IR1LShPldpk"
+        "https://www.youtube-nocookie.com/embed/21B489OWrKc"
       ]
     },
     "languages": [],
@@ -14128,7 +14056,7 @@
     "name": "SNAP Cats Kitten Room",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/t1W44lOV-oU"
+        "https://www.youtube-nocookie.com/embed/tswjOa_sS1M"
       ]
     },
     "languages": [],
@@ -14140,7 +14068,7 @@
     "name": "SNAP Cats Senior Catio",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/yoMLCleZAao"
+        "https://www.youtube-nocookie.com/embed/V9dLBE78u5k"
       ]
     },
     "languages": [],
@@ -14532,6 +14460,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "87WhdUP81iPyaF",
+    "name": "Southernmost Point, Key West",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/hMM3P2yicy4"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "d5lJEcN1c172hp",
     "name": "Southernmost Point, Key West 2",
     "sources": {
@@ -14812,7 +14752,7 @@
     "name": "Squirrel and Wildlife Feeder",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/2GpSLL9wf9U"
+        "https://www.youtube-nocookie.com/embed/eBpuQDElTB0"
       ]
     },
     "languages": [],
@@ -15720,6 +15660,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "5nveyBztQthh9S",
+    "name": "Tehachapi Loop West Cable",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/8GmYBH2jH5w"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "XDMgiC4sJwP4Gf",
     "name": "Tehachapi Railroad",
     "sources": {
@@ -16516,7 +16468,7 @@
     "name": "Two Friends Patio",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/PU77FsPZGic"
+        "https://www.youtube-nocookie.com/embed/aYemFyCMfNI"
       ]
     },
     "languages": [],
@@ -16865,42 +16817,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/iQPgyQYfVjQ"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "edu9KSxWZl3IEi",
-    "name": "UW Lake Washington View",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/cWjofQOYcB0"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "x5qvzKKfvbb5On",
-    "name": "UW Red Square",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/OwCzuVAi-ec"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "JygH0uNdxUhiME",
-    "name": "UW Tower Seattle Skyline View",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/4cgSE12k9Sc"
       ]
     },
     "languages": [],

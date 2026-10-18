@@ -264,6 +264,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "CJQMmUgQHGxIZr",
+    "name": "Grand Park Royal Puerto Vallarta",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/duccREgWTx4"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "eMPhl3dQX1q3r0",
     "name": "Grand Residences",
     "sources": {
@@ -540,11 +552,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "G5hzD2NeP1JaLJ",
-    "name": "Piedras Negras Cam 2",
+    "nanoid": "yafm3xVoxVMWJR",
+    "name": "Piedras Negras Cam 1",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/iTBVXtwe6xM"
+        "https://www.youtube-nocookie.com/embed/QkjbIFF9CS4"
       ]
     },
     "languages": [],
@@ -756,18 +768,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "sPSEtyUMx2GPGu",
-    "name": "Puente Internacional 2 Piedras Negras-Eagle Pass",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/luZM_RJj6dE"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "LzN6cAbSdpMdF6",
     "name": "Punta Cancún Beach Panorama",
     "sources": {
@@ -845,6 +845,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/CAb2AjJNTHo"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "nv06bakmm3y5wz",
+    "name": "Teotihuacán Pyramids",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/04Yn33Zeq6c"
       ]
     },
     "languages": [],

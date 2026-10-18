@@ -24,18 +24,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "efhGAQpqwhNUYZ",
-    "name": "Akabane Station",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Mbr6qdr2XPM"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "no0BOq0PiUmV5h",
     "name": "Akita Station Square",
     "sources": {
@@ -2296,7 +2284,7 @@
     "name": "Meitetsu Tokoname Line Ono-machi",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/33OZl6kphHQ"
+        "https://www.youtube-nocookie.com/embed/fywpSEOhIvQ"
       ]
     },
     "languages": [],
@@ -3552,6 +3540,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "5nveyBztQthh9S",
+    "name": "Tehachapi Loop West Cable",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/8GmYBH2jH5w"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "XDMgiC4sJwP4Gf",
     "name": "Tehachapi Railroad",
     "sources": {
@@ -3869,18 +3869,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/AT3eAf-IB0w"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "9svikK1MYKoqoY",
-    "name": "West Somerset Railway Bishops Lydeard Station",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/hEa16bHxHMM"
       ]
     },
     "languages": [],

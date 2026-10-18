@@ -540,6 +540,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "CQavCvvfcL38ev",
+    "name": "Bol Seafront",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/fNzAfMWDDCE"
+      ]
+    },
+    "languages": [],
+    "country": "hr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "146onyrsPfIdeL",
     "name": "Boones Ferry Marina",
     "sources": {
@@ -1516,7 +1528,7 @@
     "name": "Dunedin Otago Harbour",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HfHZtRqDIo8"
+        "https://www.youtube-nocookie.com/embed/T7qDF3QAHTE"
       ]
     },
     "languages": [],
@@ -1540,7 +1552,7 @@
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-ToxU5idDK0"
+        "https://www.youtube-nocookie.com/embed/HqA7SiDDqc0"
       ]
     },
     "languages": [],
@@ -2289,18 +2301,6 @@
     },
     "languages": [],
     "country": "nl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "dm2YQd2wULpQDN",
-    "name": "Hotel Margaret Porat",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/B95TcB9KjJ8"
-      ]
-    },
-    "languages": [],
-    "country": "hr",
     "isGeoBlocked": false
   },
   {
@@ -4644,6 +4644,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "b9qVhlYoRiVkmF",
+    "name": "Santos Port Channel",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/fGYrAZAdHBU"
+      ]
+    },
+    "languages": [],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "ZAhoZtSg8yp91V",
     "name": "Sasebo Port",
     "sources": {
@@ -4888,7 +4900,7 @@
     "name": "Skiathos Bay & Port",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/mzRP4VRxi4A"
+        "https://www.youtube-nocookie.com/embed/E_hpShK09EI"
       ]
     },
     "languages": [],

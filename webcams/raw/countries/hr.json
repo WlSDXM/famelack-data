@@ -12,6 +12,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "CQavCvvfcL38ev",
+    "name": "Bol Seafront",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/fNzAfMWDDCE"
+      ]
+    },
+    "languages": [],
+    "country": "hr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "2375z7z8pkEVph",
     "name": "Camp Bijar",
     "sources": {
@@ -53,18 +65,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/qzJtQa8eHKc"
-      ]
-    },
-    "languages": [],
-    "country": "hr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "dm2YQd2wULpQDN",
-    "name": "Hotel Margaret Porat",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/B95TcB9KjJ8"
       ]
     },
     "languages": [],

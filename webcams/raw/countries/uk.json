@@ -408,18 +408,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "kOIGA593CV5jf0",
-    "name": "Dolphin Watch, New Quay",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/sZ-kIl2cA5E"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "mqeoSfkypaogGR",
     "name": "Earth from Space",
     "sources": {
@@ -568,7 +556,7 @@
     "name": "Hawick High Street",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/CPKsP3nHkF0"
+        "https://www.youtube-nocookie.com/embed/AXTsHgK0Ni0"
       ]
     },
     "languages": [],
@@ -700,7 +688,7 @@
     "name": "London Heathrow Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/tY-FFLw8tsw"
+        "https://www.youtube-nocookie.com/embed/0ubEy0lRWNo"
       ]
     },
     "languages": [],
@@ -1384,7 +1372,7 @@
     "name": "West Kirby Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/K7Hw0N5nklg"
+        "https://www.youtube-nocookie.com/embed/Gnrikq0EWyk"
       ]
     },
     "languages": [],
@@ -1409,18 +1397,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/AT3eAf-IB0w"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "9svikK1MYKoqoY",
-    "name": "West Somerset Railway Bishops Lydeard Station",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/hEa16bHxHMM"
       ]
     },
     "languages": [],

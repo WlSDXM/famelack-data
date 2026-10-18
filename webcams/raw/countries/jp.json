@@ -108,18 +108,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "efhGAQpqwhNUYZ",
-    "name": "Akabane Station",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Mbr6qdr2XPM"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "X2LGD3uwPKwkcl",
     "name": "Akashi Kaikyō Bridge",
     "sources": {
@@ -1456,7 +1444,7 @@
     "name": "Kohoku Parking Area on the Tomei Expressway",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/rB1Q2rmOVzM"
+        "https://www.youtube-nocookie.com/embed/sivLagNNxWI"
       ]
     },
     "languages": [],
@@ -1649,18 +1637,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/rHuoK_TWOnA"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "h6q1mO0jXiSxN6",
-    "name": "Kusatsu Route 292 Kusatsu-Maeguchi",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/WB4jllqVRCc"
       ]
     },
     "languages": [],
@@ -1900,7 +1876,7 @@
     "name": "Meitetsu Tokoname Line Ono-machi",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/33OZl6kphHQ"
+        "https://www.youtube-nocookie.com/embed/fywpSEOhIvQ"
       ]
     },
     "languages": [],
@@ -2784,18 +2760,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "BnrsodzLxK84zY",
-    "name": "Osaka Castle & Skyline",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/dOKOq-jU1b8"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "AP3TPm8eGrm0Qk",
     "name": "Osaka City",
     "sources": {
@@ -3244,7 +3208,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/jhN0F0SdGqM"
+        "https://www.youtube-nocookie.com/embed/5D6tcGVC9ic"
       ]
     },
     "languages": [],
@@ -3772,7 +3736,7 @@
     "name": "Tanukikoji Shopping St, Sapporo",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ncvEMktxVd4"
+        "https://www.youtube-nocookie.com/embed/b2Ve2fudoHM"
       ]
     },
     "languages": [],

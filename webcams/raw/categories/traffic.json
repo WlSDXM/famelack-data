@@ -372,18 +372,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "56PuvF0c6qYFih",
-    "name": "Biloxi Beach Boulevard",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/9PzhYTO-5yA"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "qNrdE69S6z3pV0",
     "name": "BR-101 Northbound, Itajaí",
     "sources": {
@@ -448,7 +436,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/TBHol9qkAtU"
+        "https://www.youtube-nocookie.com/embed/DD7cYbwbPCQ"
       ]
     },
     "languages": [],
@@ -1360,7 +1348,7 @@
     "name": "Khao Lak",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/puNPOQFq2Sg"
+        "https://www.youtube-nocookie.com/embed/MCM-ZnBZjic"
       ]
     },
     "languages": [],
@@ -1384,7 +1372,7 @@
     "name": "Kohoku Parking Area on the Tomei Expressway",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/rB1Q2rmOVzM"
+        "https://www.youtube-nocookie.com/embed/sivLagNNxWI"
       ]
     },
     "languages": [],
@@ -1433,18 +1421,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/rHuoK_TWOnA"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "h6q1mO0jXiSxN6",
-    "name": "Kusatsu Route 292 Kusatsu-Maeguchi",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/WB4jllqVRCc"
       ]
     },
     "languages": [],
@@ -2208,11 +2184,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "G5hzD2NeP1JaLJ",
-    "name": "Piedras Negras Cam 2",
+    "nanoid": "yafm3xVoxVMWJR",
+    "name": "Piedras Negras Cam 1",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/iTBVXtwe6xM"
+        "https://www.youtube-nocookie.com/embed/QkjbIFF9CS4"
       ]
     },
     "languages": [],
@@ -2273,18 +2249,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/d8MjS53ncyw"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "sPSEtyUMx2GPGu",
-    "name": "Puente Internacional 2 Piedras Negras-Eagle Pass",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/luZM_RJj6dE"
       ]
     },
     "languages": [],
@@ -2656,7 +2620,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/jhN0F0SdGqM"
+        "https://www.youtube-nocookie.com/embed/5D6tcGVC9ic"
       ]
     },
     "languages": [],

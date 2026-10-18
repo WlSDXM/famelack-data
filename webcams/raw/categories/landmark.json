@@ -484,7 +484,7 @@
     "name": "Dashmesh Culture Centre, Calgary",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/XZJXCHciPlI"
+        "https://www.youtube-nocookie.com/embed/mBa3yaRloUU"
       ]
     },
     "languages": [],
@@ -521,18 +521,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/NeKZVw6-EGg"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "9FACMEW5P67m46",
-    "name": "Disney California Adventure",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ny1BGEtZILI"
       ]
     },
     "languages": [],
@@ -612,18 +600,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "r0HIWy56zv0uls",
-    "name": "Elbo Room Social Club",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/2YtQez2GaqM"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "NYKQhkXMZzNVO4",
     "name": "Enoshima Island Zoom",
     "sources": {
@@ -664,7 +640,7 @@
     "name": "Faro Monumental de La Serena",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/M_Qk3Bv0-So"
+        "https://www.youtube-nocookie.com/embed/O6PdITWH_lQ"
       ]
     },
     "languages": [],
@@ -988,7 +964,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/DRGCWpBF0Kw"
+        "https://www.youtube-nocookie.com/embed/R_0fcmaK-0c"
       ]
     },
     "languages": [],
@@ -1036,7 +1012,7 @@
     "name": "Masjid Al Haram",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/GupuoZiKuPE"
+        "https://www.youtube-nocookie.com/embed/1iMsmbHPGVI"
       ]
     },
     "languages": [],
@@ -1344,23 +1320,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "BnrsodzLxK84zY",
-    "name": "Osaka Castle & Skyline",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/dOKOq-jU1b8"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "umyGNG4S5EyhEH",
     "name": "Our Lady Star & St. John Paul II Sanctuary",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Jf26758cTI0"
+        "https://www.youtube-nocookie.com/embed/-Hf4N1tSkNg"
       ]
     },
     "languages": [],
@@ -1692,6 +1656,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "87WhdUP81iPyaF",
+    "name": "Southernmost Point, Key West",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/hMM3P2yicy4"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "d5lJEcN1c172hp",
     "name": "Southernmost Point, Key West 2",
     "sources": {
@@ -1893,6 +1869,18 @@
     },
     "languages": [],
     "country": "de",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "nv06bakmm3y5wz",
+    "name": "Teotihuacán Pyramids",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/04Yn33Zeq6c"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
     "isGeoBlocked": false
   },
   {
