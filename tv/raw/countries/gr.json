@@ -99,6 +99,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "2c7snlK3LlpjiQ",
+    "name": "Astra TV",
+    "sources": {
+      "streams": [
+        "https://server.gointernet.gr/live/livestream.m3u8"
+      ]
+    },
+    "languages": [
+      "ell"
+    ],
+    "country": "gr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "alnxPYvmVkicEU",
     "name": "Baraza TV",
     "sources": {
@@ -229,7 +243,7 @@
     "name": "ecclesiaTV.gr",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/N9vCk4pRpF8"
+        "https://www.youtube-nocookie.com/embed/R-BCgkn7wXY"
       ]
     },
     "languages": [

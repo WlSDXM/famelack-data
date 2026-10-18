@@ -210,6 +210,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "UYW2WtzuwJvxrr",
+    "name": "City Eden KinoDok",
+    "sources": {
+      "streams": [
+        "https://cityeden.catcast.tv/content/38354/index.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "GDeVF43cbBphiD",
     "name": "ClickTV Chile",
     "sources": {
@@ -921,20 +935,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "C9r0nQTewOjHW3",
-    "name": "RL PRO TV",
-    "sources": {
-      "streams": [
-        "https://stream.berosat.live:19360/rlpro-tv/rlpro-tv.m3u8"
-      ]
-    },
-    "languages": [
-      "fra"
-    ],
-    "country": "cd",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Slt5syXsekpkl9",
     "name": "RT Documentary English",
     "sources": {
@@ -951,7 +951,7 @@
   },
   {
     "nanoid": "0mulGVhtSW9kDC",
-    "name": "RTД",
+    "name": "RT Documentary Russian",
     "sources": {
       "streams": [
         "https://rt-doc.rttv.com/dvr/rtdru/playlist.m3u8",

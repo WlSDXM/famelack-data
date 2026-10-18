@@ -257,8 +257,8 @@
     "name": "Bio Bio TV",
     "sources": {
       "streams": [
-        "https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8",
-        "https://jireh-7-hls-video-us-isp.dps.live/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8"
+        "https://jireh-7-hls-video-us-isp.dps.live/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8",
+        "https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8"
       ]
     },
     "languages": [
@@ -605,6 +605,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "i7jOCnWyYw935a",
+    "name": "Contivision",
+    "sources": {
+      "streams": [
+        "https://unlimited6-cl.dps.live/cm/cm.smil/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "MCkVqvgRh7ovAp",
     "name": "Cooperativa",
     "sources": {
@@ -848,6 +862,20 @@
     "sources": {
       "streams": [
         "https://5eaccbab48461.streamlock.net:1936/8074/8074/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "jta33fMEZzmlcL",
+    "name": "EPA! TV",
+    "sources": {
+      "streams": [
+        "https://v4.tustreaming.cl/edusauriotv/index.m3u8"
       ]
     },
     "languages": [
@@ -1241,7 +1269,7 @@
     "name": "Meganoticias",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/hp_CgYw7gF8"
+        "https://www.youtube-nocookie.com/embed/OlN3nToYtwc"
       ]
     },
     "languages": [],
@@ -1291,6 +1319,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "QY6ADkASh3sioO",
+    "name": "Nada Es Imposible TV",
+    "sources": {
+      "streams": [
+        "https://vdochile.com:3194/live/mvqutymylive.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Z1XG0CWTJ230DD",
     "name": "NCTV",
     "sources": {
@@ -1324,6 +1366,20 @@
     "sources": {
       "streams": [
         "https://streamtv.novotempo.com/CDN-TV-ES/smil:tvnuevotiempo.smil/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Z8D0Y4EVxMHZlA",
+    "name": "Odisea TV",
+    "sources": {
+      "streams": [
+        "https://v2.tustreaming.cl/odiseatv/index.m3u8"
       ]
     },
     "languages": [
@@ -1679,20 +1735,6 @@
     "sources": {
       "streams": [
         "https://tv.arkeo.cl:1936/radiorancagua/radiorancagua/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "iH1Ht1rUhcBhVb",
-    "name": "Radio Ritmo FM",
-    "sources": {
-      "streams": [
-        "https://panel.tvstream.cl:1936/8046/8046/playlist.m3u8"
       ]
     },
     "languages": [
@@ -2408,8 +2450,8 @@
     "name": "UATV",
     "sources": {
       "streams": [
-        "https://unlimited6-cl.dps.live/uatv/uatv.smil/playlist.m3u8",
-        "https://unlimited1-us.dps.live/uatv/uatv.smil/playlist.m3u8"
+        "https://unlimited1-us.dps.live/uatv/uatv.smil/playlist.m3u8",
+        "https://unlimited6-cl.dps.live/uatv/uatv.smil/playlist.m3u8"
       ]
     },
     "languages": [

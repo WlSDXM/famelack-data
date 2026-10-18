@@ -256,6 +256,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "RkE4eVl7ofwaod",
+    "name": "Bollywood HD Russia",
+    "sources": {
+      "streams": [
+        "https://xykt-fix.github.io/cinerama_edge01/hls/BOLLYWOOD_RU/Movie009.m3u8"
+      ]
+    },
+    "languages": [
+      "hin",
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "XSlKJ9xyYgIwpX",
     "name": "BST",
     "sources": {
@@ -419,8 +434,8 @@
     "name": "Cinema",
     "sources": {
       "streams": [
-        "https://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8",
-        "https://flussonic.linkintel.ru/cinema/index.m3u8"
+        "https://flussonic.linkintel.ru/cinema/index.m3u8",
+        "https://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8"
       ]
     },
     "languages": [
@@ -444,11 +459,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "BN8UK0JlgAMrEm",
-    "name": "City Eden Birma Play",
+    "nanoid": "Lk2MXbqIFnMEMM",
+    "name": "City Eden Classic Music",
     "sources": {
       "streams": [
-        "https://cityeden.catcast.tv/content/34364/index.m3u8"
+        "https://cityeden.catcast.tv/content/47400/index.m3u8"
       ]
     },
     "languages": [
@@ -458,39 +473,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "n4R8lzuArvLNkC",
-    "name": "City Eden KinoArt",
+    "nanoid": "UYW2WtzuwJvxrr",
+    "name": "City Eden KinoDok",
     "sources": {
       "streams": [
-        "https://cityeden.catcast.tv/content/38398/index.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "FQwfx6NTcjE41o",
-    "name": "City Eden KinoDrama",
-    "sources": {
-      "streams": [
-        "https://cityeden.catcast.tv/content/45269/index.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "N0XF0zTYtjf6Vc",
-    "name": "City Eden KinoKomediya",
-    "sources": {
-      "streams": [
-        "https://cityeden.catcast.tv/content/41331/index.m3u8"
+        "https://cityeden.catcast.tv/content/38354/index.m3u8"
       ]
     },
     "languages": [
@@ -505,20 +492,6 @@
     "sources": {
       "streams": [
         "https://cityeden.catcast.tv/content/47519/index.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "9QIFKg7aQ0UqIc",
-    "name": "City Eden Play",
-    "sources": {
-      "streams": [
-        "https://cityeden.catcast.tv/content/34100/index.m3u8"
       ]
     },
     "languages": [
@@ -547,6 +520,20 @@
     "sources": {
       "streams": [
         "https://cityeden.catcast.tv/content/46209/index.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "JIOxlnAu1GPh23",
+    "name": "City Eden TV",
+    "sources": {
+      "streams": [
+        "https://cityeden.catcast.tv/content/34246/index.m3u8"
       ]
     },
     "languages": [
@@ -589,6 +576,20 @@
     "sources": {
       "streams": [
         "https://stream8.cinerama.uz/1033/tracks-v1a1/mono.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "xUgG4Xe5635smX",
+    "name": "Dikij",
+    "sources": {
+      "streams": [
+        "https://stream3.cinerama.uz/1230/tracks-v1a1/mono.m3u8"
       ]
     },
     "languages": [
@@ -659,8 +660,8 @@
     "name": "Dorama",
     "sources": {
       "streams": [
-        "https://stream8.cinerama.uz/1273/tracks-v1a1/mono.m3u8",
-        "https://fs.uplink.kz/dorama/mono.m3u8?token=onlinetv"
+        "https://fs.uplink.kz/dorama/mono.m3u8?token=onlinetv",
+        "https://stream8.cinerama.uz/1273/tracks-v1a1/mono.m3u8"
       ]
     },
     "languages": [
@@ -731,8 +732,8 @@
     "name": "Euronews Russian",
     "sources": {
       "streams": [
-        "https://stream8.cinerama.uz/1024/tracks-v1a1/mono.m3u8",
-        "https://cdn-euronews.akamaized.net/live/eds/euronews-ru/25071/index.m3u8"
+        "https://cdn-euronews.akamaized.net/live/eds/euronews-ru/25071/index.m3u8",
+        "https://stream8.cinerama.uz/1024/tracks-v1a1/mono.m3u8"
       ],
       "youtube": [
         "https://www.youtube-nocookie.com/embed/lwYzwdBiaho"
@@ -1229,8 +1230,8 @@
     "name": "Mama",
     "sources": {
       "streams": [
-        "https://stream8.cinerama.uz/1244/tracks-v1a1/mono.m3u8",
-        "https://flussonic.linkintel.ru/mama/index.m3u8"
+        "https://flussonic.linkintel.ru/mama/index.m3u8",
+        "https://stream8.cinerama.uz/1244/tracks-v1a1/mono.m3u8"
       ]
     },
     "languages": [
@@ -1272,8 +1273,8 @@
     "name": "Mir",
     "sources": {
       "streams": [
-        "https://stream8.cinerama.uz/1218/tracks-v1a1/mono.m3u8",
         "https://tvcdn01.oktv.kz/tv/mir/index.m3u8",
+        "https://stream8.cinerama.uz/1218/tracks-v1a1/mono.m3u8",
         "https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/variant.m3u8"
       ]
     },
@@ -1346,8 +1347,8 @@
     "name": "Mult",
     "sources": {
       "streams": [
-        "https://stream8.cinerama.uz/1246/tracks-v1a1/mono.m3u8",
-        "https://flussonic.linkintel.ru/Mult/index.m3u8"
+        "https://flussonic.linkintel.ru/Mult/index.m3u8",
+        "https://stream8.cinerama.uz/1246/tracks-v1a1/mono.m3u8"
       ]
     },
     "languages": [
@@ -2020,6 +2021,21 @@
     "isGeoBlocked": true
   },
   {
+    "nanoid": "0mulGVhtSW9kDC",
+    "name": "RT Documentary Russian",
+    "sources": {
+      "streams": [
+        "https://rt-doc.rttv.com/dvr/rtdru/playlist.m3u8",
+        "https://streaming.thestream.cyou/live/554.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "xyviT4pxyVKqDh",
     "name": "RT en Espanol",
     "sources": {
@@ -2062,21 +2078,6 @@
     ],
     "country": "ru",
     "isGeoBlocked": true
-  },
-  {
-    "nanoid": "0mulGVhtSW9kDC",
-    "name": "RTД",
-    "sources": {
-      "streams": [
-        "https://rt-doc.rttv.com/dvr/rtdru/playlist.m3u8",
-        "https://streaming.thestream.cyou/live/554.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
   },
   {
     "nanoid": "lGfSQeiJJiMPWt",
@@ -2670,8 +2671,8 @@
     "name": "TNV-Planet",
     "sources": {
       "streams": [
-        "https://stream8.cinerama.uz/1062/tracks-v1a1/mono.m3u8",
-        "https://planeta.mediacdn.ru/cdn/tnvplanet/playlist.m3u8"
+        "https://planeta.mediacdn.ru/cdn/tnvplanet/playlist.m3u8",
+        "https://stream8.cinerama.uz/1062/tracks-v1a1/mono.m3u8"
       ]
     },
     "languages": [
@@ -2769,9 +2770,9 @@
     "name": "TV Centr",
     "sources": {
       "streams": [
-        "https://stream8.cinerama.uz/1025/tracks-v1a1/mono.m3u8",
         "https://flussonic.linkintel.ru/tvc/index.m3u8",
-        "https://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221.smil/playlist.m3u8"
+        "https://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221.smil/playlist.m3u8",
+        "https://fs.uplink.kz/tvc/mono.m3u8?token=onlinetv"
       ]
     },
     "languages": [

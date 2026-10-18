@@ -18,7 +18,8 @@
     "name": "4 Fun Kids",
     "sources": {
       "streams": [
-        "https://stream.4fun.tv:8889/hls/4fk.m3u8"
+        "https://stream.4fun.tv:8889/hls/4fk.m3u8",
+        "https://stream.4fun.tv:8889/hd/kids_hd_high.m3u8"
       ]
     },
     "languages": [
@@ -923,7 +924,8 @@
     "sources": {
       "streams": [
         "https://tvsen5.aynascope.net/disney/index.m3u8",
-        "https://tvsen7.aynascope.net/disney/index.m3u8"
+        "https://tvsen7.aynascope.net/disney/index.m3u8",
+        "https://tvsen7.aynascope.net/disneyjr/index.m3u8"
       ]
     },
     "languages": [
@@ -1101,6 +1103,20 @@
       "slk"
     ],
     "country": "sk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "G2NosoJRDb3Bwq",
+    "name": "Duronto TV",
+    "sources": {
+      "streams": [
+        "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8"
+      ]
+    },
+    "languages": [
+      "ben"
+    ],
+    "country": "bd",
     "isGeoBlocked": false
   },
   {
@@ -1417,20 +1433,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "0xr9dDKplwszmy",
-    "name": "Kids TV",
-    "sources": {
-      "streams": [
-        "https://origin5.mediacdn.ru/live/kidstv/index.m3u8"
-      ]
-    },
-    "languages": [
-      "ind"
-    ],
-    "country": "id",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "X98dZJpeNVSZmP",
     "name": "KidsFlix",
     "sources": {
@@ -1560,12 +1562,26 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "79QHa8udaHmujw",
+    "name": "Lucas & Friends",
+    "sources": {
+      "streams": [
+        "https://app.viloud.tv/hls/channel/01e3b17a3605b7c0389411ae3d5dfd6e.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "I2sJdUJ6NK838p",
     "name": "Mama",
     "sources": {
       "streams": [
-        "https://stream8.cinerama.uz/1244/tracks-v1a1/mono.m3u8",
-        "https://flussonic.linkintel.ru/mama/index.m3u8"
+        "https://flussonic.linkintel.ru/mama/index.m3u8",
+        "https://stream8.cinerama.uz/1244/tracks-v1a1/mono.m3u8"
       ]
     },
     "languages": [
@@ -1586,6 +1602,20 @@
       "eng"
     ],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ChmdykE251aFw4",
+    "name": "MiMi TV",
+    "sources": {
+      "streams": [
+        "https://fl.biztv.media/MiMiTV_720/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "uzb"
+    ],
+    "country": "uz",
     "isGeoBlocked": false
   },
   {
@@ -1750,8 +1780,8 @@
     "name": "Mult",
     "sources": {
       "streams": [
-        "https://stream8.cinerama.uz/1246/tracks-v1a1/mono.m3u8",
-        "https://flussonic.linkintel.ru/Mult/index.m3u8"
+        "https://flussonic.linkintel.ru/Mult/index.m3u8",
+        "https://stream8.cinerama.uz/1246/tracks-v1a1/mono.m3u8"
       ]
     },
     "languages": [
@@ -1787,6 +1817,20 @@
       "rus"
     ],
     "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ev2uIcLTDA86aM",
+    "name": "Nick Jr. East HD",
+    "sources": {
+      "streams": [
+        "https://tvsen7.aynascope.net/nickjr/index.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -1851,20 +1895,6 @@
     "sources": {
       "streams": [
         "https://x1colegal.com/hls/stream.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "dlSxOcHpkY3viD",
-    "name": "NickOnline Bob Esponja",
-    "sources": {
-      "streams": [
-        "https://bob.x1colegal.com/hls/stream.m3u8"
       ]
     },
     "languages": [
@@ -2060,7 +2090,7 @@
     "name": "Peppa Pig Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/W-RudNdP3zg"
+        "https://www.youtube-nocookie.com/embed/OT4EMbZlfyM"
       ]
     },
     "languages": [
@@ -2479,20 +2509,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "3C5tAme4Sy2gIV",
-    "name": "Super Simple: Bedtime Songs",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/BfkMWTHeDMY"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "7mx54EPiDrr5mW",
     "name": "Super!",
     "sources": {
@@ -2533,6 +2549,20 @@
       "bak"
     ],
     "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "tJbJDDKt3d57P6",
+    "name": "TeenNick East",
+    "sources": {
+      "streams": [
+        "https://tvsen7.aynascope.net/teennick/index.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -2968,7 +2998,7 @@
     "name": "Zig & Sharko",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/laI--0QRyu8"
+        "https://www.youtube-nocookie.com/embed/Nn90oJHXsxE"
       ]
     },
     "languages": [

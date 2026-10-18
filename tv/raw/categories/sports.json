@@ -178,13 +178,27 @@
     "name": "beIN Sports 1 MENA",
     "sources": {
       "streams": [
-        "https://primetv.cc.cd/beinfhd1/tracks-v1a1/mono.tbin.m3u8"
+        "https://primetv.cc.cd/beinfhd11/tracks-v1a1/mono.tbin.m3u8"
       ]
     },
     "languages": [
       "ara"
     ],
     "country": "qa",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ku25PgpMkqJSyv",
+    "name": "beIN Sports 1 Turk",
+    "sources": {
+      "streams": [
+        "https://andro.mangeinde4.lat/checklist/androstreamlivebs1.m3u8"
+      ]
+    },
+    "languages": [
+      "tur"
+    ],
+    "country": "tr",
     "isGeoBlocked": false
   },
   {
@@ -192,13 +206,27 @@
     "name": "beIN Sports 2 MENA",
     "sources": {
       "streams": [
-        "https://primetv.cc.cd/beinfhd2/index.m3u8"
+        "https://primetv.cc.cd/beinfhd22/index.m3u8"
       ]
     },
     "languages": [
       "ara"
     ],
     "country": "qa",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "eKQmc0CUfOq0WB",
+    "name": "beIN Sports 2 Turk",
+    "sources": {
+      "streams": [
+        "https://andro.mangeinde4.lat/checklist/androstreamlivebs2.m3u8"
+      ]
+    },
+    "languages": [
+      "tur"
+    ],
+    "country": "tr",
     "isGeoBlocked": false
   },
   {
@@ -206,13 +234,27 @@
     "name": "beIN Sports 3 MENA",
     "sources": {
       "streams": [
-        "https://primetv.cc.cd/beinfhd3/index.m3u8"
+        "https://primetv.cc.cd/beinfhd33/index.m3u8"
       ]
     },
     "languages": [
       "ara"
     ],
     "country": "qa",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "NuMGFVrp9f7mjr",
+    "name": "beIN Sports 3 Turk",
+    "sources": {
+      "streams": [
+        "https://andro.mangeinde4.lat/checklist/androstreamlivebs3.m3u8"
+      ]
+    },
+    "languages": [
+      "tur"
+    ],
+    "country": "tr",
     "isGeoBlocked": false
   },
   {
@@ -220,13 +262,27 @@
     "name": "beIN Sports 4 MENA",
     "sources": {
       "streams": [
-        "https://primetv.cc.cd/beinfhd4/tracks-v1a1/mono.tbin.m3u8"
+        "https://primetv.cc.cd/beinfhd44/tracks-v1a1/mono.tbin.m3u8"
       ]
     },
     "languages": [
       "ara"
     ],
     "country": "qa",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "UKEPbHZoqH6rnF",
+    "name": "beIN Sports 4 Turk",
+    "sources": {
+      "streams": [
+        "https://andro.mangeinde4.lat/checklist/androstreamlivebs4.m3u8"
+      ]
+    },
+    "languages": [
+      "tur"
+    ],
+    "country": "tr",
     "isGeoBlocked": false
   },
   {
@@ -234,7 +290,7 @@
     "name": "beIN Sports 5 MENA",
     "sources": {
       "streams": [
-        "https://primetv.cc.cd/beinfhd5/tracks-v1a1/mono.tbin.m3u8"
+        "https://primetv.cc.cd/beinfhd55/tracks-v1a1/mono.tbin.m3u8"
       ]
     },
     "languages": [
@@ -244,11 +300,25 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "pTBtifoxaA356s",
+    "name": "beIN Sports 5 Turk",
+    "sources": {
+      "streams": [
+        "https://andro.mangeinde4.lat/checklist/androstreamlivebs5.m3u8"
+      ]
+    },
+    "languages": [
+      "tur"
+    ],
+    "country": "tr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "0ywDwwGIueAJ8z",
     "name": "beIN Sports 6 MENA",
     "sources": {
       "streams": [
-        "https://primetv.cc.cd/beinfhd6/index.m3u8"
+        "https://primetv.cc.cd/beinfhd66/index.m3u8"
       ]
     },
     "languages": [
@@ -262,7 +332,7 @@
     "name": "beIN Sports 7 MENA",
     "sources": {
       "streams": [
-        "https://primetv.cc.cd/beinfhd7/index.m3u8"
+        "https://primetv.cc.cd/beinfhd77/index.m3u8"
       ]
     },
     "languages": [
@@ -276,13 +346,27 @@
     "name": "beIN Sports 8 MENA",
     "sources": {
       "streams": [
-        "https://primetv.cc.cd/beinfhd8/index.m3u8"
+        "https://primetv.cc.cd/beinfhd88/index.m3u8"
       ]
     },
     "languages": [
       "ara"
     ],
     "country": "qa",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "sV6SFC7sFAi48U",
+    "name": "beIN Sports Haber",
+    "sources": {
+      "streams": [
+        "https://andro.mangeinde4.lat/checklist/androstreamlivebsh.m3u8"
+      ]
+    },
+    "languages": [
+      "tur"
+    ],
+    "country": "tr",
     "isGeoBlocked": false
   },
   {
@@ -432,8 +516,8 @@
     "sources": {
       "streams": [
         "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8",
-        "https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8",
-        "https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8"
+        "https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8",
+        "https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8"
       ]
     },
     "languages": [
@@ -491,6 +575,20 @@
     ],
     "country": "dz",
     "isGeoBlocked": false
+  },
+  {
+    "nanoid": "rkwePpGaX1Ap3x",
+    "name": "ESPN",
+    "sources": {
+      "streams": [
+        "https://tvsen7.aynascope.net/espn/index.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": true
   },
   {
     "nanoid": "UaNiFkG4kf7HPd",
@@ -678,21 +776,6 @@
     "isGeoBlocked": true
   },
   {
-    "nanoid": "CuPJ7DXi3sDSGh",
-    "name": "Esport3 Originals",
-    "sources": {
-      "streams": [
-        "https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8",
-        "https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8"
-      ]
-    },
-    "languages": [
-      "cat"
-    ],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "lbyfmgKEc7ZRqZ",
     "name": "Eurosport",
     "sources": {
@@ -811,7 +894,8 @@
     "name": "FightBox",
     "sources": {
       "streams": [
-        "https://webtvstream.bhtelecom.ba/fightbox.m3u8"
+        "https://webtvstream.bhtelecom.ba/fightbox.m3u8",
+        "https://nosignal1.antenaplay.ro/hls/fightbox-hd/index.m3u8"
       ]
     },
     "languages": [
@@ -907,20 +991,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "1jYy0MieRH4RsH",
-    "name": "FOX Sports YT",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/h7xRJ1ACniM"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "KKtmG6U0zua4oT",
     "name": "FTF Sports",
     "sources": {
@@ -1004,20 +1074,6 @@
     ],
     "country": "pt",
     "isGeoBlocked": true
-  },
-  {
-    "nanoid": "zSqcM4N6tJjo6K",
-    "name": "Futbol TV",
-    "sources": {
-      "streams": [
-        "https://stream3.cinerama.uz/1010/tracks-v1a1/mono.m3u8"
-      ]
-    },
-    "languages": [
-      "uzb"
-    ],
-    "country": "uz",
-    "isGeoBlocked": false
   },
   {
     "nanoid": "3PWIwG9FFIlO5Y",
@@ -1406,6 +1462,20 @@
     ],
     "country": "us",
     "isGeoBlocked": true
+  },
+  {
+    "nanoid": "19bVQttgqOEZ2W",
+    "name": "NHL AntenaPlay",
+    "sources": {
+      "streams": [
+        "https://live4dai.antenaplay.ro/live2_sdi03/live2_sdi03_600k.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
   },
   {
     "nanoid": "dZNlCzQICHPeq8",
@@ -1902,6 +1972,7 @@
     "name": "SportsGrid",
     "sources": {
       "streams": [
+        "https://sportsgrid-plex.amagi.tv/playlist.m3u8",
         "https://sportsgrid-samsungus.amagi.tv/playlist.m3u8"
       ]
     },
@@ -1950,6 +2021,20 @@
     },
     "languages": [
       "tel"
+    ],
+    "country": "in",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "5INojqhvrRt5r6",
+    "name": "Star Sports Select 2",
+    "sources": {
+      "streams": [
+        "https://tvsen7.aynascope.net/ssport2hd/index.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
     ],
     "country": "in",
     "isGeoBlocked": false
@@ -2060,7 +2145,8 @@
     "sources": {
       "streams": [
         "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8",
-        "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8"
+        "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8",
+        "https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8"
       ]
     },
     "languages": [
@@ -2090,6 +2176,9 @@
     "sources": {
       "streams": [
         "https://tjktv-live.tjk.org/tjktv.m3u8"
+      ],
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/HcjhlDGpPus"
       ]
     },
     "languages": [
@@ -2360,7 +2449,9 @@
     "name": "Willow",
     "sources": {
       "streams": [
-        "https://tvsen5.aynaott.com/willowhd/index.m3u8"
+        "https://tvsen5.aynaott.com/willowhd/index.m3u8",
+        "https://tvsen5.aynascope.net/willowhd/index.m3u8",
+        "https://tvsen7.aynascope.net/rEBp38Ax/index.m3u8"
       ]
     },
     "languages": [

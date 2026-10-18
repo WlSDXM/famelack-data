@@ -35,7 +35,7 @@
         "https://cdn4.mjunoon.tv:8087/streamtest/146M/chunks.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HZzku3pN8JY"
+        "https://www.youtube-nocookie.com/embed/HUULIXbK6fs"
       ]
     },
     "languages": [
@@ -216,7 +216,7 @@
     "name": "City 21 News",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/I1DHNdjhaUg"
+        "https://www.youtube-nocookie.com/embed/Fhuz0kyCjKc"
       ]
     },
     "languages": [
@@ -230,7 +230,7 @@
     "name": "City 41",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Gd1okNolRqA"
+        "https://www.youtube-nocookie.com/embed/T-IY77oUvU4"
       ]
     },
     "languages": [
@@ -245,7 +245,7 @@
     "name": "City 42",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/My5nDJAsMvM"
+        "https://www.youtube-nocookie.com/embed/YjS2CDqtqQg"
       ]
     },
     "languages": [
@@ -733,7 +733,8 @@
     "name": "Madani Channel English",
     "sources": {
       "streams": [
-        "https://streaming.madanichannel.tv/static/streaming-playlists/hls/c6a600b0-82cb-454a-8953-2bb2bb372edc/master.m3u8"
+        "https://streaming.madanichannel.tv/static/streaming-playlists/hls/c6a600b0-82cb-454a-8953-2bb2bb372edc/master.m3u8",
+        "https://tvsen7.aynascope.net/MadaniTV/index.m3u8"
       ]
     },
     "languages": [
@@ -939,7 +940,7 @@
     "name": "Sindh TV News",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/6-vs-TIQrrw"
+        "https://www.youtube-nocookie.com/embed/rbzMAXAOXeA"
       ]
     },
     "languages": [

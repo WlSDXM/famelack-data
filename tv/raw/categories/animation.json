@@ -88,7 +88,7 @@
     "name": "Aqua Teen Hunger Force",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/SEfgFQP2g1g"
+        "https://www.youtube-nocookie.com/embed/-1mrwkgH2i0"
       ]
     },
     "languages": [
@@ -672,25 +672,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "dlSxOcHpkY3viD",
-    "name": "NickOnline Bob Esponja",
-    "sources": {
-      "streams": [
-        "https://bob.x1colegal.com/hls/stream.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "yzZp6BhMvaS7qt",
     "name": "PJ Masks Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/hS9IyqydBGI"
+        "https://www.youtube-nocookie.com/embed/lDdfjLd7Mw0"
       ]
     },
     "languages": [
@@ -768,6 +754,20 @@
       "eng"
     ],
     "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "P0LU27eSLAz1HY",
+    "name": "Shout! Studios: Speed Racer",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/iht5uey0QwM"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -911,6 +911,20 @@
       "spa"
     ],
     "country": "do",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "vxuvNL1pu9DfjK",
+    "name": "TokuSHOUTsu: Speed Racer",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/MtzN4JF45zM"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
     "isGeoBlocked": false
   },
   {

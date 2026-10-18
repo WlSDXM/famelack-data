@@ -4,7 +4,8 @@
     "name": "4 Fun Kids",
     "sources": {
       "streams": [
-        "https://stream.4fun.tv:8889/hls/4fk.m3u8"
+        "https://stream.4fun.tv:8889/hls/4fk.m3u8",
+        "https://stream.4fun.tv:8889/hd/kids_hd_high.m3u8"
       ]
     },
     "languages": [
@@ -198,7 +199,8 @@
     "sources": {
       "streams": [
         "https://webtvstream.bhtelecom.ba/filmbox_arthouse.m3u8",
-        "https://dash3.antik.sk/live/test_filmbox_arthouse_atk_1200/playlist.m3u8"
+        "https://dash3.antik.sk/live/test_filmbox_arthouse_atk_1200/playlist.m3u8",
+        "https://nosignal1.antenaplay.ro/hls/fb-festival-hd/index.m3u8"
       ]
     },
     "languages": [
@@ -777,6 +779,20 @@
     },
     "languages": [
       "eng"
+    ],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "zm99zgCQP8EGKf",
+    "name": "Top Movies Polska",
+    "sources": {
+      "streams": [
+        "https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8"
+      ]
+    },
+    "languages": [
+      "pol"
     ],
     "country": "pl",
     "isGeoBlocked": false

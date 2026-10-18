@@ -232,6 +232,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "UYW2WtzuwJvxrr",
+    "name": "City Eden KinoDok",
+    "sources": {
+      "streams": [
+        "https://cityeden.catcast.tv/content/38354/index.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "CZ0c6ZasjBnZ4w",
     "name": "City Eden TeleNovella",
     "sources": {
@@ -612,6 +626,36 @@
     "isGeoBlocked": true
   },
   {
+    "nanoid": "nbJaIRnlOXsI50",
+    "name": "HBO East",
+    "sources": {
+      "streams": [
+        "https://tvsen7.aynascope.net/hbo/index.m3u8"
+      ]
+    },
+    "languages": [
+      "eng",
+      "spa"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "b9hyRXnC242UxT",
+    "name": "HBO Hits East",
+    "sources": {
+      "streams": [
+        "https://tvsen7.aynascope.net/hbo2/index.m3u8"
+      ]
+    },
+    "languages": [
+      "eng",
+      "spa"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "qr5SJlcRAJmYsA",
     "name": "HBO Xtreme Latin America",
     "sources": {
@@ -690,6 +734,20 @@
     "sources": {
       "streams": [
         "https://amg00514-noseybaxterllc-realnosey-cineverse-tqbpv.amagi.tv/playlist/amg00514-noseybaxterllc-realnosey-cineverse/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "cwqY1fSd0UvwAg",
+    "name": "Land Of The Lost",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/7YGrEa4PPHA"
       ]
     },
     "languages": [
@@ -978,6 +1036,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "rkSBlkz2deLyQZ",
+    "name": "Shout! Studios: Get A Life",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/nTa6iGUH70A"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "XsDojCA8SLZ0wU",
     "name": "Smotrim Chestnyy Detektiv",
     "sources": {
@@ -1041,6 +1113,20 @@
       "streams": [
         "https://amg00627-amg00627c16-samsung-nz-2811.playouts.now.amagi.tv/playlist/amg00627-banijayfast-survivor-samsungnz/playlist.m3u8",
         "https://amg00627-banijaygroup-surviour-uk-samsunguk-uyz22.amagi.tv/playlist/amg00627-banijaygroup-survivor-samsunguk/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "jBHty7VgENQxrk",
+    "name": "SYFY East",
+    "sources": {
+      "streams": [
+        "https://tvsen7.aynascope.net/syfy/index.m3u8"
       ]
     },
     "languages": [

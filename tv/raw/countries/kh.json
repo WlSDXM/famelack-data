@@ -14,34 +14,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "sPitwPVtngUuVb",
-    "name": "ARDB TV",
-    "sources": {
-      "streams": [
-        "https://ardbtv.ardb.com.kh:8443/tv-live/tv-online.m3u8"
-      ]
-    },
-    "languages": [
-      "khm"
-    ],
-    "country": "kh",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "HwKriYLLIfSseS",
-    "name": "Bayon TV",
-    "sources": {
-      "streams": [
-        "https://ip.pdtvhd.com/Khmer/streams/Bayonhd.m3u8"
-      ]
-    },
-    "languages": [
-      "khm"
-    ],
-    "country": "kh",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "g4A3bB8HmwN8Zj",
     "name": "CTV 9",
     "sources": {
@@ -70,20 +42,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "a7p8px0xew1TNk",
-    "name": "Sangkem TV",
-    "sources": {
-      "streams": [
-        "https://live.sangkemtv.com/memfs/sangkem.m3u8"
-      ]
-    },
-    "languages": [
-      "khm"
-    ],
-    "country": "kh",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "aAMBVg0GZZXh3E",
     "name": "SEA TV",
     "sources": {
@@ -103,20 +61,6 @@
     "sources": {
       "streams": [
         "https://stream.pdtvhd.com/LiveApp/streams/Townfullhd.m3u8"
-      ]
-    },
-    "languages": [
-      "khm"
-    ],
-    "country": "kh",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Mhke0W0yDC0bio",
-    "name": "TV5 Cambodia",
-    "sources": {
-      "streams": [
-        "https://ip.pdtvhd.com/Khmer/streams/CTV5.m3u8"
       ]
     },
     "languages": [

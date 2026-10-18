@@ -154,20 +154,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "GYpj19hD6m2qFh",
-    "name": "California Medios TV",
-    "sources": {
-      "streams": [
-        "https://s5.mexside.net:1936/medios/medios/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "qhvLdupfMqmZsq",
     "name": "Canal 5 TV Cozumel",
     "sources": {
@@ -944,20 +930,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "JNd0iWsZawqpeO",
-    "name": "Televisa Del Bajio",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/FoNB4zEw9m4"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "MFKuXvwOZbfP2b",
     "name": "Televisa Guadalajara",
     "sources": {
@@ -976,7 +948,7 @@
     "name": "Televisa Guerrero",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4I46Ggo5qDk"
+        "https://www.youtube-nocookie.com/embed/Yo_byK0W_iA"
       ]
     },
     "languages": [
@@ -1018,7 +990,7 @@
     "name": "Televisa Monterrey",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/PV-R9ZJ7dR0"
+        "https://www.youtube-nocookie.com/embed/6rU5NkqhY64"
       ]
     },
     "languages": [
@@ -1032,7 +1004,7 @@
     "name": "Televisa Piedras Negras",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/7bppPABprUs"
+        "https://www.youtube-nocookie.com/embed/ce6PSc1lS6o"
       ]
     },
     "languages": [
@@ -1126,20 +1098,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "t4d8eUUDKhV1q6",
-    "name": "Televisa Victoria",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/WsfF7c4UWDI"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "nvgVlQtD4CwYJb",
     "name": "Televisa Zacatecas",
     "sources": {
@@ -1180,6 +1138,20 @@
     ],
     "country": "mx",
     "isGeoBlocked": false
+  },
+  {
+    "nanoid": "6duVJSjDym0PKb",
+    "name": "Transmedia Television Morelia",
+    "sources": {
+      "streams": [
+        "https://5ca3e84a76d30.streamlock.net/tmtv/videotmtv/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": true
   },
   {
     "nanoid": "LIcwsfed7X4ZRx",

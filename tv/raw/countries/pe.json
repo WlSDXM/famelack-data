@@ -1,38 +1,10 @@
 [
   {
-    "nanoid": "zLbErKeLWlYtjV",
-    "name": "Agro TV",
-    "sources": {
-      "streams": [
-        "https://play.agenciastreaming.com:8081/agrotv/index.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "pe",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "YeKuxDQNxxKjD2",
     "name": "Altura TV",
     "sources": {
       "streams": [
         "https://play.agenciastreaming.com:8081/tvalturalimalive/video.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "pe",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "9lVgs60Eg6mCkW",
-    "name": "Amazonia TV",
-    "sources": {
-      "streams": [
-        "https://servilive.com:3199/live/amazoniatvlive.m3u8"
       ]
     },
     "languages": [
@@ -267,20 +239,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "V1ZiJWm44mlgNB",
-    "name": "CVN TV",
-    "sources": {
-      "streams": [
-        "https://7.innovatestream.pe:19360/cvntumbes/cvntumbes.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "pe",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "fqDkRQsbGbe2La",
     "name": "DeltaTV",
     "sources": {
@@ -342,20 +300,6 @@
     "sources": {
       "streams": [
         "https://mc.servidor.stream:19360/8274/8274.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "pe",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "IJ7gZA2UwesadP",
-    "name": "Galactica TV",
-    "sources": {
-      "streams": [
-        "https://stream.neux.site/memfs/e3f59eec-6b93-45e1-a2ab-c82381c2a9ec.m3u8"
       ]
     },
     "languages": [
@@ -463,20 +407,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "jxlsDXo2Z9WhXZ",
-    "name": "Kora TV",
-    "sources": {
-      "streams": [
-        "https://s3.tvdatta.com:3700/live/jjrtvlive.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "pe",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "3hbUF3ouea162A",
     "name": "La Fabulosa TV",
     "sources": {
@@ -523,8 +453,8 @@
     "name": "Latina Noticias 24/7",
     "sources": {
       "streams": [
-        "https://dai.google.com/linear/hls/event/oYQGDqEGTmGdHE_fz9oLlg/master.m3u8",
-        "https://redirector.rudo.video/hls-video/567ffde3fa319fadf3419efda25619456231dfea/latinanoticias/latinanoticias.smil/playlist.m3u8"
+        "https://redirector.rudo.video/hls-video/567ffde3fa319fadf3419efda25619456231dfea/latinanoticias/latinanoticias.smil/playlist.m3u8",
+        "https://dai.google.com/linear/hls/event/oYQGDqEGTmGdHE_fz9oLlg/master.m3u8"
       ]
     },
     "languages": [
@@ -604,20 +534,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ZgK3gN33Rh7QOj",
-    "name": "Miel TV",
-    "sources": {
-      "streams": [
-        "https://7.innovatestream.pe:19360/mieltv/mieltv.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "pe",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "aUVq0M4bm1GMyx",
     "name": "Millenium 109 FM",
     "sources": {
@@ -677,34 +593,6 @@
     "sources": {
       "streams": [
         "https://oneplay.iptvperu.tv:1936/static/nativa1.stream/chunks.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "pe",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "mi7Zl9xYkTcqpw",
-    "name": "Nativa TV Satipo",
-    "sources": {
-      "streams": [
-        "https://7.innovatestream.pe:19360/nativatv/nativatv.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "pe",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "zJfNt7gPSar8fv",
-    "name": "NZK Television",
-    "sources": {
-      "streams": [
-        "https://eu1.servers10.com:8081/8258/index.m3u8"
       ]
     },
     "languages": [
@@ -914,8 +802,22 @@
     "name": "RSelvaTV",
     "sources": {
       "streams": [
-        "https://live.obslivestream.com/selvatv/index.m3u8",
-        "https://live-evg11.tv360.bitel.com.pe/bitel/selvaticaSRT/playlist.m3u8"
+        "https://live-evg11.tv360.bitel.com.pe/bitel/selvaticaSRT/playlist.m3u8",
+        "https://live.obslivestream.com/selvatv/index.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "pe",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "3qgnWAKQV0prTA",
+    "name": "Senal Peru TV",
+    "sources": {
+      "streams": [
+        "https://livestream.perucast.com/hls/stream.m3u8"
       ]
     },
     "languages": [
@@ -930,21 +832,6 @@
     "sources": {
       "streams": [
         "https://video2.lhdserver.es/siscomtv/live.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "pe",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "uycnDk5RgNSyIc",
-    "name": "Solar Television",
-    "sources": {
-      "streams": [
-        "https://live-evg11.tv360.bitel.com.pe/bitel/solartvSRT/playlist.m3u8",
-        "https://7.innovatestream.pe:19360/corporacionperiodistica/corporacionperiodistica.m3u8"
       ]
     },
     "languages": [

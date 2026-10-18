@@ -42,6 +42,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "fyDG9cmwfgzcbf",
+    "name": "Luxembourg Global Radio TV",
+    "sources": {
+      "streams": [
+        "https://stream.globalradio.lu/lgr/index.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "lu",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "45ac4CoF7bAaFa",
     "name": "MierschTV",
     "sources": {

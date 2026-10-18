@@ -208,20 +208,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Zzw5XdFQULzoOQ",
-    "name": "Aras TV",
-    "sources": {
-      "streams": [
-        "https://2.rtmp.org/tv217/yayin.stream/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "laMNKAVyTuHniN",
     "name": "AS TV",
     "sources": {
@@ -274,6 +260,90 @@
     "sources": {
       "streams": [
         "https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "tur"
+    ],
+    "country": "tr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ku25PgpMkqJSyv",
+    "name": "beIN Sports 1 Turk",
+    "sources": {
+      "streams": [
+        "https://andro.mangeinde4.lat/checklist/androstreamlivebs1.m3u8"
+      ]
+    },
+    "languages": [
+      "tur"
+    ],
+    "country": "tr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "eKQmc0CUfOq0WB",
+    "name": "beIN Sports 2 Turk",
+    "sources": {
+      "streams": [
+        "https://andro.mangeinde4.lat/checklist/androstreamlivebs2.m3u8"
+      ]
+    },
+    "languages": [
+      "tur"
+    ],
+    "country": "tr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "NuMGFVrp9f7mjr",
+    "name": "beIN Sports 3 Turk",
+    "sources": {
+      "streams": [
+        "https://andro.mangeinde4.lat/checklist/androstreamlivebs3.m3u8"
+      ]
+    },
+    "languages": [
+      "tur"
+    ],
+    "country": "tr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "UKEPbHZoqH6rnF",
+    "name": "beIN Sports 4 Turk",
+    "sources": {
+      "streams": [
+        "https://andro.mangeinde4.lat/checklist/androstreamlivebs4.m3u8"
+      ]
+    },
+    "languages": [
+      "tur"
+    ],
+    "country": "tr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "pTBtifoxaA356s",
+    "name": "beIN Sports 5 Turk",
+    "sources": {
+      "streams": [
+        "https://andro.mangeinde4.lat/checklist/androstreamlivebs5.m3u8"
+      ]
+    },
+    "languages": [
+      "tur"
+    ],
+    "country": "tr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "sV6SFC7sFAi48U",
+    "name": "beIN Sports Haber",
+    "sources": {
+      "streams": [
+        "https://andro.mangeinde4.lat/checklist/androstreamlivebsh.m3u8"
       ]
     },
     "languages": [
@@ -658,20 +728,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/sU0Jly79jLs"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "NaLDKK2n9zWTIs",
-    "name": "Erciyes TV",
-    "sources": {
-      "streams": [
-        "https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1282,20 +1338,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/qWDd505ciJQ"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "oNyXUjTAtmHkE7",
-    "name": "Kent Turk",
-    "sources": {
-      "streams": [
-        "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1945,6 +1987,9 @@
     "sources": {
       "streams": [
         "https://tjktv-live.tjk.org/tjktv.m3u8"
+      ],
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/HcjhlDGpPus"
       ]
     },
     "languages": [
@@ -1980,20 +2025,6 @@
     ],
     "country": "tr",
     "isGeoBlocked": false
-  },
-  {
-    "nanoid": "bzh3LBtnY69p4n",
-    "name": "TRT 2",
-    "sources": {
-      "streams": [
-        "https://tv-trt2.medya.trt.com.tr/master.m3u8"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": true
   },
   {
     "nanoid": "Tsl1TXkC1cdSTl",
@@ -2248,20 +2279,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/4WSvLRk83-c"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "ZdxrMEOa28PZnq",
-    "name": "TV 264",
-    "sources": {
-      "streams": [
-        "https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8"
       ]
     },
     "languages": [

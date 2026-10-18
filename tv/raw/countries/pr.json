@@ -295,18 +295,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "pK67X1nTuCfVIB",
-    "name": "WRUA-DT1 (Tiva TV)",
-    "sources": {
-      "streams": [
-        "https://link.frontlayer.com/services/hls2/fl496518/index.m3u8"
-      ]
-    },
-    "languages": [],
-    "country": "pr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "zi89aJl9FoLNYA",
     "name": "WWXY-DT1 (Boricua TV)",
     "sources": {
