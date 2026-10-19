@@ -282,6 +282,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "PjUU6ZmfuLbOka",
+    "name": "RCC News 24",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/GlRZMNsAkM4"
+      ]
+    },
+    "languages": [
+      "jpn"
+    ],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "dS0Hi9Oo1lT24W",
     "name": "RKB News 24",
     "sources": {

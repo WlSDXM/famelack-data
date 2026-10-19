@@ -1219,62 +1219,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "IGkGdoXwnCTsO2",
-    "name": "God Stands Kids Club TV Arabic",
-    "sources": {
-      "streams": [
-        "https://online.godstands.tv:5443/WebRTCApp/streams/KidsArabic.m3u8"
-      ]
-    },
-    "languages": [
-      "ara"
-    ],
-    "country": "pk",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "X2mzfNA1EyPeME",
-    "name": "God Stands Kids Club TV Chinese",
-    "sources": {
-      "streams": [
-        "https://online.godstands.tv:5443/WebRTCApp/streams/KidsChinese.m3u8"
-      ]
-    },
-    "languages": [
-      "zho"
-    ],
-    "country": "pk",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "97TDYmlPdbsepe",
-    "name": "God Stands Kids Club TV English",
-    "sources": {
-      "streams": [
-        "https://online.godstands.tv:5443/WebRTCApp/streams/kidsenglish.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "pk",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "oXC3NCXK3UzLO5",
-    "name": "God Stands Kids Club TV Urdu",
-    "sources": {
-      "streams": [
-        "https://online.godstands.tv:5443/WebRTCApp/streams/KidsUrdu.m3u8"
-      ]
-    },
-    "languages": [
-      "urd"
-    ],
-    "country": "pk",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "VB5Y2IgDFOp8I1",
     "name": "Groovia Kids",
     "sources": {
@@ -1531,20 +1475,6 @@
       "eng"
     ],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "aWUdvngHDj9fCb",
-    "name": "Logos TV Kids",
-    "sources": {
-      "streams": [
-        "https://streamer1.streamhost.org/salive/logoskidsH/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "es",
     "isGeoBlocked": false
   },
   {
@@ -1904,6 +1834,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "dlSxOcHpkY3viD",
+    "name": "NickOnline Bob Esponja",
+    "sources": {
+      "streams": [
+        "https://bob.x1colegal.com/hls/stream.m3u8"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "eyL4xvR1sE1phq",
     "name": "Nicktoons",
     "sources": {
@@ -2090,7 +2034,7 @@
     "name": "Peppa Pig Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/OT4EMbZlfyM"
+        "https://www.youtube-nocookie.com/embed/IVNO4Z4d-OA"
       ]
     },
     "languages": [
@@ -2146,7 +2090,7 @@
     "name": "Pocoyo",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/FlAabAyvVWg"
+        "https://www.youtube-nocookie.com/embed/MXfpu1JjmwY"
       ]
     },
     "languages": [
@@ -2506,6 +2450,34 @@
       "eng"
     ],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "3C5tAme4Sy2gIV",
+    "name": "Super Simple: Bedtime Songs",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/h8oU4R4i8Mc"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "5X99oRpChEcKAS",
+    "name": "Super Simple: Simple Songs",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/kr5aYMYZQls"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ca",
     "isGeoBlocked": false
   },
   {
@@ -2998,7 +2970,7 @@
     "name": "Zig & Sharko",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Nn90oJHXsxE"
+        "https://www.youtube-nocookie.com/embed/rfETWhOfstc"
       ]
     },
     "languages": [

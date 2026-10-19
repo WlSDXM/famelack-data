@@ -114,20 +114,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "w9iKnoeRBQ99pR",
-    "name": "Can Tho TV 2",
-    "sources": {
-      "streams": [
-        "https://live.canthotv.vn/cs2/live.stream/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "vie"
-    ],
-    "country": "vn",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "7nyUSJn5aAWm7k",
     "name": "Canal Educacao",
     "sources": {
@@ -153,6 +139,20 @@
       "por"
     ],
     "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "TAS6xjp5V4DYwH",
+    "name": "Canal Universidad",
+    "sources": {
+      "streams": [
+        "https://videostream.shockmedia.com.ar/hls/canaluniversidadmdp/canaluniversidadmdp.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ar",
     "isGeoBlocked": false
   },
   {
@@ -727,7 +727,7 @@
     "name": "FGN Channel",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/IFw5unuk9SA"
+        "https://www.youtube-nocookie.com/embed/T2ILgM2oRNg"
       ]
     },
     "languages": [

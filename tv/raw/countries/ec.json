@@ -656,19 +656,5 @@
     ],
     "country": "ec",
     "isGeoBlocked": false
-  },
-  {
-    "nanoid": "MSQI2c7efDDBKU",
-    "name": "Wuan+",
-    "sources": {
-      "streams": [
-        "https://7.innovatestream.pe:19360/ecuadortest/ecuadortest.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ec",
-    "isGeoBlocked": false
   }
 ]

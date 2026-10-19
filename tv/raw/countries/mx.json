@@ -154,6 +154,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "GYpj19hD6m2qFh",
+    "name": "California Medios TV",
+    "sources": {
+      "streams": [
+        "https://s5.mexside.net:1936/medios/medios/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "qhvLdupfMqmZsq",
     "name": "Canal 5 TV Cozumel",
     "sources": {
@@ -490,6 +504,18 @@
     "languages": [
       "spa"
     ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "dQroYObAPsPIjO",
+    "name": "Imagen TV+",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/JMWiICIvE4c"
+      ]
+    },
+    "languages": [],
     "country": "mx",
     "isGeoBlocked": false
   },
@@ -930,6 +956,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "JNd0iWsZawqpeO",
+    "name": "Televisa Del Bajio",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/PspK_QLPINA"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "MFKuXvwOZbfP2b",
     "name": "Televisa Guadalajara",
     "sources": {
@@ -990,7 +1030,7 @@
     "name": "Televisa Monterrey",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/6rU5NkqhY64"
+        "https://www.youtube-nocookie.com/embed/gDFjIH7Rf70"
       ]
     },
     "languages": [
@@ -1004,7 +1044,7 @@
     "name": "Televisa Piedras Negras",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ce6PSc1lS6o"
+        "https://www.youtube-nocookie.com/embed/wAYBs1UKW-U"
       ]
     },
     "languages": [
@@ -1056,6 +1096,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "Rds4SfQCR5Bcp9",
+    "name": "Televisa Sonora",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/hw82HmTmTpY"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "CYVWTZuNQ67W3k",
     "name": "Televisa Tijuana",
     "sources": {
@@ -1089,6 +1143,20 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/y-Dc--Q4Csc"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "t4d8eUUDKhV1q6",
+    "name": "Televisa Victoria",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/33Zw1i3OUVY"
       ]
     },
     "languages": [

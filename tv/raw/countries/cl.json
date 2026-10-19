@@ -168,20 +168,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "JzJqSKhZTC60f6",
-    "name": "AM Canal",
-    "sources": {
-      "streams": [
-        "https://streaming.bitsur.cl:3534/live/vdo1102live.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Md7ez9PVBYFZg7",
     "name": "Antofagasta TV",
     "sources": {
@@ -507,6 +493,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "n4dKzonwHr1dN8",
+    "name": "ChileVision",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/1eRMuU09jxY"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "eDESw3Ox4wXwbn",
     "name": "Chiloe Red 25",
     "sources": {
@@ -553,7 +553,7 @@
     "name": "CHV Noticias",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-3_U4pJzc0A"
+        "https://www.youtube-nocookie.com/embed/jcO7YzDIHnA"
       ]
     },
     "languages": [
@@ -652,20 +652,6 @@
     "sources": {
       "streams": [
         "https://stmv2.voxtvhd.com.br/crtvchile/crtvchile/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "XDbtm1nI0M6XvU",
-    "name": "Cultura Online",
-    "sources": {
-      "streams": [
-        "https://streaming.bitsur.cl:3399/live/vdo532live.m3u8"
       ]
     },
     "languages": [
@@ -1269,7 +1255,7 @@
     "name": "Meganoticias",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/OlN3nToYtwc"
+        "https://www.youtube-nocookie.com/embed/IItc3SKg6ZE"
       ]
     },
     "languages": [],
@@ -1744,6 +1730,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "iH1Ht1rUhcBhVb",
+    "name": "Radio Ritmo FM",
+    "sources": {
+      "streams": [
+        "https://panel.tvstream.cl:1936/8046/8046/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "wqtEMGQtkW2vmM",
     "name": "Radio Suyai TV",
     "sources": {
@@ -2155,6 +2155,20 @@
     "sources": {
       "streams": [
         "https://tr.live.clarovtrcdn.vtrplay.com/telecanalsdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "hOGgRxhyqTyz2f",
+    "name": "TeleCauquenes",
+    "sources": {
+      "streams": [
+        "https://lbgo.bozztv.com/ssh101/ssh101/telecauquenestv/playlist.m3u8"
       ]
     },
     "languages": [

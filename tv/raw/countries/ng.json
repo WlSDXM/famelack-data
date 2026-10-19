@@ -14,20 +14,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "mnVBWlVT6nGvWt",
-    "name": "Africa Independent Television",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/-RCz6g1IAX0"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "ng",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "gZ1nRlS0xe1gmU",
     "name": "AMusic Channel",
     "sources": {
@@ -286,7 +272,7 @@
     "name": "NTA Live",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/PwAhqWWGJoM"
+        "https://www.youtube-nocookie.com/embed/e8OsMnDb0HI"
       ]
     },
     "languages": [
@@ -426,7 +412,7 @@
     "name": "TrustTV News",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/sR9k2HxgmKE"
+        "https://www.youtube-nocookie.com/embed/WFhSk4sNOmA"
       ]
     },
     "languages": [

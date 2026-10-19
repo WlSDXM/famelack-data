@@ -60,7 +60,7 @@
     "name": "Create & Craft TV Extra",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/l_785uh0TXc"
+        "https://www.youtube-nocookie.com/embed/I1KAQAgKc6s"
       ]
     },
     "languages": [
@@ -109,6 +109,20 @@
       "eng"
     ],
     "country": "au",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "SZKqh8My275jx3",
+    "name": "FairON",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/h9itSukiT-Y"
+      ]
+    },
+    "languages": [
+      "deu"
+    ],
+    "country": "at",
     "isGeoBlocked": false
   },
   {

@@ -127,20 +127,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "6GzzyU1r6GXxb2",
-    "name": "Pura Palabra",
-    "sources": {
-      "streams": [
-        "https://59825a54e4454.streamlock.net:8443/william233/william233/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "pr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "LNGJVkOrgPhVTB",
     "name": "Salvacion TV",
     "sources": {
@@ -191,20 +177,6 @@
       ]
     },
     "languages": [],
-    "country": "pr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "QYv70qSnNhaax1",
-    "name": "Triunfo 96.9 FM",
-    "sources": {
-      "streams": [
-        "https://59825a54e4454.streamlock.net:8443/william652/william652/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
     "country": "pr",
     "isGeoBlocked": false
   },
@@ -291,6 +263,18 @@
     "languages": [
       "spa"
     ],
+    "country": "pr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "pK67X1nTuCfVIB",
+    "name": "WRUA-DT1 (Tiva TV)",
+    "sources": {
+      "streams": [
+        "https://link.frontlayer.com/services/hls2/fl496518/index.m3u8"
+      ]
+    },
+    "languages": [],
     "country": "pr",
     "isGeoBlocked": false
   },

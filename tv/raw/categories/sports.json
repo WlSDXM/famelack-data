@@ -174,20 +174,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "9IFqWFas19TpyP",
-    "name": "beIN Sports 1 MENA",
-    "sources": {
-      "streams": [
-        "https://primetv.cc.cd/beinfhd11/tracks-v1a1/mono.tbin.m3u8"
-      ]
-    },
-    "languages": [
-      "ara"
-    ],
-    "country": "qa",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "ku25PgpMkqJSyv",
     "name": "beIN Sports 1 Turk",
     "sources": {
@@ -199,20 +185,6 @@
       "tur"
     ],
     "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "XOMy3RHPEjefQf",
-    "name": "beIN Sports 2 MENA",
-    "sources": {
-      "streams": [
-        "https://primetv.cc.cd/beinfhd22/index.m3u8"
-      ]
-    },
-    "languages": [
-      "ara"
-    ],
-    "country": "qa",
     "isGeoBlocked": false
   },
   {
@@ -230,20 +202,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "P1fP1rwjCDEOOl",
-    "name": "beIN Sports 3 MENA",
-    "sources": {
-      "streams": [
-        "https://primetv.cc.cd/beinfhd33/index.m3u8"
-      ]
-    },
-    "languages": [
-      "ara"
-    ],
-    "country": "qa",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "NuMGFVrp9f7mjr",
     "name": "beIN Sports 3 Turk",
     "sources": {
@@ -255,20 +213,6 @@
       "tur"
     ],
     "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "auUlqGzfbW0sFf",
-    "name": "beIN Sports 4 MENA",
-    "sources": {
-      "streams": [
-        "https://primetv.cc.cd/beinfhd44/tracks-v1a1/mono.tbin.m3u8"
-      ]
-    },
-    "languages": [
-      "ara"
-    ],
-    "country": "qa",
     "isGeoBlocked": false
   },
   {
@@ -286,20 +230,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ZWDunXQWK9uiBV",
-    "name": "beIN Sports 5 MENA",
-    "sources": {
-      "streams": [
-        "https://primetv.cc.cd/beinfhd55/tracks-v1a1/mono.tbin.m3u8"
-      ]
-    },
-    "languages": [
-      "ara"
-    ],
-    "country": "qa",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "pTBtifoxaA356s",
     "name": "beIN Sports 5 Turk",
     "sources": {
@@ -311,48 +241,6 @@
       "tur"
     ],
     "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "0ywDwwGIueAJ8z",
-    "name": "beIN Sports 6 MENA",
-    "sources": {
-      "streams": [
-        "https://primetv.cc.cd/beinfhd66/index.m3u8"
-      ]
-    },
-    "languages": [
-      "ara"
-    ],
-    "country": "qa",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "FXr8zSlnYCYTeI",
-    "name": "beIN Sports 7 MENA",
-    "sources": {
-      "streams": [
-        "https://primetv.cc.cd/beinfhd77/index.m3u8"
-      ]
-    },
-    "languages": [
-      "ara"
-    ],
-    "country": "qa",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "5Q3OIzNGOlRGG4",
-    "name": "beIN Sports 8 MENA",
-    "sources": {
-      "streams": [
-        "https://primetv.cc.cd/beinfhd88/index.m3u8"
-      ]
-    },
-    "languages": [
-      "ara"
-    ],
-    "country": "qa",
     "isGeoBlocked": false
   },
   {
@@ -511,6 +399,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "j7JCn0NTCmpkYu",
+    "name": "CRTV Sports and Entertainment",
+    "sources": {
+      "streams": [
+        "https://live1.acangroup.org:1929/publiclive/crtv_sport/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "cm",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "cRWaAoFcT7OCt9",
     "name": "DD Sports",
     "sources": {
@@ -538,6 +440,7 @@
     "name": "Dong Nai TV 2",
     "sources": {
       "streams": [
+        "https://freem3u.xyz/api/live/play.m3u8?vid=255",
         "https://vtvgolive-ott3.vtvdigital.vn/live/dongnai2tv/chunklist_2.m3u8"
       ]
     },
@@ -619,20 +522,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "HQCC1x7HYw1qFT",
-    "name": "ESPN 3 Latin America Argentina",
-    "sources": {
-      "streams": [
-        "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn3-mux/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ar",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "W28Jd3TqNwX9HO",
     "name": "ESPN 3 Latin America South",
     "sources": {
@@ -705,20 +594,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "AxN2fJUCTjZSHD",
-    "name": "ESPN Latin America Argentina",
-    "sources": {
-      "streams": [
-        "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn-mux/chunks.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ar",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "GEM2gcqSAoqcNK",
     "name": "ESPN Latin America South",
     "sources": {
@@ -774,6 +649,21 @@
     ],
     "country": "es",
     "isGeoBlocked": true
+  },
+  {
+    "nanoid": "CuPJ7DXi3sDSGh",
+    "name": "Esport3 Originals",
+    "sources": {
+      "streams": [
+        "https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8",
+        "https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8"
+      ]
+    },
+    "languages": [
+      "cat"
+    ],
+    "country": "es",
+    "isGeoBlocked": false
   },
   {
     "nanoid": "lbyfmgKEc7ZRqZ",
@@ -1076,32 +966,17 @@
     "isGeoBlocked": true
   },
   {
-    "nanoid": "3PWIwG9FFIlO5Y",
-    "name": "Game+",
+    "nanoid": "zSqcM4N6tJjo6K",
+    "name": "Futbol TV",
     "sources": {
       "streams": [
-        "https://a-cdn.klowdtv.com/live2/fntsy_720p/playlist.m3u8"
+        "https://stream3.cinerama.uz/1010/tracks-v1a1/mono.m3u8"
       ]
     },
     "languages": [
-      "eng"
+      "uzb"
     ],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "lagHJficp6nYbz",
-    "name": "ge Fast",
-    "sources": {
-      "streams": [
-        "https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8",
-        "https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/GE_Fast.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
+    "country": "uz",
     "isGeoBlocked": false
   },
   {
@@ -1540,6 +1415,7 @@
     "name": "Pac-12 Insider",
     "sources": {
       "streams": [
+        "https://pac12-roku-us.amagi.tv/playlist.m3u8",
         "https://pac12-samsungus.amagi.tv/playlist.m3u8"
       ]
     },
@@ -1943,8 +1819,8 @@
     "sources": {
       "streams": [
         "https://italiansport-solocalcio-samsung.amagi.tv/playlist.m3u8",
-        "https://distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3u8",
-        "https://edge-001.streamup.eu/sportitalia/sisolocalcio_abr/playlist.m3u8"
+        "https://edge-001.streamup.eu/sportitalia/sisolocalcio_abr/playlist.m3u8",
+        "https://distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3u8"
       ]
     },
     "languages": [
@@ -2040,20 +1916,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "FKwCdU6RG0k0cZ",
-    "name": "SuperTennis",
-    "sources": {
-      "streams": [
-        "https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8"
-      ]
-    },
-    "languages": [
-      "ita"
-    ],
-    "country": "it",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "GmuLHBaEdwRnFv",
     "name": "Swerve Combat",
     "sources": {
@@ -2145,8 +2007,7 @@
     "sources": {
       "streams": [
         "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8",
-        "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8",
-        "https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8"
+        "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8"
       ]
     },
     "languages": [
@@ -2176,9 +2037,6 @@
     "sources": {
       "streams": [
         "https://tjktv-live.tjk.org/tjktv.m3u8"
-      ],
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/HcjhlDGpPus"
       ]
     },
     "languages": [

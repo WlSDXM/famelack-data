@@ -113,6 +113,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "sPitwPVtngUuVb",
+    "name": "ARDB TV",
+    "sources": {
+      "streams": [
+        "https://ardbtv.ardb.com.kh:8443/tv-live/tv-online.m3u8"
+      ]
+    },
+    "languages": [
+      "khm"
+    ],
+    "country": "kh",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "sYvKtrPKv77vYD",
     "name": "Chacra TV",
     "sources": {
@@ -396,6 +410,20 @@
     },
     "languages": [
       "eng"
+    ],
+    "country": "it",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "6qAfF0Ciz7BFIk",
+    "name": "Peer TV Sudtirol",
+    "sources": {
+      "streams": [
+        "https://iptv.peer.biz/live/peertv.m3u8"
+      ]
+    },
+    "languages": [
+      "deu"
     ],
     "country": "it",
     "isGeoBlocked": false

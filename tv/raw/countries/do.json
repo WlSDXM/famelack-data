@@ -1,19 +1,5 @@
 [
   {
-    "nanoid": "oyq6Yc0BO4KHcK",
-    "name": "A7 TV",
-    "sources": {
-      "streams": [
-        "https://183.bozztv.com/ssh101/ssh101/a7tvjarabacoa/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "do",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "gF1dEuiCaJ0feG",
     "name": "Adoram TV",
     "sources": {
@@ -154,20 +140,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "NSPzc9dKFMP4eI",
-    "name": "Bebeto TV",
-    "sources": {
-      "streams": [
-        "https://edge.essastream.com/bebetotelevision/index.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "do",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "hovo939geWj8nW",
     "name": "Bonches Latinos TV",
     "sources": {
@@ -229,6 +201,20 @@
     "sources": {
       "streams": [
         "https://cdn.protvradiostream.com/rtvd17/ngrp:rtvd17_all/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "PyAG3RXQChc3Tl",
+    "name": "Canal 70",
+    "sources": {
+      "streams": [
+        "https://183.bozztv.com/giatv/giatv-cnal70tv/cnal70tv/playlist.m3u8"
       ]
     },
     "languages": [
@@ -616,6 +602,20 @@
     "isGeoBlocked": true
   },
   {
+    "nanoid": "GPRph6cakYel7v",
+    "name": "De Ultimo Minuto TV",
+    "sources": {
+      "streams": [
+        "https://soportedvb.click:3620/live/deultimominutomedialive.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Wxf1OrLlT4Y7mE",
     "name": "Del Pueblo TV",
     "sources": {
@@ -705,6 +705,20 @@
     "sources": {
       "streams": [
         "https://cloud2.streaminglivehd.com:1936/8078/8078/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "eKupfaThSAa8YD",
+    "name": "Enntivision",
+    "sources": {
+      "streams": [
+        "https://edge.essastream.com/enntivision/playlist.m3u8"
       ]
     },
     "languages": [
@@ -2270,6 +2284,20 @@
     ],
     "country": "do",
     "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Ts2CPCoq6B5xeI",
+    "name": "VTV Canal 32",
+    "sources": {
+      "streams": [
+        "https://cnn.livestreaminggroup.info:3507/live/vtv32live.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": true
   },
   {
     "nanoid": "qZaR37EtRhf6Wl",

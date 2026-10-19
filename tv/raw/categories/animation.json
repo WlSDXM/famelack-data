@@ -672,11 +672,25 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "dlSxOcHpkY3viD",
+    "name": "NickOnline Bob Esponja",
+    "sources": {
+      "streams": [
+        "https://bob.x1colegal.com/hls/stream.m3u8"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "yzZp6BhMvaS7qt",
     "name": "PJ Masks Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/lDdfjLd7Mw0"
+        "https://www.youtube-nocookie.com/embed/bPMoMhSgPC0"
       ]
     },
     "languages": [
@@ -747,7 +761,7 @@
     "name": "Shaun the Sheep Official",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/2mbA1SQcrZA"
+        "https://www.youtube-nocookie.com/embed/2TGO4YtKP1Q"
       ]
     },
     "languages": [
@@ -861,7 +875,7 @@
     "name": "Super Soccer Cartoons: SupaStrikas",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HYMqkNVNo1g"
+        "https://www.youtube-nocookie.com/embed/Qea_zCGaWBc"
       ]
     },
     "languages": [

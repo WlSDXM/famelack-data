@@ -116,18 +116,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "sJ0IwCxQ3PFQw5",
-    "name": "MTV3",
-    "sources": {
-      "streams": [
-        "https://live-fi.tvkaista.net/mtv3/live.m3u8"
-      ]
-    },
-    "languages": [],
-    "country": "fi",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "RDsjWhSWVAr0bK",
     "name": "Nar-TV",
     "sources": {

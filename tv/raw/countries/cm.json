@@ -15,20 +15,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "KhnM4S53bCT3Jr",
-    "name": "Balafon TV",
-    "sources": {
-      "streams": [
-        "https://broadcasting-channels.com:9044/hls/test.m3u8"
-      ]
-    },
-    "languages": [
-      "fra"
-    ],
-    "country": "cm",
-    "isGeoBlocked": true
-  },
-  {
     "nanoid": "vSeAetx7SHaifK",
     "name": "CAM 10 TV",
     "sources": {
@@ -72,6 +58,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "j7JCn0NTCmpkYu",
+    "name": "CRTV Sports and Entertainment",
+    "sources": {
+      "streams": [
+        "https://live1.acangroup.org:1929/publiclive/crtv_sport/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "cm",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "i8vFqkaXpB4jHk",
     "name": "For You TV",
     "sources": {
@@ -87,11 +87,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "flybSYTMwoC89l",
-    "name": "Panafrican Media TV",
+    "nanoid": "kAGSorpcyVgeyz",
+    "name": "Laura Dave Media TV",
     "sources": {
       "streams": [
-        "https://live20.bozztv.com/giatv/giatv-pmtv/pmtv/playlist.m3u8"
+        "https://streaming.lauradavemedia.com/ldm/index.m3u8"
       ]
     },
     "languages": [
@@ -101,11 +101,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "I6Aibqu4gfNeTW",
-    "name": "TR24 Television",
+    "nanoid": "flybSYTMwoC89l",
+    "name": "Panafrican Media TV",
     "sources": {
       "streams": [
-        "https://stream.it-innov.com/tr24/index.m3u8"
+        "https://live20.bozztv.com/giatv/giatv-pmtv/pmtv/playlist.m3u8"
       ]
     },
     "languages": [

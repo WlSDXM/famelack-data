@@ -28,6 +28,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "wjGP3n4DkSPVQ1",
+    "name": "Amazon Sat",
+    "sources": {
+      "streams": [
+        "https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "K0FRmHrggxRl0x",
     "name": "Araruna TV",
     "sources": {
@@ -248,7 +262,7 @@
     "name": "CNN Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/yWnOn_x65Xw"
+        "https://www.youtube-nocookie.com/embed/r0DZUSrsUJQ"
       ]
     },
     "languages": [
@@ -413,20 +427,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "GhFNKINnqmhJYK",
-    "name": "Fonte TV",
-    "sources": {
-      "streams": [
-        "https://59fb88a1b1108.streamlock.net/fonte/_definst_/fontetv/chunklist_w1224511652.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "LAzGmzfDmBkZX9",
     "name": "Fora Tedio TV",
     "sources": {
@@ -449,9 +449,7 @@
         "https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/GE_Fast.m3u8"
       ]
     },
-    "languages": [
-      "por"
-    ],
+    "languages": [],
     "country": "br",
     "isGeoBlocked": false
   },
@@ -534,6 +532,21 @@
       ]
     },
     "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "j2PNx5Xg25mTJj",
+    "name": "KpopTV Play",
+    "sources": {
+      "streams": [
+        "https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "kor",
       "por"
     ],
     "country": "br",
@@ -624,6 +637,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "dlSxOcHpkY3viD",
+    "name": "NickOnline Bob Esponja",
+    "sources": {
+      "streams": [
+        "https://bob.x1colegal.com/hls/stream.m3u8"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "kuBm514WWhIzx5",
     "name": "NTV",
     "sources": {
@@ -656,7 +683,7 @@
     "name": "Peppa Pig Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/OT4EMbZlfyM"
+        "https://www.youtube-nocookie.com/embed/IVNO4Z4d-OA"
       ]
     },
     "languages": [
@@ -684,7 +711,7 @@
     "name": "PJ Masks Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/lDdfjLd7Mw0"
+        "https://www.youtube-nocookie.com/embed/bPMoMhSgPC0"
       ]
     },
     "languages": [
@@ -757,7 +784,7 @@
         "https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/yCfb9Na3rcI"
+        "https://www.youtube-nocookie.com/embed/zKzjt5Y1Fkg"
       ]
     },
     "languages": [
@@ -936,6 +963,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "O8tFJhKTZ0GylR",
+    "name": "Santa Cruz Feira Digital",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/IinG6BnIsLQ"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "iHsfcZXYEPAKKO",
     "name": "Santuário Nacional de Aparecida",
     "sources": {
@@ -984,6 +1025,20 @@
     "sources": {
       "streams": [
         "https://dai.google.com/linear/hls/event/1XSOdtQ0SH2G8OEmEfGgjQ/master.m3u8"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "wQwzJWldq22ymG",
+    "name": "SIC TV",
+    "sources": {
+      "streams": [
+        "https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8"
       ]
     },
     "languages": [
@@ -1151,7 +1206,7 @@
     "name": "TV Assembleia Minas Gerais",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/WI4RhCoZKcE"
+        "https://www.youtube-nocookie.com/embed/-YNzCoZRkuQ"
       ]
     },
     "languages": [
@@ -1180,20 +1235,6 @@
     "sources": {
       "streams": [
         "https://porbrics.mediacdn.ru/cdn/brics/portuguese/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "riJfvbebPYWsNV",
-    "name": "TV Brusque",
-    "sources": {
-      "streams": [
-        "https://5ad482a77183d.streamlock.net/rodrigotvbrusque.com.br/5d880199c902eb4a1e8df00d/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1386,20 +1427,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Xpp6oPU4K564FV",
-    "name": "TV Litoral RN",
-    "sources": {
-      "streams": [
-        "https://5ad482a77183d.streamlock.net/tvnordesteegmail.com/tvnordesteegmail.com/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "xa4uQgENeLOjdU",
     "name": "TV Mais Marica",
     "sources": {
@@ -1447,20 +1474,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/4btUGUfdQs8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "dcIkvJvyHx3mhL",
-    "name": "TV Padre Cicero",
-    "sources": {
-      "streams": [
-        "https://video01.logicahost.com.br/tvpadrecicero/tvpadrecicero/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1583,34 +1596,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "26hxUXThjWRyJw",
-    "name": "TV Sim Sao Mateus",
-    "sources": {
-      "streams": [
-        "https://5cf4a2c2512a2.streamlock.net/8236/8236/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "RR1JUgMyYIDOOG",
-    "name": "TV Terceiro Anjo",
-    "sources": {
-      "streams": [
-        "https://streamer1.streamhost.org/salive/GMI3anjoh/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "0clXzJLP8rGUkm",
     "name": "TV Thathi SBT",
     "sources": {
@@ -1658,6 +1643,20 @@
     "sources": {
       "streams": [
         "https://stmv5.samcast.com.br/tvmaispet6354/tvmaispet6354/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "zBjyTtvDBTgspi",
+    "name": "TVC-Rio",
+    "sources": {
+      "streams": [
+        "https://video05.logicahost.com.br/comunitariario/comunitariario/playlist.m3u8"
       ]
     },
     "languages": [

@@ -14,20 +14,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ozXYDjoGZMZ114",
-    "name": "Dao Lane Xang TV",
-    "sources": {
-      "streams": [
-        "https://livefta.malimarcdn.com/ftaedge00/khaomwungmai.sdp/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "vie"
-    ],
-    "country": "la",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "GPPVD5irGB7ygk",
     "name": "ISTV",
     "sources": {
@@ -47,20 +33,6 @@
     "sources": {
       "streams": [
         "https://livefta.malimarcdn.com/ftaedge00/laonet.sdp/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "lao"
-    ],
-    "country": "la",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "oMhYmCaf0w71Vh",
-    "name": "Look Thoong TV",
-    "sources": {
-      "streams": [
-        "https://livefta.malimarcdn.com/ftaedge00/lookthoongtv.sdp/playlist.m3u8"
       ]
     },
     "languages": [

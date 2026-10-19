@@ -154,6 +154,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "wPlSUCmwkpBR6B",
+    "name": "Super Q Panama",
+    "sources": {
+      "streams": [
+        "https://vcp8.myplaytv.com:1936/superq/superq/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "pa",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "SUR27YVxiEVQoo",
     "name": "Tropi Q 99.7 FM",
     "sources": {

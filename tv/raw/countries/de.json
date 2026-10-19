@@ -480,18 +480,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "6ftPsR4C1PTDrI",
-    "name": "Fluss Monster",
-    "sources": {
-      "streams": [
-        "https://rivermonstergermany-rakuten.amagi.tv/playlist.m3u8"
-      ]
-    },
-    "languages": [],
-    "country": "de",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "8bSuKSVwMMeWf7",
     "name": "Folx Music Television",
     "sources": {
@@ -1405,28 +1393,28 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "FT8VcZltRS1FOf",
-    "name": "Rakuten TV Action Movies Germany",
+    "nanoid": "rahlDGPnE1FWrR",
+    "name": "Rakuten TV Crime Series Germany",
     "sources": {
       "streams": [
-        "https://284824cf70404fdfb6ddf9349009c710.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6066/master.m3u8"
+        "https://b6244e915ee04a5aa758e863a55a6a3d.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6217/master.m3u8"
+      ]
+    },
+    "languages": [],
+    "country": "de",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "i6jMhimWGlGgKg",
+    "name": "Rakuten TV Top Movies Germany",
+    "sources": {
+      "streams": [
+        "https://cbb622b29f5d43b598991f3fa19de291.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5985/master.m3u8"
       ]
     },
     "languages": [
       "deu"
     ],
-    "country": "de",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "SMFkP3zTr5LosF",
-    "name": "Rakuten TV German Cinema",
-    "sources": {
-      "streams": [
-        "https://a5dc66582aa040269fd99d7d7a6ac23b.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6200/master.m3u8"
-      ]
-    },
-    "languages": [],
     "country": "de",
     "isGeoBlocked": false
   },
@@ -1877,21 +1865,6 @@
     "languages": [],
     "country": "de",
     "isGeoBlocked": false
-  },
-  {
-    "nanoid": "OR0bcDdbzNJR50",
-    "name": "Terra Mater WILD English",
-    "sources": {
-      "streams": [
-        "https://amg01775-amg01775c1-amgplt0343.playout.now3.amagi.tv/playlist/amg01775-amg01775c1-amgplt0343/playlist.m3u8",
-        "https://amg01775-amg01775c1-amgplt0002.playout.now3.amagi.tv/playlist/amg01775-amg01775c1-amgplt0002/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "de",
-    "isGeoBlocked": true
   },
   {
     "nanoid": "OfmMpkKE1FtNkl",

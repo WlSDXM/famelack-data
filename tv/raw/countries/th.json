@@ -578,20 +578,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "dB7dtyb4s8KVBG",
-    "name": "Thai Chaiyo",
-    "sources": {
-      "streams": [
-        "https://live.thaichaiyo.tv/tcy/live-transmux.m3u8"
-      ]
-    },
-    "languages": [
-      "tha"
-    ],
-    "country": "th",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "ztLXAJFpTRNVhe",
     "name": "Thai Parliament Television",
     "sources": {
