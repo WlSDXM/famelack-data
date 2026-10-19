@@ -372,6 +372,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "56PuvF0c6qYFih",
+    "name": "Biloxi Beach Boulevard",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/AaD9mVRT0ro"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "qNrdE69S6z3pV0",
     "name": "BR-101 Northbound, Itajaí",
     "sources": {
@@ -436,7 +448,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/DD7cYbwbPCQ"
+        "https://www.youtube-nocookie.com/embed/ulDOst5zZwI"
       ]
     },
     "languages": [],
@@ -645,18 +657,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "LNw5kuurO55gbR",
-    "name": "Downtown Santa Cruz",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/wJsOXySDNos"
-      ]
-    },
-    "languages": [],
-    "country": "jm",
     "isGeoBlocked": false
   },
   {
@@ -1348,7 +1348,7 @@
     "name": "Khao Lak",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/MCM-ZnBZjic"
+        "https://www.youtube-nocookie.com/embed/n5586NhNEgw"
       ]
     },
     "languages": [],
@@ -2620,7 +2620,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/5D6tcGVC9ic"
+        "https://www.youtube-nocookie.com/embed/ePWyoVU9NSg"
       ]
     },
     "languages": [],

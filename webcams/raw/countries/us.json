@@ -168,18 +168,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "DRkxfMx04RYSRT",
-    "name": "Allegiant Stadium",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/_rmUXOHSf0w"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "VPZTpyIoLmKrWl",
     "name": "Alliance Railcam at the Grade Crossing",
     "sources": {
@@ -1241,6 +1229,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/djeIw7J94kY"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "56PuvF0c6qYFih",
+    "name": "Biloxi Beach Boulevard",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/AaD9mVRT0ro"
       ]
     },
     "languages": [],
@@ -2344,19 +2344,7 @@
     "name": "Castro Street",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/dpKb99MHxD0"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "zSm83nc9Ya1E75",
-    "name": "Castro Street Cam 1",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/j8WYcCjXoJk"
+        "https://www.youtube-nocookie.com/embed/87oRbLLa-_E"
       ]
     },
     "languages": [],
@@ -2368,7 +2356,7 @@
     "name": "Castro Street, San Francisco",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/_0vXxm35p84"
+        "https://www.youtube-nocookie.com/embed/NSyz-1pPBAo"
       ]
     },
     "languages": [],
@@ -2608,7 +2596,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/DD7cYbwbPCQ"
+        "https://www.youtube-nocookie.com/embed/ulDOst5zZwI"
       ]
     },
     "languages": [],
@@ -3540,6 +3528,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "q0cWb37ZgfHdGn",
+    "name": "DFW Airport East",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/J5X8Tlj0tZw"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "gspv6BIP8sc5Em",
     "name": "Diablo Peak Summit",
     "sources": {
@@ -4408,7 +4408,7 @@
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HqA7SiDDqc0"
+        "https://www.youtube-nocookie.com/embed/Wj6FMY2J4qc"
       ]
     },
     "languages": [],
@@ -5464,7 +5464,7 @@
     "name": "Georgica Jetty",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/EQEt_3GkUx4"
+        "https://www.youtube-nocookie.com/embed/mTIce27dQHk"
       ]
     },
     "languages": [],
@@ -6132,18 +6132,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ipbnDCCjbj69H6",
-    "name": "Higgins Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/2XANfO8oAxg"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "DALjTBX4stAhk7",
     "name": "High Cliff Marina, Sherwood",
     "sources": {
@@ -6580,7 +6568,7 @@
     "name": "International Space Station",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/nw-EaXK-4Sk"
+        "https://www.youtube-nocookie.com/embed/D7fDQkAGvXE"
       ]
     },
     "languages": [],
@@ -7732,7 +7720,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/R_0fcmaK-0c"
+        "https://www.youtube-nocookie.com/embed/AFuEPTfR2YI"
       ]
     },
     "languages": [],
@@ -8489,6 +8477,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/i07IVN7ZKek"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "FG7Cg1mb5xtt5G",
+    "name": "Manchester Peregrine Falcon Nest 1",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Yf79Sr73R1w"
       ]
     },
     "languages": [],
@@ -9520,7 +9520,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/af8MZHS8zDM"
+        "https://www.youtube-nocookie.com/embed/IvowHYoHXV0"
       ]
     },
     "languages": [],
@@ -10708,7 +10708,7 @@
     "name": "Pacifica Pier and Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/bJ3iYpvbC5Y"
+        "https://www.youtube-nocookie.com/embed/_-_hg_aJrKU"
       ]
     },
     "languages": [],
@@ -11201,6 +11201,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/9mMnqO1UuIU"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "hoj6g25MJFH4lt",
+    "name": "Philadelphia Airport (PHL)",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/OCPqQGmMA9U"
       ]
     },
     "languages": [],
@@ -13428,6 +13440,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "8o7CHdWVubtAJ5",
+    "name": "Sea-Tac Airport",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/VbBTsC9KKp4"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "3op0Op6meiwgyK",
     "name": "Seal Island Puffin Boulder Berm",
     "sources": {
@@ -14752,7 +14776,7 @@
     "name": "Squirrel and Wildlife Feeder",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/eBpuQDElTB0"
+        "https://www.youtube-nocookie.com/embed/m9fbbU33bz8"
       ]
     },
     "languages": [],
@@ -14981,6 +15005,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/cYvIot1LQsc"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "7zn2mNtMARBtEy",
+    "name": "St. Louis Lambert Airport",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/FxxoJeDY154"
       ]
     },
     "languages": [],
@@ -16817,6 +16853,42 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/iQPgyQYfVjQ"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "edu9KSxWZl3IEi",
+    "name": "UW Lake Washington View",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/NCzKkn0wD30"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "x5qvzKKfvbb5On",
+    "name": "UW Red Square",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/xbx61YpBlgc"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "JygH0uNdxUhiME",
+    "name": "UW Tower Seattle Skyline View",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/9-hGCRgqMMs"
       ]
     },
     "languages": [],

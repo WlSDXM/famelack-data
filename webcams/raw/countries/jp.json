@@ -1876,7 +1876,7 @@
     "name": "Meitetsu Tokoname Line Ono-machi",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/fywpSEOhIvQ"
+        "https://www.youtube-nocookie.com/embed/l9Y8Nw-AXJA"
       ]
     },
     "languages": [],
@@ -2141,18 +2141,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/rnrsrthgkb0"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "drmM6fkZNzNerM",
-    "name": "Mount Tsukuba Nantaisan",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/cL2zQrbW3vg"
       ]
     },
     "languages": [],
@@ -2760,6 +2748,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "BnrsodzLxK84zY",
+    "name": "Osaka Castle & Skyline",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/dOKOq-jU1b8"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "AP3TPm8eGrm0Qk",
     "name": "Osaka City",
     "sources": {
@@ -3208,7 +3208,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/5D6tcGVC9ic"
+        "https://www.youtube-nocookie.com/embed/ePWyoVU9NSg"
       ]
     },
     "languages": [],

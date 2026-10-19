@@ -148,7 +148,7 @@
     "name": "Khao Lak",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/MCM-ZnBZjic"
+        "https://www.youtube-nocookie.com/embed/n5586NhNEgw"
       ]
     },
     "languages": [],
@@ -208,7 +208,7 @@
     "name": "Pattaya Beach Road",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/3LVE79nPFLI"
+        "https://www.youtube-nocookie.com/embed/-noij2-VsO0"
       ]
     },
     "languages": [],
@@ -233,6 +233,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/_nvG0c9keWI"
+      ]
+    },
+    "languages": [],
+    "country": "th",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "iCDmmobo7DFKFb",
+    "name": "Soi Buakhao Bar Strip",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/6tPgoMp4Hpg"
       ]
     },
     "languages": [],

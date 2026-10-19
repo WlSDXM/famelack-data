@@ -144,6 +144,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "sLLOaKMiv6ydXL",
+    "name": "Circolo Golf Degli Ulivi",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/VrtSmYU-SS0"
+      ]
+    },
+    "languages": [],
+    "country": "it",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "lm50FRS6tzHgHV",
     "name": "Corona Coaster Sledding",
     "sources": {
@@ -837,6 +849,18 @@
     },
     "languages": [],
     "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "edu9KSxWZl3IEi",
+    "name": "UW Lake Washington View",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/NCzKkn0wD30"
+      ]
+    },
+    "languages": [],
+    "country": "us",
     "isGeoBlocked": false
   },
   {

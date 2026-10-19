@@ -2488,7 +2488,7 @@
     "name": "Le Morne",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/NEOf9SBSNK4"
+        "https://www.youtube-nocookie.com/embed/hvJLvTwNqXU"
       ]
     },
     "languages": [],
@@ -3420,23 +3420,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "drmM6fkZNzNerM",
-    "name": "Mount Tsukuba Nantaisan",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/cL2zQrbW3vg"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "YCndIOSN30lvKW",
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/af8MZHS8zDM"
+        "https://www.youtube-nocookie.com/embed/IvowHYoHXV0"
       ]
     },
     "languages": [],
@@ -4320,6 +4308,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "qntxMH7SzXBIA8",
+    "name": "Rancho La Onza Hillside",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/3i9C39TpWSI"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "GWqgsL8u8GD8wA",
     "name": "Rancho La Onza Valley Panorama",
     "sources": {
@@ -4581,6 +4581,18 @@
     },
     "languages": [],
     "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "j8QVv5It73xuE1",
+    "name": "Santo Domingo de Guzmán, Oaxaca",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/37WdDtO7EAQ"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
     "isGeoBlocked": false
   },
   {
@@ -5872,7 +5884,7 @@
     "name": "Val d'Isère",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/xsmcYwpkHDU"
+        "https://www.youtube-nocookie.com/embed/4Lz-xWEG9C8"
       ]
     },
     "languages": [],

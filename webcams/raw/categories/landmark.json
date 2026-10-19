@@ -480,18 +480,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "dHgTg0rHivx6TL",
-    "name": "Dashmesh Culture Centre, Calgary",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/mBa3yaRloUU"
-      ]
-    },
-    "languages": [],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "cd621pwZv7IYPf",
     "name": "DDP Seoul",
     "sources": {
@@ -964,7 +952,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/R_0fcmaK-0c"
+        "https://www.youtube-nocookie.com/embed/AFuEPTfR2YI"
       ]
     },
     "languages": [],
@@ -1012,7 +1000,7 @@
     "name": "Masjid Al Haram",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/1iMsmbHPGVI"
+        "https://www.youtube-nocookie.com/embed/gINp2w_zOU8"
       ]
     },
     "languages": [],
@@ -1317,6 +1305,18 @@
     },
     "languages": [],
     "country": "it",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "BnrsodzLxK84zY",
+    "name": "Osaka Castle & Skyline",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/dOKOq-jU1b8"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
     "isGeoBlocked": false
   },
   {

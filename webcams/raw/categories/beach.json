@@ -624,6 +624,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "56PuvF0c6qYFih",
+    "name": "Biloxi Beach Boulevard",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/AaD9mVRT0ro"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "gFtKBH5M0QkpUW",
     "name": "Bise Beach",
     "sources": {
@@ -2056,7 +2068,7 @@
     "name": "Georgica Jetty",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/EQEt_3GkUx4"
+        "https://www.youtube-nocookie.com/embed/mTIce27dQHk"
       ]
     },
     "languages": [],
@@ -2316,18 +2328,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ipbnDCCjbj69H6",
-    "name": "Higgins Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/2XANfO8oAxg"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "h1wch8EyoBHsW0",
     "name": "Hoek van Holland Beach Boulevard",
     "sources": {
@@ -2385,6 +2385,18 @@
     },
     "languages": [],
     "country": "kr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "iX3JHjBR6YNLej",
+    "name": "Hotel B Cozumel",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/DXzizH3ginM"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
     "isGeoBlocked": false
   },
   {
@@ -3040,7 +3052,7 @@
     "name": "Le Morne",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/NEOf9SBSNK4"
+        "https://www.youtube-nocookie.com/embed/hvJLvTwNqXU"
       ]
     },
     "languages": [],
@@ -3324,6 +3336,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "azJQg5pnMmRjx2",
+    "name": "Magaluf Beach & Punta Ballena",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/SFENGpVVpL4"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "DDkM90dfFzIbck",
     "name": "Maho Bay HD",
     "sources": {
@@ -3364,7 +3388,7 @@
     "name": "Maho Beach Plane Spotting",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/kAxmUDt6Zx4"
+        "https://www.youtube-nocookie.com/embed/BLLbJc1ZPSg"
       ]
     },
     "languages": [],
@@ -3664,7 +3688,7 @@
     "name": "Morro do Itararé",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ukoSyGLdoTQ"
+        "https://www.youtube-nocookie.com/embed/0edR8MHX_qI"
       ]
     },
     "languages": [],
@@ -4204,7 +4228,7 @@
     "name": "Pacifica Pier and Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/bJ3iYpvbC5Y"
+        "https://www.youtube-nocookie.com/embed/_-_hg_aJrKU"
       ]
     },
     "languages": [],
@@ -4324,7 +4348,7 @@
     "name": "Pattaya Beach Road",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/3LVE79nPFLI"
+        "https://www.youtube-nocookie.com/embed/-noij2-VsO0"
       ]
     },
     "languages": [],
@@ -4596,18 +4620,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "MlRrMOIBXeiWt4",
-    "name": "Playa del Carmen",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/1WyF0z82it0"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "uHIp23LSPjnPKR",
     "name": "Playa del Cura Beach",
     "sources": {
@@ -4828,7 +4840,7 @@
     "name": "Pozo Izquierdo Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/MBqCm4uT0-I"
+        "https://www.youtube-nocookie.com/embed/hroBBfkfcuc"
       ]
     },
     "languages": [],
@@ -4853,6 +4865,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/hfOgGUhdybo"
+      ]
+    },
+    "languages": [],
+    "country": "pt",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "aAYvirH0mKBhGR",
+    "name": "Praia da Rocha Portimão",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/rl94wlaxqg8"
       ]
     },
     "languages": [],
@@ -7120,7 +7144,7 @@
     "name": "West Kirby Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Gnrikq0EWyk"
+        "https://www.youtube-nocookie.com/embed/V1ip6fOgbz4"
       ]
     },
     "languages": [],
@@ -7209,18 +7233,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "lF4Wp9aoN2isAp",
-    "name": "Wissant Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Qhcsrn3Wq8Y"
-      ]
-    },
-    "languages": [],
-    "country": "fr",
     "isGeoBlocked": false
   },
   {

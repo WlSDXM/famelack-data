@@ -348,6 +348,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "sLLOaKMiv6ydXL",
+    "name": "Circolo Golf Degli Ulivi",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/VrtSmYU-SS0"
+      ]
+    },
+    "languages": [],
+    "country": "it",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "MZCK7dGHD40tmj",
     "name": "Col Margherita, San Pellegrino",
     "sources": {

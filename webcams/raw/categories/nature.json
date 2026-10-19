@@ -3112,7 +3112,7 @@
     "name": "De Mortel Wildlife & Bird Feeder",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/D1VM6V6wmU0"
+        "https://www.youtube-nocookie.com/embed/sbnvGpr_Fyw"
       ]
     },
     "languages": [],
@@ -4881,6 +4881,18 @@
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "iX3JHjBR6YNLej",
+    "name": "Hotel B Cozumel",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/DXzizH3ginM"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
     "isGeoBlocked": false
   },
   {
@@ -7284,6 +7296,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "uEP18lvrjxK11v",
+    "name": "Malé Svatoňovice náměstí",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/JxcO5hcZ6sU"
+      ]
+    },
+    "languages": [],
+    "country": "cz",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "2fRLj7WAG7xKDp",
     "name": "Malé Svatoňovice Valley Panorama",
     "sources": {
@@ -8316,18 +8340,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "drmM6fkZNzNerM",
-    "name": "Mount Tsukuba Nantaisan",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/cL2zQrbW3vg"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "z0bHwCKyiwmT77",
     "name": "Mount Tsukuba Nyotaisan",
     "sources": {
@@ -8380,7 +8392,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/af8MZHS8zDM"
+        "https://www.youtube-nocookie.com/embed/IvowHYoHXV0"
       ]
     },
     "languages": [],
@@ -8464,7 +8476,7 @@
     "name": "Mouse Island Corfu",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/NmCTp-scZP4"
+        "https://www.youtube-nocookie.com/embed/FUDerPo9pbE"
       ]
     },
     "languages": [],
@@ -10596,6 +10608,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "qntxMH7SzXBIA8",
+    "name": "Rancho La Onza Hillside",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/3i9C39TpWSI"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "GWqgsL8u8GD8wA",
     "name": "Rancho La Onza Valley Panorama",
     "sources": {
@@ -12148,7 +12172,7 @@
     "name": "Skiathos Bay & Port",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/E_hpShK09EI"
+        "https://www.youtube-nocookie.com/embed/v9kPiCpIQW8"
       ]
     },
     "languages": [],
@@ -14212,7 +14236,7 @@
     "name": "Val d'Isère",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/xsmcYwpkHDU"
+        "https://www.youtube-nocookie.com/embed/4Lz-xWEG9C8"
       ]
     },
     "languages": [],
@@ -14608,7 +14632,7 @@
     "name": "Warsaw Skyline",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/_prZbQudF7o"
+        "https://www.youtube-nocookie.com/embed/aDPx4H6CAXE"
       ]
     },
     "languages": [],

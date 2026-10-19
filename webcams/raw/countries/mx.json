@@ -348,6 +348,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "iX3JHjBR6YNLej",
+    "name": "Hotel B Cozumel",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/DXzizH3ginM"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "a8f4u0CwfQAxO5",
     "name": "Hotel Xcaret México",
     "sources": {
@@ -576,18 +588,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "MlRrMOIBXeiWt4",
-    "name": "Playa del Carmen",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/1WyF0z82it0"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "VeEeJx643kSHwB",
     "name": "Playa del Carmen Fifth Avenue",
     "sources": {
@@ -792,6 +792,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "qntxMH7SzXBIA8",
+    "name": "Rancho La Onza Hillside",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/3i9C39TpWSI"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "GWqgsL8u8GD8wA",
     "name": "Rancho La Onza Valley Panorama",
     "sources": {
@@ -845,6 +857,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/CAb2AjJNTHo"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "j8QVv5It73xuE1",
+    "name": "Santo Domingo de Guzmán, Oaxaca",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/37WdDtO7EAQ"
       ]
     },
     "languages": [],

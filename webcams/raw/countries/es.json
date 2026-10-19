@@ -852,6 +852,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "azJQg5pnMmRjx2",
+    "name": "Magaluf Beach & Punta Ballena",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/SFENGpVVpL4"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "isTLjqLDmhJ98K",
     "name": "Mainsquare, Guardamar del Segura",
     "sources": {
@@ -1252,7 +1264,7 @@
     "name": "Pozo Izquierdo Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/MBqCm4uT0-I"
+        "https://www.youtube-nocookie.com/embed/hroBBfkfcuc"
       ]
     },
     "languages": [],

@@ -208,7 +208,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/DD7cYbwbPCQ"
+        "https://www.youtube-nocookie.com/embed/ulDOst5zZwI"
       ]
     },
     "languages": [],
@@ -1132,7 +1132,7 @@
     "name": "Parry Sound Town Dock",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/5kI6FTPyw9A"
+        "https://www.youtube-nocookie.com/embed/XqiKoRWJ-OA"
       ]
     },
     "languages": [],
@@ -1473,6 +1473,18 @@
     },
     "languages": [],
     "country": "mk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "edu9KSxWZl3IEi",
+    "name": "UW Lake Washington View",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/NCzKkn0wD30"
+      ]
+    },
+    "languages": [],
+    "country": "us",
     "isGeoBlocked": false
   },
   {
