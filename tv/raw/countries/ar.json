@@ -154,6 +154,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "7b5TjPCfAQClP0",
+    "name": "BVC",
+    "sources": {
+      "streams": [
+        "https://vivo.solumedia.com:19360/bvnet/bvnet.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "zn3NIcdYjMvD3s",
     "name": "C5N",
     "sources": {
@@ -229,6 +243,20 @@
     "sources": {
       "streams": [
         "https://tv.streamcasthd.com:3641/live/canal2mdplive.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "dP9dVYSF14RSuM",
+    "name": "Canal 2 Misiones",
+    "sources": {
+      "streams": [
+        "https://nd106.republicaservers.com:4433/hls/canal2misioness/index.m3u8"
       ]
     },
     "languages": [
@@ -568,7 +596,7 @@
     "name": "Canal 13 San Juan",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/uqUSmqJg0ds"
+        "https://www.youtube-nocookie.com/embed/9FwqhGCFKQs"
       ]
     },
     "languages": [
@@ -876,20 +904,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "sYvKtrPKv77vYD",
-    "name": "Chacra TV",
-    "sources": {
-      "streams": [
-        "https://5f700d5b2c46f.streamlock.net/chacratv/chacratv/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ar",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "gwy1ac4V2q1IQ8",
     "name": "Chamame TV",
     "sources": {
@@ -964,8 +978,7 @@
     "name": "Cosmos Tv",
     "sources": {
       "streams": [
-        "https://canaletaplus.com:3922/live/cosmoslive.m3u8",
-        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8"
+        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
       ]
     },
     "languages": [
@@ -1106,7 +1119,7 @@
     "name": "El Observador 107.9",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/hHMiHIIefKY"
+        "https://www.youtube-nocookie.com/embed/w3UeO6Xmvck"
       ]
     },
     "languages": [
@@ -1176,7 +1189,7 @@
     "name": "El Tres TV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/5r7WmUsqWUI"
+        "https://www.youtube-nocookie.com/embed/_ywcO3uQBWg"
       ]
     },
     "languages": [
@@ -1191,6 +1204,34 @@
     "sources": {
       "streams": [
         "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn2-mux/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "HQCC1x7HYw1qFT",
+    "name": "ESPN 3 Latin America Argentina",
+    "sources": {
+      "streams": [
+        "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn3-mux/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AxN2fJUCTjZSHD",
+    "name": "ESPN Latin America Argentina",
+    "sources": {
+      "streams": [
+        "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn-mux/chunks.m3u8"
       ]
     },
     "languages": [
@@ -1215,11 +1256,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "NYXd2ClRBhOZGJ",
-    "name": "FMVale975",
+    "nanoid": "MzJbIfUKCeqrsU",
+    "name": "Folcloreando TV",
     "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Oqj8dVOdwOk"
+      "streams": [
+        "https://stmvideo6.livecastv.com/radioactivasanjuan/radioactivasanjuan/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1229,11 +1270,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "MzJbIfUKCeqrsU",
-    "name": "Folcloreando TV",
+    "nanoid": "igtooqWRJnKwBu",
+    "name": "Fox Sports 2",
     "sources": {
       "streams": [
-        "https://stmvideo6.livecastv.com/radioactivasanjuan/radioactivasanjuan/playlist.m3u8"
+        "https://zapster.trapemn.tv:1936/CD-LATAM/FoxSports2/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1582,20 +1623,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "DGW7X316G3HOtG",
-    "name": "Radio Sublime Gracia TV",
-    "sources": {
-      "streams": [
-        "https://5f700d5b2c46f.streamlock.net/sublime/sublime/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ar",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "ZndXA4jhlJE41i",
     "name": "Radio TV Neuquen",
     "sources": {
@@ -1806,6 +1833,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "hOoQHX3QGuNlik",
+    "name": "The Cabbin FM",
+    "sources": {
+      "streams": [
+        "https://5f700d5b2c46f.streamlock.net/thecabinn/thecabinn/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "xRJ5PYrL3SOh4P",
     "name": "TN Todo Noticias",
     "sources": {
@@ -1979,7 +2020,7 @@
     "name": "Urbana Play 104.3 FM",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/m2EEBDXexlI"
+        "https://www.youtube-nocookie.com/embed/rHRVreluaho"
       ]
     },
     "languages": [

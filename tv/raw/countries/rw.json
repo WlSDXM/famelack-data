@@ -1,10 +1,10 @@
 [
   {
-    "nanoid": "hRgd0Ypxitc2Uq",
-    "name": "BTN TV",
+    "nanoid": "ImKv4xWjIX02Ek",
+    "name": "Isibo TV",
     "sources": {
       "streams": [
-        "https://tv.btnrwanda.com:3973/live/btnv2live.m3u8"
+        "https://5c46fa289c89f.streamlock.net/pub2live/myStream/playlist.m3u8"
       ]
     },
     "languages": [
@@ -14,14 +14,16 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ImKv4xWjIX02Ek",
-    "name": "Isibo TV",
+    "nanoid": "NcglAZxaLZ2Lw7",
+    "name": "KC2",
     "sources": {
       "streams": [
-        "https://5c46fa289c89f.streamlock.net/pub2live/myStream/playlist.m3u8"
+        "https://5c46fa289c89f.streamlock.net/kc2/kc2/chunklist.m3u8"
       ]
     },
     "languages": [
+      "eng",
+      "fra",
       "kin"
     ],
     "country": "rw",

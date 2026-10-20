@@ -118,7 +118,7 @@
     "name": "Antiks Cartoons: Antiks",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/JuA5YN-qoZ0"
+        "https://www.youtube-nocookie.com/embed/vuB9ThUfUJA"
       ]
     },
     "languages": [
@@ -218,20 +218,6 @@
     "sources": {
       "streams": [
         "https://balapantv-stream.qazcdn.com/balapantv/balapantv/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "kaz"
-    ],
-    "country": "kz",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "JCokef05ozWI8Y",
-    "name": "Balapan International",
-    "sources": {
-      "streams": [
-        "https://live-3.otcnet.ru/Balapan/index.m3u8"
       ]
     },
     "languages": [
@@ -523,15 +509,7 @@
         "https://drk6xq0vhn.gpcdn.net/live/cn_hd_abr/index.m3u8"
       ]
     },
-    "languages": [
-      "eng",
-      "hin",
-      "kan",
-      "mal",
-      "mar",
-      "tam",
-      "tel"
-    ],
+    "languages": [],
     "country": "in",
     "isGeoBlocked": false
   },
@@ -1347,6 +1325,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "95mvfX5TCBOt4J",
+    "name": "Jungle Beat",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/vOz5i3x7UO0"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "SO5UU0dDwSV4en",
     "name": "Kapitan Fantastika",
     "sources": {
@@ -1374,6 +1366,20 @@
       "eng"
     ],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "yQPdPKGvAyjQ79",
+    "name": "Kids Land: Urdu",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/QRTFeDSymLQ"
+      ]
+    },
+    "languages": [
+      "urd"
+    ],
+    "country": "pk",
     "isGeoBlocked": false
   },
   {
@@ -1475,6 +1481,20 @@
       "eng"
     ],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "aWUdvngHDj9fCb",
+    "name": "Logos TV Kids",
+    "sources": {
+      "streams": [
+        "https://streamer1.streamhost.org/salive/logoskidsH/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "es",
     "isGeoBlocked": false
   },
   {
@@ -1764,6 +1784,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "LhLrzvZ35u0Jdu",
+    "name": "Nick Jr. Latin America Panregional",
+    "sources": {
+      "streams": [
+        "https://streaming.onnethn.com/NICK_JR/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "iTYbfotwsIv7iD",
     "name": "Nickelodeon",
     "sources": {
@@ -1810,7 +1844,8 @@
     "name": "Nickelodeon Latin America Panregional",
     "sources": {
       "streams": [
-        "https://barinaslive1.boldmss.com/NICK/NICK.isml/NICK.m3u8"
+        "https://barinaslive1.boldmss.com/NICK/NICK.isml/NICK.m3u8",
+        "https://zapster.trapemn.tv:1936/CD-LATAM/Nickelodeon/playlist.m3u8"
       ]
     },
     "languages": [
@@ -2034,7 +2069,7 @@
     "name": "Peppa Pig Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/IVNO4Z4d-OA"
+        "https://www.youtube-nocookie.com/embed/Pb7dW4LwWfg"
       ]
     },
     "languages": [
@@ -2970,7 +3005,7 @@
     "name": "Zig & Sharko",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/rfETWhOfstc"
+        "https://www.youtube-nocookie.com/embed/uQQWXxHUJUs"
       ]
     },
     "languages": [

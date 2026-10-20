@@ -1,5 +1,19 @@
 [
   {
+    "nanoid": "zLbErKeLWlYtjV",
+    "name": "Agro TV",
+    "sources": {
+      "streams": [
+        "https://play.agenciastreaming.com:8081/agrotv/index.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "pe",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "YeKuxDQNxxKjD2",
     "name": "Altura TV",
     "sources": {
@@ -47,20 +61,6 @@
     "sources": {
       "streams": [
         "https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "pe",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "4DBElJ7eVRBwAz",
-    "name": "Arpegio TV",
-    "sources": {
-      "streams": [
-        "https://vdo.oyotunserver.com/arpegio/video.m3u8"
       ]
     },
     "languages": [
@@ -356,20 +356,6 @@
     "sources": {
       "streams": [
         "https://cloudvideo.servers10.com:8081/impactotv/index.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "pe",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "8VadQ9bvVXyzrj",
-    "name": "Intuitiva TV",
-    "sources": {
-      "streams": [
-        "https://video2.lhdserver.es/cableperu/live.m3u8"
       ]
     },
     "languages": [
@@ -872,22 +858,8 @@
     "name": "RSelvaTV",
     "sources": {
       "streams": [
-        "https://live-evg11.tv360.bitel.com.pe/bitel/selvaticaSRT/playlist.m3u8",
-        "https://live.obslivestream.com/selvatv/index.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "pe",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "3qgnWAKQV0prTA",
-    "name": "Senal Peru TV",
-    "sources": {
-      "streams": [
-        "https://livestream.perucast.com/hls/stream.m3u8"
+        "https://live.obslivestream.com/selvatv/index.m3u8",
+        "https://live-evg11.tv360.bitel.com.pe/bitel/selvaticaSRT/playlist.m3u8"
       ]
     },
     "languages": [
@@ -987,6 +959,20 @@
     "sources": {
       "streams": [
         "https://live-evg11.tv360.bitel.com.pe/bitel/tvtarapotoSRT/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "pe",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "K0qZuL6YkWBA5O",
+    "name": "Tevesur",
+    "sources": {
+      "streams": [
+        "https://live-evg11.tv360.bitel.com.pe/bitel/tevesurSRT/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1310,7 +1296,7 @@
     "name": "Willax Televisión",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/9CBlUAHaUlY"
+        "https://www.youtube-nocookie.com/embed/8tZXCzOCx1Y"
       ]
     },
     "languages": [

@@ -1,20 +1,5 @@
 [
   {
-    "nanoid": "o7f2wdALXEzHZs",
-    "name": "Ajman TV",
-    "sources": {
-      "streams": [
-        "https://cdn1.logichost.in/ajmantv/live/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "ara",
-      "eng"
-    ],
-    "country": "ae",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "2TkyVV55zzBzz3",
     "name": "Al Arabiya Business",
     "sources": {
@@ -170,20 +155,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/f6VpkfV7m4Y"
-      ]
-    },
-    "languages": [
-      "ara"
-    ],
-    "country": "ae",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "TjCGvjeo3v58MN",
-    "name": "Bee Movies: بث مباشر افلام عربي",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Va6QU9n3q18"
       ]
     },
     "languages": [

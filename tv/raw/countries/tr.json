@@ -54,7 +54,7 @@
         "https://cdn4.yayin.com.tr/rehbertv/tracks-v1a1/playlist.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/o2i1o4cFRzA"
+        "https://www.youtube-nocookie.com/embed/Rk8JyxJWi9o"
       ]
     },
     "languages": [
@@ -258,7 +258,7 @@
         "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/959bjt_iryU"
+        "https://www.youtube-nocookie.com/embed/tUjC5Z1X96Q"
       ]
     },
     "languages": [
@@ -657,20 +657,6 @@
     "sources": {
       "streams": [
         "https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "WhJMVtLO9qlGWk",
-    "name": "Dost TV",
-    "sources": {
-      "streams": [
-        "https://dost.stream.emsal.im/tv/live.m3u8"
       ]
     },
     "languages": [
@@ -1992,20 +1978,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "5GoagSnDbPwxmH",
-    "name": "Tele 1",
-    "sources": {
-      "streams": [
-        "https://tele1-live.ercdn.net/tele1/tele1.m3u8"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "rqkOBR323x5UjG",
     "name": "Tempo TV",
     "sources": {
@@ -2056,6 +2028,9 @@
     "sources": {
       "streams": [
         "https://tjktv-live.tjk.org/tjktv.m3u8"
+      ],
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/RpkRsuCFh6M"
       ]
     },
     "languages": [

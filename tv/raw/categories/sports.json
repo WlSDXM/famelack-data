@@ -522,6 +522,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "HQCC1x7HYw1qFT",
+    "name": "ESPN 3 Latin America Argentina",
+    "sources": {
+      "streams": [
+        "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn3-mux/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "W28Jd3TqNwX9HO",
     "name": "ESPN 3 Latin America South",
     "sources": {
@@ -591,6 +605,20 @@
       "spa"
     ],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AxN2fJUCTjZSHD",
+    "name": "ESPN Latin America Argentina",
+    "sources": {
+      "streams": [
+        "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn-mux/chunks.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ar",
     "isGeoBlocked": false
   },
   {
@@ -867,6 +895,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "igtooqWRJnKwBu",
+    "name": "Fox Sports 2",
+    "sources": {
+      "streams": [
+        "https://zapster.trapemn.tv:1936/CD-LATAM/FoxSports2/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "t5msHgNGG9QAPb",
     "name": "Fox Sports News",
     "sources": {
@@ -894,20 +936,6 @@
       "eng"
     ],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "4r0QKfGoGD09Z7",
-    "name": "FTV",
-    "sources": {
-      "streams": [
-        "https://master.tucableip.com/ftvhd/index.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "bo",
     "isGeoBlocked": false
   },
   {
@@ -1415,7 +1443,6 @@
     "name": "Pac-12 Insider",
     "sources": {
       "streams": [
-        "https://pac12-roku-us.amagi.tv/playlist.m3u8",
         "https://pac12-samsungus.amagi.tv/playlist.m3u8"
       ]
     },
@@ -1784,6 +1811,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "AOUELy3o1aVqxI",
+    "name": "Sport Extra",
+    "sources": {
+      "streams": [
+        "https://tvextra-hls.b-cdn.net/sportextra/sportextra.m3u8"
+      ]
+    },
+    "languages": [
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "X52MQmppYpmBGG",
     "name": "Sport TV",
     "sources": {
@@ -1902,17 +1943,17 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "5INojqhvrRt5r6",
-    "name": "Star Sports Select 2",
+    "nanoid": "FKwCdU6RG0k0cZ",
+    "name": "SuperTennis",
     "sources": {
       "streams": [
-        "https://tvsen7.aynascope.net/ssport2hd/index.m3u8"
+        "https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8"
       ]
     },
     "languages": [
-      "eng"
+      "ita"
     ],
-    "country": "in",
+    "country": "it",
     "isGeoBlocked": false
   },
   {
@@ -2037,6 +2078,9 @@
     "sources": {
       "streams": [
         "https://tjktv-live.tjk.org/tjktv.m3u8"
+      ],
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/RpkRsuCFh6M"
       ]
     },
     "languages": [
@@ -2116,20 +2160,6 @@
       "spa"
     ],
     "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "46bhWZVm1EdjmB",
-    "name": "TV Cartago Digital",
-    "sources": {
-      "streams": [
-        "https://video2.getstreamhosting.com:19360/8110/8110.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "cr",
     "isGeoBlocked": false
   },
   {
@@ -2293,7 +2323,7 @@
     "name": "WCW",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Q2w1ZPHIpA0"
+        "https://www.youtube-nocookie.com/embed/CeFqPyTkErM"
       ]
     },
     "languages": [
@@ -2423,7 +2453,7 @@
     "name": "WWE Vault",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/y19MKDFQvto"
+        "https://www.youtube-nocookie.com/embed/pzEy6Bn-boI"
       ]
     },
     "languages": [

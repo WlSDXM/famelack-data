@@ -360,20 +360,6 @@
     "isGeoBlocked": true
   },
   {
-    "nanoid": "AQGmKDckGE5Qe6",
-    "name": "MBC Loud",
-    "sources": {
-      "streams": [
-        "https://radio-loud-fm.mbc.net/radio-loud-fm_1.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "sa",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "3tweZkdXXLPOu1",
     "name": "Panorama FM",
     "sources": {

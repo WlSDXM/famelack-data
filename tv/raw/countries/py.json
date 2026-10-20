@@ -70,6 +70,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "iyKm6r3aZi9gVV",
+    "name": "CAD TV",
+    "sources": {
+      "streams": [
+        "https://videoserver.tmcreativos.com:19360/dcsajkpvrh/dcsajkpvrh.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "py",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "p69caBRji1PKLv",
     "name": "Canal 8 C&C Producciones",
     "sources": {

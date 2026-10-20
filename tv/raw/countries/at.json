@@ -354,20 +354,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "LmXiHP1vY6XyzS",
-    "name": "RTV",
-    "sources": {
-      "streams": [
-        "https://streamtest.rtv-ooe.at/stream.m3u8"
-      ]
-    },
-    "languages": [
-      "deu"
-    ],
-    "country": "at",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "xO850u0sWlzEEk",
     "name": "Salzburg AG",
     "sources": {

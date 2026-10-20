@@ -42,25 +42,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "hDKihfnR1gIzAi",
-    "name": "MyZen TV",
-    "sources": {
-      "streams": [
-        "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "bul",
-      "eng",
-      "fra",
-      "rus",
-      "spa",
-      "tur"
-    ],
-    "country": "fr",
-    "isGeoBlocked": true
-  },
-  {
     "nanoid": "1xUrLLfAVjsUaN",
     "name": "Screen Dreams",
     "sources": {

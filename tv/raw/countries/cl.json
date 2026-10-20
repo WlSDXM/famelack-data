@@ -168,6 +168,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "JzJqSKhZTC60f6",
+    "name": "AM Canal",
+    "sources": {
+      "streams": [
+        "https://streaming.bitsur.cl:3534/live/vdo1102live.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Md7ez9PVBYFZg7",
     "name": "Antofagasta TV",
     "sources": {
@@ -202,20 +216,6 @@
       "streams": [
         "https://v2.tustreaming.cl/atacamatv/index.m3u8",
         "https://v2.tustreaming.cl/atacamatv/tracks-v1a1/mono.ts.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "hIEfh4SbrXgLQR",
-    "name": "Autonoma TV",
-    "sources": {
-      "streams": [
-        "https://wifispeed.trapemn.tv:1936/comunales/autonoma-tv/playlist.m3u8"
       ]
     },
     "languages": [
@@ -497,7 +497,7 @@
     "name": "ChileVision",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/1eRMuU09jxY"
+        "https://www.youtube-nocookie.com/embed/Ghg8q9A4W1E"
       ]
     },
     "languages": [
@@ -553,7 +553,7 @@
     "name": "CHV Noticias",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/jcO7YzDIHnA"
+        "https://www.youtube-nocookie.com/embed/ZTeMbuMQRg0"
       ]
     },
     "languages": [
@@ -1255,7 +1255,7 @@
     "name": "Meganoticias",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/IItc3SKg6ZE"
+        "https://www.youtube-nocookie.com/embed/gPTl4wC5pqw"
       ]
     },
     "languages": [],
@@ -1495,7 +1495,7 @@
         "https://pnt.janusmedia.tv/hls/pnt.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/vXwz6vkjAgU"
+        "https://www.youtube-nocookie.com/embed/eXFw1I89Tjo"
       ]
     },
     "languages": [
@@ -1903,8 +1903,8 @@
     "name": "Ritoque TV",
     "sources": {
       "streams": [
-        "https://streaming.purum.cl/ritoquetv/index.m3u8",
-        "https://v2.tustreaming.cl/unetev/index.m3u8"
+        "https://v2.tustreaming.cl/unetev/index.m3u8",
+        "https://streaming.purum.cl/ritoquetv/index.m3u8"
       ]
     },
     "languages": [
@@ -2113,6 +2113,20 @@
     "sources": {
       "streams": [
         "https://redirector.dps.live/hls/t13/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ZrIQfe0uixu836",
+    "name": "TCM Latin America Chile",
+    "sources": {
+      "streams": [
+        "https://streaming.onnethn.com/TCM_HD/playlist.m3u8"
       ]
     },
     "languages": [

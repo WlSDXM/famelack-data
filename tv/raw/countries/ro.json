@@ -184,20 +184,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "wq27mSSdEnCXS6",
-    "name": "B1",
-    "sources": {
-      "streams": [
-        "https://hls02ns.antenaplay.ro/hls/b1-tv-hd/index.m3u8"
-      ]
-    },
-    "languages": [
-      "ron"
-    ],
-    "country": "ro",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "nqC1XmTU0qJuuy",
     "name": "Bollywood Film",
     "sources": {
@@ -301,20 +287,6 @@
     "sources": {
       "streams": [
         "https://astra.emitv.ro/hls/emi/index.m3u8"
-      ]
-    },
-    "languages": [
-      "ron"
-    ],
-    "country": "ro",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "qFwIIjAFYuKLPE",
-    "name": "Etno TV",
-    "sources": {
-      "streams": [
-        "https://hls02ns.antenaplay.ro/hls/etno-tv-sd/index.m3u8"
       ]
     },
     "languages": [
@@ -819,20 +791,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Z71jjGo1p2SVWS",
-    "name": "Prima News",
-    "sources": {
-      "streams": [
-        "https://hls02ns.antenaplay.ro/hls/prima-news-hd/index.m3u8"
-      ]
-    },
-    "languages": [
-      "ron"
-    ],
-    "country": "ro",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "R7k8oMS31tDfb7",
     "name": "PROFI 24 TV",
     "sources": {
@@ -988,11 +946,40 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "trH7SqpEADmNbG",
+    "name": "Smart Radio",
+    "sources": {
+      "streams": [
+        "https://streamw.m.ro/Regie/radio.stream/chunklist.m3u8"
+      ]
+    },
+    "languages": [
+      "eng",
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "4apagZXEOsADeK",
     "name": "SperantaTV",
     "sources": {
       "streams": [
         "https://jstre.am/live/jsl:2gNjpghXRLE.m3u8"
+      ]
+    },
+    "languages": [
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AOUELy3o1aVqxI",
+    "name": "Sport Extra",
+    "sources": {
+      "streams": [
+        "https://tvextra-hls.b-cdn.net/sportextra/sportextra.m3u8"
       ]
     },
     "languages": [
@@ -1063,6 +1050,20 @@
     "sources": {
       "streams": [
         "https://dvb.tennet.ro/mobile_tv/telestar.m3u8"
+      ]
+    },
+    "languages": [
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "jEPGXGbsLAf0No",
+    "name": "Tequila Music TV",
+    "sources": {
+      "streams": [
+        "https://stream.tequilamusic.net/hls/tequila_tv.m3u8"
       ]
     },
     "languages": [

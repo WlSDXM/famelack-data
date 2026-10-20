@@ -340,6 +340,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "CrHxjo8TlGVNjG",
+    "name": "Despierta TV",
+    "sources": {
+      "streams": [
+        "https://video2.lhdserver.es/despiertatv/live.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "0v8d7EFpyejD8F",
     "name": "Eclipse TV",
     "sources": {
@@ -512,7 +526,7 @@
     "name": "Imagen TV+",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/JMWiICIvE4c"
+        "https://www.youtube-nocookie.com/embed/wMf56DvDE0w"
       ]
     },
     "languages": [],
@@ -960,7 +974,7 @@
     "name": "Televisa Del Bajio",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/PspK_QLPINA"
+        "https://www.youtube-nocookie.com/embed/Q7qM4DLG724"
       ]
     },
     "languages": [
@@ -1030,7 +1044,7 @@
     "name": "Televisa Monterrey",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/gDFjIH7Rf70"
+        "https://www.youtube-nocookie.com/embed/G7ZgDCopsCI"
       ]
     },
     "languages": [
@@ -1044,7 +1058,7 @@
     "name": "Televisa Piedras Negras",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/wAYBs1UKW-U"
+        "https://www.youtube-nocookie.com/embed/BZWPR8bL-4A"
       ]
     },
     "languages": [
@@ -1142,7 +1156,7 @@
     "name": "Televisa Veracruz",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/y-Dc--Q4Csc"
+        "https://www.youtube-nocookie.com/embed/ELPcOyYWlVU"
       ]
     },
     "languages": [
@@ -1206,20 +1220,6 @@
     ],
     "country": "mx",
     "isGeoBlocked": false
-  },
-  {
-    "nanoid": "6duVJSjDym0PKb",
-    "name": "Transmedia Television Morelia",
-    "sources": {
-      "streams": [
-        "https://5ca3e84a76d30.streamlock.net/tmtv/videotmtv/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": true
   },
   {
     "nanoid": "LIcwsfed7X4ZRx",

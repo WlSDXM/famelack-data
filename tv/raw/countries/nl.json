@@ -1469,20 +1469,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "T6K1OzxVu2js0L",
-    "name": "ZFM Zoetermeer TV",
-    "sources": {
-      "streams": [
-        "https://zfmzoetermeer.nl/live/master.m3u8"
-      ]
-    },
-    "languages": [
-      "nld"
-    ],
-    "country": "nl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "misQ9uBxRPB1ww",
     "name": "ZO!34",
     "sources": {

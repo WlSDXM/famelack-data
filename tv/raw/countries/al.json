@@ -18,7 +18,7 @@
     "name": "Euronews Albania",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/nhg1P4lqEeU"
+        "https://www.youtube-nocookie.com/embed/iUtANFIQHSs"
       ]
     },
     "languages": [
@@ -89,20 +89,6 @@
     "sources": {
       "streams": [
         "https://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "sqi"
-    ],
-    "country": "al",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "QjtZoPFnS11dwq",
-    "name": "TV Johaniter",
-    "sources": {
-      "streams": [
-        "https://protokolldns.xyz/johaniterweb44547dsd/index.m3u8"
       ]
     },
     "languages": [

@@ -344,7 +344,7 @@
     "name": "Gazwah TV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/6wuB0kCpWW0"
+        "https://www.youtube-nocookie.com/embed/zBda_2zlmmk"
       ]
     },
     "languages": [
@@ -387,6 +387,20 @@
     "sources": {
       "streams": [
         "https://tvstreamcast.com/indonesiana.m3u8"
+      ]
+    },
+    "languages": [
+      "ind"
+    ],
+    "country": "id",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AwWVoTg8nnvs2w",
+    "name": "Jambi TV",
+    "sources": {
+      "streams": [
+        "https://jambitv.globaldigitalcore.com/hls/sah5tu7Eiveepohyieyie3OoteL2anga.m3u8"
       ]
     },
     "languages": [
@@ -513,7 +527,7 @@
     "name": "Media Sunnah Aceh TV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/o602MxuwDk8"
+        "https://www.youtube-nocookie.com/embed/3Q4z6cmKgSo"
       ]
     },
     "languages": [
@@ -526,6 +540,9 @@
     "nanoid": "NTyXj8xoKlplvb",
     "name": "Metro TV",
     "sources": {
+      "streams": [
+        "https://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8"
+      ],
       "youtube": [
         "https://www.youtube-nocookie.com/embed/oUYnZv_G82Q"
       ]
@@ -1458,34 +1475,6 @@
     "sources": {
       "streams": [
         "https://ott-balancer.tvri.go.id/live/eds/Jogjakarta/hls/Jogjakarta.m3u8"
-      ]
-    },
-    "languages": [
-      "ind"
-    ],
-    "country": "id",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "g5xZd9yme6tjFT",
-    "name": "U Channel",
-    "sources": {
-      "streams": [
-        "https://srs.u-channel.tv/live/uchannel-tv.m3u8"
-      ]
-    },
-    "languages": [
-      "ind"
-    ],
-    "country": "id",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "PEvAzPEqyCSHPP",
-    "name": "UFA Live 24",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/NjGIXHrMfWs"
       ]
     },
     "languages": [

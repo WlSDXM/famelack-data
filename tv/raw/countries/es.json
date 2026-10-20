@@ -87,6 +87,90 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "WIJGRCAI2VVlhv",
+    "name": "7TV Andalucia",
+    "sources": {
+      "streams": [
+        "https://especial7tv.gestec-video.com/hls/regional.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "JKKC8Wh4l5z0L3",
+    "name": "7TV Cordoba",
+    "sources": {
+      "streams": [
+        "https://streaming004.gestec-video.com/hls/7TVCORDOBA.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "kdcr3o0yQs5skH",
+    "name": "7TV Jaen",
+    "sources": {
+      "streams": [
+        "https://streaming004.gestec-video.com/hls/7TVJAEN.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "OiHd0SnILeG5dg",
+    "name": "7TV Jerez",
+    "sources": {
+      "streams": [
+        "https://streaming004.gestec-video.com/hls/7TVJEREZ.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AkK6ookuKfaomo",
+    "name": "7TV Malaga",
+    "sources": {
+      "streams": [
+        "https://streaming004.gestec-video.com/hls/7TVMALAGA.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "NPTVBXvsr3mmLB",
+    "name": "7TV Sevilla",
+    "sources": {
+      "streams": [
+        "https://especial7tv.gestec-video.com/hls/7TVSEVILLA.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "0ql8ScPnCzsSJo",
     "name": "28 kanala",
     "sources": {
@@ -236,6 +320,20 @@
     },
     "languages": [
       "cat"
+    ],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "nZxdZLBQ6KuYOb",
+    "name": "Cadena Elite",
+    "sources": {
+      "streams": [
+        "https://cloudvideo.servers10.com:8081/8004/index.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
     ],
     "country": "es",
     "isGeoBlocked": false
@@ -486,8 +584,7 @@
     "name": "Cine Friki",
     "sources": {
       "streams": [
-        "https://d2mr4fu91mjx9m.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rb0tx75ojbc5u/CineFriki_ES.m3u8",
-        "https://zylo-cinefriki-rakuten.amagi.tv/playlist.m3u8"
+        "https://d2mr4fu91mjx9m.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rb0tx75ojbc5u/CineFriki_ES.m3u8"
       ]
     },
     "languages": [
@@ -947,20 +1044,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "d6sampxmKXCisS",
-    "name": "Interalmeria TV",
-    "sources": {
-      "streams": [
-        "https://interalmeria.tv/directo/live.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "0PUyDm92WwiPWX",
     "name": "La 8 Mediterraneo",
     "sources": {
@@ -1003,14 +1086,30 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "yZT8JeLEndYnMC",
-    "name": "Los Gipsy Kings",
+    "nanoid": "5pxYqZCZE4DObg",
+    "name": "Logos TV",
     "sources": {
       "streams": [
-        "https://gipsy-kings-rakuten-tv-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6752/master.m3u8"
+        "https://streamer1.streamhost.org/salive/logosH/master.m3u8"
       ]
     },
-    "languages": [],
+    "languages": [
+      "spa"
+    ],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "aWUdvngHDj9fCb",
+    "name": "Logos TV Kids",
+    "sources": {
+      "streams": [
+        "https://streamer1.streamhost.org/salive/logoskidsH/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
     "country": "es",
     "isGeoBlocked": false
   },
@@ -1381,6 +1480,56 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "6xG0BDh6352B56",
+    "name": "Rakuten TV Comedy Movies Spain",
+    "sources": {
+      "streams": [
+        "https://71db867f03ce4d71a29e92155f07ab87.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6180/master.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "azCmZT5s8W62Ny",
+    "name": "Rakuten TV Romance Movies Spain",
+    "sources": {
+      "streams": [
+        "https://4b95c0f7aa2b4cae80f6515600154151.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6105/master.m3u8"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "6Fk85FNF4cdSWr",
+    "name": "Rakuten TV Sci-Fi Spain",
+    "sources": {
+      "streams": [
+        "https://sci-fi-rakuten-tv-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6740/master.m3u8"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "yoWnDlFSJLbaIM",
+    "name": "Rakuten TV Thrillers Spain",
+    "sources": {
+      "streams": [
+        "https://thriller-rakuten-tv-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6480/master.m3u8"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "0LyDCyOi0Q8ryz",
     "name": "Real Madrid TV",
     "sources": {
@@ -1522,6 +1671,20 @@
     ],
     "country": "es",
     "isGeoBlocked": true
+  },
+  {
+    "nanoid": "Gwo0Rl1MzhMfE6",
+    "name": "Taroteame",
+    "sources": {
+      "streams": [
+        "https://5d2733224ac48.streamlock.net/taroteame/tarot_web/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "es",
+    "isGeoBlocked": false
   },
   {
     "nanoid": "npuSZcJKB3d3IY",
@@ -1834,20 +1997,6 @@
     "sources": {
       "streams": [
         "https://cloud.tvomix.com/TVOJESUS/index.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "gyVcJ1bLnu4kuk",
-    "name": "TVOMIX",
-    "sources": {
-      "streams": [
-        "https://cloud.tvomix.com/TVOMIX/index.m3u8"
       ]
     },
     "languages": [
