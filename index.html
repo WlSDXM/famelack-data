@@ -244,6 +244,108 @@
             background: var(--bg-color);
         }
 
+                /* ===== Radio custom controls ===== */
+        .radio-controls {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-top: 4px;
+        }
+        .radio-play {
+            width: 36px;
+            height: 36px;
+            flex: none;
+            border-radius: 50%;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            border: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            cursor: pointer;
+            transition: color 0.15s, border-color 0.15s, background-color 0.3s;
+        }
+        .radio-play:hover:not(:disabled) { border-color: var(--accent-color); color: var(--accent-color); }
+        .radio-play:disabled { opacity: 0.35; cursor: default; }
+        .radio-play svg { width: 14px; height: 14px; fill: currentColor; }
+        .radio-play .ic-pause { display: none; }
+        .radio-play.is-playing .ic-pause { display: block; }
+        .radio-play.is-playing .ic-play { display: none; }
+        .radio-status {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 13px;
+            letter-spacing: 0.1em;
+            color: var(--text-muted);
+            font-family: 'stealth57', monospace;
+        }
+        .radio-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--text-muted); }
+        .radio-status.live .radio-dot { background: #ff4d4d; box-shadow: 0 0 6px rgba(255, 77, 77, 0.7); }
+        .radio-vol { margin-left: auto; display: flex; align-items: center; gap: 6px; }
+        .radio-mute {
+            background: none;
+            border: 0;
+            padding: 6px;
+            color: var(--text-muted);
+            cursor: pointer;
+            display: flex;
+        }
+        .radio-mute:hover { color: var(--accent-color); }
+        .radio-mute svg { width: 18px; height: 18px; fill: currentColor; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+        .radio-mute .waves, .radio-mute .x { fill: none; }
+        .radio-mute .x { display: none; }
+        .radio-mute.is-muted .waves { display: none; }
+        .radio-mute.is-muted .x { display: inline; }
+        input.radio-slider {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 110px;
+            height: 18px;
+            background: transparent;
+            cursor: pointer;
+            margin: 0;
+            --val: 100%;
+        }
+        input.radio-slider::-webkit-slider-runnable-track {
+            height: 3px;
+            border-radius: 2px;
+            background: linear-gradient(to right, var(--accent-color) var(--val), var(--border-color) var(--val));
+        }
+        input.radio-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 11px;
+            height: 11px;
+            border-radius: 50%;
+            background: var(--text-color);
+            border: 0;
+            margin-top: -4px;
+        }
+        input.radio-slider::-moz-range-track {
+            height: 3px;
+            border-radius: 2px;
+            background: linear-gradient(to right, var(--accent-color) var(--val), var(--border-color) var(--val));
+        }
+        input.radio-slider::-moz-range-thumb { width: 11px; height: 11px; border-radius: 50%; background: var(--text-color); border: 0; }
+        .radio-play:focus-visible, .radio-mute:focus-visible, input.radio-slider:focus-visible { outline: 2px solid var(--accent-color); outline-offset: 2px; }
+        .radio-np {
+            margin-top: 10px;
+            font-size: 13px;
+            color: var(--text-muted);
+            font-family: 'stealth57', monospace;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .radio-np .note { color: var(--accent-color); margin-right: 6px; }
+        .radio-np .np-artist { color: var(--text-color); }
+        @media (max-width: 700px) {
+            .radio-play { width: 44px; height: 44px; }
+            input.radio-slider { width: 90px; }
+        }
+        
+
         .viz-controls {
             display: flex;
             gap: 10px;
@@ -792,8 +894,24 @@
                     </select>
                 </div>
 
-                <audio id="radioPlayer" controls crossorigin="anonymous"></audio>
+                <audio id="radioPlayer" crossorigin="anonymous"></audio>
 
+                <div class="radio-controls">
+                    <button id="radioPlayBtn" class="radio-play" aria-label="Play" disabled>
+                        <svg class="ic-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                        <svg class="ic-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg>
+                    </button>
+                    <div class="radio-status" id="radioStatus"><span class="radio-dot"></span><span id="radioStatusText">OFF AIR</span></div>
+                    <div class="radio-vol" id="radioVolWrap">
+                        <button id="radioMuteBtn" class="radio-mute" aria-label="Mute">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9z"/><path class="waves" d="M16.5 9a4 4 0 010 6M19 6.5a8 8 0 010 11"/><path class="x" d="M16 9l5 6M21 9l-5 6"/></svg>
+                        </button>
+                        <input type="range" id="radioVolume" class="radio-slider" min="0" max="100" value="100" aria-label="Volume">
+                    </div>
+                </div>
+                <div class="radio-np" id="radioNowPlaying" hidden></div>
+
+                
                 <div class="viz-controls">
                     <label for="vizStyle">Visualizer:</label>
                     <select id="vizStyle">
@@ -1276,6 +1394,138 @@
         audio.play().catch(err => console.log('Playback failed:', err));
         updateRadioStarState();
     });
+
+     // ============ RADIO CONTROLS (custom player UI) ============
+    // Optional: URL of your Vercel /api/nowplaying function.
+    const NOWPLAYING_API = '';
+
+    const radioPlayBtn = document.getElementById('radioPlayBtn');
+    const radioStatus = document.getElementById('radioStatus');
+    const radioStatusText = document.getElementById('radioStatusText');
+    const radioVolWrap = document.getElementById('radioVolWrap');
+    const radioMuteBtn = document.getElementById('radioMuteBtn');
+    const radioVolume = document.getElementById('radioVolume');
+    const radioNowPlaying = document.getElementById('radioNowPlaying');
+
+    function toggleRadio() {
+        if (!audio.getAttribute('src')) return;
+        if (audio.paused) {
+            audio.load(); 
+            audio.play().catch(err => console.log('Playback failed:', err));
+        } else {
+            audio.pause();
+        }
+    }
+
+    // --- now playing (track / artist) ---
+    let npTimer = null;
+    let npToken = 0;
+
+    function clearNowPlaying() {
+        npToken++;
+        clearInterval(npTimer);
+        npTimer = null;
+        radioNowPlaying.hidden = true;
+        radioNowPlaying.textContent = '';
+    }
+
+    function showNowPlaying(artist, title) {
+        radioNowPlaying.textContent = '';
+        const note = document.createElement('span');
+        note.className = 'note';
+        note.textContent = '\u266A';
+        radioNowPlaying.append(note);
+        if (artist) {
+            const a = document.createElement('span');
+            a.className = 'np-artist';
+            a.textContent = artist;
+            radioNowPlaying.append(a, ' \u2014 ');
+        }
+        radioNowPlaying.append(title); 
+        radioNowPlaying.title = (artist ? artist + ' \u2014 ' : '') + title;
+        radioNowPlaying.hidden = false;
+    }
+
+    async function pollNowPlaying() {
+        const src = audio.getAttribute('src');
+        if (!src) return;
+        const token = npToken;
+        try {
+            const res = await fetch(NOWPLAYING_API + '?url=' + encodeURIComponent(src));
+            const d = await res.json();
+            if (token !== npToken) return; // station changed meanwhile
+            if (d.available && d.title) showNowPlaying(d.artist, d.title);
+            else radioNowPlaying.hidden = true;
+        } catch {
+            if (token === npToken) radioNowPlaying.hidden = true;
+        }
+    }
+
+    function startNowPlaying() {
+        if (!NOWPLAYING_API || npTimer) return;
+        pollNowPlaying();
+        npTimer = setInterval(pollNowPlaying, 25000);
+    }
+
+    // --- play button + status ---
+    function syncRadioUI() {
+        const hasSrc = !!audio.getAttribute('src');
+        let state = 'OFF AIR';
+        if (hasSrc) {
+            if (audio.error) state = 'ERROR';
+            else if (audio.paused) state = 'PAUSED';
+            else if (audio.readyState < 3) state = 'CONNECTING';
+            else state = 'LIVE';
+        }
+        radioStatusText.textContent = state;
+        radioStatus.classList.toggle('live', state === 'LIVE');
+        radioPlayBtn.disabled = !hasSrc;
+        const showPause = hasSrc && !audio.paused;
+        radioPlayBtn.classList.toggle('is-playing', showPause);
+        radioPlayBtn.setAttribute('aria-label', showPause ? 'Pause' : 'Play');
+        if (state === 'LIVE') startNowPlaying();
+        else if (state !== 'CONNECTING') clearNowPlaying();
+    }
+
+    // --- volume + mute ---
+    function syncVolumeUI() {
+        const silent = audio.muted || audio.volume === 0;
+        radioVolume.value = silent ? 0 : Math.round(audio.volume * 100);
+        radioVolume.style.setProperty('--val', radioVolume.value + '%');
+        radioMuteBtn.classList.toggle('is-muted', silent);
+        radioMuteBtn.setAttribute('aria-label', silent ? 'Unmute' : 'Mute');
+    }
+
+    // iOS ignores audio.volume
+    (function () {
+        const prev = audio.volume;
+        audio.volume = 0.5;
+        if (Math.abs(audio.volume - 0.5) > 0.01) radioVolWrap.style.display = 'none';
+        audio.volume = prev;
+    })();
+
+    radioVolume.addEventListener('input', () => {
+        const v = radioVolume.value / 100;
+        audio.volume = v;
+        audio.muted = v === 0;
+    });
+    radioMuteBtn.addEventListener('click', () => {
+        if (audio.muted || audio.volume === 0) {
+            audio.muted = false;
+            if (audio.volume === 0) audio.volume = 0.5;
+        } else {
+            audio.muted = true;
+        }
+    });
+
+    radioPlayBtn.addEventListener('click', toggleRadio);
+    ['play', 'playing', 'pause', 'waiting', 'canplay', 'error', 'emptied', 'ended']
+        .forEach(ev => audio.addEventListener(ev, syncRadioUI));
+    audio.addEventListener('loadstart', () => { clearNowPlaying(); syncRadioUI(); });
+    audio.addEventListener('volumechange', syncVolumeUI);
+    syncRadioUI();
+    syncVolumeUI();
+    
 
     // ============ VISUALIZER ============
     const canvas = document.getElementById('visualizer');
@@ -3199,14 +3449,7 @@
                 break;
 
             case ' ':
-                if (!audio.src) return;
-                e.preventDefault();
-                if (audio.paused) {
-                    audio.play().catch(err => console.log('Playback failed:', err));
-                } else {
-                    audio.pause();
-                }
-                break;
+                toggleRadio();
 
             case 'f':
             case 'F':
@@ -3729,7 +3972,7 @@ window.saveTVFavorites(existingTV);
             video.style.display = 'block';
             setMsg('Loading…');
             if (video.canPlayType('application/vnd.apple.mpegurl')) {
-                video.src = stream; // Safari / iOS native HLS
+                video.src = stream; 
             } else if (window.Hls && Hls.isSupported()) {
                 hls = new Hls();
                 hls.loadSource(stream);
@@ -3835,7 +4078,7 @@ window.saveTVFavorites(existingTV);
         let x = parseInt(panel.style.left, 10) || 0;
         let y = parseInt(panel.style.top, 10) || 0;
         x = Math.max(0, Math.min(x, window.innerWidth - pw));
-        y = Math.max(0, Math.min(y, window.innerHeight - 44)); // title bar always reachable
+        y = Math.max(0, Math.min(y, window.innerHeight - 44)); 
         panel.style.left = x + 'px';
         panel.style.top = y + 'px';
     }
@@ -3845,7 +4088,7 @@ window.saveTVFavorites(existingTV);
         panel.setAttribute('aria-hidden', 'false');
         toggle.classList.add('active');
         toggle.title = 'Close TV';
-        audio.pause(); // pause the radio when TV opens
+        audio.pause(); 
         clampPosition();
         saveUI();
     }
@@ -3954,30 +4197,30 @@ window.saveTVFavorites(existingTV);
     // A search matches when EVERY word appears in the name, in any order ("fm kiss" finds "KISS 108 FM").
     const words = (s) => norm(s).split(/\s+/).filter(Boolean);
     const matchOpt = (o, ws) => {
-        const t = o._n || (o._n = norm(o.textContent)); // normalized text is cached
+        const t = o._n || (o._n = norm(o.textContent)); 
         for (let i = 0; i < ws.length; i++) if (!t.includes(ws[i])) return false;
         return true;
     };
     const valueDesc = Object.getOwnPropertyDescriptor(HTMLSelectElement.prototype, 'value');
     const widgets = [];
 
-    const CHUNK = 120; // rows drawn at a time (long lists load more as you scroll)
-    const DEEP = 400;  // don't scan this many rows just to reveal the selected item
+    const CHUNK = 120; 
+    const DEEP = 400;  
 
     function makeSearchable(select, opts = {}) {
         if (!select) return;
 
         let isOpen = false;
-        let flat = null;     // the list's options in order (built when needed, reset when the page rebuilds the list)
-        let q = [];          // current search, as a list of normalized words
-        let scanPos = 0;     // how far into `flat` the search has looked so far
-        let lastHdr = null;  // last optgroup header emitted
-        let rows = [];       // matching rows found so far (found lazily, a screenful at a time)
-        let els = [];        // DOM elements drawn so far (index matches rows)
-        let act = -1;        // highlighted row
+        let flat = null;     
+        let q = [];          
+        let scanPos = 0;     
+        let lastHdr = null;  
+        let rows = [];       
+        let els = [];        
+        let act = -1;        
         let curVal = '';
         let warmTimer = 0;
-        let all = [];    // unfiltered copy of the list (touch search only)
+        let all = [];    
         let filtered = false;
         let touchTimer = 0;
 
@@ -4036,7 +4279,7 @@ window.saveTVFavorites(existingTV);
             label.classList.toggle('ss-ph', !hasValue);
         }
 
-        // Your code sets select.value directly; keep the label in sync when it does.
+        // code sets select.value directly; keep the label in sync when it does.
         Object.defineProperty(select, 'value', {
             configurable: true,
             get() { return valueDesc.get.call(this); },
@@ -4061,8 +4304,8 @@ window.saveTVFavorites(existingTV);
             const f = getFlat();
             while (rows.length < n && scanPos < f.length) {
                 const o = f[scanPos++];
-                if (o.value === '') continue;                           // the "-- Select … --" placeholder
-                if (o.disabled) {                                       // your favorites separator line
+                if (o.value === '') continue;                           
+                if (o.disabled) {                                       
                     if (!q.length && o.classList.contains('favorites-separator')) rows.push({ t: 's' });
                     continue;
                 }
@@ -4162,8 +4405,7 @@ window.saveTVFavorites(existingTV);
             setAct(reveal ? selRow : rows.findIndex((r) => r.t === 'i'), false);
         }
 
-        // For big lists, prepare the (accent-free, lowercase) search text in small background
-        // slices so the first search doesn't have to do it all at once.
+        // For big lists, prepare the (accent-free, lowercase) search text in small background        
         function warm() {
             clearTimeout(warmTimer);
             if (select.options.length < 2000) return;
@@ -4198,7 +4440,7 @@ window.saveTVFavorites(existingTV);
             if (select.disabled || isOpen) return;
             widgets.forEach((w) => { if (w.api !== api) w.api.close(false); });
             isOpen = true;
-            if (flat && (flat.length !== select.options.length || flat[0] !== select.options[0])) flat = null; // list changed behind our back
+            if (flat && (flat.length !== select.options.length || flat[0] !== select.options[0])) flat = null; 
             query.value = '';
             render();
             panel.classList.add('open');
@@ -4215,14 +4457,14 @@ window.saveTVFavorites(existingTV);
             panel.classList.remove('open');
             widget.classList.remove('open');
             btn.setAttribute('aria-expanded', 'false');
-            list.textContent = '';  // free the rows
+            list.textContent = '';  
             els = [];
             rows = [];
             if (returnFocus) btn.focus({ preventScroll: true });
         }
 
         function choose(v) {
-            const changed = v !== select.value; // same as a native select: picking the current item does nothing
+            const changed = v !== select.value; 
             close(true);
             if (changed) {
                 select.value = v;
@@ -4233,7 +4475,7 @@ window.saveTVFavorites(existingTV);
         btn.addEventListener('click', () => (isOpen ? close(true) : open()));
         btn.addEventListener('keydown', (e) => {
             if (e.key === 'Tab') return;
-            e.stopPropagation(); // keep your page shortcuts (←/→/Space/F) from firing while this has focus
+            e.stopPropagation(); 
             if (e.key === 'ArrowDown' || e.key === 'ArrowUp') { e.preventDefault(); open(); }
         });
 
@@ -4251,11 +4493,11 @@ window.saveTVFavorites(existingTV);
             if (it) choose(it.dataset.value);
         });
         list.addEventListener('mousemove', (e) => {
-            if (!e.movementX && !e.movementY) return; // ignore the fake mouse-move browsers fire while scrolling
+            if (!e.movementX && !e.movementY) return; 
             const it = e.target.closest('.ss-item');
             if (it && it._r !== act) setAct(it._r, false);
         });
-        list.addEventListener('scroll', () => {       // load the next chunk when you near the bottom
+        list.addEventListener('scroll', () => {       
             if ((els.length < rows.length || hasMore()) && list.scrollTop + list.clientHeight >= list.scrollHeight - 400) {
                 drawTo(els.length + CHUNK);
             }
@@ -4268,13 +4510,13 @@ window.saveTVFavorites(existingTV);
         window.addEventListener('resize', () => { if (isOpen) close(false); });
 
         // ---------- touch search (filters the native list) ----------
-        let internal = 0; // > 0 while this code itself is changing the list
+        let internal = 0; 
 
         function applyTouch() {
             clearTimeout(touchTimer);
             const q = words(touch.value);
-            if (!q.length && !filtered) return;                 // nothing to filter or restore
-            if (!filtered) all = Array.from(select.children);   // the list's own items (no copies → fast)
+            if (!q.length && !filtered) return;                 
+            if (!filtered) all = Array.from(select.children);   
             const prev = select.value;
             const keep = [];
             let hits = 0;
@@ -4284,7 +4526,7 @@ window.saveTVFavorites(existingTV);
                 if (node.tagName === 'OPTGROUP') {
                     const kids = Array.from(node.children).filter((k) => matchOpt(k, q));
                     if (kids.length) {
-                        const g = node.cloneNode(false);        // favorites: show a copy with just the matches
+                        const g = node.cloneNode(false);        
                         kids.forEach((k) => g.appendChild(k.cloneNode(true)));
                         keep.push(g);
                         hits += kids.length;
@@ -4304,7 +4546,7 @@ window.saveTVFavorites(existingTV);
 
             internal++;
             const shown = select.style.display;
-            select.style.display = 'none';                      // updating a hidden list is much faster
+            select.style.display = 'none';                      
             try {
                 select.textContent = '';
                 const frag = document.createDocumentFragment();
@@ -4323,7 +4565,7 @@ window.saveTVFavorites(existingTV);
         if (touch) {
             touch.addEventListener('input', () => {
                 clearTimeout(touchTimer);
-                touchTimer = setTimeout(applyTouch, 150); // wait for a pause in typing
+                touchTimer = setTimeout(applyTouch, 150); 
             });
             touch.addEventListener('keydown', (e) => {
                 if (e.key === 'Escape') {
@@ -4332,7 +4574,7 @@ window.saveTVFavorites(existingTV);
                     applyTouch();
                 } else if (e.key === 'Enter') {
                     e.preventDefault();
-                    applyTouch(); // apply right away if the timer hasn't fired yet
+                    applyTouch(); 
                     const first = Array.from(select.options).find((o) => o.value && !o.disabled);
                     if (first) {
                         select.value = first.value;
@@ -4343,11 +4585,10 @@ window.saveTVFavorites(existingTV);
             });
         }
 
-        // ---------- notice when your code rebuilds the list ----------
-        // (cheaper than a MutationObserver, which gets very slow on lists with thousands of entries)
+        // ---------- notice when your code rebuilds the list ----------        
         let queued = false;
         function changed() {
-            flat = null;                       // the list changed → look it up again next time
+            flat = null;                       
             if (internal || queued) return;
             queued = true;
             (window.queueMicrotask ? window.queueMicrotask.bind(window) : (f) => Promise.resolve().then(f))(() => {
@@ -4358,10 +4599,10 @@ window.saveTVFavorites(existingTV);
 
         function listRebuilt() {
             if (touch) {
-                filtered = false;              // the page rebuilt the list, so it's unfiltered again
+                filtered = false;              
                 all = [];
-                if (select.children.length <= 1) touch.value = '';   // country changed → clear search
-                else if (touch.value.trim()) applyTouch();           // list rebuilt → re-apply search
+                if (select.children.length <= 1) touch.value = '';   
+                else if (touch.value.trim()) applyTouch();           
             }
             syncLabel();
             if (isOpen) render();
@@ -4413,7 +4654,6 @@ window.saveTVFavorites(existingTV);
     }
 
     // Live / Radio / TV: country lists get the custom dropdown on desktop only;
-    // the long channel lists also get the search box on touch devices.
     const camRow = camSelect.closest('.row');
     const radioRow = radioStationSelect.closest('.row');
     const tvChannelSel = document.getElementById('tvChannel');
