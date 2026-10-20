@@ -376,7 +376,7 @@
     "name": "Diamond Bridge",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/1IJB-QjOzvM"
+        "https://www.youtube-nocookie.com/embed/mMFgDRE6CS8"
       ]
     },
     "languages": [],
@@ -600,30 +600,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "vba8pOlJAIiEFJ",
-    "name": "Kudowa-Zdrój Spa Park",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Hh4GsnQnM2E"
-      ]
-    },
-    "languages": [],
-    "country": "pl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "1apPc1MfbAcZtf",
-    "name": "Kudowa-Zdrój Spa Park Mineral Water Pump Room",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/KJfU_1NbBiM"
-      ]
-    },
-    "languages": [],
-    "country": "pl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "3qep58yRGI3AdZ",
     "name": "Kuromaro Dog Park",
     "sources": {
@@ -777,18 +753,6 @@
     },
     "languages": [],
     "country": "kr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "ZsloWiJqWuRRy1",
-    "name": "Mariner Park on the St. Clair River",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/GFzyA9BkHW4"
-      ]
-    },
-    "languages": [],
-    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -1049,18 +1013,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/zILYP7389A8"
-      ]
-    },
-    "languages": [],
-    "country": "pl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "LOrLqDnYk4vroY",
-    "name": "Park Muzyczny, Kudowa-Zdrój",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/eysc9zJBrUw"
       ]
     },
     "languages": [],

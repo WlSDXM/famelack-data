@@ -72,18 +72,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Gg6YdAaJ1nODli",
-    "name": "East Gading Intersection Traffic",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/c2Rhj-A2u7k"
-      ]
-    },
-    "languages": [],
-    "country": "id",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "0YjoidI4S35MtJ",
     "name": "Embung Batara Sriten",
     "sources": {

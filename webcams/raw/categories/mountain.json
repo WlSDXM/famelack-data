@@ -2488,7 +2488,7 @@
     "name": "Le Morne",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/hvJLvTwNqXU"
+        "https://www.youtube-nocookie.com/embed/12ESXL9UrQs"
       ]
     },
     "languages": [],
@@ -3420,11 +3420,23 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "drmM6fkZNzNerM",
+    "name": "Mount Tsukuba Nantaisan",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/hvpzxZB1US8"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "YCndIOSN30lvKW",
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/IvowHYoHXV0"
+        "https://www.youtube-nocookie.com/embed/q-ob7AcnzKw"
       ]
     },
     "languages": [],
@@ -5844,18 +5856,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "DVgHukB6ZgVM2s",
-    "name": "Uruapan Panoramic City View",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/MVvjgBQ376Y"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "xez197EZKGxp0M",
     "name": "Ushuaia City Center",
     "sources": {
@@ -5884,7 +5884,7 @@
     "name": "Val d'Isère",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4Lz-xWEG9C8"
+        "https://www.youtube-nocookie.com/embed/nq93DvK1orI"
       ]
     },
     "languages": [],

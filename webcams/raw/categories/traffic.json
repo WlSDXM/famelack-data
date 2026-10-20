@@ -448,7 +448,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ulDOst5zZwI"
+        "https://www.youtube-nocookie.com/embed/CSw8rkQgrU0"
       ]
     },
     "languages": [],
@@ -681,18 +681,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Gg6YdAaJ1nODli",
-    "name": "East Gading Intersection Traffic",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/c2Rhj-A2u7k"
-      ]
-    },
-    "languages": [],
-    "country": "id",
     "isGeoBlocked": false
   },
   {
@@ -1348,7 +1336,7 @@
     "name": "Khao Lak",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/n5586NhNEgw"
+        "https://www.youtube-nocookie.com/embed/pDhDJxC4vYk"
       ]
     },
     "languages": [],
@@ -2188,7 +2176,19 @@
     "name": "Piedras Negras Cam 1",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/QkjbIFF9CS4"
+        "https://www.youtube-nocookie.com/embed/tuxYKLtk1rE"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "G5hzD2NeP1JaLJ",
+    "name": "Piedras Negras Cam 2",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/y0ACBUQOPzc"
       ]
     },
     "languages": [],
@@ -2620,7 +2620,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ePWyoVU9NSg"
+        "https://www.youtube-nocookie.com/embed/KuRjLr2V1bY"
       ]
     },
     "languages": [],

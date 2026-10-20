@@ -480,6 +480,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "dHgTg0rHivx6TL",
+    "name": "Dashmesh Culture Centre, Calgary",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/0P5GUP9nQoA"
+      ]
+    },
+    "languages": [],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "cd621pwZv7IYPf",
     "name": "DDP Seoul",
     "sources": {
@@ -496,7 +508,7 @@
     "name": "Diamond Bridge",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/1IJB-QjOzvM"
+        "https://www.youtube-nocookie.com/embed/mMFgDRE6CS8"
       ]
     },
     "languages": [],
@@ -912,18 +924,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "vba8pOlJAIiEFJ",
-    "name": "Kudowa-Zdrój Spa Park",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Hh4GsnQnM2E"
-      ]
-    },
-    "languages": [],
-    "country": "pl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "yLBKnQvINKo1fq",
     "name": "Kurushima Kaikyō Bridge",
     "sources": {
@@ -952,7 +952,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/AFuEPTfR2YI"
+        "https://www.youtube-nocookie.com/embed/SY4nbBj3NUA"
       ]
     },
     "languages": [],
@@ -1000,7 +1000,7 @@
     "name": "Masjid Al Haram",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/gINp2w_zOU8"
+        "https://www.youtube-nocookie.com/embed/TseWV8tk2kc"
       ]
     },
     "languages": [],
@@ -1425,6 +1425,18 @@
     },
     "languages": [],
     "country": "sa",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "EqSm4YSCm2WlHS",
+    "name": "Quarterdeck & Harbour Town Lighthouse",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Q5kPEVWyfAU"
+      ]
+    },
+    "languages": [],
+    "country": "us",
     "isGeoBlocked": false
   },
   {

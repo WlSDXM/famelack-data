@@ -568,7 +568,19 @@
     "name": "Piedras Negras Cam 1",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/QkjbIFF9CS4"
+        "https://www.youtube-nocookie.com/embed/tuxYKLtk1rE"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "G5hzD2NeP1JaLJ",
+    "name": "Piedras Negras Cam 2",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/y0ACBUQOPzc"
       ]
     },
     "languages": [],
@@ -989,18 +1001,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/keWC1l1flQw"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "DVgHukB6ZgVM2s",
-    "name": "Uruapan Panoramic City View",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/MVvjgBQ376Y"
       ]
     },
     "languages": [],

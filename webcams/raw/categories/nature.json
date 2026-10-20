@@ -3112,7 +3112,7 @@
     "name": "De Mortel Wildlife & Bird Feeder",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/sbnvGpr_Fyw"
+        "https://www.youtube-nocookie.com/embed/D1VM6V6wmU0"
       ]
     },
     "languages": [],
@@ -8340,6 +8340,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "drmM6fkZNzNerM",
+    "name": "Mount Tsukuba Nantaisan",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/hvpzxZB1US8"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "z0bHwCKyiwmT77",
     "name": "Mount Tsukuba Nyotaisan",
     "sources": {
@@ -8392,7 +8404,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/IvowHYoHXV0"
+        "https://www.youtube-nocookie.com/embed/q-ob7AcnzKw"
       ]
     },
     "languages": [],
@@ -8476,7 +8488,7 @@
     "name": "Mouse Island Corfu",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/FUDerPo9pbE"
+        "https://www.youtube-nocookie.com/embed/4lpD91Eu_sk"
       ]
     },
     "languages": [],
@@ -8789,18 +8801,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/bEZByG4nP-A"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "4WOl403de6kbbe",
-    "name": "Necedah Railcam",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/VFXMwUyO25g"
       ]
     },
     "languages": [],
@@ -12172,7 +12172,7 @@
     "name": "Skiathos Bay & Port",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/v9kPiCpIQW8"
+        "https://www.youtube-nocookie.com/embed/bdPIjpCwEqU"
       ]
     },
     "languages": [],
@@ -13824,18 +13824,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "NvRcG1v2YxMyf7",
-    "name": "Trafton Falls, Milo",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Qcjrp_2tnFY"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "0mHmb41y616IRO",
     "name": "Trails End Road",
     "sources": {
@@ -14236,7 +14224,7 @@
     "name": "Val d'Isère",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4Lz-xWEG9C8"
+        "https://www.youtube-nocookie.com/embed/nq93DvK1orI"
       ]
     },
     "languages": [],
@@ -14632,7 +14620,7 @@
     "name": "Warsaw Skyline",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/aDPx4H6CAXE"
+        "https://www.youtube-nocookie.com/embed/LQg_m2Ntx5c"
       ]
     },
     "languages": [],

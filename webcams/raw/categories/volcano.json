@@ -276,6 +276,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "ACk4DfCOGxGpjh",
+    "name": "Mount Etna Volcano",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/uC6nVnMfRDY"
+      ]
+    },
+    "languages": [],
+    "country": "it",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "wLEWiVEDX62Xs1",
     "name": "Mount Etna Volcano",
     "sources": {

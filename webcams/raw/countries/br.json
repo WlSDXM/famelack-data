@@ -60,18 +60,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "XDbmQmXBmXW8TV",
-    "name": "Arroio do Silva Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/VmySlU1qj4M"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "lxoR00T6qCtKTO",
     "name": "Avenida Atlântica Beach",
     "sources": {
@@ -292,7 +280,7 @@
     "name": "Congonhas Airport Camera 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/fBlXwge53sg"
+        "https://www.youtube-nocookie.com/embed/I2rxAvlMSJk"
       ]
     },
     "languages": [],
@@ -304,7 +292,7 @@
     "name": "Congonhas Airport Camera 3",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/mbxpVNNlLxg"
+        "https://www.youtube-nocookie.com/embed/UBXIYAruuLw"
       ]
     },
     "languages": [],
@@ -400,7 +388,7 @@
     "name": "Galeão International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/kF43nGAq8ZU"
+        "https://www.youtube-nocookie.com/embed/CGFnefYa7mI"
       ]
     },
     "languages": [],
@@ -472,7 +460,7 @@
     "name": "Guarulhos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/_deo4RJZqj8"
+        "https://www.youtube-nocookie.com/embed/AkrsWw5p_7E"
       ]
     },
     "languages": [],
@@ -484,7 +472,7 @@
     "name": "Guarulhos International Airport Runway 10L",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/oYd5rjno4Wo"
+        "https://www.youtube-nocookie.com/embed/3fvY-EmFCpw"
       ]
     },
     "languages": [],
@@ -496,7 +484,7 @@
     "name": "Guarulhos International Airport Runway 10R",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/qAoNhsSjkMc"
+        "https://www.youtube-nocookie.com/embed/UfS8uA35fdc"
       ]
     },
     "languages": [],
@@ -508,7 +496,7 @@
     "name": "Guarulhos International Airport Runway 28",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/FYGlrkGssS8"
+        "https://www.youtube-nocookie.com/embed/h9XW1nBlpI0"
       ]
     },
     "languages": [],
@@ -768,18 +756,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "BRfXfK6WMsmEQs",
-    "name": "Recife Airport",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ZZz5Ksffw_E"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "S00sxg6TqmnYjM",
     "name": "Salgado Filho Airport",
     "sources": {
@@ -880,7 +856,7 @@
     "name": "Santos Dumont Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/guWUhZKORMQ"
+        "https://www.youtube-nocookie.com/embed/1dDgK-OpAxs"
       ]
     },
     "languages": [],
@@ -988,7 +964,7 @@
     "name": "Viracopos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/owPdBSWnEBo"
+        "https://www.youtube-nocookie.com/embed/TtGxJ3llGFA"
       ]
     },
     "languages": [],

@@ -264,18 +264,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "1P93ZsvOWFfH0R",
-    "name": "Cheddar Reservoir Watersports",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/qPm8lYRCKWk"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "vUxI9Rh7B4bEZ9",
     "name": "Chesil Beach",
     "sources": {
@@ -412,7 +400,7 @@
     "name": "Dolphin Watch, New Quay",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/3GE5NS0JCvE"
+        "https://www.youtube-nocookie.com/embed/27QE20qCsAY"
       ]
     },
     "languages": [],
@@ -568,7 +556,7 @@
     "name": "Hawick High Street",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ZCsWC_tSiOM"
+        "https://www.youtube-nocookie.com/embed/MRhG9cmNe9g"
       ]
     },
     "languages": [],
@@ -700,7 +688,7 @@
     "name": "London Heathrow Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/mrafALsHOj4"
+        "https://www.youtube-nocookie.com/embed/V_royqIDgIM"
       ]
     },
     "languages": [],
@@ -845,18 +833,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/Puq8NKPnNlo"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "B89vk4XjVHiZYa",
-    "name": "OTC Watersports, Portland Harbour",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/YIo_pnH0LzY"
       ]
     },
     "languages": [],
@@ -1068,18 +1044,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ClKu69bwEV83Tw",
-    "name": "Seaton Beach Seafront",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/JHcdPeDozGI"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "cDbRf06dXbgFQ1",
     "name": "Seaton Tramway Devon",
     "sources": {
@@ -1121,18 +1085,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/PvFIAuYnLnU"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "S7X0NSLHbvOx54",
-    "name": "Sidmouth Beach & Esplanade",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ai1RgnDhCD8"
       ]
     },
     "languages": [],
@@ -1384,7 +1336,7 @@
     "name": "West Kirby Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/V1ip6fOgbz4"
+        "https://www.youtube-nocookie.com/embed/yoP-Nb_OXGQ"
       ]
     },
     "languages": [],

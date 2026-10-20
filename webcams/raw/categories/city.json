@@ -1,5 +1,17 @@
 [
   {
+    "nanoid": "oQwQqQ7kNxuno7",
+    "name": "1 December Square, Reșița",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/pQFGXguZJBY"
+      ]
+    },
+    "languages": [],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "cDsbzx3MINCo46",
     "name": "3rd HOUSE Inamuragasaki Rooftop West Inamuragasaki View",
     "sources": {
@@ -1668,6 +1680,30 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "zSm83nc9Ya1E75",
+    "name": "Castro Street Cam 1",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/c4SUwuF2wfo"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Ui5Xgu33j2MZic",
+    "name": "Castro Street Cam 2",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/lJve6cr_D_U"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "b7Z7P4jg4mQzAs",
     "name": "Castro Street, San Francisco",
     "sources": {
@@ -1864,7 +1900,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ulDOst5zZwI"
+        "https://www.youtube-nocookie.com/embed/CSw8rkQgrU0"
       ]
     },
     "languages": [],
@@ -2704,7 +2740,7 @@
     "name": "Downtown Parry Sound",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/aHILJuBixp0"
+        "https://www.youtube-nocookie.com/embed/T8QwwJVgzO8"
       ]
     },
     "languages": [],
@@ -2944,7 +2980,7 @@
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Wj6FMY2J4qc"
+        "https://www.youtube-nocookie.com/embed/dckNJyN6zUk"
       ]
     },
     "languages": [],
@@ -4072,7 +4108,7 @@
     "name": "Hawick High Street",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ZCsWC_tSiOM"
+        "https://www.youtube-nocookie.com/embed/MRhG9cmNe9g"
       ]
     },
     "languages": [],
@@ -4968,18 +5004,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ZTojREE4f2ltOr",
-    "name": "Kipster Farm Chickens IN",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/p6kc-V2GiUM"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "ECQ5iMh80yKfxe",
     "name": "Kirjurinluoto Park",
     "sources": {
@@ -5212,7 +5236,7 @@
     "name": "Kuressaare, Saaremaa",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/fIYHsUvzG3A"
+        "https://www.youtube-nocookie.com/embed/nyce9nXEpo4"
       ]
     },
     "languages": [],
@@ -5416,7 +5440,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/AFuEPTfR2YI"
+        "https://www.youtube-nocookie.com/embed/SY4nbBj3NUA"
       ]
     },
     "languages": [],
@@ -6168,18 +6192,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ZsloWiJqWuRRy1",
-    "name": "Mariner Park on the St. Clair River",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/GFzyA9BkHW4"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "vmV5z4pIxgvOFU",
     "name": "Market Square & North Church",
     "sources": {
@@ -6280,7 +6292,7 @@
     "name": "Masjid Al Haram",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/gINp2w_zOU8"
+        "https://www.youtube-nocookie.com/embed/TseWV8tk2kc"
       ]
     },
     "languages": [],
@@ -6532,7 +6544,7 @@
     "name": "Monheim am Rhein",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/bJeAutaGjLY"
+        "https://www.youtube-nocookie.com/embed/RN4-lH6uCss"
       ]
     },
     "languages": [],
@@ -7348,7 +7360,7 @@
     "name": "Obor Square",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/PS7edz7RLok"
+        "https://www.youtube-nocookie.com/embed/pnFEPqdKtrE"
       ]
     },
     "languages": [],
@@ -8020,7 +8032,7 @@
     "name": "Pattaya Beach Road",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-noij2-VsO0"
+        "https://www.youtube-nocookie.com/embed/YzPBjzP24hA"
       ]
     },
     "languages": [],
@@ -8512,7 +8524,7 @@
     "name": "Prospekt Prosveshcheniya",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/mLaZkiQfL6Y"
+        "https://www.youtube-nocookie.com/embed/-dfIhvGTOyc"
       ]
     },
     "languages": [],
@@ -9364,7 +9376,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ePWyoVU9NSg"
+        "https://www.youtube-nocookie.com/embed/KuRjLr2V1bY"
       ]
     },
     "languages": [],
@@ -9545,6 +9557,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/LxbUEt0Tj_A"
+      ]
+    },
+    "languages": [],
+    "country": "tr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "L1jT9Gx0fI6XcP",
+    "name": "Şebinkarahisar Town Square",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/BnbAgwyQ5vA"
       ]
     },
     "languages": [],
@@ -10024,7 +10048,7 @@
     "name": "Singh Sabha Washington",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/0bo3fyMpl-A"
+        "https://www.youtube-nocookie.com/embed/OkhpUwk2XjA"
       ]
     },
     "languages": [],
@@ -10828,7 +10852,7 @@
     "name": "Sydney Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/hVa3mQYEDvQ"
+        "https://www.youtube-nocookie.com/embed/noz5H87AcG0"
       ]
     },
     "languages": [],
@@ -11988,18 +12012,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "DVgHukB6ZgVM2s",
-    "name": "Uruapan Panoramic City View",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/MVvjgBQ376Y"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "xez197EZKGxp0M",
     "name": "Ushuaia City Center",
     "sources": {
@@ -12592,7 +12604,7 @@
     "name": "Warsaw Skyline",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/aDPx4H6CAXE"
+        "https://www.youtube-nocookie.com/embed/LQg_m2Ntx5c"
       ]
     },
     "languages": [],

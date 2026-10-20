@@ -108,6 +108,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "efhGAQpqwhNUYZ",
+    "name": "Akabane Station",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/ETvAZP-v5UY"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "X2LGD3uwPKwkcl",
     "name": "Akashi Kaikyō Bridge",
     "sources": {
@@ -1876,7 +1888,7 @@
     "name": "Meitetsu Tokoname Line Ono-machi",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/l9Y8Nw-AXJA"
+        "https://www.youtube-nocookie.com/embed/VlI6NlTqVBE"
       ]
     },
     "languages": [],
@@ -2148,6 +2160,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "drmM6fkZNzNerM",
+    "name": "Mount Tsukuba Nantaisan",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/hvpzxZB1US8"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "z0bHwCKyiwmT77",
     "name": "Mount Tsukuba Nyotaisan",
     "sources": {
@@ -2357,6 +2381,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/cJd9IIu2vio"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "f29nBUByDkrDeo",
+    "name": "Naha Airport",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/rjKspIZjdXU"
       ]
     },
     "languages": [],
@@ -3208,7 +3244,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ePWyoVU9NSg"
+        "https://www.youtube-nocookie.com/embed/KuRjLr2V1bY"
       ]
     },
     "languages": [],

@@ -2352,6 +2352,30 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "zSm83nc9Ya1E75",
+    "name": "Castro Street Cam 1",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/c4SUwuF2wfo"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Ui5Xgu33j2MZic",
+    "name": "Castro Street Cam 2",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/lJve6cr_D_U"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "b7Z7P4jg4mQzAs",
     "name": "Castro Street, San Francisco",
     "sources": {
@@ -2596,7 +2620,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ulDOst5zZwI"
+        "https://www.youtube-nocookie.com/embed/CSw8rkQgrU0"
       ]
     },
     "languages": [],
@@ -4408,7 +4432,7 @@
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Wj6FMY2J4qc"
+        "https://www.youtube-nocookie.com/embed/dckNJyN6zUk"
       ]
     },
     "languages": [],
@@ -5236,7 +5260,7 @@
     "name": "Furball Farm Cat Sanctuary",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/07RhV0yFHWI"
+        "https://www.youtube-nocookie.com/embed/1tGkBY4xGME"
       ]
     },
     "languages": [],
@@ -5464,7 +5488,7 @@
     "name": "Georgica Jetty",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/mTIce27dQHk"
+        "https://www.youtube-nocookie.com/embed/QdBbBaQdECw"
       ]
     },
     "languages": [],
@@ -6160,7 +6184,7 @@
     "name": "Highline MaST Center Aquarium",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/UtBXcDvJdnI"
+        "https://www.youtube-nocookie.com/embed/6uSmHN47Qd0"
       ]
     },
     "languages": [],
@@ -7344,54 +7368,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "oCUqvVn8XwAsb2",
-    "name": "Kipster Farm 2",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/n5CulkKW_gE"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "p4RqIx9PwLl7f4",
-    "name": "Kipster Farm 4",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/PkhGM92A7XE"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "OTFppd1hqkGzwi",
-    "name": "Kipster Farm 5",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/tktFaBvGXL0"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "ZTojREE4f2ltOr",
-    "name": "Kipster Farm Chickens IN",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/p6kc-V2GiUM"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "s3ydlR35p1bAPX",
     "name": "Kisatchie National Forest E-3 Bald Eagle Canopy",
     "sources": {
@@ -7720,7 +7696,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/AFuEPTfR2YI"
+        "https://www.youtube-nocookie.com/embed/SY4nbBj3NUA"
       ]
     },
     "languages": [],
@@ -8585,18 +8561,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/10jukqY3NU4"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "ZsloWiJqWuRRy1",
-    "name": "Mariner Park on the St. Clair River",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/GFzyA9BkHW4"
       ]
     },
     "languages": [],
@@ -9520,7 +9484,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/IvowHYoHXV0"
+        "https://www.youtube-nocookie.com/embed/q-ob7AcnzKw"
       ]
     },
     "languages": [],
@@ -9881,18 +9845,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/oE72xeIV8Tw"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "4WOl403de6kbbe",
-    "name": "Necedah Railcam",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/VFXMwUyO25g"
       ]
     },
     "languages": [],
@@ -10996,7 +10948,7 @@
     "name": "Pawlins Royal Suite 15",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/GUoImwzkewo"
+        "https://www.youtube-nocookie.com/embed/Pi0fQ8cl8cg"
       ]
     },
     "languages": [],
@@ -11717,6 +11669,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/LInPY_D1Ln4"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "EqSm4YSCm2WlHS",
+    "name": "Quarterdeck & Harbour Town Lighthouse",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Q5kPEVWyfAU"
       ]
     },
     "languages": [],
@@ -13852,7 +13816,7 @@
     "name": "Singh Sabha Washington",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/0bo3fyMpl-A"
+        "https://www.youtube-nocookie.com/embed/OkhpUwk2XjA"
       ]
     },
     "languages": [],
@@ -14776,7 +14740,7 @@
     "name": "Squirrel and Wildlife Feeder",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/m9fbbU33bz8"
+        "https://www.youtube-nocookie.com/embed/N8OusBtOGDY"
       ]
     },
     "languages": [],
@@ -16205,18 +16169,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/sTF-6_xinUU"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "NvRcG1v2YxMyf7",
-    "name": "Trafton Falls, Milo",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Qcjrp_2tnFY"
       ]
     },
     "languages": [],

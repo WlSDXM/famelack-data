@@ -240,18 +240,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "XDbmQmXBmXW8TV",
-    "name": "Arroio do Silva Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/VmySlU1qj4M"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "nhmMbfUZUYo1Zg",
     "name": "Ault Centre Village",
     "sources": {
@@ -2068,7 +2056,7 @@
     "name": "Georgica Jetty",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/mTIce27dQHk"
+        "https://www.youtube-nocookie.com/embed/QdBbBaQdECw"
       ]
     },
     "languages": [],
@@ -3052,7 +3040,7 @@
     "name": "Le Morne",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/hvJLvTwNqXU"
+        "https://www.youtube-nocookie.com/embed/12ESXL9UrQs"
       ]
     },
     "languages": [],
@@ -3388,7 +3376,7 @@
     "name": "Maho Beach Plane Spotting",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/BLLbJc1ZPSg"
+        "https://www.youtube-nocookie.com/embed/UIdX3avKB0w"
       ]
     },
     "languages": [],
@@ -3712,7 +3700,7 @@
     "name": "Muizenberg Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/pUZ_T-NwC2Q"
+        "https://www.youtube-nocookie.com/embed/nEne8E8kaUw"
       ]
     },
     "languages": [],
@@ -4288,7 +4276,7 @@
     "name": "Paguera Tora Beach, Mallorca",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/8BUWBZZzJEo"
+        "https://www.youtube-nocookie.com/embed/Tm0VHlOzHD8"
       ]
     },
     "languages": [],
@@ -4348,7 +4336,7 @@
     "name": "Pattaya Beach Road",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-noij2-VsO0"
+        "https://www.youtube-nocookie.com/embed/YzPBjzP24hA"
       ]
     },
     "languages": [],
@@ -4872,18 +4860,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "aAYvirH0mKBhGR",
-    "name": "Praia da Rocha Portimão",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/rl94wlaxqg8"
-      ]
-    },
-    "languages": [],
-    "country": "pt",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "6NeV1Uv7smpcRK",
     "name": "Praia das Pitangueiras",
     "sources": {
@@ -4893,18 +4869,6 @@
     },
     "languages": [],
     "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "rSYcnlGYVvxsOn",
-    "name": "Praia de São Torpes, Sines",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/OTwS1dniBMk"
-      ]
-    },
-    "languages": [],
-    "country": "pt",
     "isGeoBlocked": false
   },
   {
@@ -5796,18 +5760,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ClKu69bwEV83Tw",
-    "name": "Seaton Beach Seafront",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/JHcdPeDozGI"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "f0mn51yNIVXDog",
     "name": "Seixal Beach",
     "sources": {
@@ -5949,18 +5901,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "S7X0NSLHbvOx54",
-    "name": "Sidmouth Beach & Esplanade",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ai1RgnDhCD8"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
     "isGeoBlocked": false
   },
   {
@@ -7144,7 +7084,7 @@
     "name": "West Kirby Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/V1ip6fOgbz4"
+        "https://www.youtube-nocookie.com/embed/yoP-Nb_OXGQ"
       ]
     },
     "languages": [],
@@ -7233,6 +7173,18 @@
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "lF4Wp9aoN2isAp",
+    "name": "Wissant Beach",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/_Csk3nZ6TI8"
+      ]
+    },
+    "languages": [],
+    "country": "fr",
     "isGeoBlocked": false
   },
   {

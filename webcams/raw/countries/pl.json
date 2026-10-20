@@ -84,30 +84,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "vba8pOlJAIiEFJ",
-    "name": "Kudowa-Zdrój Spa Park",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Hh4GsnQnM2E"
-      ]
-    },
-    "languages": [],
-    "country": "pl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "1apPc1MfbAcZtf",
-    "name": "Kudowa-Zdrój Spa Park Mineral Water Pump Room",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/KJfU_1NbBiM"
-      ]
-    },
-    "languages": [],
-    "country": "pl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "AdRmcpVKmypLF3",
     "name": "Main Market Square, Pszczyna",
     "sources": {
@@ -149,18 +125,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/zILYP7389A8"
-      ]
-    },
-    "languages": [],
-    "country": "pl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "LOrLqDnYk4vroY",
-    "name": "Park Muzyczny, Kudowa-Zdrój",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/eysc9zJBrUw"
       ]
     },
     "languages": [],
@@ -244,7 +208,7 @@
     "name": "Warsaw Skyline",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/aDPx4H6CAXE"
+        "https://www.youtube-nocookie.com/embed/LQg_m2Ntx5c"
       ]
     },
     "languages": [],

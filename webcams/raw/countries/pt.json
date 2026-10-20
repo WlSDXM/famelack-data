@@ -396,30 +396,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "aAYvirH0mKBhGR",
-    "name": "Praia da Rocha Portimão",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/rl94wlaxqg8"
-      ]
-    },
-    "languages": [],
-    "country": "pt",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "rSYcnlGYVvxsOn",
-    "name": "Praia de São Torpes, Sines",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/OTwS1dniBMk"
-      ]
-    },
-    "languages": [],
-    "country": "pt",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "nHwoAXoRS26ANS",
     "name": "Praia do Infante Beach",
     "sources": {

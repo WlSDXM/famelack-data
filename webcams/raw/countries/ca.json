@@ -312,6 +312,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "dHgTg0rHivx6TL",
+    "name": "Dashmesh Culture Centre, Calgary",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/0P5GUP9nQoA"
+      ]
+    },
+    "languages": [],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "675Cdad2bqRRQt",
     "name": "Deep Cove Marina & Indian Arm",
     "sources": {
@@ -352,7 +364,7 @@
     "name": "Downtown Parry Sound",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/aHILJuBixp0"
+        "https://www.youtube-nocookie.com/embed/T8QwwJVgzO8"
       ]
     },
     "languages": [],
