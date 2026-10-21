@@ -40,7 +40,7 @@
     "name": "Acapulco Bay Skyline Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/H6JeGx0SuN4"
+        "https://www.youtube-nocookie.com/embed/8o1j9vIW7tc"
       ]
     },
     "languages": [],
@@ -233,6 +233,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/dgd1eqX3M8U"
+      ]
+    },
+    "languages": [],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "XDbmQmXBmXW8TV",
+    "name": "Arroio do Silva Beach",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/LJ2Y9OX_AHo"
       ]
     },
     "languages": [],
@@ -708,18 +720,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "4ka0z9q25r5E8D",
-    "name": "Bonny Hills Beach House",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/c72Pvnpzc9k"
-      ]
-    },
-    "languages": [],
-    "country": "au",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "iBEo5gwudWx9fP",
     "name": "Borkum Dunes and Wadden Sea",
     "sources": {
@@ -801,18 +801,6 @@
     },
     "languages": [],
     "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "KNTaWQUBuNDpKp",
-    "name": "Buccanos Beach Club",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/9SzSS5QhkQc"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
     "isGeoBlocked": false
   },
   {
@@ -1812,18 +1800,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "bBY6z8cVSsfgRD",
-    "name": "Faro Monumental de La Serena",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/O6PdITWH_lQ"
-      ]
-    },
-    "languages": [],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "xQZw6ALA2l13Wj",
     "name": "Ferry Terminal, Vlieland",
     "sources": {
@@ -2056,7 +2032,7 @@
     "name": "Georgica Jetty",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/QdBbBaQdECw"
+        "https://www.youtube-nocookie.com/embed/VS5izazTjbw"
       ]
     },
     "languages": [],
@@ -3040,7 +3016,7 @@
     "name": "Le Morne",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/12ESXL9UrQs"
+        "https://www.youtube-nocookie.com/embed/jG1vCKGoNRw"
       ]
     },
     "languages": [],
@@ -3376,7 +3352,7 @@
     "name": "Maho Beach Plane Spotting",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/UIdX3avKB0w"
+        "https://www.youtube-nocookie.com/embed/6Q1fwOrQfmM"
       ]
     },
     "languages": [],
@@ -4248,18 +4224,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "AOIelDe820Af7U",
-    "name": "Paguera Playa Palmira",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/DM9VFnG7T1o"
-      ]
-    },
-    "languages": [],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Wklq3JEOVgKe16",
     "name": "Paguera Tora Beach",
     "sources": {
@@ -4296,18 +4260,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "mEQhKSnt21hnkM",
-    "name": "Palmira Beach, Mallorca",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Xlw0je0q-kk"
-      ]
-    },
-    "languages": [],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "30Uzz7bB0E3hdK",
     "name": "Pantai Kukup Beach",
     "sources": {
@@ -4336,7 +4288,7 @@
     "name": "Pattaya Beach Road",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/YzPBjzP24hA"
+        "https://www.youtube-nocookie.com/embed/NsNCkY_4xMQ"
       ]
     },
     "languages": [],
@@ -4385,6 +4337,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/vdr7QQ_HAgQ"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "RlkQ6LgjAf2RDd",
+    "name": "Pensacola Beach Pier",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Gmsn2Js2V4Q"
       ]
     },
     "languages": [],
@@ -4824,18 +4788,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "EvHIa8G0IDwPHI",
-    "name": "Pozo Izquierdo Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/hroBBfkfcuc"
-      ]
-    },
-    "languages": [],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "3EIDi59R7FD8ON",
     "name": "Praia Brava, Itajaí",
     "sources": {
@@ -4853,6 +4805,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/hfOgGUhdybo"
+      ]
+    },
+    "languages": [],
+    "country": "pt",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "aAYvirH0mKBhGR",
+    "name": "Praia da Rocha Portimão",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/FxMH3BFP9s4"
       ]
     },
     "languages": [],
@@ -4948,7 +4912,7 @@
     "name": "Puente Gral Belgrano",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-EgHV6XosfE"
+        "https://www.youtube-nocookie.com/embed/omRBLhYjgWQ"
       ]
     },
     "languages": [],
@@ -7084,7 +7048,7 @@
     "name": "West Kirby Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/yoP-Nb_OXGQ"
+        "https://www.youtube-nocookie.com/embed/mmGWkNeb6OI"
       ]
     },
     "languages": [],

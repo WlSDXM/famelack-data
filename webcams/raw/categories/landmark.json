@@ -528,6 +528,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "9FACMEW5P67m46",
+    "name": "Disney California Adventure",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/FuT6AUQYsHw"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "6jFPUKbCA7bxDt",
     "name": "Divine Mercy Church, Stary Sącz",
     "sources": {
@@ -636,18 +648,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "bBY6z8cVSsfgRD",
-    "name": "Faro Monumental de La Serena",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/O6PdITWH_lQ"
-      ]
-    },
-    "languages": [],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Ov3bgDhEkYe1Vo",
     "name": "Fort Pannerden",
     "sources": {
@@ -700,7 +700,7 @@
     "name": "George Washington Bridge",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/5BlEY0fpCRs"
+        "https://www.youtube-nocookie.com/embed/3DHiZVmP0pI"
       ]
     },
     "languages": [],
@@ -724,7 +724,7 @@
     "name": "Gyeongbokgung Palace",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/cCRm_ZwxH1w"
+        "https://www.youtube-nocookie.com/embed/IcTMxC_k57A"
       ]
     },
     "languages": [],
@@ -777,18 +777,6 @@
     },
     "languages": [],
     "country": "es",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "x97HSWf6VBp1Fh",
-    "name": "Holy Dormition Pochaiv Lavra",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/m0cgC8Z3aa0"
-      ]
-    },
-    "languages": [],
-    "country": "ua",
     "isGeoBlocked": false
   },
   {
@@ -924,6 +912,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "vba8pOlJAIiEFJ",
+    "name": "Kudowa-Zdrój Spa Park",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/QO6THcnEACE"
+      ]
+    },
+    "languages": [],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "yLBKnQvINKo1fq",
     "name": "Kurushima Kaikyō Bridge",
     "sources": {
@@ -952,7 +952,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/SY4nbBj3NUA"
+        "https://www.youtube-nocookie.com/embed/_BBbJex-EIc"
       ]
     },
     "languages": [],
@@ -1000,7 +1000,7 @@
     "name": "Masjid Al Haram",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/TseWV8tk2kc"
+        "https://www.youtube-nocookie.com/embed/4cghNqjAbnc"
       ]
     },
     "languages": [],
@@ -1209,6 +1209,18 @@
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "6PxECb52jY1Y2Q",
+    "name": "Notre-Dame & Seine River",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/IOGYiO96eHA"
+      ]
+    },
+    "languages": [],
+    "country": "fr",
     "isGeoBlocked": false
   },
   {
@@ -1901,18 +1913,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/VXo0VqVcbK4"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "l5n42rruYSxufk",
-    "name": "Times Square North",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/JQ_jwk_7OVE"
       ]
     },
     "languages": [],

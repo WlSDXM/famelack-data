@@ -244,7 +244,7 @@
     "name": "Chios Central Square",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/M4un7ubSHDg"
+        "https://www.youtube-nocookie.com/embed/_2xOF8CTfgg"
       ]
     },
     "languages": [],
@@ -597,6 +597,30 @@
     },
     "languages": [],
     "country": "fi",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "vba8pOlJAIiEFJ",
+    "name": "Kudowa-Zdrój Spa Park",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/QO6THcnEACE"
+      ]
+    },
+    "languages": [],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "1apPc1MfbAcZtf",
+    "name": "Kudowa-Zdrój Spa Park Mineral Water Pump Room",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/FLTew3T_gcg"
+      ]
+    },
+    "languages": [],
+    "country": "pl",
     "isGeoBlocked": false
   },
   {
@@ -1020,15 +1044,15 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "wYi26bqQ0e6yrF",
-    "name": "Parque Padre Hurtado",
+    "nanoid": "LOrLqDnYk4vroY",
+    "name": "Park Muzyczny, Kudowa-Zdrój",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/_B8Eg-XBOcY"
+        "https://www.youtube-nocookie.com/embed/7cEsaa739pM"
       ]
     },
     "languages": [],
-    "country": "cl",
+    "country": "pl",
     "isGeoBlocked": false
   },
   {

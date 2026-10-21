@@ -16,7 +16,7 @@
     "name": "Acapulco Bay Skyline Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/H6JeGx0SuN4"
+        "https://www.youtube-nocookie.com/embed/8o1j9vIW7tc"
       ]
     },
     "languages": [],
@@ -1296,6 +1296,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "SJbHB726vFJHsr",
+    "name": "Desembocadura Río Maipo",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Uh2A0nVoqxc"
+      ]
+    },
+    "languages": [],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Qil5wCpKXqbpSW",
     "name": "Detroit River",
     "sources": {
@@ -1528,7 +1540,7 @@
     "name": "Dunedin Otago Harbour",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HtSdZChqrDo"
+        "https://www.youtube-nocookie.com/embed/jY193cTB1-k"
       ]
     },
     "languages": [],
@@ -2512,7 +2524,7 @@
     "name": "Key Largo Harbor Marina",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/T7nRMTfWsIs"
+        "https://www.youtube-nocookie.com/embed/iNHGaa6RF1M"
       ]
     },
     "languages": [],
@@ -2781,6 +2793,18 @@
     },
     "languages": [],
     "country": "tc",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "p0e9rutLm6CERi",
+    "name": "Legendary Marina, Destin",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/ccFd8-OkqdM"
+      ]
+    },
+    "languages": [],
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -3648,18 +3672,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "DDJkcwO9nnNwaF",
-    "name": "Otago Shag Sumpter Wharf Ōamaru",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/XhtH6TxnlkA"
-      ]
-    },
-    "languages": [],
-    "country": "nz",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "vUkNsEwm21BwcN",
     "name": "Otsu Port, Lake Biwa",
     "sources": {
@@ -3760,7 +3772,7 @@
     "name": "Pirbadet, Trondheim",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/e0UA0gXCeFQ"
+        "https://www.youtube-nocookie.com/embed/6zmxTEHckfI"
       ]
     },
     "languages": [],
@@ -3993,6 +4005,18 @@
     },
     "languages": [],
     "country": "fi",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "gFLilvalQ9TMR6",
+    "name": "Port of IJmuiden",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/jIHg8W90pfc"
+      ]
+    },
+    "languages": [],
+    "country": "nl",
     "isGeoBlocked": false
   },
   {
@@ -4824,18 +4848,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "QUqVnt7igVnfmu",
-    "name": "Šilo Lučica",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/JC_M7mQqmmw"
-      ]
-    },
-    "languages": [],
-    "country": "hr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "XtW1NEbF50u86U",
     "name": "Silver Bay Marina Harbor",
     "sources": {
@@ -4888,7 +4900,7 @@
     "name": "Skiathos Bay & Port",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/bdPIjpCwEqU"
+        "https://www.youtube-nocookie.com/embed/Lo2zNCtYCLM"
       ]
     },
     "languages": [],

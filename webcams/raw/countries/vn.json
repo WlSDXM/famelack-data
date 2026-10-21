@@ -60,18 +60,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "JiNGeAAe3c3Fju",
-    "name": "Cat Tien National Park Wetland Patrol Cam",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/owCTPV7B36M"
-      ]
-    },
-    "languages": [],
-    "country": "vn",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "WxSluNpPBrWV5w",
     "name": "Cat Tien Wildlife Pond",
     "sources": {
@@ -113,18 +101,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/5HWc1GAXQmw"
-      ]
-    },
-    "languages": [],
-    "country": "vn",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "0Pz6VFY2tRZTbA",
-    "name": "Dragon Bridge West Intersection",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/oC8ttZHG50I"
       ]
     },
     "languages": [],

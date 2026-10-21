@@ -720,42 +720,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "k8kyTiYleyRpyG",
-    "name": "Las Merindades Amphibian Pond",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/iK471CtjVB8"
-      ]
-    },
-    "languages": [],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Yj92TXuGtSGTtj",
-    "name": "Las Merindades Bird Feeder and Pond",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/kEzHu8tId40"
-      ]
-    },
-    "languages": [],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "uZ26urttOYmGKM",
-    "name": "Las Merindades Hedgehog Feeder",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/lRIKt__vW08"
-      ]
-    },
-    "languages": [],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Q0LG9eXQxcLKYO",
     "name": "Las Tablas de Daimiel National Park",
     "sources": {
@@ -948,18 +912,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "AOIelDe820Af7U",
-    "name": "Paguera Playa Palmira",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/DM9VFnG7T1o"
-      ]
-    },
-    "languages": [],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Wklq3JEOVgKe16",
     "name": "Paguera Tora Beach",
     "sources": {
@@ -1001,18 +953,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/hRw1_JQMQoE"
-      ]
-    },
-    "languages": [],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "mEQhKSnt21hnkM",
-    "name": "Palmira Beach, Mallorca",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Xlw0je0q-kk"
       ]
     },
     "languages": [],
@@ -1260,18 +1200,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "EvHIa8G0IDwPHI",
-    "name": "Pozo Izquierdo Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/hroBBfkfcuc"
-      ]
-    },
-    "languages": [],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "4VcGAMjdQVDVKb",
     "name": "Praza de América, Vigo",
     "sources": {
@@ -1480,7 +1408,7 @@
     "name": "Sierra de Guadarrama National Park Black Vulture Nest",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/I7Djy5fuFN0"
+        "https://www.youtube-nocookie.com/embed/OU1oZJ79RKc"
       ]
     },
     "languages": [],
@@ -1601,18 +1529,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/0gEMYdzAk2w"
-      ]
-    },
-    "languages": [],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "E4Tq94gBd2a37v",
-    "name": "Torrevieja Pink Salt Lake",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/kyWsLIVS4Oo"
       ]
     },
     "languages": [],

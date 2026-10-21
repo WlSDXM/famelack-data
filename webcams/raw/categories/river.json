@@ -420,6 +420,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "SJbHB726vFJHsr",
+    "name": "Desembocadura Río Maipo",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Uh2A0nVoqxc"
+      ]
+    },
+    "languages": [],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Qil5wCpKXqbpSW",
     "name": "Detroit River",
     "sources": {
@@ -628,7 +640,7 @@
     "name": "Goio-Ên & Uruguay River",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/bgxSiYYQ0w0"
+        "https://www.youtube-nocookie.com/embed/k5A22ASLFvI"
       ]
     },
     "languages": [],
@@ -1440,6 +1452,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "6PxECb52jY1Y2Q",
+    "name": "Notre-Dame & Seine River",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/IOGYiO96eHA"
+      ]
+    },
+    "languages": [],
+    "country": "fr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Q1Bp6rMW4A2WCQ",
     "name": "Ocean Isle Beach Jinks Creek",
     "sources": {
@@ -1516,7 +1540,7 @@
     "name": "Osprey Nest Loch of the Lowes",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Puq8NKPnNlo"
+        "https://www.youtube-nocookie.com/embed/VcYpMwKd9nQ"
       ]
     },
     "languages": [],
@@ -1620,18 +1644,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "wYi26bqQ0e6yrF",
-    "name": "Parque Padre Hurtado",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/_B8Eg-XBOcY"
-      ]
-    },
-    "languages": [],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "vLDqq0TeLOOg06",
     "name": "Pigeon River Hartford",
     "sources": {
@@ -1720,7 +1732,7 @@
     "name": "Puente Gral Belgrano",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-EgHV6XosfE"
+        "https://www.youtube-nocookie.com/embed/omRBLhYjgWQ"
       ]
     },
     "languages": [],
@@ -2140,7 +2152,7 @@
     "name": "Stillwater Lift Bridge",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/2M0wJ70hzvs"
+        "https://www.youtube-nocookie.com/embed/9vsEbXm15ow"
       ]
     },
     "languages": [],
@@ -2301,6 +2313,18 @@
     },
     "languages": [],
     "country": "fi",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "NvRcG1v2YxMyf7",
+    "name": "Trafton Falls, Milo",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/oQ-YDJ44WoQ"
+      ]
+    },
+    "languages": [],
+    "country": "us",
     "isGeoBlocked": false
   },
   {

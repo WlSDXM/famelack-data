@@ -28,7 +28,7 @@
     "name": "730 Intersection, Ishigaki",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Ju41XYlqT2M"
+        "https://www.youtube-nocookie.com/embed/aZlCueJdhdY"
       ]
     },
     "languages": [],
@@ -448,7 +448,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/CSw8rkQgrU0"
+        "https://www.youtube-nocookie.com/embed/4VjrDgUJboo"
       ]
     },
     "languages": [],
@@ -508,7 +508,7 @@
     "name": "Collins Avenue Street Cam",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/KtADDcFVaqc"
+        "https://www.youtube-nocookie.com/embed/rItpj4wmabM"
       ]
     },
     "languages": [],
@@ -660,15 +660,15 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "0Pz6VFY2tRZTbA",
-    "name": "Dragon Bridge West Intersection",
+    "nanoid": "LNw5kuurO55gbR",
+    "name": "Downtown Santa Cruz",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/oC8ttZHG50I"
+        "https://www.youtube-nocookie.com/embed/UB2PnY0eIQM"
       ]
     },
     "languages": [],
-    "country": "vn",
+    "country": "jm",
     "isGeoBlocked": false
   },
   {
@@ -868,7 +868,7 @@
     "name": "George Washington Bridge",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/5BlEY0fpCRs"
+        "https://www.youtube-nocookie.com/embed/3DHiZVmP0pI"
       ]
     },
     "languages": [],
@@ -916,7 +916,7 @@
     "name": "Goio-Ên & Uruguay River",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/bgxSiYYQ0w0"
+        "https://www.youtube-nocookie.com/embed/k5A22ASLFvI"
       ]
     },
     "languages": [],
@@ -1336,7 +1336,7 @@
     "name": "Khao Lak",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/pDhDJxC4vYk"
+        "https://www.youtube-nocookie.com/embed/6QQrtKFWOOA"
       ]
     },
     "languages": [],
@@ -2176,7 +2176,7 @@
     "name": "Piedras Negras Cam 1",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/tuxYKLtk1rE"
+        "https://www.youtube-nocookie.com/embed/VXZETKlLHns"
       ]
     },
     "languages": [],
@@ -2249,6 +2249,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/d8MjS53ncyw"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "sPSEtyUMx2GPGu",
+    "name": "Puente Internacional 2 Piedras Negras-Eagle Pass",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/5D21RBKc_EU"
       ]
     },
     "languages": [],
@@ -2620,7 +2632,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/KuRjLr2V1bY"
+        "https://www.youtube-nocookie.com/embed/CrjabXNYaYI"
       ]
     },
     "languages": [],

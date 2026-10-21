@@ -16,7 +16,7 @@
     "name": "Acapulco Bay Skyline Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/H6JeGx0SuN4"
+        "https://www.youtube-nocookie.com/embed/8o1j9vIW7tc"
       ]
     },
     "languages": [],
@@ -125,18 +125,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/RYfflnKMhyg"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "KNTaWQUBuNDpKp",
-    "name": "Buccanos Beach Club",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/9SzSS5QhkQc"
       ]
     },
     "languages": [],
@@ -568,7 +556,7 @@
     "name": "Piedras Negras Cam 1",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/tuxYKLtk1rE"
+        "https://www.youtube-nocookie.com/embed/VXZETKlLHns"
       ]
     },
     "languages": [],
@@ -773,6 +761,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/d8MjS53ncyw"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "sPSEtyUMx2GPGu",
+    "name": "Puente Internacional 2 Piedras Negras-Eagle Pass",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/5D21RBKc_EU"
       ]
     },
     "languages": [],
@@ -1001,6 +1001,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/keWC1l1flQw"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "DVgHukB6ZgVM2s",
+    "name": "Uruapan Panoramic City View",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/iuk6apjkcRg"
       ]
     },
     "languages": [],

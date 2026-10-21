@@ -16,7 +16,7 @@
     "name": "Acapulco Bay Skyline Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/H6JeGx0SuN4"
+        "https://www.youtube-nocookie.com/embed/8o1j9vIW7tc"
       ]
     },
     "languages": [],
@@ -280,7 +280,7 @@
     "name": "AZGMRS White Tanks Repeater Site",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HQgQHML_3LI"
+        "https://www.youtube-nocookie.com/embed/R_ZPzC7cAF4"
       ]
     },
     "languages": [],
@@ -621,18 +621,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "9bKCqbtlN4su2y",
-    "name": "Bromo & Semeru Volcano Panorama",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ZQcPQx8PKQ8"
-      ]
-    },
-    "languages": [],
-    "country": "id",
     "isGeoBlocked": false
   },
   {
@@ -1217,18 +1205,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/JNVTH8R58Lk"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "bD3X4T7thLyxu9",
-    "name": "Dutch Flats Forest Road",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/URgBlL07djQ"
       ]
     },
     "languages": [],
@@ -2488,7 +2464,7 @@
     "name": "Le Morne",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/12ESXL9UrQs"
+        "https://www.youtube-nocookie.com/embed/jG1vCKGoNRw"
       ]
     },
     "languages": [],
@@ -3436,7 +3412,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/q-ob7AcnzKw"
+        "https://www.youtube-nocookie.com/embed/qCD4aqq1IFU"
       ]
     },
     "languages": [],
@@ -5856,6 +5832,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "DVgHukB6ZgVM2s",
+    "name": "Uruapan Panoramic City View",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/iuk6apjkcRg"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "xez197EZKGxp0M",
     "name": "Ushuaia City Center",
     "sources": {
@@ -5884,7 +5872,7 @@
     "name": "Val d'Isère",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/nq93DvK1orI"
+        "https://www.youtube-nocookie.com/embed/_AV_G_YlFII"
       ]
     },
     "languages": [],

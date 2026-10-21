@@ -12,18 +12,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "5kW4amB2IfzWDF",
-    "name": "Aeroporto de Navegantes",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/zF9fuiUv6vI"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Jb7iDsQvcXwrte",
     "name": "Afton Municipal Airport",
     "sources": {
@@ -220,7 +208,7 @@
     "name": "Chapecó Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/T1UAUCuDGV8"
+        "https://www.youtube-nocookie.com/embed/CePETOxBU04"
       ]
     },
     "languages": [],
@@ -244,7 +232,7 @@
     "name": "Congonhas Airport Camera 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/I2rxAvlMSJk"
+        "https://www.youtube-nocookie.com/embed/1uLR9i3e6zE"
       ]
     },
     "languages": [],
@@ -256,7 +244,7 @@
     "name": "Congonhas Airport Camera 3",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/UBXIYAruuLw"
+        "https://www.youtube-nocookie.com/embed/EDMbTR3WEeo"
       ]
     },
     "languages": [],
@@ -352,7 +340,7 @@
     "name": "Galeão International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/CGFnefYa7mI"
+        "https://www.youtube-nocookie.com/embed/mLcj7b7lI5U"
       ]
     },
     "languages": [],
@@ -388,7 +376,7 @@
     "name": "Guarulhos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/AkrsWw5p_7E"
+        "https://www.youtube-nocookie.com/embed/g1RmR7Tsqu8"
       ]
     },
     "languages": [],
@@ -400,7 +388,7 @@
     "name": "Guarulhos International Airport Runway 10L",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/3fvY-EmFCpw"
+        "https://www.youtube-nocookie.com/embed/7OcXHxmDjss"
       ]
     },
     "languages": [],
@@ -412,7 +400,7 @@
     "name": "Guarulhos International Airport Runway 10R",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/UfS8uA35fdc"
+        "https://www.youtube-nocookie.com/embed/EwePQpxi8Io"
       ]
     },
     "languages": [],
@@ -424,7 +412,7 @@
     "name": "Guarulhos International Airport Runway 28",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/h9XW1nBlpI0"
+        "https://www.youtube-nocookie.com/embed/9o-aJU6imR4"
       ]
     },
     "languages": [],
@@ -748,7 +736,7 @@
     "name": "London Heathrow Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/V_royqIDgIM"
+        "https://www.youtube-nocookie.com/embed/1LHnDtr2f5w"
       ]
     },
     "languages": [],
@@ -832,7 +820,7 @@
     "name": "Maho Beach Plane Spotting",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/UIdX3avKB0w"
+        "https://www.youtube-nocookie.com/embed/6Q1fwOrQfmM"
       ]
     },
     "languages": [],
@@ -953,18 +941,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/LRgGBlcL4KU"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "f29nBUByDkrDeo",
-    "name": "Naha Airport",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/rjKspIZjdXU"
       ]
     },
     "languages": [],
@@ -1252,7 +1228,7 @@
     "name": "Santos Dumont Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/1dDgK-OpAxs"
+        "https://www.youtube-nocookie.com/embed/lRvCWenP-Yk"
       ]
     },
     "languages": [],
@@ -1516,7 +1492,7 @@
     "name": "Viracopos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/TtGxJ3llGFA"
+        "https://www.youtube-nocookie.com/embed/sK-299JD5AI"
       ]
     },
     "languages": [],

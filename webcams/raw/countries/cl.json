@@ -72,6 +72,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "SJbHB726vFJHsr",
+    "name": "Desembocadura Río Maipo",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Uh2A0nVoqxc"
+      ]
+    },
+    "languages": [],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "oQ2glqO93BY6XT",
     "name": "El Quisco Beach",
     "sources": {
@@ -96,18 +108,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "bBY6z8cVSsfgRD",
-    "name": "Faro Monumental de La Serena",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/O6PdITWH_lQ"
-      ]
-    },
-    "languages": [],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "dPOa6DDgZlZNnX",
     "name": "Hanga Roa Coast, Rapa Nui",
     "sources": {
@@ -125,18 +125,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/0rJ4TKsW_Ng"
-      ]
-    },
-    "languages": [],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "wYi26bqQ0e6yrF",
-    "name": "Parque Padre Hurtado",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/_B8Eg-XBOcY"
       ]
     },
     "languages": [],
