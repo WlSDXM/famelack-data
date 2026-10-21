@@ -3448,7 +3448,12 @@
                 break;
 
             case ' ':
+                if (!audio.src) return;
+                e.preventDefault();
                 toggleRadio();
+                break;
+
+            case 'f':
 
             case 'f':
             case 'F':
