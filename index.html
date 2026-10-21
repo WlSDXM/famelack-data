@@ -340,6 +340,19 @@
         }
         .radio-np .note { color: var(--accent-color); margin-right: 6px; }
         .radio-np .np-artist { color: var(--text-color); }
+        .radio-np .np-track { display: inline-block; white-space: nowrap; }
+        .radio-np .np-gap { display: inline-block; width: 3em; }
+        .radio-np.scrolling {
+            text-overflow: clip;
+            -webkit-mask-image: linear-gradient(to right, transparent 0, #000 20px, #000 calc(100% - 20px), transparent 100%);
+            mask-image: linear-gradient(to right, transparent 0, #000 20px, #000 calc(100% - 20px), transparent 100%);
+        }
+        .radio-np.scrolling .np-track { animation: np-scroll var(--np-dur, 12s) linear infinite; }
+        .radio-np.scrolling:hover .np-track { animation-play-state: paused; }
+        @keyframes np-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+        @media (prefers-reduced-motion: reduce) {
+            .radio-np.scrolling .np-track { animation: none; }
+        }
         @media (max-width: 700px) {
             .radio-play { width: 44px; height: 44px; }
             input.radio-slider { width: 90px; }
@@ -1417,32 +1430,49 @@
     }
 
     // --- now playing (track / artist) ---
-    let npTimer = null;
-    let npToken = 0;
+        let lastNPKey = '';
 
-    function clearNowPlaying() {
-        npToken++;
-        clearInterval(npTimer);
-        npTimer = null;
-        radioNowPlaying.hidden = true;
-        radioNowPlaying.textContent = '';
-    }
-
-    function showNowPlaying(artist, title) {
-        radioNowPlaying.textContent = '';
+    function buildNowPlayingCopy(artist, title) {
+        const copy = document.createElement('span');
         const note = document.createElement('span');
         note.className = 'note';
         note.textContent = '\u266A';
-        radioNowPlaying.append(note);
+        copy.append(note);
         if (artist) {
             const a = document.createElement('span');
             a.className = 'np-artist';
             a.textContent = artist;
-            radioNowPlaying.append(a, ' \u2014 ');
+            copy.append(a, ' \u2014 ');
         }
-        radioNowPlaying.append(title); 
+        copy.append(title); 
+        return copy;
+    }
+
+    function showNowPlaying(artist, title) {
+        // same song as last poll: leave it alone so the scroll doesn't restart
+        const key = artist + '|' + title;
+        if (key === lastNPKey && !radioNowPlaying.hidden) return;
+        lastNPKey = key;
+
+        radioNowPlaying.textContent = '';
+        radioNowPlaying.classList.remove('scrolling');
+        radioNowPlaying.style.removeProperty('--np-dur');
+        const track = document.createElement('span');
+        track.className = 'np-track';
+        track.append(buildNowPlayingCopy(artist, title));
+        radioNowPlaying.append(track);
         radioNowPlaying.title = (artist ? artist + ' \u2014 ' : '') + title;
         radioNowPlaying.hidden = false;
+
+        // only scroll when the text doesn't fit
+        if (track.offsetWidth > radioNowPlaying.clientWidth) {
+            const gap = document.createElement('span');
+            gap.className = 'np-gap';
+            track.append(gap, buildNowPlayingCopy(artist, title), gap.cloneNode());
+            const secs = Math.max(8, (track.offsetWidth / 2) / 35); 
+            radioNowPlaying.style.setProperty('--np-dur', secs + 's');
+            radioNowPlaying.classList.add('scrolling');
+        }
     }
 
     async function pollNowPlaying() {
