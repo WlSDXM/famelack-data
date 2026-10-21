@@ -88,7 +88,7 @@
     "name": "HBC Hokkaido News 24",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/f5mHDWT6uzo"
+        "https://www.youtube-nocookie.com/embed/zaqvGQiTWBE"
       ]
     },
     "languages": [
@@ -117,20 +117,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/tvgbZZYS4Nk"
-      ]
-    },
-    "languages": [
-      "jpn"
-    ],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "G0HNzTOFDVRXMe",
-    "name": "JapaNews24",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/NDNterSQLtU"
       ]
     },
     "languages": [
@@ -186,7 +172,7 @@
     "name": "MRO",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/AIr3rc_XQYc"
+        "https://www.youtube-nocookie.com/embed/IsiyLhzbBwc"
       ]
     },
     "languages": [
@@ -268,39 +254,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "RBU2hbbWKTIbuY",
-    "name": "Pokémon Kids TV Japanese",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Ue29oHvd-HM"
-      ]
-    },
-    "languages": [
-      "jpn"
-    ],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "wXR8eBaeZKqj0W",
     "name": "QVC",
     "sources": {
       "streams": [
         "https://d1flvb4iqlercm.cloudfront.net/live/live_1080p_2nd.m3u8"
-      ]
-    },
-    "languages": [
-      "jpn"
-    ],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "PjUU6ZmfuLbOka",
-    "name": "RCC News 24",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/GlRZMNsAkM4"
       ]
     },
     "languages": [

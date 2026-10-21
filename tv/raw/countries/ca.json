@@ -495,25 +495,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "LRBUacm9msNRQ8",
-    "name": "Fight Network",
+    "nanoid": "3PWIwG9FFIlO5Y",
+    "name": "Game+",
     "sources": {
       "streams": [
-        "https://a-cdn.klowdtv.com/live2/fight_720p/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "oj7vX3xxxcxlj0",
-    "name": "Fugget About It",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/coPmE-pZDww"
+        "https://a-cdn.klowdtv.com/live2/fntsy_720p/playlist.m3u8"
       ]
     },
     "languages": [
@@ -555,9 +541,9 @@
     "name": "Gusto TV",
     "sources": {
       "streams": [
+        "https://amg01077-gusto-gustous-firetv.amagi.tv/playlist.m3u8",
         "https://e75fc053c0d2406fb74cdd71d77e1a7f.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/RakutenTV-eu_GustoTV/playlist.m3u8",
-        "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01077-gustoworldwidem-gustotvnz-samsungnz/playlist.m3u8",
-        "https://d31d5kw64c7b6i.cloudfront.net/v1/gustotv_samsung/samsungheadend_us/latest/main/hls/playlist.m3u8"
+        "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01077-gustoworldwidem-gustotvnz-samsungnz/playlist.m3u8"
       ]
     },
     "languages": [
@@ -780,6 +766,20 @@
     "sources": {
       "streams": [
         "https://rcavlive.akamaized.net/hls/live/704023/cancktv/master.m3u8"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "ca",
+    "isGeoBlocked": true
+  },
+  {
+    "nanoid": "fEhQEHi1zhQ9J9",
+    "name": "Ici Radio-Canada Télé Saskatchewan (CBKFT-DT)",
+    "sources": {
+      "streams": [
+        "https://rcavlive.akamaized.net/hls/live/704019/cancbkft/master.m3u8"
       ]
     },
     "languages": [
@@ -2070,20 +2070,6 @@
     ],
     "country": "ca",
     "isGeoBlocked": false
-  },
-  {
-    "nanoid": "26wbYyZD2WNH5P",
-    "name": "TV Punjab",
-    "sources": {
-      "streams": [
-        "https://932y483pdjv8-hls-live.5centscdn.com/stream/deb10bae362f810630ec3abedcae5894.sdp/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "pan"
-    ],
-    "country": "ca",
-    "isGeoBlocked": true
   },
   {
     "nanoid": "bXKVlszQEGdoup",

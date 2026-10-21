@@ -626,20 +626,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "jMajOHWjzDHSSI",
-    "name": "HBO 2 Latin America",
-    "sources": {
-      "streams": [
-        "https://bantel-cdn1.iptvperu.tv:1936/Bantel_new/hbo2/chunks.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "us",
-    "isGeoBlocked": true
-  },
-  {
     "nanoid": "nbJaIRnlOXsI50",
     "name": "HBO East",
     "sources": {
@@ -664,20 +650,6 @@
     },
     "languages": [
       "eng",
-      "spa"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "qr5SJlcRAJmYsA",
-    "name": "HBO Xtreme Latin America",
-    "sources": {
-      "streams": [
-        "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/HBO_Xtreme/chunks.m3u8"
-      ]
-    },
-    "languages": [
       "spa"
     ],
     "country": "us",
@@ -1036,6 +1008,34 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "MmvGAkIJ1Y1or8",
+    "name": "Shout! Studios: Dennis the Menace",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/WXO-MHe_fYg"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "JfdQ8GXk8vD883",
+    "name": "Shout! Studios: Father Knows Best",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/1vs0tkRsJH0"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "rkSBlkz2deLyQZ",
     "name": "Shout! Studios: Get A Life",
     "sources": {
@@ -1076,20 +1076,6 @@
       "fra"
     ],
     "country": "fr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "i6qK9glkflv1h2",
-    "name": "Star Channel Latin America South",
-    "sources": {
-      "streams": [
-        "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/StarChannel.stream/chunks.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -1217,34 +1203,6 @@
     },
     "languages": [
       "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "eH1h99AZo4vgfa",
-    "name": "TNT Novelas Panregional",
-    "sources": {
-      "streams": [
-        "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/tntnovelas.stream/chunks.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ar",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "JU01sbHNW54UMe",
-    "name": "TNT Series Latin America South",
-    "sources": {
-      "streams": [
-        "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/TNTseries.stream/chunks.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
     ],
     "country": "us",
     "isGeoBlocked": false

@@ -476,20 +476,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Dc90aqSkVbLUNa",
-    "name": "Canal 6 Viento Recio",
-    "sources": {
-      "streams": [
-        "https://stmvideo6.livecastv.com/vientorecio/vientorecio/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ar",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "1Lh8QNqMEer0yM",
     "name": "Canal 7 Jujuy",
     "sources": {
@@ -550,9 +536,6 @@
     "nanoid": "zBHIZ3xX6aJN4H",
     "name": "Canal 8 San Juan",
     "sources": {
-      "streams": [
-        "https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8"
-      ],
       "youtube": [
         "https://www.youtube-nocookie.com/embed/K7gtCWpnFNY"
       ]
@@ -978,7 +961,8 @@
     "name": "Cosmos Tv",
     "sources": {
       "streams": [
-        "https://canaletaplus.com:3922/live/cosmoslive.m3u8"
+        "https://canaletaplus.com:3922/live/cosmoslive.m3u8",
+        "https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8"
       ]
     },
     "languages": [
@@ -1045,20 +1029,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "kaWD4k5fRzrmVH",
-    "name": "Disney Channel Latin America South",
-    "sources": {
-      "streams": [
-        "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/disney-channel-key/chunks.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ar",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "aDVjvDueowqzIg",
     "name": "Disney Jr. Latin America South",
     "sources": {
@@ -1119,7 +1089,7 @@
     "name": "El Observador 107.9",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/w3UeO6Xmvck"
+        "https://www.youtube-nocookie.com/embed/lix2TOsij94"
       ]
     },
     "languages": [
@@ -1189,49 +1159,7 @@
     "name": "El Tres TV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/_ywcO3uQBWg"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ar",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "UaNiFkG4kf7HPd",
-    "name": "ESPN 2 Latin America Argentina",
-    "sources": {
-      "streams": [
-        "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn2-mux/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ar",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "HQCC1x7HYw1qFT",
-    "name": "ESPN 3 Latin America Argentina",
-    "sources": {
-      "streams": [
-        "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn3-mux/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ar",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "AxN2fJUCTjZSHD",
-    "name": "ESPN Latin America Argentina",
-    "sources": {
-      "streams": [
-        "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn-mux/chunks.m3u8"
+        "https://www.youtube-nocookie.com/embed/0M7YmNhxn8s"
       ]
     },
     "languages": [
@@ -1256,11 +1184,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "MzJbIfUKCeqrsU",
-    "name": "Folcloreando TV",
+    "nanoid": "NYXd2ClRBhOZGJ",
+    "name": "FMVale975",
     "sources": {
-      "streams": [
-        "https://stmvideo6.livecastv.com/radioactivasanjuan/radioactivasanjuan/playlist.m3u8"
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/5gwXlfuBNHg"
       ]
     },
     "languages": [
@@ -1270,11 +1198,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "igtooqWRJnKwBu",
-    "name": "Fox Sports 2",
+    "nanoid": "MzJbIfUKCeqrsU",
+    "name": "Folcloreando TV",
     "sources": {
       "streams": [
-        "https://zapster.trapemn.tv:1936/CD-LATAM/FoxSports2/playlist.m3u8"
+        "https://stmvideo6.livecastv.com/radioactivasanjuan/radioactivasanjuan/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1707,53 +1635,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "rPtKuLjPt7QNrN",
-    "name": "Sicardi TV",
-    "sources": {
-      "streams": [
-        "https://vivo.solumedia.com:19360/sicarditv/sicarditv.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ar",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "YxnrRBtigW6aWE",
-    "name": "Space South",
-    "sources": {
-      "streams": [
-        "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/space.stream/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ar",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "4mdYQiNJkinqB7",
     "name": "T5 Satelital",
     "sources": {
       "streams": [
         "https://stream.t5satelital.blog/hls/t5satelitalweb.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ar",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "lwUs8vce39cW6q",
-    "name": "Tele Posadas",
-    "sources": {
-      "streams": [
-        "https://iptv.ixfo.com.ar:30443/live/TelePosadasTv/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1823,7 +1709,7 @@
     "name": "Televisión Pública",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/vHZL5oZ4wb4"
+        "https://www.youtube-nocookie.com/embed/4tZgSlB7p2U"
       ]
     },
     "languages": [
@@ -1852,20 +1738,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/cb12KmMMDJA"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ar",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "eH1h99AZo4vgfa",
-    "name": "TNT Novelas Panregional",
-    "sources": {
-      "streams": [
-        "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/tntnovelas.stream/chunks.m3u8"
       ]
     },
     "languages": [
@@ -1945,20 +1817,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "VxXPHwWoMl0QhJ",
-    "name": "TV Universidad",
-    "sources": {
-      "streams": [
-        "https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ar",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "EKNDDi7VGJbPZ6",
     "name": "TyC Sports",
     "sources": {
@@ -2020,7 +1878,7 @@
     "name": "Urbana Play 104.3 FM",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/rHRVreluaho"
+        "https://www.youtube-nocookie.com/embed/u5ZeG-R3wSY"
       ]
     },
     "languages": [

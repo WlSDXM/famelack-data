@@ -56,20 +56,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "PCHpCRc0yRAZbi",
-    "name": "Canal IPe",
-    "sources": {
-      "streams": [
-        "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/ipe.stream/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "pe",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "GqeqAajjIHfMlp",
     "name": "Discovery Family",
     "sources": {
@@ -140,20 +126,6 @@
     ],
     "country": "bd",
     "isGeoBlocked": false
-  },
-  {
-    "nanoid": "EfMysIwBQHxW6i",
-    "name": "HBO Family Latin America",
-    "sources": {
-      "streams": [
-        "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/HBO_Family/chunks.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "us",
-    "isGeoBlocked": true
   },
   {
     "nanoid": "kqvwW1XwAcBjR3",

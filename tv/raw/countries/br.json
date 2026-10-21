@@ -262,7 +262,7 @@
     "name": "CNN Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/dW_VbkiQZzE"
+        "https://www.youtube-nocookie.com/embed/c1C3Wm7E288"
       ]
     },
     "languages": [
@@ -389,7 +389,7 @@
     "name": "Diva Depressão",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/GhWw4JYa0cM"
+        "https://www.youtube-nocookie.com/embed/OLi4qsraIRQ"
       ]
     },
     "languages": [
@@ -651,20 +651,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "dlSxOcHpkY3viD",
-    "name": "NickOnline Bob Esponja",
-    "sources": {
-      "streams": [
-        "https://bob.x1colegal.com/hls/stream.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "kuBm514WWhIzx5",
     "name": "NTV",
     "sources": {
@@ -697,7 +683,7 @@
     "name": "Peppa Pig Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Pb7dW4LwWfg"
+        "https://www.youtube-nocookie.com/embed/CfcN6aCzzBU"
       ]
     },
     "languages": [
@@ -725,7 +711,7 @@
     "name": "PJ Masks Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4q-tvDUa-RY"
+        "https://www.youtube-nocookie.com/embed/SCE-7z3-gWw"
       ]
     },
     "languages": [
@@ -798,7 +784,7 @@
         "https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/XEw29TBkPhI"
+        "https://www.youtube-nocookie.com/embed/CHUZ0hjRrdI"
       ]
     },
     "languages": [
@@ -967,7 +953,7 @@
     "name": "Rio TV Câmara",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/747fhkMTVSQ"
+        "https://www.youtube-nocookie.com/embed/IucA-xvtMrU"
       ]
     },
     "languages": [
@@ -981,7 +967,7 @@
     "name": "Santa Cruz Feira Digital",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/5GOdkEzpgCQ"
+        "https://www.youtube-nocookie.com/embed/GsRvRkmNJWY"
       ]
     },
     "languages": [
@@ -1220,7 +1206,7 @@
     "name": "TV Assembleia Minas Gerais",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ofHybTemsp4"
+        "https://www.youtube-nocookie.com/embed/2U8e5GPeBdw"
       ]
     },
     "languages": [
@@ -1413,20 +1399,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "OXfFnCDtrQdqyq",
-    "name": "TV Guara",
-    "sources": {
-      "streams": [
-        "https://video02.logicahost.com.br/tvguara23/tvguara23/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "kKdpiUaDF9L3Eb",
     "name": "TV Guarapari",
     "sources": {
@@ -1460,6 +1432,20 @@
     "sources": {
       "streams": [
         "https://streaming.cloudecast.com/hls/tvlifeamerica/index.m3u8"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Xpp6oPU4K564FV",
+    "name": "TV Litoral RN",
+    "sources": {
+      "streams": [
+        "https://5ad482a77183d.streamlock.net/tvnordesteegmail.com/tvnordesteegmail.com/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1511,11 +1497,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "UyGsvptczRmJRz",
-    "name": "TV Nordestina",
+    "nanoid": "9Z6UmtBHKa0451",
+    "name": "TV Notícia",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4btUGUfdQs8"
+        "https://www.youtube-nocookie.com/embed/d_8xwJLbBTA"
       ]
     },
     "languages": [
@@ -1643,6 +1629,20 @@
     "sources": {
       "streams": [
         "https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "3SFbEQ5XiHL1nO",
+    "name": "TV Sul Bahia",
+    "sources": {
+      "streams": [
+        "https://live.cdn.upx.com/00046/myStream.sdp/playlist.m3u8"
       ]
     },
     "languages": [

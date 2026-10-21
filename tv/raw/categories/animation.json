@@ -126,17 +126,17 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "lSTW1dzY0A0GTW",
-    "name": "Cartoon Classics FAST",
+    "nanoid": "jjxluM4t32zhEk",
+    "name": "Botflix TV",
     "sources": {
       "streams": [
-        "https://daiconnect.com/live/hls/tvup/rk-cartoonclassics/578f4b7eb725168349ec0af81b21d388/index.m3u8"
+        "https://hls.botflix.tv/tv/index.m3u8"
       ]
     },
     "languages": [
       "eng"
     ],
-    "country": "pl",
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -184,20 +184,6 @@
     },
     "languages": [],
     "country": "in",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "6PXWfNXySezA4E",
-    "name": "Cartoon Network Latin America South Atlantic",
-    "sources": {
-      "streams": [
-        "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/cartoonnetwork.stream/chunks.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -252,20 +238,6 @@
     },
     "languages": [
       "por",
-      "spa"
-    ],
-    "country": "ar",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "kaWD4k5fRzrmVH",
-    "name": "Disney Channel Latin America South",
-    "sources": {
-      "streams": [
-        "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/disney-channel-key/chunks.m3u8"
-      ]
-    },
-    "languages": [
       "spa"
     ],
     "country": "ar",
@@ -379,20 +351,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "oj7vX3xxxcxlj0",
-    "name": "Fugget About It",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/coPmE-pZDww"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "ca",
     "isGeoBlocked": false
   },
   {
@@ -664,17 +622,17 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "dlSxOcHpkY3viD",
-    "name": "NickOnline Bob Esponja",
+    "nanoid": "B7oUuXqbWsfBhP",
+    "name": "OGGY",
     "sources": {
-      "streams": [
-        "https://bob.x1colegal.com/hls/stream.m3u8"
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/pxmIY1oPW6w"
       ]
     },
     "languages": [
-      "por"
+      "eng"
     ],
-    "country": "br",
+    "country": "fr",
     "isGeoBlocked": false
   },
   {
@@ -682,7 +640,7 @@
     "name": "PJ Masks Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4q-tvDUa-RY"
+        "https://www.youtube-nocookie.com/embed/SCE-7z3-gWw"
       ]
     },
     "languages": [
@@ -774,20 +732,6 @@
       "eng"
     ],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "e2QKMdwgfK4Vxo",
-    "name": "Simon Super Lapin",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/zUV96NgJVUM"
-      ]
-    },
-    "languages": [
-      "fra"
-    ],
-    "country": "fr",
     "isGeoBlocked": false
   },
   {

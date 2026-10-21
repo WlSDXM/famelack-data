@@ -1355,20 +1355,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "PNF9zodERQr3Zm",
-    "name": "SQOOL TV",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/N16IEGx4BNk"
-      ]
-    },
-    "languages": [
-      "fra"
-    ],
-    "country": "fr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "sJBxRr1Fg3I5q3",
     "name": "St Lucie Public Schools",
     "sources": {
@@ -1492,20 +1478,6 @@
       "spa"
     ],
     "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "VxXPHwWoMl0QhJ",
-    "name": "TV Universidad",
-    "sources": {
-      "streams": [
-        "https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ar",
     "isGeoBlocked": false
   },
   {

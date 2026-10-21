@@ -32,7 +32,6 @@
     "name": "Az TV",
     "sources": {
       "streams": [
-        "https://str.yodacdn.net/azertv/index.m3u8",
         "https://stream8.cinerama.uz/1455/tracks-v1a1/mono.m3u8"
       ]
     },
@@ -76,7 +75,7 @@
         "https://rtmp.baku.tv/hls/bakutv.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/WESfqHDs9V8"
+        "https://www.youtube-nocookie.com/embed/Zx0WArd81RA"
       ]
     },
     "languages": [
@@ -91,20 +90,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/HcHEkVe52rc"
-      ]
-    },
-    "languages": [
-      "aze"
-    ],
-    "country": "az",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "bTpfDJ5yQNPKEE",
-    "name": "Kanal 35",
-    "sources": {
-      "streams": [
-        "https://str2.yodacdn.net/kanal35/index.m3u8"
       ]
     },
     "languages": [
@@ -181,36 +166,6 @@
     },
     "languages": [
       "aze"
-    ],
-    "country": "az",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "b1w0a8CZ0CNs0I",
-    "name": "Medeniyyet TV",
-    "sources": {
-      "streams": [
-        "https://str.yodacdn.net/medeniyyettele/index.m3u8"
-      ]
-    },
-    "languages": [
-      "aze"
-    ],
-    "country": "az",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "jlkmejIqbIV0I0",
-    "name": "Naxcivan TV",
-    "sources": {
-      "streams": [
-        "https://str2.yodacdn.net/ntv/video.m3u8"
-      ]
-    },
-    "languages": [
-      "aze",
-      "eng",
-      "rus"
     ],
     "country": "az",
     "isGeoBlocked": false

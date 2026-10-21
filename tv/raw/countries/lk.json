@@ -74,7 +74,7 @@
     "name": "Methmaga TV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/hzwEjkmSOF0"
+        "https://www.youtube-nocookie.com/embed/Hdp-DWlfBtg"
       ]
     },
     "languages": [
@@ -103,6 +103,20 @@
     "sources": {
       "streams": [
         "https://rpn.bozztv.com/slrclive/slrc/slrclive/index.m3u8"
+      ]
+    },
+    "languages": [
+      "sin"
+    ],
+    "country": "lk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "PV4q0CxdmR4YKH",
+    "name": "Sathi TV",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/rVOG-tj8EHo"
       ]
     },
     "languages": [

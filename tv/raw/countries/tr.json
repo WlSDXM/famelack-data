@@ -255,6 +255,7 @@
     "sources": {
       "streams": [
         "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8",
+        "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8",
         "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8"
       ],
       "youtube": [
@@ -273,90 +274,6 @@
     "sources": {
       "streams": [
         "https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "ku25PgpMkqJSyv",
-    "name": "beIN Sports 1 Turk",
-    "sources": {
-      "streams": [
-        "https://andro.mangeinde4.lat/checklist/androstreamlivebs1.m3u8"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "eKQmc0CUfOq0WB",
-    "name": "beIN Sports 2 Turk",
-    "sources": {
-      "streams": [
-        "https://andro.mangeinde4.lat/checklist/androstreamlivebs2.m3u8"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "NuMGFVrp9f7mjr",
-    "name": "beIN Sports 3 Turk",
-    "sources": {
-      "streams": [
-        "https://andro.mangeinde4.lat/checklist/androstreamlivebs3.m3u8"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "UKEPbHZoqH6rnF",
-    "name": "beIN Sports 4 Turk",
-    "sources": {
-      "streams": [
-        "https://andro.mangeinde4.lat/checklist/androstreamlivebs4.m3u8"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "pTBtifoxaA356s",
-    "name": "beIN Sports 5 Turk",
-    "sources": {
-      "streams": [
-        "https://andro.mangeinde4.lat/checklist/androstreamlivebs5.m3u8"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "sV6SFC7sFAi48U",
-    "name": "beIN Sports Haber",
-    "sources": {
-      "streams": [
-        "https://andro.mangeinde4.lat/checklist/androstreamlivebsh.m3u8"
       ]
     },
     "languages": [
@@ -488,20 +405,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/JyMeD9wfMZQ"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "6EhlkDLmeZJVkW",
-    "name": "Cartoon Network Türkiye: Kral Şakir",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/5Whk9MVTpI4"
       ]
     },
     "languages": [
@@ -657,6 +560,20 @@
     "sources": {
       "streams": [
         "https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "tur"
+    ],
+    "country": "tr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "WhJMVtLO9qlGWk",
+    "name": "Dost TV",
+    "sources": {
+      "streams": [
+        "https://dost.stream.emsal.im/tv/live.m3u8"
       ]
     },
     "languages": [
@@ -825,34 +742,6 @@
     "sources": {
       "streams": [
         "https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "M5stHfuDBD6Elk",
-    "name": "Eurosport 1 Turkiye",
-    "sources": {
-      "streams": [
-        "https://andro.mangeinde4.lat/checklist/androstreamlivees1.m3u8"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "6vrI5IV6etrkp6",
-    "name": "Eurosport 2 Turkiye",
-    "sources": {
-      "streams": [
-        "https://andro.mangeinde4.lat/checklist/androstreamlivees2.m3u8"
       ]
     },
     "languages": [
@@ -1041,9 +930,6 @@
     "sources": {
       "streams": [
         "https://halktv-live.daioncdn.net/halktv/halktv.m3u8"
-      ],
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/8_qAqJdVAuM"
       ]
     },
     "languages": [
@@ -1978,6 +1864,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "5GoagSnDbPwxmH",
+    "name": "Tele 1",
+    "sources": {
+      "streams": [
+        "https://tele1-live.ercdn.net/tele1/tele1.m3u8"
+      ]
+    },
+    "languages": [
+      "tur"
+    ],
+    "country": "tr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "rqkOBR323x5UjG",
     "name": "Tempo TV",
     "sources": {
@@ -2028,9 +1928,6 @@
     "sources": {
       "streams": [
         "https://tjktv-live.tjk.org/tjktv.m3u8"
-      ],
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/RpkRsuCFh6M"
       ]
     },
     "languages": [
