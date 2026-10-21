@@ -1429,8 +1429,19 @@
         }
     }
 
-    // --- now playing (track / artist) ---
-        let lastNPKey = '';
+     // --- now playing (track / artist) ---
+    let npTimer = null;
+    let npToken = 0;
+
+    function clearNowPlaying() {
+        npToken++;
+        clearInterval(npTimer);
+        npTimer = null;
+        radioNowPlaying.hidden = true;
+        radioNowPlaying.textContent = '';
+    }
+
+    let lastNPKey = '';
 
     function buildNowPlayingCopy(artist, title) {
         const copy = document.createElement('span');
@@ -3482,8 +3493,6 @@
                 e.preventDefault();
                 toggleRadio();
                 break;
-
-            case 'f':
 
             case 'f':
             case 'F':
