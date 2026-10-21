@@ -8,9 +8,12 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title>Earth — World Views & Radio</title>
     <link rel="icon" href="https://i.imgur.com/KwX2CTv.gif">
-    <link rel="apple-touch-icon" href="https://files.catbox.moe/9nxv1t.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="https://files.catbox.moe/9nxv1t.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="https://files.catbox.moe/9nxv1t.png">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="icons/icon-512.png">
+    <meta name="application-name" content="Earth">
+    <meta name="apple-mobile-web-app-title" content="Earth">
     <meta name="mobile-web-app-capable" content="yes">
     <meta property="og:image" content="https://i.postimg.cc/bJBx0GRz/jpnearth-ascii-art-ezgif-com-optimize-(1).gif" />
     <meta property="twitter:card" content="summary_large_image">
@@ -1565,6 +1568,74 @@
     audio.addEventListener('volumechange', syncVolumeUI);
     syncRadioUI();
     syncVolumeUI();
+
+    // ============ MEDIA SESSION (lock screen / Bluetooth / car controls) ============
+    function currentStationName() {
+        const o = radioStationSelect.options[radioStationSelect.selectedIndex];
+        return o && o.value ? o.textContent : 'Earth Radio';
+    }
+    function currentCountryName() {
+        const o = radioCountrySelect.options[radioCountrySelect.selectedIndex];
+        return o && o.value ? o.textContent.replace(/\s*\(\d+\)\s*$/, '') : 'Earth';
+    }
+
+    function setMediaSessionMeta(artist, title) {
+        if (!('mediaSession' in navigator) || typeof MediaMetadata === 'undefined') return;
+        if (!audio.getAttribute('src')) { navigator.mediaSession.metadata = null; return; }
+        const station = currentStationName();
+        navigator.mediaSession.metadata = new MediaMetadata({
+            title: title || station,
+            artist: title ? (artist || station) : currentCountryName(),
+            album: title ? station : 'Earth Radio',
+            artwork: [
+                { src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' },
+                { src: 'icons/icon-512.png', sizes: '512x512', type: 'image/png' }
+            ]
+        });
+    }
+
+    // Send the track name to the lock screen whenever the on-page track line changes.
+    (function () {
+        const origShow = showNowPlaying;
+        const origClear = clearNowPlaying;
+        showNowPlaying = function (artist, title) { origShow(artist, title); setMediaSessionMeta(artist, title); };
+        clearNowPlaying = function () { origClear(); setMediaSessionMeta(); };
+    })();
+
+    function syncMediaState() {
+        if (!('mediaSession' in navigator)) return;
+        navigator.mediaSession.playbackState =
+            !audio.getAttribute('src') ? 'none' : (audio.paused ? 'paused' : 'playing');
+    }
+    ['play', 'playing', 'pause', 'emptied', 'loadstart', 'error']
+        .forEach(ev => audio.addEventListener(ev, syncMediaState));
+
+    // Next / previous on the lock screen = next / previous station in the current country.
+    function stepStation(dir) {
+        const opts = Array.from(radioStationSelect.options)
+            .filter(o => o.value && !o.disabled && !o.value.startsWith('fav:'));
+        if (!opts.length) return;
+        const i = opts.findIndex(o => o.value === radioStationSelect.value);
+        const next = opts[(i + dir + opts.length) % opts.length];
+        radioStationSelect.value = next.value;
+        radioStationSelect.dispatchEvent(new Event('change', { bubbles: true }));
+    }
+
+    if ('mediaSession' in navigator) {
+        const setHandler = (name, fn) => { try { navigator.mediaSession.setActionHandler(name, fn); } catch (e) {} };
+        setHandler('play', () => { if (audio.getAttribute('src') && audio.paused) toggleRadio(); });
+        setHandler('pause', () => audio.pause());
+        setHandler('stop', () => audio.pause());
+        setHandler('nexttrack', () => stepStation(1));
+        setHandler('previoustrack', () => stepStation(-1));
+    }
+
+    // ============ PWA: service worker (installable app) ============
+    if ('serviceWorker' in navigator && location.protocol === 'https:') {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('sw.js').catch(err => console.log('Service worker failed:', err));
+        });
+    }        
     
 
     // ============ VISUALIZER ============
