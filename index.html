@@ -937,7 +937,8 @@
                         <option value="ansi">ANSI</option>                        
                         <option value="droplet">Droplet</option>
                         <option value="fish">Fish Tank</option>
-                        <option value="terrain">Grid</option>                        
+                        <option value="terrain">Grid</option>
+                        <option value="milkdrop">Winamp</option>
                     </select>
                     <button id="radioStar" class="cam-star" title="Save to favorites" style="margin-left: auto;">★</button>
                 </div>
@@ -3968,6 +3969,377 @@ window.saveTVFavorites(existingTV);
         gl.bindTexture(gl.TEXTURE_2D, pingPong ? milkdropTexture2 : milkdropTexture);
         gl.drawArrays(gl.TRIANGLES, 0, 6);
     }
+
+
+    // ============ MILKDROP-STYLE VISUALIZER (WebGL) ============
+    // Uses things your page already has: analyser, freqData, timeData, isAudioPlaying,
+    // currentStyle, vizStyleSelect, canvas, sizeCanvas, and the hidden <canvas id="glCanvas">.
+    // Click the visualizer = next look. Double-click = fullscreen.
+    const MD = {
+        gl: null, state: 'new', cur: 0, w: 0, h: 0, tex: [null, null], fbo: [null, null],
+        last: 0, t: 0, preset: 0, presetAt: 0, bass: 0, bassAvg: 0, mid: 0, treb: 0, flash: 0,
+        prog: {}, loc: {}, quad: null, waveBuf: null, clickTimer: 0
+    };
+
+    const MD_AUTO_CYCLE_MS = 40000; // 0 = never switch looks by itself
+    const MD_PRESETS = [
+        { name: 'Storm',  zoom: 1.010, rot: 0.012,  warp: 0.030, sym: 1, hue: 0.085,  decay: 0.955, wave: 'line',   col: [0.35, 1.00, 0.95], gain: 0.95 },
+        { name: 'Vortex', zoom: 1.016, rot: 0.028,  warp: 0.012, sym: 6, hue: 0.045,  decay: 0.955, wave: 'circle', col: [0.95, 0.45, 1.00], gain: 0.7 },
+        { name: 'Aurora', zoom: 1.003, rot: 0.003,  warp: 0.034, sym: 0, hue: 0.030,  decay: 0.955, wave: 'lines',  col: [0.45, 1.00, 0.70], gain: 1.0 },
+        { name: 'Ember',  zoom: 1.007, rot: -0.020, warp: 0.024, sym: 1, hue: -0.060, decay: 0.950, wave: 'circle', col: [1.00, 0.65, 0.25], gain: 0.7 }
+    ];
+
+    const MD_VS = `
+        attribute vec3 a_pos;
+        varying vec2 v_uv;
+        varying float v_edge;
+        void main() {
+            v_uv = a_pos.xy * 0.5 + 0.5;
+            v_edge = a_pos.z;
+            gl_Position = vec4(a_pos.xy, 0.0, 1.0);
+        }`;
+
+    const MD_FS_WARP = `
+        #ifdef GL_FRAGMENT_PRECISION_HIGH
+        precision highp float;
+        #else
+        precision mediump float;
+        #endif
+        varying vec2 v_uv;
+        uniform sampler2D u_prev;
+        uniform vec2 u_texel;
+        uniform float u_aspect, u_time, u_zoom, u_rot, u_warp, u_decay, u_hue, u_sym, u_blur;
+
+        vec3 hueRot(vec3 c, float a) {
+            const vec3 k = vec3(0.57735026);
+            float ca = cos(a), sa = sin(a);
+            return c * ca + cross(k, c) * sa + k * dot(k, c) * (1.0 - ca);
+        }
+
+        void main() {
+            vec2 p = (v_uv - 0.5) * vec2(u_aspect, 1.0);
+
+            // symmetry: 1 = mirror left/right + top/bottom, 3+ = kaleidoscope with that many slices
+            if (u_sym > 2.5) {
+                float r0 = length(p);
+                float a0 = atan(p.y, p.x);
+                float seg = 6.2831853 / u_sym;
+                a0 = abs(mod(a0, seg) - seg * 0.5);
+                p = vec2(cos(a0), sin(a0)) * r0;
+            } else if (u_sym > 0.5) {
+                p = abs(p);
+            }
+
+            // spin + zoom around the centre
+            float ca = cos(u_rot), sa = sin(u_rot);
+            p = vec2(ca * p.x - sa * p.y, sa * p.x + ca * p.y);
+            p /= u_zoom;
+
+            // slow rippling distortion
+            float r = length(p);
+            p += u_warp * vec2(
+                    sin(p.y * 7.0 + u_time * 1.1) + sin(p.x * 3.0 - u_time * 0.7),
+                    cos(p.x * 6.0 - u_time * 0.9) + cos(p.y * 4.0 + u_time * 0.6)
+                ) * (0.35 + r);
+
+            vec2 uv = p / vec2(u_aspect, 1.0) + 0.5;
+            vec2 oq = abs(uv - 0.5) - 0.5;
+            float edge = 1.0 - smoothstep(0.0, 0.06, max(oq.x, oq.y)); // fade out whatever drifts past the edges
+            uv = 1.0 - abs(1.0 - mod(uv, 2.0));
+
+            vec2 d = u_texel * u_blur;
+            vec3 c = texture2D(u_prev, uv).rgb * 4.0;
+            c += texture2D(u_prev, uv + vec2(d.x, 0.0)).rgb;
+            c += texture2D(u_prev, uv - vec2(d.x, 0.0)).rgb;
+            c += texture2D(u_prev, uv + vec2(0.0, d.y)).rgb;
+            c += texture2D(u_prev, uv - vec2(0.0, d.y)).rgb;
+            c = c / 8.0 * edge;
+
+            c = hueRot(c, u_hue);                              // old trails slide through the colour wheel
+            float l = dot(c, vec3(0.299, 0.587, 0.114));
+            c = mix(vec3(l), c, 1.06);                         // keep colours rich
+            c = c * u_decay - 0.0035;                          // fade (the subtraction stops dim ghosts sticking)
+            gl_FragColor = vec4(max(c, 0.0), 1.0);
+        }`;
+
+    const MD_FS_WAVE = `
+        precision mediump float;
+        varying float v_edge;
+        uniform vec4 u_color;
+        void main() {
+            float k = 1.0 - abs(v_edge);
+            k *= k;
+            gl_FragColor = vec4(u_color.rgb * u_color.a * k, 1.0);
+        }`;
+
+    const MD_FS_SHOW = `
+        precision mediump float;
+        varying vec2 v_uv;
+        uniform sampler2D u_tex;
+        uniform float u_flash;
+        void main() {
+            vec3 c = texture2D(u_tex, v_uv).rgb;
+            c = 1.0 - exp(-c * 1.5);                      // soft clip: bright stays colourful, not white
+            c += u_flash * 0.05;
+            vec2 q = v_uv - 0.5;
+            c *= 1.0 - 0.9 * dot(q, q);
+            gl_FragColor = vec4(c, 1.0);
+        }`;
+
+    function mdFallback() {
+        currentStyle = 'bars';
+        vizStyleSelect.value = 'bars';
+        const glc = document.getElementById('glCanvas');
+        if (glc) glc.style.display = 'none';
+        canvas.style.display = 'block';
+        requestAnimationFrame(() => sizeCanvas());
+    }
+
+    function mdNext() {
+        MD.preset = (MD.preset + 1) % MD_PRESETS.length;
+        MD.presetAt = performance.now();
+        const glc = document.getElementById('glCanvas');
+        if (glc) glc.title = 'Milkdrop: ' + MD_PRESETS[MD.preset].name + ' (click: next look, double-click: fullscreen)';
+    }
+
+    function mdInit(glc) {
+        if (MD.state !== 'new') return MD.state === 'ready';
+        try {
+            const gl = glc.getContext('webgl', { alpha: false, antialias: false, preserveDrawingBuffer: false });
+            if (!gl) throw new Error('WebGL not supported');
+
+            const shader = (type, src) => {
+                const s = gl.createShader(type);
+                gl.shaderSource(s, src);
+                gl.compileShader(s);
+                if (!gl.getShaderParameter(s, gl.COMPILE_STATUS)) throw new Error(gl.getShaderInfoLog(s));
+                return s;
+            };
+            const program = (name, fs, uniforms) => {
+                const p = gl.createProgram();
+                gl.attachShader(p, shader(gl.VERTEX_SHADER, MD_VS));
+                gl.attachShader(p, shader(gl.FRAGMENT_SHADER, fs));
+                gl.bindAttribLocation(p, 0, 'a_pos');
+                gl.linkProgram(p);
+                if (!gl.getProgramParameter(p, gl.LINK_STATUS)) throw new Error(gl.getProgramInfoLog(p));
+                MD.prog[name] = p;
+                MD.loc[name] = {};
+                uniforms.forEach(u => { MD.loc[name][u] = gl.getUniformLocation(p, u); });
+            };
+            program('warp', MD_FS_WARP, ['u_prev', 'u_texel', 'u_aspect', 'u_time', 'u_zoom', 'u_rot', 'u_warp', 'u_decay', 'u_hue', 'u_sym', 'u_blur']);
+            program('wave', MD_FS_WAVE, ['u_color']);
+            program('show', MD_FS_SHOW, ['u_tex', 'u_flash']);
+
+            MD.quad = gl.createBuffer();
+            gl.bindBuffer(gl.ARRAY_BUFFER, MD.quad);
+            gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 0, 1, -1, 0, -1, 1, 0, 1, 1, 0]), gl.STATIC_DRAW);
+            MD.waveBuf = gl.createBuffer();
+            gl.enableVertexAttribArray(0);
+
+            MD.gl = gl;
+            MD.state = 'ready';
+
+            glc.addEventListener('click', () => {
+                clearTimeout(MD.clickTimer);
+                MD.clickTimer = setTimeout(mdNext, 220);
+            });
+            glc.addEventListener('dblclick', () => {
+                clearTimeout(MD.clickTimer);
+                if (document.fullscreenElement) document.exitFullscreen();
+                else if (glc.requestFullscreen) glc.requestFullscreen().catch(() => {});
+            });
+            mdNext(); MD.preset = 0; MD.presetAt = performance.now();
+            glc.title = 'Milkdrop: ' + MD_PRESETS[0].name + ' (click: next look, double-click: fullscreen)';
+            return true;
+        } catch (e) {
+            console.warn('Milkdrop visualizer unavailable:', e);
+            MD.state = 'failed';
+            mdFallback();
+            return false;
+        }
+    }
+
+    function mdResize(glc) {
+        const dpr = Math.min(window.devicePixelRatio || 1, 2);
+        let w = Math.round(glc.clientWidth * dpr);
+        let h = Math.round(glc.clientHeight * dpr);
+        if (w < 8 || h < 8) return false;
+        if (w > 1280) { h = Math.round(h * 1280 / w); w = 1280; }
+        if (w === MD.w && h === MD.h) return true;
+
+        const gl = MD.gl;
+        MD.w = w; MD.h = h;
+        glc.width = w; glc.height = h;
+        for (let i = 0; i < 2; i++) {
+            if (MD.tex[i]) gl.deleteTexture(MD.tex[i]);
+            if (MD.fbo[i]) gl.deleteFramebuffer(MD.fbo[i]);
+            const t = gl.createTexture();
+            gl.bindTexture(gl.TEXTURE_2D, t);
+            gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, w, h, 0, gl.RGBA, gl.UNSIGNED_BYTE, null);
+            gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+            gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+            gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+            gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+            const f = gl.createFramebuffer();
+            gl.bindFramebuffer(gl.FRAMEBUFFER, f);
+            gl.framebufferTexture2D(gl.FRAMEBUFFER, gl.COLOR_ATTACHMENT0, gl.TEXTURE_2D, t, 0);
+            gl.viewport(0, 0, w, h);
+            gl.clearColor(0, 0, 0, 1);
+            gl.clear(gl.COLOR_BUFFER_BIT);
+            MD.tex[i] = t; MD.fbo[i] = f;
+        }
+        gl.bindFramebuffer(gl.FRAMEBUFFER, null);
+        return true;
+    }
+
+    // Turns a list of points (x in -aspect..aspect, y in -1..1) into a thick ribbon.
+    function mdStrip(pts, aspect, half) {
+        const n = pts.length;
+        const out = new Float32Array(n * 6);
+        for (let i = 0; i < n; i++) {
+            const a = pts[Math.max(0, i - 1)], b = pts[Math.min(n - 1, i + 1)];
+            let tx = b[0] - a[0], ty = b[1] - a[1];
+            const len = Math.hypot(tx, ty) || 1;
+            tx /= len; ty /= len;
+            const nx = -ty * half, ny = tx * half, x = pts[i][0], y = pts[i][1];
+            out.set([(x + nx) / aspect, y + ny, -1, (x - nx) / aspect, y - ny, 1], i * 6);
+        }
+        return out;
+    }
+
+    function mdTraces(kind, aspect, amp) {
+        const N = 256, L = timeData.length;
+        const s = (i) => (timeData[Math.min(L - 1, Math.floor(((i % N) + N) % N * L / N))] - 128) / 128;
+        const traces = [];
+        if (kind === 'line') {
+            for (let k = 0; k < 2; k++) {
+                const pts = [];
+                for (let i = 0; i < N; i++) {
+                    const x = -aspect + 2 * aspect * i / (N - 1);
+                    pts.push([x, s(i + k * 37) * amp * (k ? 0.55 : 0.85) + Math.sin(i * 0.4 + MD.t * 9 + k) * 0.05 * MD.treb]);
+                }
+                traces.push(pts);
+            }
+        } else if (kind === 'lines') {
+            [-0.45, 0, 0.45].forEach((off, k) => {
+                const pts = [];
+                for (let i = 0; i < N; i++) {
+                    const x = -aspect + 2 * aspect * i / (N - 1);
+                    pts.push([x, off + s(i + k * 60) * amp * 0.30 + Math.sin(i * 0.05 + MD.t * (1 + k)) * 0.06]);
+                }
+                traces.push(pts);
+            });
+        } else { // circle (stretched into an oval on wide, short pictures)
+            const xs = Math.max(1, Math.min(2.4, aspect * 0.5));
+            const pts = [];
+            const R = 0.40 + MD.bass * 0.10;
+            for (let i = 0; i < N; i++) {
+                const a = 6.2831853 * i / (N - 1);
+                const r = R + s(i) * 0.30 * amp;
+                pts.push([Math.cos(a + MD.t * 0.3) * r * xs, Math.sin(a + MD.t * 0.3) * r]);
+            }
+            traces.push(pts);
+            const inner = [];
+            for (let i = 0; i < N; i++) {
+                const a = -6.2831853 * i / (N - 1);
+                const r = R * 0.55 + s(i + 90) * 0.14 * amp;
+                inner.push([Math.cos(a - MD.t * 0.5) * r * xs, Math.sin(a - MD.t * 0.5) * r]);
+            }
+            traces.push(inner);
+        }
+        return traces;
+    }
+
+    function mdRender() {
+        const glc = document.getElementById('glCanvas');
+        if (!glc || !mdInit(glc) || !mdResize(glc)) return;
+        if (!analyser || !isAudioPlaying) return; // paused: leave the last picture on screen
+
+        const gl = MD.gl;
+        analyser.getByteFrequencyData(freqData);
+        analyser.getByteTimeDomainData(timeData);
+        const avg = (a, b) => { let sum = 0; for (let i = a; i < b; i++) sum += freqData[i]; return sum / ((b - a) * 255); };
+        const bass = avg(0, 4), mid = avg(4, 30), treb = avg(30, 120);
+        MD.bass += (bass - MD.bass) * 0.5;
+        MD.mid += (mid - MD.mid) * 0.35;
+        MD.treb += (treb - MD.treb) * 0.35;
+        if (bass > MD.bassAvg * 1.35 + 0.12 && bass > 0.45) MD.flash = 1;
+        MD.bassAvg += (bass - MD.bassAvg) * 0.05;
+        MD.flash *= 0.88;
+
+        const now = performance.now();
+        const dt = Math.min(3, Math.max(0.5, (now - (MD.last || now)) / 16.667));
+        MD.last = now;
+        MD.t += dt / 60;
+        if (MD_AUTO_CYCLE_MS && now - MD.presetAt > MD_AUTO_CYCLE_MS) mdNext();
+
+        const P = MD_PRESETS[MD.preset];
+        const aspect = MD.w / MD.h;
+        const src = MD.cur, dst = 1 - MD.cur;
+        const wide = Math.max(1, aspect / 3);   // very wide, short pictures need gentler spin/zoom
+
+        // 1) take last frame, warp it, fade it  -> into the other texture
+        gl.bindFramebuffer(gl.FRAMEBUFFER, MD.fbo[dst]);
+        gl.viewport(0, 0, MD.w, MD.h);
+        gl.disable(gl.BLEND);
+        gl.useProgram(MD.prog.warp);
+        const U = MD.loc.warp;
+        gl.activeTexture(gl.TEXTURE0);
+        gl.bindTexture(gl.TEXTURE_2D, MD.tex[src]);
+        gl.uniform1i(U.u_prev, 0);
+        gl.uniform2f(U.u_texel, 1 / MD.w, 1 / MD.h);
+        gl.uniform1f(U.u_aspect, aspect);
+        gl.uniform1f(U.u_time, MD.t);
+        gl.uniform1f(U.u_zoom, 1 + (P.zoom - 1 + MD.bass * 0.012) * dt / wide);
+        gl.uniform1f(U.u_rot, (P.rot + (MD.mid - 0.25) * 0.012) * dt / wide);
+        gl.uniform1f(U.u_warp, P.warp * (0.6 + MD.treb * 2.0));
+        gl.uniform1f(U.u_decay, Math.pow(P.decay, dt));
+        gl.uniform1f(U.u_hue, P.hue * dt);
+        gl.uniform1f(U.u_sym, P.sym);
+        gl.uniform1f(U.u_blur, 1.0 + MD.treb * 1.5);
+        gl.bindBuffer(gl.ARRAY_BUFFER, MD.quad);
+        gl.vertexAttribPointer(0, 3, gl.FLOAT, false, 0, 0);
+        gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+
+        // 2) draw the sound wave on top, as glowing ribbons
+        gl.enable(gl.BLEND);
+        gl.blendFunc(gl.ONE, gl.ONE);
+        gl.useProgram(MD.prog.wave);
+        gl.bindBuffer(gl.ARRAY_BUFFER, MD.waveBuf);
+        gl.vertexAttribPointer(0, 3, gl.FLOAT, false, 0, 0);
+        const amp = (0.55 + MD.bass * 0.9) * (wide > 1 ? 1.45 : 1);   // a little taller on short, wide panels
+        const px = 1.6 / (MD.h / 2) + 0.005;           // line thickness that suits the picture size
+        const col = P.col;
+        const layers = [[px * 3.4, 0.05, col], [px * 1.7, 0.13, col], [px, 0.30, [0.45 + col[0] * 0.55, 0.45 + col[1] * 0.55, 0.45 + col[2] * 0.55]]];
+        const boost = (0.85 + MD.flash * 0.6) * P.gain * (0.6 + 0.4 * Math.min(1, MD.h / 300));
+        mdTraces(P.wave, aspect, amp).forEach(pts => {
+            layers.forEach(([half, a, c]) => {
+                const verts = mdStrip(pts, aspect, half);
+                gl.bufferData(gl.ARRAY_BUFFER, verts, gl.DYNAMIC_DRAW);
+                gl.uniform4f(MD.loc.wave.u_color, c[0], c[1], c[2], a * boost);
+                gl.drawArrays(gl.TRIANGLE_STRIP, 0, pts.length * 2);
+            });
+        });
+        gl.disable(gl.BLEND);
+
+        // 3) show it
+        gl.bindFramebuffer(gl.FRAMEBUFFER, null);
+        gl.viewport(0, 0, MD.w, MD.h);
+        gl.useProgram(MD.prog.show);
+        gl.bindTexture(gl.TEXTURE_2D, MD.tex[dst]);
+        gl.uniform1i(MD.loc.show.u_tex, 0);
+        gl.uniform1f(MD.loc.show.u_flash, MD.flash);
+        gl.bindBuffer(gl.ARRAY_BUFFER, MD.quad);
+        gl.vertexAttribPointer(0, 3, gl.FLOAT, false, 0, 0);
+        gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+
+        MD.cur = dst;
+    }
+
+    // your draw() loop already calls renderMilkdrop() when "Milkdrop" is selected; point it at this version
+    renderMilkdrop = mdRender;
+
+    
 
     // ============ TV POP-OUT ============
 (function initTV() {
