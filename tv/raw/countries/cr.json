@@ -282,20 +282,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "GD6GIT9MV0x6kz",
-    "name": "Garabito TV",
-    "sources": {
-      "streams": [
-        "https://59ef525c24caa.streamlock.net/garabitoTV/garabitotv/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "cr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "vPLx0tYa5CbY79",
     "name": "Gex TV",
     "sources": {
@@ -334,6 +320,20 @@
     },
     "languages": [
       "eng",
+      "spa"
+    ],
+    "country": "cr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "puMweHvpz4B7Uc",
+    "name": "Impact Channel",
+    "sources": {
+      "streams": [
+        "https://5fe2654d6127d.streamlock.net/impactchannel/videoimpactchannel/playlist.m3u8"
+      ]
+    },
+    "languages": [
       "spa"
     ],
     "country": "cr",
@@ -598,20 +598,6 @@
     "sources": {
       "streams": [
         "https://5eac7b031d945.streamlock.net/TICAVISION/TICAVISION/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "cr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "46bhWZVm1EdjmB",
-    "name": "TV Cartago Digital",
-    "sources": {
-      "streams": [
-        "https://video2.getstreamhosting.com:19360/8110/8110.m3u8"
       ]
     },
     "languages": [

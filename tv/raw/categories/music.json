@@ -786,20 +786,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "BS24vuGSgL043V",
-    "name": "Boogle Bollywood",
-    "sources": {
-      "streams": [
-        "https://yuppnimrestreammum.akamaized.net/181224/smil:bogglebollywood.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b"
-      ]
-    },
-    "languages": [
-      "hin"
-    ],
-    "country": "in",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "oRBbbA6nudopIk",
     "name": "Botflix aiTV: Pleasant Programming",
     "sources": {
@@ -1011,11 +997,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "BN8UK0JlgAMrEm",
-    "name": "City Eden Birma Play",
+    "nanoid": "Lk2MXbqIFnMEMM",
+    "name": "City Eden Classic Music",
     "sources": {
       "streams": [
-        "https://cityeden.catcast.tv/content/34364/index.m3u8"
+        "https://cityeden.catcast.tv/content/47400/index.m3u8"
       ]
     },
     "languages": [
@@ -1349,20 +1335,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "E3Fuo7LqwAfWE9",
-    "name": "Deluxe Dance",
-    "sources": {
-      "streams": [
-        "https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "de",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "hoEK50b8RIgSOh",
     "name": "Deluxe Music",
     "sources": {
@@ -1372,21 +1344,6 @@
     },
     "languages": [
       "deu"
-    ],
-    "country": "de",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "kxfwLfpFpzHMm2",
-    "name": "Deluxe Rap",
-    "sources": {
-      "streams": [
-        "https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8"
-      ]
-    },
-    "languages": [
-      "deu",
-      "eng"
     ],
     "country": "de",
     "isGeoBlocked": false
@@ -1410,8 +1367,8 @@
     "name": "Dhoom Music",
     "sources": {
       "streams": [
-        "https://cdn.pishow.tv/ott/live/1456/master.m3u8",
-        "https://mumt06.tangotv.in/qYyB8fXVDHOOMMUSIC/index.m3u8"
+        "https://mumt06.tangotv.in/qYyB8fXVDHOOMMUSIC/index.m3u8",
+        "https://cdn.pishow.tv/ott/live/1456/master.m3u8"
       ]
     },
     "languages": [
@@ -1854,20 +1811,6 @@
       "uzb"
     ],
     "country": "uz",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "hOb4zCEnF4IOQo",
-    "name": "Fuego TV",
-    "sources": {
-      "streams": [
-        "https://streamunoapp.com:3553/live/cromtvlive.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "do",
     "isGeoBlocked": false
   },
   {
@@ -2853,6 +2796,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "oMhYmCaf0w71Vh",
+    "name": "Look Thoong TV",
+    "sources": {
+      "streams": [
+        "https://livefta.malimarcdn.com/ftaedge00/lookthoongtv.sdp/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "lao"
+    ],
+    "country": "la",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "lLlNJWyY2XdMQg",
     "name": "Los Angeles TV Radio",
     "sources": {
@@ -3125,6 +3082,20 @@
       "eng"
     ],
     "country": "ae",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AQGmKDckGE5Qe6",
+    "name": "MBC Loud",
+    "sources": {
+      "streams": [
+        "https://radio-loud-fm.mbc.net/radio-loud-fm_1.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "sa",
     "isGeoBlocked": false
   },
   {
@@ -3465,6 +3436,20 @@
       "ukr"
     ],
     "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "KiwbZFxfIOXSsb",
+    "name": "Nande Portetepe TV",
+    "sources": {
+      "streams": [
+        "https://video.hostingcaaguazu.com:19360/nandeportetepe/nandeportetepe.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "py",
     "isGeoBlocked": false
   },
   {
@@ -4006,8 +3991,9 @@
     "name": "Peppers TV",
     "sources": {
       "streams": [
+        "https://mumt07.tangotv.in/zHjX9OFlPEPPERS/index.m3u8",
         "https://cdn.pishow.tv/ott/live/1383/master.m3u8",
-        "https://mumt07.tangotv.in/zHjX9OFlPEPPERS/index.m3u8"
+        "https://d1msejlow1t3l4.cloudfront.net/fta/peppers/playlist.m3u8"
       ]
     },
     "languages": [
@@ -4261,8 +4247,8 @@
     "name": "PTC Chakde",
     "sources": {
       "streams": [
-        "https://cdn.pishow.tv/ott/live/449/master.m3u8",
-        "https://mumt06.tangotv.in/qYyB8fXVPTCCHAKDE/index.m3u8"
+        "https://mumt06.tangotv.in/qYyB8fXVPTCCHAKDE/index.m3u8",
+        "https://cdn.pishow.tv/ott/live/449/master.m3u8"
       ]
     },
     "languages": [
@@ -4277,6 +4263,7 @@
     "sources": {
       "streams": [
         "https://d2lk5u59tns74c.cloudfront.net/out/v1/f913cf893c594f73b114216e74a2efbc/index.m3u8",
+        "https://cdn.pishow.tv/ott/live/1501/master.m3u8",
         "https://mumt04.tangotv.in/m18aqlK4PTCMUSIC/index.m3u8"
       ]
     },
@@ -4722,6 +4709,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "QpaipzMOWMjyyR",
+    "name": "Radio Monumental TV",
+    "sources": {
+      "streams": [
+        "https://cloud37.ecuatel.com/monumentaltv/live/manifest.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ec",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "mb8oy05yGkCcpe",
     "name": "Radio Onda Digital",
     "sources": {
@@ -4797,20 +4798,6 @@
     "sources": {
       "streams": [
         "https://stream3.srr.ro/live/Radio-Oltenia/chunklist_w1200239883.m3u8"
-      ]
-    },
-    "languages": [
-      "ron"
-    ],
-    "country": "ro",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "UwylR8uUm8luHz",
-    "name": "Radio Romania Resita",
-    "sources": {
-      "streams": [
-        "https://stream3.srr.ro/RadioResita/live/playlist.m3u8"
       ]
     },
     "languages": [
@@ -5025,8 +5012,8 @@
     "name": "Raj Musix Telugu",
     "sources": {
       "streams": [
-        "https://cdn.pishow.tv/ott/live/1213/master.m3u8",
-        "https://mumt07.tangotv.in/zHjX9OFlRAJMUSIXTELUGU/index.m3u8"
+        "https://mumt07.tangotv.in/zHjX9OFlRAJMUSIXTELUGU/index.m3u8",
+        "https://cdn.pishow.tv/ott/live/1213/master.m3u8"
       ]
     },
     "languages": [
@@ -5139,8 +5126,8 @@
     "name": "Ritoque TV",
     "sources": {
       "streams": [
-        "https://v2.tustreaming.cl/unetev/index.m3u8",
-        "https://streaming.purum.cl/ritoquetv/index.m3u8"
+        "https://streaming.purum.cl/ritoquetv/index.m3u8",
+        "https://v2.tustreaming.cl/unetev/index.m3u8"
       ]
     },
     "languages": [
@@ -5351,8 +5338,7 @@
     "name": "Sana Plus",
     "sources": {
       "streams": [
-        "https://mumbai-edge.smartplaytv.in/SanaPlusHD/index.m3u8",
-        "https://galaxyott.live/hls/sanaplus.m3u8"
+        "https://mumbai-edge.smartplaytv.in/SanaPlusHD/index.m3u8"
       ]
     },
     "languages": [
@@ -5366,8 +5352,8 @@
     "name": "Sangeet Bangla",
     "sources": {
       "streams": [
-        "https://cdn.pishow.tv/ott/live/1143/master.m3u8",
         "https://mumt05.tangotv.in/87NeALx2SANGEETBANGLA/index.m3u8",
+        "https://cdn.pishow.tv/ott/live/1143/master.m3u8",
         "https://tvsen6.aynaott.com/hT5jHczt/index.m3u8"
       ]
     },
@@ -5382,8 +5368,8 @@
     "name": "Sangeet Bhojpuri",
     "sources": {
       "streams": [
-        "https://cdn.pishow.tv/ott/live/1293/master.m3u8",
-        "https://mumt01.tangotv.in/O5aw8Zn3SANGEETBHOJPURI/index.m3u8"
+        "https://mumt01.tangotv.in/O5aw8Zn3SANGEETBHOJPURI/index.m3u8",
+        "https://cdn.pishow.tv/ott/live/1293/master.m3u8"
       ]
     },
     "languages": [
@@ -5397,8 +5383,8 @@
     "name": "Sangeet Marathi",
     "sources": {
       "streams": [
-        "https://cdn.pishow.tv/ott/live/1229/master.m3u8",
-        "https://mumt07.tangotv.in/zHjX9OFlSANGEETMARATHI/index.m3u8"
+        "https://mumt07.tangotv.in/zHjX9OFlSANGEETMARATHI/index.m3u8",
+        "https://cdn.pishow.tv/ott/live/1229/master.m3u8"
       ]
     },
     "languages": [
@@ -5577,20 +5563,6 @@
       "spa"
     ],
     "country": "es",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "tjg8L7lKOORAsp",
-    "name": "Spirit TV",
-    "sources": {
-      "streams": [
-        "https://cdnlive.myspirit.tv/LS-ATL-43240-2/index.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -6185,7 +6157,7 @@
     "name": "SuriaTV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/wekxaR5p7d0"
+        "https://www.youtube-nocookie.com/embed/Q5XnBH4Oqos"
       ]
     },
     "languages": [
@@ -7006,6 +6978,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "4nGnB92iVbS8Jl",
+    "name": "Tunes 6",
+    "sources": {
+      "streams": [
+        "https://stream.d6-pro.com/Tunes6music/live/video.m3u8"
+      ]
+    },
+    "languages": [
+      "tam"
+    ],
+    "country": "in",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "gh6WHvpQmXShdI",
     "name": "Turbo Mix Radio TV",
     "sources": {
@@ -7091,20 +7077,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "gyVcJ1bLnu4kuk",
-    "name": "TVOMIX",
-    "sources": {
-      "streams": [
-        "https://cloud.tvomix.com/TVOMIX/index.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "pZ7DVIEngrRQGF",
     "name": "TVR Folclor",
     "sources": {
@@ -7151,7 +7123,7 @@
     "name": "Urbana Play 104.3 FM",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/u5ZeG-R3wSY"
+        "https://www.youtube-nocookie.com/embed/iDJBnz9c_Rg"
       ]
     },
     "languages": [
@@ -7207,8 +7179,8 @@
     "name": "Vaanavil TV",
     "sources": {
       "streams": [
-        "https://6n3yope4d9ok-hls-live.5centscdn.com/vaanavil/TV.stream/playlist.m3u8",
-        "https://mumt01.tangotv.in/O5aw8Zn3VAANAVILTV/index.m3u8"
+        "https://mumt01.tangotv.in/O5aw8Zn3VAANAVILTV/index.m3u8",
+        "https://6n3yope4d9ok-hls-live.5centscdn.com/vaanavil/TV.stream/playlist.m3u8"
       ]
     },
     "languages": [
@@ -7347,6 +7319,20 @@
       "spa"
     ],
     "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "K5EAZFvuWObb4f",
+    "name": "VIVA Russia",
+    "sources": {
+      "streams": [
+        "https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
     "isGeoBlocked": false
   },
   {

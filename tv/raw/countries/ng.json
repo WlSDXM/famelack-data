@@ -18,7 +18,7 @@
     "name": "Africa Independent Television",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/wmeaGuvN4Wk"
+        "https://www.youtube-nocookie.com/embed/oP7SzdWYO4Y"
       ]
     },
     "languages": [
@@ -398,20 +398,6 @@
     "sources": {
       "streams": [
         "https://streams.playtv.com.ng/Tele-Regency_TRTV/index.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "ng",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "mQsEQa26uw8XEM",
-    "name": "TrustTV News",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/WFhSk4sNOmA"
       ]
     },
     "languages": [

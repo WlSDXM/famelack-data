@@ -536,6 +536,9 @@
     "nanoid": "zBHIZ3xX6aJN4H",
     "name": "Canal 8 San Juan",
     "sources": {
+      "streams": [
+        "https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8"
+      ],
       "youtube": [
         "https://www.youtube-nocookie.com/embed/K7gtCWpnFNY"
       ]
@@ -1089,7 +1092,7 @@
     "name": "El Observador 107.9",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/lix2TOsij94"
+        "https://www.youtube-nocookie.com/embed/PFXDBYFb36A"
       ]
     },
     "languages": [
@@ -1159,7 +1162,7 @@
     "name": "El Tres TV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/0M7YmNhxn8s"
+        "https://www.youtube-nocookie.com/embed/7-cYqicdCXw"
       ]
     },
     "languages": [
@@ -1635,6 +1638,34 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "rPtKuLjPt7QNrN",
+    "name": "Sicardi TV",
+    "sources": {
+      "streams": [
+        "https://vivo.solumedia.com:19360/sicarditv/sicarditv.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "bOQ2ElnoGQqKTy",
+    "name": "Somos Entre Rios",
+    "sources": {
+      "streams": [
+        "https://live20.bozztv.com/akamaissh101/ssh101/somosentrerios/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "4mdYQiNJkinqB7",
     "name": "T5 Satelital",
     "sources": {
@@ -1649,11 +1680,25 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "lwUs8vce39cW6q",
+    "name": "Tele Posadas",
+    "sources": {
+      "streams": [
+        "https://iptv.ixfo.com.ar:30443/live/TelePosadasTv/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Go5SKBRSJ9PYYw",
     "name": "Telediario Digital",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-PtFYqa7_Kg"
+        "https://www.youtube-nocookie.com/embed/bgiTGdTmfKQ"
       ]
     },
     "languages": [
@@ -1878,7 +1923,7 @@
     "name": "Urbana Play 104.3 FM",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/u5ZeG-R3wSY"
+        "https://www.youtube-nocookie.com/embed/iDJBnz9c_Rg"
       ]
     },
     "languages": [

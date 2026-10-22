@@ -445,11 +445,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "BN8UK0JlgAMrEm",
-    "name": "City Eden Birma Play",
+    "nanoid": "Lk2MXbqIFnMEMM",
+    "name": "City Eden Classic Music",
     "sources": {
       "streams": [
-        "https://cityeden.catcast.tv/content/34364/index.m3u8"
+        "https://cityeden.catcast.tv/content/47400/index.m3u8"
       ]
     },
     "languages": [
@@ -487,11 +487,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Wc02nSZr6VuoIF",
-    "name": "City Eden KinoAsia",
+    "nanoid": "8Ucx5FG7ngDLh5",
+    "name": "City Eden KinoDetektiv",
     "sources": {
       "streams": [
-        "https://cityeden.catcast.tv/content/34393/index.m3u8"
+        "https://cityeden.catcast.tv/content/41327/index.m3u8"
       ]
     },
     "languages": [
@@ -515,11 +515,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "N0XF0zTYtjf6Vc",
-    "name": "City Eden KinoKomediya",
+    "nanoid": "zzxh5uo44jq1FL",
+    "name": "City Eden KinoFantastika",
     "sources": {
       "streams": [
-        "https://cityeden.catcast.tv/content/41331/index.m3u8"
+        "https://cityeden.catcast.tv/content/45268/index.m3u8"
       ]
     },
     "languages": [
@@ -529,11 +529,25 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "hYJqIp24qMnNqd",
-    "name": "City Eden KinoMistika",
+    "nanoid": "xjnk7dNYRv7edj",
+    "name": "City Eden KinoKlassika",
     "sources": {
       "streams": [
-        "https://cityeden.catcast.tv/content/40783/index.m3u8"
+        "https://cityeden.catcast.tv/content/34185/index.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "N0XF0zTYtjf6Vc",
+    "name": "City Eden KinoKomediya",
+    "sources": {
+      "streams": [
+        "https://cityeden.catcast.tv/content/41331/index.m3u8"
       ]
     },
     "languages": [
@@ -590,6 +604,20 @@
     "sources": {
       "streams": [
         "https://cityeden.catcast.tv/content/46209/index.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "JIOxlnAu1GPh23",
+    "name": "City Eden TV",
+    "sources": {
+      "streams": [
+        "https://cityeden.catcast.tv/content/34246/index.m3u8"
       ]
     },
     "languages": [
@@ -732,6 +760,20 @@
     "sources": {
       "streams": [
         "https://stream8.cinerama.uz/1421/tracks-v1a1/mono.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "xupLUhlUhMmQst",
+    "name": "Duma TV",
+    "sources": {
+      "streams": [
+        "https://dumatv.iptv2022.com/playlist.m3u8"
       ]
     },
     "languages": [
@@ -890,8 +932,8 @@
     "name": "Hope Channel Russia",
     "sources": {
       "streams": [
-        "https://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8",
-        "https://tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8"
+        "https://tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8",
+        "https://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1748,20 +1790,6 @@
     "sources": {
       "streams": [
         "https://jz2lo90hnpy.a.trbcdn.net/livemaster/yo8gr_live-5gorrrfpouq.smil/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "ClrLVtv3nyuxRh",
-    "name": "Patriot",
-    "sources": {
-      "streams": [
-        "https://stream.smotrim.ru/hls2/static/playlist_4.m3u8"
       ]
     },
     "languages": [
@@ -3028,6 +3056,20 @@
     "sources": {
       "streams": [
         "https://live-11cinema.cdnvideo.ru/11cinema/11cinema/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "K5EAZFvuWObb4f",
+    "name": "VIVA Russia",
+    "sources": {
+      "streams": [
+        "https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/playlist.m3u8"
       ]
     },
     "languages": [

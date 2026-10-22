@@ -262,7 +262,7 @@
     "name": "CNN Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/c1C3Wm7E288"
+        "https://www.youtube-nocookie.com/embed/YsIbIuoVMIg"
       ]
     },
     "languages": [
@@ -683,7 +683,7 @@
     "name": "Peppa Pig Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/CfcN6aCzzBU"
+        "https://www.youtube-nocookie.com/embed/iCedukdZOPA"
       ]
     },
     "languages": [
@@ -711,7 +711,7 @@
     "name": "PJ Masks Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/SCE-7z3-gWw"
+        "https://www.youtube-nocookie.com/embed/iBNw1964kko"
       ]
     },
     "languages": [
@@ -784,7 +784,7 @@
         "https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/CHUZ0hjRrdI"
+        "https://www.youtube-nocookie.com/embed/KrvYkf-0078"
       ]
     },
     "languages": [
@@ -953,21 +953,7 @@
     "name": "Rio TV Câmara",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/IucA-xvtMrU"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "O8tFJhKTZ0GylR",
-    "name": "Santa Cruz Feira Digital",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/GsRvRkmNJWY"
+        "https://www.youtube-nocookie.com/embed/RfIJK1uJwjc"
       ]
     },
     "languages": [
@@ -1206,7 +1192,7 @@
     "name": "TV Assembleia Minas Gerais",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/2U8e5GPeBdw"
+        "https://www.youtube-nocookie.com/embed/6GYXAzLuwOo"
       ]
     },
     "languages": [
@@ -1399,6 +1385,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "OXfFnCDtrQdqyq",
+    "name": "TV Guara",
+    "sources": {
+      "streams": [
+        "https://video02.logicahost.com.br/tvguara23/tvguara23/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "kKdpiUaDF9L3Eb",
     "name": "TV Guarapari",
     "sources": {
@@ -1488,6 +1488,20 @@
     "sources": {
       "streams": [
         "https://cdn-fundacao-2110.ciclano.io:1443/fundacao-2110/fundacao-2110/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "UyGsvptczRmJRz",
+    "name": "TV Nordestina",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/4z7IlfEhsiM"
       ]
     },
     "languages": [

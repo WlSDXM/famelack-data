@@ -525,7 +525,7 @@
     "name": "Farscape",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/CsyLdouuV5Q"
+        "https://www.youtube-nocookie.com/embed/lo6XhOlFTFs"
       ]
     },
     "languages": [
@@ -626,36 +626,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "nbJaIRnlOXsI50",
-    "name": "HBO East",
-    "sources": {
-      "streams": [
-        "https://tvsen7.aynascope.net/hbo/index.m3u8"
-      ]
-    },
-    "languages": [
-      "eng",
-      "spa"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "b9hyRXnC242UxT",
-    "name": "HBO Hits East",
-    "sources": {
-      "streams": [
-        "https://tvsen7.aynascope.net/hbo2/index.m3u8"
-      ]
-    },
-    "languages": [
-      "eng",
-      "spa"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "X0zblbZ45u2Fyw",
     "name": "Hell's Kitchen UK",
     "sources": {
@@ -690,8 +660,7 @@
     "name": "Inside Crime UK",
     "sources": {
       "streams": [
-        "https://amg00841-aenetworksukane-insidecrime-samsunguk-o968i.amagi.tv/playlist/amg00841-aenetworksukane-insidecrime-samsunguk/playlist.m3u8",
-        "https://blaze-fast-inside-crime-ssai.simplestreamcdn.com/v1/master/774d979dd66704abea7c5b62cb34c6815fda0d35/blaze-fast-inside-crime-amagi/playlist.m3u8"
+        "https://amg00841-aenetworksukane-insidecrime-samsunguk-o968i.amagi.tv/playlist/amg00841-aenetworksukane-insidecrime-samsunguk/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1099,20 +1068,6 @@
       "streams": [
         "https://amg00627-amg00627c16-samsung-nz-2811.playouts.now.amagi.tv/playlist/amg00627-banijayfast-survivor-samsungnz/playlist.m3u8",
         "https://amg00627-banijaygroup-surviour-uk-samsunguk-uyz22.amagi.tv/playlist/amg00627-banijaygroup-survivor-samsunguk/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "jBHty7VgENQxrk",
-    "name": "SYFY East",
-    "sources": {
-      "streams": [
-        "https://tvsen7.aynascope.net/syfy/index.m3u8"
       ]
     },
     "languages": [

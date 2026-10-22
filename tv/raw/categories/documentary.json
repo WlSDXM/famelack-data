@@ -32,8 +32,8 @@
     "name": "Animal Planet",
     "sources": {
       "streams": [
-        "https://drk6xq0vhn.gpcdn.net/live/animal_planet_hd_abr/index.m3u8",
-        "https://drk6xq0vhn.gpcdn.net/live/animal_planet_sd_abr/index.m3u8"
+        "https://drk6xq0vhn.gpcdn.net/live/animal_planet_sd_abr/index.m3u8",
+        "https://drk6xq0vhn.gpcdn.net/live/animal_planet_hd_abr/index.m3u8"
       ]
     },
     "languages": [
@@ -502,9 +502,9 @@
     "name": "History Hit",
     "sources": {
       "streams": [
-        "https://lds-timeline-plex.amagi.tv/playlist.m3u8",
         "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-timelinenz-samsungnz/playlist.m3u8",
-        "https://ldsaaaaaa-timeline-samsungau-awedz.amagi.tv/playlist/ldsAAAAAA-timeline-samsungau/playlist.m3u8"
+        "https://ldsaaaaaa-timeline-samsungau-awedz.amagi.tv/playlist/ldsAAAAAA-timeline-samsungau/playlist.m3u8",
+        "https://timeline-samsung-uk.amagi.tv/playlist.m3u8"
       ]
     },
     "languages": [

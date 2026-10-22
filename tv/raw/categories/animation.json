@@ -140,6 +140,35 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "lSTW1dzY0A0GTW",
+    "name": "Cartoon Classics FAST",
+    "sources": {
+      "streams": [
+        "https://daiconnect.com/live/hls/tvup/rk-cartoonclassics/578f4b7eb725168349ec0af81b21d388/index.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "pl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "0lVBw32w9JPjcN",
+    "name": "Cartoon Network",
+    "sources": {
+      "streams": [
+        "https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/live/87H/chunks.m3u8"
+      ]
+    },
+    "languages": [
+      "eng",
+      "urd"
+    ],
+    "country": "pk",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "co6UrhPBemum5j",
     "name": "Cartoon Network",
     "sources": {
@@ -219,7 +248,7 @@
     "name": "CONtv: Yu-Gi-Oh! Duel Monsters (Español)",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/IMmP9ffri5s"
+        "https://www.youtube-nocookie.com/embed/434nAi7ibV4"
       ]
     },
     "languages": [
@@ -351,6 +380,20 @@
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "oj7vX3xxxcxlj0",
+    "name": "Fugget About It",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/T8wD3IdVHEE"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ca",
     "isGeoBlocked": false
   },
   {
@@ -640,7 +683,7 @@
     "name": "PJ Masks Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/SCE-7z3-gWw"
+        "https://www.youtube-nocookie.com/embed/iBNw1964kko"
       ]
     },
     "languages": [

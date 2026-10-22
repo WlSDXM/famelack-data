@@ -28,6 +28,21 @@
     "isGeoBlocked": true
   },
   {
+    "nanoid": "TZNdjDVfVrlQUD",
+    "name": "Bollywood Classic Romania",
+    "sources": {
+      "streams": [
+        "https://hls02ns.antenaplay.ro/hls/bollywood-sd/index.m3u8"
+      ]
+    },
+    "languages": [
+      "hin",
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "3FibakB882ByKy",
     "name": "Classic TV",
     "sources": {
@@ -298,7 +313,7 @@
     "name": "TokuSHOUTsu: Kamen Rider Series",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/34p1anWUxDo"
+        "https://www.youtube-nocookie.com/embed/x3PtKUqFz1U"
       ]
     },
     "languages": [

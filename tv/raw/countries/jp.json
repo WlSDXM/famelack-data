@@ -88,7 +88,7 @@
     "name": "HBC Hokkaido News 24",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/zaqvGQiTWBE"
+        "https://www.youtube-nocookie.com/embed/11d0gxOrciw"
       ]
     },
     "languages": [
@@ -249,6 +249,20 @@
     },
     "languages": [
       "eng"
+    ],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "RBU2hbbWKTIbuY",
+    "name": "Pokémon Kids TV Japanese",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/DLBD5eiRzko"
+      ]
+    },
+    "languages": [
+      "jpn"
     ],
     "country": "jp",
     "isGeoBlocked": false

@@ -101,7 +101,7 @@
     "name": "DGV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/P4hHo6ta_O8"
+        "https://www.youtube-nocookie.com/embed/Dh6jFf4dXC0"
       ]
     },
     "languages": [
@@ -284,6 +284,20 @@
     "sources": {
       "streams": [
         "https://freem3u.xyz/api/live/play.m3u8?vid=185"
+      ]
+    },
+    "languages": [
+      "vie"
+    ],
+    "country": "vn",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "TkKPx05Xyb5rMG",
+    "name": "ON Vie Giai Tri",
+    "sources": {
+      "streams": [
+        "https://freem3u.xyz/api/live/play.m3u8?vid=180"
       ]
     },
     "languages": [

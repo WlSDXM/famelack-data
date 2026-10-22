@@ -14,20 +14,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "t2xHdunHhK2Qqc",
-    "name": "Aguacate TV",
-    "sources": {
-      "streams": [
-        "https://streamtv.intervenhosting.net:3040/hybrid/play.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ve",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "ciUS0lRhmTtePT",
     "name": "Anzoategui TV",
     "sources": {
@@ -394,20 +380,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Hf8hQXiCJxWSk6",
-    "name": "Somos TV",
-    "sources": {
-      "streams": [
-        "https://vcp3.myplaytv.com/somostv/somostv/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ve",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "qRZZMGSFXehDnV",
     "name": "TAM TV",
     "sources": {
@@ -569,6 +541,20 @@
     "sources": {
       "streams": [
         "https://vs20.live.opencaster.com/tves_5fd18b1e/index.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ve",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "XdOMLij5yy08uC",
+    "name": "TVM para ti",
+    "sources": {
+      "streams": [
+        "https://streamtv.intervenhosting.net:3529/live/tvmparatilive.m3u8"
       ]
     },
     "languages": [
