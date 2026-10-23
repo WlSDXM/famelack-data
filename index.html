@@ -938,7 +938,7 @@
                         <option value="droplet">Droplet</option>
                         <option value="fish">Fish Tank</option>
                         <option value="terrain">Grid</option>
-                        <option value="milkdrop">Winamp</option>
+                        <option value="">Winamp</option>
                     </select>
                     <button id="radioStar" class="cam-star" title="Save to favorites" style="margin-left: auto;">★</button>
                 </div>
@@ -1669,7 +1669,7 @@
             const glCanvas = document.getElementById('glCanvas');
 
             // 1. Handle WebGL visibility first
-            if (currentStyle === 'milkdrop') {
+            if (currentStyle === '') {
                 canvas.style.display = 'none';
                 if (glCanvas) glCanvas.style.display = 'block';
             } else {
@@ -1686,7 +1686,7 @@
                 asciiViz.style.display = 'none';
                 
                 // Only resize the 2D canvas if we aren't using WebGL
-                if (currentStyle !== 'milkdrop') {
+                if (currentStyle !== '') {
                     requestAnimationFrame(() => requestAnimationFrame(() => sizeCanvas()));
                 }
             }
@@ -3338,8 +3338,8 @@
         if (visualizerDisabled) return;
 
         // If WebGL is selected, let the WebGL loop handle it
-        if (currentStyle === 'milkdrop') {
-            renderMilkdrop();
+        if (currentStyle === '') {
+            render();
             return;
         }
 
@@ -3763,7 +3763,7 @@ window.saveTVFavorites(existingTV);
         });
     })();    
 
-    // ============ MILKDROP-STYLE VISUALIZER (WebGL) ============
+    // ============ -STYLE VISUALIZER (WebGL) ============
     // Uses things your page already has: analyser, freqData, timeData, isAudioPlaying,
     // currentStyle, vizStyleSelect, canvas, sizeCanvas, and the hidden <canvas id="glCanvas">.
     // Click the visualizer = next look. Double-click = fullscreen.
@@ -3891,7 +3891,7 @@ window.saveTVFavorites(existingTV);
         MD.preset = (MD.preset + 1) % MD_PRESETS.length;
         MD.presetAt = performance.now();
         const glc = document.getElementById('glCanvas');
-        if (glc) glc.title = 'Milkdrop: ' + MD_PRESETS[MD.preset].name + ' (click: next look, double-click: fullscreen)';
+        if (glc) glc.title = 'Winamp: ' + MD_PRESETS[MD.preset].name + ' (click: next look, double-click: fullscreen)';
     }
 
     function mdInit(glc) {
@@ -3941,10 +3941,10 @@ window.saveTVFavorites(existingTV);
                 else if (glc.requestFullscreen) glc.requestFullscreen().catch(() => {});
             });
             mdNext(); MD.preset = 0; MD.presetAt = performance.now();
-            glc.title = 'Milkdrop: ' + MD_PRESETS[0].name + ' (click: next look, double-click: fullscreen)';
+            glc.title = 'Winamp: ' + MD_PRESETS[0].name + ' (click: next look, double-click: fullscreen)';
             return true;
         } catch (e) {
-            console.warn('Milkdrop visualizer unavailable:', e);
+            console.warn('Winamp visualizer unavailable:', e);
             MD.state = 'failed';
             mdFallback();
             return false;
