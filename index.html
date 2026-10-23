@@ -3800,7 +3800,7 @@ window.saveTVFavorites(existingTV);
         varying vec2 v_uv;
         uniform sampler2D u_prev;
         uniform vec2 u_texel;
-        uniform float u_aspect, u_time, u_zoom, u_rot, u_warp, u_decay, u_hue, u_sym, u_blur;
+        uniform float u_aspect, u_time, u_zoom, u_rot, u_warp, u_decay, u_hue, u_sym, u_blur, u_stretch;
 
         vec3 hueRot(vec3 c, float a) {
             const vec3 k = vec3(0.57735026);
@@ -3812,12 +3812,14 @@ window.saveTVFavorites(existingTV);
             vec2 p = (v_uv - 0.5) * vec2(u_aspect, 1.0);
 
             // symmetry: 1 = mirror left/right + top/bottom, 3+ = kaleidoscope with that many slices
-            if (u_sym > 2.5) {
+              if (u_sym > 2.5) {
+                p.x /= u_stretch;
                 float r0 = length(p);
                 float a0 = atan(p.y, p.x);
                 float seg = 6.2831853 / u_sym;
                 a0 = abs(mod(a0, seg) - seg * 0.5);
                 p = vec2(cos(a0), sin(a0)) * r0;
+                p.x *= u_stretch;
             } else if (u_sym > 0.5) {
                 p = abs(p);
             }
@@ -3918,7 +3920,7 @@ window.saveTVFavorites(existingTV);
                 MD.loc[name] = {};
                 uniforms.forEach(u => { MD.loc[name][u] = gl.getUniformLocation(p, u); });
             };
-            program('warp', MD_FS_WARP, ['u_prev', 'u_texel', 'u_aspect', 'u_time', 'u_zoom', 'u_rot', 'u_warp', 'u_decay', 'u_hue', 'u_sym', 'u_blur']);
+            program('warp', MD_FS_WARP, ['u_prev', 'u_texel', 'u_aspect', 'u_time', 'u_zoom', 'u_rot', 'u_warp', 'u_decay', 'u_hue', 'u_sym', 'u_blur', 'u_stretch']);
             program('wave', MD_FS_WAVE, ['u_color']);
             program('show', MD_FS_SHOW, ['u_tex', 'u_flash']);
 
@@ -4082,12 +4084,13 @@ window.saveTVFavorites(existingTV);
         gl.uniform2f(U.u_texel, 1 / MD.w, 1 / MD.h);
         gl.uniform1f(U.u_aspect, aspect);
         gl.uniform1f(U.u_time, MD.t);
-        gl.uniform1f(U.u_zoom, 1 + (P.zoom - 1 + MD.bass * 0.012) * dt / wide);
+        gl.uniform1f(U.u_zoom, 1 + (P.zoom - 1 + MD.bass * 0.012) * dt / (P.sym >= 3 ? 1 : wide));
         gl.uniform1f(U.u_rot, (P.rot + (MD.mid - 0.25) * 0.012) * dt / wide);
         gl.uniform1f(U.u_warp, P.warp * (0.6 + MD.treb * 2.0));
         gl.uniform1f(U.u_decay, Math.pow(P.decay, dt));
         gl.uniform1f(U.u_hue, P.hue * dt);
         gl.uniform1f(U.u_sym, P.sym);
+        gl.uniform1f(U.u_stretch, Math.max(1, aspect / 2));
         gl.uniform1f(U.u_blur, 1.0 + MD.treb * 1.5);
         gl.bindBuffer(gl.ARRAY_BUFFER, MD.quad);
         gl.vertexAttribPointer(0, 3, gl.FLOAT, false, 0, 0);
