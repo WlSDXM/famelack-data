@@ -3763,8 +3763,7 @@ window.saveTVFavorites(existingTV);
         });
     })();    
 
-    // ============ -STYLE VISUALIZER (WebGL) ============
-    // Uses things your page already has: analyser, freqData, timeData, isAudioPlaying,
+    // ============ -STYLE VISUALIZER (WebGL) ============    
     // currentStyle, vizStyleSelect, canvas, sizeCanvas, and the hidden <canvas id="glCanvas">.
     // Click the visualizer = next look. Double-click = fullscreen.
     const MD = {
@@ -3773,7 +3772,7 @@ window.saveTVFavorites(existingTV);
         prog: {}, loc: {}, quad: null, waveBuf: null, clickTimer: 0
     };
 
-    const MD_AUTO_CYCLE_MS = 40000; // 0 = never switch looks by itself
+    const MD_AUTO_CYCLE_MS = 40000; 
     const MD_PRESETS = [
         { name: 'Storm',  zoom: 1.010, rot: 0.012,  warp: 0.030, sym: 1, hue: 0.085,  decay: 0.955, wave: 'line',   col: [0.35, 1.00, 0.95], gain: 0.95 },
         { name: 'Vortex', zoom: 1.016, rot: 0.028,  warp: 0.012, sym: 6, hue: 0.045,  decay: 0.955, wave: 'circle', col: [0.95, 0.45, 1.00], gain: 0.7 },
@@ -4023,7 +4022,7 @@ window.saveTVFavorites(existingTV);
                 }
                 traces.push(pts);
             });
-        } else { // circle (stretched into an oval on wide, short pictures)
+        } else { 
             const xs = Math.max(1, Math.min(2.4, aspect * 0.5));
             const pts = [];
             const R = 0.40 + MD.bass * 0.10;
@@ -4047,8 +4046,7 @@ window.saveTVFavorites(existingTV);
     function mdRender() {
         const glc = document.getElementById('glCanvas');
         if (!glc || !mdInit(glc) || !mdResize(glc)) return;
-        if (!analyser || !isAudioPlaying) return; // paused: leave the last picture on screen
-
+        if (!analyser || !isAudioPlaying) return; 
         const gl = MD.gl;
         analyser.getByteFrequencyData(freqData);
         analyser.getByteTimeDomainData(timeData);
@@ -4070,7 +4068,7 @@ window.saveTVFavorites(existingTV);
         const P = MD_PRESETS[MD.preset];
         const aspect = MD.w / MD.h;
         const src = MD.cur, dst = 1 - MD.cur;
-        const wide = Math.max(1, aspect / 3);   // very wide, short pictures need gentler spin/zoom
+        const wide = Math.max(1, aspect / 3);   
 
         // 1) take last frame, warp it, fade it  -> into the other texture
         gl.bindFramebuffer(gl.FRAMEBUFFER, MD.fbo[dst]);
@@ -4102,8 +4100,8 @@ window.saveTVFavorites(existingTV);
         gl.useProgram(MD.prog.wave);
         gl.bindBuffer(gl.ARRAY_BUFFER, MD.waveBuf);
         gl.vertexAttribPointer(0, 3, gl.FLOAT, false, 0, 0);
-        const amp = (0.55 + MD.bass * 0.9) * (wide > 1 ? 1.45 : 1);   // a little taller on short, wide panels
-        const px = 1.6 / (MD.h / 2) + 0.005;           // line thickness that suits the picture size
+        const amp = (0.55 + MD.bass * 0.9) * (wide > 1 ? 1.45 : 1);   
+        const px = 1.6 / (MD.h / 2) + 0.005;           
         const col = P.col;
         const layers = [[px * 3.4, 0.05, col], [px * 1.7, 0.13, col], [px, 0.30, [0.45 + col[0] * 0.55, 0.45 + col[1] * 0.55, 0.45 + col[2] * 0.55]]];
         const boost = (0.85 + MD.flash * 0.6) * P.gain * (0.6 + 0.4 * Math.min(1, MD.h / 300));
@@ -4131,7 +4129,7 @@ window.saveTVFavorites(existingTV);
         MD.cur = dst;
     }
 
-    // your draw() loop already calls renderMilkdrop() when "Milkdrop" is selected; point it at this version
+    // draw() loop already calls renderMilkdrop() when "Milkdrop" is selected; point it here
    function renderMilkdrop() { mdRender(); }
             
     
