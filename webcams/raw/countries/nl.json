@@ -408,6 +408,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "T34Jt7zHYzi1DE",
+    "name": "Delta Yacht",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/vPO1mj15v8s"
+      ]
+    },
+    "languages": [],
+    "country": "nl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "LvZrSgVg45qlwA",
     "name": "Dormakade, Urk",
     "sources": {
@@ -760,7 +772,7 @@
     "name": "Marktstraat, Sneek",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/o-XdHSJwpNg"
+        "https://www.youtube-nocookie.com/embed/M-wDPki5PAg"
       ]
     },
     "languages": [],

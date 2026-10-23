@@ -192,18 +192,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "8JpbfRAcNk8dwN",
-    "name": "Camping La Riva, Sorico",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/LdKhjHA7hDU"
-      ]
-    },
-    "languages": [],
-    "country": "it",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "kfqKx74lpFlAE0",
     "name": "Campo Santa Maria Formosa",
     "sources": {
@@ -641,18 +629,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/6iWjqVt8jmE"
-      ]
-    },
-    "languages": [],
-    "country": "it",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "J0P96ipLGsKR3j",
-    "name": "Isola del Gran Sasso Historic Center",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/0L8SGzOz6gE"
       ]
     },
     "languages": [],

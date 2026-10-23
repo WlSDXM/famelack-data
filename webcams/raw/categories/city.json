@@ -1,5 +1,17 @@
 [
   {
+    "nanoid": "oQwQqQ7kNxuno7",
+    "name": "1 December Square, Reșița",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/lBKcOLGxoBg"
+      ]
+    },
+    "languages": [],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "cDsbzx3MINCo46",
     "name": "3rd HOUSE Inamuragasaki Rooftop West Inamuragasaki View",
     "sources": {
@@ -16,7 +28,7 @@
     "name": "730 Intersection, Ishigaki",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/aZlCueJdhdY"
+        "https://www.youtube-nocookie.com/embed/WCzn0zAw3v8"
       ]
     },
     "languages": [],
@@ -77,18 +89,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/fSm0LbN2y1Q"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "4Qus4DYj0Ql6e9",
-    "name": "AEON Mall Uranishi",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/wCmEcbNro0M"
       ]
     },
     "languages": [],
@@ -1452,18 +1452,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Zn4H2ubuoCTOoq",
-    "name": "Buenos Aires Obelisco",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/KYbDYbK9a48"
-      ]
-    },
-    "languages": [],
-    "country": "ar",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "LAUo04Vq75Oo9X",
     "name": "Bukit Jimbaran Panorama",
     "sources": {
@@ -1564,7 +1552,7 @@
     "name": "California Earthquake Watch",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/mC8G_BhWba0"
+        "https://www.youtube-nocookie.com/embed/rDN8ZaPXGLk"
       ]
     },
     "languages": [],
@@ -1661,6 +1649,30 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/87oRbLLa-_E"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "zSm83nc9Ya1E75",
+    "name": "Castro Street Cam 1",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/ypeBQhmJREM"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Ui5Xgu33j2MZic",
+    "name": "Castro Street Cam 2",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/wFESUxAE-S8"
       ]
     },
     "languages": [],
@@ -1840,7 +1852,7 @@
     "name": "Chicago & North Western Power House (East)",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/6M6rK0ssjYg"
+        "https://www.youtube-nocookie.com/embed/yVS7l0AsJW0"
       ]
     },
     "languages": [],
@@ -1864,7 +1876,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4VjrDgUJboo"
+        "https://www.youtube-nocookie.com/embed/s6ny1ypcjHo"
       ]
     },
     "languages": [],
@@ -2032,7 +2044,7 @@
     "name": "Collins Avenue Street Cam",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/rItpj4wmabM"
+        "https://www.youtube-nocookie.com/embed/-dWBmJpj3js"
       ]
     },
     "languages": [],
@@ -2760,6 +2772,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "QEFr37YZmaWonn",
+    "name": "Downtown Stuart",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/CSn658dBTkU"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "4VK2fyjH8KWW7V",
     "name": "Downtown Traverse City",
     "sources": {
@@ -2836,7 +2860,7 @@
     "name": "Drniš Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/O92BbsGvLTM"
+        "https://www.youtube-nocookie.com/embed/2b0oTlCoYsI"
       ]
     },
     "languages": [],
@@ -2944,7 +2968,7 @@
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/dckNJyN6zUk"
+        "https://www.youtube-nocookie.com/embed/ufa1Wx1JswM"
       ]
     },
     "languages": [],
@@ -3201,18 +3225,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "tbLJvP37bsMtfB",
-    "name": "Fountain, Wolsztyn",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/tomf40r8bP0"
-      ]
-    },
-    "languages": [],
-    "country": "pl",
     "isGeoBlocked": false
   },
   {
@@ -4072,7 +4084,7 @@
     "name": "Hawick High Street",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/35kJJJUr6tQ"
+        "https://www.youtube-nocookie.com/embed/cqqSKrAgYMQ"
       ]
     },
     "languages": [],
@@ -5344,7 +5356,7 @@
     "name": "Lake Ohrid from Cuba Libre Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/KiVRekJsExg"
+        "https://www.youtube-nocookie.com/embed/vVnp7znhTJw"
       ]
     },
     "languages": [],
@@ -5404,7 +5416,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/_BBbJex-EIc"
+        "https://www.youtube-nocookie.com/embed/XKxPOhlln-Q"
       ]
     },
     "languages": [],
@@ -6220,7 +6232,7 @@
     "name": "Marktstraat, Sneek",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/o-XdHSJwpNg"
+        "https://www.youtube-nocookie.com/embed/M-wDPki5PAg"
       ]
     },
     "languages": [],
@@ -6244,7 +6256,7 @@
     "name": "Masjid Al Haram",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4cghNqjAbnc"
+        "https://www.youtube-nocookie.com/embed/_pXbsQQzxPQ"
       ]
     },
     "languages": [],
@@ -6496,7 +6508,7 @@
     "name": "Monheim am Rhein",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/bJS2iGznWoo"
+        "https://www.youtube-nocookie.com/embed/gfKjvLjUaFs"
       ]
     },
     "languages": [],
@@ -7324,7 +7336,7 @@
     "name": "Obor Square",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/NLz3ewRInHk"
+        "https://www.youtube-nocookie.com/embed/HxoU1hz2KDc"
       ]
     },
     "languages": [],
@@ -7420,7 +7432,7 @@
     "name": "Ohrid Waterfront, Lake Ohrid",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Tt6TSG55ULc"
+        "https://www.youtube-nocookie.com/embed/aTWW8_812_4"
       ]
     },
     "languages": [],
@@ -7588,7 +7600,7 @@
     "name": "Orbeli Street",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/YbA_AQPi4NM"
+        "https://www.youtube-nocookie.com/embed/G3U4t0vzLO4"
       ]
     },
     "languages": [],
@@ -7996,7 +8008,7 @@
     "name": "Pattaya Beach Road",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/NsNCkY_4xMQ"
+        "https://www.youtube-nocookie.com/embed/8tY3wLasXU8"
       ]
     },
     "languages": [],
@@ -9316,7 +9328,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/CrjabXNYaYI"
+        "https://www.youtube-nocookie.com/embed/TBYxI8JMsX4"
       ]
     },
     "languages": [],
@@ -9496,7 +9508,7 @@
     "name": "Şebinkarahisar",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/LxbUEt0Tj_A"
+        "https://www.youtube-nocookie.com/embed/pdUIMp3xjEs"
       ]
     },
     "languages": [],
@@ -9508,7 +9520,7 @@
     "name": "Şebinkarahisar Town Square",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/BnbAgwyQ5vA"
+        "https://www.youtube-nocookie.com/embed/HYTv-MwZV2w"
       ]
     },
     "languages": [],
@@ -10792,7 +10804,7 @@
     "name": "Sydney Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ivR-dPe8h7o"
+        "https://www.youtube-nocookie.com/embed/V_Enl6fOatg"
       ]
     },
     "languages": [],
@@ -10804,7 +10816,7 @@
     "name": "Table Mountain",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/fhUEi-ka6Ks"
+        "https://www.youtube-nocookie.com/embed/msrqEVNIV2g"
       ]
     },
     "languages": [],
@@ -11956,7 +11968,7 @@
     "name": "Ushuaia City Center",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/aweQQwQgvdE"
+        "https://www.youtube-nocookie.com/embed/FKu3uOfk3qY"
       ]
     },
     "languages": [],
@@ -12124,7 +12136,7 @@
     "name": "Veliko Tarnovo Center",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/AAbC-zs52bE"
+        "https://www.youtube-nocookie.com/embed/zBxpyA9IGcs"
       ]
     },
     "languages": [],
@@ -12336,18 +12348,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "JbYpgnNgnknL6X",
-    "name": "Villa María Weather Camera",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/4sHqsTjMszM"
-      ]
-    },
-    "languages": [],
-    "country": "ar",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "uwlqjc84voaLAV",
     "name": "Villard-de-Lans Village",
     "sources": {
@@ -12544,7 +12544,7 @@
     "name": "Warsaw Skyline",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/pC8A2NzItUA"
+        "https://www.youtube-nocookie.com/embed/fRzSlRhRLCs"
       ]
     },
     "languages": [],
@@ -12593,6 +12593,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/uUeyh-ZBrNo"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "BCI4L0CYSk5IWr",
+    "name": "West Jefferson",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/FJaUCgjI0YU"
       ]
     },
     "languages": [],
@@ -12729,30 +12741,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "zSZRhO0N1pHPIy",
-    "name": "Wolsztyn Market Square Fountain",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Yljo_QBSL-Q"
-      ]
-    },
-    "languages": [],
-    "country": "pl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "nLIU162ZXWJ9Zk",
-    "name": "Wolsztyn Market Square Mast View",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/MKw84yiykWg"
-      ]
-    },
-    "languages": [],
-    "country": "pl",
     "isGeoBlocked": false
   },
   {

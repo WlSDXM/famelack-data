@@ -28,7 +28,7 @@
     "name": "730 Intersection, Ishigaki",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/aZlCueJdhdY"
+        "https://www.youtube-nocookie.com/embed/WCzn0zAw3v8"
       ]
     },
     "languages": [],
@@ -72,18 +72,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "4Qus4DYj0Ql6e9",
-    "name": "AEON Mall Uranishi",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/wCmEcbNro0M"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "9E82MTiT5HR3ow",
     "name": "Ainan Mishō Bay",
     "sources": {
@@ -101,6 +89,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/fId1i2nDYXQ"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "efhGAQpqwhNUYZ",
+    "name": "Akabane Station",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/AaAY566U7qU"
       ]
     },
     "languages": [],
@@ -1876,7 +1876,7 @@
     "name": "Meitetsu Tokoname Line Ono-machi",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Qcqds1mRXxs"
+        "https://www.youtube-nocookie.com/embed/m9V9EBuZweQ"
       ]
     },
     "languages": [],
@@ -2369,6 +2369,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/cJd9IIu2vio"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "f29nBUByDkrDeo",
+    "name": "Naha Airport",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/dKyyth7FoQo"
       ]
     },
     "languages": [],
@@ -2928,18 +2940,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "BiMkk6F2f2WXKH",
-    "name": "Otawara Kamitakahashi River Surveillance",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/09MsavaS5Gw"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "0oZjNwctG77g0T",
     "name": "Otawara Sabio Bridge River Surveillance",
     "sources": {
@@ -3220,7 +3220,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/CrjabXNYaYI"
+        "https://www.youtube-nocookie.com/embed/TBYxI8JMsX4"
       ]
     },
     "languages": [],

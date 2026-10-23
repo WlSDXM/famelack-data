@@ -576,18 +576,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "aDp1hbfzP7FA1m",
-    "name": "Beach Main Entrance Gate 2",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/B96LfyFCk64"
-      ]
-    },
-    "languages": [],
-    "country": "id",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "SkYkmkLRehnUYb",
     "name": "Beach South Padre Island",
     "sources": {
@@ -717,6 +705,18 @@
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "4ka0z9q25r5E8D",
+    "name": "Bonny Hills Beach House",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/A0m1vWXRWpE"
+      ]
+    },
+    "languages": [],
+    "country": "au",
     "isGeoBlocked": false
   },
   {
@@ -892,7 +892,7 @@
     "name": "Cala Fornells Cove & Mediterranean Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/H4wViam8ERA"
+        "https://www.youtube-nocookie.com/embed/-bSMU5RoW4c"
       ]
     },
     "languages": [],
@@ -1800,6 +1800,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "bBY6z8cVSsfgRD",
+    "name": "Faro Monumental de La Serena",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/-WURM2xspdc"
+      ]
+    },
+    "languages": [],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "xQZw6ALA2l13Wj",
     "name": "Ferry Terminal, Vlieland",
     "sources": {
@@ -2032,7 +2044,7 @@
     "name": "Georgica Jetty",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/VS5izazTjbw"
+        "https://www.youtube-nocookie.com/embed/DN5WYeakgyc"
       ]
     },
     "languages": [],
@@ -2349,18 +2361,6 @@
     },
     "languages": [],
     "country": "kr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "iX3JHjBR6YNLej",
-    "name": "Hotel B Cozumel",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/DXzizH3ginM"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
     "isGeoBlocked": false
   },
   {
@@ -2932,7 +2932,7 @@
     "name": "Lake Ohrid from Cuba Libre Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/KiVRekJsExg"
+        "https://www.youtube-nocookie.com/embed/vVnp7znhTJw"
       ]
     },
     "languages": [],
@@ -3016,7 +3016,7 @@
     "name": "Le Morne",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/jG1vCKGoNRw"
+        "https://www.youtube-nocookie.com/embed/RQuzt_DHFRo"
       ]
     },
     "languages": [],
@@ -3165,18 +3165,6 @@
     },
     "languages": [],
     "country": "es",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "eFXMRj2516fg8c",
-    "name": "Los Muertos Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/zIHFaiBSe1k"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
     "isGeoBlocked": false
   },
   {
@@ -3352,7 +3340,7 @@
     "name": "Maho Beach Plane Spotting",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/6Q1fwOrQfmM"
+        "https://www.youtube-nocookie.com/embed/nB97Hcy01V8"
       ]
     },
     "languages": [],
@@ -4012,7 +4000,7 @@
     "name": "Ohrid Waterfront, Lake Ohrid",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Tt6TSG55ULc"
+        "https://www.youtube-nocookie.com/embed/aTWW8_812_4"
       ]
     },
     "languages": [],
@@ -4288,7 +4276,7 @@
     "name": "Pattaya Beach Road",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/NsNCkY_4xMQ"
+        "https://www.youtube-nocookie.com/embed/8tY3wLasXU8"
       ]
     },
     "languages": [],
@@ -4457,18 +4445,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/uK-eZz0w-go"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "r5nzzEQUfosmwh",
-    "name": "Pismo Beach Shore Cliff",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/KRbRis_62cI"
       ]
     },
     "languages": [],
@@ -6936,18 +6912,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "IwXaP1oRlXqrXU",
-    "name": "Villa Tao Lamai",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Szx0K7gZBx8"
-      ]
-    },
-    "languages": [],
-    "country": "th",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "qfGcHCymqCBZ0o",
     "name": "Villas Great Bay, Philipsburg",
     "sources": {
@@ -7048,7 +7012,7 @@
     "name": "West Kirby Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/mmGWkNeb6OI"
+        "https://www.youtube-nocookie.com/embed/563IkQctjgc"
       ]
     },
     "languages": [],

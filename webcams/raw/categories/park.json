@@ -168,18 +168,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "8JpbfRAcNk8dwN",
-    "name": "Camping La Riva, Sorico",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/LdKhjHA7hDU"
-      ]
-    },
-    "languages": [],
-    "country": "it",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "yWjAo9h9z4zXgs",
     "name": "Camping Weltevreden, Zoutelande",
     "sources": {
@@ -1353,18 +1341,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "LP9P3LNmOnFtYH",
-    "name": "Wolsztyn City Park Bandshell View",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/gAP2CGKpfRE"
-      ]
-    },
-    "languages": [],
-    "country": "pl",
     "isGeoBlocked": false
   },
   {

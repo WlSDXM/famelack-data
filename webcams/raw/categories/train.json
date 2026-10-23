@@ -24,6 +24,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "efhGAQpqwhNUYZ",
+    "name": "Akabane Station",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/AaAY566U7qU"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "no0BOq0PiUmV5h",
     "name": "Akita Station Square",
     "sources": {
@@ -688,7 +700,7 @@
     "name": "Chicago & North Western Power House (East)",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/6M6rK0ssjYg"
+        "https://www.youtube-nocookie.com/embed/yVS7l0AsJW0"
       ]
     },
     "languages": [],
@@ -2284,7 +2296,7 @@
     "name": "Meitetsu Tokoname Line Ono-machi",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Qcqds1mRXxs"
+        "https://www.youtube-nocookie.com/embed/m9V9EBuZweQ"
       ]
     },
     "languages": [],
@@ -2872,7 +2884,7 @@
     "name": "Port Byron Railcam on the Mississippi",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/y4Ka2VO6Yck"
+        "https://www.youtube-nocookie.com/embed/XVTaCexLD3c"
       ]
     },
     "languages": [],

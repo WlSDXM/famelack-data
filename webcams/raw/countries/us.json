@@ -1476,18 +1476,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "HEADpYSgp4UwjA",
-    "name": "Boot Key Harbor City Marina",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Ilio-LZ-pI0"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "A0fFon29PKACWm",
     "name": "Boothbay Harbor Cove",
     "sources": {
@@ -2128,7 +2116,7 @@
     "name": "California Earthquake Watch",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/mC8G_BhWba0"
+        "https://www.youtube-nocookie.com/embed/rDN8ZaPXGLk"
       ]
     },
     "languages": [],
@@ -2345,6 +2333,30 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/87oRbLLa-_E"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "zSm83nc9Ya1E75",
+    "name": "Castro Street Cam 1",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/ypeBQhmJREM"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Ui5Xgu33j2MZic",
+    "name": "Castro Street Cam 2",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/wFESUxAE-S8"
       ]
     },
     "languages": [],
@@ -2572,7 +2584,7 @@
     "name": "Chicago & North Western Power House (East)",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/6M6rK0ssjYg"
+        "https://www.youtube-nocookie.com/embed/yVS7l0AsJW0"
       ]
     },
     "languages": [],
@@ -2596,7 +2608,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4VjrDgUJboo"
+        "https://www.youtube-nocookie.com/embed/s6ny1ypcjHo"
       ]
     },
     "languages": [],
@@ -2860,7 +2872,7 @@
     "name": "Collins Avenue Street Cam",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/rItpj4wmabM"
+        "https://www.youtube-nocookie.com/embed/-dWBmJpj3js"
       ]
     },
     "languages": [],
@@ -3564,18 +3576,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "9FACMEW5P67m46",
-    "name": "Disney California Adventure",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/FuT6AUQYsHw"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "7cWQOqwrolB1pI",
     "name": "Dixon Square, Downtown Westerly",
     "sources": {
@@ -4056,6 +4056,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "QEFr37YZmaWonn",
+    "name": "Downtown Stuart",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/CSn658dBTkU"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "4VK2fyjH8KWW7V",
     "name": "Downtown Traverse City",
     "sources": {
@@ -4264,7 +4276,7 @@
     "name": "Duluth Ship Canal Lighthouse",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/nCf7X2cPDAY"
+        "https://www.youtube-nocookie.com/embed/GybnCsEkx-E"
       ]
     },
     "languages": [],
@@ -4396,7 +4408,7 @@
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/dckNJyN6zUk"
+        "https://www.youtube-nocookie.com/embed/ufa1Wx1JswM"
       ]
     },
     "languages": [],
@@ -5224,7 +5236,7 @@
     "name": "Furball Farm Cat Sanctuary",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/1tGkBY4xGME"
+        "https://www.youtube-nocookie.com/embed/GloQvfm5sAo"
       ]
     },
     "languages": [],
@@ -5452,7 +5464,7 @@
     "name": "Georgica Jetty",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/VS5izazTjbw"
+        "https://www.youtube-nocookie.com/embed/DN5WYeakgyc"
       ]
     },
     "languages": [],
@@ -6640,7 +6652,7 @@
     "name": "ISS Earth & Interior View",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/awQzjn72bI0"
+        "https://www.youtube-nocookie.com/embed/ROboUHfPUrU"
       ]
     },
     "languages": [],
@@ -7109,18 +7121,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/B5I8GchAu5U"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "C2ZioAToKhgyZC",
-    "name": "Key Largo Dolphin Lagoon",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ghg9lhFDouM"
       ]
     },
     "languages": [],
@@ -7660,7 +7660,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/_BBbJex-EIc"
+        "https://www.youtube-nocookie.com/embed/XKxPOhlln-Q"
       ]
     },
     "languages": [],
@@ -9460,7 +9460,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/qCD4aqq1IFU"
+        "https://www.youtube-nocookie.com/embed/cCN6eC-PzwE"
       ]
     },
     "languages": [],
@@ -9473,18 +9473,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/Z27ghRYocJ4"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "JKfH6WqXKPjY8H",
-    "name": "Mount Washington Observatory Tower",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/JuJVUhj9JBo"
       ]
     },
     "languages": [],
@@ -9509,6 +9497,42 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/KDYnfJzQrQA"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "vwmpwr3dC1pq9s",
+    "name": "Mountain High Bullwheel",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/gH_EHWX7v08"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AvZbdZON7NuG9u",
+    "name": "Mountain High East Summit",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/GNPMAg6sNAc"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "UsKIzWqM4bC4Yn",
+    "name": "Mountain High Upper Chisolm",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/POA5hIql9fM"
       ]
     },
     "languages": [],
@@ -11244,18 +11268,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "r5nzzEQUfosmwh",
-    "name": "Pismo Beach Shore Cliff",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/KRbRis_62cI"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "lbyfn6TWD0oMcx",
     "name": "Pittsburgh Hays Bald Eagle",
     "sources": {
@@ -11404,7 +11416,7 @@
     "name": "Port Byron Railcam on the Mississippi",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/y4Ka2VO6Yck"
+        "https://www.youtube-nocookie.com/embed/XVTaCexLD3c"
       ]
     },
     "languages": [],
@@ -12652,7 +12664,7 @@
     "name": "Saint Louis Zoo",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/DDdVBUhdzrs"
+        "https://www.youtube-nocookie.com/embed/aomQU6K1YwI"
       ]
     },
     "languages": [],
@@ -12664,7 +12676,7 @@
     "name": "Saint Louis Zoo Penguin Exhibit",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/vJGfQuIZl_w"
+        "https://www.youtube-nocookie.com/embed/k1rxtmWa8kM"
       ]
     },
     "languages": [],
@@ -13392,18 +13404,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "3op0Op6meiwgyK",
-    "name": "Seal Island Puffin Boulder Berm",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/EqVCjIa5brY"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "t3c1gCD7jG1961",
     "name": "Seals at North Lighthouse",
     "sources": {
@@ -13877,18 +13877,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/8ft5kUvq27U"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "035tZgyBhaJNT4",
-    "name": "Smith College Athletic Fields Geothermal Project",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/kCPmYpcZZdg"
       ]
     },
     "languages": [],
@@ -14716,7 +14704,7 @@
     "name": "Squirrel and Wildlife Feeder",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/MVt-VVXfzIc"
+        "https://www.youtube-nocookie.com/embed/If1HkcNqEps"
       ]
     },
     "languages": [],
@@ -15160,7 +15148,7 @@
     "name": "Steinhart Aquarium",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/99aULx3GORo"
+        "https://www.youtube-nocookie.com/embed/je7nCiZhEJE"
       ]
     },
     "languages": [],
@@ -17376,6 +17364,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "BCI4L0CYSk5IWr",
+    "name": "West Jefferson",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/FJaUCgjI0YU"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "nALLpvEwd6A414",
     "name": "West Liberty Heritage Depot Railcam",
     "sources": {
@@ -17921,18 +17921,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/TE6N2eDrsR0"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "DWo7rcGMizcmwh",
-    "name": "World Championship Derby Complex",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Ah2t8P0btiQ"
       ]
     },
     "languages": [],

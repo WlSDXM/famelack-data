@@ -264,18 +264,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Zn4H2ubuoCTOoq",
-    "name": "Buenos Aires Obelisco",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/KYbDYbK9a48"
-      ]
-    },
-    "languages": [],
-    "country": "ar",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "lyke9TwT1fOOz4",
     "name": "Buffalo Bills Highmark Stadium",
     "sources": {
@@ -528,18 +516,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "9FACMEW5P67m46",
-    "name": "Disney California Adventure",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/FuT6AUQYsHw"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "6jFPUKbCA7bxDt",
     "name": "Divine Mercy Church, Stary Sącz",
     "sources": {
@@ -645,6 +621,18 @@
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "bBY6z8cVSsfgRD",
+    "name": "Faro Monumental de La Serena",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/-WURM2xspdc"
+      ]
+    },
+    "languages": [],
+    "country": "cl",
     "isGeoBlocked": false
   },
   {
@@ -777,6 +765,18 @@
     },
     "languages": [],
     "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "x97HSWf6VBp1Fh",
+    "name": "Holy Dormition Pochaiv Lavra",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/-LXvkgbV0Tc"
+      ]
+    },
+    "languages": [],
+    "country": "ua",
     "isGeoBlocked": false
   },
   {
@@ -952,7 +952,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/_BBbJex-EIc"
+        "https://www.youtube-nocookie.com/embed/XKxPOhlln-Q"
       ]
     },
     "languages": [],
@@ -1000,7 +1000,7 @@
     "name": "Masjid Al Haram",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/4cghNqjAbnc"
+        "https://www.youtube-nocookie.com/embed/_pXbsQQzxPQ"
       ]
     },
     "languages": [],

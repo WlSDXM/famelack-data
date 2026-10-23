@@ -564,18 +564,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "HEADpYSgp4UwjA",
-    "name": "Boot Key Harbor City Marina",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Ilio-LZ-pI0"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "A0fFon29PKACWm",
     "name": "Boothbay Harbor Cove",
     "sources": {
@@ -1296,6 +1284,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "T34Jt7zHYzi1DE",
+    "name": "Delta Yacht",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/vPO1mj15v8s"
+      ]
+    },
+    "languages": [],
+    "country": "nl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "SJbHB726vFJHsr",
     "name": "Desembocadura Río Maipo",
     "sources": {
@@ -1516,7 +1516,7 @@
     "name": "Duluth Ship Canal Lighthouse",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/nCf7X2cPDAY"
+        "https://www.youtube-nocookie.com/embed/GybnCsEkx-E"
       ]
     },
     "languages": [],
@@ -1540,7 +1540,7 @@
     "name": "Dunedin Otago Harbour",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/jY193cTB1-k"
+        "https://www.youtube-nocookie.com/embed/-LPzM9s7VkE"
       ]
     },
     "languages": [],
@@ -1564,7 +1564,7 @@
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/dckNJyN6zUk"
+        "https://www.youtube-nocookie.com/embed/ufa1Wx1JswM"
       ]
     },
     "languages": [],
@@ -3117,18 +3117,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "875yXyEZlzwiyy",
-    "name": "Medulin",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/WaQnO6RTpxU"
-      ]
-    },
-    "languages": [],
-    "country": "hr",
     "isGeoBlocked": false
   },
   {
@@ -4900,7 +4888,7 @@
     "name": "Skiathos Bay & Port",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Lo2zNCtYCLM"
+        "https://www.youtube-nocookie.com/embed/cevvxXYVF_E"
       ]
     },
     "languages": [],
@@ -5692,7 +5680,7 @@
     "name": "Ushuaia City Center",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/aweQQwQgvdE"
+        "https://www.youtube-nocookie.com/embed/FKu3uOfk3qY"
       ]
     },
     "languages": [],

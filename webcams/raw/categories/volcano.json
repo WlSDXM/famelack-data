@@ -12,6 +12,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "9bKCqbtlN4su2y",
+    "name": "Bromo & Semeru Volcano Panorama",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/2E7jzu5mP-o"
+      ]
+    },
+    "languages": [],
+    "country": "id",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "q45dKlxQI08gsG",
     "name": "Bulusan Volcano",
     "sources": {

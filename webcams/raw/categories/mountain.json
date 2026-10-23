@@ -624,6 +624,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "9bKCqbtlN4su2y",
+    "name": "Bromo & Semeru Volcano Panorama",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/2E7jzu5mP-o"
+      ]
+    },
+    "languages": [],
+    "country": "id",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "km5lNNRSmyRkPN",
     "name": "Brundage Mountain Resort Summit",
     "sources": {
@@ -729,18 +741,6 @@
     },
     "languages": [],
     "country": "es",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "8JpbfRAcNk8dwN",
-    "name": "Camping La Riva, Sorico",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/LdKhjHA7hDU"
-      ]
-    },
-    "languages": [],
-    "country": "it",
     "isGeoBlocked": false
   },
   {
@@ -1872,18 +1872,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "J0P96ipLGsKR3j",
-    "name": "Isola del Gran Sasso Historic Center",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/0L8SGzOz6gE"
-      ]
-    },
-    "languages": [],
-    "country": "it",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Kp15s2h54jvVs8",
     "name": "Jackson Hole Golf & Tennis Club",
     "sources": {
@@ -2464,7 +2452,7 @@
     "name": "Le Morne",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/jG1vCKGoNRw"
+        "https://www.youtube-nocookie.com/embed/RQuzt_DHFRo"
       ]
     },
     "languages": [],
@@ -3412,7 +3400,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/qCD4aqq1IFU"
+        "https://www.youtube-nocookie.com/embed/cCN6eC-PzwE"
       ]
     },
     "languages": [],
@@ -3425,18 +3413,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/Z27ghRYocJ4"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "JKfH6WqXKPjY8H",
-    "name": "Mount Washington Observatory Tower",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/JuJVUhj9JBo"
       ]
     },
     "languages": [],
@@ -3461,6 +3437,42 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/KDYnfJzQrQA"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "vwmpwr3dC1pq9s",
+    "name": "Mountain High Bullwheel",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/gH_EHWX7v08"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AvZbdZON7NuG9u",
+    "name": "Mountain High East Summit",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/GNPMAg6sNAc"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "UsKIzWqM4bC4Yn",
+    "name": "Mountain High Upper Chisolm",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/POA5hIql9fM"
       ]
     },
     "languages": [],
@@ -5848,7 +5860,7 @@
     "name": "Ushuaia City Center",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/aweQQwQgvdE"
+        "https://www.youtube-nocookie.com/embed/FKu3uOfk3qY"
       ]
     },
     "languages": [],
@@ -5872,7 +5884,7 @@
     "name": "Val d'Isère",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/_AV_G_YlFII"
+        "https://www.youtube-nocookie.com/embed/A-RcrOZICfo"
       ]
     },
     "languages": [],

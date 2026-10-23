@@ -592,7 +592,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/qCD4aqq1IFU"
+        "https://www.youtube-nocookie.com/embed/cCN6eC-PzwE"
       ]
     },
     "languages": [],
@@ -605,18 +605,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/Z27ghRYocJ4"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "JKfH6WqXKPjY8H",
-    "name": "Mount Washington Observatory Tower",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/JuJVUhj9JBo"
       ]
     },
     "languages": [],
@@ -1077,18 +1065,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "JbYpgnNgnknL6X",
-    "name": "Villa María Weather Camera",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/4sHqsTjMszM"
-      ]
-    },
-    "languages": [],
-    "country": "ar",
     "isGeoBlocked": false
   },
   {

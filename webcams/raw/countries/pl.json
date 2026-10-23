@@ -48,18 +48,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "tbLJvP37bsMtfB",
-    "name": "Fountain, Wolsztyn",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/tomf40r8bP0"
-      ]
-    },
-    "languages": [],
-    "country": "pl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "GD3AdoxK0oykL2",
     "name": "Kostarowce Stork Nest",
     "sources": {
@@ -244,55 +232,7 @@
     "name": "Warsaw Skyline",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/pC8A2NzItUA"
-      ]
-    },
-    "languages": [],
-    "country": "pl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "HWpJUaWRJW8FTe",
-    "name": "Wolsztyn City Hall Kestrel Nest",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ESVEiBnZB2U"
-      ]
-    },
-    "languages": [],
-    "country": "pl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "LP9P3LNmOnFtYH",
-    "name": "Wolsztyn City Park Bandshell View",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/gAP2CGKpfRE"
-      ]
-    },
-    "languages": [],
-    "country": "pl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "zSZRhO0N1pHPIy",
-    "name": "Wolsztyn Market Square Fountain",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Yljo_QBSL-Q"
-      ]
-    },
-    "languages": [],
-    "country": "pl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "nLIU162ZXWJ9Zk",
-    "name": "Wolsztyn Market Square Mast View",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/MKw84yiykWg"
+        "https://www.youtube-nocookie.com/embed/fRzSlRhRLCs"
       ]
     },
     "languages": [],

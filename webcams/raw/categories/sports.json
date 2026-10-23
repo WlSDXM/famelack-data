@@ -660,18 +660,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "035tZgyBhaJNT4",
-    "name": "Smith College Athletic Fields Geothermal Project",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/kCPmYpcZZdg"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "0PD4ULRd1veVFd",
     "name": "Smith College Paradise Pond - Athletic Fields",
     "sources": {
@@ -981,18 +969,6 @@
     },
     "languages": [],
     "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "DWo7rcGMizcmwh",
-    "name": "World Championship Derby Complex",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Ah2t8P0btiQ"
-      ]
-    },
-    "languages": [],
-    "country": "us",
     "isGeoBlocked": false
   },
   {
