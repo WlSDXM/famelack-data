@@ -102,6 +102,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "mAl50UnEXvw3NE",
+    "name": "Afontovo",
+    "sources": {
+      "streams": [
+        "https://stream.afontovo.ru/hd.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "hCnlUCWzC85Pyo",
     "name": "AIST TV",
     "sources": {
@@ -445,6 +459,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "BN8UK0JlgAMrEm",
+    "name": "City Eden Birma Play",
+    "sources": {
+      "streams": [
+        "https://cityeden.catcast.tv/content/34364/index.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Lk2MXbqIFnMEMM",
     "name": "City Eden Classic Music",
     "sources": {
@@ -459,11 +487,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "gUswhqxHZdKrP1",
-    "name": "City Eden KinoAction",
+    "nanoid": "Wc02nSZr6VuoIF",
+    "name": "City Eden KinoAsia",
     "sources": {
       "streams": [
-        "https://cityeden.catcast.tv/content/41333/index.m3u8"
+        "https://cityeden.catcast.tv/content/34393/index.m3u8"
       ]
     },
     "languages": [
@@ -473,53 +501,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "n4R8lzuArvLNkC",
-    "name": "City Eden KinoArt",
+    "nanoid": "FQwfx6NTcjE41o",
+    "name": "City Eden KinoDrama",
     "sources": {
       "streams": [
-        "https://cityeden.catcast.tv/content/38398/index.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "8Ucx5FG7ngDLh5",
-    "name": "City Eden KinoDetektiv",
-    "sources": {
-      "streams": [
-        "https://cityeden.catcast.tv/content/41327/index.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "UYW2WtzuwJvxrr",
-    "name": "City Eden KinoDok",
-    "sources": {
-      "streams": [
-        "https://cityeden.catcast.tv/content/38354/index.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "zzxh5uo44jq1FL",
-    "name": "City Eden KinoFantastika",
-    "sources": {
-      "streams": [
-        "https://cityeden.catcast.tv/content/45268/index.m3u8"
+        "https://cityeden.catcast.tv/content/45269/index.m3u8"
       ]
     },
     "languages": [
@@ -557,6 +543,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "hYJqIp24qMnNqd",
+    "name": "City Eden KinoMistika",
+    "sources": {
+      "streams": [
+        "https://cityeden.catcast.tv/content/40783/index.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "rPl77qAXLXht7K",
     "name": "City Eden MedZdrav",
     "sources": {
@@ -576,6 +576,20 @@
     "sources": {
       "streams": [
         "https://cityeden.catcast.tv/content/34100/index.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "rt3pDKAk1yMoRc",
+    "name": "City Eden Recepty Gurmana",
+    "sources": {
+      "streams": [
+        "https://cityeden.catcast.tv/content/47516/index.m3u8"
       ]
     },
     "languages": [
@@ -932,8 +946,8 @@
     "name": "Hope Channel Russia",
     "sources": {
       "streams": [
-        "https://tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8",
-        "https://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8"
+        "https://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8",
+        "https://tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1344,6 +1358,20 @@
     "sources": {
       "streams": [
         "https://live1.1tvcrimea.ru/milletlive.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "J45VohwHQxzbcT",
+    "name": "Ministerstvo idey",
+    "sources": {
+      "streams": [
+        "https://live-minidey.cdnvideo.ru/minidey-srt/minidey/playlist.m3u8"
       ]
     },
     "languages": [
@@ -2395,6 +2423,90 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "rzeNGQqOs9ouwZ",
+    "name": "Smotrim 100% Detskoe",
+    "sources": {
+      "streams": [
+        "https://stream.smotrim.ru/hls/fasttv05/playlist_3.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "orDXxZRC4vUyeM",
+    "name": "Smotrim 100% Fakty",
+    "sources": {
+      "streams": [
+        "https://stream.smotrim.ru/hls/fasttv06/playlist_3.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "6UMqfCWAL6fJyw",
+    "name": "Smotrim 100% Klassika",
+    "sources": {
+      "streams": [
+        "https://stream.smotrim.ru/hls/fasttv03/playlist_3.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AEW5rUSukyBObX",
+    "name": "Smotrim 100% Lyubov",
+    "sources": {
+      "streams": [
+        "https://stream.smotrim.ru/hls/fasttv01/playlist_2.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "xskSlYuVIwl8pa",
+    "name": "Smotrim 100% Muzhskoe",
+    "sources": {
+      "streams": [
+        "https://stream.smotrim.ru/hls/fasttv02/playlist_3.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "xmXphKZ88u1bWW",
+    "name": "Smotrim 100% Prazdnik",
+    "sources": {
+      "streams": [
+        "https://stream.smotrim.ru/hls/fasttv04/playlist_3.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "XsDojCA8SLZ0wU",
     "name": "Smotrim Chestnyy Detektiv",
     "sources": {
@@ -2422,20 +2534,6 @@
     ],
     "country": "ru",
     "isGeoBlocked": true
-  },
-  {
-    "nanoid": "1O2WM4Rr6cJiEq",
-    "name": "Solovyov Live",
-    "sources": {
-      "streams": [
-        "https://stream.smotrim.ru/hls2/solovievlive/playlist_6.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
   },
   {
     "nanoid": "uuwdAM4ggDTLQ4",

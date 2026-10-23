@@ -156,6 +156,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "4tOQsHNAnrUk50",
+    "name": "Canal Calima TV",
+    "sources": {
+      "streams": [
+        "https://movil.ejeserver.com/live/calimatv.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "co",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "pxpERTjTLU5biZ",
     "name": "Canal CHD",
     "sources": {
@@ -525,6 +539,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "mshfkhqs41pHqb",
+    "name": "Fiesta TV",
+    "sources": {
+      "streams": [
+        "https://panelvideo1.intermediahost.co:3286/live/ruzfpkqklive.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "co",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "vrb0tQpIhi4WoL",
     "name": "Frecuencia F TV",
     "sources": {
@@ -866,20 +894,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "rZfnfgO93XkAdZ",
-    "name": "Soona TV",
-    "sources": {
-      "streams": [
-        "https://vs20.live.opencaster.com/soonatv_a1a564a9/index.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "co",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "JBY0vsG9zLUttk",
     "name": "StreamForce 360 Main",
     "sources": {
@@ -930,6 +944,21 @@
       ]
     },
     "languages": [
+      "spa"
+    ],
+    "country": "co",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "NNAoypPSm0OCzN",
+    "name": "Teleislas",
+    "sources": {
+      "streams": [
+        "https://5ab772334c39c.streamlock.net/live-teleislas/teleislas/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "icr",
       "spa"
     ],
     "country": "co",
@@ -1025,6 +1054,20 @@
     "sources": {
       "streams": [
         "https://live.amelbatv.co:81/teleopita/index.fmp4.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "co",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "w1ixTwFBg5nJH1",
+    "name": "TVGracia",
+    "sources": {
+      "streams": [
+        "https://vs20.live.opencaster.com/diego_57244803/index.m3u8"
       ]
     },
     "languages": [

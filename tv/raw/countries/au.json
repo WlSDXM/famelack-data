@@ -315,6 +315,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "pPdE8C8cpyAqht",
+    "name": "Force Thirteen Earthquakes",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/qTAzouknXD0"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "au",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "t5msHgNGG9QAPb",
     "name": "Fox Sports News",
     "sources": {

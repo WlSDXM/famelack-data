@@ -42,6 +42,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "n4RrCqsrdFtghH",
+    "name": "Afroculture TV",
+    "sources": {
+      "streams": [
+        "https://streamtv.cmediahosthosting.net:3836/live/myafroculturelive.m3u8"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "ci",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "FjdLgphriWW4if",
     "name": "Al-Kawthar TV",
     "sources": {
@@ -226,6 +240,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "QtyIEE9DZnKUAu",
+    "name": "Canal 17 RTVD",
+    "sources": {
+      "streams": [
+        "https://cdn.protvradiostream.com/rtvd17/ngrp:rtvd17_all/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "tF5n1NaStHSPlK",
     "name": "Canal Diplomatico",
     "sources": {
@@ -240,6 +268,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "kcUlTpEd2EjJLo",
+    "name": "Capital 21",
+    "sources": {
+      "streams": [
+        "https://video.cdmx.gob.mx/redes/stream.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "vUd9BZTcBgBOm3",
     "name": "Catamarca TV",
     "sources": {
@@ -251,6 +293,20 @@
       "spa"
     ],
     "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "RMJta2uB0RhiFk",
+    "name": "Channel One",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/LAh3IcpmW_Y"
+      ]
+    },
+    "languages": [
+      "fas"
+    ],
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -325,6 +381,20 @@
       "tur"
     ],
     "country": "tr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "m1fqGkSb3kQ4GK",
+    "name": "Ciracu TV",
+    "sources": {
+      "streams": [
+        "https://cloud37.ecuatel.com/ciracutv/live/manifest.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ec",
     "isGeoBlocked": false
   },
   {
@@ -560,20 +630,6 @@
       "est"
     ],
     "country": "ee",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "31Wi6UqtxsYAm3",
-    "name": "Ev-tele",
-    "sources": {
-      "streams": [
-        "https://playtv4k.live/live/EVTELE/index.m3u8"
-      ]
-    },
-    "languages": [
-      "fra"
-    ],
-    "country": "cg",
     "isGeoBlocked": false
   },
   {
@@ -1006,6 +1062,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "J45VohwHQxzbcT",
+    "name": "Ministerstvo idey",
+    "sources": {
+      "streams": [
+        "https://live-minidey.cdnvideo.ru/minidey-srt/minidey/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "XLkNES6kyKfJ4o",
     "name": "Montreal Greek TV",
     "sources": {
@@ -1236,6 +1306,33 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "y8ufu4YXUzuRSK",
+    "name": "RTB 3",
+    "sources": {
+      "streams": [
+        "https://edge13.vedge.infomaniak.com/livecast/ik:rtb3-1/manifest.m3u8"
+      ]
+    },
+    "languages": [
+      "bbo",
+      "bib",
+      "box",
+      "dgi",
+      "dyu",
+      "ful",
+      "gux",
+      "lee",
+      "lob",
+      "mos",
+      "rkm",
+      "sbd",
+      "stj",
+      "sym"
+    ],
+    "country": "bf",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "p36vvpwTrBuj6A",
     "name": "Russia-K",
     "sources": {
@@ -1350,20 +1447,6 @@
       "spa"
     ],
     "country": "ve",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "bOQ2ElnoGQqKTy",
-    "name": "Somos Entre Rios",
-    "sources": {
-      "streams": [
-        "https://live20.bozztv.com/akamaissh101/ssh101/somosentrerios/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ar",
     "isGeoBlocked": false
   },
   {

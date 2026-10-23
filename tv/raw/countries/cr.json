@@ -75,8 +75,7 @@
     "name": "BestClasicosTV",
     "sources": {
       "streams": [
-        "https://acceso.mediosdecostarica.com:3873/hybrid/play.m3u8",
-        "https://acceso.mediosdecostarica.com:3873/live/bestclasicostvlive.m3u8"
+        "https://acceso.mediosdecostarica.com:3873/hybrid/play.m3u8"
       ]
     },
     "languages": [
@@ -119,7 +118,8 @@
     "name": "Canal 10",
     "sources": {
       "streams": [
-        "https://acceso.mediosdecostarica.com:3606/hybrid/play.m3u8"
+        "https://acceso.mediosdecostarica.com:3606/hybrid/play.m3u8",
+        "https://acceso.mediosdecostarica.com:3606/live/canal10costaricalive.m3u8"
       ]
     },
     "languages": [
@@ -233,21 +233,6 @@
       ]
     },
     "languages": [
-      "spa"
-    ],
-    "country": "cr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "xMyWNZNLNYysjq",
-    "name": "Enlace",
-    "sources": {
-      "streams": [
-        "https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "eng",
       "spa"
     ],
     "country": "cr",
@@ -397,20 +382,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "fNzNQyxrdQA2dG",
-    "name": "Multimedios Costa Rica",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/0M5wWsvdZKk"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "cr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "L1OBT7Lnf5SKDh",
     "name": "NicoyaTV",
     "sources": {
@@ -435,6 +406,18 @@
     "languages": [
       "spa"
     ],
+    "country": "cr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "cjWWqp2uLiAYNE",
+    "name": "Oldies Hits",
+    "sources": {
+      "streams": [
+        "https://video07.logicahost.com.br/oldieshits/oldieshits/playlist.m3u8"
+      ]
+    },
+    "languages": [],
     "country": "cr",
     "isGeoBlocked": false
   },

@@ -28,6 +28,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "At9xDVwnRJnJwN",
+    "name": "13 Kids",
+    "sources": {
+      "streams": [
+        "https://origin.dpsgo.com/ssai/event/LhHrVtyeQkKZ-Ye_xEU75g/master.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "bl19xd6Od9LNtI",
     "name": "13 Realities",
     "sources": {
@@ -201,21 +215,6 @@
     "sources": {
       "streams": [
         "https://v2.tustreaming.cl/atacamanoticias/index.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "1Gs106kwXgodNe",
-    "name": "Atacama TV",
-    "sources": {
-      "streams": [
-        "https://v2.tustreaming.cl/atacamatv/index.m3u8",
-        "https://v2.tustreaming.cl/atacamatv/tracks-v1a1/mono.ts.m3u8"
       ]
     },
     "languages": [
@@ -497,7 +496,7 @@
     "name": "ChileVision",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/BFIJK8l2MN4"
+        "https://www.youtube-nocookie.com/embed/aOuBK5lZ9Zs"
       ]
     },
     "languages": [
@@ -553,7 +552,7 @@
     "name": "CHV Noticias",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/EHDYxxXsetQ"
+        "https://www.youtube-nocookie.com/embed/mYpre7Bg7xE"
       ]
     },
     "languages": [
@@ -1255,7 +1254,7 @@
     "name": "Meganoticias",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/F2-FTW12q3c"
+        "https://www.youtube-nocookie.com/embed/pOLvXsP9Olg"
       ]
     },
     "languages": [],
@@ -2040,6 +2039,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "RtV9rPOW8b3zIG",
+    "name": "Solo Bailalo",
+    "sources": {
+      "streams": [
+        "https://5ff3d9babae13.streamlock.net/8000/8000/playlist.m3u8",
+        "https://5ff3d9babae13.streamlock.net/8016/8016/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "mqYfqY8rf4OFP1",
     "name": "Solo TV",
     "sources": {
@@ -2506,8 +2520,8 @@
     "name": "UATV",
     "sources": {
       "streams": [
-        "https://unlimited6-cl.dps.live/uatv/uatv.smil/playlist.m3u8",
-        "https://unlimited1-us.dps.live/uatv/uatv.smil/playlist.m3u8"
+        "https://unlimited1-us.dps.live/uatv/uatv.smil/playlist.m3u8",
+        "https://unlimited6-cl.dps.live/uatv/uatv.smil/playlist.m3u8"
       ]
     },
     "languages": [

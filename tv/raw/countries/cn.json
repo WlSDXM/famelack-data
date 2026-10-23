@@ -287,9 +287,6 @@
       "streams": [
         "https://amg01314-cgtn-amg01314c3-rakuten-uk-1318.playouts.now.amagi.tv/cgtn-es-rakuten/playlist.m3u8",
         "https://dash4.antik.sk/live/test_cgtn_esp_tizen/playlist.m3u8"
-      ],
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/0t5RT9FYCF8"
       ]
     },
     "languages": [
@@ -358,6 +355,20 @@
     ],
     "country": "cn",
     "isGeoBlocked": false
+  },
+  {
+    "nanoid": "zAj5NzeQEJLQeG",
+    "name": "Dragon TV International",
+    "sources": {
+      "streams": [
+        "https://restream.pdtvhd.com/memfs/0b1b95c9-3543-4af9-9fdb-cf45f1602f17.m3u8"
+      ]
+    },
+    "languages": [
+      "zho"
+    ],
+    "country": "cn",
+    "isGeoBlocked": true
   },
   {
     "nanoid": "l2c248PtwB0qu4",
@@ -577,6 +588,7 @@
     "name": "Xinjiang TV 2",
     "sources": {
       "streams": [
+        "https://hls.quklive.com/live/play-sh-21.quklive.com/1777511615189085.m3u8?auth_key=2092871636-a39d8614688744d0b170b856b086ba80-0-33900446b83fa0b5befeb6bedbcd51a0",
         "https://infolive.hongshannet.cn/RedHillEye/1781077833267957853648adb1cc9957853648adb1cc9.m3u8?auth_key=1812613833-0-0-4dabcc60fbe41e40712b37dbf24dc877"
       ]
     },
@@ -807,18 +819,6 @@
     "languages": [],
     "country": "cn",
     "isGeoBlocked": true
-  },
-  {
-    "nanoid": "THg2ymDAp3wTLF",
-    "name": "河源综合",
-    "sources": {
-      "streams": [
-        "https://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8"
-      ]
-    },
-    "languages": [],
-    "country": "cn",
-    "isGeoBlocked": false
   },
   {
     "nanoid": "q3imX08R99F529",

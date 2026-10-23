@@ -719,7 +719,8 @@
     "name": "Hellenic Parliament TV",
     "sources": {
       "streams": [
-        "https://ert-ucdn.broadpeak-aas.com/bpk-tv/VOULITV/default/index.m3u8"
+        "https://ert-ucdn.broadpeak-aas.com/bpk-tv/VOULITV/default/index.m3u8",
+        "https://streamer-cache.grnet.gr/parliament/parltv.sdp/master.m3u8"
       ]
     },
     "languages": [
@@ -782,6 +783,20 @@
       "eng"
     ],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "tsY7Oi70RUlWEA",
+    "name": "Icrtv Colima",
+    "sources": {
+      "streams": [
+        "https://5fc584f3f19c9.streamlock.net/icrtvcolima/smil:icrtvcolima.smil/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
     "isGeoBlocked": false
   },
   {
@@ -1227,7 +1242,7 @@
     "name": "Rio TV Câmara",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/RfIJK1uJwjc"
+        "https://www.youtube-nocookie.com/embed/Bif5FQvVIgQ"
       ]
     },
     "languages": [
@@ -1374,7 +1389,7 @@
     "name": "TV Assembleia Minas Gerais",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/6GYXAzLuwOo"
+        "https://www.youtube-nocookie.com/embed/7XpbrXIspQI"
       ]
     },
     "languages": [

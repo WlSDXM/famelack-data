@@ -42,6 +42,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "JCokef05ozWI8Y",
+    "name": "Balapan International",
+    "sources": {
+      "streams": [
+        "https://live-3.otcnet.ru/Balapan/index.m3u8"
+      ]
+    },
+    "languages": [
+      "kaz"
+    ],
+    "country": "kz",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "CvHwESTij7IhtA",
     "name": "Jibek Joly",
     "sources": {
@@ -118,8 +132,7 @@
     "name": "Qazaqstan",
     "sources": {
       "streams": [
-        "https://qazaqstantv-stream.qazcdn.com/qazaqstantv/qazaqstantv/playlist.m3u8",
-        "https://vs137.vcdn.biz/6aa0d03eb8d337c5a12c8275477af53a_megogo/live/hls/b/700_2490_4000/u_sid/0/o/229009131/rsid/15fbd560-a86a-45ca-8058-baf9f5f61c8e/u_uid/0/u_vod/0/u_device/cms_webandroid/u_devicekey/_site_mobile/lip/45.80.208.174*asn/u_srvc/84416/u_did/web_MjE7M10AtBKsWN3CHzhzNBgiG7LkULPx/type.live/chunklist-sid8840242905769027046-b4000000.m3u8"
+        "https://qazaqstantv-stream.qazcdn.com/qazaqstantv/qazaqstantv/playlist.m3u8"
       ]
     },
     "languages": [
@@ -206,11 +219,25 @@
     "isGeoBlocked": true
   },
   {
+    "nanoid": "HKWXuzT38k7GF2",
+    "name": "TDK 42",
+    "sources": {
+      "streams": [
+        "https://live-tdk42kz.cdnvideo.ru/tdk42kz/tdk42kz_720.smil/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "kz",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "if2kwrLRFc4oRC",
     "name": "Телеканал 24kz",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/OGjxtDDtJlY"
+        "https://www.youtube-nocookie.com/embed/GNdEJgOCJHc"
       ]
     },
     "languages": [

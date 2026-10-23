@@ -212,6 +212,20 @@
     "isGeoBlocked": true
   },
   {
+    "nanoid": "JTbs2lIH8ln5ro",
+    "name": "Davika TV",
+    "sources": {
+      "streams": [
+        "https://5bf7b725107e5.streamlock.net/davika/davika/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "ind"
+    ],
+    "country": "id",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "iHcfV4gwyUQYof",
     "name": "Dens Food Channel",
     "sources": {
@@ -326,20 +340,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "swg1noloxNDS5D",
-    "name": "Ficom Channel",
-    "sources": {
-      "streams": [
-        "https://v3.siar.us/ficomchannel/live/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "ind"
-    ],
-    "country": "id",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "LISekcgicAyOGd",
     "name": "Garuda TV",
     "sources": {
@@ -438,20 +438,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "0xr9dDKplwszmy",
-    "name": "Kids TV",
-    "sources": {
-      "streams": [
-        "https://origin5.mediacdn.ru/live/kidstv/index.m3u8"
-      ]
-    },
-    "languages": [
-      "ind"
-    ],
-    "country": "id",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Ootv8lcMdtj5Da",
     "name": "Kilisuci TV",
     "sources": {
@@ -535,6 +521,20 @@
     ],
     "country": "id",
     "isGeoBlocked": true
+  },
+  {
+    "nanoid": "zrn3dK1AY8AcF8",
+    "name": "Marhaban TV",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/6Q96l-iJ-IA"
+      ]
+    },
+    "languages": [
+      "ind"
+    ],
+    "country": "id",
+    "isGeoBlocked": false
   },
   {
     "nanoid": "AixeZaoPbQBLhF",
@@ -732,20 +732,6 @@
     ],
     "country": "id",
     "isGeoBlocked": true
-  },
-  {
-    "nanoid": "4XHmhUHFvR9eAr",
-    "name": "RRI Net",
-    "sources": {
-      "streams": [
-        "https://private-streaming.rri.go.id/memfs/6f77c7b5-feb2-4935-9f89-e7e9fca0a54a_output_0.m3u8"
-      ]
-    },
-    "languages": [
-      "ind"
-    ],
-    "country": "id",
-    "isGeoBlocked": false
   },
   {
     "nanoid": "SM5dGWTEmeAMrT",
@@ -1503,6 +1489,20 @@
     "sources": {
       "streams": [
         "https://ott-balancer.tvri.go.id/live/eds/Jogjakarta/hls/Jogjakarta.m3u8"
+      ]
+    },
+    "languages": [
+      "ind"
+    ],
+    "country": "id",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "PEvAzPEqyCSHPP",
+    "name": "UFA Live 24",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/YWPzATta9OU"
       ]
     },
     "languages": [

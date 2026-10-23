@@ -100,6 +100,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "ZQE8Kkj7LLaHHY",
+    "name": "BVG",
+    "sources": {
+      "streams": [
+        "https://mumt05.tangotv.in/87NeALx2BVG/index.m3u8"
+      ]
+    },
+    "languages": [
+      "hin"
+    ],
+    "country": "in",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "7vuNKG15VuJZNX",
     "name": "Campus TV",
     "sources": {
@@ -769,6 +783,7 @@
     "name": "Gyandarshan",
     "sources": {
       "streams": [
+        "https://mumt05.tangotv.in/87NeALx2GYANDARSHAN/index.m3u8",
         "https://cdn.pishow.tv/ott/live/14/master.m3u8"
       ]
     },
@@ -1133,7 +1148,8 @@
     "name": "PBS Kids",
     "sources": {
       "streams": [
-        "https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8"
+        "https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8",
+        "https://tvsen7.aynascope.net/pbskids/index.m3u8"
       ]
     },
     "languages": [
@@ -1340,6 +1356,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "PNF9zodERQr3Zm",
+    "name": "SQOOL TV",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/BpgRs80nd1k"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "fr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "sJBxRr1Fg3I5q3",
     "name": "St Lucie Public Schools",
     "sources": {
@@ -1365,6 +1395,20 @@
       "spa"
     ],
     "country": "hn",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "c0t3w9rs29fRKj",
+    "name": "Tele UV",
+    "sources": {
+      "streams": [
+        "https://58fe359775f31.streamlock.net/tvuv/myStream/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
     "isGeoBlocked": false
   },
   {
@@ -1687,6 +1731,20 @@
       "eng"
     ],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "JliijnACP4jH0u",
+    "name": "Wiki TV",
+    "sources": {
+      "streams": [
+        "https://stream.wikitv.asia/live/ngrp:myStream_all/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "khm"
+    ],
+    "country": "kh",
     "isGeoBlocked": false
   },
   {

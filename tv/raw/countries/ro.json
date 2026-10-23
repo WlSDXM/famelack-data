@@ -426,6 +426,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "hWlowLrwkzswqF",
+    "name": "Hunedoara 1",
+    "sources": {
+      "streams": [
+        "https://netstreaming.eu/hd1.m3u8"
+      ]
+    },
+    "languages": [
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "4ghiPmfhBHh5Ly",
     "name": "IasiTV Life",
     "sources": {
@@ -748,6 +762,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "o2mdLct3Etcuk8",
+    "name": "Qub TV",
+    "sources": {
+      "streams": [
+        "https://live.djemba.ro/memfs/474f9942-f72b-4130-817a-435cd54b2c36.m3u8"
+      ]
+    },
+    "languages": [
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "V2O33fBcF0imvd",
     "name": "Radio Fx Net",
     "sources": {
@@ -757,20 +785,6 @@
     },
     "languages": [
       "eng",
-      "ron"
-    ],
-    "country": "ro",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "BEYVH24fbdnqEV",
-    "name": "Radio Romania Antena Satelor 720p",
-    "sources": {
-      "streams": [
-        "https://stream3.srr.ro/live/AntenaSatelor/playlist.m3u8"
-      ]
-    },
-    "languages": [
       "ron"
     ],
     "country": "ro",

@@ -14,11 +14,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ciUS0lRhmTtePT",
-    "name": "Anzoategui TV",
+    "nanoid": "t2xHdunHhK2Qqc",
+    "name": "Aguacate TV",
     "sources": {
       "streams": [
-        "https://vcp2.myplaytv.com/anzoateguitv/anzoateguitv/playlist.m3u8"
+        "https://stream.aguacatetv.com:3949/hybrid/play.m3u8"
       ]
     },
     "languages": [
@@ -33,6 +33,20 @@
     "sources": {
       "streams": [
         "https://streamtv.as3sport.online:3394/hybrid/play.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ve",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "4OE4ZIp6ZfzmtV",
+    "name": "Audaz TV",
+    "sources": {
+      "streams": [
+        "https://cloud2.streaminglivehd.com:1936/8264/8264/playlist.m3u8"
       ]
     },
     "languages": [
@@ -366,11 +380,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "8UCD3Qx8hCNOEd",
-    "name": "Siembra TV",
+    "nanoid": "Hf8hQXiCJxWSk6",
+    "name": "Somos TV",
     "sources": {
       "streams": [
-        "https://cloud2.streaminglivehd.com:1936/siembratv/siembratv/playlist.m3u8"
+        "https://vcp3.myplaytv.com/somostv/somostv/playlist.m3u8"
       ]
     },
     "languages": [

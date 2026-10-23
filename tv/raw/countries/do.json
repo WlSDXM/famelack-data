@@ -154,6 +154,34 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "NSPzc9dKFMP4eI",
+    "name": "Bebeto TV",
+    "sources": {
+      "streams": [
+        "https://edge.essastream.com/bebetotelevision/index.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "z9MNQ7sWeyEWaW",
+    "name": "Bonao TV",
+    "sources": {
+      "streams": [
+        "https://tele-stream.telecasa.net/live/st2/bonaotv-hd/index.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "hovo939geWj8nW",
     "name": "Bonches Latinos TV",
     "sources": {
@@ -201,6 +229,20 @@
     "sources": {
       "streams": [
         "https://cdn.protvradiostream.com/canal4rd-1/ngrp:canal4rd-1_all/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "QtyIEE9DZnKUAu",
+    "name": "Canal 17 RTVD",
+    "sources": {
+      "streams": [
+        "https://cdn.protvradiostream.com/rtvd17/ngrp:rtvd17_all/playlist.m3u8"
       ]
     },
     "languages": [
@@ -271,6 +313,20 @@
     "sources": {
       "streams": [
         "https://live20.bozztv.com/akamaissh101/ssh101/canalmulti24/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "exaauxafuWqNMx",
+    "name": "Canalda 26 HD",
+    "sources": {
+      "streams": [
+        "https://canalda.rgradio.net:3084/live/canaldalive.m3u8"
       ]
     },
     "languages": [
@@ -369,20 +425,6 @@
     "sources": {
       "streams": [
         "https://tv.wracanal10.com:3300/live/chinolatvlive.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "do",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "rxy70O0pPPqhdW",
-    "name": "Cibaena TV",
-    "sources": {
-      "streams": [
-        "https://streamunoapp.com:3958/live/cibaenatvlive.m3u8"
       ]
     },
     "languages": [
@@ -551,6 +593,20 @@
     "sources": {
       "streams": [
         "https://live20.bozztv.com/akamaissh101/ssh101/ctv8hd/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "2NnOsTWyopqgUq",
+    "name": "Coral 39",
+    "sources": {
+      "streams": [
+        "https://hls.tvabierta.net/hls/039.m3u8"
       ]
     },
     "languages": [
@@ -817,6 +873,20 @@
     "sources": {
       "streams": [
         "https://vdopanel.jlahozconsulting.com:3706/hybrid/play.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "hOb4zCEnF4IOQo",
+    "name": "Fuego TV",
+    "sources": {
+      "streams": [
+        "https://streamunoapp.com:3553/live/cromtvlive.m3u8"
       ]
     },
     "languages": [
@@ -1112,6 +1182,20 @@
     "sources": {
       "streams": [
         "https://tv.wracanal10.com:3776/live/luzdivinatvlive.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "xpVI5qvhacSMib",
+    "name": "Maimon TV Canal 3",
+    "sources": {
+      "streams": [
+        "https://tele-stream.telecasa.net/live/st3/maimontv-hd/index.m3u8"
       ]
     },
     "languages": [
@@ -1436,6 +1520,20 @@
     "sources": {
       "streams": [
         "https://ss2.tvrdomi.com:1936/peraviavision/peraviavision/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": true
+  },
+  {
+    "nanoid": "gD8b6UqLHFJhPd",
+    "name": "Punto TV Digital 40",
+    "sources": {
+      "streams": [
+        "https://ss2.tvrdomi.com:1936/puntotvdigital/puntotvdigital/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1837,20 +1935,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "B2htIcTwEhuHsx",
-    "name": "Telecomercio TV",
-    "sources": {
-      "streams": [
-        "https://streaming.grupomediosdelnorte.com:19360/telecomerciotv/telecomerciotv.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "do",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "hfNTY4TAa4g2Tw",
     "name": "Telecontacto",
     "sources": {
@@ -2202,20 +2286,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "u1wWzgnSUs7Sl8",
-    "name": "TVS",
-    "sources": {
-      "streams": [
-        "https://imagenuniversaltv.net:3741/live/tvslive.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "do",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "wzyqTurviL28JV",
     "name": "Valle Nuevo TV",
     "sources": {
@@ -2235,20 +2305,6 @@
     "sources": {
       "streams": [
         "https://streaming.telecablecentral.com.do/Vallevision/ValleHD/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "do",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "S4Oj3Cxgpcb9do",
-    "name": "Vega Teve",
-    "sources": {
-      "streams": [
-        "https://cloud5.livescast.com:19360/canalvegateve/canalvegateve.m3u8"
       ]
     },
     "languages": [
@@ -2326,6 +2382,20 @@
     ],
     "country": "do",
     "isGeoBlocked": true
+  },
+  {
+    "nanoid": "yanjALTkgsv4Qe",
+    "name": "Yunavision",
+    "sources": {
+      "streams": [
+        "https://tele-stream.telecasa.net/live/st1/yunavision-hd/index.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "do",
+    "isGeoBlocked": false
   },
   {
     "nanoid": "2X3EHgXBANWAKd",

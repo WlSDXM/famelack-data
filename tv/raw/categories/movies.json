@@ -319,7 +319,8 @@
     "name": "Cine Friki",
     "sources": {
       "streams": [
-        "https://d2mr4fu91mjx9m.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rb0tx75ojbc5u/CineFriki_ES.m3u8"
+        "https://d2mr4fu91mjx9m.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rb0tx75ojbc5u/CineFriki_ES.m3u8",
+        "https://zylo-cinefriki-rakuten.amagi.tv/playlist.m3u8"
       ]
     },
     "languages": [
@@ -499,11 +500,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "gUswhqxHZdKrP1",
-    "name": "City Eden KinoAction",
+    "nanoid": "Wc02nSZr6VuoIF",
+    "name": "City Eden KinoAsia",
     "sources": {
       "streams": [
-        "https://cityeden.catcast.tv/content/41333/index.m3u8"
+        "https://cityeden.catcast.tv/content/34393/index.m3u8"
       ]
     },
     "languages": [
@@ -513,39 +514,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "n4R8lzuArvLNkC",
-    "name": "City Eden KinoArt",
+    "nanoid": "FQwfx6NTcjE41o",
+    "name": "City Eden KinoDrama",
     "sources": {
       "streams": [
-        "https://cityeden.catcast.tv/content/38398/index.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "8Ucx5FG7ngDLh5",
-    "name": "City Eden KinoDetektiv",
-    "sources": {
-      "streams": [
-        "https://cityeden.catcast.tv/content/41327/index.m3u8"
-      ]
-    },
-    "languages": [
-      "rus"
-    ],
-    "country": "ru",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "zzxh5uo44jq1FL",
-    "name": "City Eden KinoFantastika",
-    "sources": {
-      "streams": [
-        "https://cityeden.catcast.tv/content/45268/index.m3u8"
+        "https://cityeden.catcast.tv/content/45269/index.m3u8"
       ]
     },
     "languages": [
@@ -574,6 +547,20 @@
     "sources": {
       "streams": [
         "https://cityeden.catcast.tv/content/41331/index.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "hYJqIp24qMnNqd",
+    "name": "City Eden KinoMistika",
+    "sources": {
+      "streams": [
+        "https://cityeden.catcast.tv/content/40783/index.m3u8"
       ]
     },
     "languages": [
@@ -1032,8 +1019,8 @@
     "sources": {
       "streams": [
         "https://cdn.pishow.tv/ott/live/1461/master.m3u8",
-        "https://mumt04.tangotv.in/m18aqlK4GOLDMINEMOVIES/index.m3u8",
-        "https://streams.tangotv.in/GOLDMINEMOVIES/ORIGIN/index.m3u8"
+        "https://tvsen3.aynaott.com/5CGfPvGp/index.m3u8",
+        "https://mumt04.tangotv.in/m18aqlK4GOLDMINEMOVIES/index.m3u8"
       ]
     },
     "languages": [
@@ -1130,6 +1117,50 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "nbJaIRnlOXsI50",
+    "name": "HBO East",
+    "sources": {
+      "streams": [
+        "https://tvsen7.aynascope.net/hbo/index.m3u8"
+      ]
+    },
+    "languages": [
+      "eng",
+      "spa"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "b9hyRXnC242UxT",
+    "name": "HBO Hits East",
+    "sources": {
+      "streams": [
+        "https://tvsen7.aynascope.net/hbo2/index.m3u8"
+      ]
+    },
+    "languages": [
+      "eng",
+      "spa"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "6K6oFgTHq5fj7V",
+    "name": "Hero",
+    "sources": {
+      "streams": [
+        "https://live-fi.tvkaista.net/hero/live.m3u8?hd=true"
+      ]
+    },
+    "languages": [
+      "fin"
+    ],
+    "country": "fi",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "GUp0mv9qudQwRw",
     "name": "Horoshee Kino",
     "sources": {
@@ -1144,59 +1175,17 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "HW3VPKyt6mpMGb",
-    "name": "iFilm 2",
+    "nanoid": "Hd13Q7pEG37tJd",
+    "name": "India Talkies",
     "sources": {
       "streams": [
-        "https://live.presstv.co.uk/hls/ifilm2.m3u8"
+        "https://samitaorigin.tangotv.in/INDIATALKIES/SAMITAORIGIN/index.m3u8"
       ]
     },
     "languages": [
-      "fas"
+      "hin"
     ],
-    "country": "ir",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "FThMLWk2PqeTHZ",
-    "name": "iFilm Arabic",
-    "sources": {
-      "streams": [
-        "https://live.presstv.co.uk/hls/ifilmar.m3u8"
-      ]
-    },
-    "languages": [
-      "ara"
-    ],
-    "country": "ir",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "ELGjlFyEtfJ19e",
-    "name": "iFilm English",
-    "sources": {
-      "streams": [
-        "https://live.presstv.co.uk/hls/ifilmen.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "ir",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "g3vaXRs7MKcSOW",
-    "name": "iFilm Persian",
-    "sources": {
-      "streams": [
-        "https://live.presstv.co.uk/hls/ifilmfa.m3u8"
-      ]
-    },
-    "languages": [
-      "fas"
-    ],
-    "country": "ir",
+    "country": "in",
     "isGeoBlocked": false
   },
   {
@@ -1598,6 +1587,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "yQxSfN4to8TdvK",
+    "name": "Movie Punjab",
+    "sources": {
+      "streams": [
+        "https://mumt01.tangotv.in/O5aw8Zn3MOVIEPUNJAB/index.m3u8",
+        "https://samitaorigin.tangotv.in/MOVIEPUNJAB/SAMITAORIGIN/index.m3u8"
+      ]
+    },
+    "languages": [
+      "pan"
+    ],
+    "country": "in",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "6VfdM1XJEcjloD",
     "name": "Movies! KPVM-LD",
     "sources": {
@@ -1717,8 +1721,8 @@
     "name": "NEW K.MOVIES",
     "sources": {
       "streams": [
-        "https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=GB1700007PK&channel_id=newid_343&tp=samsung_tvplus",
-        "https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=USAJ30000122O&channel_id=newid_342&tp=samsung_tvplus"
+        "https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=USAJ30000122O&channel_id=newid_342&tp=samsung_tvplus",
+        "https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=GB1700007PK&channel_id=newid_343&tp=samsung_tvplus"
       ]
     },
     "languages": [
@@ -1893,8 +1897,8 @@
     "sources": {
       "streams": [
         "https://vg-pitaaratvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-583798/playlist.m3u8",
-        "https://mumt04.tangotv.in/m18aqlK4PITAARA/index.m3u8",
-        "https://streams.tangotv.in/PITAARA/ORIGIN/index.m3u8"
+        "https://streams.tangotv.in/PITAARA/ORIGIN/index.m3u8",
+        "https://mumt04.tangotv.in/m18aqlK4PITAARA/index.m3u8"
       ]
     },
     "languages": [
@@ -1988,34 +1992,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "9yewxbvb9FUiND",
-    "name": "Rakuten TV Action Movies Spain",
-    "sources": {
-      "streams": [
-        "https://a9c57ec7ec5e4b7daeacc6316a0bb404.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6069/master.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "mMN16NkXBOiZlV",
-    "name": "Rakuten TV Comedy Movies Germany",
-    "sources": {
-      "streams": [
-        "https://ecac08c9e2214375b907d6825aaf9a01.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6182/master.m3u8"
-      ]
-    },
-    "languages": [
-      "deu"
-    ],
-    "country": "de",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "rW6tKgiQ7jM4rF",
     "name": "Rakuten TV Comedy Movies Italy",
     "sources": {
@@ -2030,17 +2006,45 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Ys9b9lAAuDchCF",
-    "name": "Rakuten TV Comedy Movies UK",
+    "nanoid": "6xG0BDh6352B56",
+    "name": "Rakuten TV Comedy Movies Spain",
     "sources": {
       "streams": [
-        "https://9be783d652cd4b099cf63e1dc134c4a3.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6181/master.m3u8"
+        "https://71db867f03ce4d71a29e92155f07ab87.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6180/master.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "F2ftHadqxcG2u5",
+    "name": "Rakuten TV Drama Movies UK",
+    "sources": {
+      "streams": [
+        "https://fee09fd665814f51b939b6d106cf5f66.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6093/master.m3u8"
       ]
     },
     "languages": [
       "eng"
     ],
     "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "7UK6GTwohWhEMF",
+    "name": "Rakuten TV Family Movies Italy",
+    "sources": {
+      "streams": [
+        "https://3315fc3e7276420f895e19cf807dbee1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6215/master.m3u8"
+      ]
+    },
+    "languages": [
+      "ita"
+    ],
+    "country": "it",
     "isGeoBlocked": false
   },
   {
@@ -2187,6 +2191,34 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "6UMqfCWAL6fJyw",
+    "name": "Smotrim 100% Klassika",
+    "sources": {
+      "streams": [
+        "https://stream.smotrim.ru/hls/fasttv03/playlist_3.m3u8"
+      ]
+    },
+    "languages": [
+      "rus"
+    ],
+    "country": "ru",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "B9B92TIsr5iTV4",
+    "name": "Soneri Cinema",
+    "sources": {
+      "streams": [
+        "https://samitaorigin.tangotv.in/SONERICINEMA/SAMITAORIGIN/index.m3u8"
+      ]
+    },
+    "languages": [
+      "mar"
+    ],
+    "country": "in",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "NZ0M4Z47C2ZcVG",
     "name": "Sony One Favoris",
     "sources": {
@@ -2304,6 +2336,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "jBHty7VgENQxrk",
+    "name": "SYFY East",
+    "sources": {
+      "streams": [
+        "https://tvsen7.aynascope.net/syfy/index.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "X20ezVvgfOtILT",
     "name": "TCM East",
     "sources": {
@@ -2365,7 +2411,7 @@
     "name": "TokuSHOUTsu: Jackie Chan Movie Marathon",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/04RP8IY3gFw"
+        "https://www.youtube-nocookie.com/embed/ylshn-6vkJ8"
       ]
     },
     "languages": [

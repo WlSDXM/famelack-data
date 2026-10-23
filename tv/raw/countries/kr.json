@@ -491,7 +491,7 @@
     "name": "JTBC News",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/z_6GitRY1-M"
+        "https://www.youtube-nocookie.com/embed/fqQAD_noR9E"
       ]
     },
     "languages": [
@@ -505,7 +505,7 @@
     "name": "KBS News",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/0Lm-getwWhk"
+        "https://www.youtube-nocookie.com/embed/iOSpfaiILQc"
       ]
     },
     "languages": [
@@ -670,25 +670,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "2JjtogNFSDfTsC",
-    "name": "RUTC TV",
-    "sources": {
-      "streams": [
-        "https://d26sxnc75smwvh.cloudfront.net/livehttporigin/rutclive_720p2.stream/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "kor"
-    ],
-    "country": "kr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "wLvMxnvxZbDm1t",
     "name": "SBS",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/3uelZ5Nk2A4"
+        "https://www.youtube-nocookie.com/embed/3n0ES_XiaPc"
       ]
     },
     "languages": [
