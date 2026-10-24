@@ -768,6 +768,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "ZsloWiJqWuRRy1",
+    "name": "Mariner Park on the St. Clair River",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/QHclJVKPLqM"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "l3aAcGisxSjDRy",
     "name": "Maritime Academy Parade Field",
     "sources": {

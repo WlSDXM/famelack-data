@@ -544,7 +544,7 @@
     "name": "Beach Bar & Seaside Promenade",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/BvaNtRp_2pM"
+        "https://www.youtube-nocookie.com/embed/GE1WiiUlVvU"
       ]
     },
     "languages": [],
@@ -2044,7 +2044,7 @@
     "name": "Georgica Jetty",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/DN5WYeakgyc"
+        "https://www.youtube-nocookie.com/embed/CbCQIx_Gduw"
       ]
     },
     "languages": [],
@@ -2301,6 +2301,18 @@
     },
     "languages": [],
     "country": "be",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ipbnDCCjbj69H6",
+    "name": "Higgins Beach",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/27PIkNlMonU"
+      ]
+    },
+    "languages": [],
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -3016,7 +3028,7 @@
     "name": "Le Morne",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/RQuzt_DHFRo"
+        "https://www.youtube-nocookie.com/embed/RTFna7DeHwc"
       ]
     },
     "languages": [],
@@ -3165,6 +3177,18 @@
     },
     "languages": [],
     "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "eFXMRj2516fg8c",
+    "name": "Los Muertos Beach",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/2VKoB92TX24"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
     "isGeoBlocked": false
   },
   {
@@ -3329,18 +3353,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/2IQmpCXbOmM"
-      ]
-    },
-    "languages": [],
-    "country": "sx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Ru5O7fYl7iabDm",
-    "name": "Maho Beach Plane Spotting",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/nB97Hcy01V8"
       ]
     },
     "languages": [],
@@ -4276,7 +4288,7 @@
     "name": "Pattaya Beach Road",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/8tY3wLasXU8"
+        "https://www.youtube-nocookie.com/embed/e-qlEsIhXAo"
       ]
     },
     "languages": [],
@@ -4781,18 +4793,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/hfOgGUhdybo"
-      ]
-    },
-    "languages": [],
-    "country": "pt",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "aAYvirH0mKBhGR",
-    "name": "Praia da Rocha Portimão",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/FxMH3BFP9s4"
       ]
     },
     "languages": [],
@@ -7012,7 +7012,7 @@
     "name": "West Kirby Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/563IkQctjgc"
+        "https://www.youtube-nocookie.com/embed/U4B8AIz8qo8"
       ]
     },
     "languages": [],
@@ -7101,18 +7101,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "lF4Wp9aoN2isAp",
-    "name": "Wissant Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/_Csk3nZ6TI8"
-      ]
-    },
-    "languages": [],
-    "country": "fr",
     "isGeoBlocked": false
   },
   {

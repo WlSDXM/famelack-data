@@ -888,18 +888,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "pph8odAmWyBmUc",
-    "name": "Bar Harbor Inn North View, Acadia",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/RH9wCBhxkxM"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "HuA7qFVaAgZXgd",
     "name": "Bar Harbor Inn West View, Acadia",
     "sources": {
@@ -1120,7 +1108,7 @@
     "name": "Bear Mountain Peak",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/kydMumfVS5o"
+        "https://www.youtube-nocookie.com/embed/WmCvQQ2eZxg"
       ]
     },
     "languages": [],
@@ -2344,7 +2332,7 @@
     "name": "Centro Sobradinho RS",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/WAihxoLqtsw"
+        "https://www.youtube-nocookie.com/embed/1JNc0u6qnTY"
       ]
     },
     "languages": [],
@@ -3144,18 +3132,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "fNR5G8Bpr4MRGe",
-    "name": "Deutschherrnbrücke, Frankfurt",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ev_bFk4ikL0"
-      ]
-    },
-    "languages": [],
-    "country": "de",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "gspv6BIP8sc5Em",
     "name": "Diablo Peak Summit",
     "sources": {
@@ -3341,6 +3317,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/8jXK5b6LfHg"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "bD3X4T7thLyxu9",
+    "name": "Dutch Flats Forest Road",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/QtTfh5YXicw"
       ]
     },
     "languages": [],
@@ -5928,18 +5916,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Xz1RslDwVYvqV7",
-    "name": "Kulakkaya Plateau",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/llE8QLJSqRQ"
-      ]
-    },
-    "languages": [],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Dxqc324wSoxjCt",
     "name": "Kurihama South, Yokosuka",
     "sources": {
@@ -6377,6 +6353,30 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/FCZCS7QCsls"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "k8kyTiYleyRpyG",
+    "name": "Las Merindades Amphibian Pond",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/BYKmTbnqrYw"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Yj92TXuGtSGTtj",
+    "name": "Las Merindades Bird Feeder and Pond",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/3zKyRgmRhLE"
       ]
     },
     "languages": [],
@@ -7884,18 +7884,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "9GT6eMgVazlBs6",
-    "name": "Montenegro RS East",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/MUWjOucOeUc"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "sPGf47TRiDa1tS",
     "name": "Montenegro Timbaúva West",
     "sources": {
@@ -8081,18 +8069,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/tuNC0ot0j9I"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Du7K4MBRGPE244",
-    "name": "Mount Fuji from Kawaguchiko Station",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/xf0L7V23zK4"
       ]
     },
     "languages": [],
@@ -8308,7 +8284,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/cCN6eC-PzwE"
+        "https://www.youtube-nocookie.com/embed/_NDqL8JY88g"
       ]
     },
     "languages": [],
@@ -8321,6 +8297,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/Z27ghRYocJ4"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "JKfH6WqXKPjY8H",
+    "name": "Mount Washington Observatory Tower",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/a_6wHFmGkxc"
       ]
     },
     "languages": [],
@@ -8404,7 +8392,7 @@
     "name": "Mouse Island Corfu",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/KLqCtxPeNpA"
+        "https://www.youtube-nocookie.com/embed/Hbp8Nyy4O8k"
       ]
     },
     "languages": [],
@@ -8560,7 +8548,7 @@
     "name": "Muscatine Riverfront Railcam at Merrill Hotel",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/jld8d8xgMbc"
+        "https://www.youtube-nocookie.com/embed/-qOD2a_6WBQ"
       ]
     },
     "languages": [],
@@ -9353,6 +9341,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/W6OJrKQJOrQ"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "BiMkk6F2f2WXKH",
+    "name": "Otawara Kamitakahashi River Surveillance",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/5VB7qcYvXd0"
       ]
     },
     "languages": [],
@@ -10288,7 +10288,7 @@
     "name": "Punta Planka",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/MdncZqTG3OM"
+        "https://www.youtube-nocookie.com/embed/J2EIHDa3g5w"
       ]
     },
     "languages": [],
@@ -12052,7 +12052,7 @@
     "name": "Skiathos Bay & Port",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/cevvxXYVF_E"
+        "https://www.youtube-nocookie.com/embed/12-lSGs8BHw"
       ]
     },
     "languages": [],
@@ -12257,6 +12257,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/Kn4IAs67hNo"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AaTF1h1XB5yyUj",
+    "name": "Snow Summit Miracle Mile",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/IhfQG0suxqs"
       ]
     },
     "languages": [],
@@ -14104,7 +14116,7 @@
     "name": "Val d'Isère",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/A-RcrOZICfo"
+        "https://www.youtube-nocookie.com/embed/bvUms7qy-xw"
       ]
     },
     "languages": [],
@@ -14292,18 +14304,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "mJLDL17H7lsOZn",
-    "name": "Větruše Panoramic",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/RUMTsdBAv4Q"
-      ]
-    },
-    "languages": [],
-    "country": "cz",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "5lyBmFnZhHISDZ",
     "name": "Vicksburg",
     "sources": {
@@ -14488,7 +14488,7 @@
     "name": "Warsaw Skyline",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/fRzSlRhRLCs"
+        "https://www.youtube-nocookie.com/embed/ZhTjDOcwPzU"
       ]
     },
     "languages": [],

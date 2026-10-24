@@ -112,7 +112,7 @@
     "name": "Bear Mountain Peak",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/kydMumfVS5o"
+        "https://www.youtube-nocookie.com/embed/WmCvQQ2eZxg"
       ]
     },
     "languages": [],
@@ -888,6 +888,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "G4tyP8zYkMBnKG",
+    "name": "Marunuma Kogen Yellow Course",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/XqiDLNQA0HM"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "4QZ1fC3yDVdknu",
     "name": "Montclar Les 2 Vallées ESF Beginner Area",
     "sources": {
@@ -1289,6 +1301,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/Kn4IAs67hNo"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AaTF1h1XB5yyUj",
+    "name": "Snow Summit Miracle Mile",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/IhfQG0suxqs"
       ]
     },
     "languages": [],

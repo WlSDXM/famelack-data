@@ -22845,48 +22845,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "uRURKdqJRUmc3S",
-    "name": "Halloween Radio Kids",
-    "sources": {
-      "streams": [
-        "https://radio1.streamserver.link:8030/hrk-aac"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "GhGZh4NVBUhbd4",
-    "name": "Halloween Radio Main",
-    "sources": {
-      "streams": [
-        "https://radio1.streamserver.link:8000/hrm-aac"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "RnQTkvCnNkImps",
-    "name": "Halloween Radio Movies",
-    "sources": {
-      "streams": [
-        "https://radio1.streamserver.link/radio/8050/hrs-aac"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "b5alSdSfc3bHZM",
     "name": "Hank's Old Time Radio",
     "sources": {

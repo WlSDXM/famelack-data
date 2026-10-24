@@ -136,7 +136,7 @@
     "name": "Beach Bar & Seaside Promenade",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/BvaNtRp_2pM"
+        "https://www.youtube-nocookie.com/embed/GE1WiiUlVvU"
       ]
     },
     "languages": [],
@@ -532,7 +532,7 @@
     "name": "Holy Cave of Covadonga",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/x8AtI3fd1Yo"
+        "https://www.youtube-nocookie.com/embed/SJ7IoTtjgfk"
       ]
     },
     "languages": [],
@@ -713,6 +713,42 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/FCZCS7QCsls"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "k8kyTiYleyRpyG",
+    "name": "Las Merindades Amphibian Pond",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/BYKmTbnqrYw"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Yj92TXuGtSGTtj",
+    "name": "Las Merindades Bird Feeder and Pond",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/3zKyRgmRhLE"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "uZ26urttOYmGKM",
+    "name": "Las Merindades Hedgehog Feeder",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/vxRTgRGxvvA"
       ]
     },
     "languages": [],

@@ -748,7 +748,7 @@
     "name": "Charter Group Birdcams Multi-Cam",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/hU-Mjicgs6o"
+        "https://www.youtube-nocookie.com/embed/MeKqyV8Hpn4"
       ]
     },
     "languages": [],
@@ -1188,18 +1188,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "kOIGA593CV5jf0",
-    "name": "Dolphin Watch, New Quay",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/4H1Ph0U2eTM"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "ussI7CFCXbcQUB",
     "name": "Doñana National Park Marsh",
     "sources": {
@@ -1425,18 +1413,6 @@
     },
     "languages": [],
     "country": "se",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "XHNGa4SIuxlk49",
-    "name": "Furball Farm Cat Sanctuary",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/GloQvfm5sAo"
-      ]
-    },
-    "languages": [],
-    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -2201,6 +2177,42 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/-x32Rxheu_E"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "k8kyTiYleyRpyG",
+    "name": "Las Merindades Amphibian Pond",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/BYKmTbnqrYw"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Yj92TXuGtSGTtj",
+    "name": "Las Merindades Bird Feeder and Pond",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/3zKyRgmRhLE"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "uZ26urttOYmGKM",
+    "name": "Las Merindades Hedgehog Feeder",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/vxRTgRGxvvA"
       ]
     },
     "languages": [],
@@ -4792,7 +4804,7 @@
     "name": "Squirrel and Wildlife Feeder",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/If1HkcNqEps"
+        "https://www.youtube-nocookie.com/embed/BSalgTnZ_MM"
       ]
     },
     "languages": [],
@@ -5877,18 +5889,6 @@
     },
     "languages": [],
     "country": "za",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "ZA7UQqqcj3dyTN",
-    "name": "Wild Bald Eagle Nest Cam",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/LUmMBZ4kiMQ"
-      ]
-    },
-    "languages": [],
-    "country": "us",
     "isGeoBlocked": false
   },
   {

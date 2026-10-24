@@ -28,7 +28,7 @@
     "name": "730 Intersection, Ishigaki",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/WCzn0zAw3v8"
+        "https://www.youtube-nocookie.com/embed/ZhfBHGIRMOc"
       ]
     },
     "languages": [],
@@ -84,23 +84,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "OwUjGy3jwpfqFS",
-    "name": "Airport Runway Among the Mountains",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/fId1i2nDYXQ"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "efhGAQpqwhNUYZ",
     "name": "Akabane Station",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/AaAY566U7qU"
+        "https://www.youtube-nocookie.com/embed/2JtlmVDI-ig"
       ]
     },
     "languages": [],
@@ -132,35 +120,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "v1DPWmXDw7OcoF",
-    "name": "Akita Airport",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/0npXRf6Czz0"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "F7V7q1EcItGHic",
     "name": "Akita Airport and Akita Station",
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/2EfwG0g0rW4"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "vdIaQwbFoz93bZ",
-    "name": "Akita Port",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/RgZuZ9HSQ_M"
       ]
     },
     "languages": [],
@@ -1008,18 +972,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "VfuQC06JP2xM5K",
-    "name": "JR Osaka Station",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/lPlBcj6yWpE"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "dlFT66kupUtB0Q",
     "name": "JR Sapporo Station",
     "sources": {
@@ -1444,7 +1396,7 @@
     "name": "Kohoku Parking Area on the Tomei Expressway",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/sivLagNNxWI"
+        "https://www.youtube-nocookie.com/embed/NFVo6aVtbTE"
       ]
     },
     "languages": [],
@@ -1632,6 +1584,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "4NqcWqp9dGyQaA",
+    "name": "Kusatsu Onsen Traffic and Parking Status",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/XGDfw1lIkKw"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "dxGdvegbFeWzo4",
     "name": "Kusatsu Route 292 Kusatsu Onsen Entrance",
     "sources": {
@@ -1800,6 +1764,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "G4tyP8zYkMBnKG",
+    "name": "Marunuma Kogen Yellow Course",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/XqiDLNQA0HM"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Vt9avrCm4OljG3",
     "name": "Matsumoto Castle from Kuromon Gate",
     "sources": {
@@ -1876,7 +1852,7 @@
     "name": "Meitetsu Tokoname Line Ono-machi",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/m9V9EBuZweQ"
+        "https://www.youtube-nocookie.com/embed/evuFWnsChHw"
       ]
     },
     "languages": [],
@@ -2045,18 +2021,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/tuNC0ot0j9I"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Du7K4MBRGPE244",
-    "name": "Mount Fuji from Kawaguchiko Station",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/xf0L7V23zK4"
       ]
     },
     "languages": [],
@@ -2369,18 +2333,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/cJd9IIu2vio"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "f29nBUByDkrDeo",
-    "name": "Naha Airport",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/dKyyth7FoQo"
       ]
     },
     "languages": [],
@@ -2872,7 +2824,7 @@
     "name": "Osaka Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/lTwTPS18dws"
+        "https://www.youtube-nocookie.com/embed/OVJrG3XeVWA"
       ]
     },
     "languages": [],
@@ -2933,6 +2885,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/W6OJrKQJOrQ"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "BiMkk6F2f2WXKH",
+    "name": "Otawara Kamitakahashi River Surveillance",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/5VB7qcYvXd0"
       ]
     },
     "languages": [],
@@ -3220,7 +3184,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/TBYxI8JMsX4"
+        "https://www.youtube-nocookie.com/embed/FTAsP3cR2aU"
       ]
     },
     "languages": [],
@@ -3641,18 +3605,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/CcgT5MFiL6Q"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "gXtn2a0Z7kWBAn",
-    "name": "Shonai Airport",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/wtHY4hH6xMY"
       ]
     },
     "languages": [],

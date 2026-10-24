@@ -28,7 +28,7 @@
     "name": "Akabane Station",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/AaAY566U7qU"
+        "https://www.youtube-nocookie.com/embed/2JtlmVDI-ig"
       ]
     },
     "languages": [],
@@ -64,7 +64,7 @@
     "name": "Alliance Railcam at the Grade Crossing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/bBVwApahbq4"
+        "https://www.youtube-nocookie.com/embed/5KtiLPi49F8"
       ]
     },
     "languages": [],
@@ -1896,18 +1896,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "VfuQC06JP2xM5K",
-    "name": "JR Osaka Station",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/lPlBcj6yWpE"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "dlFT66kupUtB0Q",
     "name": "JR Sapporo Station",
     "sources": {
@@ -2296,7 +2284,7 @@
     "name": "Meitetsu Tokoname Line Ono-machi",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/m9V9EBuZweQ"
+        "https://www.youtube-nocookie.com/embed/evuFWnsChHw"
       ]
     },
     "languages": [],
@@ -2452,7 +2440,7 @@
     "name": "Mount Pleasant Coffee Depot Railcam",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/2raya-ESaig"
+        "https://www.youtube-nocookie.com/embed/GIGsJyf2UQE"
       ]
     },
     "languages": [],
@@ -2500,7 +2488,7 @@
     "name": "Muscatine Riverfront Railcam at Merrill Hotel",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/jld8d8xgMbc"
+        "https://www.youtube-nocookie.com/embed/-qOD2a_6WBQ"
       ]
     },
     "languages": [],
@@ -3993,18 +3981,6 @@
     },
     "languages": [],
     "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "6BWpBpyr2POclx",
-    "name": "Winlock Liquidation Warehouse Railcam",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/S3YTiO4jQtI"
-      ]
-    },
-    "languages": [],
-    "country": "us",
     "isGeoBlocked": false
   },
   {

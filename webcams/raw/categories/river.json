@@ -508,7 +508,7 @@
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ufa1Wx1JswM"
+        "https://www.youtube-nocookie.com/embed/DfIJXVkAI70"
       ]
     },
     "languages": [],
@@ -1068,6 +1068,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "ZsloWiJqWuRRy1",
+    "name": "Mariner Park on the St. Clair River",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/QHclJVKPLqM"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "ZyYk0l8KfLfbyT",
     "name": "Masai Mara Fig Tree Crossing",
     "sources": {
@@ -1396,7 +1408,7 @@
     "name": "Muscatine Riverfront Railcam at Merrill Hotel",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/jld8d8xgMbc"
+        "https://www.youtube-nocookie.com/embed/-qOD2a_6WBQ"
       ]
     },
     "languages": [],
@@ -1565,6 +1577,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/W6OJrKQJOrQ"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "BiMkk6F2f2WXKH",
+    "name": "Otawara Kamitakahashi River Surveillance",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/5VB7qcYvXd0"
       ]
     },
     "languages": [],
@@ -2409,18 +2433,6 @@
     },
     "languages": [],
     "country": "it",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "mJLDL17H7lsOZn",
-    "name": "Větruše Panoramic",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/RUMTsdBAv4Q"
-      ]
-    },
-    "languages": [],
-    "country": "cz",
     "isGeoBlocked": false
   },
   {

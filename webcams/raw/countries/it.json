@@ -528,18 +528,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ua9X7SuA197Ipb",
-    "name": "Gemona del Friuli",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/WP8SIjbsxwg"
-      ]
-    },
-    "languages": [],
-    "country": "it",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "uP7vigCmawqVWT",
     "name": "Gorreto Trebbia River",
     "sources": {
@@ -605,18 +593,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/FmWMwV_6JJQ"
-      ]
-    },
-    "languages": [],
-    "country": "it",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "YFWTijJAYKG3Bb",
-    "name": "Imperia Rooftops and Riviera Sea Panorama",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/0b1ysvU-Q4Q"
       ]
     },
     "languages": [],
@@ -832,7 +808,7 @@
     "name": "Maniago City Square",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/j6SsQVh0d7U"
+        "https://www.youtube-nocookie.com/embed/JFhEs9xqn8I"
       ]
     },
     "languages": [],

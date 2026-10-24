@@ -36,18 +36,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "OwUjGy3jwpfqFS",
-    "name": "Airport Runway Among the Mountains",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/fId1i2nDYXQ"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "f6T6SqIM4ZTdBy",
     "name": "Akiya Fishing Port",
     "sources": {
@@ -400,7 +388,7 @@
     "name": "Bear Mountain Peak",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/kydMumfVS5o"
+        "https://www.youtube-nocookie.com/embed/WmCvQQ2eZxg"
       ]
     },
     "languages": [],
@@ -1205,6 +1193,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/JNVTH8R58Lk"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "bD3X4T7thLyxu9",
+    "name": "Dutch Flats Forest Road",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/QtTfh5YXicw"
       ]
     },
     "languages": [],
@@ -2172,18 +2172,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Xz1RslDwVYvqV7",
-    "name": "Kulakkaya Plateau",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/llE8QLJSqRQ"
-      ]
-    },
-    "languages": [],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "OmTwyeWjoH4zAT",
     "name": "Kusatsu Onsen Gate",
     "sources": {
@@ -2452,7 +2440,7 @@
     "name": "Le Morne",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/RQuzt_DHFRo"
+        "https://www.youtube-nocookie.com/embed/RTFna7DeHwc"
       ]
     },
     "languages": [],
@@ -2988,6 +2976,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "G4tyP8zYkMBnKG",
+    "name": "Marunuma Kogen Yellow Course",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/XqiDLNQA0HM"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "60SgF1uXoIK8gp",
     "name": "Matoppie Peak",
     "sources": {
@@ -3117,18 +3117,6 @@
     },
     "languages": [],
     "country": "it",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "9GT6eMgVazlBs6",
-    "name": "Montenegro RS East",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/MUWjOucOeUc"
-      ]
-    },
-    "languages": [],
-    "country": "br",
     "isGeoBlocked": false
   },
   {
@@ -3264,18 +3252,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Du7K4MBRGPE244",
-    "name": "Mount Fuji from Kawaguchiko Station",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/xf0L7V23zK4"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "TgnJQo6Z53KdXa",
     "name": "Mount Fuji from Lake Kawaguchiko",
     "sources": {
@@ -3400,7 +3376,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/cCN6eC-PzwE"
+        "https://www.youtube-nocookie.com/embed/_NDqL8JY88g"
       ]
     },
     "languages": [],
@@ -3413,6 +3389,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/Z27ghRYocJ4"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "JKfH6WqXKPjY8H",
+    "name": "Mount Washington Observatory Tower",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/a_6wHFmGkxc"
       ]
     },
     "languages": [],
@@ -3892,7 +3880,7 @@
     "name": "Osaka Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/lTwTPS18dws"
+        "https://www.youtube-nocookie.com/embed/OVJrG3XeVWA"
       ]
     },
     "languages": [],
@@ -4980,6 +4968,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "AaTF1h1XB5yyUj",
+    "name": "Snow Summit Miracle Mile",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/IhfQG0suxqs"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "4DcmQRb8hrV9sc",
     "name": "Snow Summit Slopeside",
     "sources": {
@@ -5848,7 +5848,7 @@
     "name": "Uruapan Panoramic City View",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/iuk6apjkcRg"
+        "https://www.youtube-nocookie.com/embed/e5gPcwz8yGA"
       ]
     },
     "languages": [],
@@ -5884,7 +5884,7 @@
     "name": "Val d'Isère",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/A-RcrOZICfo"
+        "https://www.youtube-nocookie.com/embed/bvUms7qy-xw"
       ]
     },
     "languages": [],

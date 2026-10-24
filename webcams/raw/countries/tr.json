@@ -72,18 +72,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Xz1RslDwVYvqV7",
-    "name": "Kulakkaya Plateau",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/llE8QLJSqRQ"
-      ]
-    },
-    "languages": [],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "lf5MVxh6OlR3BE",
     "name": "Paşakonağı Plateau",
     "sources": {
@@ -100,7 +88,7 @@
     "name": "Şebinkarahisar",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/pdUIMp3xjEs"
+        "https://www.youtube-nocookie.com/embed/o46LFJV74Z4"
       ]
     },
     "languages": [],
@@ -112,7 +100,7 @@
     "name": "Şebinkarahisar Town Square",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HYTv-MwZV2w"
+        "https://www.youtube-nocookie.com/embed/mttV2wwKrh4"
       ]
     },
     "languages": [],

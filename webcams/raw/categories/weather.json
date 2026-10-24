@@ -12,30 +12,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "v1DPWmXDw7OcoF",
-    "name": "Akita Airport",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/0npXRf6Czz0"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "vdIaQwbFoz93bZ",
-    "name": "Akita Port",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/RgZuZ9HSQ_M"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "55d5vgCoM2N8h6",
     "name": "Akita Prefecture Multi-Cam",
     "sources": {
@@ -592,7 +568,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/cCN6eC-PzwE"
+        "https://www.youtube-nocookie.com/embed/_NDqL8JY88g"
       ]
     },
     "languages": [],
@@ -605,6 +581,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/Z27ghRYocJ4"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "JKfH6WqXKPjY8H",
+    "name": "Mount Washington Observatory Tower",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/a_6wHFmGkxc"
       ]
     },
     "languages": [],
@@ -1065,6 +1053,18 @@
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "JbYpgnNgnknL6X",
+    "name": "Villa María Weather Camera",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/vrEd8NAwcm4"
+      ]
+    },
+    "languages": [],
+    "country": "ar",
     "isGeoBlocked": false
   },
   {

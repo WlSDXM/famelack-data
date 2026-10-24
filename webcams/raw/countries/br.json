@@ -256,7 +256,7 @@
     "name": "Centro Sobradinho RS",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/WAihxoLqtsw"
+        "https://www.youtube-nocookie.com/embed/1JNc0u6qnTY"
       ]
     },
     "languages": [],
@@ -292,7 +292,7 @@
     "name": "Congonhas Airport Camera 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/E1ykyjDcX7A"
+        "https://www.youtube-nocookie.com/embed/lUNtG8qOhu8"
       ]
     },
     "languages": [],
@@ -304,7 +304,7 @@
     "name": "Congonhas Airport Camera 3",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/nmG6tWjQ3JM"
+        "https://www.youtube-nocookie.com/embed/KTbFt4cJgx8"
       ]
     },
     "languages": [],
@@ -340,7 +340,7 @@
     "name": "Cristo Acolhedor, Sobradinho",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Y3Tn1KGJtk0"
+        "https://www.youtube-nocookie.com/embed/4mgMrzUAGgI"
       ]
     },
     "languages": [],
@@ -400,7 +400,7 @@
     "name": "Galeão International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/C7sfIuk7Zxw"
+        "https://www.youtube-nocookie.com/embed/gUuNCQKtAlo"
       ]
     },
     "languages": [],
@@ -472,7 +472,7 @@
     "name": "Guarulhos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/sqoePNk-2lg"
+        "https://www.youtube-nocookie.com/embed/-sO6sn19R1A"
       ]
     },
     "languages": [],
@@ -484,7 +484,7 @@
     "name": "Guarulhos International Airport Runway 10L",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/iXhvcYqNUrw"
+        "https://www.youtube-nocookie.com/embed/8wG5u7KEiPw"
       ]
     },
     "languages": [],
@@ -496,7 +496,7 @@
     "name": "Guarulhos International Airport Runway 10R",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/L-dE1hZ8zCo"
+        "https://www.youtube-nocookie.com/embed/I4APyA6B0Bs"
       ]
     },
     "languages": [],
@@ -508,7 +508,7 @@
     "name": "Guarulhos International Airport Runway 28",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/VDZ-g32c4aw"
+        "https://www.youtube-nocookie.com/embed/NTQ0gC_FMiQ"
       ]
     },
     "languages": [],
@@ -617,18 +617,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/aEcqkd4puUw"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "9GT6eMgVazlBs6",
-    "name": "Montenegro RS East",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/MUWjOucOeUc"
       ]
     },
     "languages": [],
@@ -772,7 +760,19 @@
     "name": "Recife Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/O5-AFjjJ2h4"
+        "https://www.youtube-nocookie.com/embed/XeuBR4kEBiI"
+      ]
+    },
+    "languages": [],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "I1OmF6x7jo0ppF",
+    "name": "Recife Airport",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/PFBkny87eUg"
       ]
     },
     "languages": [],
@@ -880,7 +880,7 @@
     "name": "Santos Dumont Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/qEpwyUDFdfk"
+        "https://www.youtube-nocookie.com/embed/HtSgHM_Vgz8"
       ]
     },
     "languages": [],
@@ -988,7 +988,7 @@
     "name": "Viracopos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/7lRGGTzawDA"
+        "https://www.youtube-nocookie.com/embed/tENqcvlCfco"
       ]
     },
     "languages": [],

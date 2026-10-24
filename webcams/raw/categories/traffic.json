@@ -28,7 +28,7 @@
     "name": "730 Intersection, Ishigaki",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/WCzn0zAw3v8"
+        "https://www.youtube-nocookie.com/embed/ZhfBHGIRMOc"
       ]
     },
     "languages": [],
@@ -448,7 +448,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/s6ny1ypcjHo"
+        "https://www.youtube-nocookie.com/embed/0oWptsc2EQw"
       ]
     },
     "languages": [],
@@ -508,7 +508,7 @@
     "name": "Collins Avenue Street Cam",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-dWBmJpj3js"
+        "https://www.youtube-nocookie.com/embed/L61Sqz7JvoU"
       ]
     },
     "languages": [],
@@ -1336,7 +1336,7 @@
     "name": "Khao Lak",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/EcnsZBapBZY"
+        "https://www.youtube-nocookie.com/embed/m4hYJCfJQsM"
       ]
     },
     "languages": [],
@@ -1360,7 +1360,7 @@
     "name": "Kohoku Parking Area on the Tomei Expressway",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/sivLagNNxWI"
+        "https://www.youtube-nocookie.com/embed/NFVo6aVtbTE"
       ]
     },
     "languages": [],
@@ -1397,6 +1397,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/UdOAbyzxKto"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "4NqcWqp9dGyQaA",
+    "name": "Kusatsu Onsen Traffic and Parking Status",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/XGDfw1lIkKw"
       ]
     },
     "languages": [],
@@ -2188,7 +2200,7 @@
     "name": "Piedras Negras Cam 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/y0ACBUQOPzc"
+        "https://www.youtube-nocookie.com/embed/5ybLRQxrW0s"
       ]
     },
     "languages": [],
@@ -2632,7 +2644,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/TBYxI8JMsX4"
+        "https://www.youtube-nocookie.com/embed/FTAsP3cR2aU"
       ]
     },
     "languages": [],
@@ -3252,18 +3264,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "mJLDL17H7lsOZn",
-    "name": "Větruše Panoramic",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/RUMTsdBAv4Q"
-      ]
-    },
-    "languages": [],
-    "country": "cz",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Sgr5okVFY4LsRB",
     "name": "Viaduto Reinaldo Schmithausen & Rodovia Jorge Lacerda",
     "sources": {
@@ -3309,6 +3309,18 @@
     },
     "languages": [],
     "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "JbYpgnNgnknL6X",
+    "name": "Villa María Weather Camera",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/vrEd8NAwcm4"
+      ]
+    },
+    "languages": [],
+    "country": "ar",
     "isGeoBlocked": false
   },
   {

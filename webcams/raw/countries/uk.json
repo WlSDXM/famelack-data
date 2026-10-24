@@ -396,18 +396,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "kOIGA593CV5jf0",
-    "name": "Dolphin Watch, New Quay",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/4H1Ph0U2eTM"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "mqeoSfkypaogGR",
     "name": "Earth from Space",
     "sources": {
@@ -528,18 +516,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "pCY4iv6dTI1d6k",
-    "name": "Hastings Pier",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/5FBMg0K85Jg"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "zYIlYA3yFZ1gVu",
     "name": "Havenstreet Steam Railway Station",
     "sources": {
@@ -556,7 +532,7 @@
     "name": "Hawick High Street",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/cqqSKrAgYMQ"
+        "https://www.youtube-nocookie.com/embed/7_xGAOInNGQ"
       ]
     },
     "languages": [],
@@ -665,18 +641,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/T09aQp1CqBI"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "A34J6I9JAkdPG6",
-    "name": "London Heathrow Airport",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/uA9tbyk4lJ8"
       ]
     },
     "languages": [],
@@ -1324,7 +1288,7 @@
     "name": "West Kirby Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/563IkQctjgc"
+        "https://www.youtube-nocookie.com/embed/U4B8AIz8qo8"
       ]
     },
     "languages": [],

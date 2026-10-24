@@ -9705,11 +9705,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Y1tCkBpdNuCtMM",
-    "name": "Halloween Radio Oldies",
+    "nanoid": "CyPoX2A34IVSnA",
+    "name": "Halloweenradio Oldies",
     "sources": {
       "streams": [
-        "https://radio1.streamserver.link/radio/8020/hro-aac"
+        "https://stream.halloweenradio.net/listen/halloween_radio_oldies/aac"
       ]
     },
     "languages": [

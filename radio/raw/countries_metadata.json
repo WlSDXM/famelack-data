@@ -130,7 +130,7 @@
     "capital": "Brussels",
     "timeZone": "Europe/Brussels",
     "hasChannels": true,
-    "channelCount": 209
+    "channelCount": 207
   },
   "BF": {
     "country": "Burkina Faso",
@@ -256,7 +256,7 @@
     "capital": "Ottawa",
     "timeZone": "America/Toronto",
     "hasChannels": true,
-    "channelCount": 1022
+    "channelCount": 1028
   },
   "CC": {
     "country": "Cocos (Keeling) Islands",
@@ -1586,7 +1586,7 @@
     "capital": "Washington, D.C.",
     "timeZone": "America/New_York",
     "hasChannels": true,
-    "channelCount": 4159
+    "channelCount": 4156
   },
   "UY": {
     "country": "Uruguay",

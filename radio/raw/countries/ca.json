@@ -8763,11 +8763,95 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Y1tCkBpdNuCtMM",
-    "name": "Halloween Radio Oldies",
+    "nanoid": "ExuaK38X7RbsYd",
+    "name": "Halloweenradio Atmosphere",
     "sources": {
       "streams": [
-        "https://radio1.streamserver.link/radio/8020/hro-aac"
+        "https://stream.halloweenradio.net/listen/halloween_radio_atmosphere/aac"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AL166fCbWvgo7J",
+    "name": "Halloweenradio Cauldron",
+    "sources": {
+      "streams": [
+        "https://stream.halloweenradio.net/listen/halloween_radio_cauldron/aac"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "qNURajjV8CXzq7",
+    "name": "Halloweenradio Instrumental",
+    "sources": {
+      "streams": [
+        "https://radio1.streamserver.link/radio/8100/hri-aac"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "uRURKdqJRUmc3S",
+    "name": "Halloweenradio Kids",
+    "sources": {
+      "streams": [
+        "https://stream.halloweenradio.net/listen/halloween_radio_kids/aac"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "GhGZh4NVBUhbd4",
+    "name": "Halloweenradio Main",
+    "sources": {
+      "streams": [
+        "https://stream.halloweenradio.net/listen/halloween_radio_main/aac"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "CyPoX2A34IVSnA",
+    "name": "Halloweenradio Oldies",
+    "sources": {
+      "streams": [
+        "https://stream.halloweenradio.net/listen/halloween_radio_oldies/aac"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "RnQTkvCnNkImps",
+    "name": "Halloweenradio Soundtracks",
+    "sources": {
+      "streams": [
+        "https://stream.halloweenradio.net/listen/halloween_radio_soundtracks/aac"
       ]
     },
     "languages": [

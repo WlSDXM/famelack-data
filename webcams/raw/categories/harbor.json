@@ -60,18 +60,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "vdIaQwbFoz93bZ",
-    "name": "Akita Port",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/RgZuZ9HSQ_M"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "f6T6SqIM4ZTdBy",
     "name": "Akiya Fishing Port",
     "sources": {
@@ -353,18 +341,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/t_VfYNtprYE"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "pph8odAmWyBmUc",
-    "name": "Bar Harbor Inn North View, Acadia",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/RH9wCBhxkxM"
       ]
     },
     "languages": [],
@@ -1540,7 +1516,7 @@
     "name": "Dunedin Otago Harbour",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-LPzM9s7VkE"
+        "https://www.youtube-nocookie.com/embed/r6khDxvT7vw"
       ]
     },
     "languages": [],
@@ -1564,7 +1540,7 @@
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ufa1Wx1JswM"
+        "https://www.youtube-nocookie.com/embed/DfIJXVkAI70"
       ]
     },
     "languages": [],
@@ -2316,6 +2292,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "dm2YQd2wULpQDN",
+    "name": "Hotel Margaret Porat",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/12lKyuIble8"
+      ]
+    },
+    "languages": [],
+    "country": "hr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "7vSNOdHIPe9jup",
     "name": "Hotelletje de Veerman, Vlieland",
     "sources": {
@@ -2500,7 +2488,7 @@
     "name": "Kaprije Marina",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/rx27MYW4RFo"
+        "https://www.youtube-nocookie.com/embed/r-eYmhGRmcM"
       ]
     },
     "languages": [],
@@ -3712,7 +3700,7 @@
     "name": "Parry Sound Town Dock",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/XqiKoRWJ-OA"
+        "https://www.youtube-nocookie.com/embed/9NiJU62Qe-w"
       ]
     },
     "languages": [],
@@ -4193,6 +4181,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/CFk2x7P-wV8"
+      ]
+    },
+    "languages": [],
+    "country": "hr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "PrRZ0Egr0Py295",
+    "name": "Punat Harbor",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/60KEvEm2WE8"
       ]
     },
     "languages": [],
@@ -4836,6 +4836,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "QUqVnt7igVnfmu",
+    "name": "Šilo Lučica",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/AklqGd4bqcA"
+      ]
+    },
+    "languages": [],
+    "country": "hr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "XtW1NEbF50u86U",
     "name": "Silver Bay Marina Harbor",
     "sources": {
@@ -4888,7 +4900,7 @@
     "name": "Skiathos Bay & Port",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/cevvxXYVF_E"
+        "https://www.youtube-nocookie.com/embed/12-lSGs8BHw"
       ]
     },
     "languages": [],

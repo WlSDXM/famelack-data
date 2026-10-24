@@ -264,6 +264,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "Zn4H2ubuoCTOoq",
+    "name": "Buenos Aires Obelisco",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/NmPKTSZGOs4"
+      ]
+    },
+    "languages": [],
+    "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "lyke9TwT1fOOz4",
     "name": "Buffalo Bills Highmark Stadium",
     "sources": {
@@ -424,7 +436,7 @@
     "name": "Cristo Acolhedor, Sobradinho",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Y3Tn1KGJtk0"
+        "https://www.youtube-nocookie.com/embed/4mgMrzUAGgI"
       ]
     },
     "languages": [],
@@ -581,6 +593,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/H6cm5Hf-yFY"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "r0HIWy56zv0uls",
+    "name": "Elbo Room Social Club",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/wEeww4kegb4"
       ]
     },
     "languages": [],
@@ -760,7 +784,7 @@
     "name": "Holy Cave of Covadonga",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/x8AtI3fd1Yo"
+        "https://www.youtube-nocookie.com/embed/SJ7IoTtjgfk"
       ]
     },
     "languages": [],
@@ -772,7 +796,7 @@
     "name": "Holy Dormition Pochaiv Lavra",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-LXvkgbV0Tc"
+        "https://www.youtube-nocookie.com/embed/XbyaKASHDKA"
       ]
     },
     "languages": [],
@@ -952,7 +976,19 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/XKxPOhlln-Q"
+        "https://www.youtube-nocookie.com/embed/H9fIPQJvuUw"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "S48e3HpPBoDbaI",
+    "name": "Las Vegas Sphere",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/S5em31Mlm1c"
       ]
     },
     "languages": [],
@@ -1900,7 +1936,7 @@
     "name": "Teotihuacán Pyramids",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/04Yn33Zeq6c"
+        "https://www.youtube-nocookie.com/embed/RR8hyS4niug"
       ]
     },
     "languages": [],

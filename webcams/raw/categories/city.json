@@ -28,7 +28,7 @@
     "name": "730 Intersection, Ishigaki",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/WCzn0zAw3v8"
+        "https://www.youtube-nocookie.com/embed/ZhfBHGIRMOc"
       ]
     },
     "languages": [],
@@ -964,7 +964,7 @@
     "name": "BC Place",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/gEVhrDQc8C0"
+        "https://www.youtube-nocookie.com/embed/E74UOoHIwOk"
       ]
     },
     "languages": [],
@@ -1452,6 +1452,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "Zn4H2ubuoCTOoq",
+    "name": "Buenos Aires Obelisco",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/NmPKTSZGOs4"
+      ]
+    },
+    "languages": [],
+    "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "LAUo04Vq75Oo9X",
     "name": "Bukit Jimbaran Panorama",
     "sources": {
@@ -1552,7 +1564,7 @@
     "name": "California Earthquake Watch",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/rDN8ZaPXGLk"
+        "https://www.youtube-nocookie.com/embed/0CH3my1MGuo"
       ]
     },
     "languages": [],
@@ -1648,7 +1660,7 @@
     "name": "Castro Street",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/87oRbLLa-_E"
+        "https://www.youtube-nocookie.com/embed/qH-FeyBG5Og"
       ]
     },
     "languages": [],
@@ -1684,7 +1696,7 @@
     "name": "Castro Street, San Francisco",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/NSyz-1pPBAo"
+        "https://www.youtube-nocookie.com/embed/KSP5miYLE_4"
       ]
     },
     "languages": [],
@@ -1876,7 +1888,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/s6ny1ypcjHo"
+        "https://www.youtube-nocookie.com/embed/0oWptsc2EQw"
       ]
     },
     "languages": [],
@@ -2044,7 +2056,7 @@
     "name": "Collins Avenue Street Cam",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-dWBmJpj3js"
+        "https://www.youtube-nocookie.com/embed/L61Sqz7JvoU"
       ]
     },
     "languages": [],
@@ -2716,7 +2728,7 @@
     "name": "Downtown Parry Sound",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/T8QwwJVgzO8"
+        "https://www.youtube-nocookie.com/embed/6ey7ggsSZ-c"
       ]
     },
     "languages": [],
@@ -2860,7 +2872,7 @@
     "name": "Drniš Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/2b0oTlCoYsI"
+        "https://www.youtube-nocookie.com/embed/APJc9ce8mL4"
       ]
     },
     "languages": [],
@@ -2968,7 +2980,7 @@
     "name": "East 34th Street Ferry Landing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ufa1Wx1JswM"
+        "https://www.youtube-nocookie.com/embed/DfIJXVkAI70"
       ]
     },
     "languages": [],
@@ -3441,18 +3453,6 @@
     },
     "languages": [],
     "country": "se",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "ua9X7SuA197Ipb",
-    "name": "Gemona del Friuli",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/WP8SIjbsxwg"
-      ]
-    },
-    "languages": [],
-    "country": "it",
     "isGeoBlocked": false
   },
   {
@@ -4032,18 +4032,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "pCY4iv6dTI1d6k",
-    "name": "Hastings Pier",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/5FBMg0K85Jg"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "oNx4ag39QAYqtI",
     "name": "Haus des Meeres Dachkamera Ost",
     "sources": {
@@ -4084,7 +4072,7 @@
     "name": "Hawick High Street",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/cqqSKrAgYMQ"
+        "https://www.youtube-nocookie.com/embed/7_xGAOInNGQ"
       ]
     },
     "languages": [],
@@ -4464,18 +4452,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "YFWTijJAYKG3Bb",
-    "name": "Imperia Rooftops and Riviera Sea Panorama",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/0b1ysvU-Q4Q"
-      ]
-    },
-    "languages": [],
-    "country": "it",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "MokX0OQKVlFvv5",
     "name": "Inn Street Fountain, Newburyport",
     "sources": {
@@ -4721,18 +4697,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/g_00CDso3AI"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "VfuQC06JP2xM5K",
-    "name": "JR Osaka Station",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/lPlBcj6yWpE"
       ]
     },
     "languages": [],
@@ -5416,7 +5380,19 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/XKxPOhlln-Q"
+        "https://www.youtube-nocookie.com/embed/H9fIPQJvuUw"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "S48e3HpPBoDbaI",
+    "name": "Las Vegas Sphere",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/S5em31Mlm1c"
       ]
     },
     "languages": [],
@@ -6088,7 +6064,7 @@
     "name": "Maniago City Square",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/j6SsQVh0d7U"
+        "https://www.youtube-nocookie.com/embed/JFhEs9xqn8I"
       ]
     },
     "languages": [],
@@ -6156,6 +6132,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "ZsloWiJqWuRRy1",
+    "name": "Mariner Park on the St. Clair River",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/QHclJVKPLqM"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "vmV5z4pIxgvOFU",
     "name": "Market Square & North Church",
     "sources": {
@@ -6216,23 +6204,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "zYSQvKYNf4OG1b",
-    "name": "Marktplatz Naumburg (Saale)",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/r-aFbbMHnhI"
-      ]
-    },
-    "languages": [],
-    "country": "de",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "rrYmYD5pAarGrT",
     "name": "Marktstraat, Sneek",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/M-wDPki5PAg"
+        "https://www.youtube-nocookie.com/embed/2TBxV_P2B50"
       ]
     },
     "languages": [],
@@ -6588,18 +6564,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "9GT6eMgVazlBs6",
-    "name": "Montenegro RS East",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/MUWjOucOeUc"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "sPGf47TRiDa1tS",
     "name": "Montenegro Timbaúva West",
     "sources": {
@@ -6653,18 +6617,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/DyYXe3LJOW8"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Du7K4MBRGPE244",
-    "name": "Mount Fuji from Kawaguchiko Station",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/xf0L7V23zK4"
       ]
     },
     "languages": [],
@@ -6748,7 +6700,7 @@
     "name": "Muscatine Riverfront Railcam at Merrill Hotel",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/jld8d8xgMbc"
+        "https://www.youtube-nocookie.com/embed/-qOD2a_6WBQ"
       ]
     },
     "languages": [],
@@ -7336,7 +7288,7 @@
     "name": "Obor Square",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HxoU1hz2KDc"
+        "https://www.youtube-nocookie.com/embed/hwexnbWlMUc"
       ]
     },
     "languages": [],
@@ -7696,7 +7648,7 @@
     "name": "Osaka Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/lTwTPS18dws"
+        "https://www.youtube-nocookie.com/embed/OVJrG3XeVWA"
       ]
     },
     "languages": [],
@@ -8008,7 +7960,7 @@
     "name": "Pattaya Beach Road",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/8tY3wLasXU8"
+        "https://www.youtube-nocookie.com/embed/e-qlEsIhXAo"
       ]
     },
     "languages": [],
@@ -8097,6 +8049,18 @@
     },
     "languages": [],
     "country": "th",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Un2fyI2khg7Akb",
+    "name": "Philadelphia",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/P3sGke9M59o"
+      ]
+    },
+    "languages": [],
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -8481,6 +8445,18 @@
     },
     "languages": [],
     "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "hn3NOt4Nuqs3DO",
+    "name": "Prospekt Prosveshcheniya",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Y60vT7Y7hRc"
+      ]
+    },
+    "languages": [],
+    "country": "ru",
     "isGeoBlocked": false
   },
   {
@@ -9328,7 +9304,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/TBYxI8JMsX4"
+        "https://www.youtube-nocookie.com/embed/FTAsP3cR2aU"
       ]
     },
     "languages": [],
@@ -9508,7 +9484,7 @@
     "name": "Şebinkarahisar",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/pdUIMp3xjEs"
+        "https://www.youtube-nocookie.com/embed/o46LFJV74Z4"
       ]
     },
     "languages": [],
@@ -9520,7 +9496,7 @@
     "name": "Şebinkarahisar Town Square",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HYTv-MwZV2w"
+        "https://www.youtube-nocookie.com/embed/mttV2wwKrh4"
       ]
     },
     "languages": [],
@@ -10804,7 +10780,7 @@
     "name": "Sydney Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/V_Enl6fOatg"
+        "https://www.youtube-nocookie.com/embed/qnq1fvgZ_nA"
       ]
     },
     "languages": [],
@@ -10816,7 +10792,7 @@
     "name": "Table Mountain",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/msrqEVNIV2g"
+        "https://www.youtube-nocookie.com/embed/k50ifOuAsOc"
       ]
     },
     "languages": [],
@@ -11764,7 +11740,7 @@
     "name": "Two Friends Patio",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/aYemFyCMfNI"
+        "https://www.youtube-nocookie.com/embed/3DHZOyr5V-4"
       ]
     },
     "languages": [],
@@ -11956,7 +11932,7 @@
     "name": "Uruapan Panoramic City View",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/iuk6apjkcRg"
+        "https://www.youtube-nocookie.com/embed/e5gPcwz8yGA"
       ]
     },
     "languages": [],
@@ -12216,18 +12192,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "mJLDL17H7lsOZn",
-    "name": "Větruše Panoramic",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/RUMTsdBAv4Q"
-      ]
-    },
-    "languages": [],
-    "country": "cz",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "5lyBmFnZhHISDZ",
     "name": "Vicksburg",
     "sources": {
@@ -12345,6 +12309,18 @@
     },
     "languages": [],
     "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "JbYpgnNgnknL6X",
+    "name": "Villa María Weather Camera",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/vrEd8NAwcm4"
+      ]
+    },
+    "languages": [],
+    "country": "ar",
     "isGeoBlocked": false
   },
   {
@@ -12544,7 +12520,7 @@
     "name": "Warsaw Skyline",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/fRzSlRhRLCs"
+        "https://www.youtube-nocookie.com/embed/ZhTjDOcwPzU"
       ]
     },
     "languages": [],
@@ -12729,18 +12705,6 @@
     },
     "languages": [],
     "country": "vi",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "6BWpBpyr2POclx",
-    "name": "Winlock Liquidation Warehouse Railcam",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/S3YTiO4jQtI"
-      ]
-    },
-    "languages": [],
-    "country": "us",
     "isGeoBlocked": false
   },
   {

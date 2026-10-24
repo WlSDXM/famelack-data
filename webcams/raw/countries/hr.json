@@ -64,7 +64,19 @@
     "name": "Drniš Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/2b0oTlCoYsI"
+        "https://www.youtube-nocookie.com/embed/APJc9ce8mL4"
+      ]
+    },
+    "languages": [],
+    "country": "hr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "dm2YQd2wULpQDN",
+    "name": "Hotel Margaret Porat",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/12lKyuIble8"
       ]
     },
     "languages": [],
@@ -100,7 +112,7 @@
     "name": "Kaprije Marina",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/rx27MYW4RFo"
+        "https://www.youtube-nocookie.com/embed/r-eYmhGRmcM"
       ]
     },
     "languages": [],
@@ -288,11 +300,23 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "PrRZ0Egr0Py295",
+    "name": "Punat Harbor",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/60KEvEm2WE8"
+      ]
+    },
+    "languages": [],
+    "country": "hr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "M3lnz8rRWL95DW",
     "name": "Punta Planka",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/MdncZqTG3OM"
+        "https://www.youtube-nocookie.com/embed/J2EIHDa3g5w"
       ]
     },
     "languages": [],
@@ -353,6 +377,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/AqYQ9W4r8ZU"
+      ]
+    },
+    "languages": [],
+    "country": "hr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "QUqVnt7igVnfmu",
+    "name": "Šilo Lučica",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/AklqGd4bqcA"
       ]
     },
     "languages": [],

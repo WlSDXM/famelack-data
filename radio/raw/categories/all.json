@@ -126878,20 +126878,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "k8QqP8js520ZrB",
-    "name": "Halloween Radio",
-    "sources": {
-      "streams": [
-        "https://radio1.streamserver.link/radio/8000/hrm-aac"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "be",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "QccOPf1pse5Dyt",
     "name": "Halloween Radio",
     "sources": {
@@ -126921,67 +126907,95 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "k3DeG8YqjrKVfi",
-    "name": "Halloween Radio Atmosphere",
+    "nanoid": "ExuaK38X7RbsYd",
+    "name": "Halloweenradio Atmosphere",
     "sources": {
       "streams": [
-        "https://radio1.streamserver.link/radio/8040/hra-aac"
+        "https://stream.halloweenradio.net/listen/halloween_radio_atmosphere/aac"
       ]
     },
     "languages": [
       "eng"
     ],
-    "country": "be",
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AL166fCbWvgo7J",
+    "name": "Halloweenradio Cauldron",
+    "sources": {
+      "streams": [
+        "https://stream.halloweenradio.net/listen/halloween_radio_cauldron/aac"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "qNURajjV8CXzq7",
+    "name": "Halloweenradio Instrumental",
+    "sources": {
+      "streams": [
+        "https://radio1.streamserver.link/radio/8100/hri-aac"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ca",
     "isGeoBlocked": false
   },
   {
     "nanoid": "uRURKdqJRUmc3S",
-    "name": "Halloween Radio Kids",
+    "name": "Halloweenradio Kids",
     "sources": {
       "streams": [
-        "https://radio1.streamserver.link:8030/hrk-aac"
+        "https://stream.halloweenradio.net/listen/halloween_radio_kids/aac"
       ]
     },
     "languages": [
       "eng"
     ],
-    "country": "us",
+    "country": "ca",
     "isGeoBlocked": false
   },
   {
     "nanoid": "GhGZh4NVBUhbd4",
-    "name": "Halloween Radio Main",
+    "name": "Halloweenradio Main",
     "sources": {
       "streams": [
-        "https://radio1.streamserver.link:8000/hrm-aac"
+        "https://stream.halloweenradio.net/listen/halloween_radio_main/aac"
       ]
     },
     "languages": [
       "eng"
     ],
-    "country": "us",
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "CyPoX2A34IVSnA",
+    "name": "Halloweenradio Oldies",
+    "sources": {
+      "streams": [
+        "https://stream.halloweenradio.net/listen/halloween_radio_oldies/aac"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ca",
     "isGeoBlocked": false
   },
   {
     "nanoid": "RnQTkvCnNkImps",
-    "name": "Halloween Radio Movies",
+    "name": "Halloweenradio Soundtracks",
     "sources": {
       "streams": [
-        "https://radio1.streamserver.link/radio/8050/hrs-aac"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Y1tCkBpdNuCtMM",
-    "name": "Halloween Radio Oldies",
-    "sources": {
-      "streams": [
-        "https://radio1.streamserver.link/radio/8020/hro-aac"
+        "https://stream.halloweenradio.net/listen/halloween_radio_soundtracks/aac"
       ]
     },
     "languages": [
