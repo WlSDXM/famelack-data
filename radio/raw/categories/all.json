@@ -203571,6 +203571,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "5PqB1P3OEfRHGK",
+    "name": "Ona de Sants-Montjuïc",
+    "sources": {
+      "streams": [
+        "https://edge.mixlr.com/channel/dlyio"
+      ]
+    },
+    "languages": [
+      "cat",
+      "spa"
+    ],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "XXRWqy6RpAFpra",
     "name": "Ona Mediterrània",
     "sources": {
@@ -260166,6 +260181,20 @@
       "hrv"
     ],
     "country": "hr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "pQ0q8hX2GtINoJ",
+    "name": "Radio Megatón 106.7 FM",
+    "sources": {
+      "streams": [
+        "https://streaming.escuchanosonline.com:7279/stream"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ar",
     "isGeoBlocked": false
   },
   {

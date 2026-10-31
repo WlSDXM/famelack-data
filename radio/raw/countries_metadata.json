@@ -60,7 +60,7 @@
     "capital": "Buenos Aires",
     "timeZone": "America/Argentina/Buenos_Aires",
     "hasChannels": true,
-    "channelCount": 355
+    "channelCount": 356
   },
   "AS": {
     "country": "American Samoa",
@@ -459,7 +459,7 @@
     "capital": "Madrid",
     "timeZone": "Europe/Madrid",
     "hasChannels": true,
-    "channelCount": 664
+    "channelCount": 665
   },
   "ET": {
     "country": "Ethiopia",
