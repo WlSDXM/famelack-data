@@ -1557,20 +1557,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "rHTthtz6OTl90p",
-    "name": "Basso",
-    "sources": {
-      "streams": [
-        "https://live-bauerfi.sharp-stream.com/fi_bassoradio_64.aac"
-      ]
-    },
-    "languages": [
-      "fin"
-    ],
-    "country": "fi",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "ofateIMm7Dh5VM",
     "name": "BBC Radio 1Xtra",
     "sources": {
@@ -10395,6 +10381,20 @@
       "eng"
     ],
     "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "WjXQSicBdHfcue",
+    "name": "West Coast Radio 95.3",
+    "sources": {
+      "streams": [
+        "https://westcoast.gm:8480/stream"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "gm",
     "isGeoBlocked": false
   },
   {

@@ -473,7 +473,7 @@
     "capital": "Helsinki",
     "timeZone": "Europe/Helsinki",
     "hasChannels": true,
-    "channelCount": 80
+    "channelCount": 65
   },
   "FJ": {
     "country": "Fiji",
@@ -577,8 +577,8 @@
     "country": "Gambia",
     "capital": "Banjul",
     "timeZone": "Africa/Banjul",
-    "hasChannels": false,
-    "channelCount": 0
+    "hasChannels": true,
+    "channelCount": 22
   },
   "GN": {
     "country": "Guinea",

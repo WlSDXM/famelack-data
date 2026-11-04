@@ -7509,6 +7509,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "60CDERiwOai1z6",
+    "name": "Afri Radio Gambia",
+    "sources": {
+      "streams": [
+        "https://a3.asurahosting.com:6060/radio.mp3"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "gm",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "0VB5n4964OkreV",
     "name": "Africa Abidjan",
     "sources": {
@@ -17701,6 +17715,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "wNESzColuaTPmd",
+    "name": "Capital FM 100.4",
+    "sources": {
+      "streams": [
+        "https://manager4.streamradio.fr:1780/stream"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "gm",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "sXTJQ9UGPie5ym",
     "name": "Capital FM 105.3",
     "sources": {
@@ -18587,6 +18615,20 @@
       "tam"
     ],
     "country": "in",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "kR2PtYXsn1aKti",
+    "name": "CheersRadio Gambia",
+    "sources": {
+      "streams": [
+        "https://stream.zeno.fm/warx8xkc2wzuv"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "gm",
     "isGeoBlocked": false
   },
   {
@@ -40078,6 +40120,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "M3mXLO6jcXg0ay",
+    "name": "Hero Radio Gambia",
+    "sources": {
+      "streams": [
+        "https://a2.asurahosting.com:6790/gambia.mp3"
+      ]
+    },
+    "languages": [
+      "eng",
+      "swa"
+    ],
+    "country": "gm",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "R7NrSYMLl71J8m",
     "name": "Hertz 87.9",
     "sources": {
@@ -43777,21 +43834,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "I5uLEIexTGUxIM",
-    "name": "Iskelmä",
-    "sources": {
-      "streams": [
-        "https://streaming.radioplay.fi/fi_iskelma_128.mp3?direct=true",
-        "https://streaming.radioplay.fi/fi_iskelma_64.aac?direct=true"
-      ]
-    },
-    "languages": [
-      "fin"
-    ],
-    "country": "fi",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Vmbv1ViGxeZhs3",
     "name": "Island 92",
     "sources": {
@@ -44215,6 +44257,22 @@
       "eng"
     ],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "j4AiwtCtMp1AC9",
+    "name": "Jamano Media and Radio",
+    "sources": {
+      "streams": [
+        "https://stream.zeno.fm/aexpaxhyk2zuv"
+      ]
+    },
+    "languages": [
+      "eng",
+      "mnk",
+      "wol"
+    ],
+    "country": "gm",
     "isGeoBlocked": false
   },
   {
@@ -61730,21 +61788,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "QiQTrFCTl19Pt3",
-    "name": "NRJ",
-    "sources": {
-      "streams": [
-        "https://streaming.radioplay.fi/fi_nrj_128.mp3?direct=true",
-        "https://streaming.radioplay.fi/fi_nrj_64.aac?direct=true"
-      ]
-    },
-    "languages": [
-      "fin"
-    ],
-    "country": "fi",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "qzZlzKgoB8Io9I",
     "name": "NRJ",
     "sources": {
@@ -63310,6 +63353,23 @@
       "fra"
     ],
     "country": "ch",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "fwVtnxDQlwlKcT",
+    "name": "One Gambia Radio",
+    "sources": {
+      "streams": [
+        "https://stream.zeno.fm/dk1g732kqc9uv"
+      ]
+    },
+    "languages": [
+      "eng",
+      "ful",
+      "mnk",
+      "wol"
+    ],
+    "country": "gm",
     "isGeoBlocked": false
   },
   {
@@ -69929,21 +69989,6 @@
       "nld"
     ],
     "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "B2gQswojQN8Vcl",
-    "name": "Radio 957",
-    "sources": {
-      "streams": [
-        "https://streaming.radioplay.fi/fi_radio957_128.mp3?direct=true",
-        "https://streaming.radioplay.fi/fi_radio957_64.aac?direct=true"
-      ]
-    },
-    "languages": [
-      "fin"
-    ],
-    "country": "fi",
     "isGeoBlocked": false
   },
   {
@@ -85647,20 +85692,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "r7DJl20uZBdIkl",
-    "name": "Radio Nova",
-    "sources": {
-      "streams": [
-        "https://live-bauerfi.sharp-stream.com/fi_radionova_64.aac"
-      ]
-    },
-    "languages": [
-      "fin"
-    ],
-    "country": "fi",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "4BIrmV7UMPxToy",
     "name": "Radio Nova Bordeaux",
     "sources": {
@@ -87552,21 +87583,6 @@
       "spa"
     ],
     "country": "es",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "oGjiEQLXs8sIlC",
-    "name": "Radio Pooki",
-    "sources": {
-      "streams": [
-        "https://streaming.radioplay.fi/fi_radiopooki_128.mp3?direct=true",
-        "https://streaming.radioplay.fi/fi_radiopooki_64.aac?direct=true"
-      ]
-    },
-    "languages": [
-      "fin"
-    ],
-    "country": "fi",
     "isGeoBlocked": false
   },
   {
@@ -92255,8 +92271,8 @@
     "name": "Radio Suomipop",
     "sources": {
       "streams": [
-        "https://aud-stream-suomipop.nm-elemental.nelonenmedia.fi/playlist-256000.m3u8",
-        "https://aud-stream-suomipop.nm-elemental.nelonenmedia.fi/playlist.m3u8"
+        "https://aud-stream-suomipop.nm-elemental.nelonenmedia.fi/playlist.m3u8",
+        "https://aud-stream-suomipop.nm-elemental.nelonenmedia.fi/playlist-256000.m3u8"
       ]
     },
     "languages": [
@@ -105467,6 +105483,22 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "pSg3c7ixPidAS0",
+    "name": "StarFM 96.6",
+    "sources": {
+      "streams": [
+        "https://stream.zeno.fm/edfd6fhdps8uv"
+      ]
+    },
+    "languages": [
+      "eng",
+      "ful",
+      "mnk"
+    ],
+    "country": "gm",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "nU4zwavnV9J8RD",
     "name": "Starter FM",
     "sources": {
@@ -109976,20 +110008,6 @@
       "deu"
     ],
     "country": "de",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "TWZUYuSe2Mhycl",
-    "name": "Top51",
-    "sources": {
-      "streams": [
-        "https://streaming.radioplay.fi/top51/top51_64.aac"
-      ]
-    },
-    "languages": [
-      "fin"
-    ],
-    "country": "fi",
     "isGeoBlocked": false
   },
   {
