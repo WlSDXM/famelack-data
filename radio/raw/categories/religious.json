@@ -6367,6 +6367,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "ZY2DMHJtIeaBO5",
+    "name": "Hero Radio South Sudan",
+    "sources": {
+      "streams": [
+        "https://a2.asurahosting.com:6790/southsudan.mp3"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ss",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "ESQ3equTQsLjww",
     "name": "Herrlichkeit für Christus",
     "sources": {
@@ -8249,6 +8263,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "rJwFfC54pO8i9i",
+    "name": "Laif FM",
+    "sources": {
+      "streams": [
+        "https://streams3.vision.org.au/png.aac"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "pg",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "WkYN3vEEG2Tykj",
     "name": "Lancaster Baptist Church",
     "sources": {
@@ -8477,6 +8505,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "R4t0dAWY2ZLcq7",
+    "name": "Life FM Bougainville",
+    "sources": {
+      "streams": [
+        "https://streams3.vision.org.au/bougainville.aac"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "pg",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "i5O32wzy4iKB8q",
     "name": "Life Radio 96.5",
     "sources": {
@@ -8488,6 +8530,20 @@
       "eng"
     ],
     "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "m8tcWzGrl8jbsV",
+    "name": "Life Worship",
+    "sources": {
+      "streams": [
+        "https://streams3.vision.org.au/worshipap.aac"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "pg",
     "isGeoBlocked": false
   },
   {
@@ -9044,6 +9100,20 @@
       "hun"
     ],
     "country": "hu",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "NwSlrZNImzmyFX",
+    "name": "Mercy-Line",
+    "sources": {
+      "streams": [
+        "https://stream.zeno.fm/udotfjtyvf5vv"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ss",
     "isGeoBlocked": false
   },
   {
@@ -13642,6 +13712,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "dsqHH0tjtsCmZ8",
+    "name": "Radio Maria Papua New Guinea",
+    "sources": {
+      "streams": [
+        "https://dreamsiteradiocp2.com/proxy/rmpapua2?mp=/stream"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "pg",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "s7BC2xQc5N4V0Z",
     "name": "Radio Martyria 95.5 FM",
     "sources": {
@@ -16642,6 +16726,22 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "L3b4H3f0BQthOR",
+    "name": "RMC Imprint Radio",
+    "sources": {
+      "streams": [
+        "https://stream.zeno.fm/acw68hd40uquv"
+      ]
+    },
+    "languages": [
+      "ara",
+      "eng",
+      "swa"
+    ],
+    "country": "ss",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "MGZckjJs0K0C29",
     "name": "RTB Nasional FM",
     "sources": {
@@ -19048,6 +19148,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "Un67Ddb3WloXgu",
+    "name": "Voice of Revival Radio",
+    "sources": {
+      "streams": [
+        "https://stream.zeno.fm/nh6npnwi87yvv"
+      ]
+    },
+    "languages": [
+      "eng",
+      "tpi"
+    ],
+    "country": "pg",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Xp7TiTV9YvpVKZ",
     "name": "Voice of Ummah",
     "sources": {
@@ -19187,6 +19302,21 @@
       "eng"
     ],
     "country": "nz",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "aWzo4HHPebh2Ws",
+    "name": "Wantok Radio Light",
+    "sources": {
+      "streams": [
+        "https://radio.kinect.com.pg/listen/wrl/radio.mp3"
+      ]
+    },
+    "languages": [
+      "eng",
+      "tpi"
+    ],
+    "country": "pg",
     "isGeoBlocked": false
   },
   {

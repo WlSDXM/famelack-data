@@ -1472,6 +1472,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "8oXI8nVSitbMYB",
+    "name": "Eye Radio",
+    "sources": {
+      "streams": [
+        "https://listen.radio.primcast.com/c/mediasb/150/stream"
+      ]
+    },
+    "languages": [
+      "ara",
+      "eng"
+    ],
+    "country": "ss",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "CIPZyMK1xGW1ks",
     "name": "FDP Radio",
     "sources": {
@@ -2305,6 +2320,21 @@
       "ell"
     ],
     "country": "gr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "5c0EkkaFeUsRTr",
+    "name": "Mix FM Juba",
+    "sources": {
+      "streams": [
+        "https://mixfm-atunwadigital.streamguys1.com/mixfm"
+      ]
+    },
+    "languages": [
+      "eng",
+      "pga"
+    ],
+    "country": "ss",
     "isGeoBlocked": false
   },
   {
@@ -4522,6 +4552,20 @@
       "por"
     ],
     "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "8HzU0B3ZbNYOhm",
+    "name": "Tribe FM",
+    "sources": {
+      "streams": [
+        "https://natradio.nbc.com.pg/listen/tribe_fm/radio.mp3"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "pg",
     "isGeoBlocked": false
   },
   {
