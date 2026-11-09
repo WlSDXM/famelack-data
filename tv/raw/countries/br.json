@@ -14,20 +14,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "rtbi6hxyaPNSIn",
-    "name": "1001 Noites",
-    "sources": {
-      "streams": [
-        "https://cpbr.appflux.com.br:2000/hls/1001noites/1001noites.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "CtdqbL5wtTjnvo",
     "name": "AgroCanal",
     "sources": {
@@ -276,7 +262,7 @@
     "name": "CNN Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-kduZ-D1VrE"
+        "https://www.youtube-nocookie.com/embed/o12sk_WWIDM"
       ]
     },
     "languages": [
@@ -580,21 +566,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "j2PNx5Xg25mTJj",
-    "name": "KpopTV Play",
-    "sources": {
-      "streams": [
-        "https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "kor",
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "jsKaliNIblEwB9",
     "name": "L!ke",
     "sources": {
@@ -711,7 +682,7 @@
     "name": "Peppa Pig Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/lcNF2UsUNsw"
+        "https://www.youtube-nocookie.com/embed/auoDCY-Z33k"
       ]
     },
     "languages": [
@@ -739,7 +710,7 @@
     "name": "PJ Masks Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/3Z8sd0fvp5k"
+        "https://www.youtube-nocookie.com/embed/FUhcEdORCnE"
       ]
     },
     "languages": [
@@ -791,20 +762,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "jKDEdNqLxjs3LB",
-    "name": "RBATV",
-    "sources": {
-      "streams": [
-        "https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "TPTBqvtnc5kyaM",
     "name": "Record News",
     "sources": {
@@ -812,7 +769,7 @@
         "https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/feD8ukLkGi0"
+        "https://www.youtube-nocookie.com/embed/3GyV7FU3NLo"
       ]
     },
     "languages": [
@@ -1005,20 +962,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "jn0vI2dHEj55Eu",
-    "name": "SBT CENTRAL",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Sf8uAYgBexM"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "9d48GJ8ZkwJuHl",
     "name": "SBT Nacional",
     "sources": {
@@ -1052,7 +995,7 @@
     "name": "SBT RIBEIRÃO PRETO",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/kElKUunWDKg"
+        "https://www.youtube-nocookie.com/embed/MlTsCsEPG6c"
       ]
     },
     "languages": [
@@ -1066,7 +1009,7 @@
     "name": "SBT Rio",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/qMIjKBoSvkg"
+        "https://www.youtube-nocookie.com/embed/6gqGU-6rHBk"
       ]
     },
     "languages": [
@@ -1094,7 +1037,7 @@
     "name": "SBT RS",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ueBcQD3EELo"
+        "https://www.youtube-nocookie.com/embed/71NzhsGv1hI"
       ]
     },
     "languages": [
@@ -1109,6 +1052,20 @@
     "sources": {
       "streams": [
         "https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8"
+      ]
+    },
+    "languages": [
+      "por"
+    ],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "LLNkgpUxL9eFFQ",
+    "name": "SOU TV",
+    "sources": {
+      "streams": [
+        "https://video10.logicahost.com.br/soutv/soutv/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1165,20 +1122,6 @@
     "sources": {
       "streams": [
         "https://cdn.live.br1.jmvstream.com/w/LVW-20715/LVW20715_50E3x2MCm2/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "uFUnpsEwjM0TgY",
-    "name": "TV A Folha",
-    "sources": {
-      "streams": [
-        "https://video01.logicahost.com.br/tvafolha/tvafolha/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1276,7 +1219,7 @@
     "name": "TV Assembleia Minas Gerais",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/2qiyXDCbohw"
+        "https://www.youtube-nocookie.com/embed/cmzkRslIlRk"
       ]
     },
     "languages": [
@@ -1389,20 +1332,6 @@
     "sources": {
       "streams": [
         "https://5c483b9d1019c.streamlock.net/8186/8186/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "gmhCmWMyVhRnQj",
-    "name": "TV Comunitaria",
-    "sources": {
-      "streams": [
-        "https://5b7f3c45ab7c2.streamlock.net/8008/smil:8008.smil/playlist.m3u8?DVR="
       ]
     },
     "languages": [
@@ -1741,20 +1670,6 @@
     "sources": {
       "streams": [
         "https://live.cdn.upx.com/00046/myStream.sdp/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Apy4C6DTjAR2zf",
-    "name": "TV Tambaú",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/sJfzLZpDrB4"
       ]
     },
     "languages": [

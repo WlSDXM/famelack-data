@@ -60,18 +60,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "js1BsiMtws65Nt",
-    "name": "Arizona Snowbowl Hart Prairie Area",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/-y72c8UCkLg"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "IhmFL9N4MWepsF",
     "name": "Arrakis Ski Area Žacléř",
     "sources": {
@@ -888,18 +876,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "G4tyP8zYkMBnKG",
-    "name": "Marunuma Kogen Yellow Course",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/XqiDLNQA0HM"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "4QZ1fC3yDVdknu",
     "name": "Montclar Les 2 Vallées ESF Beginner Area",
     "sources": {
@@ -1092,6 +1068,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "0yJImHotu31tWF",
+    "name": "Pescul Ski Civetta",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/kTwRIaYdq3E"
+      ]
+    },
+    "languages": [],
+    "country": "it",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "xLdgGUHZJXvzjt",
     "name": "Piano Battaglia Plateau",
     "sources": {
@@ -1101,6 +1089,18 @@
     },
     "languages": [],
     "country": "it",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "SCplOUFeUiMp4D",
+    "name": "Planica Nordic Centre",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/BSrovWF5pc4"
+      ]
+    },
+    "languages": [],
+    "country": "si",
     "isGeoBlocked": false
   },
   {
@@ -1361,18 +1361,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/pLBRmzuvQjw"
-      ]
-    },
-    "languages": [],
-    "country": "nl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "HGwHv0TtEIV32O",
-    "name": "SnowWorld Landgraaf Piste 2",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/zKkEI8LiGEs"
       ]
     },
     "languages": [],

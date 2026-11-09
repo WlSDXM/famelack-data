@@ -786,20 +786,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "kDus67YWLDmlSH",
-    "name": "JNE TV",
-    "sources": {
-      "streams": [
-        "https://lbgo.bozztv.com/ssh101/ssh101/jnetv/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "pe",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "MdYnmsFTlP5Wem",
     "name": "Justicia TV",
     "sources": {
@@ -1014,7 +1000,7 @@
     "name": "Nova24TV 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/jWozElc9r6c"
+        "https://www.youtube-nocookie.com/embed/ROtYQZG8Ss0"
       ]
     },
     "languages": [
@@ -1078,6 +1064,20 @@
       "eng"
     ],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "C4WEiFY5k9mJhz",
+    "name": "Orszaggyules: OGY plenaris",
+    "sources": {
+      "streams": [
+        "https://plenaris.parlament.hu:446/edgelive/smil:mkogyplen.smil/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "hun"
+    ],
+    "country": "hu",
     "isGeoBlocked": false
   },
   {
@@ -1261,7 +1261,7 @@
       "streams": [
         "https://d2lk5u59tns74c.cloudfront.net/out/v1/e4182054dce340da9e0ff38b6b3658a4/index.m3u8",
         "https://fta.ektv.in/live/298/master.m3u8",
-        "https://cdn.pishow.tv/ott/live/39/master.m3u8"
+        "https://playhls.media.nic.in/hls/live/rstv/rstv.m3u8"
       ]
     },
     "languages": [
@@ -1269,6 +1269,20 @@
       "hin"
     ],
     "country": "in",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "MA17nwlHV1keim",
+    "name": "Senado TV",
+    "sources": {
+      "streams": [
+        "https://vid.hls.protv.ro/liveibu6/liveibu6_highw/index.m3u8?1"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "py",
     "isGeoBlocked": false
   },
   {
@@ -1376,7 +1390,7 @@
     "name": "TV Assembleia Minas Gerais",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/2qiyXDCbohw"
+        "https://www.youtube-nocookie.com/embed/cmzkRslIlRk"
       ]
     },
     "languages": [

@@ -71,20 +71,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "grFQ56oSZAzAyP",
-    "name": "Camera Smile TV",
-    "sources": {
-      "streams": [
-        "https://rpn.bozztv.com/gusa/gusa-camerasmile/index.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "DjReFSbUV8nG7b",
     "name": "Chocolate Sundaes Comedy",
     "sources": {
@@ -258,8 +244,7 @@
     "name": "Laff",
     "sources": {
       "streams": [
-        "https://tvsen3.aynaott.com/UC6a8nsf/index.m3u8",
-        "https://tvsen7.aynascope.net/laff/index.m3u8"
+        "https://tvsen3.aynaott.com/UC6a8nsf/index.m3u8"
       ]
     },
     "languages": [
@@ -380,6 +365,22 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "5YgzDv05Sf4EVi",
+    "name": "Pitaara Comedy",
+    "sources": {
+      "streams": [
+        "https://pitaara-lg.vgcdn.net/v1/vglive-sk-217489/playlist.m3u8",
+        "https://vg-pitaaratvyupp.akamaized.net/ptnr-yupptv/title-Pitaara_Comedy/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-343626/playlist.m3u8",
+        "https://vglivessai.akamaized.net/ptnr-lgtv/title-Pitaara_Comedy_LG/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/5a5410c0-1b79-4adc-9243-0139b249798b/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "pan"
+    ],
+    "country": "in",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "qFOPNZj5esf6S3",
     "name": "RiffTrax US",
     "sources": {
@@ -437,20 +438,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "9ZJFiM1tnthINF",
-    "name": "Telecyan",
-    "sources": {
-      "streams": [
-        "https://live20.bozztv.com/giatvplayout7/giatv-211227/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "it",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "yenlo48DOLbqmP",
     "name": "The Chat Show Channel",
     "sources": {
@@ -479,20 +466,6 @@
     ],
     "country": "us",
     "isGeoBlocked": true
-  },
-  {
-    "nanoid": "MjP0Gu7jfIZvWL",
-    "name": "TVS Comedy Network",
-    "sources": {
-      "streams": [
-        "https://rpn.bozztv.com/gusa/gusa-tvscomedy/index.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
   },
   {
     "nanoid": "3KIbg37PQUOdm7",

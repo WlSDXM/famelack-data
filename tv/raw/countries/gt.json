@@ -14,20 +14,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "qS9h25t8tf42wr",
-    "name": "Aurora Media Films",
-    "sources": {
-      "streams": [
-        "https://cdn.streamhispanatv.net:3417/live/auroramflive.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "gt",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "hgyQQg5rlyVNkf",
     "name": "Barbe TV",
     "sources": {
@@ -75,20 +61,6 @@
     "sources": {
       "streams": [
         "https://s.emisoras.tv:8081/canal30tvbethel/index.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "gt",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "g7RtZ5R6hJRdT7",
-    "name": "Canal 100 Chinique",
-    "sources": {
-      "streams": [
-        "https://live20.bozztv.com/giatv/giatv-chinique100tvenvivo/chinique100tvenvivo/playlist.m3u8"
       ]
     },
     "languages": [
@@ -252,6 +224,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "hHMW2aFLz779WV",
+    "name": "Radio Coatan Canal 21",
+    "sources": {
+      "streams": [
+        "https://s2.tvdatta.com:3112/hybrid/play.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "gt",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "2LfjTVfmckF8U9",
     "name": "Rhema TV",
     "sources": {
@@ -271,20 +257,6 @@
     "sources": {
       "streams": [
         "https://cdn.streamhispanatv.net:3390/live/sastvgtlive.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "gt",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "AXMHX6tuUnfRvm",
-    "name": "SIL TV",
-    "sources": {
-      "streams": [
-        "https://live20.bozztv.com/giatv/giatv-SilTvOnline/SilTvOnline/playlist.m3u8"
       ]
     },
     "languages": [
@@ -369,20 +341,6 @@
     "sources": {
       "streams": [
         "https://cdn.streamhispanatv.net:3076/live/visiontvlive.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "gt",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "YPvu5CAvFNXSqK",
-    "name": "World TV Guatemala",
-    "sources": {
-      "streams": [
-        "https://183.bozztv.com/giatv/giatv-worldtvgt/worldtvgt/playlist.m3u8"
       ]
     },
     "languages": [

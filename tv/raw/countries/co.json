@@ -156,11 +156,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "4tOQsHNAnrUk50",
-    "name": "Canal Calima TV",
+    "nanoid": "t77vURUv4tfKdi",
+    "name": "Canal 9 Cosespu",
     "sources": {
       "streams": [
-        "https://movil.ejeserver.com/live/calimatv.m3u8"
+        "https://video2.lhdserver.es/canal9cosespu/live.m3u8"
       ]
     },
     "languages": [
@@ -233,20 +233,6 @@
     "sources": {
       "streams": [
         "https://canal.mediaserver.com.co/live/oracionconson.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "co",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "rbVGB4gc6vGSpJ",
-    "name": "Canal PyC",
-    "sources": {
-      "streams": [
-        "https://live20.bozztv.com/akamaissh101/ssh101/pyctelevision/playlist.m3u8"
       ]
     },
     "languages": [
@@ -455,34 +441,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "jWsKSPOfnPdCDP",
-    "name": "CNC Valledupar",
-    "sources": {
-      "streams": [
-        "https://live20.bozztv.com/akamaissh101/ssh101/cncvalledupar1/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "co",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "xEQPATgrEtFIdJ",
-    "name": "Cosmovision",
-    "sources": {
-      "streams": [
-        "https://lbgo.bozztv.com/ssh101/ssh101/Cosmovisi%C3%B3n/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "co",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "vbjKgzPYYiGyx1",
     "name": "Cristovision",
     "sources": {
@@ -516,6 +474,20 @@
     "sources": {
       "streams": [
         "https://movil.ejeserver.com/live/elmundodelcampo.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "co",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "mshfkhqs41pHqb",
+    "name": "Fiesta TV",
+    "sources": {
+      "streams": [
+        "https://panelvideo1.intermediahost.co:3286/live/ruzfpkqklive.m3u8"
       ]
     },
     "languages": [
@@ -827,7 +799,6 @@
     "name": "Salsa Gorda Television",
     "sources": {
       "streams": [
-        "https://live20.bozztv.com/akamaissh101/ssh101/qMUAZEy/playlist.m3u8",
         "https://stmv1.voxtvhd.com.br/salsagorda/salsagorda/playlist.m3u8"
       ]
     },
@@ -857,6 +828,20 @@
     "sources": {
       "streams": [
         "https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "co",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "rZfnfgO93XkAdZ",
+    "name": "Soona TV",
+    "sources": {
+      "streams": [
+        "https://vs20.live.opencaster.com/soonatv_a1a564a9/index.m3u8"
       ]
     },
     "languages": [
@@ -941,7 +926,8 @@
     "name": "Telepacifico",
     "sources": {
       "streams": [
-        "https://play.cdn.enetres.net/6E5C615AA5FF4123ACAF0DAB57B7B8DC021/022/playlist.m3u8"
+        "https://play.cdn.enetres.net/6E5C615AA5FF4123ACAF0DAB57B7B8DC021/022/playlist.m3u8",
+        "https://play.cdn.enetres.net/6E5C615AA5FF4123ACAF0DAB57B7B8DC021/040/playlist.m3u8"
       ]
     },
     "languages": [
@@ -949,34 +935,6 @@
     ],
     "country": "co",
     "isGeoBlocked": true
-  },
-  {
-    "nanoid": "MbGewayZqG9s6Q",
-    "name": "TeleQuindio",
-    "sources": {
-      "streams": [
-        "https://live20.bozztv.com/akamaissh101/ssh101/telequindio/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "co",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Clv7XzV3Q51izu",
-    "name": "Telesangil",
-    "sources": {
-      "streams": [
-        "https://live20.bozztv.com/akamaissh101/ssh101/telesangil/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "co",
-    "isGeoBlocked": false
   },
   {
     "nanoid": "BTUtiIKXJH39q3",

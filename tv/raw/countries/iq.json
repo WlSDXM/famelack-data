@@ -70,6 +70,34 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "IbE1EyU5igXIWS",
+    "name": "Al Iraqia News",
+    "sources": {
+      "streams": [
+        "https://imn-live.esite-lab.com/hls/iraqia-news.m3u8"
+      ]
+    },
+    "languages": [
+      "ara"
+    ],
+    "country": "iq",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "roeCDcGE1uwKQ6",
+    "name": "Al Iraqia Sport",
+    "sources": {
+      "streams": [
+        "https://imn-live.esite-lab.com/hls/iraqia-sports-1.m3u8"
+      ]
+    },
+    "languages": [
+      "ara"
+    ],
+    "country": "iq",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "UEXwoyYx1GFZis",
     "name": "Al Janoub TV",
     "sources": {
@@ -224,21 +252,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "IUX8TFnb9XiEJu",
-    "name": "AVA Media",
-    "sources": {
-      "streams": [
-        "https://ava002.xyz/upload/images/1080.m3u8",
-        "https://hlspackager.akamaized.net/live/DB/AVA_TV/HLS/AVA_TV-avc1_2500000=10002,mp4a_128000=20000.m3u8"
-      ]
-    },
-    "languages": [
-      "kur"
-    ],
-    "country": "iq",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "I677KvGkPDPSil",
     "name": "Avar TV",
     "sources": {
@@ -274,7 +287,7 @@
         "https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/7HbpqOqpRT4"
+        "https://www.youtube-nocookie.com/embed/WlfoXSs2F3k"
       ]
     },
     "languages": [
@@ -301,6 +314,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "umvB9tV3Rb1OXe",
+    "name": "EmanTv",
+    "sources": {
+      "streams": [
+        "https://avr.host247.net/live/emantv/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "kur"
+    ],
+    "country": "iq",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "HF0s5qptKRRfON",
     "name": "FarmodaTV",
     "sources": {
@@ -320,20 +347,6 @@
     "sources": {
       "streams": [
         "https://live.i-news.tv/hls/stream.m3u8"
-      ]
-    },
-    "languages": [
-      "ara"
-    ],
-    "country": "iq",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "HjSyVfRfsJOuSb",
-    "name": "Iraq Future",
-    "sources": {
-      "streams": [
-        "https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_040/Stream/playlist.m3u8"
       ]
     },
     "languages": [
@@ -392,27 +405,11 @@
         "https://hlspackager.akamaized.net/live/DB/K24/HLS/K24.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/SdQWIZMisjQ"
+        "https://www.youtube-nocookie.com/embed/ebN2Tcw1oak"
       ]
     },
     "languages": [
       "kur"
-    ],
-    "country": "iq",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "9RdvwjYBwgdvbP",
-    "name": "Kurdistan TV",
-    "sources": {
-      "streams": [
-        "https://5a3ed7a72ed4b.streamlock.net/live/SMIL:myStream.smil/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "ara",
-      "kur",
-      "tur"
     ],
     "country": "iq",
     "isGeoBlocked": false
@@ -513,20 +510,6 @@
     },
     "languages": [
       "fas"
-    ],
-    "country": "iq",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "O7kNo7GEugTsdZ",
-    "name": "Mixkurdy",
-    "sources": {
-      "streams": [
-        "https://avr.host247.net/live/Mix-kurdy/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "kur"
     ],
     "country": "iq",
     "isGeoBlocked": false

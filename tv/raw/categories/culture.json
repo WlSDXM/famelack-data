@@ -254,20 +254,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "RMJta2uB0RhiFk",
-    "name": "Channel One",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/aQZl0IXc8IA"
-      ]
-    },
-    "languages": [
-      "fas"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "h25WUyBe4528fW",
     "name": "Channel S",
     "sources": {
@@ -491,21 +477,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "b4DxI8ch5wAZzU",
-    "name": "EBS",
-    "sources": {
-      "streams": [
-        "https://rpn.bozztv.com/ebstv/ebstv/index.m3u8"
-      ]
-    },
-    "languages": [
-      "amh",
-      "eng"
-    ],
-    "country": "et",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "nuCkj2isILRO5a",
     "name": "EET TV",
     "sources": {
@@ -636,20 +607,6 @@
     "isGeoBlocked": true
   },
   {
-    "nanoid": "duSXiulPj9T5qC",
-    "name": "Guaymate TV",
-    "sources": {
-      "streams": [
-        "https://live20.bozztv.com/akamaissh101/ssh101/guaymatetv/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "do",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "waVMWHYlkj0xMU",
     "name": "Hamaika Telebista",
     "sources": {
@@ -733,20 +690,6 @@
       "hin"
     ],
     "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "WDEjDpDWifIyr0",
-    "name": "Imai TV",
-    "sources": {
-      "streams": [
-        "https://live20.bozztv.com/akamaissh101/ssh101/imaitv/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "tam"
-    ],
-    "country": "lk",
     "isGeoBlocked": false
   },
   {
@@ -1110,20 +1053,6 @@
     "isGeoBlocked": true
   },
   {
-    "nanoid": "D7CJtpvcn5aeRw",
-    "name": "Nigbati",
-    "sources": {
-      "streams": [
-        "https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_023/Stream/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "ng",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "dEANspwI90Hs8o",
     "name": "NTV Mir",
     "sources": {
@@ -1395,20 +1324,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "z6v7ZVW8wRdbxQ",
-    "name": "Senal U",
-    "sources": {
-      "streams": [
-        "https://live20.bozztv.com/giatv/giatv-canal30tda/canal30tda/chunks.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ar",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "GOBdXHd7gdoheA",
     "name": "Sercem TV",
     "sources": {
@@ -1436,20 +1351,6 @@
       "spa"
     ],
     "country": "ve",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "bOQ2ElnoGQqKTy",
-    "name": "Somos Entre Rios",
-    "sources": {
-      "streams": [
-        "https://live20.bozztv.com/akamaissh101/ssh101/somosentrerios/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ar",
     "isGeoBlocked": false
   },
   {
@@ -1532,20 +1433,6 @@
       "eng"
     ],
     "country": "id",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "4VBfGEAGOsSdAE",
-    "name": "Tra Vinh TV",
-    "sources": {
-      "streams": [
-        "https://freem3u.xyz/api/live/play.m3u8?vid=91"
-      ]
-    },
-    "languages": [
-      "vie"
-    ],
-    "country": "vn",
     "isGeoBlocked": false
   },
   {
@@ -1716,6 +1603,20 @@
       "spa"
     ],
     "country": "cl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "24uXFiaEqXRMsc",
+    "name": "Vinh Long TV 5",
+    "sources": {
+      "streams": [
+        "https://freem3u.xyz/api/live/play.m3u8?vid=91"
+      ]
+    },
+    "languages": [
+      "vie"
+    ],
+    "country": "vn",
     "isGeoBlocked": false
   },
   {

@@ -156,6 +156,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "1y4uvi80FY1sb8",
+    "name": "Fort-Mahon-Plage Sandy Beach View",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Bz3hwT8V3cs"
+      ]
+    },
+    "languages": [],
+    "country": "fr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "yXP92YG4QDI5V5",
     "name": "Gamaches Nautique",
     "sources": {
@@ -372,18 +384,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "6PxECb52jY1Y2Q",
-    "name": "Notre-Dame & Seine River",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/4GacxeC7jQg"
-      ]
-    },
-    "languages": [],
-    "country": "fr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "s1In09ukxx8yW2",
     "name": "Palm Beach Bay & Seafront Helipad",
     "sources": {
@@ -472,7 +472,7 @@
     "name": "Port St Laurent du Var",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/njPZO73TM0k"
+        "https://www.youtube-nocookie.com/embed/ZoMu-yW9Y2U"
       ]
     },
     "languages": [],
@@ -568,7 +568,7 @@
     "name": "Val d'Isère",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/RnCctRV_TgU"
+        "https://www.youtube-nocookie.com/embed/CemAsEFJUYg"
       ]
     },
     "languages": [],

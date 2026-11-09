@@ -12,18 +12,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "gWJpvrwv2nPg9C",
-    "name": "Acapulco Bay Skyline Panorama",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Uj2Y83rNEks"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Feeq4HU6W3QT1n",
     "name": "Acapulco Marina & Santa Lucía Bay",
     "sources": {
@@ -40,7 +28,7 @@
     "name": "Acuña-Del Rio International Bridge 1",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Mk-sdrBVxbA"
+        "https://www.youtube-nocookie.com/embed/yRRlnBOlhYA"
       ]
     },
     "languages": [],
@@ -52,7 +40,7 @@
     "name": "Acuña-Del Rio International Bridge 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/V9msH_WXOuY"
+        "https://www.youtube-nocookie.com/embed/Json81pOKVo"
       ]
     },
     "languages": [],
@@ -484,7 +472,7 @@
     "name": "Los Muertos Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/TL2t4CaYEGw"
+        "https://www.youtube-nocookie.com/embed/y8dMWCIgGeM"
       ]
     },
     "languages": [],
@@ -624,18 +612,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "h4tas1AXt1FrE1",
-    "name": "Playa Hotel Presidente, Cancun",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Fq9v6IgV-0A"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "J5E2JkTlpJ49jd",
     "name": "Playa La Madera, Zihuatanejo",
     "sources": {
@@ -701,18 +677,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/Qz67UX_7I94"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "bNLJ7gcld34AnW",
-    "name": "Plaza Garibaldi, Home of Mariachi",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Ly2eYSMvlgU"
       ]
     },
     "languages": [],
@@ -1080,6 +1044,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "jGCSvBWNa8LldW",
+    "name": "Volcán de Colima Fire Volcano",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/bLAlVYKPsgU"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "vBfLfMBqkAgUzB",
     "name": "Volcán Popocatépetl Altzomoni View",
     "sources": {
@@ -1180,7 +1156,7 @@
     "name": "Zócalo Mexico City",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/2Jpi5JNCJlo"
+        "https://www.youtube-nocookie.com/embed/oF2bXm4KSRQ"
       ]
     },
     "languages": [],

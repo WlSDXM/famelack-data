@@ -12,18 +12,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "gWJpvrwv2nPg9C",
-    "name": "Acapulco Bay Skyline Panorama",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Uj2Y83rNEks"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "9E82MTiT5HR3ow",
     "name": "Ainan Mishō Bay",
     "sources": {
@@ -221,18 +209,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/sJn7eqgqXno"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "js1BsiMtws65Nt",
-    "name": "Arizona Snowbowl Hart Prairie Area",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/-y72c8UCkLg"
       ]
     },
     "languages": [],
@@ -732,18 +708,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "2375z7z8pkEVph",
-    "name": "Camp Bijar",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/T2KrnUp5S-A"
-      ]
-    },
-    "languages": [],
-    "country": "hr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "1bbpolKqcWuoYy",
     "name": "Camp de Mar Bay",
     "sources": {
@@ -1216,7 +1180,7 @@
     "name": "Dutch Flats Forest Road",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/QtTfh5YXicw"
+        "https://www.youtube-nocookie.com/embed/OUBHfHhy5Es"
       ]
     },
     "languages": [],
@@ -1665,18 +1629,6 @@
     },
     "languages": [],
     "country": "de",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "GzWRfsTUs1ArB4",
-    "name": "Güce Town Panorama",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/riQm5fm9ndE"
-      ]
-    },
-    "languages": [],
-    "country": "tr",
     "isGeoBlocked": false
   },
   {
@@ -2452,7 +2404,7 @@
     "name": "Le Morne",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/PpaQ2Q97ZMY"
+        "https://www.youtube-nocookie.com/embed/PgvCA3PSLpU"
       ]
     },
     "languages": [],
@@ -2808,18 +2760,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ZSLqUqJNjPdBuY",
-    "name": "Main Street to Rundle Mountain",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/kC6_JqEt3GA"
-      ]
-    },
-    "languages": [],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "c9EdkXZ2PbpKX2",
     "name": "Maison Soleil, Aosta",
     "sources": {
@@ -2981,18 +2921,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/0Q2YZBnp7vk"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "G4tyP8zYkMBnKG",
-    "name": "Marunuma Kogen Yellow Course",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/XqiDLNQA0HM"
       ]
     },
     "languages": [],
@@ -3412,7 +3340,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/W7spuv9ywvk"
+        "https://www.youtube-nocookie.com/embed/iB55XDVwTDM"
       ]
     },
     "languages": [],
@@ -3612,6 +3540,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "LPWdbz1HqIc4Im",
+    "name": "Mt. Moiwa Summit Observation Deck",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/MmOom49Vsco"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "NuaMqcL6YVZU9s",
     "name": "Munster Prélat",
     "sources": {
@@ -3693,18 +3633,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "YNRHmTwfPp4bmR",
-    "name": "Namsan Tower & Seoul Skyline",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/GhNscofIqHU"
-      ]
-    },
-    "languages": [],
-    "country": "kr",
     "isGeoBlocked": false
   },
   {
@@ -3924,18 +3852,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ciya0n1smK3mIQ",
-    "name": "Palm Springs Air Museum",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/MW6xJGC7upc"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "K62z15d4obm3K5",
     "name": "PanoCloud Weather Panorama",
     "sources": {
@@ -4092,6 +4008,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "0yJImHotu31tWF",
+    "name": "Pescul Ski Civetta",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/kTwRIaYdq3E"
+      ]
+    },
+    "languages": [],
+    "country": "it",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "ZRTc6fbQ96vhh7",
     "name": "Piano Battaglia Monte Mufara",
     "sources": {
@@ -4173,6 +4101,18 @@
     },
     "languages": [],
     "country": "it",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "SCplOUFeUiMp4D",
+    "name": "Planica Nordic Centre",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/BSrovWF5pc4"
+      ]
+    },
+    "languages": [],
+    "country": "si",
     "isGeoBlocked": false
   },
   {
@@ -5412,18 +5352,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "FOGhk2a3nPmwW9",
-    "name": "Summit Central Base, The Summit at Snoqualmie",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/GcIAQ5iD35o"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "1IV0bgDl3Oe32K",
     "name": "Summit Central Top",
     "sources": {
@@ -5580,18 +5508,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "jSD45u3Bis6uI5",
-    "name": "Tasiilaq Heliport",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/hfF9bhaBuvw"
-      ]
-    },
-    "languages": [],
-    "country": "gl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "kPxDbhFTFH3Gps",
     "name": "Tateyama Murodo",
     "sources": {
@@ -5712,6 +5628,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "EmieoxyOiv4HAn",
+    "name": "Trans-Ili Alatau Mountains",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/1fo1dZs9kgc"
+      ]
+    },
+    "languages": [],
+    "country": "kz",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "b1DgTdZA0aEXht",
     "name": "Tre Cime di Lavaredo Dolomite Peaks",
     "sources": {
@@ -5728,7 +5656,7 @@
     "name": "Trento Piazza Duomo",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/BfNH7aNQ1io"
+        "https://www.youtube-nocookie.com/embed/X_MMZvCzEhM"
       ]
     },
     "languages": [],
@@ -5860,7 +5788,7 @@
     "name": "Val d'Isère",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/RnCctRV_TgU"
+        "https://www.youtube-nocookie.com/embed/CemAsEFJUYg"
       ]
     },
     "languages": [],

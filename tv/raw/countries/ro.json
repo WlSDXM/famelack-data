@@ -112,6 +112,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "9UqseJeoJNwuVC",
+    "name": "Antena Monden",
+    "sources": {
+      "streams": [
+        "https://stream1.antenaplay.ro/live/AntenaMonden/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "2UXhXxAP9FifSB",
     "name": "Arges TV",
     "sources": {
@@ -296,6 +310,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "KgrYaFrigx2SNG",
+    "name": "Digi 4K",
+    "sources": {
+      "streams": [
+        "https://vip-acasatv.online:25463/lrZuGxAuP3/6782859900/5928.m3u8"
+      ]
+    },
+    "languages": [
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": true
+  },
+  {
     "nanoid": "rpSBQXW9F7j6Ri",
     "name": "Dotto TV",
     "sources": {
@@ -354,6 +382,21 @@
     ],
     "country": "ro",
     "isGeoBlocked": false
+  },
+  {
+    "nanoid": "fbVO6AiSo6hpNV",
+    "name": "Eurosport 4K Romania",
+    "sources": {
+      "streams": [
+        "https://vip-acasatv.online:25463/lrZuGxAuP3/6782859900/5449.m3u8"
+      ]
+    },
+    "languages": [
+      "eng",
+      "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": true
   },
   {
     "nanoid": "Zuuz0ec4YwcYzF",
@@ -660,6 +703,48 @@
     },
     "languages": [
       "ron"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "uFc4JRQCXBgXRD",
+    "name": "MISA TV Czech",
+    "sources": {
+      "streams": [
+        "https://vidl.youniverse.name:5050/MSTV/czech_360p/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "ces"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "yJ3aMpGOP5xWgf",
+    "name": "MISA TV English",
+    "sources": {
+      "streams": [
+        "https://vidh.youniverse.name:5050/MSTV/english/chunklist_w1133422319.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ro",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ebMqZekNSUI3t1",
+    "name": "MISA TV Hungarian",
+    "sources": {
+      "streams": [
+        "https://vidl.youniverse.name:5050/MSTV/hungarian_360p/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "hun"
     ],
     "country": "ro",
     "isGeoBlocked": false
@@ -1150,7 +1235,7 @@
     "name": "Tu Decizi",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/XNbwnDZ0e94"
+        "https://www.youtube-nocookie.com/embed/Q1ZodRj6WE4"
       ]
     },
     "languages": [
@@ -1375,20 +1460,6 @@
     "sources": {
       "streams": [
         "https://vip-acasatv.online:25463/lrZuGxAuP3/6782859900/714.m3u8"
-      ]
-    },
-    "languages": [
-      "ron"
-    ],
-    "country": "ro",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "wmwjQ27aToc3v2",
-    "name": "Voyo Sport 1",
-    "sources": {
-      "streams": [
-        "https://vip-acasatv.online:25463/lrZuGxAuP3/6782859900/16677.m3u8"
       ]
     },
     "languages": [

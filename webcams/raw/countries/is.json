@@ -1,17 +1,5 @@
 [
   {
-    "nanoid": "neBONFrZdM7jTS",
-    "name": "Aðaldalshraun Aurora & Heath Sky",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/6_oIhCTQMFc"
-      ]
-    },
-    "languages": [],
-    "country": "is",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "C2zXT1k0mfSeoC",
     "name": "Aurora All-Sky",
     "sources": {
@@ -29,18 +17,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/PcqbfVAKygo"
-      ]
-    },
-    "languages": [],
-    "country": "is",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "C0h7MjA1QxAO7P",
-    "name": "Golden Circle Aurora",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/jEfK9AMiA5g"
       ]
     },
     "languages": [],

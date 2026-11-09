@@ -12,18 +12,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "gWJpvrwv2nPg9C",
-    "name": "Acapulco Bay Skyline Panorama",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Uj2Y83rNEks"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Feeq4HU6W3QT1n",
     "name": "Acapulco Marina & Santa Lucía Bay",
     "sources": {
@@ -93,6 +81,18 @@
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "b0szJClsU4coKE",
+    "name": "Alberni Harbour Quay Waterfront",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/eegU1ZXK16o"
+      ]
+    },
+    "languages": [],
+    "country": "ca",
     "isGeoBlocked": false
   },
   {
@@ -245,18 +245,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/Ql7graq0I9M"
-      ]
-    },
-    "languages": [],
-    "country": "nz",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "PYZKwwxtYGfYNm",
-    "name": "Auckland Skyline",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/PaLDpyFxpXE"
       ]
     },
     "languages": [],
@@ -780,18 +768,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "2375z7z8pkEVph",
-    "name": "Camp Bijar",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/T2KrnUp5S-A"
-      ]
-    },
-    "languages": [],
-    "country": "hr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "1bbpolKqcWuoYy",
     "name": "Camp de Mar Bay",
     "sources": {
@@ -1272,18 +1248,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "SJbHB726vFJHsr",
-    "name": "Desembocadura Río Maipo",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/fRC-x7KkQjg"
-      ]
-    },
-    "languages": [],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Qil5wCpKXqbpSW",
     "name": "Detroit River",
     "sources": {
@@ -1516,7 +1480,7 @@
     "name": "Dunedin Otago Harbour",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Y8Y9oQXTRhQ"
+        "https://www.youtube-nocookie.com/embed/EWKOjLetU-4"
       ]
     },
     "languages": [],
@@ -1529,18 +1493,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/LwzKzhHb0XM"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "j453ot0ew9K4g9",
-    "name": "East 34th Street Ferry Landing",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/hlHzczfSCDs"
       ]
     },
     "languages": [],
@@ -2265,18 +2217,6 @@
     },
     "languages": [],
     "country": "nl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "dm2YQd2wULpQDN",
-    "name": "Hotel Margaret Porat",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Ym1H5hIcKeo"
-      ]
-    },
-    "languages": [],
-    "country": "hr",
     "isGeoBlocked": false
   },
   {
@@ -3364,7 +3304,7 @@
     "name": "Nanfangao Second Fishing Port",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/QiTGi9lTEog"
+        "https://www.youtube-nocookie.com/embed/VJA5cUqnM-A"
       ]
     },
     "languages": [],
@@ -3477,18 +3417,6 @@
     },
     "languages": [],
     "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "ix1bVSXN3cePKu",
-    "name": "Nicosia Sailing Club",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/FikjaijBZ9k"
-      ]
-    },
-    "languages": [],
-    "country": "cy",
     "isGeoBlocked": false
   },
   {
@@ -4084,7 +4012,7 @@
     "name": "Port St Laurent du Var",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/njPZO73TM0k"
+        "https://www.youtube-nocookie.com/embed/ZoMu-yW9Y2U"
       ]
     },
     "languages": [],
@@ -4101,18 +4029,6 @@
     },
     "languages": [],
     "country": "pt",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "rhURJoY7ZT1JlV",
-    "name": "PortMiami Cruise Harbor",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/DxZziUUr6CY"
-      ]
-    },
-    "languages": [],
-    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -4912,7 +4828,7 @@
     "name": "Skiathos Bay & Port",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/RUyaSIi43eE"
+        "https://www.youtube-nocookie.com/embed/qjQ_lcv53vk"
       ]
     },
     "languages": [],

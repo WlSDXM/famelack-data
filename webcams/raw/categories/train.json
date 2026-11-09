@@ -388,7 +388,7 @@
     "name": "BNSF Cajon Subdivision Trainspotting",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ZgtfC2Hdl-0"
+        "https://www.youtube-nocookie.com/embed/0uugIc-BQ_E"
       ]
     },
     "languages": [],
@@ -1156,7 +1156,7 @@
     "name": "Dubuque Junction Railcam on CPKC Marquette Sub",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Zfl8HPneg4c"
+        "https://www.youtube-nocookie.com/embed/d_sadtE2BLk"
       ]
     },
     "languages": [],
@@ -1324,7 +1324,7 @@
     "name": "Ford Station",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/l7QXJRrhRwE"
+        "https://www.youtube-nocookie.com/embed/dOQdonfN5aI"
       ]
     },
     "languages": [],
@@ -1824,18 +1824,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "kNh0NoSO5nMIF0",
-    "name": "Japeri Railway",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/OGnXYhN13wg"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "saifyokuT27ego",
     "name": "Jesup",
     "sources": {
@@ -2037,30 +2025,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "kOoR2OLmNjojL5",
-    "name": "Kidderminster Platform",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/r1EAMGSZg_k"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "E34awBFQC54Zbv",
-    "name": "Kidderminster Station Concourse",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/INCxBjBFbMw"
-      ]
-    },
-    "languages": [],
-    "country": "uk",
     "isGeoBlocked": false
   },
   {
@@ -2320,7 +2284,7 @@
     "name": "Meitetsu Tokoname Line Ono-machi",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/iBOA8_6FF9E"
+        "https://www.youtube-nocookie.com/embed/3XvTc-FzB2Q"
       ]
     },
     "languages": [],
@@ -2537,6 +2501,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/-iP1ZMxG9Qs"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "mgoaLVe3qEccvU",
+    "name": "Nagoya Station",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/gfz2-fSadKQ"
       ]
     },
     "languages": [],
@@ -4077,18 +4053,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "FROwZ6OOcnl4kx",
-    "name": "Woodlands MRT Line & HDB Skyline",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/AKpEtEcmClA"
-      ]
-    },
-    "languages": [],
-    "country": "sg",
     "isGeoBlocked": false
   },
   {

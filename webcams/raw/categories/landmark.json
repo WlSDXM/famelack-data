@@ -264,6 +264,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "Zn4H2ubuoCTOoq",
+    "name": "Buenos Aires Obelisco",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/YdM9Q1sw-u4"
+      ]
+    },
+    "languages": [],
+    "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "lyke9TwT1fOOz4",
     "name": "Buffalo Bills Highmark Stadium",
     "sources": {
@@ -460,7 +472,7 @@
     "name": "Dashmesh Culture Centre, Calgary",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/kgWopQ6g5og"
+        "https://www.youtube-nocookie.com/embed/98cKiXJKsQY"
       ]
     },
     "languages": [],
@@ -497,18 +509,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/NeKZVw6-EGg"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "9FACMEW5P67m46",
-    "name": "Disney California Adventure",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ZH5-H-fzVIk"
       ]
     },
     "languages": [],
@@ -588,18 +588,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "r0HIWy56zv0uls",
-    "name": "Elbo Room Social Club",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ea0-prsf878"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "NYKQhkXMZzNVO4",
     "name": "Enoshima Island Zoom",
     "sources": {
@@ -640,7 +628,7 @@
     "name": "Faro Monumental de La Serena",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/S-yZwnKlMsY"
+        "https://www.youtube-nocookie.com/embed/KJQn3tC34Fs"
       ]
     },
     "languages": [],
@@ -700,7 +688,7 @@
     "name": "George Washington Bridge",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/zvzOXK2mBUQ"
+        "https://www.youtube-nocookie.com/embed/53HPzWXCryc"
       ]
     },
     "languages": [],
@@ -772,7 +760,7 @@
     "name": "Holy Cave of Covadonga",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/bQ3j5aFEY98"
+        "https://www.youtube-nocookie.com/embed/Sc8Rb6KfBiM"
       ]
     },
     "languages": [],
@@ -976,7 +964,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/K0PBvC7izaY"
+        "https://www.youtube-nocookie.com/embed/y-VMdoO4ybE"
       ]
     },
     "languages": [],
@@ -1036,7 +1024,7 @@
     "name": "Masjid Al Haram",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/JBkXi8jPlDw"
+        "https://www.youtube-nocookie.com/embed/3wbxheDWobM"
       ]
     },
     "languages": [],
@@ -1073,6 +1061,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/w1x2kIMp5OQ"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "zIuJrqOwk2sx7p",
+    "name": "Matsumoto Castle Honmaru Garden",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/32WiN-DasnA"
       ]
     },
     "languages": [],
@@ -1140,15 +1140,15 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "YNRHmTwfPp4bmR",
-    "name": "Namsan Tower & Seoul Skyline",
+    "nanoid": "LPWdbz1HqIc4Im",
+    "name": "Mt. Moiwa Summit Observation Deck",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/GhNscofIqHU"
+        "https://www.youtube-nocookie.com/embed/MmOom49Vsco"
       ]
     },
     "languages": [],
-    "country": "kr",
+    "country": "jp",
     "isGeoBlocked": false
   },
   {
@@ -1180,7 +1180,7 @@
     "name": "National Mall from Washington Monument",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/oDCAAfOSqvA"
+        "https://www.youtube-nocookie.com/embed/mG2gAWY_Guw"
       ]
     },
     "languages": [],
@@ -1233,18 +1233,6 @@
     },
     "languages": [],
     "country": "no",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "6PxECb52jY1Y2Q",
-    "name": "Notre-Dame & Seine River",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/4GacxeC7jQg"
-      ]
-    },
-    "languages": [],
-    "country": "fr",
     "isGeoBlocked": false
   },
   {
@@ -1416,6 +1404,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "luwBcLk7V0P1pU",
+    "name": "Piazza Venezia & Vittoriano",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/wwkVJ-jL3CI"
+      ]
+    },
+    "languages": [],
+    "country": "it",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "a2F4045aFor4g8",
     "name": "Plaza Zaragoza & Hermosillo Cathedral",
     "sources": {
@@ -1485,18 +1485,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Af7eIlPuHBQy9u",
-    "name": "Rainbow Bridge & Tokyo Tower",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/fGOCRGXPgRY"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
     "isGeoBlocked": false
   },
   {

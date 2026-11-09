@@ -36,18 +36,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "2375z7z8pkEVph",
-    "name": "Camp Bijar",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/T2KrnUp5S-A"
-      ]
-    },
-    "languages": [],
-    "country": "hr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "6Oh4mJ64c70zcV",
     "name": "Camp Čikat",
     "sources": {
@@ -76,19 +64,7 @@
     "name": "Drniš Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/EsKef1HtJfc"
-      ]
-    },
-    "languages": [],
-    "country": "hr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "dm2YQd2wULpQDN",
-    "name": "Hotel Margaret Porat",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Ym1H5hIcKeo"
+        "https://www.youtube-nocookie.com/embed/9z6Xpxz5nVE"
       ]
     },
     "languages": [],
@@ -329,18 +305,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/60KEvEm2WE8"
-      ]
-    },
-    "languages": [],
-    "country": "hr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "M3lnz8rRWL95DW",
-    "name": "Punta Planka",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/jO084RYStMI"
       ]
     },
     "languages": [],

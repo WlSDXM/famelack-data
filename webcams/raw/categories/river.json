@@ -328,7 +328,7 @@
     "name": "Cincinnati Skyline",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/VBX7A2Ei0zg"
+        "https://www.youtube-nocookie.com/embed/i70LOfyh1M4"
       ]
     },
     "languages": [],
@@ -432,18 +432,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "SJbHB726vFJHsr",
-    "name": "Desembocadura Río Maipo",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/fRC-x7KkQjg"
-      ]
-    },
-    "languages": [],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Qil5wCpKXqbpSW",
     "name": "Detroit River",
     "sources": {
@@ -513,18 +501,6 @@
     },
     "languages": [],
     "country": "cz",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "j453ot0ew9K4g9",
-    "name": "East 34th Street Ferry Landing",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/hlHzczfSCDs"
-      ]
-    },
-    "languages": [],
-    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -693,18 +669,6 @@
     },
     "languages": [],
     "country": "it",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "q4JbV8aHQXuajf",
-    "name": "Greater Rochester Sky Eye Panorama",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/MLe9GSWmOVo"
-      ]
-    },
-    "languages": [],
-    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -1012,7 +976,7 @@
     "name": "Lensk Troyka",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/LZtcropXJcc"
+        "https://www.youtube-nocookie.com/embed/_bOusXFeu84"
       ]
     },
     "languages": [],
@@ -1464,18 +1428,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "6PxECb52jY1Y2Q",
-    "name": "Notre-Dame & Seine River",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/4GacxeC7jQg"
-      ]
-    },
-    "languages": [],
-    "country": "fr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Q1Bp6rMW4A2WCQ",
     "name": "Ocean Isle Beach Jinks Creek",
     "sources": {
@@ -1552,7 +1504,7 @@
     "name": "Osprey Nest Loch of the Lowes",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/nN-5OtYIKrs"
+        "https://www.youtube-nocookie.com/embed/T29zs4bkd6o"
       ]
     },
     "languages": [],
@@ -1768,7 +1720,7 @@
     "name": "Puente Gral Belgrano",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/NwDgL-4w2U0"
+        "https://www.youtube-nocookie.com/embed/72Lo2rXqAEo"
       ]
     },
     "languages": [],
@@ -2181,6 +2133,18 @@
     },
     "languages": [],
     "country": "ch",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "D6GpqMsDBhehCA",
+    "name": "Stillwater Lift Bridge",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Mwg9yAQhS2A"
+      ]
+    },
+    "languages": [],
+    "country": "us",
     "isGeoBlocked": false
   },
   {

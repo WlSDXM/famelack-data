@@ -14,20 +14,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "WDEjDpDWifIyr0",
-    "name": "Imai TV",
-    "sources": {
-      "streams": [
-        "https://live20.bozztv.com/akamaissh101/ssh101/imaitv/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "tam"
-    ],
-    "country": "lk",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "aPS8EfkYXWdlK5",
     "name": "Jaya TV",
     "sources": {
@@ -46,7 +32,7 @@
     "name": "Jaya Tv Live",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Mqae1x2X5Y4"
+        "https://www.youtube-nocookie.com/embed/rZb7bKCBT20"
       ]
     },
     "languages": [
@@ -88,7 +74,7 @@
     "name": "Methmaga TV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/vbsYDgDZA8U"
+        "https://www.youtube-nocookie.com/embed/e9J7ZiaSQpM"
       ]
     },
     "languages": [
@@ -102,7 +88,7 @@
     "name": "Newsfirst Sri Lanka",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/3juWrZ-Tv04"
+        "https://www.youtube-nocookie.com/embed/xpwHGor5mPs"
       ]
     },
     "languages": [
@@ -117,20 +103,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/76QGhfJgmE0"
-      ]
-    },
-    "languages": [
-      "sin"
-    ],
-    "country": "lk",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "0MA7G0qiGWKeoT",
-    "name": "Rupavahini",
-    "sources": {
-      "streams": [
-        "https://rpn.bozztv.com/slrclive/slrc/slrclive/index.m3u8"
       ]
     },
     "languages": [

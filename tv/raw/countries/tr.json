@@ -304,7 +304,7 @@
         "https://tv.ensonhaber.com/benguturk/benguturk.m3u8"
       ],
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/oM8knhi5hzQ"
+        "https://www.youtube-nocookie.com/embed/Uu3sDWegyn4"
       ]
     },
     "languages": [
@@ -319,21 +319,6 @@
     "sources": {
       "streams": [
         "https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "9cbMZrwOtdSUeq",
-    "name": "Bir TV",
-    "sources": {
-      "streams": [
-        "https://edge2.taksimbilisim.com/birtv/bant1/playlist.m3u8",
-        "https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8"
       ]
     },
     "languages": [
@@ -660,7 +645,7 @@
     "name": "EKOTÜRK TV",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/2ilAgK8jj8A"
+        "https://www.youtube-nocookie.com/embed/rsAtfTBKmIM"
       ]
     },
     "languages": [
@@ -829,8 +814,8 @@
     "name": "Fortuna TV",
     "sources": {
       "streams": [
-        "https://edge.taksimbilisim.com/ftvturk/bant1/playlist.m3u8",
-        "https://edge2.taksimbilisim.com/ftvturk/bant1/playlist.m3u8"
+        "https://edge2.taksimbilisim.com/ftvturk/bant1/playlist.m3u8",
+        "https://edge.taksimbilisim.com/ftvturk/bant1/playlist.m3u8"
       ]
     },
     "languages": [
@@ -1334,6 +1319,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "yfM2iCK0exCmOK",
+    "name": "Koza TV",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/rcZVJhX4aMU"
+      ]
+    },
+    "languages": [],
+    "country": "tr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "bxi4Hq4FcCvPGc",
     "name": "KRT TV",
     "sources": {
@@ -1516,11 +1513,39 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "WfBeWY1RnvDWYZ",
+    "name": "Muhteşem Yüzyıl",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/eXUdwggJhLU"
+      ]
+    },
+    "languages": [
+      "tur"
+    ],
+    "country": "tr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "rXzETOXt9hjdyU",
     "name": "NOW",
     "sources": {
       "streams": [
         "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8"
+      ]
+    },
+    "languages": [
+      "tur"
+    ],
+    "country": "tr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "9sOGMCEeuzj6PV",
+    "name": "NTV",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/pqq5c6k70kk"
       ]
     },
     "languages": [
@@ -1811,20 +1836,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "zBlO9YDZ68nfoc",
-    "name": "Spacetoon Turkey",
-    "sources": {
-      "streams": [
-        "https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "z6NLIWqo60dEBq",
     "name": "Star TV",
     "sources": {
@@ -1872,6 +1883,20 @@
     "sources": {
       "streams": [
         "https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8"
+      ]
+    },
+    "languages": [
+      "tur"
+    ],
+    "country": "tr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "5GoagSnDbPwxmH",
+    "name": "Tele 1",
+    "sources": {
+      "streams": [
+        "https://tele1-live.ercdn.net/tele1/tele1.m3u8"
       ]
     },
     "languages": [

@@ -3,9 +3,6 @@
     "nanoid": "EeCJey6cUBdlrr",
     "name": "3ABN Kids",
     "sources": {
-      "streams": [
-        "https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8"
-      ],
       "youtube": [
         "https://www.youtube-nocookie.com/embed/wMghm5USzOY"
       ]
@@ -158,25 +155,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "co6UrhPBemum5j",
-    "name": "Cartoon Network",
-    "sources": {
-      "streams": [
-        "https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8"
-      ]
-    },
-    "languages": [
-      "hin",
-      "kan",
-      "mal",
-      "mar",
-      "tam",
-      "tel"
-    ],
-    "country": "in",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Z2RG0xDeG0qYnE",
     "name": "Cartoon Network [Not 24/7;Geo-blocked]",
     "sources": {
@@ -190,18 +168,6 @@
     ],
     "country": "us",
     "isGeoBlocked": true
-  },
-  {
-    "nanoid": "TAW3V6RUdxKtJQ",
-    "name": "Cartoon Network HD+",
-    "sources": {
-      "streams": [
-        "https://drk6xq0vhn.gpcdn.net/live/cn_hd_abr/index.m3u8"
-      ]
-    },
-    "languages": [],
-    "country": "in",
-    "isGeoBlocked": false
   },
   {
     "nanoid": "tIGqdwnTT3ZqJq",
@@ -300,6 +266,20 @@
       "spa"
     ],
     "country": "ar",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "WFF7x8zny7NumQ",
+    "name": "DreamWorks Channel Latin America Panregional",
+    "sources": {
+      "streams": [
+        "https://barinaslive1.boldmss.com/DREAMWORKS/DREAMWORKS.isml/index.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -581,6 +561,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "AEeYcID6Rdmmt5",
+    "name": "MeTV Toons",
+    "sources": {
+      "streams": [
+        "https://sr-live-weigel1.akamaized.net/out/v1/0d1dbf29e64e47bc991796cc24fbeb97/index_2.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "R6VpE6L98QcSep",
     "name": "Mr. Bean Animated",
     "sources": {
@@ -671,7 +665,7 @@
     "name": "PJ Masks Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/3Z8sd0fvp5k"
+        "https://www.youtube-nocookie.com/embed/FUhcEdORCnE"
       ]
     },
     "languages": [
@@ -835,20 +829,6 @@
       "ara"
     ],
     "country": "ae",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "zBlO9YDZ68nfoc",
-    "name": "Spacetoon Turkey",
-    "sources": {
-      "streams": [
-        "https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8"
-      ]
-    },
-    "languages": [
-      "tur"
-    ],
-    "country": "tr",
     "isGeoBlocked": false
   },
   {

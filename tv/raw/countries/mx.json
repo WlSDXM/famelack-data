@@ -396,20 +396,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "nLjmNpKEQoalYU",
-    "name": "El Chavo TV",
-    "sources": {
-      "streams": [
-        "https://live20.bozztv.com/giatvplayout7/giatv-211465/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "vEu4AbFWQq3rTn",
     "name": "El Sonorense",
     "sources": {
@@ -466,20 +452,6 @@
     "isGeoBlocked": true
   },
   {
-    "nanoid": "duaSLomE9AQYzs",
-    "name": "Golden TV",
-    "sources": {
-      "streams": [
-        "https://rpn.bozztv.com/gusa/gusa-goldentv/index.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "tsY7Oi70RUlWEA",
     "name": "Icrtv Colima",
     "sources": {
@@ -508,11 +480,25 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "9NYf5msdVIxgC1",
+    "name": "ILCE Canal 15 Summa Saberes",
+    "sources": {
+      "streams": [
+        "https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "yk5LuaS8jCla7l",
     "name": "Imagen Multicast",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/9Ugx7hA0qKI"
+        "https://www.youtube-nocookie.com/embed/ldSPMjpz3Mw"
       ]
     },
     "languages": [
@@ -540,7 +526,7 @@
     "name": "Imagen TV+",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/tHGVHMIoN20"
+        "https://www.youtube-nocookie.com/embed/h6hqjpqh52Y"
       ]
     },
     "languages": [],
@@ -956,20 +942,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "CjylGBv72H1pko",
-    "name": "Televisa Ciudad Juarez",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/aYpUafxTe3Y"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "JNd0iWsZawqpeO",
     "name": "Televisa Del Bajio",
     "sources": {
@@ -1012,25 +984,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "V9bf7FdY5Rbg5t",
-    "name": "Televisa Guerrero",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/_cD_5Cy6y0A"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "pTFEVIhFVG7hq3",
     "name": "Televisa Laguna",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/_rK8D6aVR9s"
+        "https://www.youtube-nocookie.com/embed/9CaBjssAUgc"
       ]
     },
     "languages": [
@@ -1058,7 +1016,7 @@
     "name": "Televisa Monterrey",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/gNwS8sCi4tI"
+        "https://www.youtube-nocookie.com/embed/6nHMecRlrng"
       ]
     },
     "languages": [
@@ -1072,7 +1030,7 @@
     "name": "Televisa Piedras Negras",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/3eGOqLsw4Nw"
+        "https://www.youtube-nocookie.com/embed/Jf-WyS8xHx8"
       ]
     },
     "languages": [
@@ -1143,20 +1101,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/0vkyduZ1BzY"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "kBLqWOYbCQz0Mi",
-    "name": "Televisa Univision Saltillo",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/72MpuMY_0UE"
       ]
     },
     "languages": [

@@ -88,7 +88,7 @@
     "name": "HBC Hokkaido News 24",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/vUYQzAvIY6Y"
+        "https://www.youtube-nocookie.com/embed/bdD5D2n7IF0"
       ]
     },
     "languages": [
@@ -130,7 +130,7 @@
     "name": "JapaNews24",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/vLAdS-sZ2mM"
+        "https://www.youtube-nocookie.com/embed/AKnB9N1w0g8"
       ]
     },
     "languages": [
@@ -159,34 +159,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/j0SW3bmbiMc"
-      ]
-    },
-    "languages": [
-      "jpn"
-    ],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "pfwAikq4d2rvpc",
-    "name": "KYT Kagoshima Yomiuri Television",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/h9g5v05IyhY"
-      ]
-    },
-    "languages": [
-      "jpn"
-    ],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "LXJZE9lLeFU629",
-    "name": "MRO",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/qY9UBfDqjQs"
       ]
     },
     "languages": [

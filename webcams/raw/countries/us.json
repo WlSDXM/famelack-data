@@ -456,18 +456,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "js1BsiMtws65Nt",
-    "name": "Arizona Snowbowl Hart Prairie Area",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/-y72c8UCkLg"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "RC3dBk5pGAmfR6",
     "name": "Arkansas River Whitewater Wave",
     "sources": {
@@ -1336,7 +1324,7 @@
     "name": "BNSF Cajon Subdivision Trainspotting",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ZgtfC2Hdl-0"
+        "https://www.youtube-nocookie.com/embed/0uugIc-BQ_E"
       ]
     },
     "languages": [],
@@ -2136,18 +2124,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "wy71UNhDovXgsE",
-    "name": "Campus Point Surf",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/QLKvBPx8giI"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "xgPqb4L3AjVgw1",
     "name": "Cannon Mountain",
     "sources": {
@@ -2309,6 +2285,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/FyGb2TZB344"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "EBidNxNN7kX596",
+    "name": "Castro Street",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/QfrL1Q_h_5s"
       ]
     },
     "languages": [],
@@ -2532,18 +2520,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "NSWaaWJiORHsPW",
-    "name": "Chevy Chase, Lexington",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/VR2t6FyUwM0"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "CgBEQS1K3liuZ7",
     "name": "Chicago & North Western Power House (East)",
     "sources": {
@@ -2572,7 +2548,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Gvo0nVXL5sc"
+        "https://www.youtube-nocookie.com/embed/HvBWrl7n6bc"
       ]
     },
     "languages": [],
@@ -2632,7 +2608,7 @@
     "name": "Cincinnati Skyline",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/VBX7A2Ei0zg"
+        "https://www.youtube-nocookie.com/embed/i70LOfyh1M4"
       ]
     },
     "languages": [],
@@ -2717,18 +2693,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/AShvF9ILGkc"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "4E1mKKxgCbBT1X",
-    "name": "City of Seaside",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Eeot7XjGPfg"
       ]
     },
     "languages": [],
@@ -2836,7 +2800,7 @@
     "name": "Collins Avenue Street Cam",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/plq7c9ogBC4"
+        "https://www.youtube-nocookie.com/embed/wsP--WHr2O0"
       ]
     },
     "languages": [],
@@ -3016,7 +2980,7 @@
     "name": "Court Avenue District",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/EXb_4bcd2eY"
+        "https://www.youtube-nocookie.com/embed/a9WXFdjcSFI"
       ]
     },
     "languages": [],
@@ -3521,18 +3485,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/NeKZVw6-EGg"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "9FACMEW5P67m46",
-    "name": "Disney California Adventure",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ZH5-H-fzVIk"
       ]
     },
     "languages": [],
@@ -4056,6 +4008,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "NxXpKdkJwruVpO",
+    "name": "Downtown Vicksburg from Oswalt Park",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/_AYp0B0xOC8"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "4G8Wn65aLTz7nt",
     "name": "Downtown Winter Garden",
     "sources": {
@@ -4120,7 +4084,7 @@
     "name": "Dubuque Junction Railcam on CPKC Marquette Sub",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Zfl8HPneg4c"
+        "https://www.youtube-nocookie.com/embed/d_sadtE2BLk"
       ]
     },
     "languages": [],
@@ -4312,7 +4276,7 @@
     "name": "Dutch Flats Forest Road",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/QtTfh5YXicw"
+        "https://www.youtube-nocookie.com/embed/OUBHfHhy5Es"
       ]
     },
     "languages": [],
@@ -4344,18 +4308,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "prGHprK09rgvu4",
-    "name": "DWU Tower",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/9IRdWSzrGHw"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "MMPru63bJr2Kzl",
     "name": "Dysart's Great Harbor Marina",
     "sources": {
@@ -4373,18 +4325,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/REpNAzupM9Y"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "j453ot0ew9K4g9",
-    "name": "East 34th Street Ferry Landing",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/hlHzczfSCDs"
       ]
     },
     "languages": [],
@@ -4589,18 +4529,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/bM0GplM_vPY"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "r0HIWy56zv0uls",
-    "name": "Elbo Room Social Club",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ea0-prsf878"
       ]
     },
     "languages": [],
@@ -4829,18 +4757,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/7fZ2JLtv_c8"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "LJnxnnnLyfntEn",
-    "name": "Flagler Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/_qRL-gWZrbI"
       ]
     },
     "languages": [],
@@ -5224,7 +5140,7 @@
     "name": "Furball Farm Cat Sanctuary",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/biSTctOhvdU"
+        "https://www.youtube-nocookie.com/embed/JmrzmmUD_es"
       ]
     },
     "languages": [],
@@ -5428,7 +5344,7 @@
     "name": "George Washington Bridge",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/zvzOXK2mBUQ"
+        "https://www.youtube-nocookie.com/embed/53HPzWXCryc"
       ]
     },
     "languages": [],
@@ -5441,6 +5357,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/xvMcuLPJbbs"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "AI3uhNZ6ZF76gP",
+    "name": "Georgica Jetty",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/vjtKnK-ZZjs"
       ]
     },
     "languages": [],
@@ -5856,18 +5784,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "q4JbV8aHQXuajf",
-    "name": "Greater Rochester Sky Eye Panorama",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/MLe9GSWmOVo"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "NsO2apid6gr5k4",
     "name": "Green Bay Depot Restaurant",
     "sources": {
@@ -6089,18 +6005,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/qpue1F6xGes"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "ipbnDCCjbj69H6",
-    "name": "Higgins Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/LeDEPOTg08U"
       ]
     },
     "languages": [],
@@ -6532,7 +6436,7 @@
     "name": "International Space Station",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/1f3z9BiBZIA"
+        "https://www.youtube-nocookie.com/embed/N_3h5VIoy3w"
       ]
     },
     "languages": [],
@@ -7420,7 +7324,7 @@
     "name": "Kitten Rescue Sanctuary Cat Cam",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-m_nQT62B4Y"
+        "https://www.youtube-nocookie.com/embed/OOT6YlOYgaU"
       ]
     },
     "languages": [],
@@ -7660,7 +7564,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/K0PBvC7izaY"
+        "https://www.youtube-nocookie.com/embed/y-VMdoO4ybE"
       ]
     },
     "languages": [],
@@ -7913,18 +7817,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/HfSOXLUtYmA"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "Ypsu7hBmRceXyt",
-    "name": "Little Cubs Field Wrigley Replica",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/k7bGNm1_gwA"
       ]
     },
     "languages": [],
@@ -9484,7 +9376,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/W7spuv9ywvk"
+        "https://www.youtube-nocookie.com/embed/iB55XDVwTDM"
       ]
     },
     "languages": [],
@@ -9756,18 +9648,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ePE6zwwu8tcjnd",
-    "name": "Napili Bay Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/LWZrMfVJ-_I"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "ybbR6E1ujWfN0S",
     "name": "Napili Bay Beach",
     "sources": {
@@ -9832,7 +9712,7 @@
     "name": "National Mall from Washington Monument",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/oDCAAfOSqvA"
+        "https://www.youtube-nocookie.com/embed/mG2gAWY_Guw"
       ]
     },
     "languages": [],
@@ -10708,7 +10588,7 @@
     "name": "Pacifica Pier and Beach",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/_-_hg_aJrKU"
+        "https://www.youtube-nocookie.com/embed/3vqiXAw1Km4"
       ]
     },
     "languages": [],
@@ -10733,30 +10613,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/iQ7XJDXYSMo"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "ciya0n1smK3mIQ",
-    "name": "Palm Springs Air Museum",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/MW6xJGC7upc"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "yUKJDMMVqP4WDv",
-    "name": "Paris Dan Cummins Weather Cam",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/0-xXLC7IMco"
       ]
     },
     "languages": [],
@@ -11448,18 +11304,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "n7XYk0BbytTXTw",
-    "name": "Pompano Beach Underwater",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/mV8zVsX_o_0"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "hi4KtsXVKyFSQ3",
     "name": "Ponce Inlet",
     "sources": {
@@ -11633,18 +11477,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/rArvNLNmhOo"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "rhURJoY7ZT1JlV",
-    "name": "PortMiami Cruise Harbor",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/DxZziUUr6CY"
       ]
     },
     "languages": [],
@@ -12293,18 +12125,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/3RWnb5E2xw4"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "jTIukBd2AseDGo",
-    "name": "Richmond, Kentucky",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/sL_2p9vADEY"
       ]
     },
     "languages": [],
@@ -13020,18 +12840,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "K4xhvWAIezB2ed",
-    "name": "San Marcos Traffic: Hopkins Street at LBJ Drive",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/tDFokEet4Ys"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "7qVH9U0NE2fWtE",
     "name": "San Marcos Traffic: Hopkins Street at Thorpe Lane",
     "sources": {
@@ -13716,18 +13524,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "VCVO8JqNtsrZXZ",
-    "name": "Sheridan Grinnell Street",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/7HJ2ctibBeY"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "0zeP6mYAwiIgnq",
     "name": "Sheridan Tower",
     "sources": {
@@ -14364,18 +14160,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "xvSMnogWMMF4zp",
-    "name": "Somerset from Lake Cumberland Regional Hospital",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/onOEha5nSek"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "khdUzCUAt00WF8",
     "name": "Soo Locks & St. Marys River",
     "sources": {
@@ -14800,7 +14584,7 @@
     "name": "Squirrel and Wildlife Feeder",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/zccAyHoOIoo"
+        "https://www.youtube-nocookie.com/embed/SH9zwP3Zf8c"
       ]
     },
     "languages": [],
@@ -15288,6 +15072,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "D6GpqMsDBhehCA",
+    "name": "Stillwater Lift Bridge",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Mwg9yAQhS2A"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "PS8UmUVbZDaFxd",
     "name": "Stockton Diamond Railroad Crossing",
     "sources": {
@@ -15437,18 +15233,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/j8VVBhJdyqY"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "FOGhk2a3nPmwW9",
-    "name": "Summit Central Base, The Summit at Snoqualmie",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/GcIAQ5iD35o"
       ]
     },
     "languages": [],
@@ -15629,18 +15413,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/qr7dGchfX3g"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "FTBPzQkmUaGfaw",
-    "name": "Swan Island Dahlias Farm & Gardens",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/5pyIPUYeD88"
       ]
     },
     "languages": [],
@@ -15857,18 +15629,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/8pvXU1aEQZ0"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "DPmSzxatsfCaQq",
-    "name": "The Edge Hotel Pool Deck",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/V7sUbjD_e3I"
       ]
     },
     "languages": [],
@@ -16480,7 +16240,7 @@
     "name": "Two Friends Patio",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Omfde2q-55Y"
+        "https://www.youtube-nocookie.com/embed/hvkoC0KxAOA"
       ]
     },
     "languages": [],
@@ -16944,11 +16704,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "ztnYlhT5UIeYI8",
-    "name": "Ventnor Fishing Pier North",
+    "nanoid": "5lyBmFnZhHISDZ",
+    "name": "Vicksburg",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/OanXf1u2XDM"
+        "https://www.youtube-nocookie.com/embed/zJZKfuclLQw"
       ]
     },
     "languages": [],
@@ -16956,11 +16716,23 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "jeUGvgtxPa69wo",
-    "name": "Ventnor Fishing Pier South",
+    "nanoid": "SmvQO1mlkcBiQ9",
+    "name": "Vicksburg Main Street",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/YUjonp_Y_f0"
+        "https://www.youtube-nocookie.com/embed/_JDcK-aw8yI"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "uOLcrx3MXMezQP",
+    "name": "Vicksburg Prairie St",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/YxWc1N6Qe3g"
       ]
     },
     "languages": [],
@@ -17249,18 +17021,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/UmiLYeh8-r8"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "LVGS2BnAjL8myH",
-    "name": "Water's Edge Resort & Spa",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/OMTZRs4ImPc"
       ]
     },
     "languages": [],

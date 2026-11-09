@@ -108,18 +108,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "lNeUz10CvNDaik",
-    "name": "Balneário Camboriú Central",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/2hgqG86js-4"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "oQtc0BTOT2Y8Dd",
     "name": "Balneário Rincão Beachfront",
     "sources": {
@@ -292,7 +280,7 @@
     "name": "Congonhas Airport Camera 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/8IMo1pjUpw0"
+        "https://www.youtube-nocookie.com/embed/rwdpa1axoVU"
       ]
     },
     "languages": [],
@@ -304,7 +292,7 @@
     "name": "Congonhas Airport Camera 3",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/OUPDUv1DAtM"
+        "https://www.youtube-nocookie.com/embed/NbzoF4_UUV0"
       ]
     },
     "languages": [],
@@ -412,7 +400,7 @@
     "name": "Galeão International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/pUq0gKiN29s"
+        "https://www.youtube-nocookie.com/embed/iZNdiRDGcGw"
       ]
     },
     "languages": [],
@@ -484,7 +472,7 @@
     "name": "Guarulhos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/JU4L4GhNqFw"
+        "https://www.youtube-nocookie.com/embed/f41a734DB-Q"
       ]
     },
     "languages": [],
@@ -496,7 +484,7 @@
     "name": "Guarulhos International Airport Runway 10L",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-wGUjIqQNbE"
+        "https://www.youtube-nocookie.com/embed/7ky8bmx3CQo"
       ]
     },
     "languages": [],
@@ -508,7 +496,7 @@
     "name": "Guarulhos International Airport Runway 10R",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/mhH93tOUh3c"
+        "https://www.youtube-nocookie.com/embed/D15eyFqETmc"
       ]
     },
     "languages": [],
@@ -520,7 +508,7 @@
     "name": "Guarulhos International Airport Runway 28",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/S3fuWD7znTw"
+        "https://www.youtube-nocookie.com/embed/GKNvzQoeyS4"
       ]
     },
     "languages": [],
@@ -545,18 +533,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/j4Wne61IJ3I"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "kNh0NoSO5nMIF0",
-    "name": "Japeri Railway",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/OGnXYhN13wg"
       ]
     },
     "languages": [],
@@ -808,7 +784,7 @@
     "name": "Praia do Forte Cabo Frio",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/BCJtcc5lwC4"
+        "https://www.youtube-nocookie.com/embed/OF1fVzpXpNI"
       ]
     },
     "languages": [],
@@ -832,19 +808,7 @@
     "name": "Recife Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/zvjcfGrYrHA"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "I1OmF6x7jo0ppF",
-    "name": "Recife Airport",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/2tfbueq7RC8"
+        "https://www.youtube-nocookie.com/embed/UeRc9DC7Pko"
       ]
     },
     "languages": [],
@@ -940,7 +904,7 @@
     "name": "Santos Dumont Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/RCAp1JifYc4"
+        "https://www.youtube-nocookie.com/embed/OX1I77Nd2r8"
       ]
     },
     "languages": [],
@@ -1048,7 +1012,7 @@
     "name": "Viracopos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/1fZu_Ffd3xo"
+        "https://www.youtube-nocookie.com/embed/Wl7n-sp1Kx4"
       ]
     },
     "languages": [],

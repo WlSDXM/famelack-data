@@ -120,18 +120,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "VwCua2EOw4q38w",
-    "name": "Akihabara Electric Town Crossing",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/uovrYemtoQo"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "v1DPWmXDw7OcoF",
     "name": "Akita Airport",
     "sources": {
@@ -832,7 +820,7 @@
     "name": "Hokkaido Jingu Tongu Shrine Road Conditions",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/PY6muFoDs6U"
+        "https://www.youtube-nocookie.com/embed/G0CS22WltjI"
       ]
     },
     "languages": [],
@@ -1440,18 +1428,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "I4raHIp227NHeA",
-    "name": "Kohoku Parking Area on the Tomei Expressway",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/HuS-VPzYX98"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "r00vgQAtNN2OsZ",
     "name": "Koshigoe Beach",
     "sources": {
@@ -1800,47 +1776,23 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "AnrvsFabIPBT6I",
-    "name": "Marunuma Kogen Sky Terrace",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/eBs8Ywvvz_Q"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "hssOgLzMUrJ8dD",
-    "name": "Marunuma Kogen Tree Adventure",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/f6WLh3hVfew"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "G4tyP8zYkMBnKG",
-    "name": "Marunuma Kogen Yellow Course",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/XqiDLNQA0HM"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Vt9avrCm4OljG3",
     "name": "Matsumoto Castle from Kuromon Gate",
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/w1x2kIMp5OQ"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "zIuJrqOwk2sx7p",
+    "name": "Matsumoto Castle Honmaru Garden",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/32WiN-DasnA"
       ]
     },
     "languages": [],
@@ -1900,7 +1852,7 @@
     "name": "Meitetsu Tokoname Line Ono-machi",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/iBOA8_6FF9E"
+        "https://www.youtube-nocookie.com/embed/3XvTc-FzB2Q"
       ]
     },
     "languages": [],
@@ -1960,7 +1912,7 @@
     "name": "Minami 1 Jo-dori Ave, Sapporo",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/AWVVYHfxZac"
+        "https://www.youtube-nocookie.com/embed/FV17da94F7Q"
       ]
     },
     "languages": [],
@@ -2292,6 +2244,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "LPWdbz1HqIc4Im",
+    "name": "Mt. Moiwa Summit Observation Deck",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/MmOom49Vsco"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "zMBRLg8bQnPSC9",
     "name": "Nagano Station",
     "sources": {
@@ -2345,6 +2309,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/gtJywT5srns"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "mgoaLVe3qEccvU",
+    "name": "Nagoya Station",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/gfz2-fSadKQ"
       ]
     },
     "languages": [],
@@ -2832,18 +2808,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "2v2FFTtKGyENlD",
-    "name": "Osaka Itami Airport",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/_nUgTC9zJyc"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "e2tExvgPiYpbNE",
     "name": "Osaka Koreatown",
     "sources": {
@@ -3048,18 +3012,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "Af7eIlPuHBQy9u",
-    "name": "Rainbow Bridge & Tokyo Tower",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/fGOCRGXPgRY"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "VEhyWfoNsWSX69",
     "name": "Rainbow Bridge, Odaiba",
     "sources": {
@@ -3244,7 +3196,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/HgluuZnjoOE"
+        "https://www.youtube-nocookie.com/embed/a8myxZiAPnI"
       ]
     },
     "languages": [],
@@ -3761,6 +3713,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/TPIzbMwlrOI"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "pn6dqHw2tDYles",
+    "name": "Tanukikoji Shopping St, Sapporo",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Lh77fsvfiAs"
       ]
     },
     "languages": [],
