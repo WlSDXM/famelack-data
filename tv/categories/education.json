@@ -14,20 +14,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "CtdqbL5wtTjnvo",
-    "name": "AgroCanal",
-    "sources": {
-      "streams": [
-        "https://aovivo.equipea.com.br:5443/aovivort/streams/pshRLrnv6isXq7RG4747567774043229.m3u8"
-      ]
-    },
-    "languages": [
-      "por"
-    ],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "2iEMu7y7Pfmad9",
     "name": "Al Hiwar TV",
     "sources": {
@@ -203,6 +189,9 @@
     "sources": {
       "streams": [
         "https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8"
+      ],
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/-kooOhIodAk"
       ]
     },
     "languages": [
@@ -538,21 +527,6 @@
     "sources": {
       "streams": [
         "https://cdn-live.dltv.ac.th/dltv12.m3u8"
-      ]
-    },
-    "languages": [
-      "eng",
-      "tha"
-    ],
-    "country": "th",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "ZPUnfb9kCWJfnO",
-    "name": "DLTV 13",
-    "sources": {
-      "streams": [
-        "https://cdn-live.dltv.ac.th/dltv13.m3u8"
       ]
     },
     "languages": [
@@ -1411,20 +1385,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "c0t3w9rs29fRKj",
-    "name": "Tele UV",
-    "sources": {
-      "streams": [
-        "https://58fe359775f31.streamlock.net/tvuv/myStream/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "wG03qaF80rSneK",
     "name": "Telepace 3",
     "sources": {
@@ -1688,20 +1648,6 @@
       "por"
     ],
     "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "moehtnlcI4ChMQ",
-    "name": "Uniwersytet im. Adama Mickiewicza w Poznaniu",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/9FdyA2xz0oQ"
-      ]
-    },
-    "languages": [
-      "pol"
-    ],
-    "country": "pl",
     "isGeoBlocked": false
   },
   {

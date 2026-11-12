@@ -748,7 +748,19 @@
     "name": "Camp Baldarin, Punta Križa",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Z1zUMro4nqs"
+        "https://www.youtube-nocookie.com/embed/1sOfMxQtzN4"
+      ]
+    },
+    "languages": [],
+    "country": "hr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "2375z7z8pkEVph",
+    "name": "Camp Bijar",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Ec5vOErpPSo"
       ]
     },
     "languages": [],
@@ -1236,15 +1248,15 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "5mvDDsAsvJ7reZ",
-    "name": "Doca do Cavacas, Funchal",
+    "nanoid": "Qil5wCpKXqbpSW",
+    "name": "Detroit River",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/v-EXKlzjTW0"
+        "https://www.youtube-nocookie.com/embed/1KG2FbTdUAM"
       ]
     },
     "languages": [],
-    "country": "pt",
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -1456,7 +1468,7 @@
     "name": "Dunedin Otago Harbour",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/JqxcfIDtlb8"
+        "https://www.youtube-nocookie.com/embed/J3m6YAIxr9c"
       ]
     },
     "languages": [],
@@ -1540,7 +1552,7 @@
     "name": "El Quisco Fishing Harbor",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/RPEmZe0c7IE"
+        "https://www.youtube-nocookie.com/embed/yFr77Tpcvrg"
       ]
     },
     "languages": [],
@@ -1677,18 +1689,6 @@
     },
     "languages": [],
     "country": "uk",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "OYglN9qNUfOCSv",
-    "name": "Four Winds Marina Pine Island",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/xp1b7w3qPd8"
-      ]
-    },
-    "languages": [],
-    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -1948,7 +1948,7 @@
     "name": "Hakodate Station Streetcar & City View",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/AsmL4dRdXrA"
+        "https://www.youtube-nocookie.com/embed/84jAXILN5E4"
       ]
     },
     "languages": [],
@@ -2193,6 +2193,18 @@
     },
     "languages": [],
     "country": "nl",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "dm2YQd2wULpQDN",
+    "name": "Hotel Margaret Porat",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/df0wOUYwB_w"
+      ]
+    },
+    "languages": [],
+    "country": "hr",
     "isGeoBlocked": false
   },
   {
@@ -3016,7 +3028,7 @@
     "name": "Mejillones",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/bxjz-PuXBXw"
+        "https://www.youtube-nocookie.com/embed/3u9bZF9e4Zc"
       ]
     },
     "languages": [],
@@ -3544,7 +3556,7 @@
     "name": "Otago Shag Sumpter Wharf Ōamaru",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Vf0i2uv4c58"
+        "https://www.youtube-nocookie.com/embed/PmzPqiB0jaE"
       ]
     },
     "languages": [],
@@ -3916,7 +3928,7 @@
     "name": "Port of Machico Marina & Bay",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Vr5lrM2oIHo"
+        "https://www.youtube-nocookie.com/embed/deKoS3UnrcA"
       ]
     },
     "languages": [],
@@ -4816,7 +4828,7 @@
     "name": "Skiathos Bay & Port",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ah3O7jHRCuI"
+        "https://www.youtube-nocookie.com/embed/hyp8udLM5wc"
       ]
     },
     "languages": [],
@@ -5452,7 +5464,7 @@
     "name": "Tinos Ferry Port and Harbor",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/c3UWX9HNoOA"
+        "https://www.youtube-nocookie.com/embed/jcJDnxc3ADk"
       ]
     },
     "languages": [],
@@ -5889,18 +5901,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "s1C6apvr6mrSEM",
-    "name": "Vlissingen Walcheren",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/XGLgbelUCOw"
-      ]
-    },
-    "languages": [],
-    "country": "nl",
     "isGeoBlocked": false
   },
   {

@@ -312,14 +312,14 @@
     "capital": "Santiago",
     "timeZone": "America/Santiago",
     "hasChannels": true,
-    "channelCount": 198
+    "channelCount": 200
   },
   "CM": {
     "country": "Cameroon",
     "capital": "Yaoundé",
     "timeZone": "Africa/Douala",
-    "hasChannels": false,
-    "channelCount": 0
+    "hasChannels": true,
+    "channelCount": 71
   },
   "CN": {
     "country": "China",
@@ -711,7 +711,7 @@
     "capital": "New Delhi",
     "timeZone": "Asia/Kolkata",
     "hasChannels": true,
-    "channelCount": 467
+    "channelCount": 466
   },
   "IO": {
     "country": "British Indian Ocean Territory",
@@ -1327,7 +1327,7 @@
     "capital": "Victoria",
     "timeZone": "Indian/Mahe",
     "hasChannels": true,
-    "channelCount": 1
+    "channelCount": 5
   },
   "SD": {
     "country": "Sudan",
@@ -1705,7 +1705,7 @@
     "capital": "Pretoria",
     "timeZone": "Africa/Johannesburg",
     "hasChannels": true,
-    "channelCount": 130
+    "channelCount": 131
   },
   "ZM": {
     "country": "Zambia",

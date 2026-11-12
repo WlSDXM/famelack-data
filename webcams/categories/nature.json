@@ -1260,18 +1260,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "17s2Ziw2Wa3ESN",
-    "name": "Bird Feeder, Sierra Madrid",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/DgM19IpSz2E"
-      ]
-    },
-    "languages": [],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "gFtKBH5M0QkpUW",
     "name": "Bise Beach",
     "sources": {
@@ -1644,18 +1632,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "9bKCqbtlN4su2y",
-    "name": "Bromo & Semeru Volcano Panorama",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/ieE9Nax7lO8"
-      ]
-    },
-    "languages": [],
-    "country": "id",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "YUpnST5Esp7deK",
     "name": "Brouwersdam",
     "sources": {
@@ -1689,18 +1665,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "KNTaWQUBuNDpKp",
-    "name": "Buccanos Beach Club",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/bBYT-Pyx5Xs"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
     "isGeoBlocked": false
   },
   {
@@ -1965,6 +1929,18 @@
     },
     "languages": [],
     "country": "bw",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "2375z7z8pkEVph",
+    "name": "Camp Bijar",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Ec5vOErpPSo"
+      ]
+    },
+    "languages": [],
+    "country": "hr",
     "isGeoBlocked": false
   },
   {
@@ -2556,30 +2532,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "a5JMCbGzmHF6oF",
-    "name": "Cog Railway Mount Washington Track",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/xYbH_qKYb5A"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "vSt5d1MEtINn05",
-    "name": "Cog Railway Waumbek Station",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/V1933u4lyQY"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "jmo6PPDj5f354f",
     "name": "Cohutta",
     "sources": {
@@ -2885,18 +2837,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/GTQQdQ8VVKI"
-      ]
-    },
-    "languages": [],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "tzOowC7Y74OzWw",
-    "name": "Cypress Mountain Resort Lions Chair",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/fuxqY7E3HJ8"
       ]
     },
     "languages": [],
@@ -3297,18 +3237,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "xfWiShXZHzUDzc",
-    "name": "Dvorecký Bridge over the Vltava",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/wifkZ6ZVk08"
-      ]
-    },
-    "languages": [],
-    "country": "cz",
     "isGeoBlocked": false
   },
   {
@@ -4356,6 +4284,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "GzWRfsTUs1ArB4",
+    "name": "Güce Town Panorama",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/5zDnIG68FQ4"
+      ]
+    },
+    "languages": [],
+    "country": "tr",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "UG4ic9Ec5DjFwE",
     "name": "Gustaf III Airport Cam2",
     "sources": {
@@ -4432,7 +4372,7 @@
     "name": "Hanga Roa Coast, Rapa Nui",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/J_1CtzaBEqY"
+        "https://www.youtube-nocookie.com/embed/_1QbR_dsrbw"
       ]
     },
     "languages": [],
@@ -6028,7 +5968,7 @@
     "name": "La Crosse City",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/jByGXGW6em0"
+        "https://www.youtube-nocookie.com/embed/f-R3EH9KkPs"
       ]
     },
     "languages": [],
@@ -6364,7 +6304,7 @@
     "name": "Las Tablas de Daimiel National Park",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/9XvFJqjCTK0"
+        "https://www.youtube-nocookie.com/embed/OMq6Y0EdjUg"
       ]
     },
     "languages": [],
@@ -7780,7 +7720,7 @@
     "name": "Montedarena Beach Weather",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/_kp1xds0p8k"
+        "https://www.youtube-nocookie.com/embed/fc1szoN7iKY"
       ]
     },
     "languages": [],
@@ -8136,18 +8076,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "erjKBh0KN7tqYW",
-    "name": "Mount Kongo and Mount Katsuragi",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/HdUFg_9HQ9c"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "0iBZI0bjYDnnye",
     "name": "Mount Mansfield Summit",
     "sources": {
@@ -8248,7 +8176,7 @@
     "name": "Mount Washington from Wildcat",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/L6JjovcE7-o"
+        "https://www.youtube-nocookie.com/embed/8UxlrHDayS8"
       ]
     },
     "languages": [],
@@ -8368,7 +8296,7 @@
     "name": "Mouse Island Corfu",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/8qB3Q83Kl2k"
+        "https://www.youtube-nocookie.com/embed/KO4HegD_uZA"
       ]
     },
     "languages": [],
@@ -9100,11 +9028,23 @@
     "name": "Ohio Bird Feeders",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/lgRtCXg0c1k"
+        "https://www.youtube-nocookie.com/embed/QDeHSA9wsPA"
       ]
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "iSzHLOKlSP825V",
+    "name": "Ohrid Info TV",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/NPZz6aA9SFw"
+      ]
+    },
+    "languages": [],
+    "country": "mk",
     "isGeoBlocked": false
   },
   {
@@ -9316,7 +9256,7 @@
     "name": "Osprey Nest Loch of the Lowes",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/LK_WLPovb3g"
+        "https://www.youtube-nocookie.com/embed/KHkYtlk9rlg"
       ]
     },
     "languages": [],
@@ -9501,6 +9441,18 @@
     },
     "languages": [],
     "country": "fr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ciya0n1smK3mIQ",
+    "name": "Palm Springs Air Museum",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/yUYqpv_HfEQ"
+      ]
+    },
+    "languages": [],
+    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -9804,18 +9756,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "0yJImHotu31tWF",
-    "name": "Pescul Ski Civetta",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Dsm8fIgYrUs"
-      ]
-    },
-    "languages": [],
-    "country": "it",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "kp3xqkoqQ5oNsE",
     "name": "Phoenixville NS Harrisburg Line",
     "sources": {
@@ -9861,18 +9801,6 @@
     },
     "languages": [],
     "country": "it",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "qRgzoR9jrb52zh",
-    "name": "Pico de Orizaba",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/dOSZ5uFGLi4"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
     "isGeoBlocked": false
   },
   {
@@ -9972,15 +9900,27 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "J5E2JkTlpJ49jd",
-    "name": "Playa La Madera, Zihuatanejo",
+    "nanoid": "l2vIkZN9k6T0DU",
+    "name": "Playa del Inglés",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/jf5fbmdiQsw"
+        "https://www.youtube-nocookie.com/embed/5amd8RkRxrs"
       ]
     },
     "languages": [],
-    "country": "mx",
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "947K4o2Zr0kj6q",
+    "name": "Playa Las Torpederas Valparaíso",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/J5TZxAkOyfQ"
+      ]
+    },
+    "languages": [],
+    "country": "cl",
     "isGeoBlocked": false
   },
   {
@@ -10164,18 +10104,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "BtHdCxRukYCVbD",
-    "name": "Praia de Ponta Negra",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/jigBbC3G_-k"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "AdPTS6eB5pyOgp",
     "name": "Praia do Boqueirão",
     "sources": {
@@ -10253,18 +10181,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/CFk2x7P-wV8"
-      ]
-    },
-    "languages": [],
-    "country": "hr",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "M3lnz8rRWL95DW",
-    "name": "Punta Planka",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/CnzjSJEP0aY"
       ]
     },
     "languages": [],
@@ -12004,7 +11920,7 @@
     "name": "Skiathos Bay & Port",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ah3O7jHRCuI"
+        "https://www.youtube-nocookie.com/embed/hyp8udLM5wc"
       ]
     },
     "languages": [],
@@ -12240,18 +12156,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "0hmnuPeGzq5BpL",
-    "name": "Snow Summit Westridge",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/-YfeFSNpd5U"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "7M5aIetEQfjlOO",
     "name": "Snow Valley Base Area",
     "sources": {
@@ -12465,18 +12369,6 @@
     },
     "languages": [],
     "country": "it",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "8OpZP3HMEOMqnY",
-    "name": "Southbroom Beach View",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/8VJ2p_tfd3g"
-      ]
-    },
-    "languages": [],
-    "country": "za",
     "isGeoBlocked": false
   },
   {
@@ -14008,7 +13900,7 @@
     "name": "Val d'Isère",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/vVwBaGINKEU"
+        "https://www.youtube-nocookie.com/embed/0EMKCHkUk90"
       ]
     },
     "languages": [],
@@ -14380,7 +14272,7 @@
     "name": "Warsaw Skyline",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/_RD7C8bDUJg"
+        "https://www.youtube-nocookie.com/embed/FAy2NO-aPEA"
       ]
     },
     "languages": [],

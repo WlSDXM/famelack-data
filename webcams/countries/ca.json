@@ -288,18 +288,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "tzOowC7Y74OzWw",
-    "name": "Cypress Mountain Resort Lions Chair",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/fuxqY7E3HJ8"
-      ]
-    },
-    "languages": [],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "CkDhTYsYCD9S1F",
     "name": "Cypress Mountain Resort Plaza",
     "sources": {
@@ -472,7 +460,7 @@
     "name": "McAdam Subdivision Railcam at Tracy",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/9cQky4TcdYs"
+        "https://www.youtube-nocookie.com/embed/lphAyJPOZLk"
       ]
     },
     "languages": [],
@@ -941,6 +929,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/k36fwVlkzBM"
+      ]
+    },
+    "languages": [],
+    "country": "ca",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "4SDSMSBhFtUCbW",
+    "name": "Steinbach Millennium Clock Tower",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/m7vLQEFs3_0"
       ]
     },
     "languages": [],

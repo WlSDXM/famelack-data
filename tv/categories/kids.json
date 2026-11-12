@@ -510,7 +510,7 @@
       "spa"
     ],
     "country": "us",
-    "isGeoBlocked": true
+    "isGeoBlocked": false
   },
   {
     "nanoid": "IsHsuTjDtTUjjX",
@@ -1038,7 +1038,6 @@
     "name": "Duronto TV",
     "sources": {
       "streams": [
-        "https://livetv.shamon-cable.net:8443/Duronto/index.m3u8",
         "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8"
       ]
     },
@@ -1130,20 +1129,6 @@
       "eng"
     ],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "IGkGdoXwnCTsO2",
-    "name": "God Stands Kids Club TV Arabic",
-    "sources": {
-      "streams": [
-        "https://online.godstands.tv:5443/WebRTCApp/streams/KidsArabic.m3u8"
-      ]
-    },
-    "languages": [
-      "ara"
-    ],
-    "country": "pk",
     "isGeoBlocked": false
   },
   {
@@ -2072,7 +2057,7 @@
     "name": "Peppa Pig Brasil",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/-t4al2Df-J8"
+        "https://www.youtube-nocookie.com/embed/NWWyzAg72jg"
       ]
     },
     "languages": [
@@ -2178,6 +2163,20 @@
     ],
     "country": "uk",
     "isGeoBlocked": true
+  },
+  {
+    "nanoid": "LaJUiyDd3qErb2",
+    "name": "Pororo 뽀로로",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/xj_X9Uj0Yk8"
+      ]
+    },
+    "languages": [
+      "kor"
+    ],
+    "country": "kr",
+    "isGeoBlocked": false
   },
   {
     "nanoid": "uuPEZrmKbOVuZJ",
@@ -2618,6 +2617,20 @@
       "eng"
     ],
     "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "9cKdVybPvB7PhO",
+    "name": "Tom Sings TV",
+    "sources": {
+      "streams": [
+        "https://vodcdn.bamboo-cloud.com/livehls/6af043956f49ecefd30d7fd4/master.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "us",
     "isGeoBlocked": false
   },
   {

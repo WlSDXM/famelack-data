@@ -108,6 +108,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "efhGAQpqwhNUYZ",
+    "name": "Akabane Station",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/8q9-gbfNAUY"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "X2LGD3uwPKwkcl",
     "name": "Akashi Kaikyō Bridge",
     "sources": {
@@ -436,7 +448,7 @@
     "name": "Dogo Onsen Honkan",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/hy7sPwngWNQ"
+        "https://www.youtube-nocookie.com/embed/4_k-COgxl5E"
       ]
     },
     "languages": [],
@@ -556,7 +568,7 @@
     "name": "Hakodate Station Plaza & Bay Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ZC_E94OdhVg"
+        "https://www.youtube-nocookie.com/embed/C5f5ewsG9hA"
       ]
     },
     "languages": [],
@@ -568,7 +580,7 @@
     "name": "Hakodate Station Streetcar & City View",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/AsmL4dRdXrA"
+        "https://www.youtube-nocookie.com/embed/84jAXILN5E4"
       ]
     },
     "languages": [],
@@ -1000,7 +1012,7 @@
     "name": "JR Osaka Station",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/lPlBcj6yWpE"
+        "https://www.youtube-nocookie.com/embed/UR1SLIwFDdw"
       ]
     },
     "languages": [],
@@ -1440,6 +1452,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "I4raHIp227NHeA",
+    "name": "Kohoku Parking Area on the Tomei Expressway",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/wnGUW4dPBu4"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "r00vgQAtNN2OsZ",
     "name": "Koshigoe Beach",
     "sources": {
@@ -1864,7 +1888,7 @@
     "name": "Meitetsu Tokoname Line Ono-machi",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/cyWJIPEARWo"
+        "https://www.youtube-nocookie.com/embed/tDHsCXoQz4g"
       ]
     },
     "languages": [],
@@ -2124,18 +2148,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "erjKBh0KN7tqYW",
-    "name": "Mount Kongo and Mount Katsuragi",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/HdUFg_9HQ9c"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "drmM6fkZNzNerM",
     "name": "Mount Tsukuba Nantaisan",
     "sources": {
@@ -2368,7 +2380,7 @@
     "name": "Naha Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/EeHqLegqSqU"
+        "https://www.youtube-nocookie.com/embed/dNlpbgnLTbU"
       ]
     },
     "languages": [],
@@ -3220,7 +3232,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/iTDTbN5XYF8"
+        "https://www.youtube-nocookie.com/embed/w7z2QollZkY"
       ]
     },
     "languages": [],

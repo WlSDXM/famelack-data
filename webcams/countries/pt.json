@@ -132,18 +132,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "5mvDDsAsvJ7reZ",
-    "name": "Doca do Cavacas, Funchal",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/v-EXKlzjTW0"
-      ]
-    },
-    "languages": [],
-    "country": "pt",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "e7FC1EFzKdAlw1",
     "name": "Funchal Bay & Harbour Panorama",
     "sources": {
@@ -228,23 +216,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "nyH5uNJ2xa0IzP",
-    "name": "Machico Seafront & Bay Panorama",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/-nY1RoqNVYA"
-      ]
-    },
-    "languages": [],
-    "country": "pt",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "KJq9cCV4UaLA2a",
     "name": "Madalena do Mar",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/eo0G5fUmwtI"
+        "https://www.youtube-nocookie.com/embed/fKTj-u1o-v0"
       ]
     },
     "languages": [],
@@ -364,7 +340,7 @@
     "name": "Port of Machico Marina & Bay",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Vr5lrM2oIHo"
+        "https://www.youtube-nocookie.com/embed/deKoS3UnrcA"
       ]
     },
     "languages": [],
@@ -401,18 +377,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/hfOgGUhdybo"
-      ]
-    },
-    "languages": [],
-    "country": "pt",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "aAYvirH0mKBhGR",
-    "name": "Praia da Rocha Portimão",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/-ON_OuOcpQ0"
       ]
     },
     "languages": [],

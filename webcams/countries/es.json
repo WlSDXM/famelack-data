@@ -124,7 +124,7 @@
     "name": "Barn Owl Nest Cam",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/8VFra_zCzAA"
+        "https://www.youtube-nocookie.com/embed/Y53K1dakbw0"
       ]
     },
     "languages": [],
@@ -137,18 +137,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/GE1WiiUlVvU"
-      ]
-    },
-    "languages": [],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "17s2Ziw2Wa3ESN",
-    "name": "Bird Feeder, Sierra Madrid",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/DgM19IpSz2E"
       ]
     },
     "languages": [],
@@ -748,7 +736,7 @@
     "name": "Las Tablas de Daimiel National Park",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/9XvFJqjCTK0"
+        "https://www.youtube-nocookie.com/embed/OMq6Y0EdjUg"
       ]
     },
     "languages": [],
@@ -1084,7 +1072,7 @@
     "name": "Playa de Las Canteras",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/bK-FJ7hNAGM"
+        "https://www.youtube-nocookie.com/embed/upPop3tgEho"
       ]
     },
     "languages": [],
@@ -1109,6 +1097,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/1Q_H72SYOjs"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "l2vIkZN9k6T0DU",
+    "name": "Playa del Inglés",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/5amd8RkRxrs"
       ]
     },
     "languages": [],

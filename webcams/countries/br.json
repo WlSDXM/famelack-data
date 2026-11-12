@@ -52,7 +52,7 @@
     "name": "Arraial do Cabo",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/GSva_S5Zc_c"
+        "https://www.youtube-nocookie.com/embed/MJ00w0LIn1M"
       ]
     },
     "languages": [],
@@ -292,7 +292,7 @@
     "name": "Congonhas Airport Camera 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/V4xCL5LMAXU"
+        "https://www.youtube-nocookie.com/embed/BS5rFN0ZIIk"
       ]
     },
     "languages": [],
@@ -304,7 +304,7 @@
     "name": "Congonhas Airport Camera 3",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/dm1CWAvjgQ0"
+        "https://www.youtube-nocookie.com/embed/IeZF6OFJLuI"
       ]
     },
     "languages": [],
@@ -412,7 +412,7 @@
     "name": "Galeão International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/1_KRCmQ71Eg"
+        "https://www.youtube-nocookie.com/embed/qZptHCiykH0"
       ]
     },
     "languages": [],
@@ -484,7 +484,7 @@
     "name": "Guarulhos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/WUioX5SWthI"
+        "https://www.youtube-nocookie.com/embed/4rsgfoInDms"
       ]
     },
     "languages": [],
@@ -496,7 +496,7 @@
     "name": "Guarulhos International Airport Runway 10L",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/XLqWW732z1k"
+        "https://www.youtube-nocookie.com/embed/RBc_tu2GKCI"
       ]
     },
     "languages": [],
@@ -508,7 +508,7 @@
     "name": "Guarulhos International Airport Runway 10R",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/YZR4TFLPvZY"
+        "https://www.youtube-nocookie.com/embed/D-g21ouam5c"
       ]
     },
     "languages": [],
@@ -520,7 +520,7 @@
     "name": "Guarulhos International Airport Runway 28",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ePrDwSR7xlo"
+        "https://www.youtube-nocookie.com/embed/4lGBNwGm_aM"
       ]
     },
     "languages": [],
@@ -545,6 +545,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/j4Wne61IJ3I"
+      ]
+    },
+    "languages": [],
+    "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "kNh0NoSO5nMIF0",
+    "name": "Japeri Railway",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/JkFCY6iAGZc"
       ]
     },
     "languages": [],
@@ -736,7 +748,7 @@
     "name": "Pousada Ecos Beach Porto de Galinhas",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/45L98aDkF3I"
+        "https://www.youtube-nocookie.com/embed/iVYlMw05kZo"
       ]
     },
     "languages": [],
@@ -761,18 +773,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/q5jrRV0Tc-Y"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "BtHdCxRukYCVbD",
-    "name": "Praia de Ponta Negra",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/jigBbC3G_-k"
       ]
     },
     "languages": [],
@@ -820,19 +820,7 @@
     "name": "Recife Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/MW_IkvOPxe0"
-      ]
-    },
-    "languages": [],
-    "country": "br",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "I1OmF6x7jo0ppF",
-    "name": "Recife Airport",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/j3hePWPkknM"
+        "https://www.youtube-nocookie.com/embed/UxJ9YKd9hHk"
       ]
     },
     "languages": [],
@@ -928,7 +916,7 @@
     "name": "Santos Dumont Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/jxoIt8dbOz0"
+        "https://www.youtube-nocookie.com/embed/IU-PMj1UMxI"
       ]
     },
     "languages": [],
@@ -1024,7 +1012,7 @@
     "name": "Viracopos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/UiQLrcudSZw"
+        "https://www.youtube-nocookie.com/embed/wRx71zBGnfo"
       ]
     },
     "languages": [],

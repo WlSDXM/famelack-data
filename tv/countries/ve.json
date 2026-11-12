@@ -1,10 +1,38 @@
 [
   {
+    "nanoid": "k5rLNH9bb5U3R9",
+    "name": "AbejalesTV",
+    "sources": {
+      "streams": [
+        "https://streaming5.globalhostla.com/rtplive/abejales/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ve",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "t2xHdunHhK2Qqc",
     "name": "Aguacate TV",
     "sources": {
       "streams": [
         "https://stream.aguacatetv.com:3949/hybrid/play.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ve",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ciUS0lRhmTtePT",
+    "name": "Anzoategui TV",
+    "sources": {
+      "streams": [
+        "https://vcp2.myplaytv.com/anzoateguitv/anzoateguitv/playlist.m3u8"
       ]
     },
     "languages": [
@@ -42,6 +70,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "AS45XKoNM4hcAi",
+    "name": "Canal C del Zulia",
+    "sources": {
+      "streams": [
+        "https://calm-forest-3478.cristianbracho904.workers.dev/live/index.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ve",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "tF5n1NaStHSPlK",
     "name": "Canal Diplomatico",
     "sources": {
@@ -61,6 +103,20 @@
     "sources": {
       "streams": [
         "https://streaming.canal-i.com/canal-i/live/master.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ve",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "6SYW2B8xTfiTLL",
+    "name": "Catatumbo TV",
+    "sources": {
+      "streams": [
+        "https://cloud.fastchannel.es/manifiest/hls/prog9/catatumbotv.m3u8"
       ]
     },
     "languages": [
@@ -295,6 +351,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "8UCD3Qx8hCNOEd",
+    "name": "Siembra TV",
+    "sources": {
+      "streams": [
+        "https://cloud2.streaminglivehd.com:1936/siembratv/siembratv/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ve",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "Hf8hQXiCJxWSk6",
     "name": "Somos TV",
     "sources": {
@@ -367,6 +437,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "1M4Le4GYVDf5Ni",
+    "name": "Televisora de Oriente",
+    "sources": {
+      "streams": [
+        "https://cloud.fastchannel.es/manifiest/hls/prog9/tvo.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ve",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "rO6eV79GxNqt7n",
     "name": "TRT",
     "sources": {
@@ -400,20 +484,6 @@
     "sources": {
       "streams": [
         "https://59d39900ebfb8.streamlock.net/tvfamilia_270p/tvfamilia_270p/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "spa"
-    ],
-    "country": "ve",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "b3aSHeBRmQKpi4",
-    "name": "TV Oasis Monay",
-    "sources": {
-      "streams": [
-        "https://live.teve.pro/live/tvoasis/index.m3u8"
       ]
     },
     "languages": [
@@ -498,6 +568,20 @@
     "sources": {
       "streams": [
         "https://vod2live.univtec.com/manifest/4c41c0d8-e2e4-43cc-bd43-79afe715e1b3.m3u8"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "ve",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "baPvUzzfHutjpv",
+    "name": "Vepaco TV",
+    "sources": {
+      "streams": [
+        "https://cloud.fastchannel.es/manifiest/hls/prog9/vepacotv.m3u8"
       ]
     },
     "languages": [

@@ -384,18 +384,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "tzOowC7Y74OzWw",
-    "name": "Cypress Mountain Resort Lions Chair",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/fuxqY7E3HJ8"
-      ]
-    },
-    "languages": [],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "CkDhTYsYCD9S1F",
     "name": "Cypress Mountain Resort Plaza",
     "sources": {
@@ -1092,18 +1080,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "0yJImHotu31tWF",
-    "name": "Pescul Ski Civetta",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/Dsm8fIgYrUs"
-      ]
-    },
-    "languages": [],
-    "country": "it",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "xLdgGUHZJXvzjt",
     "name": "Piano Battaglia Plateau",
     "sources": {
@@ -1149,18 +1125,6 @@
     },
     "languages": [],
     "country": "it",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "H4e1uBvdL7WY3R",
-    "name": "Rendezvous Ski Trails",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/IjW6B_qIgaI"
-      ]
-    },
-    "languages": [],
-    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -1325,18 +1289,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/SOo3NBmvJQI"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "0hmnuPeGzq5BpL",
-    "name": "Snow Summit Westridge",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/-YfeFSNpd5U"
       ]
     },
     "languages": [],
@@ -1769,18 +1721,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/tmS73xQ4zVc"
-      ]
-    },
-    "languages": [],
-    "country": "cl",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "cXc2cjdbz5rZg7",
-    "name": "Valle Nevado La Góndola",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/qd2Zr8gE8Sw"
       ]
     },
     "languages": [],

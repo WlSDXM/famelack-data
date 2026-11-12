@@ -940,20 +940,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "kDdnzcMq5qo5B2",
-    "name": "MBTV",
-    "sources": {
-      "streams": [
-        "https://edge-f.swagit.com/live/miamibeachfl/live-1-a/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "J49I0cja3V1GVG",
     "name": "Midpen Media Center Channel 29",
     "sources": {
@@ -1109,20 +1095,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "be0rVB6CUa2XW4",
-    "name": "Pasco TV",
-    "sources": {
-      "streams": [
-        "https://cpcdn.azureedge.net/PASCOCOFLLIVE1/PASCOCOFLLIVE1/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "vlyxVSmyz2hGFc",
     "name": "PBC TV Channel 20",
     "sources": {
@@ -1228,7 +1200,7 @@
     "name": "Rio TV Câmara",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/sDkItb8kPvA"
+        "https://www.youtube-nocookie.com/embed/Yb2HEJIOW6c"
       ]
     },
     "languages": [
@@ -1260,8 +1232,8 @@
     "sources": {
       "streams": [
         "https://d2lk5u59tns74c.cloudfront.net/out/v1/e4182054dce340da9e0ff38b6b3658a4/index.m3u8",
-        "https://playhls.media.nic.in/hls/live/rstv/rstv.m3u8",
-        "https://fta.ektv.in/live/298/master.m3u8"
+        "https://fta.ektv.in/live/298/master.m3u8",
+        "https://playhls.media.nic.in/hls/live/rstv/rstv.m3u8"
       ]
     },
     "languages": [
@@ -1390,7 +1362,7 @@
     "name": "TV Assembleia Minas Gerais",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/u5T2XtzvvHM"
+        "https://www.youtube-nocookie.com/embed/dXO9jyw_TH4"
       ]
     },
     "languages": [

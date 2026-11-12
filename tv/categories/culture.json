@@ -28,6 +28,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "n4RrCqsrdFtghH",
+    "name": "Afroculture TV",
+    "sources": {
+      "streams": [
+        "https://streamtv.cmediahosthosting.net:3836/live/myafroculturelive.m3u8"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "ci",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "FjdLgphriWW4if",
     "name": "Al-Kawthar TV",
     "sources": {
@@ -141,21 +155,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "bYTvtLA2rlhnbu",
-    "name": "Bonaire.tv",
-    "sources": {
-      "streams": [
-        "https://media.streambrothers.com:1936/8506/8506/playlist.m3u8"
-      ]
-    },
-    "languages": [
-      "nld",
-      "pap"
-    ],
-    "country": "bq",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "5b9R7v4eVMOgWj",
     "name": "BX Arts",
     "sources": {
@@ -258,7 +257,7 @@
     "name": "Channel One",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/lPycLHLkV1s"
+        "https://www.youtube-nocookie.com/embed/V6htTSidD1E"
       ]
     },
     "languages": [
@@ -332,6 +331,9 @@
     "sources": {
       "streams": [
         "https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8"
+      ],
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/-kooOhIodAk"
       ]
     },
     "languages": [
@@ -402,8 +404,8 @@
     "sources": {
       "streams": [
         "https://cdn.pishow.tv/ott/live/10/master.m3u8",
-        "https://d2lk5u59tns74c.cloudfront.net/out/v1/67cec794d8b14f9ba21f73924ac65797/index.m3u8",
-        "https://fta.ektv.in/live/335/master.m3u8"
+        "https://fta.ektv.in/live/335/master.m3u8",
+        "https://d2lk5u59tns74c.cloudfront.net/out/v1/67cec794d8b14f9ba21f73924ac65797/index.m3u8"
       ],
       "youtube": [
         "https://www.youtube-nocookie.com/embed/mHn0m9pSWkk"
@@ -1340,7 +1342,8 @@
     "name": "Sanskar TV",
     "sources": {
       "streams": [
-        "https://d26idhjf0y1p2g.cloudfront.net/out/v1/cd66dd25b9774cb29943bab54bbf3e2f/index.m3u8"
+        "https://d26idhjf0y1p2g.cloudfront.net/out/v1/cd66dd25b9774cb29943bab54bbf3e2f/index.m3u8",
+        "https://d2lk5u59tns74c.cloudfront.net/out/v1/bc57af15b4df4200af5fa4c1d6ab0a72/index.m3u8"
       ]
     },
     "languages": [
