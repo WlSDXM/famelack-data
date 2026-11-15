@@ -55,6 +55,14 @@
     "hasChannels": true,
     "channelCount": 6
   },
+  "AQ": {
+    "country": "Antarctica",
+    "capital": "",
+    "timeZone": "",
+    "note": "No permanent population",
+    "hasChannels": false,
+    "channelCount": 0
+  },
   "AR": {
     "country": "Argentina",
     "capital": "Buenos Aires",
@@ -227,6 +235,7 @@
     "country": "Bouvet Island",
     "capital": "",
     "timeZone": "",
+    "note": "Uninhabited island",
     "hasChannels": false,
     "channelCount": 0
   },
@@ -319,7 +328,7 @@
     "capital": "Yaoundé",
     "timeZone": "Africa/Douala",
     "hasChannels": true,
-    "channelCount": 71
+    "channelCount": 70
   },
   "CN": {
     "country": "China",
@@ -515,7 +524,7 @@
     "capital": "Libreville",
     "timeZone": "Africa/Libreville",
     "hasChannels": true,
-    "channelCount": 1
+    "channelCount": 14
   },
   "GB": {
     "country": "United Kingdom",
@@ -1096,7 +1105,7 @@
     "capital": "Niamey",
     "timeZone": "Africa/Niamey",
     "hasChannels": true,
-    "channelCount": 1
+    "channelCount": 9
   },
   "NF": {
     "country": "Norfolk Island",
@@ -1460,12 +1469,13 @@
     "capital": "N'Djamena",
     "timeZone": "Africa/Ndjamena",
     "hasChannels": true,
-    "channelCount": 1
+    "channelCount": 4
   },
   "TF": {
     "country": "French Southern Territories",
-    "capital": "N/A",
+    "capital": "",
     "timeZone": "Indian/Kerguelen",
+    "note": "No permanent population",
     "hasChannels": true,
     "channelCount": 2
   },
@@ -1492,8 +1502,9 @@
   },
   "TK": {
     "country": "Tokelau",
-    "capital": "N/A",
+    "capital": "",
     "timeZone": "Pacific/Fakaofo",
+    "note": "Leadership rotates among atolls",
     "hasChannels": false,
     "channelCount": 0
   },
