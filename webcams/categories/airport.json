@@ -244,7 +244,7 @@
     "name": "Congonhas Airport Camera 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/7S9GNFwcprQ"
+        "https://www.youtube-nocookie.com/embed/s5ITC1Za9Ss"
       ]
     },
     "languages": [],
@@ -256,7 +256,7 @@
     "name": "Congonhas Airport Camera 3",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/6S51Kz3Tzts"
+        "https://www.youtube-nocookie.com/embed/Y1AwiKxlvEw"
       ]
     },
     "languages": [],
@@ -280,7 +280,7 @@
     "name": "DFW Airport East",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/FLp3y7ZCxOM"
+        "https://www.youtube-nocookie.com/embed/nO_P08KJEb8"
       ]
     },
     "languages": [],
@@ -352,7 +352,7 @@
     "name": "Galeão International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/d4fvhT1EqXo"
+        "https://www.youtube-nocookie.com/embed/wmAArqW6GnY"
       ]
     },
     "languages": [],
@@ -388,7 +388,7 @@
     "name": "Guarulhos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/n2k3m-woo1g"
+        "https://www.youtube-nocookie.com/embed/UlbIn0W2aHY"
       ]
     },
     "languages": [],
@@ -400,7 +400,7 @@
     "name": "Guarulhos International Airport Runway 10L",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/wroykg-T6TU"
+        "https://www.youtube-nocookie.com/embed/yl49ephdonA"
       ]
     },
     "languages": [],
@@ -412,7 +412,7 @@
     "name": "Guarulhos International Airport Runway 10R",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/B1xMCYfb21M"
+        "https://www.youtube-nocookie.com/embed/uTLE5cP6HMo"
       ]
     },
     "languages": [],
@@ -424,7 +424,7 @@
     "name": "Guarulhos International Airport Runway 28",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/FXr3nTkHeOA"
+        "https://www.youtube-nocookie.com/embed/eN5kUJbNU8I"
       ]
     },
     "languages": [],
@@ -736,7 +736,7 @@
     "name": "London Heathrow Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/fboGRu_LrdU"
+        "https://www.youtube-nocookie.com/embed/yWLgzcEa5eg"
       ]
     },
     "languages": [],
@@ -820,7 +820,7 @@
     "name": "Maho Beach Plane Spotting",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/f95fv4IdjcE"
+        "https://www.youtube-nocookie.com/embed/MyGlGCi3iq8"
       ]
     },
     "languages": [],
@@ -1068,6 +1068,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "llgAehyPlY5eCu",
+    "name": "Old Bridge Airport",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/prac0TmZdX8"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "563gaWmI6Lorvq",
     "name": "Osaka International Airport",
     "sources": {
@@ -1144,7 +1156,7 @@
     "name": "Philadelphia Airport (PHL)",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/DygJIRRzOPc"
+        "https://www.youtube-nocookie.com/embed/xdLhw-wVPUQ"
       ]
     },
     "languages": [],
@@ -1180,7 +1192,7 @@
     "name": "Recife Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/s_PrCxQkub8"
+        "https://www.youtube-nocookie.com/embed/kI6c4o_8kJM"
       ]
     },
     "languages": [],
@@ -1240,7 +1252,7 @@
     "name": "Santos Dumont Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/PUUxLzasXjU"
+        "https://www.youtube-nocookie.com/embed/SnID81TWK_U"
       ]
     },
     "languages": [],
@@ -1252,7 +1264,7 @@
     "name": "Sea-Tac Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/dH_U1H8zzZY"
+        "https://www.youtube-nocookie.com/embed/Ila-kU9I_Nk"
       ]
     },
     "languages": [],
@@ -1324,7 +1336,7 @@
     "name": "St. Louis Lambert Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/hLcBbX60qK0"
+        "https://www.youtube-nocookie.com/embed/ctzUtB2gDVo"
       ]
     },
     "languages": [],
@@ -1492,7 +1504,7 @@
     "name": "Viracopos International Airport",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/NyBloaSzTaA"
+        "https://www.youtube-nocookie.com/embed/6FcnsoQNJTM"
       ]
     },
     "languages": [],

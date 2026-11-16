@@ -144,6 +144,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "17s2Ziw2Wa3ESN",
+    "name": "Bird Feeder, Sierra Madrid",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/8JG6gtY-mPA"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "d7QNdVFRTnJnGx",
     "name": "Cabrera Osprey Nest",
     "sources": {
@@ -996,18 +1008,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "C402oW9AeAiWxr",
-    "name": "Peñafiel Bird Feeding Station",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/8iXUyK14Ios"
-      ]
-    },
-    "languages": [],
-    "country": "es",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "nvVtk376q7M64v",
     "name": "Pico Yordas & Picos de Europa Peaks",
     "sources": {
@@ -1049,6 +1049,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/otI3wxSgXNc"
+      ]
+    },
+    "languages": [],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "cJixp0Nve7Z0Km",
+    "name": "Playa de El Palmar Vejer",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/GO15L-Xwc04"
       ]
     },
     "languages": [],

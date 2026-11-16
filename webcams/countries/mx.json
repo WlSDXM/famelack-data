@@ -1,17 +1,5 @@
 [
   {
-    "nanoid": "DT9OLNT9SlqEj4",
-    "name": "Acapulco Bay & El Morro Beach",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/N_myRz6mN1Q"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "Feeq4HU6W3QT1n",
     "name": "Acapulco Marina & Santa Lucía Bay",
     "sources": {
@@ -40,7 +28,7 @@
     "name": "Acuña-Del Rio International Bridge 2",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/GvQvkhbF9V4"
+        "https://www.youtube-nocookie.com/embed/FfzTgYp4F84"
       ]
     },
     "languages": [],
@@ -101,6 +89,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/RYfflnKMhyg"
+      ]
+    },
+    "languages": [],
+    "country": "mx",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "KNTaWQUBuNDpKp",
+    "name": "Buccanos Beach Club",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/5lGm9xur_x8"
       ]
     },
     "languages": [],
@@ -185,18 +185,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/zeCfrloX8a0"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "wIMwQYxNdgQDwB",
-    "name": "Del Rio Veterans Boulevard",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/qaDWxXwGOVQ"
       ]
     },
     "languages": [],
@@ -588,11 +576,11 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "h4tas1AXt1FrE1",
-    "name": "Playa Hotel Presidente, Cancun",
+    "nanoid": "J5E2JkTlpJ49jd",
+    "name": "Playa La Madera, Zihuatanejo",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/53swmA8tGv0"
+        "https://www.youtube-nocookie.com/embed/rtnOWT_st9Q"
       ]
     },
     "languages": [],

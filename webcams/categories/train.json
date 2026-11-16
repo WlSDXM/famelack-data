@@ -28,7 +28,7 @@
     "name": "Akabane Station",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/iD3kTCoA3mc"
+        "https://www.youtube-nocookie.com/embed/GV5BN9ctVic"
       ]
     },
     "languages": [],
@@ -64,11 +64,23 @@
     "name": "Alliance Railcam at the Grade Crossing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/eiJiYRRhyBA"
+        "https://www.youtube-nocookie.com/embed/IluKTd5xBEY"
       ]
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "jHTR2m3TbdpoFN",
+    "name": "Amersfoort Railcam",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/SQpJZ_l6DKI"
+      ]
+    },
+    "languages": [],
+    "country": "nl",
     "isGeoBlocked": false
   },
   {
@@ -268,7 +280,7 @@
     "name": "Belvidere Spring Creek Model Trains",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/BQQ3okgzGLo"
+        "https://www.youtube-nocookie.com/embed/FHeNCcxYbtM"
       ]
     },
     "languages": [],
@@ -1056,6 +1068,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "3bwtoRhgGn2JvY",
+    "name": "Delmarva Central Railroad Live Trainspotting",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/CJ5nk74dx7c"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "PB6nPx6N1whbJi",
     "name": "Deshler",
     "sources": {
@@ -1109,18 +1133,6 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/5QfB6dZYzqw"
-      ]
-    },
-    "languages": [],
-    "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "fx0mFI9oSsGxct",
-    "name": "Dubuque Junction Railcam on CPKC Marquette Sub",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/UyjAUQUtQyY"
       ]
     },
     "languages": [],
@@ -2308,7 +2320,7 @@
     "name": "Meitetsu Tokoname Line Ono-machi",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/d0nU6XFKwUo"
+        "https://www.youtube-nocookie.com/embed/SlwjBNpBpyc"
       ]
     },
     "languages": [],
@@ -2380,7 +2392,7 @@
     "name": "Mierlo-Hout Level Crossing",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/wxPi28clpk8"
+        "https://www.youtube-nocookie.com/embed/TOlyziCWZwY"
       ]
     },
     "languages": [],
@@ -3340,7 +3352,7 @@
     "name": "Shichirigahama Crossing Yukiai River",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/06ZxquoyIjQ"
+        "https://www.youtube-nocookie.com/embed/W3Rj1Okv3kQ"
       ]
     },
     "languages": [],

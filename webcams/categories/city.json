@@ -1,22 +1,10 @@
 [
   {
-    "nanoid": "oQwQqQ7kNxuno7",
-    "name": "1 December Square, Reșița",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/x4MEg8Ferp0"
-      ]
-    },
-    "languages": [],
-    "country": "ro",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "cDsbzx3MINCo46",
     "name": "3rd HOUSE Inamuragasaki Rooftop West Inamuragasaki View",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/PepfMwlpPS4"
+        "https://www.youtube-nocookie.com/embed/JEF1A9FMLzw"
       ]
     },
     "languages": [],
@@ -28,7 +16,7 @@
     "name": "730 Intersection, Ishigaki",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/3dyo7-ISZck"
+        "https://www.youtube-nocookie.com/embed/S6k52SoWxQA"
       ]
     },
     "languages": [],
@@ -1596,6 +1584,30 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "zSm83nc9Ya1E75",
+    "name": "Castro Street Cam 1",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/GwaBW5BdSn0"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "Ui5Xgu33j2MZic",
+    "name": "Castro Street Cam 2",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/WtUUrhKwWnk"
+      ]
+    },
+    "languages": [],
+    "country": "us",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "b7Z7P4jg4mQzAs",
     "name": "Castro Street, San Francisco",
     "sources": {
@@ -1653,18 +1665,6 @@
     },
     "languages": [],
     "country": "us",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "FfOjoScuHAj1Ky",
-    "name": "Červený Kostelec",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/6FMx6n-NAmk"
-      ]
-    },
-    "languages": [],
-    "country": "cz",
     "isGeoBlocked": false
   },
   {
@@ -1792,7 +1792,7 @@
     "name": "Chicago Lakefront",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/Voik5en_2K8"
+        "https://www.youtube-nocookie.com/embed/YHvb8noWs40"
       ]
     },
     "languages": [],
@@ -1804,7 +1804,7 @@
     "name": "Chios Central Square",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/wLZ6SzZ8fvE"
+        "https://www.youtube-nocookie.com/embed/VmN0_GTjitg"
       ]
     },
     "languages": [],
@@ -2292,18 +2292,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "wIMwQYxNdgQDwB",
-    "name": "Del Rio Veterans Boulevard",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/qaDWxXwGOVQ"
-      ]
-    },
-    "languages": [],
-    "country": "mx",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "j69z0cI2CW5me8",
     "name": "Denver City",
     "sources": {
@@ -2380,7 +2368,7 @@
     "name": "Dongdaemun Design Plaza",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/686OFWaMtYA"
+        "https://www.youtube-nocookie.com/embed/s6RuuZaFNkU"
       ]
     },
     "languages": [],
@@ -2745,6 +2733,18 @@
     },
     "languages": [],
     "country": "cz",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "w0dl04bOH1UEvo",
+    "name": "Drniš Panorama",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/zUwNWtfXDd4"
+      ]
+    },
+    "languages": [],
+    "country": "hr",
     "isGeoBlocked": false
   },
   {
@@ -3744,18 +3744,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "yBEheGxOh4vttE",
-    "name": "Hakata Station",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/8RyR0J8zbbU"
-      ]
-    },
-    "languages": [],
-    "country": "jp",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "OR5362dKyF5tTW",
     "name": "Hakodate Station Plaza & Bay Panorama",
     "sources": {
@@ -3940,7 +3928,7 @@
     "name": "Hawick High Street",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/z0uSN6WP_wg"
+        "https://www.youtube-nocookie.com/embed/bvmZL8kCHZQ"
       ]
     },
     "languages": [],
@@ -4728,6 +4716,18 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "t9KhKIOdRgdY37",
+    "name": "Kanda River Takadanobaba",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/HT71otOUVAQ"
+      ]
+    },
+    "languages": [],
+    "country": "jp",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "hpRUpi5VWxjxIe",
     "name": "Kansas City Skyline & Union Station",
     "sources": {
@@ -5308,7 +5308,7 @@
     "name": "Las Vegas Sphere",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/kPwpLrl0OME"
+        "https://www.youtube-nocookie.com/embed/Jo-5I7IbY70"
       ]
     },
     "languages": [],
@@ -6792,18 +6792,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "oomWKt2loPZMcl",
-    "name": "Nanaimo Harbour Waterfront",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/8TXOc4k-t-g"
-      ]
-    },
-    "languages": [],
-    "country": "ca",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "mIO7jHsw0Gm7id",
     "name": "Nashville Skyline from Nissan Stadium",
     "sources": {
@@ -7240,7 +7228,7 @@
     "name": "Obor Square",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/8lK2slDxsqE"
+        "https://www.youtube-nocookie.com/embed/evFOzASWguw"
       ]
     },
     "languages": [],
@@ -7509,6 +7497,18 @@
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "gHV381PMBEkppR",
+    "name": "Orbeli Street",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Y4G5H53X7Tw"
+      ]
+    },
+    "languages": [],
+    "country": "am",
     "isGeoBlocked": false
   },
   {
@@ -7912,7 +7912,7 @@
     "name": "Pattaya Beach Road",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/_FoZ299J1h4"
+        "https://www.youtube-nocookie.com/embed/IyJZLCUCGL0"
       ]
     },
     "languages": [],
@@ -8181,18 +8181,6 @@
     },
     "languages": [],
     "country": "it",
-    "isGeoBlocked": false
-  },
-  {
-    "nanoid": "6F9iSw4nYgPP4s",
-    "name": "Pioneer Community Bank Robert C. Byrd Drive Beckley",
-    "sources": {
-      "youtube": [
-        "https://www.youtube-nocookie.com/embed/7Da7NSKXp-4"
-      ]
-    },
-    "languages": [],
-    "country": "us",
     "isGeoBlocked": false
   },
   {
@@ -9280,7 +9268,7 @@
     "name": "Sapporo Tanukikoji 8-Chome Intersection",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/uK06WZMKMz0"
+        "https://www.youtube-nocookie.com/embed/wOvdqRMWn_w"
       ]
     },
     "languages": [],
@@ -9461,6 +9449,18 @@
     "sources": {
       "youtube": [
         "https://www.youtube-nocookie.com/embed/dUmOues1xk8"
+      ]
+    },
+    "languages": [],
+    "country": "tr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "L1jT9Gx0fI6XcP",
+    "name": "Şebinkarahisar Town Square",
+    "sources": {
+      "youtube": [
+        "https://www.youtube-nocookie.com/embed/Nbz_wILgha0"
       ]
     },
     "languages": [],
@@ -10720,7 +10720,7 @@
     "name": "Sydney Panorama",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/w9VG8dp3Xgo"
+        "https://www.youtube-nocookie.com/embed/rQMfobEu-zo"
       ]
     },
     "languages": [],
@@ -12280,7 +12280,7 @@
     "name": "Villa María Weather Camera",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/ccP6V7DxzKs"
+        "https://www.youtube-nocookie.com/embed/2KHsShYWCrA"
       ]
     },
     "languages": [],
@@ -12484,7 +12484,7 @@
     "name": "Warsaw Skyline",
     "sources": {
       "youtube": [
-        "https://www.youtube-nocookie.com/embed/JYbpy8rEzB4"
+        "https://www.youtube-nocookie.com/embed/kW95YF6ERTM"
       ]
     },
     "languages": [],
