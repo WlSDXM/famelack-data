@@ -1445,7 +1445,7 @@
         }
 
         if (value.startsWith('fav:')) {
-            const url = value.slice(4);
+            const url = fixStreamUrl(value.slice(4));
             audio.src = url;
             audio.play().catch(err => console.log('Playback failed:', err));
             updateRadioStarState();
