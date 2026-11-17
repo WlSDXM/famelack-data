@@ -1007,6 +1007,24 @@
 <script>
     const BASE = 'https://raw.githubusercontent.com/WlSDXM/famelack-data/main';
 
+    // --- Custom radio additions / fixes (lives here so it survives upstream data merges) ---
+    // Stations not in the Famelack data. Key = lowercase country code, value = array of
+    // { name, sources: { streams: [url] } }. Add more entries here any time.
+    const CUSTOM_RADIO = {
+        us: [
+            { name: 'KQBH-LP 101.5 FM (Los Angeles)', sources: { streams: ['https://www.ednixon.com:8170/stream'] } }
+        ]
+    };
+    // Some providers need a query flag for third-party players. NTS relay/mixtape streams
+    // return nothing unless ?client=direct is present, so add it when it's missing.
+    function fixStreamUrl(u) {
+        if (typeof u !== 'string') return u;
+        if (u.includes('ntslive.net/') && !/[?&]client=/.test(u)) {
+            return u + (u.includes('?') ? '&' : '?') + 'client=direct';
+        }
+        return u;
+    }
+
     const IS_MOBILE = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
     // ============ DAY / NIGHT TOGGLE ============
@@ -1372,8 +1390,22 @@
             buildRadioFavoritesGroup();
 
             const seen = new Set();
+
+            // Custom stations first, so they sit at the top of the list.
+            (CUSTOM_RADIO[code.toLowerCase()] || []).forEach((item) => {
+                const streamUrl = fixStreamUrl(item.sources && item.sources.streams && item.sources.streams[0]);
+                if (!streamUrl) return;
+                const name = item.name || 'Unknown Station';
+                if (seen.has(name)) return;
+                seen.add(name);
+                const option = document.createElement('option');
+                option.value = streamUrl;
+                option.textContent = name;
+                radioStationSelect.appendChild(option);
+            });
+
             items.forEach((item) => {
-                const streamUrl = item.sources && item.sources.streams && item.sources.streams[0];
+                const streamUrl = fixStreamUrl(item.sources && item.sources.streams && item.sources.streams[0]);
                 if (!streamUrl) return;
                 const name = item.name || 'Unknown Station';
                 if (seen.has(name)) return;
