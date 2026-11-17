@@ -1015,14 +1015,27 @@
             { name: 'KQBH-LP 101.5 FM (Los Angeles)', sources: { streams: ['https://www.ednixon.com:8170/stream'] } }
         ]
     };
-    // Some providers need a query flag for third-party players. NTS relay/mixtape streams
-    // return nothing unless ?client=direct is present, so add it when it's missing.
+    // The <audio> element uses crossorigin="anonymous" so the visualizer can read it,
+    // which means a station only plays if its server sends CORS headers. Stations that
+    // don't (NTS, KQBH, most Icecast/Shoutcast) are routed through a small Cloudflare
+    // Worker that adds the header. Add hosts to PROXY_HOSTS here AND to the Worker's
+    // ALLOW list when you need more.
+    const STREAM_PROXY = 'https://earth-stream-proxy.war-guerra1.workers.dev/?url='; // your deployed Worker
+    const PROXY_HOSTS = ['ntslive.net', 'ednixon.com'];
+    function needsProxy(host) {
+        host = host.toLowerCase();
+        return PROXY_HOSTS.some(d => host === d || host.endsWith('.' + d));
+    }
     function fixStreamUrl(u) {
-        if (typeof u !== 'string') return u;
-        if (u.includes('ntslive.net/') && !/[?&]client=/.test(u)) {
-            return u + (u.includes('?') ? '&' : '?') + 'client=direct';
+        if (typeof u !== 'string' || !u) return u;
+        let url;
+        try { url = new URL(u); } catch (e) { return u; }
+        if (!needsProxy(url.hostname)) return u; // CORS-friendly streams pass through untouched
+        // NTS needs ?client=direct for third-party players; add it before proxying.
+        if (url.hostname.includes('ntslive.net') && !url.searchParams.has('client')) {
+            url.searchParams.set('client', 'direct');
         }
-        return u;
+        return STREAM_PROXY + encodeURIComponent(url.toString());
     }
 
     const IS_MOBILE = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
