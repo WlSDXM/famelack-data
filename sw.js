@@ -2,7 +2,7 @@
 // Network-first for your own site's files (so edits you upload show up right away),
 // with a saved copy as a fallback when offline. Radio/TV streams and data from other
 // sites are never touched.
-const CACHE = 'earth-shell-v1';
+const CACHE = 'earth-shell-v2';
 const SHELL = ['./', 'icons/icon-192.png', 'icons/icon-512.png'];
 
 self.addEventListener('install', (event) => {
