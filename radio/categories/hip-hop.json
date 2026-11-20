@@ -2746,6 +2746,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "x19JL79FK9C414",
+    "name": "Dope FM",
+    "sources": {
+      "streams": [
+        "https://a13.asurahosting.com/listen/soulradio/radio.mp3"
+      ]
+    },
+    "languages": [
+      "eng",
+      "sot"
+    ],
+    "country": "ls",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "KHz768IKnAwwQn",
     "name": "DOPEPHONK",
     "sources": {
@@ -4371,6 +4386,34 @@
       "fra"
     ],
     "country": "ma",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "CtbPsDTYzCv3dr",
+    "name": "HIT Radio Congo",
+    "sources": {
+      "streams": [
+        "https://hr-congobrazza.ice.infomaniak.ch/hr-congobrazza-128.aac"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "cg",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "JyTygomdMfU5Zl",
+    "name": "HIT Radio RCA",
+    "sources": {
+      "streams": [
+        "https://hr-rca.ice.infomaniak.ch/hr-rca-128.mp3"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "cf",
     "isGeoBlocked": false
   },
   {
@@ -6546,6 +6589,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "eRZJWp3aonQgdX",
+    "name": "OcioNews Urbanwine",
+    "sources": {
+      "streams": [
+        "https://radios.ocionews.com/listen/ocionews_urbanwine/radio128.mp3"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "cGqzmHvWe3QKHS",
     "name": "OG 97.9",
     "sources": {
@@ -7045,6 +7102,20 @@
       "eng"
     ],
     "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "M6LpCRhGRyxrfv",
+    "name": "Radio 2S Music",
+    "sources": {
+      "streams": [
+        "https://stream.zeno.fm/hcb7tvbp8hhvv"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "cg",
     "isGeoBlocked": false
   },
   {
@@ -8859,6 +8930,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "1Z51nRjegg5TuB",
+    "name": "Sky Alpha HD",
+    "sources": {
+      "streams": [
+        "https://sv2.famcast.co.za/stream/skyalphahd"
+      ]
+    },
+    "languages": [
+      "eng",
+      "sot"
+    ],
+    "country": "ls",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "b6xl5qty2lr8rP",
     "name": "Skyline Radio",
     "sources": {
@@ -9602,6 +9688,22 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "xUZCQnX9jO7qqr",
+    "name": "Top découverte AFRICA N1",
+    "sources": {
+      "streams": [
+        "https://stream.zeno.fm/vxr7b0kqd0hvv"
+      ]
+    },
+    "languages": [
+      "eng",
+      "fra",
+      "spa"
+    ],
+    "country": "cg",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "ldcWFmSPX6WyLV",
     "name": "TOWER TOWN Hip Hop",
     "sources": {
@@ -9839,6 +9941,20 @@
       "eng"
     ],
     "country": "uk",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "4PPF4OBSapfMHK",
+    "name": "Ultimate Radio 99.8 FM",
+    "sources": {
+      "streams": [
+        "https://5c50a1c26792b.streamlock.net/LNBS/ngrp:ULTIMATE_all/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ls",
     "isGeoBlocked": false
   },
   {

@@ -28720,6 +28720,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "4sOOUiQnhKrRCN",
+    "name": "African Pride Radio",
+    "sources": {
+      "streams": [
+        "https://stream.zeno.fm/6dwqzse52rhvv"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ls",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "5yMVPwG5ShJ2pT",
     "name": "Afrik Info",
     "sources": {
@@ -28976,6 +28990,21 @@
       "ell"
     ],
     "country": "gr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "E4SFSgBNtv9gw4",
+    "name": "AGL Radio",
+    "sources": {
+      "streams": [
+        "https://stream.zeno.fm/pwta7jnkxfouv"
+      ]
+    },
+    "languages": [
+      "eng",
+      "sot"
+    ],
+    "country": "ls",
     "isGeoBlocked": false
   },
   {
@@ -38760,6 +38789,20 @@
       "fra"
     ],
     "country": "fr",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "4wOjL0nnrvf9AJ",
+    "name": "Antioch Christian Radio",
+    "sources": {
+      "streams": [
+        "https://stream.zeno.fm/h6f8390w908uv"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "cf",
     "isGeoBlocked": false
   },
   {
@@ -88296,6 +88339,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "x19JL79FK9C414",
+    "name": "Dope FM",
+    "sources": {
+      "streams": [
+        "https://a13.asurahosting.com/listen/soulradio/radio.mp3"
+      ]
+    },
+    "languages": [
+      "eng",
+      "sot"
+    ],
+    "country": "ls",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "KHz768IKnAwwQn",
     "name": "DOPEPHONK",
     "sources": {
@@ -127810,6 +127868,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "psJZLuIOMV6SUT",
+    "name": "Guira FM",
+    "sources": {
+      "streams": [
+        "https://audio-edge-kef8b.ams.s.radiomast.io/ce42a7f0-b3a7-47ee-9eb2-97009bba3c2a"
+      ]
+    },
+    "languages": [
+      "fra",
+      "sag"
+    ],
+    "country": "cf",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "3SlIWNu8IfFxpu",
     "name": "Guiyang Comprehensive Radio",
     "sources": {
@@ -130185,7 +130258,8 @@
       ]
     },
     "languages": [
-      "eng"
+      "eng",
+      "sot"
     ],
     "country": "ls",
     "isGeoBlocked": false
@@ -133824,6 +133898,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "CtbPsDTYzCv3dr",
+    "name": "HIT Radio Congo",
+    "sources": {
+      "streams": [
+        "https://hr-congobrazza.ice.infomaniak.ch/hr-congobrazza-128.aac"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "cg",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "1Q5SHYqM4TlI1J",
     "name": "HIT RADIO FFH",
     "sources": {
@@ -133909,6 +133997,20 @@
       "fra"
     ],
     "country": "ne",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "JyTygomdMfU5Zl",
+    "name": "HIT Radio RCA",
+    "sources": {
+      "streams": [
+        "https://hr-rca.ice.infomaniak.ch/hr-rca-128.mp3"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "cf",
     "isGeoBlocked": false
   },
   {
@@ -147604,6 +147706,21 @@
       "tgl"
     ],
     "country": "ph",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "5a7XAvTibUppn3",
+    "name": "Jesu ke Karabo FM",
+    "sources": {
+      "streams": [
+        "https://stream.zeno.fm/wmx6tsrptantv"
+      ]
+    },
+    "languages": [
+      "eng",
+      "sot"
+    ],
+    "country": "ls",
     "isGeoBlocked": false
   },
   {
@@ -171033,6 +171150,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "KpXRYWtl45qgj3",
+    "name": "Lekope FM",
+    "sources": {
+      "streams": [
+        "https://a5.asurahosting.com:7630/radio.mp3"
+      ]
+    },
+    "languages": [
+      "eng",
+      "sot"
+    ],
+    "country": "ls",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "IuZcRFEvi2xuPX",
     "name": "Lem.fm",
     "sources": {
@@ -171246,6 +171378,20 @@
       "zho"
     ],
     "country": "cn",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "iiAFa6sW9xkTV6",
+    "name": "Lesotho Revival Radio",
+    "sources": {
+      "streams": [
+        "https://stream.zeno.fm/2nkx36pd84zuv"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ls",
     "isGeoBlocked": false
   },
   {
@@ -174860,6 +175006,20 @@
       "rus"
     ],
     "country": "ua",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "33KdW0uNC0xl9o",
+    "name": "Login Radio",
+    "sources": {
+      "streams": [
+        "https://stream.zeno.fm/sxmny1pcwa0uv"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ls",
     "isGeoBlocked": false
   },
   {
@@ -180968,20 +181128,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "NWxF1lFsESrIuf",
-    "name": "Mambokadzi DreamRadio",
-    "sources": {
-      "streams": [
-        "https://cast3.asurahosting.com/proxy/dreamradio/stream.mp3"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "cf",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "KoJxtN1qHpnfyU",
     "name": "Mana'o Radio 91.7 FM",
     "sources": {
@@ -181250,6 +181396,21 @@
       "zho"
     ],
     "country": "cn",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "XO2CmPT1aF7N0m",
+    "name": "Mapholi FM",
+    "sources": {
+      "streams": [
+        "https://a12.asurahosting.com/listen/mapholi_fm/radio.mp3"
+      ]
+    },
+    "languages": [
+      "eng",
+      "sot"
+    ],
+    "country": "ls",
     "isGeoBlocked": false
   },
   {
@@ -184654,6 +184815,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "G4WQuOErnOHxMH",
+    "name": "Meloding Radio",
+    "sources": {
+      "streams": [
+        "https://stream.zeno.fm/8n2e4dwufa0uv"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ls",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "k7SvjHN8KP03Ap",
     "name": "Melody FM 94.1",
     "sources": {
@@ -186484,6 +186659,20 @@
       "por"
     ],
     "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "fM7xK2pQ9vRaLc",
+    "name": "Mi Amigo Radio",
+    "sources": {
+      "streams": [
+        "https://nr12.newradio.it:8662/Live"
+      ]
+    },
+    "languages": [
+      "ita"
+    ],
+    "country": "it",
     "isGeoBlocked": false
   },
   {
@@ -188865,6 +189054,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "z5wv6VqZLhNgYp",
+    "name": "MoAfrika FM",
+    "sources": {
+      "streams": [
+        "https://stream.zeno.fm/vdbwcx4ek0puv"
+      ]
+    },
+    "languages": [
+      "eng",
+      "sot"
+    ],
+    "country": "ls",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "LZbQ7Kxhe83Fsf",
     "name": "Moagi Sharp FM",
     "sources": {
@@ -188947,6 +189151,21 @@
       "hin"
     ],
     "country": "in",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "OBaos1v1VyYuIL",
+    "name": "Mohale FM",
+    "sources": {
+      "streams": [
+        "https://a13.my-control-panel.com/listen/mohale_fm/radio.mp3"
+      ]
+    },
+    "languages": [
+      "eng",
+      "sot"
+    ],
+    "country": "ls",
     "isGeoBlocked": false
   },
   {
@@ -204252,6 +204471,76 @@
       "spa"
     ],
     "country": "uy",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "iwMyKvg7BBzPDc",
+    "name": "OcioNews Classics",
+    "sources": {
+      "streams": [
+        "https://radios.ocionews.com/listen/ocionews_classics/radio128.mp3"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "flLVLSrrm9uQsq",
+    "name": "OcioNews Fiesta",
+    "sources": {
+      "streams": [
+        "https://radios.ocionews.com/listen/ocionews_fiesta/radio128.mp3"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "L95JwmUL7UH3MT",
+    "name": "OcioNews Indie",
+    "sources": {
+      "streams": [
+        "https://radios.ocionews.com/listen/ocionews_indie/radio128.mp3"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "1kORZBDFHG9C4r",
+    "name": "OcioNews Radio",
+    "sources": {
+      "streams": [
+        "https://radios.ocionews.com/listen/ocionews/radio320.mp3"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "eRZJWp3aonQgdX",
+    "name": "OcioNews Urbanwine",
+    "sources": {
+      "streams": [
+        "https://radios.ocionews.com/listen/ocionews_urbanwine/radio128.mp3"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "es",
     "isGeoBlocked": false
   },
   {
@@ -224076,6 +224365,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "M6LpCRhGRyxrfv",
+    "name": "Radio 2S Music",
+    "sources": {
+      "streams": [
+        "https://stream.zeno.fm/hcb7tvbp8hhvv"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "cg",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "ohsbbNCZopLnEp",
     "name": "Radio 2TripleO",
     "sources": {
@@ -241864,6 +242167,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "uNsxXGv3tyz3Qb",
+    "name": "RADIO CULTURE +242",
+    "sources": {
+      "streams": [
+        "https://listen.radioking.com/radio/654067/stream/717661"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "cg",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "feqp5DkO8ieqb2",
     "name": "Radio Cumbia Mix",
     "sources": {
@@ -256786,6 +257103,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "cxEhJdCHl2IpQE",
+    "name": "Radio Katiopa",
+    "sources": {
+      "streams": [
+        "https://stream-176.surfernetwork.com/phx2f5r9na0uv"
+      ]
+    },
+    "languages": [
+      "fra",
+      "lin"
+    ],
+    "country": "cg",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "vfiSsHSRyyGKOc",
     "name": "Radio Kaya",
     "sources": {
@@ -262236,6 +262568,35 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "KtmW9w1APJeTMy",
+    "name": "Radio Maria Centrafrique",
+    "sources": {
+      "streams": [
+        "https://dreamsiteradiocp7.com/proxy/rmcentrafrica?mp=/stream?"
+      ]
+    },
+    "languages": [
+      "fra",
+      "sag"
+    ],
+    "country": "cf",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "mzSv0S7f7bSOPO",
+    "name": "Radio Maria Congo Brazzaville",
+    "sources": {
+      "streams": [
+        "https://dreamsiteradiocp2.com/proxy/rmcongo2?mp=/stream"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "cg",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "1e1QgRYh7j9cIu",
     "name": "Radio Maria Erbil",
     "sources": {
@@ -262247,6 +262608,21 @@
       "ara"
     ],
     "country": "iq",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "xoNNUQDVVFNpci",
+    "name": "Radio Maria Lesotho",
+    "sources": {
+      "streams": [
+        "https://dreamsiteradiocp5.com/proxy/rmlesotho?mp=/stream"
+      ]
+    },
+    "languages": [
+      "eng",
+      "sot"
+    ],
+    "country": "ls",
     "isGeoBlocked": false
   },
   {
@@ -265852,7 +266228,7 @@
   },
   {
     "nanoid": "osIgm84TKHkKRy",
-    "name": "Radio Mucodec",
+    "name": "Radio MUCODEC",
     "sources": {
       "streams": [
         "https://cdnradio.streamakaci.com/radiomucodec.mp3"
@@ -267546,6 +267922,21 @@
       "kbl"
     ],
     "country": "td",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "fLfMVcE5a7wQg9",
+    "name": "Radio Ndeke Luka",
+    "sources": {
+      "streams": [
+        "https://stream.radiondekeluka.org/ndekeluka"
+      ]
+    },
+    "languages": [
+      "fra",
+      "sag"
+    ],
+    "country": "cf",
     "isGeoBlocked": false
   },
   {
@@ -283057,6 +283448,23 @@
       "swa"
     ],
     "country": "ug",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "bzLt0qqUyBfrI9",
+    "name": "Radio Siriri FM",
+    "sources": {
+      "streams": [
+        "https://stream1.dabcom.pl/siriri-rca"
+      ]
+    },
+    "languages": [
+      "fra",
+      "ful",
+      "gba",
+      "sag"
+    ],
+    "country": "cf",
     "isGeoBlocked": false
   },
   {
@@ -300001,6 +300409,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "3ExkqbheE6qcwR",
+    "name": "RAVOCI 102.9 FM",
+    "sources": {
+      "streams": [
+        "https://hosting.studioradiomedia.fr:2790/stream"
+      ]
+    },
+    "languages": [
+      "fra",
+      "sag"
+    ],
+    "country": "cf",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "ncQYQwZBnRj4yl",
     "name": "Raxies FM",
     "sources": {
@@ -304464,6 +304887,20 @@
       "eng"
     ],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "YcWqZUqjm5TaMI",
+    "name": "Reunion of Christianity",
+    "sources": {
+      "streams": [
+        "https://stream.zeno.fm/945y0uwdn1uuv"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ls",
     "isGeoBlocked": false
   },
   {
@@ -322377,6 +322814,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "1Z51nRjegg5TuB",
+    "name": "Sky Alpha HD",
+    "sources": {
+      "streams": [
+        "https://sv2.famcast.co.za/stream/skyalphahd"
+      ]
+    },
+    "languages": [
+      "eng",
+      "sot"
+    ],
+    "country": "ls",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "agTSRQxJi2GvPu",
     "name": "Sky FM",
     "sources": {
@@ -326327,6 +326779,20 @@
       "ita"
     ],
     "country": "it",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "yRpdAUqgzmq4Jv",
+    "name": "Soul Radio",
+    "sources": {
+      "streams": [
+        "https://a3.asurahosting.com:7140/radio.mp3"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ls",
     "isGeoBlocked": false
   },
   {
@@ -340107,6 +340573,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "Ccs2si5oLsMYIM",
+    "name": "Thato ea Hau FM",
+    "sources": {
+      "streams": [
+        "https://a4.asurahosting.com:7520/radio.mp3"
+      ]
+    },
+    "languages": [
+      "sot"
+    ],
+    "country": "ls",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "dHdD4Md79nJyh8",
     "name": "Thayagam Tamil Radio",
     "sources": {
@@ -345314,6 +345794,22 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "xUZCQnX9jO7qqr",
+    "name": "Top découverte AFRICA N1",
+    "sources": {
+      "streams": [
+        "https://stream.zeno.fm/vxr7b0kqd0hvv"
+      ]
+    },
+    "languages": [
+      "eng",
+      "fra",
+      "spa"
+    ],
+    "country": "cg",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "a1SDPYS4k99Baw",
     "name": "TOP FM",
     "sources": {
@@ -348925,6 +349421,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "3YT8BUmI08Pp0i",
+    "name": "Ts'enolo FM",
+    "sources": {
+      "streams": [
+        "https://a11.asurahosting.com:7280/radio.mp3"
+      ]
+    },
+    "languages": [
+      "eng",
+      "sot"
+    ],
+    "country": "ls",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "CDKF3ZkKChYP24",
     "name": "TSF Jazz",
     "sources": {
@@ -350264,6 +350775,20 @@
       "eng"
     ],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "4PPF4OBSapfMHK",
+    "name": "Ultimate Radio 99.8 FM",
+    "sources": {
+      "streams": [
+        "https://5c50a1c26792b.streamlock.net/LNBS/ngrp:ULTIMATE_all/playlist.m3u8"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ls",
     "isGeoBlocked": false
   },
   {
@@ -356559,6 +357084,21 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "2j1qTwxiEoJsmr",
+    "name": "Voice of God FM",
+    "sources": {
+      "streams": [
+        "https://stream.zeno.fm/0tn0vg432mzuv"
+      ]
+    },
+    "languages": [
+      "eng",
+      "sot"
+    ],
+    "country": "ls",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "ORyO8xy03JUyrc",
     "name": "Voice of Grace",
     "sources": {
@@ -356889,6 +357429,21 @@
       "ara"
     ],
     "country": "lb",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "QOcyXQzaVeEZSi",
+    "name": "Voice of Lesotho Radio",
+    "sources": {
+      "streams": [
+        "https://stream.zeno.fm/1h1rcn0q2zhvv"
+      ]
+    },
+    "languages": [
+      "eng",
+      "sot"
+    ],
+    "country": "ls",
     "isGeoBlocked": false
   },
   {
@@ -371102,6 +371657,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "ffJyOdjJ4U7wFv",
+    "name": "xlitRadio",
+    "sources": {
+      "streams": [
+        "https://stream.zeno.fm/kb25s94fpchvv"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ls",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "OtQdsFwzr0ig6y",
     "name": "XM 105",
     "sources": {
@@ -373853,6 +374422,20 @@
     },
     "languages": [],
     "country": "us",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "yudtkcnyYh9cqK",
+    "name": "Youngsters Alive FM",
+    "sources": {
+      "streams": [
+        "https://stream.zeno.fm/jmdorxfeudcvv"
+      ]
+    },
+    "languages": [
+      "sot"
+    ],
+    "country": "ls",
     "isGeoBlocked": false
   },
   {

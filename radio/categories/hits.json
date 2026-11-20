@@ -24738,6 +24738,20 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "CtbPsDTYzCv3dr",
+    "name": "HIT Radio Congo",
+    "sources": {
+      "streams": [
+        "https://hr-congobrazza.ice.infomaniak.ch/hr-congobrazza-128.aac"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "cg",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "1Q5SHYqM4TlI1J",
     "name": "HIT RADIO FFH",
     "sources": {
@@ -24794,6 +24808,20 @@
       "fra"
     ],
     "country": "ne",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "JyTygomdMfU5Zl",
+    "name": "HIT Radio RCA",
+    "sources": {
+      "streams": [
+        "https://hr-rca.ice.infomaniak.ch/hr-rca-128.mp3"
+      ]
+    },
+    "languages": [
+      "fra"
+    ],
+    "country": "cf",
     "isGeoBlocked": false
   },
   {
@@ -33110,20 +33138,6 @@
     "isGeoBlocked": false
   },
   {
-    "nanoid": "NWxF1lFsESrIuf",
-    "name": "Mambokadzi DreamRadio",
-    "sources": {
-      "streams": [
-        "https://cast3.asurahosting.com/proxy/dreamradio/stream.mp3"
-      ]
-    },
-    "languages": [
-      "eng"
-    ],
-    "country": "cf",
-    "isGeoBlocked": false
-  },
-  {
     "nanoid": "hL7hWMLQvUK1ru",
     "name": "Manchester FM 93.3",
     "sources": {
@@ -34155,6 +34169,20 @@
       "por"
     ],
     "country": "br",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "fM7xK2pQ9vRaLc",
+    "name": "Mi Amigo Radio",
+    "sources": {
+      "streams": [
+        "https://nr12.newradio.it:8662/Live"
+      ]
+    },
+    "languages": [
+      "ita"
+    ],
+    "country": "it",
     "isGeoBlocked": false
   },
   {
@@ -38759,6 +38787,34 @@
     },
     "languages": [
       "eng"
+    ],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "iwMyKvg7BBzPDc",
+    "name": "OcioNews Classics",
+    "sources": {
+      "streams": [
+        "https://radios.ocionews.com/listen/ocionews_classics/radio128.mp3"
+      ]
+    },
+    "languages": [
+      "spa"
+    ],
+    "country": "es",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "flLVLSrrm9uQsq",
+    "name": "OcioNews Fiesta",
+    "sources": {
+      "streams": [
+        "https://radios.ocionews.com/listen/ocionews_fiesta/radio128.mp3"
+      ]
+    },
+    "languages": [
+      "spa"
     ],
     "country": "es",
     "isGeoBlocked": false
@@ -62915,6 +62971,22 @@
     "isGeoBlocked": false
   },
   {
+    "nanoid": "xUZCQnX9jO7qqr",
+    "name": "Top découverte AFRICA N1",
+    "sources": {
+      "streams": [
+        "https://stream.zeno.fm/vxr7b0kqd0hvv"
+      ]
+    },
+    "languages": [
+      "eng",
+      "fra",
+      "spa"
+    ],
+    "country": "cg",
+    "isGeoBlocked": false
+  },
+  {
     "nanoid": "a1SDPYS4k99Baw",
     "name": "TOP FM",
     "sources": {
@@ -66386,6 +66458,20 @@
       "eng"
     ],
     "country": "au",
+    "isGeoBlocked": false
+  },
+  {
+    "nanoid": "ffJyOdjJ4U7wFv",
+    "name": "xlitRadio",
+    "sources": {
+      "streams": [
+        "https://stream.zeno.fm/kb25s94fpchvv"
+      ]
+    },
+    "languages": [
+      "eng"
+    ],
+    "country": "ls",
     "isGeoBlocked": false
   },
   {
